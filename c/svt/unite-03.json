@@ -1,0 +1,411 @@
+{
+  "id": "svt-c-ex",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Expression de l'information génétique",
+  "ordre": 3,
+  "source": {
+    "document": "SVT TC-D",
+    "chapitre": "Chapitre 3 : Expression de l'information génétique",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Expression d'un gène",
+      "verso": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Transcription",
+      "verso": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Traduction",
+      "verso": "synthèse de la protéine dans le cytoplasme, sur les ribosomes",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codon",
+      "verso": "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Nombre de codons",
+      "verso": "4³ = 64 codons",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codon d'initiation",
+      "verso": "AUG (méthionine)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codons-stop",
+      "verso": "UAA, UAG, UGA : arrêtent la traduction",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "ARN de transfert (ARNt)",
+      "verso": "apporte les acides aminés et porte l'anticodon",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Épissage",
+      "verso": "élimine les introns et réunit les exons",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Propriétés du code",
+      "verso": "universel et dégénéré",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "svt-c-ex-ex-e1",
+      "titre": "Mémoriser les définitions",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ex-code",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Codon ?",
+          "verso": "3 nucléotides de l'ARNm codant un acide aminé",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codon d'initiation ?",
+          "verso": "AUG",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ex-ex-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ex-expr",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La traduction se déroule :",
+          "options": [
+            "dans le noyau",
+            "dans le cytoplasme (ribosomes)",
+            "dans la mitochondrie seule",
+            "dans la membrane"
+          ],
+          "reponse": 1,
+          "explication": "Sur les ribosomes du cytoplasme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Un codon comporte :",
+          "options": [
+            "1 nucléotide",
+            "2 nucléotides",
+            "3 nucléotides",
+            "4 nucléotides"
+          ],
+          "reponse": 2,
+          "explication": "3 nucléotides."
+        },
+        {
+          "type": "choix_unique",
+          "question": "En face d'une adénine de l'ADN, l'ARNm porte :",
+          "options": [
+            "A",
+            "T",
+            "U",
+            "G"
+          ],
+          "reponse": 2,
+          "explication": "T remplacé par U dans l'ARN."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ex-ex-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ex-transcription",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Transcrire un brin d'ADN en ARNm :",
+          "etapes": [
+            "Lire le brin transcrit de l'ADN",
+            "En face de A mettre U, de T mettre A",
+            "En face de C mettre G, de G mettre C",
+            "Écrire la séquence de l'ARNm"
+          ],
+          "ordreCorrect": [
+            "Lire le brin transcrit de l'ADN",
+            "En face de A mettre U, de T mettre A",
+            "En face de C mettre G, de G mettre C",
+            "Écrire la séquence de l'ARNm"
+          ],
+          "explication": "Complémentarité ADN→ARN avec U à la place de T."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ex-ex-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ex-code",
+      "activites": [
+        {
+          "id": "svt-c-ex-ex01",
+          "enonce": "Quelles sont les deux grandes étapes de l'expression d'un gène ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "ADN → ARNm (transcription) puis ARNm → protéine (traduction)."
+          ],
+          "reponseFinale": "La transcription et la traduction",
+          "competenceId": "svt-c-ex-expr"
+        },
+        {
+          "id": "svt-c-ex-ex02",
+          "enonce": "Où se déroule la transcription dans la cellule ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La transcription (synthèse de l'ARNm à partir de l'ADN) a lieu dans le noyau."
+          ],
+          "reponseFinale": "Dans le noyau",
+          "competenceId": "svt-c-ex-transcription"
+        },
+        {
+          "id": "svt-c-ex-ex03",
+          "enonce": "Où se déroule la traduction ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La traduction (synthèse de la protéine) a lieu dans le cytoplasme, sur les ribosomes."
+          ],
+          "reponseFinale": "Dans le cytoplasme (sur les ribosomes)",
+          "competenceId": "svt-c-ex-traduction"
+        },
+        {
+          "id": "svt-c-ex-ex04",
+          "enonce": "Qu'est-ce qu'un codon ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Un codon est une séquence de 3 nucléotides successifs de l'ARNm codant un acide aminé."
+          ],
+          "reponseFinale": "Une séquence de 3 nucléotides de l'ARNm",
+          "competenceId": "svt-c-ex-code"
+        },
+        {
+          "id": "svt-c-ex-ex05",
+          "enonce": "Combien de codons différents le code génétique comporte-t-il ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "4 bases prises 3 par 3 : 4³ = 64 codons."
+          ],
+          "reponseFinale": "64 codons",
+          "competenceId": "svt-c-ex-code"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ex-ex-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-ex-code",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Un ARNm de 90 nucléotides code au maximum :",
+          "options": [
+            "90 acides aminés",
+            "45 acides aminés",
+            "30 acides aminés",
+            "270 acides aminés"
+          ],
+          "reponse": 2,
+          "explication": "90/3 = 30."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-ex-ex01",
+      "enonce": "Quelles sont les deux grandes étapes de l'expression d'un gène ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ADN → ARNm (transcription) puis ARNm → protéine (traduction)."
+      ],
+      "reponseFinale": "La transcription et la traduction",
+      "competenceId": "svt-c-ex-expr"
+    },
+    {
+      "id": "svt-c-ex-ex02",
+      "enonce": "Où se déroule la transcription dans la cellule ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La transcription (synthèse de l'ARNm à partir de l'ADN) a lieu dans le noyau."
+      ],
+      "reponseFinale": "Dans le noyau",
+      "competenceId": "svt-c-ex-transcription"
+    },
+    {
+      "id": "svt-c-ex-ex03",
+      "enonce": "Où se déroule la traduction ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La traduction (synthèse de la protéine) a lieu dans le cytoplasme, sur les ribosomes."
+      ],
+      "reponseFinale": "Dans le cytoplasme (sur les ribosomes)",
+      "competenceId": "svt-c-ex-traduction"
+    },
+    {
+      "id": "svt-c-ex-ex04",
+      "enonce": "Qu'est-ce qu'un codon ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un codon est une séquence de 3 nucléotides successifs de l'ARNm codant un acide aminé."
+      ],
+      "reponseFinale": "Une séquence de 3 nucléotides de l'ARNm",
+      "competenceId": "svt-c-ex-code"
+    },
+    {
+      "id": "svt-c-ex-ex05",
+      "enonce": "Combien de codons différents le code génétique comporte-t-il ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "4 bases prises 3 par 3 : 4³ = 64 codons."
+      ],
+      "reponseFinale": "64 codons",
+      "competenceId": "svt-c-ex-code"
+    },
+    {
+      "id": "svt-c-ex-ex06",
+      "enonce": "Quel est le codon d'initiation de la traduction ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La traduction débute au codon AUG (méthionine)."
+      ],
+      "reponseFinale": "AUG",
+      "competenceId": "svt-c-ex-code"
+    },
+    {
+      "id": "svt-c-ex-ex07",
+      "enonce": "Que fait un codon-stop ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un codon-stop (UAA, UAG, UGA) arrête la traduction : il ne code aucun acide aminé."
+      ],
+      "reponseFinale": "Il arrête la traduction",
+      "competenceId": "svt-c-ex-code"
+    },
+    {
+      "id": "svt-c-ex-ex08",
+      "enonce": "Lors de la transcription, en face d'une adénine de l'ADN, quelle base est placée sur l'ARNm ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Dans l'ARN, la thymine est remplacée par l'uracile.",
+        "En face de A (ADN) on met U (ARN)."
+      ],
+      "reponseFinale": "L'uracile (U)",
+      "competenceId": "svt-c-ex-transcription"
+    },
+    {
+      "id": "svt-c-ex-ex09",
+      "enonce": "Le brin transcrit d'ADN est T-A-C-G. Quelle est la séquence de l'ARNm ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Complémentarité ARN : A↔U(pour T), T↔A, C↔G, G↔C.",
+        "T-A-C-G donne A-U-G-C."
+      ],
+      "reponseFinale": "A-U-G-C",
+      "competenceId": "svt-c-ex-transcription"
+    },
+    {
+      "id": "svt-c-ex-ex10",
+      "enonce": "Comment appelle-t-on la molécule qui apporte les acides aminés au ribosome ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'ARN de transfert (ARNt) apporte les acides aminés et porte l'anticodon."
+      ],
+      "reponseFinale": "L'ARN de transfert (ARNt)",
+      "competenceId": "svt-c-ex-traduction"
+    },
+    {
+      "id": "svt-c-ex-ex11",
+      "enonce": "Qu'est-ce que l'épissage de l'ARN ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "L'épissage supprime les introns (parties non codantes) et raccorde les exons (parties codantes)."
+      ],
+      "reponseFinale": "L'élimination des introns et la réunion des exons",
+      "competenceId": "svt-c-ex-transcription"
+    },
+    {
+      "id": "svt-c-ex-ex12",
+      "enonce": "Le code génétique est dit « universel ». Qu'est-ce que cela signifie ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un même codon code le même acide aminé chez presque tous les êtres vivants."
+      ],
+      "reponseFinale": "Il est le même pour tous les êtres vivants",
+      "competenceId": "svt-c-ex-code"
+    },
+    {
+      "id": "svt-c-ex-ex13",
+      "enonce": "Le code génétique est dit « dégénéré ». Pourquoi ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Un même acide aminé peut être codé par plusieurs codons différents."
+      ],
+      "reponseFinale": "Un acide aminé peut avoir plusieurs codons",
+      "competenceId": "svt-c-ex-code"
+    },
+    {
+      "id": "svt-c-ex-ex14",
+      "enonce": "Quelle enzyme réalise la transcription de l'ADN en ARN ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'ARN polymérase synthétise l'ARNm."
+      ],
+      "reponseFinale": "L'ARN polymérase",
+      "competenceId": "svt-c-ex-transcription"
+    },
+    {
+      "id": "svt-c-ex-ex15",
+      "enonce": "Un ARNm comporte 300 nucléotides codants. Combien d'acides aminés au maximum code-t-il ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "3 nucléotides = 1 codon = 1 acide aminé.",
+        "300 / 3 = 100 acides aminés."
+      ],
+      "reponseFinale": "100 acides aminés",
+      "competenceId": "svt-c-ex-code"
+    }
+  ]
+}
