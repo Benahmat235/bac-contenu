@@ -1,0 +1,118 @@
+{
+  "id": "geo-u1",
+  "matiere": "geographie",
+  "titre": "Le relief et l'hydrographie du Tchad",
+  "ordre": 1,
+  "source": {
+    "document": "Géographie TA4 C D",
+    "chapitre": "Étude physique du Tchad : relief et hydrographie",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "geo-u1-e1",
+      "titre": "Le relief",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-relief",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les éléments du relief tchadien ?",
+          "reponseAttendue": "Les plaines, les montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), les collines, les plateaux et les ergs (dunes de sable).",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les principaux massifs montagneux du Tchad ?",
+          "reponseAttendue": "Emi-Koussi (3415 m) dans le Tibesti, massif du Ouaddaï (1320 m), massif du Guéra (1613 m), Monts de Lam (1163 m).",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelle est l'utilité du relief ?",
+          "reponseAttendue": "Attraction touristique, potentiel pour l'énergie géothermique et solaire, carrières pour matériaux de construction. Les plaines favorisent les activités agro-pastorales.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Définissez : relief et hydrographie.",
+          "reponseAttendue": "Relief : ensemble des inégalités (montagnes, plaines, etc.) à la surface de la Terre. Hydrographie : étude des eaux (cours d'eau, lacs) d'une région.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u1-e2",
+      "titre": "L'hydrographie",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-hydrographie",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Citez les cours d'eau et les lacs et dites quelle est l'importance de l'hydrographie au Tchad.",
+          "reponseAttendue": "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga. Importance : pêche, agriculture, élevage, transport, potentiel hydro-électrique.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez les principaux lacs du Tchad et situez-les dans leur région.",
+          "reponseAttendue": "Lac Tchad (région du Lac), lac Léré (Mayo-Kebbi Ouest), lac Fitri (Batha), lac Iro (Moyen-Chari), lac Fianga (Mayo-Kebbi Est), lac Tikem (Mayo-Kebbi Est), lacs d'Ounianga (Ennedi).",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelle est l'importance de l'hydrographie ?",
+          "reponseAttendue": "Elle permet la pêche, l'agriculture irriguée, l'élevage, le transport fluvial et présente un potentiel hydro-électrique (ex. : chutes Gauthiot).",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les grandes familles de nappes phréatiques au Tchad ?",
+          "reponseAttendue": "Les nappes de Saniers dans le Ouaddaï, les nappes des lacs, les nappes de Chari-Baguirmi et les nappes du nord Kanem.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u1-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "geo-c-relief-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quel est le point culminant du Tchad ?",
+          "options": [
+            "Le massif du Guéra",
+            "L'Emi-Koussi (Tibesti)",
+            "Les Monts de Lam",
+            "Le massif du Ouaddaï"
+          ],
+          "reponse": 1,
+          "explication": "L'Emi-Koussi, dans le Tibesti, culmine à 3415 m."
+        },
+        {
+          "type": "choix_multiple",
+          "question": "Parmi ces cours d'eau, lesquels sont les principaux (permanents) du Tchad ?",
+          "options": [
+            "Le Chari",
+            "Le Logone",
+            "Le Nil",
+            "Le Niger"
+          ],
+          "reponses": [
+            0,
+            1
+          ],
+          "explication": "Le Chari et le Logone sont les deux principaux cours d'eau permanents du Tchad."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

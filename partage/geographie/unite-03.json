@@ -1,0 +1,143 @@
+{
+  "id": "geo-u3",
+  "matiere": "geographie",
+  "titre": "L'élevage et la pêche au Tchad",
+  "ordre": 3,
+  "source": {
+    "document": "Géographie TA4 C D",
+    "chapitre": "Activités économiques : élevage et pêche",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "geo-u3-e1",
+      "titre": "L'élevage",
+      "categorie": "consequences",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-elevage",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quel est l'élément majeur de la répartition des espèces animales élevées au Tchad ?",
+          "reponseAttendue": "C'est le climat. Les dromadaires au nord (zone saharienne), les bovins au centre (zone sahélienne) et les petits ruminants au sud (zone soudanienne).",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les forces de l'élevage tchadien ?",
+          "reponseAttendue": "La diversité des climats permettant une diversité des races, et l'appui de l'État et des partenaires internationaux.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez quelques obstacles à l'élevage tchadien.",
+          "reponseAttendue": "Élevage sentimental (on ne vend pas), fraude, conflits agriculteurs-éleveurs, manque de pâturage et d'eau, manque d'unités de transformation, taxes élevées.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le nomadisme pastoral ?",
+          "reponseAttendue": "C'est le déplacement constant des éleveurs avec leurs troupeaux à la recherche de pâturage et de points d'eau.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "L'élevage est-il un atout ou un handicap pour l'agriculture ?",
+          "reponseAttendue": "Atout : les animaux fournissent une force de travail (culture attelée), un moyen de transport et de l'engrais (déjections). Handicap : les animaux peuvent dévaster les champs, causant des conflits.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi la zone tropicale est-elle un obstacle à l'élevage des bovins ?",
+          "reponseAttendue": "À cause de la présence massive de maladies (épizooties comme la trypanosomiase), de l'humidité très élevée et d'espaces de pâturage plus limités.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les conséquences de la sécheresse sur le cheptel tchadien ?",
+          "reponseAttendue": "Famine pour les animaux, baisse de la reproduction, disparition de certaines espèces, maladies (épizooties) et augmentation du nomadisme pastoral.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u3-e2",
+      "titre": "La pêche",
+      "categorie": "consequences",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-peche",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Citez les obstacles au développement de la pêche au Tchad.",
+          "reponseAttendue": "Le changement climatique (baisse du niveau des eaux), l'utilisation de techniques destructrices (filets à petites mailles, produits toxiques) et le manque de matériel moderne.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les principales zones de pêche au Tchad et les difficultés de ce secteur ?",
+          "reponseAttendue": "Zones : Logone, Chari et lac Tchad (principales) ; affluents et petits lacs (secondaires). Difficultés : manque de moyens techniques (filets, bateaux), manque de moyens pour conserver et transporter le poisson.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u3-e3",
+      "titre": "Les sigles du secteur",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-elevage-sigles",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Que signifient : PIRPT, CEBEVIRHA, CECOQDA, PASTOR ?",
+          "reponseAttendue": "PIRPT : Projet d'Infrastructures Rurales, Pastorales et de Transhumance. CEBEVIRHA : Commission Économique du Bétail, de la Viande et des Ressources Halieutiques. CECOQDA : Centre de Contrôle de la Qualité des Denrées Alimentaires. PASTOR : Programme d'Appui Structurant le Développement Pastoral.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u3-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "geo-c-elevage-synthese",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque zone climatique au type d'élevage dominant.",
+          "paires": [
+            {
+              "gauche": "Zone saharienne (nord)",
+              "droite": "dromadaires"
+            },
+            {
+              "gauche": "Zone sahélienne (centre)",
+              "droite": "bovins"
+            },
+            {
+              "gauche": "Zone soudanienne (sud)",
+              "droite": "petits ruminants"
+            }
+          ],
+          "explication": "La répartition des espèces suit le climat."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel est l'élément majeur qui commande la répartition des espèces élevées au Tchad ?",
+          "options": [
+            "Le relief",
+            "Le climat",
+            "Les cours d'eau",
+            "La population"
+          ],
+          "reponse": 1,
+          "explication": "C'est le climat qui détermine la répartition des espèces."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

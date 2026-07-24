@@ -1,0 +1,55 @@
+{
+  "id": "geographie",
+  "titre": "Géographie",
+  "seriesConcernees": [
+    "a4",
+    "c",
+    "d"
+  ],
+  "description": "Géographie physique et économique du Tchad.",
+  "unites": [
+    {
+      "id": "geo-u1",
+      "titre": "Le relief et l'hydrographie du Tchad",
+      "ordre": 1,
+      "fichier": "partage/geographie/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "geo-u2",
+      "titre": "Le climat, les sols et la végétation du Tchad",
+      "ordre": 2,
+      "fichier": "partage/geographie/unite-02.json",
+      "prerequis": [
+        "geo-u1"
+      ]
+    },
+    {
+      "id": "geo-u3",
+      "titre": "L'élevage et la pêche au Tchad",
+      "ordre": 3,
+      "fichier": "partage/geographie/unite-03.json",
+      "prerequis": [
+        "geo-u2"
+      ]
+    },
+    {
+      "id": "geo-u4",
+      "titre": "L'énergie, l'industrie et le pétrole au Tchad",
+      "ordre": 4,
+      "fichier": "partage/geographie/unite-04.json",
+      "prerequis": [
+        "geo-u2"
+      ]
+    },
+    {
+      "id": "geo-u5",
+      "titre": "Transport, commerce, tourisme et développement",
+      "ordre": 5,
+      "fichier": "partage/geographie/unite-05.json",
+      "prerequis": [
+        "geo-u4"
+      ]
+    }
+  ]
+}

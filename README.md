@@ -42,7 +42,7 @@ la progression des élèves est reliée à ces identifiants.
 | `association` | relier des paires | `consigne`, `paires` (`gauche`/`droite`), `explication` |
 | `classement` | remettre dans l'ordre | `consigne`, `elements`, `ordreCorrect`, `explication` |
 | `texte_a_completer` | compléter un blanc | `phrase` (avec `___`), `reponse`, `toleranceMots`, `explication` |
-| `rappel_actif` | retrouver de mémoire | `question`, `reponseAttendue`, `toleranceMots`, `explication` |
+| `rappel_actif` | retrouver de mémoire (mode flashcard) | `question`, `reponseAttendue`, `toleranceMots`, `modeReponse`, `explication` |
 | `reponse_courte` | réponse ouverte courte | `question`, `reponsesAcceptees`, `explication` |
 | `citation` | attribuer/compléter une citation | `mode` (`attribuer`), `citation`, `options`, `reponse` (index), `oeuvre`, `explication` |
 
@@ -59,3 +59,12 @@ Cela permet de réviser par type (ex. « réviser uniquement les citations »).
 - `competenceId` : compétence évaluée (utilisée par les révisions espacées).
 - `estDefi` : `true` pour un défi de maîtrise en fin d'unité.
 - `activites` : liste ordonnée des activités.
+
+
+## Mode réponse des cartes de rappel
+
+Quand une carte `rappel_actif` porte `"modeReponse": "auto_evaluation"`, la réponse
+attendue est une réponse modèle (souvent longue). L'application ne corrige pas
+automatiquement : elle révèle la réponse modèle, puis l'élève s'auto-évalue
+(À revoir / Difficile / Correct / Facile), comme sur une carte Anki. Cette note
+alimente la répétition espacée.

@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -23,18 +23,29 @@
     "histoire": {
       "id": "histoire",
       "titre": "Histoire",
-      "version": 1,
+      "version": 2,
       "chemin": "partage/histoire/",
       "fichiers": [
-        "partage/histoire/unite-01.json"
+        "partage/histoire/unite-01.json",
+        "partage/histoire/unite-02.json",
+        "partage/histoire/unite-03.json",
+        "partage/histoire/unite-04.json",
+        "partage/histoire/unite-05.json",
+        "partage/histoire/unite-06.json"
       ]
     },
     "geographie": {
       "id": "geographie",
       "titre": "Géographie",
-      "version": 1,
+      "version": 2,
       "chemin": "partage/geographie/",
-      "fichiers": []
+      "fichiers": [
+        "partage/geographie/unite-01.json",
+        "partage/geographie/unite-02.json",
+        "partage/geographie/unite-03.json",
+        "partage/geographie/unite-04.json",
+        "partage/geographie/unite-05.json"
+      ]
     }
   },
   "series": [
@@ -42,10 +53,18 @@
       "id": "a4",
       "titre": "Série A4 - Littéraire",
       "matieres": [
-        { "ref": "histoire" },
-        { "ref": "geographie" },
-        { "ref": "francais" },
-        { "ref": "anglais" },
+        {
+          "ref": "histoire"
+        },
+        {
+          "ref": "geographie"
+        },
+        {
+          "ref": "francais"
+        },
+        {
+          "ref": "anglais"
+        },
         {
           "id": "philosophie",
           "titre": "Philosophie",
@@ -70,10 +89,18 @@
       "id": "c",
       "titre": "Série C - Scientifique",
       "matieres": [
-        { "ref": "histoire" },
-        { "ref": "geographie" },
-        { "ref": "francais" },
-        { "ref": "anglais" },
+        {
+          "ref": "histoire"
+        },
+        {
+          "ref": "geographie"
+        },
+        {
+          "ref": "francais"
+        },
+        {
+          "ref": "anglais"
+        },
         {
           "id": "mathematiques-c",
           "titre": "Mathématiques",
@@ -104,10 +131,18 @@
       "id": "d",
       "titre": "Série D - Scientifique",
       "matieres": [
-        { "ref": "histoire" },
-        { "ref": "geographie" },
-        { "ref": "francais" },
-        { "ref": "anglais" },
+        {
+          "ref": "histoire"
+        },
+        {
+          "ref": "geographie"
+        },
+        {
+          "ref": "francais"
+        },
+        {
+          "ref": "anglais"
+        },
         {
           "id": "mathematiques-d",
           "titre": "Mathématiques",

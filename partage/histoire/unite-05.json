@@ -1,0 +1,206 @@
+{
+  "id": "hist-u5",
+  "matiere": "histoire",
+  "titre": "La décolonisation de l'Afrique",
+  "ordre": 5,
+  "source": {
+    "document": "Histoire TA4 C D",
+    "chapitre": "La décolonisation",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "hist-u5-e1",
+      "titre": "Les facteurs de la décolonisation",
+      "categorie": "causes",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-decol-facteurs",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi dit-on que la Seconde Guerre mondiale est un facteur déclencheur de la décolonisation ?",
+          "reponseAttendue": "La guerre a affaibli les puissances coloniales, a montré que l'homme blanc n'était pas invincible et a fait naître des mouvements anticoloniaux chez les peuples colonisés ayant participé à l'effort de guerre.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Sans la Seconde Guerre mondiale, la décolonisation de l'Afrique aurait-elle été possible ?",
+          "reponseAttendue": "Elle aurait été possible, mais avec un grand retard, car cette guerre a accéléré le processus.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les facteurs internes et externes de la décolonisation ?",
+          "reponseAttendue": "Facteurs internes : action des intellectuels, des religieux, des syndicats, des étudiants. Facteurs externes : rôle anticolonialiste des USA et de l'URSS, action de l'ONU, conférence de Bandung.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi les USA et l'ex-URSS se révèlent-ils anticolonialistes ?",
+          "reponseAttendue": "Les USA, ancienne colonie, gardent un mauvais souvenir de la colonisation. L'URSS, s'inspirant du marxisme-léninisme, s'oppose à toute forme d'exploitation de l'homme par l'homme.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u5-e2",
+      "titre": "Les grandes conférences",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-decol-conferences",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quand et sous l'égide de qui la conférence de Brazzaville s'est-elle réunie ? Quels étaient ses buts ?",
+          "reponseAttendue": "Elle s'est tenue du 30 janvier au 8 février 1944 sous l'égide du général de Gaulle. Ses buts étaient l'amélioration des conditions de vie et la promotion socio-économique des colonisés, mais sans promettre l'indépendance.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "La conférence de Brazzaville promet-elle l'indépendance ? Quelles sont ses résolutions ?",
+          "reponseAttendue": "Non, elle ne promet pas l'indépendance. Elle propose une nouvelle politique coloniale associant les Africains à la gestion de leurs affaires et une amélioration de leur condition sociale.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi de Gaulle refuse-t-il d'associer les Africains à la conférence de Brazzaville de 1944 ?",
+          "reponseAttendue": "Parce qu'il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance, ce qui n'était pas à l'ordre du jour.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles étaient les résolutions de la conférence de Bandoeng (Bandung) ?",
+          "reponseAttendue": "Le colonialisme est dénoncé comme un mal à terminer rapidement ; la soumission des peuples est une violation des droits de l'homme ; soutien à la cause de la liberté et de l'indépendance pour tous les peuples.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez des pays africains ayant participé à la conférence afro-asiatique de Bandung.",
+          "reponseAttendue": "L'Éthiopie, l'Égypte, le Ghana (alors Côte-de-l'Or), le Soudan, le Libéria et la Libye.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u5-e3",
+      "titre": "Les étapes en Afrique noire française",
+      "categorie": "dates",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-decol-etapes",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les différentes étapes de la décolonisation en Afrique noire française ?",
+          "reponseAttendue": "1. La conférence de Brazzaville (1944). 2. L'Union française (1946). 3. La loi-cadre Defferre (1956). 4. La Communauté franco-africaine (1958). 5. Les indépendances (à partir de 1960).",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez les principales raisons qui ont obligé la France à adopter la loi-cadre de 1956.",
+          "reponseAttendue": "Le rapprochement du RDA avec le gouvernement français, la prolifération des partis politiques, la défaite française à Dien Bien Phu, l'action de l'ONU et la conférence de Bandung.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quand et par qui la loi-cadre a-t-elle été élaborée ? Quel est son contenu ?",
+          "reponseAttendue": "Élaborée le 23 juin 1956 par Gaston Defferre, ministre français des colonies. Elle accorde l'autonomie interne aux territoires, abolit le double collège électoral et ouvre la voie vers plus d'autonomie.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Après avoir défini les sigles DOM et TOM, dites à quel ensemble appartenait le Tchad.",
+          "reponseAttendue": "DOM : Département d'Outre-Mer. TOM : Territoire d'Outre-Mer. Le Tchad appartenait à l'ensemble TOM.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez le nom du territoire africain qui a voté « non » au référendum de 1958.",
+          "reponseAttendue": "La Guinée-Conakry, qui a ainsi accédé à son indépendance le 2 octobre 1958.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u5-e4",
+      "titre": "L'Afrique du Nord",
+      "categorie": "dates",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-decol-nord",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Expliquez brièvement le processus de l'indépendance de la Tunisie.",
+          "reponseAttendue": "La vie politique fut animée par le parti Destour, puis le Néo-Destour d'Habib Bourguiba. Ce dernier lança des émeutes contre l'administration coloniale. Après des violences et des arrestations, des négociations menèrent à l'indépendance le 20 mars 1956, avec Bourguiba comme premier président.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez les dates de la décolonisation des pays de l'Afrique blanche française.",
+          "reponseAttendue": "Tunisie : 20 mars 1956. Maroc : 2 mars 1956 (indépendance reconnue). Algérie : 3 juillet 1962.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Définissez les sigles M.T.L.D., G.P.R.A., C.R.U.A., O.A.S. mis en place en Algérie.",
+          "reponseAttendue": "MTLD : Mouvement pour le Triomphe des Libertés Démocratiques. GPRA : Gouvernement Provisoire de la République Algérienne. CRUA : Comité Révolutionnaire d'Unité et d'Action. OAS : Organisation Armée Secrète.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u5-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "hist-c-decol-synthese",
+      "activites": [
+        {
+          "type": "classement",
+          "consigne": "Remets dans l'ordre les étapes de la décolonisation en Afrique noire française.",
+          "elements": [
+            "Conférence de Brazzaville (1944)",
+            "Union française (1946)",
+            "Loi-cadre Defferre (1956)",
+            "Communauté franco-africaine (1958)",
+            "Indépendances (à partir de 1960)"
+          ],
+          "ordreCorrect": [
+            "Conférence de Brazzaville (1944)",
+            "Union française (1946)",
+            "Loi-cadre Defferre (1956)",
+            "Communauté franco-africaine (1958)",
+            "Indépendances (à partir de 1960)"
+          ],
+          "explication": "Le processus va de Brazzaville aux indépendances."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel territoire a voté « non » au référendum de 1958, accédant à l'indépendance ?",
+          "options": [
+            "Le Sénégal",
+            "La Guinée-Conakry",
+            "Le Tchad",
+            "La Côte d'Ivoire"
+          ],
+          "reponse": 1,
+          "explication": "La Guinée-Conakry devient indépendante le 2 octobre 1958."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Sous l'égide de qui s'est tenue la conférence de Brazzaville (1944) ?",
+          "options": [
+            "Léopold Sédar Senghor",
+            "Le général de Gaulle",
+            "Gaston Defferre",
+            "Habib Bourguiba"
+          ],
+          "reponse": 1,
+          "explication": "La conférence de Brazzaville s'est tenue sous l'égide du général de Gaulle."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

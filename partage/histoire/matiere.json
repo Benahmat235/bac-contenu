@@ -1,7 +1,11 @@
 {
   "id": "histoire",
   "titre": "Histoire",
-  "seriesConcernees": ["a4", "c", "d"],
+  "seriesConcernees": [
+    "a4",
+    "c",
+    "d"
+  ],
   "description": "Le monde de 1945 à nos jours et l'Afrique contemporaine.",
   "unites": [
     {
@@ -10,6 +14,51 @@
       "ordre": 1,
       "fichier": "partage/histoire/unite-01.json",
       "prerequis": []
+    },
+    {
+      "id": "hist-u2",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+      "ordre": 2,
+      "fichier": "partage/histoire/unite-02.json",
+      "prerequis": [
+        "hist-u1"
+      ]
+    },
+    {
+      "id": "hist-u3",
+      "titre": "L'Organisation des Nations Unies (ONU)",
+      "ordre": 3,
+      "fichier": "partage/histoire/unite-03.json",
+      "prerequis": [
+        "hist-u2"
+      ]
+    },
+    {
+      "id": "hist-u4",
+      "titre": "La guerre froide (1947-1991)",
+      "ordre": 4,
+      "fichier": "partage/histoire/unite-04.json",
+      "prerequis": [
+        "hist-u2"
+      ]
+    },
+    {
+      "id": "hist-u5",
+      "titre": "La décolonisation de l'Afrique",
+      "ordre": 5,
+      "fichier": "partage/histoire/unite-05.json",
+      "prerequis": [
+        "hist-u2"
+      ]
+    },
+    {
+      "id": "hist-u6",
+      "titre": "L'OUA et l'Union Africaine",
+      "ordre": 6,
+      "fichier": "partage/histoire/unite-06.json",
+      "prerequis": [
+        "hist-u5"
+      ]
     }
   ]
 }

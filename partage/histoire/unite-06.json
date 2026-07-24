@@ -1,0 +1,119 @@
+{
+  "id": "hist-u6",
+  "matiere": "histoire",
+  "titre": "L'OUA et l'Union Africaine",
+  "ordre": 6,
+  "source": {
+    "document": "Histoire TA4 C D",
+    "chapitre": "L'Union Africaine",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "hist-u6-e1",
+      "titre": "De l'OUA à l'UA",
+      "categorie": "dates",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-ua-creation",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quand, où et dans quel contexte l'UA a-t-elle été créée ?",
+          "reponseAttendue": "D'abord OUA (Organisation de l'Unité Africaine) le 25 mai 1963 à Addis-Abeba, elle s'est transformée en UA (Union Africaine) en 2002 à Durban, sur une initiative lancée à Syrte (Libye) en 1999, pour dépasser les limites de l'OUA.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u6-e2",
+      "titre": "Objectifs et organes",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-ua-organes",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les objectifs de l'UA ?",
+          "reponseAttendue": "Renforcer l'unité et la solidarité, coordonner la coopération pour de meilleures conditions de vie, défendre la souveraineté et l'indépendance, éliminer le colonialisme et favoriser la coopération internationale.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez cinq organes de l'UA.",
+          "reponseAttendue": "La Conférence de l'Union (chefs d'État), la Commission (secrétariat), le Conseil Exécutif (ministres), le Parlement Panafricain et le Conseil Économique, Social et Culturel.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u6-e3",
+      "titre": "Fonctionnement et limites",
+      "categorie": "consequences",
+      "seuilReussite": 80,
+      "competenceId": "hist-c-ua-limites",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelle était la date d'élection de M. Moussa Faki Mahamat comme président de la Commission de l'UA ?",
+          "reponseAttendue": "Il a été élu le 30 janvier 2017.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez quelques difficultés de l'UA.",
+          "reponseAttendue": "Les conflits armés, les querelles de leadership, le financement de l'Union et la faiblesse de sa justice face à la CPI.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Comment est désigné le président en exercice de l'UA ?",
+          "reponseAttendue": "La présidence de l'UA est tournante : elle change chaque année et revient à un chef d'État différent. Il faut donc vérifier l'information la plus récente pour l'année en cours.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "hist-u6-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "hist-c-ua-synthese",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque élément à l'organisation correspondante.",
+          "paires": [
+            {
+              "gauche": "Créée en 1963 à Addis-Abeba",
+              "droite": "OUA"
+            },
+            {
+              "gauche": "Créée en 2002 à Durban",
+              "droite": "UA"
+            },
+            {
+              "gauche": "Initiative lancée à Syrte en 1999",
+              "droite": "UA"
+            }
+          ],
+          "explication": "L'OUA (1963) laisse place à l'UA (2002)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "En quelle année l'OUA s'est-elle transformée en Union Africaine ?",
+          "options": [
+            "1963",
+            "1999",
+            "2002",
+            "2017"
+          ],
+          "reponse": 2,
+          "explication": "L'UA est créée en 2002 à Durban."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "geo-u4",
+  "matiere": "geographie",
+  "titre": "L'énergie, l'industrie et le pétrole au Tchad",
+  "ordre": 4,
+  "source": {
+    "document": "Géographie TA4 C D",
+    "chapitre": "Activités économiques : énergie, industrie et pétrole",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "geo-u4-e1",
+      "titre": "L'énergie",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-energie",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les sources d'énergie utilisées au Tchad, et pourquoi certaines sont-elles qualifiées de propres ?",
+          "reponseAttendue": "Sources : bois, gaz butane, électricité, solaire, éolien. Les énergies solaire et éolienne sont qualifiées de « propres » car elles ne polluent pas l'environnement.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une énergie renouvelable et une énergie non renouvelable ?",
+          "reponseAttendue": "Énergie renouvelable : source qui ne s'épuise pas à l'échelle humaine (ex. : soleil, vent). Énergie non renouvelable : source qui s'épuise car ses stocks sont limités (ex. : pétrole, gaz).",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u4-e2",
+      "titre": "L'industrie",
+      "categorie": "consequences",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-industrie",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Donnez cinq industries alimentaires du Tchad.",
+          "reponseAttendue": "Compagnie Sucrière du Tchad (CST), Huileries de la Coton-Tchad, Manufacture des Cigarettes du Tchad, Mini-rizeries de la Tandjilé, Brasseries du Logone.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les difficultés de l'industrie au Tchad ?",
+          "reponseAttendue": "Manque de capitaux, de techniciens et de main-d'œuvre qualifiée, concurrence étrangère, manque de débouchés, coût élevé de l'électricité, concentration dans quelques régions.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u4-e3",
+      "titre": "Le pétrole",
+      "categorie": "consequences",
+      "seuilReussite": 80,
+      "competenceId": "geo-c-petrole",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelle est la date d'exploitation du pétrole tchadien ?",
+          "reponseAttendue": "Le 10 octobre 2003.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les retombées du pétrole tchadien ?",
+          "reponseAttendue": "Hausse des salaires des fonctionnaires, construction d'infrastructures (routes, écoles, hôpitaux), création d'emplois, modernisation du secteur agro-pastoral.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "L'exploitation du pétrole est-elle une chance ou une malchance ?",
+          "reponseAttendue": "Chance : amélioration du niveau de vie, construction d'infrastructures. Malchance : dégradation de l'environnement, inflation (flambée des prix), abandon du secteur primaire par les jeunes.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les méfaits de l'exploitation du pétrole au Tchad ?",
+          "reponseAttendue": "Dégradation de l'environnement (pollution), perte de terres cultivables, migration de la population, abandon des activités traditionnelles, problèmes sociaux.",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "geo-u4-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "geo-c-energie-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "En quelle année a débuté l'exploitation du pétrole tchadien ?",
+          "options": [
+            "1999",
+            "2003",
+            "2010",
+            "2017"
+          ],
+          "reponse": 1,
+          "explication": "L'exploitation du pétrole tchadien a débuté le 10 octobre 2003."
+        },
+        {
+          "type": "choix_multiple",
+          "question": "Parmi ces énergies, lesquelles sont renouvelables (propres) ?",
+          "options": [
+            "Le solaire",
+            "L'éolien",
+            "Le pétrole",
+            "Le gaz"
+          ],
+          "reponses": [
+            0,
+            1
+          ],
+          "explication": "Le solaire et l'éolien sont renouvelables et propres ; le pétrole et le gaz sont non renouvelables."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}
