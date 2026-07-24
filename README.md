@@ -68,3 +68,31 @@ attendue est une réponse modèle (souvent longue). L'application ne corrige pas
 automatiquement : elle révèle la réponse modèle, puis l'élève s'auto-évalue
 (À revoir / Difficile / Correct / Facile), comme sur une carte Anki. Cette note
 alimente la répétition espacée.
+
+
+## Matières scientifiques (modèle distinct)
+
+Les matières `"type": "scientifique"` (mathématiques, physique, chimie) ne suivent
+PAS la logique de mémorisation littéraire. Elles reposent sur trois piliers :
+
+1. **Formulaire** : un tableau `formulaire` au niveau de l'unité liste les formules
+   à mémoriser en répétition espacée (cartes `formule`, `recto`/`verso`).
+2. **Exercices corrigés multiples** : activités `exercice_corrige` et un tableau
+   `banqueExercices` fournissant de nombreux exercices avec correction étape par étape.
+3. **Quiz** : QCM (`choix_unique`, `choix_multiple`) de compréhension et de méthode.
+
+### Champs spécifiques aux sciences
+
+- Unité : `"type": "scientifique"`, `formulaire` (deck de formules), `banqueExercices`.
+
+### Types d'activités scientifiques
+
+| type | description | champs principaux |
+|---|---|---|
+| `formule` | mémoriser une formule (flashcard, répétition espacée) | `recto`, `verso`, `modeReponse`, `explication` |
+| `exercice_corrige` | exercice avec correction progressive | `enonce`, `difficulte`, `etapesCorrection` (liste), `reponseFinale` |
+| `resolution_ordonnee` | remettre les étapes d'une résolution dans l'ordre | `enonce`, `etapes`, `ordreCorrect`, `explication` |
+
+Un objet de `banqueExercices` contient : `id`, `enonce`, `difficulte`,
+`etapesCorrection`, `reponseFinale`, `competenceId`. L'application peut y piocher
+pour proposer un entraînement illimité, corrigé et espacé dans le temps.

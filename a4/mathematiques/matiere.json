@@ -1,0 +1,16 @@
+{
+  "id": "mathematiques-a4",
+  "titre": "Mathématiques",
+  "type": "scientifique",
+  "seriesConcernees": ["a4"],
+  "description": "Équations et fonctions : formules à mémoriser, exercices corrigés et quiz.",
+  "unites": [
+    {
+      "id": "math-a4-u1",
+      "titre": "Le second degré : équations et inéquations",
+      "ordre": 1,
+      "fichier": "a4/mathematiques/unite-01.json",
+      "prerequis": []
+    }
+  ]
+}
