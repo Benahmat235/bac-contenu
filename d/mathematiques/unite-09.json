@@ -1,0 +1,115 @@
+{
+  "id": "math-d-u9",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Dénombrement, probabilités et variables aléatoires",
+  "ordre": 9,
+  "source": {
+    "document": "Mathématique TD",
+    "chapitre": "Chapitre 9 : Dénombrement et probabilités",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale exacte puis la correction étape par étape."
+  },
+  "formulaire": [
+    { "type": "formule", "recto": "Factorielle", "verso": "n!=n(n−1)…2×1 et 0!=1", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Arrangement avec répétition", "verso": "nᵖ suites ordonnées de longueur p", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Arrangement sans répétition", "verso": "A(n,p)=n!/(n−p)!", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Combinaison", "verso": "C(n,p)=n!/(p!(n−p)!)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Équiprobabilité", "verso": "P(A)=Card(A)/Card(Ω)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Réunion", "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Probabilité conditionnelle", "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Indépendance", "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Loi binomiale et moments", "verso": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Espérance d'une variable discrète", "verso": "E(X)=ΣxᵢP(X=xᵢ)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Variance et écart-type", "verso": "V(X)=E(X²)−E(X)² et σ(X)=√V(X)", "modeReponse": "auto_evaluation" },
+    { "type": "formule", "recto": "Fonction de répartition", "verso": "F(x)=P(X≤x)", "modeReponse": "auto_evaluation" }
+  ],
+  "etapes": [
+    {
+      "id": "math-d-u9-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-probabilites",
+      "activites": [
+        { "type": "formule", "recto": "Arrangement sans répétition de p éléments parmi n ?", "verso": "A(n,p)=n!/(n−p)!", "modeReponse": "auto_evaluation" },
+        { "type": "formule", "recto": "Probabilité conditionnelle P(B|A) ?", "verso": "P(A∩B)/P(A)", "modeReponse": "auto_evaluation" },
+        { "type": "formule", "recto": "Probabilité binomiale de k succès ?", "verso": "C(n,k)pᵏ(1−p)ⁿ⁻ᵏ", "modeReponse": "auto_evaluation" }
+      ]
+    },
+    {
+      "id": "math-d-u9-e2",
+      "titre": "Quiz : choisir le bon modèle",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-denombrement",
+      "activites": [
+        { "type": "choix_unique", "question": "Choisir 4 élèves parmi 12 sans attribuer de rôle se calcule avec :", "options": ["12⁴", "A(12,4)", "C(12,4)", "4!"], "reponse": 2, "explication": "L'ordre n'intervient pas : c'est une combinaison." },
+        { "type": "choix_unique", "question": "Deux événements indépendants vérifient :", "options": ["P(A∪B)=0", "P(A∩B)=P(A)P(B)", "P(A)=P(B)", "P(A∩B)=1"], "reponse": 1, "explication": "C'est la définition probabiliste de l'indépendance." },
+        { "type": "choix_unique", "question": "Si X suit B(10;0,3), E(X) vaut :", "options": ["0,3", "3", "7", "10"], "reponse": 1, "explication": "E(X)=np=10×0,3=3." }
+      ]
+    },
+    {
+      "id": "math-d-u9-e3",
+      "titre": "Méthode de résolution probabiliste",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-methode-probabilite",
+      "activites": [
+        { "type": "resolution_ordonnee", "enonce": "Comment résoudre un problème de probabilité ?", "etapes": ["Décrire l'expérience et l'univers Ω", "Identifier l'ordre, la remise et l'équiprobabilité", "Dénombrer les cas possibles et les cas favorables ou construire un arbre", "Appliquer la formule adaptée, conditionnelle ou binomiale si nécessaire", "Simplifier exactement et vérifier que le résultat appartient à [0,1]"], "ordreCorrect": ["Décrire l'expérience et l'univers Ω", "Identifier l'ordre, la remise et l'équiprobabilité", "Dénombrer les cas possibles et les cas favorables ou construire un arbre", "Appliquer la formule adaptée, conditionnelle ou binomiale si nécessaire", "Simplifier exactement et vérifier que le résultat appartient à [0,1]"], "explication": "Le choix du modèle précède toujours le calcul." }
+      ]
+    },
+    {
+      "id": "math-d-u9-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-denombrement",
+      "activites": [
+        { "id": "math-d-prob-ex01", "enonce": "De combien de façons peut-on ranger 6 livres distincts sur une étagère ?", "difficulte": "facile", "etapesCorrection": ["Ranger tous les objets distincts correspond à une permutation.", "Le nombre est 6!.", "6!=6×5×4×3×2×1=720."], "reponseFinale": "720", "competenceId": "math-d-c-permutation" },
+        { "id": "math-d-prob-ex02", "enonce": "Combien de podiums ordonnés de 3 personnes peut-on former parmi 8 candidats ?", "difficulte": "facile", "etapesCorrection": ["L'ordre compte et il n'y a pas de répétition.", "On utilise A(8,3)=8!/(8−3)!.", "A(8,3)=8×7×6=336."], "reponseFinale": "336", "competenceId": "math-d-c-arrangement" },
+        { "id": "math-d-prob-ex03", "enonce": "Combien de mots de 5 lettres peut-on former avec 4 lettres disponibles, répétition autorisée ?", "difficulte": "facile", "etapesCorrection": ["Chaque position admet 4 choix indépendants.", "Il y a 5 positions.", "Le nombre est 4⁵=1024."], "reponseFinale": "1 024", "competenceId": "math-d-c-arrangement-repetition" },
+        { "id": "math-d-prob-ex04", "enonce": "Combien de comités de 3 personnes peut-on choisir parmi 10 ?", "difficulte": "facile", "etapesCorrection": ["L'ordre ne compte pas : on utilise une combinaison.", "C(10,3)=10!/(3!7!).", "C(10,3)=10×9×8/(3×2×1)=120."], "reponseFinale": "120", "competenceId": "math-d-c-combinaison" }
+      ]
+    },
+    {
+      "id": "math-d-u9-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "math-d-c-variable-aleatoire",
+      "activites": [
+        { "type": "choix_unique", "question": "Pour X suivant B(5;1/2), P(X=2) vaut :", "options": ["5/32", "5/16", "3/8", "1/2"], "reponse": 1, "explication": "C(5,2)(1/2)²(1/2)³=10/32=5/16." }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    { "id": "math-d-prob-ex01", "enonce": "De combien de façons peut-on ranger 6 livres distincts sur une étagère ?", "difficulte": "facile", "etapesCorrection": ["Ranger tous les objets distincts correspond à une permutation.", "Le nombre est 6!.", "6!=6×5×4×3×2×1=720."], "reponseFinale": "720", "competenceId": "math-d-c-permutation" },
+    { "id": "math-d-prob-ex02", "enonce": "Combien de podiums ordonnés de 3 personnes peut-on former parmi 8 candidats ?", "difficulte": "facile", "etapesCorrection": ["L'ordre compte et il n'y a pas de répétition.", "On utilise A(8,3)=8!/(8−3)!.", "A(8,3)=8×7×6=336."], "reponseFinale": "336", "competenceId": "math-d-c-arrangement" },
+    { "id": "math-d-prob-ex03", "enonce": "Combien de mots de 5 lettres peut-on former avec 4 lettres disponibles, répétition autorisée ?", "difficulte": "facile", "etapesCorrection": ["Chaque position admet 4 choix indépendants.", "Il y a 5 positions.", "Le nombre est 4⁵=1024."], "reponseFinale": "1 024", "competenceId": "math-d-c-arrangement-repetition" },
+    { "id": "math-d-prob-ex04", "enonce": "Combien de comités de 3 personnes peut-on choisir parmi 10 ?", "difficulte": "facile", "etapesCorrection": ["L'ordre ne compte pas : on utilise une combinaison.", "C(10,3)=10!/(3!7!).", "C(10,3)=10×9×8/(3×2×1)=120."], "reponseFinale": "120", "competenceId": "math-d-c-combinaison" },
+    { "id": "math-d-prob-ex05", "enonce": "Un groupe contient 5 filles et 7 garçons. Combien de comités de 4 personnes contiennent exactement 2 filles ?", "difficulte": "moyen", "etapesCorrection": ["Choisir 2 filles parmi 5 : C(5,2)=10.", "Choisir 2 garçons parmi 7 : C(7,2)=21.", "Les choix sont simultanés : 10×21=210."], "reponseFinale": "210", "competenceId": "math-d-c-combinaison" },
+    { "id": "math-d-prob-ex06", "enonce": "Dans ce même groupe de 5 filles et 7 garçons, combien de comités de 4 contiennent au moins une fille ?", "difficulte": "difficile", "etapesCorrection": ["Compter tous les comités : C(12,4)=495.", "Retirer les comités sans fille : C(7,4)=35.", "Il reste 495−35=460 comités."], "reponseFinale": "460", "competenceId": "math-d-c-combinaison" },
+    { "id": "math-d-prob-ex07", "enonce": "Combien d'anagrammes distinctes du mot MAMAN existe-t-il ?", "difficulte": "moyen", "etapesCorrection": ["Le mot a 5 lettres, avec 2 M identiques et 2 A identiques.", "Le nombre est 5!/(2!2!).", "5!/(2!2!)=120/4=30."], "reponseFinale": "30", "competenceId": "math-d-c-permutation" },
+    { "id": "math-d-prob-ex08", "enonce": "On lance un dé équilibré. Calculer la probabilité d'obtenir un nombre pair.", "difficulte": "facile", "etapesCorrection": ["Ω={1,2,3,4,5,6}, donc Card(Ω)=6.", "Les issues paires sont {2,4,6}, soit 3 issues.", "P=3/6=1/2."], "reponseFinale": "P = 1/2", "competenceId": "math-d-c-equiprobabilite" },
+    { "id": "math-d-prob-ex09", "enonce": "On lance deux dés équilibrés. Calculer la probabilité que la somme soit 7.", "difficulte": "moyen", "etapesCorrection": ["Il y a 6×6=36 couples ordonnés équiprobables.", "Les couples favorables sont (1,6),(2,5),(3,4),(4,3),(5,2),(6,1), soit 6.", "P=6/36=1/6."], "reponseFinale": "P = 1/6", "competenceId": "math-d-c-equiprobabilite" },
+    { "id": "math-d-prob-ex10", "enonce": "On lance deux dés équilibrés. Calculer la probabilité d'obtenir au moins un 6.", "difficulte": "moyen", "etapesCorrection": ["Utiliser l'événement contraire : aucun 6.", "P(aucun 6)=(5/6)²=25/36.", "P(au moins un 6)=1−25/36=11/36."], "reponseFinale": "P = 11/36", "competenceId": "math-d-c-evenement-contraire" },
+    { "id": "math-d-prob-ex11", "enonce": "Une urne contient 5 boules rouges et 3 bleues. On tire 2 boules simultanément. Probabilité d'obtenir 2 rouges ?", "difficulte": "moyen", "etapesCorrection": ["Le nombre total de tirages est C(8,2)=28.", "Les tirages de 2 rouges sont C(5,2)=10.", "P=10/28=5/14."], "reponseFinale": "P = 5/14", "competenceId": "math-d-c-probabilite-combinatoire" },
+    { "id": "math-d-prob-ex12", "enonce": "Dans la même urne, calculer la probabilité d'obtenir une boule de chaque couleur.", "difficulte": "moyen", "etapesCorrection": ["Choisir 1 rouge et 1 bleue donne C(5,1)C(3,1)=15 tirages.", "Le nombre total reste C(8,2)=28.", "P=15/28."], "reponseFinale": "P = 15/28", "competenceId": "math-d-c-probabilite-combinatoire" },
+    { "id": "math-d-prob-ex13", "enonce": "On sait P(A∩B)=0,18 et P(B)=0,30. Calculer P(A|B).", "difficulte": "facile", "etapesCorrection": ["P(A|B)=P(A∩B)/P(B).", "P(A|B)=0,18/0,30.", "Le quotient vaut 0,60=3/5."], "reponseFinale": "P(A|B) = 3/5", "competenceId": "math-d-c-probabilite-conditionnelle" },
+    { "id": "math-d-prob-ex14", "enonce": "P(A)=0,4, P(B|A)=0,7 et P(B|Ā)=0,2. Calculer P(B).", "difficulte": "moyen", "etapesCorrection": ["P(Ā)=1−0,4=0,6.", "Par la formule des probabilités totales, P(B)=P(A)P(B|A)+P(Ā)P(B|Ā).", "P(B)=0,4×0,7+0,6×0,2=0,28+0,12=0,40."], "reponseFinale": "P(B) = 2/5", "competenceId": "math-d-c-arbre-pondere" },
+    { "id": "math-d-prob-ex15", "enonce": "A et B sont indépendants, P(A)=0,3 et P(B)=0,5. Calculer P(A∩B).", "difficulte": "facile", "etapesCorrection": ["Pour des événements indépendants, P(A∩B)=P(A)P(B).", "P(A∩B)=0,3×0,5.", "Le produit vaut 0,15=3/20."], "reponseFinale": "P(A∩B) = 3/20", "competenceId": "math-d-c-independance" },
+    { "id": "math-d-prob-ex16", "enonce": "On lance deux fois une pièce équilibrée. X est le nombre de piles. Donner la loi de X, son espérance et sa variance.", "difficulte": "moyen", "etapesCorrection": ["Les quatre issues PP, PF, FP, FF sont équiprobables.", "X prend 0,1,2 avec probabilités 1/4, 1/2, 1/4.", "E(X)=0×1/4+1×1/2+2×1/4=1.", "E(X²)=0+1/2+4/4=3/2, donc V(X)=3/2−1²=1/2."], "reponseFinale": "P(X=0)=1/4, P(X=1)=1/2, P(X=2)=1/4 ; E(X)=1 ; V(X)=1/2", "competenceId": "math-d-c-loi-probabilite" },
+    { "id": "math-d-prob-ex17", "enonce": "Une variable X vérifie P(X=0)=1/4, P(X=1)=1/2 et P(X=2)=1/4. Déterminer sa fonction de répartition F.", "difficulte": "moyen", "etapesCorrection": ["Par définition, F(x)=P(X≤x).", "Si x<0, aucune valeur n'est inférieure ou égale à x : F(x)=0.", "Pour 0≤x<1, F(x)=P(X=0)=1/4 ; pour 1≤x<2, F(x)=P(X=0)+P(X=1)=3/4.", "Pour x≥2, toutes les valeurs sont comptées : F(x)=1."], "reponseFinale": "F(x)=0 si x<0 ; 1/4 si 0≤x<1 ; 3/4 si 1≤x<2 ; 1 si x≥2", "competenceId": "math-d-c-fonction-repartition" },
+    { "id": "math-d-prob-ex18", "enonce": "Une pièce équilibrée est lancée 4 fois. Calculer la probabilité d'obtenir exactement 2 piles.", "difficulte": "moyen", "etapesCorrection": ["X, nombre de piles, suit B(4,1/2).", "P(X=2)=C(4,2)(1/2)²(1/2)².", "P(X=2)=6/16=3/8."], "reponseFinale": "P(X=2) = 3/8", "competenceId": "math-d-c-loi-binomiale" },
+    { "id": "math-d-prob-ex19", "enonce": "On répète 5 fois une épreuve indépendante dont la probabilité de succès est 1/5. Calculer la probabilité de n'obtenir aucun succès.", "difficulte": "moyen", "etapesCorrection": ["X suit B(5,1/5).", "P(X=0)=C(5,0)(1/5)⁰(4/5)⁵.", "P(X=0)=(4/5)⁵=4⁵/5⁵=1024/3125."], "reponseFinale": "P(X=0) = 1024/3125", "competenceId": "math-d-c-loi-binomiale" },
+    { "id": "math-d-prob-ex20", "enonce": "Si X suit la loi binomiale B(10;3/10), calculer E(X), V(X) et σ(X).", "difficulte": "moyen", "etapesCorrection": ["E(X)=np=10×3/10=3.", "V(X)=np(1−p)=10×3/10×7/10=21/10.", "σ(X)=√(21/10)."], "reponseFinale": "E(X) = 3 ; V(X) = 21/10 ; σ(X) = √(21/10)", "competenceId": "math-d-c-loi-binomiale" }
+  ]
+}

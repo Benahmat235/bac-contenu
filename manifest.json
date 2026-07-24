@@ -1,5 +1,5 @@
 {
-  "contentVersion": 7,
+  "contentVersion": 8,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -167,10 +167,20 @@
         {
           "id": "mathematiques-d",
           "titre": "Mathématiques",
-          "type": "propre",
-          "version": 1,
+          "type": "scientifique",
+          "version": 2,
           "chemin": "d/mathematiques/",
-          "fichiers": []
+          "fichiers": [
+            "d/mathematiques/unite-01.json",
+            "d/mathematiques/unite-02.json",
+            "d/mathematiques/unite-03.json",
+            "d/mathematiques/unite-04.json",
+            "d/mathematiques/unite-05.json",
+            "d/mathematiques/unite-06.json",
+            "d/mathematiques/unite-07.json",
+            "d/mathematiques/unite-08.json",
+            "d/mathematiques/unite-09.json"
+          ]
         },
         {
           "id": "physique-d",

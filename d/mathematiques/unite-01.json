@@ -1,0 +1,482 @@
+{
+  "id": "math-d-u1",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Limites et continuité",
+  "ordre": 1,
+  "source": {
+    "document": "Mathématique TD",
+    "chapitre": "Chapitre 1 : Limites et continuité",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Limite d'un polynôme en ±∞",
+      "verso": "celle de son monôme de plus haut degré",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limite d'une fonction rationnelle en ±∞",
+      "verso": "celle du rapport des termes de plus haut degré",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Les 4 formes indéterminées",
+      "verso": "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Lever une indétermination",
+      "verso": "factoriser, ou multiplier par l'expression conjuguée",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Théorème des gendarmes",
+      "verso": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Asymptote horizontale",
+      "verso": "si lim f = l (réel) en ±∞, alors y = l",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Asymptote verticale",
+      "verso": "si lim f = ±∞ en x₀, alors x = x₀",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Asymptote oblique",
+      "verso": "y = ax + b si lim [f(x) − (ax+b)] = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limite trigonométrique de référence",
+      "verso": "lim(x→0) sin(x)/x = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Continuité",
+      "verso": "f est continue en a si lim(x→a) f(x) = f(a)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "math-d-u1-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-lim-poly",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Comment calculer la limite d'un polynôme en ±∞ ?",
+          "verso": "limite de son monôme de plus haut degré",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Quelles sont les 4 formes indéterminées ?",
+          "verso": "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "math-d-u1-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-lim-rat",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "lim(x→+∞) (2x² − 1)/(x² + 2x + 1) =",
+          "options": [
+            "0",
+            "2",
+            "+∞",
+            "1"
+          ],
+          "reponse": 1,
+          "explication": "Rapport des termes dominants 2x²/x² = 2."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle expression est une forme indéterminée ?",
+          "options": [
+            "+∞ + 5",
+            "∞ − ∞",
+            "3 × (+∞)",
+            "l/+∞"
+          ],
+          "reponse": 1,
+          "explication": "∞ − ∞ est indéterminée."
+        }
+      ]
+    },
+    {
+      "id": "math-d-u1-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-lim-fi",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Comment lever une forme indéterminée 0/0 d'un quotient de polynômes ?",
+          "etapes": [
+            "Constater la forme indéterminée 0/0",
+            "Factoriser le numérateur et le dénominateur",
+            "Simplifier le facteur commun",
+            "Remplacer par la valeur et conclure"
+          ],
+          "ordreCorrect": [
+            "Constater la forme indéterminée 0/0",
+            "Factoriser le numérateur et le dénominateur",
+            "Simplifier le facteur commun",
+            "Remplacer par la valeur et conclure"
+          ],
+          "explication": "On factorise puis on simplifie."
+        }
+      ]
+    },
+    {
+      "id": "math-d-u1-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "math-d-c-lim-fi",
+      "activites": [
+        {
+          "id": "math-d-lim-ex09",
+          "enonce": "Calculer lim(x→2) (x² − 4)/(x − 2)",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Forme indéterminée 0/0",
+            "On factorise : x² − 4 = (x − 2)(x + 2)",
+            "(x − 2)(x + 2)/(x − 2) = x + 2",
+            "On remplace x = 2 : 4"
+          ],
+          "reponseFinale": "4",
+          "competenceId": "math-d-c-lim-fi"
+        },
+        {
+          "id": "math-d-lim-ex10",
+          "enonce": "Calculer lim(x→3) (x² − 9)/(x − 3)",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Forme indéterminée 0/0",
+            "On factorise : x² − 9 = (x − 3)(x + 3)",
+            "(x − 3)(x + 3)/(x − 3) = x + 3",
+            "On remplace x = 3 : 6"
+          ],
+          "reponseFinale": "6",
+          "competenceId": "math-d-c-lim-fi"
+        },
+        {
+          "id": "math-d-lim-ex11",
+          "enonce": "Calculer lim(x→-1) (x² − 1)/(x − -1)",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Forme indéterminée 0/0",
+            "On factorise : x² − 1 = (x − -1)(x + -1)",
+            "(x − -1)(x + -1)/(x − -1) = x + -1",
+            "On remplace x = -1 : -2"
+          ],
+          "reponseFinale": "−2",
+          "competenceId": "math-d-c-lim-fi"
+        },
+        {
+          "id": "math-d-lim-ex12",
+          "enonce": "Calculer lim(x→5) (x² − 25)/(x − 5)",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Forme indéterminée 0/0",
+            "On factorise : x² − 25 = (x − 5)(x + 5)",
+            "(x − 5)(x + 5)/(x − 5) = x + 5",
+            "On remplace x = 5 : 10"
+          ],
+          "reponseFinale": "10",
+          "competenceId": "math-d-c-lim-fi"
+        }
+      ]
+    },
+    {
+      "id": "math-d-u1-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "math-d-c-lim-fi",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "lim(x→+∞) (√(x²+1) − x) =",
+          "options": [
+            "+∞",
+            "1",
+            "0",
+            "1/2"
+          ],
+          "reponse": 2,
+          "explication": "Par l'expression conjuguée : 1/(√(x²+1)+x) → 0."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-d-lim-ex01",
+      "enonce": "Calculer lim(x→+∞) 5x³ − x + 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Limite d'un polynôme en l'infini = limite de son monôme de plus haut degré",
+        "on étudie 5x³ en +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-d-c-lim-poly"
+    },
+    {
+      "id": "math-d-lim-ex02",
+      "enonce": "Calculer lim(x→−∞) 5x³ − x + 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Limite d'un polynôme en l'infini = limite de son monôme de plus haut degré",
+        "on étudie 5x³ en −∞"
+      ],
+      "reponseFinale": "−∞",
+      "competenceId": "math-d-c-lim-poly"
+    },
+    {
+      "id": "math-d-lim-ex03",
+      "enonce": "Calculer lim(x→+∞) −2x⁴ + 3x²",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Limite d'un polynôme en l'infini = limite de son monôme de plus haut degré",
+        "on étudie −2x⁴ en +∞"
+      ],
+      "reponseFinale": "−∞",
+      "competenceId": "math-d-c-lim-poly"
+    },
+    {
+      "id": "math-d-lim-ex04",
+      "enonce": "Calculer lim(x→+∞) x² − 7x",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Limite d'un polynôme en l'infini = limite de son monôme de plus haut degré",
+        "on étudie x² en +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-d-c-lim-poly"
+    },
+    {
+      "id": "math-d-lim-ex05",
+      "enonce": "Calculer lim(x→+∞) (2x² − 1)/(x² + 2x + 1)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Limite d'une fonction rationnelle en l'infini = limite du rapport des monômes de plus haut degré",
+        "rapport des termes dominants 2x²/x² = 2 (même degré)"
+      ],
+      "reponseFinale": "2",
+      "competenceId": "math-d-c-lim-rat"
+    },
+    {
+      "id": "math-d-lim-ex06",
+      "enonce": "Calculer lim(x→+∞) (7x⁵ − 2x³ + 1)/(3x² − x + 1)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Limite d'une fonction rationnelle en l'infini = limite du rapport des monômes de plus haut degré",
+        "7x⁵/3x² = (7/3)x³ → +∞ (numérateur de degré supérieur)"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-d-c-lim-rat"
+    },
+    {
+      "id": "math-d-lim-ex07",
+      "enonce": "Calculer lim(x→+∞) (x + 1)/(x² − 3)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Limite d'une fonction rationnelle en l'infini = limite du rapport des monômes de plus haut degré",
+        "degré du numérateur < dénominateur → 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-d-c-lim-rat"
+    },
+    {
+      "id": "math-d-lim-ex08",
+      "enonce": "Calculer lim(x→+∞) (−4x³ + 1)/(2x³ − x)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Limite d'une fonction rationnelle en l'infini = limite du rapport des monômes de plus haut degré",
+        "−4x³/2x³ = −2"
+      ],
+      "reponseFinale": "−2",
+      "competenceId": "math-d-c-lim-rat"
+    },
+    {
+      "id": "math-d-lim-ex09",
+      "enonce": "Calculer lim(x→2) (x² − 4)/(x − 2)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Forme indéterminée 0/0",
+        "On factorise : x² − 4 = (x − 2)(x + 2)",
+        "(x − 2)(x + 2)/(x − 2) = x + 2",
+        "On remplace x = 2 : 4"
+      ],
+      "reponseFinale": "4",
+      "competenceId": "math-d-c-lim-fi"
+    },
+    {
+      "id": "math-d-lim-ex10",
+      "enonce": "Calculer lim(x→3) (x² − 9)/(x − 3)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Forme indéterminée 0/0",
+        "On factorise : x² − 9 = (x − 3)(x + 3)",
+        "(x − 3)(x + 3)/(x − 3) = x + 3",
+        "On remplace x = 3 : 6"
+      ],
+      "reponseFinale": "6",
+      "competenceId": "math-d-c-lim-fi"
+    },
+    {
+      "id": "math-d-lim-ex11",
+      "enonce": "Calculer lim(x→-1) (x² − 1)/(x − -1)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Forme indéterminée 0/0",
+        "On factorise : x² − 1 = (x − -1)(x + -1)",
+        "(x − -1)(x + -1)/(x − -1) = x + -1",
+        "On remplace x = -1 : -2"
+      ],
+      "reponseFinale": "−2",
+      "competenceId": "math-d-c-lim-fi"
+    },
+    {
+      "id": "math-d-lim-ex12",
+      "enonce": "Calculer lim(x→5) (x² − 25)/(x − 5)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Forme indéterminée 0/0",
+        "On factorise : x² − 25 = (x − 5)(x + 5)",
+        "(x − 5)(x + 5)/(x − 5) = x + 5",
+        "On remplace x = 5 : 10"
+      ],
+      "reponseFinale": "10",
+      "competenceId": "math-d-c-lim-fi"
+    },
+    {
+      "id": "math-d-lim-ex13",
+      "enonce": "Calculer lim(x→+∞) (√(x²+1) − x)",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Forme indéterminée ∞ − ∞",
+        "On multiplie par l'expression conjuguée : (√(x²+1) − x)(√(x²+1)+x)/(√(x²+1)+x)",
+        "= (x²+1 − x²)/(√(x²+1)+x) = 1/(√(x²+1)+x)",
+        "Le dénominateur → +∞, donc la limite est 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-d-c-lim-fi"
+    },
+    {
+      "id": "math-d-lim-ex14",
+      "enonce": "Calculer lim(x→+∞) (x − √(x²−x))",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "∞ − ∞ ; conjuguée : (x−√(x²−x))(x+√(x²−x))/(x+√(x²−x))",
+        "= (x² − (x²−x))/(x+√(x²−x)) = x/(x+√(x²−x))",
+        "→ x/(2x) = 1/2"
+      ],
+      "reponseFinale": "1/2",
+      "competenceId": "math-d-c-lim-fi"
+    },
+    {
+      "id": "math-d-lim-ex15",
+      "enonce": "Déterminer lim(x→+∞) (x + sin x)/x",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Encadrement : (x−1)/x ≤ (x+sin x)/x ≤ (x+1)/x car −1 ≤ sin x ≤ 1",
+        "lim (x−1)/x = 1 et lim (x+1)/x = 1",
+        "D'après le théorème des gendarmes, la limite est 1"
+      ],
+      "reponseFinale": "1",
+      "competenceId": "math-d-c-lim-gendarmes"
+    },
+    {
+      "id": "math-d-lim-ex16",
+      "enonce": "Déterminer l'asymptote horizontale de f(x) = (3x − 1)/(x + 2)",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "lim(x→±∞) f = 3x/x = 3",
+        "y = 3 est asymptote horizontale"
+      ],
+      "reponseFinale": "y = 3",
+      "competenceId": "math-d-c-asymptote"
+    },
+    {
+      "id": "math-d-lim-ex17",
+      "enonce": "Déterminer l'asymptote verticale de f(x) = (2x)/(x − 1)",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le dénominateur s'annule en x = 1",
+        "lim(x→1) f = ∞",
+        "x = 1 est asymptote verticale"
+      ],
+      "reponseFinale": "x = 1",
+      "competenceId": "math-d-c-asymptote"
+    },
+    {
+      "id": "math-d-lim-ex18",
+      "enonce": "f(x) = x + 1 + 1/x. Montrer que la droite y = x + 1 est asymptote oblique en +∞.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On calcule f(x) − (x+1) = 1/x",
+        "lim(x→+∞) 1/x = 0",
+        "Donc y = x + 1 est asymptote oblique"
+      ],
+      "reponseFinale": "y = x + 1",
+      "competenceId": "math-d-c-asymptote"
+    },
+    {
+      "id": "math-d-lim-ex19",
+      "enonce": "La fonction f(x) = x² − 3x + 1 est-elle continue sur ℝ ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Une fonction polynôme est continue sur ℝ"
+      ],
+      "reponseFinale": "Oui, continue sur ℝ",
+      "competenceId": "math-d-c-continuite"
+    },
+    {
+      "id": "math-d-lim-ex20",
+      "enonce": "Soit f(x) = (x²−1)/(x−1) pour x≠1 et f(1)=2. f est-elle continue en 1 ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Pour x≠1 : (x²−1)/(x−1) = x+1",
+        "lim(x→1)(x+1) = 2 = f(1)",
+        "Donc f est continue en 1"
+      ],
+      "reponseFinale": "Oui, continue en 1",
+      "competenceId": "math-d-c-continuite"
+    }
+  ]
+}
