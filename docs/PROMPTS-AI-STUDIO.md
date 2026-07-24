@@ -16,11 +16,76 @@ hors-ligne)** en React + TypeScript, qui lit le contenu JSON depuis GitHub.
 
 ---
 
+## 0. PROMPTS DE DÉMARRAGE — Frontend « Kabro Edu » (recommandé)
+
+Approche recommandée : construire d'abord une **belle interface avec des données de
+démonstration**, puis brancher le contenu réel. Collez ces prompts dans l'ordre.
+
+### 0.1 — Démarrage du frontend (à coller en premier)
+```
+Crée une application web mobile-first (PWA installable) nommée « Kabro Edu », en React +
+TypeScript + Tailwind CSS. C'est une app d'aide à la préparation du baccalauréat tchadien,
+100 % en français, pour les séries A4 (littéraire), C et D (scientifiques). Style
+d'apprentissage inspiré de Duolingo (parcours par étapes, motivant) et d'Anki (mémorisation).
+
+Pour cette première version, construis UNIQUEMENT le FRONTEND avec des DONNÉES DE
+DÉMONSTRATION en local (pas encore d'appel réseau). L'objectif est une interface belle,
+fluide et navigable.
+
+IDENTITÉ VISUELLE :
+- Nom affiché : « Kabro Edu ». Ton chaleureux, encourageant, épuré.
+- Palette inspirée du drapeau tchadien, utilisée avec sobriété : bleu profond #002664
+  (principale), jaune #FECB00 (accents/récompenses), rouge #C60C30 (alertes/streak).
+  Fond clair, grandes cartes arrondies, coins doux, boutons larges (tactiles).
+- Typographie lisible, contrastes élevés, icônes simples.
+
+NAVIGATION : barre d'onglets en bas — 🏠 Accueil · 📚 Matières · 🔁 Réviser ·
+📈 Progression · ⚙️ Paramètres.
+
+ÉCRANS (avec données factices réalistes en français) :
+1. Onboarding : bienvenue « Kabro Edu » + message « Gratuit · Sans publicité · Sans
+   collecte de données », puis choix de la série (3 grandes cartes : A4, C, D).
+2. Accueil : streak (flamme + jours), anneau de progression de l'objectif du jour,
+   bouton « Continuer », carte « À réviser aujourd'hui ».
+3. Matières : liste des matières de la série avec barre de progression (ex. série D :
+   Maths, Physique, Chimie, SVT, Histoire, Géographie, Français, Anglais).
+4. Parcours d'une matière : chapitres en « chemin » vertical façon Duolingo (jalons
+   reliés), chapitre courant mis en avant, verrouillés grisés, pastille de progression.
+5. Détail d'un chapitre : étapes (Formulaire/Mémorisation · Quiz · Méthode · Exercices ·
+   Défi), section « 🎥 Vidéos d'explication » (items titre + chaîne), bouton « Démarrer ».
+6. Lecteur d'activité plein écran : barre de progression, une activité à la fois, exemple
+   de QCM et exemple de flashcard (recto/verso + auto-évaluation À revoir/Difficile/
+   Correct/Facile), feedback immédiat + explication, puis écran de résultats (score %, XP).
+7. Réviser : « À réviser aujourd'hui » + révision par matière.
+8. Progression : streak, XP total, cartes maîtrisées, progression par matière.
+9. Paramètres : changer de série, apparence (thème clair/sombre, taille de police),
+   objectif quotidien, page « À propos » (gratuit, sans pub, sans collecte de données).
+
+QUALITÉ : TypeScript propre et modulaire (un composant par écran et par type d'activité),
+routing entre écrans, états vides gérés, responsive mobile d'abord. Mémorise la série et le
+thème en localStorage. AUCUNE publicité, AUCUN formulaire de collecte de données.
+```
+
+### 0.2 — Peaufinage du design
+```
+Améliore le design de Kabro Edu façon Duolingo : animations légères sur les réponses et les
+gains d'XP ; une mascotte/emoji sympathique qui encourage sur l'Accueil ; le « chemin » des
+chapitres avec jalons ronds reliés, étape en cours animée et cadenas sur les verrouillés ;
+cartes de matière avec couleur/emoji distinct ; barre de progression fluide et écran de
+résultats festif (confettis discrets). Conserve la palette (#002664, #FECB00, #C60C30) et un
+rendu épuré et lisible.
+```
+
+Ensuite, quand l'interface vous convient, branchez le contenu réel avec le
+**prompt d'intégration des données (§3)**.
+
+---
+
 ## 1. PROMPT MAÎTRE (génération initiale)
 
 ```
 Crée une application web mobile-first (PWA installable et fonctionnelle hors-ligne)
-nommée « Bac Tchad », en React + TypeScript + Tailwind CSS. C'est une app d'aide à la
+nommée « Kabro Edu », en React + TypeScript + Tailwind CSS. C'est une app d'aide à la
 préparation du baccalauréat tchadien, en français, pour les séries A4 (littéraire),
 C et D (scientifiques). Style d'apprentissage : progression par étapes façon Duolingo
 + mémorisation par répétition espacée façon Anki.

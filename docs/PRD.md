@@ -1,4 +1,4 @@
-# PRD — Application de préparation au Baccalauréat (Tchad)
+# PRD — Kabro Edu (préparation au Baccalauréat, Tchad)
 
 > Document de exigences produit (Product Requirements Document).
 > Version 1.0 — cible : MVP puis v2. Langue de l'app : français.

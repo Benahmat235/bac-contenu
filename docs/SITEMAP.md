@@ -1,4 +1,4 @@
-# Sitemap & navigation — App Bac Tchad
+# Sitemap & navigation — Kabro Edu
 
 Application mobile (navigation par onglets), offline-first, contenu chargé depuis GitHub.
 

@@ -1,4 +1,4 @@
-# Documentation produit — App Bac Tchad
+# Documentation produit — Kabro Edu
 
 Plans pour construire l'application mobile à partir du contenu de ce dépôt.
 
