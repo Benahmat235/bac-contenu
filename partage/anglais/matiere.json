@@ -1,0 +1,35 @@
+{
+  "id": "anglais",
+  "titre": "Anglais",
+  "seriesConcernees": [
+    "a4",
+    "c",
+    "d"
+  ],
+  "description": "English: thematic vocabulary and grammar.",
+  "unites": [
+    {
+      "id": "en-u1",
+      "titre": "Vocabulary: key themes",
+      "ordre": 1,
+      "fichier": "partage/anglais/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "en-u2",
+      "titre": "English tenses",
+      "ordre": 2,
+      "fichier": "partage/anglais/unite-02.json",
+      "prerequis": []
+    },
+    {
+      "id": "en-u3",
+      "titre": "Passive, reported speech & conditionals",
+      "ordre": 3,
+      "fichier": "partage/anglais/unite-03.json",
+      "prerequis": [
+        "en-u2"
+      ]
+    }
+  ]
+}

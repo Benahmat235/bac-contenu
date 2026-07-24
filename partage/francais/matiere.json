@@ -1,0 +1,37 @@
+{
+  "id": "francais",
+  "titre": "Français",
+  "seriesConcernees": [
+    "a4",
+    "c",
+    "d"
+  ],
+  "description": "Littérature : mouvements, genres, auteurs et notions.",
+  "unites": [
+    {
+      "id": "fr-u1",
+      "titre": "Généralités sur la littérature",
+      "ordre": 1,
+      "fichier": "partage/francais/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "fr-u2",
+      "titre": "Les mouvements littéraires",
+      "ordre": 2,
+      "fichier": "partage/francais/unite-02.json",
+      "prerequis": [
+        "fr-u1"
+      ]
+    },
+    {
+      "id": "fr-u3",
+      "titre": "Les genres littéraires",
+      "ordre": 3,
+      "fichier": "partage/francais/unite-03.json",
+      "prerequis": [
+        "fr-u1"
+      ]
+    }
+  ]
+}

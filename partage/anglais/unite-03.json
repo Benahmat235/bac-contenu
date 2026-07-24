@@ -1,0 +1,137 @@
+{
+  "id": "en-u3",
+  "matiere": "anglais",
+  "titre": "Passive, reported speech & conditionals",
+  "ordre": 3,
+  "source": {
+    "document": "Anglais TA4 C D",
+    "chapitre": "Grammar: passive voice, reported speech, conditionals",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "en-u3-e1",
+      "titre": "The passive voice",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-passive",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is the passive form of « They build houses »?",
+          "options": [
+            "Houses build them.",
+            "Houses are built.",
+            "Houses were building.",
+            "Houses have build."
+          ],
+          "reponse": 1,
+          "explication": "Passive = be + past participle: « Houses are built »."
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Transform to passive: « Shakespeare wrote this play » → « This play ___ written by Shakespeare. »",
+          "reponse": "was",
+          "toleranceMots": [
+            "was"
+          ],
+          "explication": "Past passive = was/were + past participle."
+        }
+      ]
+    },
+    {
+      "id": "en-u3-e2",
+      "titre": "Reported speech",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-reported",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Report this: « I am tired », she said.",
+          "options": [
+            "She said she is tired.",
+            "She said she was tired.",
+            "She says she was tired.",
+            "She said I am tired."
+          ],
+          "reponse": 1,
+          "explication": "In reported speech, the present becomes the past: « am » → « was »."
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Report: « I will call you », he said → He said he ___ call me.",
+          "reponse": "would",
+          "toleranceMots": [
+            "would"
+          ],
+          "explication": "« will » becomes « would » in reported speech."
+        }
+      ]
+    },
+    {
+      "id": "en-u3-e3",
+      "titre": "Conditionals",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-conditionals",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Match each conditional type with its meaning.",
+          "paires": [
+            {
+              "gauche": "If + present, will + verb",
+              "droite": "a real, likely condition (type 1)"
+            },
+            {
+              "gauche": "If + past, would + verb",
+              "droite": "an unreal / improbable condition (type 2)"
+            },
+            {
+              "gauche": "If + past perfect, would have + participle",
+              "droite": "an unreal past condition (type 3)"
+            }
+          ],
+          "explication": "The three conditionals express different degrees of probability."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Complete: « If it rains, we ___ stay at home. » (type 1)",
+          "options": [
+            "would",
+            "will",
+            "would have",
+            "stayed"
+          ],
+          "reponse": 1,
+          "explication": "Type 1: if + present, will + base verb (real condition)."
+        }
+      ]
+    },
+    {
+      "id": "en-u3-defi",
+      "titre": "Mastery challenge",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "en-c-grammar-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Which sentence is correct?",
+          "options": [
+            "The book was written by a Chadian author.",
+            "The book is wrote by a Chadian author.",
+            "The book has wrote by a Chadian author.",
+            "The book writes by a Chadian author."
+          ],
+          "reponse": 0,
+          "explication": "Correct passive: be + past participle (written)."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

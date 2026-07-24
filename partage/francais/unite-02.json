@@ -1,0 +1,209 @@
+{
+  "id": "fr-u2",
+  "matiere": "francais",
+  "titre": "Les mouvements littéraires",
+  "ordre": 2,
+  "source": {
+    "document": "Français TA4",
+    "chapitre": "Négritude, surréalisme, existentialisme, absurde",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "fr-u2-e1",
+      "titre": "Les définitions des mouvements",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-mouvements-def",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a forgé le mot « négritude » et dans quelle œuvre ?",
+          "options": [
+            "Senghor, dans Chants d'ombre",
+            "Césaire, dans Cahier d'un retour au pays natal (1939)",
+            "Breton, dans le Manifeste",
+            "Sartre, dans L'Être et le Néant"
+          ],
+          "reponse": 1,
+          "explication": "La négritude est un néologisme d'Aimé Césaire, employé pour la première fois en 1939."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Sur quoi se fonde le surréalisme ?",
+          "options": [
+            "la raison et la logique",
+            "l'inconscient et l'automatisme",
+            "la tradition classique",
+            "la science"
+          ],
+          "reponse": 1,
+          "explication": "Le surréalisme (André Breton) se fonde sur l'inconscient et l'automatisme psychique."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque mouvement à sa figure principale.",
+          "paires": [
+            {
+              "gauche": "Négritude",
+              "droite": "Aimé Césaire"
+            },
+            {
+              "gauche": "Surréalisme",
+              "droite": "André Breton"
+            },
+            {
+              "gauche": "Existentialisme athée",
+              "droite": "Jean-Paul Sartre"
+            },
+            {
+              "gauche": "Absurde",
+              "droite": "Albert Camus"
+            }
+          ],
+          "explication": "Chaque mouvement est porté par un auteur emblématique."
+        }
+      ]
+    },
+    {
+      "id": "fr-u2-e2",
+      "titre": "Les citations",
+      "categorie": "citations",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-mouvements-cit",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "La négritude est la simple reconnaissance du fait d'être noir, et l'acceptation de ce fait, de notre destin de noir, de notre histoire et de notre culture.",
+          "options": [
+            "Aimé Césaire",
+            "Senghor",
+            "Alioune Diop",
+            "Wole Soyinka"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Césaire, à qui revient la paternité du mot, définit ainsi la négritude."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Le tigre ne proclame pas sa tigritude, mais il bondit sur sa proie et la dévore.",
+          "options": [
+            "Wole Soyinka",
+            "Césaire",
+            "Senghor",
+            "Breton"
+          ],
+          "reponse": 0,
+          "oeuvre": "critique de la négritude",
+          "explication": "Soyinka reproche à la négritude son caractère idéaliste et passéiste."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'existence précède l'essence.",
+          "options": [
+            "Jean-Paul Sartre",
+            "Camus",
+            "Gabriel Marcel",
+            "Breton"
+          ],
+          "reponse": 0,
+          "oeuvre": "L'existentialisme est un humanisme",
+          "explication": "Formule clé de l'existentialisme athée : l'homme n'a pas de nature préétablie, il se forge lui-même."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Nous autres civilisations, nous savons maintenant que nous sommes mortelles.",
+          "options": [
+            "Paul Valéry",
+            "Sartre",
+            "Camus",
+            "Senghor"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Valéry exprime l'inquiétude de l'Europe après la Première Guerre mondiale."
+        }
+      ]
+    },
+    {
+      "id": "fr-u2-e3",
+      "titre": "L'existentialisme et l'absurde",
+      "categorie": "these",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-mouvements-idees",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque notion existentialiste à sa citation (Sartre).",
+          "paires": [
+            {
+              "gauche": "La liberté",
+              "droite": "« l'homme est condamné à être libre »"
+            },
+            {
+              "gauche": "La responsabilité",
+              "droite": "« l'homme est responsable de ce qu'il est »"
+            },
+            {
+              "gauche": "L'existence",
+              "droite": "« l'existence précède l'essence »"
+            }
+          ],
+          "explication": "Sartre fonde une philosophie de l'engagement et de la liberté."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Selon Camus, face à l'absurdité de la vie, quelle attitude faut-il adopter ?",
+          "options": [
+            "la résignation (suicide du quotidien)",
+            "le suicide physique",
+            "la révolte et l'espoir (suicide philosophique)",
+            "l'indifférence"
+          ],
+          "reponse": 2,
+          "explication": "Camus prône la révolte : vivre le plus intensément possible en luttant contre le désespoir."
+        }
+      ]
+    },
+    {
+      "id": "fr-u2-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "fr-c-mouvements-synthese",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque mouvement à son idée centrale.",
+          "paires": [
+            {
+              "gauche": "Négritude",
+              "droite": "réhabiliter la dignité et la culture noires"
+            },
+            {
+              "gauche": "Surréalisme",
+              "droite": "libérer la pensée du contrôle de la raison"
+            },
+            {
+              "gauche": "Existentialisme",
+              "droite": "l'homme se crée par ses choix"
+            },
+            {
+              "gauche": "Absurde",
+              "droite": "la vie n'a pas de sens donné, d'où la révolte"
+            }
+          ],
+          "explication": "Chaque mouvement répond à une crise historique par une vision de l'homme."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

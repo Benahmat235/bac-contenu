@@ -1,0 +1,138 @@
+{
+  "id": "fr-u3",
+  "matiere": "francais",
+  "titre": "Les genres littéraires",
+  "ordre": 3,
+  "source": {
+    "document": "Français TA4",
+    "chapitre": "Les genres littéraires",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "fr-u3-e1",
+      "titre": "Les trois grands genres",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-genres-def",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque genre littéraire à sa définition.",
+          "paires": [
+            {
+              "gauche": "La poésie",
+              "droite": "expression rythmée et harmonieuse des sentiments (vers)"
+            },
+            {
+              "gauche": "Le roman",
+              "droite": "récit de fiction assez long, personnages dans un temps et un espace"
+            },
+            {
+              "gauche": "Le théâtre",
+              "droite": "œuvre destinée à être jouée par des acteurs devant un public"
+            }
+          ],
+          "explication": "Les trois grands genres : poésie, roman, théâtre."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Lequel de ces genres n'est PAS régi par des lois de versification précises ?",
+          "options": [
+            "La poésie lyrique",
+            "Le roman",
+            "La poésie épique",
+            "La poésie dramatique"
+          ],
+          "reponse": 1,
+          "explication": "Le roman, contrairement à la poésie, n'est pas régi par des règles formelles précises."
+        }
+      ]
+    },
+    {
+      "id": "fr-u3-e2",
+      "titre": "Les genres dramatiques",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-genres-drama",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque genre dramatique à sa définition.",
+          "paires": [
+            {
+              "gauche": "La tragédie",
+              "droite": "personnages nobles dans des situations conflictuelles"
+            },
+            {
+              "gauche": "La comédie",
+              "droite": "décrit les mœurs pour provoquer le rire"
+            }
+          ],
+          "explication": "La tragédie est grave et héroïque ; la comédie fait rire (ironie, humour, parodie, caricature)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Au théâtre, un personnage qui aide le héros dans sa quête est un…",
+          "options": [
+            "opposant",
+            "adjuvant",
+            "narrateur",
+            "spectateur"
+          ],
+          "reponse": 1,
+          "explication": "L'adjuvant aide le héros ; l'opposant lui fait obstacle."
+        }
+      ]
+    },
+    {
+      "id": "fr-u3-e3",
+      "titre": "Les formes du roman",
+      "categorie": "exemples",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-genres-roman",
+      "activites": [
+        {
+          "type": "choix_multiple",
+          "question": "Parmi ces formes, lesquelles sont des types de roman ?",
+          "options": [
+            "Le roman policier",
+            "Le roman épistolaire",
+            "Le roman historique",
+            "La tragédie"
+          ],
+          "reponses": [
+            0,
+            1,
+            2
+          ],
+          "explication": "La tragédie est un genre dramatique, pas un type de roman."
+        }
+      ]
+    },
+    {
+      "id": "fr-u3-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "fr-c-genres-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelle affirmation est correcte ?",
+          "options": [
+            "Le théâtre se lit uniquement, sans acteurs",
+            "Le théâtre requiert la présence d'acteurs jouant devant un public",
+            "La poésie est un genre dramatique",
+            "Le roman est toujours en vers"
+          ],
+          "reponse": 1,
+          "explication": "Le théâtre est un spectacle joué par des acteurs devant un public."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

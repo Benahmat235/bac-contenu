@@ -1,0 +1,124 @@
+{
+  "id": "fr-u1",
+  "matiere": "francais",
+  "titre": "Généralités sur la littérature",
+  "ordre": 1,
+  "source": {
+    "document": "Français TA4",
+    "chapitre": "Généralités sur la littérature",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "fr-u1-e1",
+      "titre": "Les définitions des mots-clés",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-generalites-def",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Le mot « littérature » vient du latin litera, qui signifie ___ .",
+          "reponse": "écriture",
+          "toleranceMots": [
+            "écriture",
+            "ecriture"
+          ],
+          "explication": "Littérature < litera (écriture) : l'ensemble des œuvres écrites ou orales à finalité esthétique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle formule résume le rapport entre littérature et société ?",
+          "options": [
+            "La littérature est indépendante de la société",
+            "Toute littérature est le reflet d'une société",
+            "La littérature n'a pas d'histoire",
+            "La société imite la littérature"
+          ],
+          "reponse": 1,
+          "explication": "« Toute littérature est le reflet d'une société » et « à chaque époque correspond une littérature »."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la littérature négro-africaine ?",
+          "options": [
+            "La littérature de l'Europe",
+            "L'ensemble des productions littéraires et artistiques des Noirs d'Afrique et de la diaspora",
+            "Un genre théâtral",
+            "Un journal colonial"
+          ],
+          "reponse": 1,
+          "explication": "Elle exprime les valeurs culturelles des Africains et le cri du peuple noir opprimé."
+        }
+      ]
+    },
+    {
+      "id": "fr-u1-e2",
+      "titre": "Les repères historiques",
+      "categorie": "dates",
+      "seuilReussite": 80,
+      "competenceId": "fr-c-generalites-reperes",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque étape de la littérature négro-africaine à sa date.",
+          "paires": [
+            {
+              "gauche": "Âme noire de W. Du Bois",
+              "droite": "1903"
+            },
+            {
+              "gauche": "Revue Légitime Défense",
+              "droite": "1932"
+            },
+            {
+              "gauche": "Journal L'Étudiant noir",
+              "droite": "1934"
+            },
+            {
+              "gauche": "Cahier d'un retour au pays natal (Césaire)",
+              "droite": "1939"
+            }
+          ],
+          "explication": "Ces jalons marquent la naissance de la littérature nègre d'expression française."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui animait le journal L'Étudiant noir (1934) ?",
+          "options": [
+            "Victor Hugo, Zola, Balzac",
+            "Césaire, Senghor et Léon-Gontran Damas",
+            "Breton, Sartre, Camus",
+            "Du Bois seul"
+          ],
+          "reponse": 1,
+          "explication": "Césaire, Senghor et Damas y rassemblent les étudiants noirs autour d'une même idéologie."
+        }
+      ]
+    },
+    {
+      "id": "fr-u1-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "fr-c-generalites-synthese",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Cite un genre littéraire.",
+          "reponsesAcceptees": [
+            "le roman",
+            "le théâtre",
+            "la poésie",
+            "le conte",
+            "la nouvelle"
+          ],
+          "explication": "Les principaux genres : la poésie, le roman et le théâtre."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

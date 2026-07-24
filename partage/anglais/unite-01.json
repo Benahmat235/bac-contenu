@@ -1,0 +1,141 @@
+{
+  "id": "en-u1",
+  "matiere": "anglais",
+  "titre": "Vocabulary: key themes",
+  "ordre": 1,
+  "source": {
+    "document": "Anglais TA4 C D",
+    "chapitre": "Themes: Democracy, Development, Education...",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "en-u1-e1",
+      "titre": "Democracy: key words",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-voc-democracy",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "The word « democracy » comes from two Greek words: dêmos and kratein. What do they mean?",
+          "options": [
+            "'law' and 'order'",
+            "'people' and 'to govern'",
+            "'king' and 'power'",
+            "'city' and 'vote'"
+          ],
+          "reponse": 1,
+          "explication": "Dêmos = people, kratein = to govern. Democracy = government by the people."
+        },
+        {
+          "type": "association",
+          "consigne": "Match each English election word with its French meaning.",
+          "paires": [
+            {
+              "gauche": "Polling station",
+              "droite": "bureau de vote"
+            },
+            {
+              "gauche": "A voting booth",
+              "droite": "un isoloir"
+            },
+            {
+              "gauche": "By secret ballot",
+              "droite": "à bulletin secret"
+            },
+            {
+              "gauche": "Indelible ink",
+              "droite": "encre indélébile"
+            }
+          ],
+          "explication": "Vocabulary of elections and voting."
+        },
+        {
+          "type": "association",
+          "consigne": "Match each word with its French meaning.",
+          "paires": [
+            {
+              "gauche": "Bribes",
+              "droite": "pots-de-vin"
+            },
+            {
+              "gauche": "Manifesto",
+              "droite": "programme (politique)"
+            },
+            {
+              "gauche": "Campaign rally",
+              "droite": "meeting politique"
+            },
+            {
+              "gauche": "Election monitors",
+              "droite": "observateurs électoraux"
+            }
+          ],
+          "explication": "Vocabulary of political campaigns."
+        }
+      ]
+    },
+    {
+      "id": "en-u1-e2",
+      "titre": "Development & Education",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-voc-dev-edu",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Match each theme with a key idea.",
+          "paires": [
+            {
+              "gauche": "Development",
+              "droite": "economic and social progress of a country"
+            },
+            {
+              "gauche": "Education",
+              "droite": "teaching and learning to build knowledge"
+            },
+            {
+              "gauche": "Democracy",
+              "droite": "government where the people are sovereign"
+            }
+          ],
+          "explication": "The course is organised around themes (Democracy, Development, Education...)."
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "A person who has the right to vote in an election is called a ___ .",
+          "reponse": "voter",
+          "toleranceMots": [
+            "voter"
+          ],
+          "explication": "A voter is someone entitled to cast a vote."
+        }
+      ]
+    },
+    {
+      "id": "en-u1-defi",
+      "titre": "Mastery challenge",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "en-c-voc-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Which sentence uses the vocabulary correctly?",
+          "options": [
+            "He cast his vote by secret ballot at the polling station.",
+            "He voted the manifesto in the booth ink.",
+            "The bribe monitored the election booth.",
+            "The rally counted the indelible voter."
+          ],
+          "reponse": 0,
+          "explication": "Correct use of election vocabulary."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

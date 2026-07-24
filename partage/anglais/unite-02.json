@@ -1,0 +1,145 @@
+{
+  "id": "en-u2",
+  "matiere": "anglais",
+  "titre": "English tenses",
+  "ordre": 2,
+  "source": {
+    "document": "Anglais TA4 C D",
+    "chapitre": "Grammar: present, past, perfect, future tenses",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "en-u2-e1",
+      "titre": "Present tenses",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-present",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Which sentence expresses a habit (present simple)?",
+          "options": [
+            "She is reading now.",
+            "She reads every morning.",
+            "She has read the book.",
+            "She will read tomorrow."
+          ],
+          "reponse": 1,
+          "explication": "The present simple expresses habits and general truths; the present continuous expresses actions happening now."
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Complete (present continuous): « Look! The children ___ (play) football right now. »",
+          "reponse": "are playing",
+          "toleranceMots": [
+            "are playing"
+          ],
+          "explication": "Present continuous = be + verb-ing, for an action happening now."
+        }
+      ]
+    },
+    {
+      "id": "en-u2-e2",
+      "titre": "Past tenses",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-past",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Which sentence is in the past simple?",
+          "options": [
+            "He was playing when I arrived.",
+            "He plays football.",
+            "He played football yesterday.",
+            "He has played football."
+          ],
+          "reponse": 2,
+          "explication": "Past simple = finished action at a definite past time (yesterday)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Choose the past continuous: an action in progress in the past.",
+          "options": [
+            "I watched TV.",
+            "I was watching TV when the phone rang.",
+            "I have watched TV.",
+            "I watch TV."
+          ],
+          "reponse": 1,
+          "explication": "Past continuous = was/were + verb-ing, for an action in progress in the past."
+        }
+      ]
+    },
+    {
+      "id": "en-u2-e3",
+      "titre": "Perfect & future",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "en-c-perfect-future",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Which sentence is in the present perfect?",
+          "options": [
+            "I have already finished my homework.",
+            "I finished my homework yesterday.",
+            "I finish my homework.",
+            "I will finish my homework."
+          ],
+          "reponse": 0,
+          "explication": "Present perfect = have/has + past participle; links a past action to the present."
+        },
+        {
+          "type": "association",
+          "consigne": "Match each future form with its use.",
+          "paires": [
+            {
+              "gauche": "will + verb",
+              "droite": "a spontaneous decision or prediction"
+            },
+            {
+              "gauche": "be going to + verb",
+              "droite": "an intention or plan"
+            },
+            {
+              "gauche": "present continuous",
+              "droite": "a fixed arrangement in the near future"
+            }
+          ],
+          "explication": "English expresses the future in several ways."
+        }
+      ]
+    },
+    {
+      "id": "en-u2-defi",
+      "titre": "Mastery challenge",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "en-c-tenses-synthese",
+      "activites": [
+        {
+          "type": "classement",
+          "consigne": "Put these sentences in order from past to future.",
+          "elements": [
+            "I had finished before he came. (past perfect)",
+            "I finished yesterday. (past simple)",
+            "I have just finished. (present perfect)",
+            "I will finish tomorrow. (future)"
+          ],
+          "ordreCorrect": [
+            "I had finished before he came. (past perfect)",
+            "I finished yesterday. (past simple)",
+            "I have just finished. (present perfect)",
+            "I will finish tomorrow. (future)"
+          ],
+          "explication": "Timeline: past perfect < past simple < present perfect < future."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}
