@@ -1,5 +1,5 @@
 {
-  "contentVersion": 6,
+  "contentVersion": 7,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -96,10 +96,12 @@
           "id": "mathematiques-a4",
           "titre": "Mathématiques",
           "type": "scientifique",
-          "version": 2,
+          "version": 3,
           "chemin": "a4/mathematiques/",
           "fichiers": [
-            "a4/mathematiques/unite-01.json"
+            "a4/mathematiques/unite-01.json",
+            "a4/mathematiques/unite-02.json",
+            "a4/mathematiques/unite-03.json"
           ]
         }
       ]

@@ -2,14 +2,32 @@
   "id": "mathematiques-a4",
   "titre": "Mathématiques",
   "type": "scientifique",
-  "seriesConcernees": ["a4"],
-  "description": "Équations et fonctions : formules à mémoriser, exercices corrigés et quiz.",
+  "seriesConcernees": [
+    "a4"
+  ],
+  "description": "Équations, fonctions et probabilités : formules, exercices corrigés et quiz.",
   "unites": [
     {
       "id": "math-a4-u1",
       "titre": "Le second degré : équations et inéquations",
       "ordre": 1,
       "fichier": "a4/mathematiques/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "math-a4-u2",
+      "titre": "Étude de fonction : limites, dérivées et tangentes",
+      "ordre": 2,
+      "fichier": "a4/mathematiques/unite-02.json",
+      "prerequis": [
+        "math-a4-u1"
+      ]
+    },
+    {
+      "id": "math-a4-u3",
+      "titre": "Probabilité : dénombrement et calcul des probabilités",
+      "ordre": 3,
+      "fichier": "a4/mathematiques/unite-03.json",
       "prerequis": []
     }
   ]
