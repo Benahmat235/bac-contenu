@@ -1,0 +1,136 @@
+{
+  "contentVersion": 1,
+  "updatedAt": "2026-07-24",
+  "minAppVersion": "1.0.0",
+  "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
+  "langue": "fr",
+  "pays": "TD",
+  "matieresPartagees": {
+    "anglais": {
+      "id": "anglais",
+      "titre": "Anglais",
+      "version": 1,
+      "chemin": "partage/anglais/",
+      "fichiers": []
+    },
+    "francais": {
+      "id": "francais",
+      "titre": "Français",
+      "version": 1,
+      "chemin": "partage/francais/",
+      "fichiers": []
+    },
+    "histoire": {
+      "id": "histoire",
+      "titre": "Histoire",
+      "version": 1,
+      "chemin": "partage/histoire/",
+      "fichiers": [
+        "partage/histoire/unite-01.json"
+      ]
+    },
+    "geographie": {
+      "id": "geographie",
+      "titre": "Géographie",
+      "version": 1,
+      "chemin": "partage/geographie/",
+      "fichiers": []
+    }
+  },
+  "series": [
+    {
+      "id": "a4",
+      "titre": "Série A4 - Littéraire",
+      "matieres": [
+        { "ref": "histoire" },
+        { "ref": "geographie" },
+        { "ref": "francais" },
+        { "ref": "anglais" },
+        {
+          "id": "philosophie",
+          "titre": "Philosophie",
+          "type": "propre",
+          "version": 1,
+          "chemin": "a4/philosophie/",
+          "fichiers": []
+        },
+        {
+          "id": "mathematiques-a4",
+          "titre": "Mathématiques",
+          "type": "propre",
+          "version": 1,
+          "chemin": "a4/mathematiques/",
+          "fichiers": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "titre": "Série C - Scientifique",
+      "matieres": [
+        { "ref": "histoire" },
+        { "ref": "geographie" },
+        { "ref": "francais" },
+        { "ref": "anglais" },
+        {
+          "id": "mathematiques-c",
+          "titre": "Mathématiques",
+          "type": "propre",
+          "version": 1,
+          "chemin": "c/mathematiques/",
+          "fichiers": []
+        },
+        {
+          "id": "physique-c",
+          "titre": "Physique",
+          "type": "propre",
+          "version": 1,
+          "chemin": "c/physique/",
+          "fichiers": []
+        },
+        {
+          "id": "chimie-c",
+          "titre": "Chimie",
+          "type": "propre",
+          "version": 1,
+          "chemin": "c/chimie/",
+          "fichiers": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "titre": "Série D - Scientifique",
+      "matieres": [
+        { "ref": "histoire" },
+        { "ref": "geographie" },
+        { "ref": "francais" },
+        { "ref": "anglais" },
+        {
+          "id": "mathematiques-d",
+          "titre": "Mathématiques",
+          "type": "propre",
+          "version": 1,
+          "chemin": "d/mathematiques/",
+          "fichiers": []
+        },
+        {
+          "id": "physique-d",
+          "titre": "Physique",
+          "type": "propre",
+          "version": 1,
+          "chemin": "d/physique/",
+          "fichiers": []
+        },
+        {
+          "id": "chimie-d",
+          "titre": "Chimie",
+          "type": "propre",
+          "version": 1,
+          "chemin": "d/chimie/",
+          "fichiers": []
+        }
+      ]
+    }
+  ]
+}

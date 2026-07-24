@@ -1,0 +1,15 @@
+{
+  "id": "histoire",
+  "titre": "Histoire",
+  "seriesConcernees": ["a4", "c", "d"],
+  "description": "Le monde de 1945 à nos jours et l'Afrique contemporaine.",
+  "unites": [
+    {
+      "id": "hist-u1",
+      "titre": "Le monde en 1945 : bilan de la guerre",
+      "ordre": 1,
+      "fichier": "partage/histoire/unite-01.json",
+      "prerequis": []
+    }
+  ]
+}
