@@ -1,0 +1,17 @@
+{
+  "id": "physique-d",
+  "titre": "Physique",
+  "type": "scientifique",
+  "seriesConcernees": ["d"],
+  "description": "Mécanique, champs, oscillations et électricité : formules, exercices corrigés et quiz.",
+  "unites": [
+    { "id": "phy-d-cin", "titre": "Cinématique", "ordre": 1, "fichier": "d/physique/unite-01.json", "prerequis": [] },
+    { "id": "phy-d-champ", "titre": "Champs et interactions", "ordre": 2, "fichier": "d/physique/unite-02.json", "prerequis": [] },
+    { "id": "phy-d-grav", "titre": "Interaction gravitationnelle et satellites", "ordre": 3, "fichier": "d/physique/unite-03.json", "prerequis": ["phy-d-champ"] },
+    { "id": "phy-d-dyn", "titre": "Mouvement d'une particule soumise à une force constante", "ordre": 4, "fichier": "d/physique/unite-04.json", "prerequis": ["phy-d-cin"] },
+    { "id": "phy-d-osc", "titre": "Les oscillations mécaniques", "ordre": 5, "fichier": "d/physique/unite-05.json", "prerequis": [] },
+    { "id": "phy-d-em", "titre": "Électromagnétisme", "ordre": 6, "fichier": "d/physique/unite-06.json", "prerequis": ["phy-d-champ"] },
+    { "id": "phy-d-lc", "titre": "Les circuits oscillants", "ordre": 7, "fichier": "d/physique/unite-07.json", "prerequis": [] },
+    { "id": "phy-d-rlc", "titre": "Circuits RLC en régime sinusoïdal forcé", "ordre": 8, "fichier": "d/physique/unite-08.json", "prerequis": ["phy-d-lc"] }
+  ]
+}

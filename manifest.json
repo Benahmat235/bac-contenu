@@ -1,5 +1,5 @@
 {
-  "contentVersion": 9,
+  "contentVersion": 10,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -146,10 +146,20 @@
         {
           "id": "physique-c",
           "titre": "Physique",
-          "type": "propre",
-          "version": 1,
+          "type": "scientifique",
+          "version": 2,
           "chemin": "c/physique/",
-          "fichiers": []
+          "fichiers": [
+            "c/physique/unite-01.json",
+            "c/physique/unite-02.json",
+            "c/physique/unite-03.json",
+            "c/physique/unite-04.json",
+            "c/physique/unite-05.json",
+            "c/physique/unite-06.json",
+            "c/physique/unite-07.json",
+            "c/physique/unite-08.json",
+            "c/physique/unite-09.json"
+          ]
         },
         {
           "id": "chimie-c",
@@ -198,10 +208,19 @@
         {
           "id": "physique-d",
           "titre": "Physique",
-          "type": "propre",
-          "version": 1,
+          "type": "scientifique",
+          "version": 2,
           "chemin": "d/physique/",
-          "fichiers": []
+          "fichiers": [
+            "d/physique/unite-01.json",
+            "d/physique/unite-02.json",
+            "d/physique/unite-03.json",
+            "d/physique/unite-04.json",
+            "d/physique/unite-05.json",
+            "d/physique/unite-06.json",
+            "d/physique/unite-07.json",
+            "d/physique/unite-08.json"
+          ]
         },
         {
           "id": "chimie-d",

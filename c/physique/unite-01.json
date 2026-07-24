@@ -1,0 +1,458 @@
+{
+  "id": "phy-c-cin",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Cinématique",
+  "ordre": 1,
+  "source": {
+    "document": "Physique TC",
+    "chapitre": "Chapitre 1 : La cinématique",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Vitesse en MRUV",
+      "verso": "v = v₀ + a·t",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Position en MRUV",
+      "verso": "x = x₀ + v₀·t + ½·a·t²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Mouvement rectiligne uniforme (MRU)",
+      "verso": "x = v·t (a = 0)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Relation sans le temps",
+      "verso": "v² − v₀² = 2·a·(x − x₀)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pulsation et période",
+      "verso": "ω = 2π/T = 2π·N",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vitesse linéaire (circulaire)",
+      "verso": "v = R·ω",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération normale",
+      "verso": "aₙ = v²/R = ω²·R",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération",
+      "verso": "a = Δv/Δt",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "phy-c-cin-cin-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-cin-c-mruv",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Vitesse en MRUV ?",
+          "verso": "v = v₀ + a·t",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération normale (circulaire) ?",
+          "verso": "aₙ = ω²·R",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "phy-c-cin-cin-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-cin-c-mruv",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "En MRUV, la vitesse s'écrit :",
+          "options": [
+            "v = v₀ + a·t",
+            "v = ½at²",
+            "v = R·ω",
+            "v = 2π/T"
+          ],
+          "reponse": 0,
+          "explication": "Définition du MRUV."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Un mouvement uniforme a une accélération :",
+          "options": [
+            "constante non nulle",
+            "nulle",
+            "variable",
+            "négative"
+          ],
+          "reponse": 1,
+          "explication": "Uniforme ⇒ a = 0."
+        }
+      ]
+    },
+    {
+      "id": "phy-c-cin-cin-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-cin-c-mruv",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Résoudre un problème de cinématique (MRUV) :",
+          "etapes": [
+            "Repérer les données : v₀, a, t (ou x)",
+            "Choisir la bonne relation (v = v₀+at ou x = v₀t + ½at²)",
+            "Remplacer par les valeurs",
+            "Calculer et donner l'unité"
+          ],
+          "ordreCorrect": [
+            "Repérer les données : v₀, a, t (ou x)",
+            "Choisir la bonne relation (v = v₀+at ou x = v₀t + ½at²)",
+            "Remplacer par les valeurs",
+            "Calculer et donner l'unité"
+          ],
+          "explication": "On choisit la relation selon l'inconnue."
+        }
+      ]
+    },
+    {
+      "id": "phy-c-cin-cin-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-cin-c-mruv",
+      "activites": [
+        {
+          "id": "phy-c-cin-ex01",
+          "enonce": "MRUV : v₀ = 0 m/s, a = 2 m/s², t = 5 s. Calculer la vitesse v.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "v = v₀ + a·t",
+            "v = 0 + 2×5"
+          ],
+          "reponseFinale": "v = 10 m/s",
+          "competenceId": "phy-c-cin-c-mruv"
+        },
+        {
+          "id": "phy-c-cin-ex02",
+          "enonce": "MRUV : v₀ = 10 m/s, a = 3 m/s², t = 4 s. Calculer la vitesse v.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "v = v₀ + a·t",
+            "v = 10 + 3×4"
+          ],
+          "reponseFinale": "v = 22 m/s",
+          "competenceId": "phy-c-cin-c-mruv"
+        },
+        {
+          "id": "phy-c-cin-ex03",
+          "enonce": "MRUV : v₀ = 20 m/s, a = -2 m/s², t = 5 s. Calculer la vitesse v.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "v = v₀ + a·t",
+            "v = 20 + -2×5"
+          ],
+          "reponseFinale": "v = 10 m/s",
+          "competenceId": "phy-c-cin-c-mruv"
+        },
+        {
+          "id": "phy-c-cin-ex04",
+          "enonce": "MRUV : v₀ = 5 m/s, a = 4 m/s², t = 3 s. Calculer la vitesse v.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "v = v₀ + a·t",
+            "v = 5 + 4×3"
+          ],
+          "reponseFinale": "v = 17 m/s",
+          "competenceId": "phy-c-cin-c-mruv"
+        }
+      ]
+    },
+    {
+      "id": "phy-c-cin-cin-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "phy-c-cin-c-circulaire",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "R = 2 m, ω = 3 rad/s. L'accélération normale vaut :",
+          "options": [
+            "6 m/s²",
+            "18 m/s²",
+            "12 m/s²",
+            "9 m/s²"
+          ],
+          "reponse": 1,
+          "explication": "aₙ=ω²R=9×2=18."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-c-cin-ex01",
+      "enonce": "MRUV : v₀ = 0 m/s, a = 2 m/s², t = 5 s. Calculer la vitesse v.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 0 + 2×5"
+      ],
+      "reponseFinale": "v = 10 m/s",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex02",
+      "enonce": "MRUV : v₀ = 10 m/s, a = 3 m/s², t = 4 s. Calculer la vitesse v.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 10 + 3×4"
+      ],
+      "reponseFinale": "v = 22 m/s",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex03",
+      "enonce": "MRUV : v₀ = 20 m/s, a = -2 m/s², t = 5 s. Calculer la vitesse v.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 20 + -2×5"
+      ],
+      "reponseFinale": "v = 10 m/s",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex04",
+      "enonce": "MRUV : v₀ = 5 m/s, a = 4 m/s², t = 3 s. Calculer la vitesse v.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 5 + 4×3"
+      ],
+      "reponseFinale": "v = 17 m/s",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex05",
+      "enonce": "MRUV : v₀ = 0 m/s, a = 9.8 m/s², t = 2 s. Calculer la vitesse v.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 0 + 9.8×2"
+      ],
+      "reponseFinale": "v = 19.6 m/s",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex06",
+      "enonce": "MRUV : v₀ = 0 m/s, a = 2 m/s², t = 5 s. Calculer la distance parcourue x.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "x = v₀·t + ½·a·t²",
+        "x = 0×5 + 0,5×2×5²"
+      ],
+      "reponseFinale": "x = 25 m",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex07",
+      "enonce": "MRUV : v₀ = 10 m/s, a = 3 m/s², t = 4 s. Calculer la distance parcourue x.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "x = v₀·t + ½·a·t²",
+        "x = 10×4 + 0,5×3×4²"
+      ],
+      "reponseFinale": "x = 64 m",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex08",
+      "enonce": "MRUV : v₀ = 0 m/s, a = 4 m/s², t = 6 s. Calculer la distance parcourue x.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "x = v₀·t + ½·a·t²",
+        "x = 0×6 + 0,5×4×6²"
+      ],
+      "reponseFinale": "x = 72 m",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex09",
+      "enonce": "MRUV : v₀ = 5 m/s, a = 2 m/s², t = 10 s. Calculer la distance parcourue x.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "x = v₀·t + ½·a·t²",
+        "x = 5×10 + 0,5×2×10²"
+      ],
+      "reponseFinale": "x = 150 m",
+      "competenceId": "phy-c-cin-c-mruv"
+    },
+    {
+      "id": "phy-c-cin-ex10",
+      "enonce": "MRU : un mobile parcourt 100 m à la vitesse constante 20 m/s. Durée du trajet ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "t = d/v",
+        "t = 100/20"
+      ],
+      "reponseFinale": "t = 5 s",
+      "competenceId": "phy-c-cin-c-mru"
+    },
+    {
+      "id": "phy-c-cin-ex11",
+      "enonce": "MRU : un mobile parcourt 45 m à la vitesse constante 15 m/s. Durée du trajet ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "t = d/v",
+        "t = 45/15"
+      ],
+      "reponseFinale": "t = 3 s",
+      "competenceId": "phy-c-cin-c-mru"
+    },
+    {
+      "id": "phy-c-cin-ex12",
+      "enonce": "MRU : un mobile parcourt 150 m à la vitesse constante 30 m/s. Durée du trajet ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "t = d/v",
+        "t = 150/30"
+      ],
+      "reponseFinale": "t = 5 s",
+      "competenceId": "phy-c-cin-c-mru"
+    },
+    {
+      "id": "phy-c-cin-ex13",
+      "enonce": "Mouvement circulaire uniforme de période T = 2 s. Calculer la pulsation ω.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ω = 2π/T",
+        "ω = 2π/2"
+      ],
+      "reponseFinale": "ω ≈ 3.14 rad/s",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex14",
+      "enonce": "Mouvement circulaire uniforme de période T = 0.5 s. Calculer la pulsation ω.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ω = 2π/T",
+        "ω = 2π/0.5"
+      ],
+      "reponseFinale": "ω ≈ 12.57 rad/s",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex15",
+      "enonce": "Mouvement circulaire uniforme de période T = 4 s. Calculer la pulsation ω.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ω = 2π/T",
+        "ω = 2π/4"
+      ],
+      "reponseFinale": "ω ≈ 1.57 rad/s",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex16",
+      "enonce": "Mouvement circulaire : R = 2 m, ω = 3 rad/s. Calculer la vitesse linéaire v.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = R·ω",
+        "v = 2×3"
+      ],
+      "reponseFinale": "v = 6 m/s",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex17",
+      "enonce": "Mouvement circulaire : R = 0.5 m, ω = 10 rad/s. Calculer la vitesse linéaire v.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = R·ω",
+        "v = 0.5×10"
+      ],
+      "reponseFinale": "v = 5 m/s",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex18",
+      "enonce": "Mouvement circulaire : R = 1.5 m, ω = 4 rad/s. Calculer la vitesse linéaire v.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = R·ω",
+        "v = 1.5×4"
+      ],
+      "reponseFinale": "v = 6 m/s",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex19",
+      "enonce": "Mouvement circulaire : R = 2 m, ω = 3 rad/s. Calculer l'accélération normale aₙ.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "aₙ = ω²·R",
+        "aₙ = 3²×2"
+      ],
+      "reponseFinale": "aₙ = 18 m/s²",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex20",
+      "enonce": "Mouvement circulaire : R = 0.5 m, ω = 10 rad/s. Calculer l'accélération normale aₙ.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "aₙ = ω²·R",
+        "aₙ = 10²×0.5"
+      ],
+      "reponseFinale": "aₙ = 50 m/s²",
+      "competenceId": "phy-c-cin-c-circulaire"
+    },
+    {
+      "id": "phy-c-cin-ex21",
+      "enonce": "Un mobile a une vitesse constante. Que vaut son accélération ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Vitesse constante ⇒ a = 0"
+      ],
+      "reponseFinale": "a = 0 (mouvement uniforme)",
+      "competenceId": "phy-c-cin-c-mru"
+    }
+  ]
+}

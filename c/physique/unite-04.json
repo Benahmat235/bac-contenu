@@ -1,0 +1,461 @@
+{
+  "id": "phy-c-newton",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Application des lois de Newton",
+  "ordre": 4,
+  "source": {
+    "document": "Physique TC",
+    "chapitre": "Chapitre 4 : Application des lois de Newton",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Théorème de l'énergie cinétique",
+      "verso": "ΔEc = ΣW(forces)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Projectile : équations horaires",
+      "verso": "x = v₀·t ; y = ½·g·t²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Poids d'un corps",
+      "verso": "P = m·g",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération (force constante)",
+      "verso": "a = F/m (constante)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "phy-c-newton-dyn-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-newton-c-newton",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "2ᵉ loi de Newton ?",
+          "verso": "ΣF = m·a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique ?",
+          "verso": "Ec = ½·m·v²",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "phy-c-newton-dyn-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-newton-c-newton",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La 2ᵉ loi de Newton s'écrit :",
+          "options": [
+            "ΣF = m·a",
+            "ΣF = 0",
+            "E = ½mv²",
+            "P = mgh"
+          ],
+          "reponse": 0,
+          "explication": "Principe fondamental de la dynamique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "L'énergie cinétique est :",
+          "options": [
+            "m·g·h",
+            "½·m·v²",
+            "m·a",
+            "B·I·l"
+          ],
+          "reponse": 1,
+          "explication": "Ec = ½mv²."
+        }
+      ]
+    },
+    {
+      "id": "phy-c-newton-dyn-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-newton-c-energie",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Appliquer le théorème de l'énergie cinétique :",
+          "etapes": [
+            "Faire le bilan des forces",
+            "Calculer le travail de chaque force",
+            "Écrire ΔEc = ΣW",
+            "Isoler l'inconnue et calculer"
+          ],
+          "ordreCorrect": [
+            "Faire le bilan des forces",
+            "Calculer le travail de chaque force",
+            "Écrire ΔEc = ΣW",
+            "Isoler l'inconnue et calculer"
+          ],
+          "explication": "ΔEc = somme des travaux."
+        }
+      ]
+    },
+    {
+      "id": "phy-c-newton-dyn-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "phy-c-newton-c-newton",
+      "activites": [
+        {
+          "id": "phy-c-newton-ex01",
+          "enonce": "Une force résultante F = 20 N s'applique à une masse m = 4 kg. Calculer l'accélération a.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+            "a = 20/4"
+          ],
+          "reponseFinale": "a = 5 m/s²",
+          "competenceId": "phy-c-newton-c-newton"
+        },
+        {
+          "id": "phy-c-newton-ex02",
+          "enonce": "Une force résultante F = 100 N s'applique à une masse m = 50 kg. Calculer l'accélération a.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+            "a = 100/50"
+          ],
+          "reponseFinale": "a = 2 m/s²",
+          "competenceId": "phy-c-newton-c-newton"
+        },
+        {
+          "id": "phy-c-newton-ex03",
+          "enonce": "Une force résultante F = 12 N s'applique à une masse m = 3 kg. Calculer l'accélération a.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+            "a = 12/3"
+          ],
+          "reponseFinale": "a = 4 m/s²",
+          "competenceId": "phy-c-newton-c-newton"
+        },
+        {
+          "id": "phy-c-newton-ex04",
+          "enonce": "Une force résultante F = 50 N s'applique à une masse m = 10 kg. Calculer l'accélération a.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+            "a = 50/10"
+          ],
+          "reponseFinale": "a = 5 m/s²",
+          "competenceId": "phy-c-newton-c-newton"
+        }
+      ]
+    },
+    {
+      "id": "phy-c-newton-dyn-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "phy-c-newton-c-energie",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "m = 2 kg, v = 10 m/s. L'énergie cinétique vaut :",
+          "options": [
+            "100 J",
+            "20 J",
+            "200 J",
+            "10 J"
+          ],
+          "reponse": 0,
+          "explication": "Ec=½×2×10²=100 J."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-c-newton-ex01",
+      "enonce": "Une force résultante F = 20 N s'applique à une masse m = 4 kg. Calculer l'accélération a.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+        "a = 20/4"
+      ],
+      "reponseFinale": "a = 5 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex02",
+      "enonce": "Une force résultante F = 100 N s'applique à une masse m = 50 kg. Calculer l'accélération a.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+        "a = 100/50"
+      ],
+      "reponseFinale": "a = 2 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex03",
+      "enonce": "Une force résultante F = 12 N s'applique à une masse m = 3 kg. Calculer l'accélération a.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+        "a = 12/3"
+      ],
+      "reponseFinale": "a = 4 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex04",
+      "enonce": "Une force résultante F = 50 N s'applique à une masse m = 10 kg. Calculer l'accélération a.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+        "a = 50/10"
+      ],
+      "reponseFinale": "a = 5 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex05",
+      "enonce": "Une force résultante F = 9 N s'applique à une masse m = 3 kg. Calculer l'accélération a.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "2ᵉ loi de Newton : F = m·a ⇒ a = F/m",
+        "a = 9/3"
+      ],
+      "reponseFinale": "a = 3 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex06",
+      "enonce": "Énergie cinétique d'un solide de masse m = 2 kg à la vitesse v = 10 m/s.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ec = ½·m·v²",
+        "Ec = 0,5×2×10²"
+      ],
+      "reponseFinale": "Ec = 100 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex07",
+      "enonce": "Énergie cinétique d'un solide de masse m = 0.5 kg à la vitesse v = 20 m/s.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ec = ½·m·v²",
+        "Ec = 0,5×0.5×20²"
+      ],
+      "reponseFinale": "Ec = 100 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex08",
+      "enonce": "Énergie cinétique d'un solide de masse m = 1000 kg à la vitesse v = 30 m/s.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ec = ½·m·v²",
+        "Ec = 0,5×1000×30²"
+      ],
+      "reponseFinale": "Ec = 450000 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex09",
+      "enonce": "Énergie cinétique d'un solide de masse m = 0.1 kg à la vitesse v = 50 m/s.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ec = ½·m·v²",
+        "Ec = 0,5×0.1×50²"
+      ],
+      "reponseFinale": "Ec = 125 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex10",
+      "enonce": "Énergie potentielle de pesanteur : m = 2 kg, h = 5 m (g = 10).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ep = m·g·h",
+        "Ep = 2×10×5"
+      ],
+      "reponseFinale": "Ep = 100 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex11",
+      "enonce": "Énergie potentielle de pesanteur : m = 10 kg, h = 3 m (g = 10).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ep = m·g·h",
+        "Ep = 10×10×3"
+      ],
+      "reponseFinale": "Ep = 300 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex12",
+      "enonce": "Énergie potentielle de pesanteur : m = 0.5 kg, h = 20 m (g = 10).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ep = m·g·h",
+        "Ep = 0.5×10×20"
+      ],
+      "reponseFinale": "Ep = 100 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex13",
+      "enonce": "Chute/lancement avec a = 2 m/s², v₀ = 0 m/s. Vitesse après 3 s ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 0 + 2×3"
+      ],
+      "reponseFinale": "v = 6 m/s",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex14",
+      "enonce": "Chute/lancement avec a = 3 m/s², v₀ = 5 m/s. Vitesse après 2 s ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = v₀ + a·t",
+        "v = 5 + 3×2"
+      ],
+      "reponseFinale": "v = 11 m/s",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex15",
+      "enonce": "Théorème de l'énergie cinétique : m = 2 kg, la vitesse passe de 0 à 10 m/s. Travail de la force ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "W = ΔEc = ½m(v₂² − v₁²)",
+        "W = 0,5×2×(10² − 0²)"
+      ],
+      "reponseFinale": "W = 100 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex16",
+      "enonce": "Théorème de l'énergie cinétique : m = 5 kg, la vitesse passe de 4 à 0 m/s. Travail de la force ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "W = ΔEc = ½m(v₂² − v₁²)",
+        "W = 0,5×5×(0² − 4²)"
+      ],
+      "reponseFinale": "W = -40 J",
+      "competenceId": "phy-c-newton-c-energie"
+    },
+    {
+      "id": "phy-c-newton-ex17",
+      "enonce": "Projectile lancé horizontalement à v₀ = 10 m/s. Après t = 2 s (g = 10), position (x ; y) ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "x = v₀·t",
+        "y = ½·g·t²",
+        "x = 10×2 ; y = 0,5×10×2²"
+      ],
+      "reponseFinale": "x = 20 m ; y = 20 m",
+      "competenceId": "phy-c-newton-c-projectile"
+    },
+    {
+      "id": "phy-c-newton-ex18",
+      "enonce": "Projectile lancé horizontalement à v₀ = 20 m/s. Après t = 1.5 s (g = 10), position (x ; y) ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "x = v₀·t",
+        "y = ½·g·t²",
+        "x = 20×1.5 ; y = 0,5×10×1.5²"
+      ],
+      "reponseFinale": "x = 30 m ; y = 11.25 m",
+      "competenceId": "phy-c-newton-c-projectile"
+    },
+    {
+      "id": "phy-c-newton-ex19",
+      "enonce": "Dans un référentiel galiléen, si la somme des forces est nulle, le mouvement est :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "1ère loi de Newton (inertie)",
+        "rectiligne uniforme (ou repos)"
+      ],
+      "reponseFinale": "rectiligne uniforme",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex20",
+      "enonce": "Force résultante F = 30 N sur une masse m = 6 kg. Accélération a ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "a = F/m",
+        "a = 30/6"
+      ],
+      "reponseFinale": "a = 5 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    },
+    {
+      "id": "phy-c-newton-ex21",
+      "enonce": "Force résultante F = 45 N sur une masse m = 9 kg. Accélération a ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "a = F/m",
+        "a = 45/9"
+      ],
+      "reponseFinale": "a = 5 m/s²",
+      "competenceId": "phy-c-newton-c-newton"
+    }
+  ]
+}
