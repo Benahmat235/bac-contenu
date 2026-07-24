@@ -418,5 +418,21 @@
       "reponseFinale": "2 types de gamètes (A et a)",
       "competenceId": "svt-c-mo-mono"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Le monohybridisme : les lois de Mendel (TS)",
+      "url": "https://youtu.be/vTgLaMHKEKo",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Lois de Mendel",
+      "url": "https://youtu.be/Z8mC-hCbdVI",
+      "type": "video",
+      "chaine": "Mathrix",
+      "auteur": "Mathrix"
+    }
   ]
 }

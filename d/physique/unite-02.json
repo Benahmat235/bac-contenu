@@ -443,5 +443,21 @@
       "reponseFinale": "F = 0.3 N",
       "competenceId": "phy-d-champ-c-laplace"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Champ électrostatique et gravitation",
+      "url": "https://youtu.be/ubpMM5b3kTQ",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Champ magnétique : résumé de cours",
+      "url": "https://youtu.be/roVLKGxcnPU",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
   ]
 }

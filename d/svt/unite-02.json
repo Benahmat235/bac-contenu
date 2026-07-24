@@ -417,5 +417,21 @@
       "reponseFinale": "L'uracile (U)",
       "competenceId": "svt-d-ig-arn"
     }
+  ],
+  "videos": [
+    {
+      "titre": "ADN, chromosomes, gènes, allèles : quelles différences ?",
+      "url": "https://youtu.be/6IOAaNdKCrE",
+      "type": "video",
+      "chaine": "Sciences, Terre et Vie",
+      "auteur": "Sciences, Terre et Vie"
+    },
+    {
+      "titre": "L'ADN et l'information génétique",
+      "url": "https://youtu.be/ibuLXGBI4Kg",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
   ]
 }

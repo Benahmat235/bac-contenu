@@ -259,5 +259,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "L'État (cours)",
+      "url": "https://youtu.be/-n8Le8cIP9c",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "L'État et le pouvoir politique",
+      "url": "https://youtu.be/0HPKbR1qiNE",
+      "type": "video",
+      "chaine": "PREPA BAC",
+      "auteur": "PREPA BAC"
+    }
   ]
 }

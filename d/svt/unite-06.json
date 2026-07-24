@@ -408,5 +408,21 @@
       "reponseFinale": "Les règles (menstruations)",
       "competenceId": "svt-d-rh-cycle"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Cycle ovarien, cycle utérin et régulation hormonale",
+      "url": "https://youtu.be/fFyAfuCZCHk",
+      "type": "video",
+      "chaine": "Easy Biology",
+      "auteur": "Easy Biology"
+    },
+    {
+      "titre": "Au cœur des organes : le cycle ovarien",
+      "url": "https://youtu.be/9wK8G60rDZA",
+      "type": "video",
+      "chaine": "Inserm",
+      "auteur": "Inserm"
+    }
   ]
 }

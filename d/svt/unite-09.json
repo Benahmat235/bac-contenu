@@ -384,5 +384,21 @@
       "reponseFinale": "Tous les F1 sont doubles hétérozygotes identiques",
       "competenceId": "svt-d-di-di"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Le dihybridisme (TS)",
+      "url": "https://youtu.be/862iK6nWbQk",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Exercices corrigés : le dihybridisme (Terminale)",
+      "url": "https://youtu.be/L6tKgZie4uo",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
   ]
 }

@@ -434,5 +434,21 @@
       "reponseFinale": "P = 5 W",
       "competenceId": "phy-d-rlc-c-puissance"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Circuit RLC série en régime sinusoïdal forcé",
+      "url": "https://youtu.be/Z5WKoA6MVxA",
+      "type": "video",
+      "chaine": "Physique Chimie",
+      "auteur": "Physique Chimie"
+    },
+    {
+      "titre": "RLC : résumé et formules",
+      "url": "https://youtu.be/ZT0ZQ1DXIis",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
   ]
 }

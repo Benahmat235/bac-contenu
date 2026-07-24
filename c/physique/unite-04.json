@@ -457,5 +457,21 @@
       "reponseFinale": "a = 5 m/s²",
       "competenceId": "phy-c-newton-c-newton"
     }
+  ],
+  "videos": [
+    {
+      "titre": "2e loi de Newton : vecteurs, coordonnées, Frenet",
+      "url": "https://youtu.be/Y3wbzDFnoZk",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Mouvements et 2e loi de Newton (spé physique)",
+      "url": "https://youtu.be/aCM62SsWzos",
+      "type": "video",
+      "chaine": "Physique Chimie HD",
+      "auteur": "Physique Chimie HD"
+    }
   ]
 }

@@ -501,5 +501,21 @@
       "reponseFinale": "I = 4π",
       "competenceId": "math-c-c-periodicite"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Intégration - Terminale (le cours)",
+      "url": "https://youtu.be/pFKzXZrMVxs",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Calculer une intégrale - Terminale",
+      "url": "https://youtu.be/Z3vKJJE57Uw",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

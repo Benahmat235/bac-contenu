@@ -254,5 +254,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "La Seconde Guerre mondiale (Histoire Tle)",
+      "url": "https://youtu.be/_8X9RaEQZeA",
+      "type": "video",
+      "chaine": "Lelivrescolaire.fr",
+      "auteur": "Lelivrescolaire.fr"
+    },
+    {
+      "titre": "La Seconde Guerre mondiale - résumé sur cartes",
+      "url": "https://youtu.be/OJ0gZNmF63c",
+      "type": "video",
+      "chaine": "Histoire Géo",
+      "auteur": "Histoire Géo"
+    }
   ]
 }

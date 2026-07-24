@@ -430,5 +430,21 @@
       "reponseFinale": "e = 1.2 V",
       "competenceId": "phy-d-em-c-faraday"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Induction électromagnétique : dipôle RL (cours)",
+      "url": "https://youtu.be/j3_hrFPKczw",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Loi de Laplace, balance de Cotton : résumé",
+      "url": "https://youtu.be/TtVQi6Ef8xo",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
   ]
 }

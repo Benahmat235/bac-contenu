@@ -420,5 +420,21 @@
       "reponseFinale": "La mitochondrie (noyau, ribosomes...)",
       "competenceId": "svt-c-cell-animveg"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Organisation et structure de la cellule (cours)",
+      "url": "https://youtu.be/qPjUIuJc8NA",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Tout savoir sur la cellule en 6 minutes",
+      "url": "https://youtu.be/jSRMqO0e908",
+      "type": "video",
+      "chaine": "Sciences Nat'",
+      "auteur": "Sciences Nat'"
+    }
   ]
 }

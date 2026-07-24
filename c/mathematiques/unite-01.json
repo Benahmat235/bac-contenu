@@ -601,5 +601,21 @@
       "reponseFinale": "Non (PGCD = 17)",
       "competenceId": "math-c-c-premiers"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Divisibilité, division euclidienne, congruence : cours complet",
+      "url": "https://youtu.be/gviAJH3uHsw",
+      "type": "video",
+      "chaine": "The Professor Math Academy",
+      "auteur": "The Professor Math Academy"
+    },
+    {
+      "titre": "Notion de congruence",
+      "url": "https://youtu.be/HxcyqNbdVUI",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

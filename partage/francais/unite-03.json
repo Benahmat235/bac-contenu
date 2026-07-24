@@ -134,5 +134,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Les genres littéraires : l'essentiel",
+      "url": "https://youtu.be/r51H1KLp_nM",
+      "type": "video",
+      "chaine": "Un Cours de 5 Minutes",
+      "auteur": "Un Cours de 5 Minutes"
+    },
+    {
+      "titre": "Les principaux genres littéraires (bac de français)",
+      "url": "https://youtu.be/b76pGH6Mqrs",
+      "type": "video",
+      "chaine": "Voscours",
+      "auteur": "Voscours"
+    }
   ]
 }

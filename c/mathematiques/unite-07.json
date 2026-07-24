@@ -473,5 +473,21 @@
       "reponseFinale": "f'(x) = 2cos(2x)",
       "competenceId": "math-c-c-composee"
     }
+  ],
+  "videos": [
+    {
+      "titre": "La dérivation - Terminale",
+      "url": "https://youtu.be/XAgdHblbajE",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Dérivée de fonctions",
+      "url": "https://youtu.be/IvV0j6JE3V0",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    }
   ]
 }

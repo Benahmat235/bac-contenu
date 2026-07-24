@@ -64,11 +64,24 @@ recommandées pour le chapitre. L'application peut les proposer en complément.
 ```
 
 - `type` : `"video"` (une vidéo) ou `"playlist"` (un cours complet).
-- Pour les **séries C et D**, la chaîne de référence est **Education Plus**
-  (Al Habib Idriss, enseignant tchadien) : https://youtube.com/@alhabibidriss39
-  Elle couvre notamment la **Cinématique** (physique) et, en maths, les
-  **Suites numériques** et les **Nombres complexes**.
-- Script d'injection réutilisable : `add_videos.py` (à la racine du dépôt de travail).
+- Chaque vidéo indique sa `chaine` / `auteur` (attribution).
+
+### Couverture et sources vidéo
+
+Presque toutes les unités (≈ 106/108) proposent des vidéos, toutes vérifiées
+(liens actifs via l'API oEmbed). Chaînes privilégiées :
+
+- **Séries C et D — chaîne de référence tchadienne** : **Education Plus**
+  (Al Habib Idriss) — https://youtube.com/@alhabibidriss39 (cinématique, suites,
+  nombres complexes, barycentre, dérivées, exponentielle, projectile...).
+- **Programme francophone africain** : Ecoles Au Senegal, Elite Science,
+  Le savant ACHI, Ecole Virtuelle Africaine, club cedeao, M. Kanté.
+- **Compléments** : Yvan Monka (maths), Paul Olivier / e-profs (physique-chimie),
+  Les Bons Profs, Coursitout (philosophie), English with Lucy (anglais)...
+- **Non couvert** : `geo-u3` et `geo-u5` (géographie du Tchad) — seules des
+  vidéos d'actualité existent, aucun cours pédagogique adapté.
+- Scripts d'injection réutilisables (idempotents) : `add_videos.py`,
+  `add_videos_sciences.py`, `add_videos_matphys.py`, `add_videos_lettres.py`.
 
 ## Champ optionnel `categorie` (utile en philosophie)
 

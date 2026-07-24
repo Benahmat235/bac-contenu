@@ -202,5 +202,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Les causes de la décolonisation de l'Afrique (Terminale)",
+      "url": "https://youtu.be/KGPKiNBeHjc",
+      "type": "video",
+      "chaine": "Faso e-Education",
+      "auteur": "Faso e-Education"
+    },
+    {
+      "titre": "Les formes de la décolonisation (cours)",
+      "url": "https://youtu.be/GS_Fxp8i2HE",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
   ]
 }

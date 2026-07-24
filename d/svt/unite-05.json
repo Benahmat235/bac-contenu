@@ -451,5 +451,21 @@
       "reponseFinale": "Épigée : cotylédons hors du sol ; hypogée : cotylédons dans le sol",
       "competenceId": "svt-d-sp-germination"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Reproduction des spermaphytes : structure de la fleur (cours)",
+      "url": "https://youtu.be/QOXRLG3Cmyk",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Reproduction des spermaphytes : devenir des pièces florales",
+      "url": "https://youtu.be/p1l5Fh9CFew",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
   ]
 }

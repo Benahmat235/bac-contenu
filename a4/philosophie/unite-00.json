@@ -220,5 +220,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Introduction à la philosophie (Tle A, C, D)",
+      "url": "https://youtu.be/fV9WExq-0OY",
+      "type": "video",
+      "chaine": "Collège Saint Joseph",
+      "auteur": "Collège Saint Joseph"
+    },
+    {
+      "titre": "La réflexion philosophique (cours)",
+      "url": "https://youtu.be/zyS-pSuUTZg",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
   ]
 }

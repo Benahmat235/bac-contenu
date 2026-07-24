@@ -420,5 +420,21 @@
       "reponseFinale": "augmente",
       "competenceId": "chi-c-afa-c-afaible"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Acide faible, base faible, solution tampon : synthèse (TS/PC)",
+      "url": "https://youtu.be/utXDXSRJ0WA",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Acide et base faibles : Ka, pKa (Terminale)",
+      "url": "https://youtu.be/swKCSgcp6_s",
+      "type": "video",
+      "chaine": "Florence RAFFIN",
+      "auteur": "Florence RAFFIN"
+    }
   ]
 }

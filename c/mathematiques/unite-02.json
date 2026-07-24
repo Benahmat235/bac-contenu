@@ -465,5 +465,21 @@
       "reponseFinale": "Oui, alignés",
       "competenceId": "math-c-c-colineaire"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Barycentre (cours)",
+      "url": "https://youtu.be/BXs5eZnSwU0",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    },
+    {
+      "titre": "Barycentre : cours complet avec exemples",
+      "url": "https://youtu.be/6RTHhgkiopc",
+      "type": "video",
+      "chaine": "The Professor Math Academy",
+      "auteur": "The Professor Math Academy"
+    }
   ]
 }

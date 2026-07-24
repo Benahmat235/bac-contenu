@@ -442,5 +442,21 @@
       "reponseFinale": "k = 3",
       "competenceId": "math-c-c-homothetie"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Transformations ponctuelles et isométries (cours)",
+      "url": "https://youtu.be/v0G9bD1Krmg",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Les isométries : l'essentiel du cours",
+      "url": "https://youtu.be/GLv3u2UvcGI",
+      "type": "video",
+      "chaine": "Beta Educa",
+      "auteur": "Beta Educa"
+    }
   ]
 }

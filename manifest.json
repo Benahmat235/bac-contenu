@@ -1,5 +1,5 @@
 {
-  "contentVersion": 13,
+  "contentVersion": 14,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -9,7 +9,7 @@
     "anglais": {
       "id": "anglais",
       "titre": "Anglais",
-      "version": 2,
+      "version": 3,
       "chemin": "partage/anglais/",
       "fichiers": [
         "partage/anglais/unite-01.json",
@@ -20,7 +20,7 @@
     "francais": {
       "id": "francais",
       "titre": "Français",
-      "version": 2,
+      "version": 3,
       "chemin": "partage/francais/",
       "fichiers": [
         "partage/francais/unite-01.json",
@@ -31,7 +31,7 @@
     "histoire": {
       "id": "histoire",
       "titre": "Histoire",
-      "version": 2,
+      "version": 3,
       "chemin": "partage/histoire/",
       "fichiers": [
         "partage/histoire/unite-01.json",
@@ -45,7 +45,7 @@
     "geographie": {
       "id": "geographie",
       "titre": "Géographie",
-      "version": 2,
+      "version": 3,
       "chemin": "partage/geographie/",
       "fichiers": [
         "partage/geographie/unite-01.json",
@@ -77,7 +77,7 @@
           "id": "philosophie",
           "titre": "Philosophie",
           "type": "propre",
-          "version": 3,
+          "version": 4,
           "chemin": "a4/philosophie/",
           "fichiers": [
             "a4/philosophie/unite-00.json",
@@ -96,7 +96,7 @@
           "id": "mathematiques-a4",
           "titre": "Mathématiques",
           "type": "scientifique",
-          "version": 3,
+          "version": 4,
           "chemin": "a4/mathematiques/",
           "fichiers": [
             "a4/mathematiques/unite-01.json",
@@ -126,7 +126,7 @@
           "id": "mathematiques-c",
           "titre": "Mathématiques",
           "type": "scientifique",
-          "version": 3,
+          "version": 4,
           "chemin": "c/mathematiques/",
           "fichiers": [
             "c/mathematiques/unite-01.json",
@@ -147,7 +147,7 @@
           "id": "physique-c",
           "titre": "Physique",
           "type": "scientifique",
-          "version": 3,
+          "version": 4,
           "chemin": "c/physique/",
           "fichiers": [
             "c/physique/unite-01.json",
@@ -165,7 +165,7 @@
           "id": "chimie-c",
           "titre": "Chimie",
           "type": "scientifique",
-          "version": 2,
+          "version": 3,
           "chemin": "c/chimie/",
           "fichiers": [
             "c/chimie/unite-01.json",
@@ -182,7 +182,7 @@
           "id": "svt-c",
           "titre": "SVT",
           "type": "scientifique",
-          "version": 1,
+          "version": 2,
           "chemin": "c/svt/",
           "fichiers": [
             "c/svt/unite-01.json",
@@ -221,7 +221,7 @@
           "id": "mathematiques-d",
           "titre": "Mathématiques",
           "type": "scientifique",
-          "version": 3,
+          "version": 4,
           "chemin": "d/mathematiques/",
           "fichiers": [
             "d/mathematiques/unite-01.json",
@@ -239,7 +239,7 @@
           "id": "physique-d",
           "titre": "Physique",
           "type": "scientifique",
-          "version": 3,
+          "version": 4,
           "chemin": "d/physique/",
           "fichiers": [
             "d/physique/unite-01.json",
@@ -256,7 +256,7 @@
           "id": "chimie-d",
           "titre": "Chimie",
           "type": "scientifique",
-          "version": 2,
+          "version": 3,
           "chemin": "d/chimie/",
           "fichiers": [
             "d/chimie/unite-01.json",
@@ -273,7 +273,7 @@
           "id": "svt-d",
           "titre": "SVT",
           "type": "scientifique",
-          "version": 1,
+          "version": 2,
           "chemin": "d/svt/",
           "fichiers": [
             "d/svt/unite-01.json",

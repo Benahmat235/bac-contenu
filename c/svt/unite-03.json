@@ -407,5 +407,21 @@
       "reponseFinale": "100 acides aminés",
       "competenceId": "svt-c-ex-code"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Expression de l'information génétique : transcription et traduction",
+      "url": "https://youtu.be/HrPw0uhyRbs",
+      "type": "video",
+      "chaine": "Joyez SVT",
+      "auteur": "Joyez SVT"
+    },
+    {
+      "titre": "Les étapes de l'expression : transcription et traduction",
+      "url": "https://youtu.be/Sx1FOOmlamM",
+      "type": "video",
+      "chaine": "SVT ONLINE",
+      "auteur": "SVT ONLINE"
+    }
   ]
 }

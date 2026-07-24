@@ -115,5 +115,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "L'Union Africaine : création, objectifs, fonctionnement, bilan",
+      "url": "https://youtu.be/fj9AuIHKwtk",
+      "type": "video",
+      "chaine": "club cedeao",
+      "auteur": "club cedeao"
+    },
+    {
+      "titre": "Cours d'histoire : l'Union Africaine",
+      "url": "https://youtu.be/x0M6WdT6ECY",
+      "type": "video",
+      "chaine": "kalan matheux",
+      "auteur": "kalan matheux"
+    }
   ]
 }
