@@ -44,6 +44,13 @@ la progression des élèves est reliée à ces identifiants.
 | `texte_a_completer` | compléter un blanc | `phrase` (avec `___`), `reponse`, `toleranceMots`, `explication` |
 | `rappel_actif` | retrouver de mémoire | `question`, `reponseAttendue`, `toleranceMots`, `explication` |
 | `reponse_courte` | réponse ouverte courte | `question`, `reponsesAcceptees`, `explication` |
+| `citation` | attribuer/compléter une citation | `mode` (`attribuer`), `citation`, `options`, `reponse` (index), `oeuvre`, `explication` |
+
+## Champ optionnel `categorie` (utile en philosophie)
+
+Une étape peut porter une `categorie` pour organiser la mémorisation :
+`definitions`, `citations`, `these`, `antithese`, `exemples`, `methode`.
+Cela permet de réviser par type (ex. « réviser uniquement les citations »).
 
 ## Champs d'une étape
 

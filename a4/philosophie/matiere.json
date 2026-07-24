@@ -1,0 +1,15 @@
+{
+  "id": "philosophie",
+  "titre": "Philosophie",
+  "seriesConcernees": ["a4"],
+  "description": "Le sujet, l'homme et l'action : notions et méthode de la dissertation.",
+  "unites": [
+    {
+      "id": "philo-u1",
+      "titre": "Conscience et inconscient",
+      "ordre": 1,
+      "fichier": "a4/philosophie/unite-01.json",
+      "prerequis": []
+    }
+  ]
+}

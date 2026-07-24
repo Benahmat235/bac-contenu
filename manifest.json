@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -50,9 +50,11 @@
           "id": "philosophie",
           "titre": "Philosophie",
           "type": "propre",
-          "version": 1,
+          "version": 2,
           "chemin": "a4/philosophie/",
-          "fichiers": []
+          "fichiers": [
+            "a4/philosophie/unite-01.json"
+          ]
         },
         {
           "id": "mathematiques-a4",

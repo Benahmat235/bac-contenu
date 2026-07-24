@@ -1,0 +1,246 @@
+{
+  "id": "philo-u1",
+  "matiere": "philosophie",
+  "titre": "Conscience et inconscient",
+  "ordre": 1,
+  "source": {
+    "document": "Philosophie TA4",
+    "chapitre": "Chapitre 2 : Conscience et l'inconscient",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "philo-u1-e1",
+      "titre": "Les définitions des mots-clés",
+      "objectif": "Maîtriser le vocabulaire précis de la notion.",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-conscience-definitions",
+      "categorie": "definitions",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "La conscience est la connaissance ___ que le sujet a de ses propres états et de ses actes.",
+          "reponse": "immédiate",
+          "toleranceMots": ["immediate", "immédiate"],
+          "explication": "La conscience est une connaissance immédiate (sans intermédiaire) que le sujet a de lui-même et du monde."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que signifie l'étymologie du mot « conscience » (cum scientia) ?",
+          "options": ["Sans savoir", "Accompagné de savoir", "Contre le savoir", "Avant le savoir"],
+          "reponse": 1,
+          "explication": "« Cum scientia » signifie « avec / accompagné de savoir » : la conscience accompagne nos actes d'un savoir sur eux."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque forme de conscience à sa définition.",
+          "paires": [
+            { "gauche": "Conscience psychologique", "droite": "savoir de ce que je vis ici et maintenant" },
+            { "gauche": "Conscience morale", "droite": "jugement sur le bien et le mal de mes actes" },
+            { "gauche": "Conscience réfléchie", "droite": "retour du sujet sur lui-même (réflexion)" }
+          ],
+          "explication": "On distingue la conscience psychologique, la conscience morale et la conscience réfléchie."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Définis l'inconscient (au sens psychanalytique).",
+          "reponseAttendue": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous.",
+          "toleranceMots": ["refoulé", "refoule", "désirs", "desirs", "hors de la conscience", "psychisme"],
+          "explication": "Pour Freud, l'inconscient est l'ensemble des contenus psychiques refoulés qui échappent à la conscience mais déterminent nos conduites."
+        }
+      ]
+    },
+    {
+      "id": "philo-u1-e2",
+      "titre": "Les citations philosophiques",
+      "objectif": "Retenir les citations clés et leurs auteurs.",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-conscience-citations",
+      "categorie": "citations",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "« Je pense, donc je ___ » (Descartes).",
+          "reponse": "suis",
+          "toleranceMots": ["suis"],
+          "explication": "« Je pense, donc je suis » (Discours de la méthode, 1637) : la conscience de soi est la première certitude."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Le moi n'est pas maître dans sa propre maison.",
+          "options": ["Descartes", "Sigmund Freud", "Emmanuel Kant", "Jean-Paul Sartre"],
+          "reponse": 1,
+          "oeuvre": "Une difficulté de la psychanalyse",
+          "explication": "Freud illustre ainsi la « blessure narcissique » : la conscience n'est pas maîtresse du psychisme, car l'inconscient agit en elle."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Le « Je pense » doit pouvoir accompagner toutes mes représentations.",
+          "options": ["Emmanuel Kant", "Karl Marx", "René Descartes", "Baruch Spinoza"],
+          "reponse": 0,
+          "oeuvre": "Critique de la raison pure",
+          "explication": "Kant affirme l'unité de la conscience : toute représentation renvoie à un même sujet pensant."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque citation à son auteur.",
+          "paires": [
+            { "gauche": "« Je pense, donc je suis »", "droite": "Descartes" },
+            { "gauche": "« Le moi n'est pas maître dans sa propre maison »", "droite": "Freud" },
+            { "gauche": "Ce n'est pas la conscience qui détermine l'être, mais l'être social qui détermine la conscience", "droite": "Marx" }
+          ],
+          "explication": "Trois positions différentes sur la conscience : Descartes (fondement), Freud (limite), Marx (déterminisme social)."
+        }
+      ]
+    },
+    {
+      "id": "philo-u1-e3",
+      "titre": "La thèse : la conscience fonde le sujet",
+      "objectif": "Comprendre la position classique sur la conscience.",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-conscience-these",
+      "categorie": "these",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Selon Descartes, qu'est-ce qui constitue la première certitude du sujet ?",
+          "options": [
+            "Les sensations du corps",
+            "La conscience de soi (le cogito)",
+            "L'opinion des autres",
+            "Les habitudes sociales"
+          ],
+          "reponse": 1,
+          "explication": "Même en doutant de tout, je ne peux douter que je pense : la conscience de soi est indubitable. C'est la thèse du sujet transparent à lui-même."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Reformule en une phrase la thèse classique : quel est le rôle de la conscience pour le sujet ?",
+          "reponsesAcceptees": [
+            "la conscience fonde le sujet",
+            "la conscience rend le sujet transparent à lui-même",
+            "le sujet se connaît par la conscience",
+            "la conscience est le fondement de la certitude"
+          ],
+          "explication": "Thèse : la conscience fait de l'homme un sujet transparent, capable de se connaître entièrement lui-même."
+        }
+      ]
+    },
+    {
+      "id": "philo-u1-e4",
+      "titre": "L'antithèse : l'inconscient limite la conscience",
+      "objectif": "Comprendre la remise en cause de la primauté de la conscience.",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-conscience-antithese",
+      "categorie": "antithese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui remet en cause la toute-puissance de la conscience avec l'hypothèse de l'inconscient ?",
+          "options": ["Descartes", "Sigmund Freud", "Emmanuel Kant", "Aristote"],
+          "reponse": 1,
+          "explication": "Freud montre que le sujet n'est pas transparent : une part de lui (l'inconscient) lui échappe."
+        },
+        {
+          "type": "choix_multiple",
+          "question": "Quelles sont les trois instances de la « seconde topique » de Freud ?",
+          "options": ["Le Ça", "Le Moi", "Le Surmoi", "La Raison"],
+          "reponses": [0, 1, 2],
+          "explication": "La seconde topique freudienne distingue le Ça (pulsions), le Moi (réalité) et le Surmoi (interdits moraux)."
+        },
+        {
+          "type": "association",
+          "consigne": "Oppose la thèse et l'antithèse en associant chaque idée à son camp.",
+          "paires": [
+            { "gauche": "Le sujet est transparent à lui-même", "droite": "Thèse (Descartes)" },
+            { "gauche": "Le sujet est en partie opaque à lui-même", "droite": "Antithèse (Freud)" },
+            { "gauche": "La conscience fonde la certitude", "droite": "Thèse (Descartes)" },
+            { "gauche": "L'inconscient déborde la conscience", "droite": "Antithèse (Freud)" }
+          ],
+          "explication": "Le débat oppose la transparence du sujet (Descartes) à son opacité (Freud)."
+        }
+      ]
+    },
+    {
+      "id": "philo-u1-e5",
+      "titre": "Les exemples",
+      "objectif": "Illustrer les concepts par des exemples concrets.",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-conscience-exemples",
+      "categorie": "exemples",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Un lapsus ou un acte manqué est souvent donné comme exemple de la manifestation de…",
+          "options": ["la conscience morale", "l'inconscient", "la raison pure", "la perception"],
+          "reponse": 1,
+          "explication": "Le lapsus et l'acte manqué révèlent, selon Freud, un désir inconscient qui « échappe » au contrôle de la conscience."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Donne un exemple concret qui montre que le sujet ne se connaît pas entièrement.",
+          "reponsesAcceptees": [
+            "un lapsus",
+            "un acte manqué",
+            "un rêve",
+            "un oubli",
+            "un rêve révèle un désir caché"
+          ],
+          "explication": "Rêves, lapsus, actes manqués et oublis sont les exemples classiques de l'action de l'inconscient."
+        }
+      ]
+    },
+    {
+      "id": "philo-u1-defi",
+      "titre": "Défi de maîtrise : construire le raisonnement",
+      "objectif": "Enchaîner définitions, thèse, antithèse et synthèse.",
+      "seuilReussite": 90,
+      "estDefi": true,
+      "competenceId": "philo-c-conscience-synthese",
+      "categorie": "methode",
+      "activites": [
+        {
+          "type": "classement",
+          "consigne": "Remets dans l'ordre les moments d'un plan dialectique.",
+          "elements": [
+            "Thèse : la conscience fonde le sujet",
+            "Antithèse : l'inconscient limite la conscience",
+            "Synthèse : un sujet conscient mais habité par l'inconscient"
+          ],
+          "ordreCorrect": [
+            "Thèse : la conscience fonde le sujet",
+            "Antithèse : l'inconscient limite la conscience",
+            "Synthèse : un sujet conscient mais habité par l'inconscient"
+          ],
+          "explication": "Le plan dialectique va de la thèse à l'antithèse, puis dépasse l'opposition dans une synthèse."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle problématique convient au sujet « Suis-je ce que j'ai conscience d'être ? »",
+          "options": [
+            "La conscience suffit-elle à définir totalement le sujet, ou une part lui échappe-t-elle ?",
+            "L'homme est-il un animal politique ?",
+            "La technique libère-t-elle l'homme ?",
+            "La justice est-elle toujours légale ?"
+          ],
+          "reponse": 0,
+          "explication": "Une bonne problématique transforme le sujet en tension : ici, transparence (Descartes) contre opacité (Freud) du sujet."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "En une phrase, propose une synthèse qui dépasse l'opposition Descartes / Freud.",
+          "reponsesAcceptees": [
+            "le sujet est conscient mais aussi habité par un inconscient",
+            "la conscience existe mais ne connaît pas tout du sujet",
+            "le sujet se connaît en partie seulement"
+          ],
+          "explication": "Synthèse possible : le sujet est bien un être conscient, mais sa conscience n'épuise pas tout ce qu'il est."
+        }
+      ]
+    }
+  ]
+}
