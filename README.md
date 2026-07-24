@@ -13,8 +13,8 @@ manifest.json            Point d'entrée. Versions et liste des matières par s�
 partage/                 Matières communes à toutes les séries.
   anglais/  francais/  histoire/  geographie/
 a4/                      Matières propres à la série A4 (philosophie, mathématiques).
-c/                       Matières propres à la série C (maths, physique, chimie).
-d/                       Matières propres à la série D (maths, physique, chimie).
+c/                       Matières propres à la série C (maths, physique, chimie, SVT).
+d/                       Matières propres à la série D (maths, physique, chimie, SVT).
 ```
 
 Chaque matière contient :
@@ -72,8 +72,13 @@ alimente la répétition espacée.
 
 ## Matières scientifiques (modèle distinct)
 
-Les matières `"type": "scientifique"` (mathématiques, physique, chimie) ne suivent
-PAS la logique de mémorisation littéraire. Elles reposent sur trois piliers :
+Les matières `"type": "scientifique"` (mathématiques, physique, chimie, SVT) ne suivent
+PAS la logique de mémorisation littéraire.
+
+> **SVT (séries C et D)** : matière scientifique adaptée. Le `formulaire` mémorise
+> surtout des **définitions et lois** (cellule, ADN, lois de Mendel, hormones…), et
+> la `banqueExercices` propose des exercices corrigés issus du manuel officiel
+> (questions-réponses, croisements génétiques notés `A//a`, régulation de la glycémie…). Elles reposent sur trois piliers :
 
 1. **Formulaire** : un tableau `formulaire` au niveau de l'unité liste les formules
    à mémoriser en répétition espacée (cartes `formule`, `recto`/`verso`).
