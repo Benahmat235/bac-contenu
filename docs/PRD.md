@@ -118,12 +118,27 @@ unite-XX.json  ──►  { formulaire?, etapes[], banqueExercices?, videos? }
 
 ## 8. Exigences non fonctionnelles
 
-- **Offline-first** : après le 1er téléchargement, tout fonctionne sans réseau.
+- **Android natif** : app codée en Java/Kotlin avec Jetpack Compose + Material 3.
+- **Offline-first** : après le 1er téléchargement, tout fonctionne sans réseau (Room cache).
 - **Léger** : contenu JSON compact ; images/vidéos jamais embarquées (liens externes).
 - **Performance** : démarrage < 2 s sur appareil modeste ; navigation fluide.
-- **Confidentialité** : zéro donnée envoyée ; stockage strictement local.
+- **Confidentialité** : zéro donnée envoyée ; stockage strictement local (Room + DataStore).
 - **Accessibilité** : bonne lisibilité, contrastes, taille de police réglable.
 - **Robustesse** : si une vidéo est indisponible, le chapitre reste utilisable.
+
+## 8bis. Stack technique
+
+| Composant | Choix |
+|---|---|
+| Langages | **Kotlin** (principal) + **Java** |
+| UI | Jetpack Compose + Material 3 |
+| Architecture | MVVM (ViewModel + StateFlow) |
+| Navigation | Navigation Compose (BottomNavigation) |
+| Stockage local | Room (progression, cache JSON, intervalles de révision) + DataStore (préférences) |
+| Réseau | Retrofit + OkHttp + Gson |
+| Mises à jour | WorkManager (vérification quotidienne de contentVersion) |
+| DI | Hilt (ou injection manuelle) |
+| Aucun SDK | Pas de Firebase, pas d'analytics, pas de pub |
 
 ## 9. Indicateurs de succès (sans tracking serveur)
 
