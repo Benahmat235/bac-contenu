@@ -1,0 +1,517 @@
+{
+  "id": "math-c-u7",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Les nombres complexes",
+  "ordre": 4,
+  "source": {
+    "document": "Mathématique TC",
+    "chapitre": "Chapitre 4 : Les nombres complexes",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale exacte puis la correction étape par étape."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Forme algébrique",
+      "verso": "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Conjugué",
+      "verso": "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Module",
+      "verso": "|a+ib|=√(a²+b²)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Inverse d'un complexe non nul",
+      "verso": "1/z=z̄/|z|²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Forme trigonométrique",
+      "verso": "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Produit en forme polaire",
+      "verso": "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Formule de Moivre",
+      "verso": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Formule d'Euler",
+      "verso": "eⁱᶿ=cosθ+i sinθ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Racines n-ièmes de reⁱᶿ",
+      "verso": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Distance dans le plan complexe",
+      "verso": "AB=|zB−zA|",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Affixe d'un barycentre",
+      "verso": "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "math-c-u7-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-complexes",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Module de a+ib ?",
+          "verso": "√(a²+b²)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Inverse de z≠0 ?",
+          "verso": "1/z=z̄/|z|²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Racines n-ièmes de reⁱᶿ ?",
+          "verso": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "math-c-u7-e2",
+      "titre": "Quiz sur les formes d'un complexe",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-formes-complexes",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le conjugué de 2−3i est :",
+          "options": [
+            "−2+3i",
+            "2+3i",
+            "2−3i",
+            "−2−3i"
+          ],
+          "reponse": 1,
+          "explication": "On conserve la partie réelle et on change le signe de la partie imaginaire."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Le module de 3−4i est :",
+          "options": [
+            "1",
+            "5",
+            "7",
+            "25"
+          ],
+          "reponse": 1,
+          "explication": "√(3²+(−4)²)=√25=5."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Un argument de −1+i√3 est :",
+          "options": [
+            "π/3",
+            "2π/3",
+            "4π/3",
+            "−π/3"
+          ],
+          "reponse": 1,
+          "explication": "Le point est dans le deuxième quadrant, avec cosθ=−1/2 et sinθ=√3/2."
+        }
+      ]
+    },
+    {
+      "id": "math-c-u7-e3",
+      "titre": "Méthode de passage en forme polaire",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-forme-polaire",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Comment écrire z=a+ib sous forme trigonométrique ?",
+          "etapes": [
+            "Vérifier que z est non nul",
+            "Calculer r=√(a²+b²)",
+            "Déterminer le quadrant du point (a,b)",
+            "Résoudre cosθ=a/r et sinθ=b/r",
+            "Écrire z=r(cosθ+i sinθ) et contrôler en développant"
+          ],
+          "ordreCorrect": [
+            "Vérifier que z est non nul",
+            "Calculer r=√(a²+b²)",
+            "Déterminer le quadrant du point (a,b)",
+            "Résoudre cosθ=a/r et sinθ=b/r",
+            "Écrire z=r(cosθ+i sinθ) et contrôler en développant"
+          ],
+          "explication": "Le quadrant évite une erreur de signe sur l'argument."
+        }
+      ]
+    },
+    {
+      "id": "math-c-u7-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-calcul-complexe",
+      "activites": [
+        {
+          "id": "math-c-cplx-ex01",
+          "enonce": "Calculer (2+3i)+(1−5i).",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Regrouper les parties réelles : 2+1=3.",
+            "Regrouper les parties imaginaires : 3i−5i=−2i.",
+            "La somme vaut 3−2i."
+          ],
+          "reponseFinale": "3 − 2i",
+          "competenceId": "math-c-c-calcul-algebrique"
+        },
+        {
+          "id": "math-c-cplx-ex02",
+          "enonce": "Développer (2+i)(3−2i).",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Développer : 6−4i+3i−2i².",
+            "Utiliser i²=−1 : −2i²=2.",
+            "Réunir les termes : 8−i."
+          ],
+          "reponseFinale": "8 − i",
+          "competenceId": "math-c-c-calcul-algebrique"
+        },
+        {
+          "id": "math-c-cplx-ex03",
+          "enonce": "Développer (1+2i)⁴ à l'aide des puissances ou du binôme de Newton.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Calculer d'abord (1+2i)²=1+4i+4i²=−3+4i.",
+            "Alors (1+2i)⁴=(−3+4i)².",
+            "Développer : 9−24i+16i²=9−24i−16.",
+            "On obtient −7−24i."
+          ],
+          "reponseFinale": "−7 − 24i",
+          "competenceId": "math-c-c-binome-newton"
+        },
+        {
+          "id": "math-c-cplx-ex04",
+          "enonce": "Mettre 1/(1−i) sous forme algébrique.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Multiplier numérateur et dénominateur par le conjugué 1+i.",
+            "(1−i)(1+i)=1−i²=2.",
+            "Donc 1/(1−i)=(1+i)/2."
+          ],
+          "reponseFinale": "(1 + i)/2",
+          "competenceId": "math-c-c-quotient"
+        }
+      ]
+    },
+    {
+      "id": "math-c-u7-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "math-c-c-synthese-complexe",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Si z=(1+i)/√2, alors z⁸ vaut :",
+          "options": [
+            "−1",
+            "i",
+            "1",
+            "−i"
+          ],
+          "reponse": 2,
+          "explication": "z=eⁱπ⁄⁴, donc z⁸=eⁱ²π=1."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-c-cplx-ex01",
+      "enonce": "Calculer (2+3i)+(1−5i).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Regrouper les parties réelles : 2+1=3.",
+        "Regrouper les parties imaginaires : 3i−5i=−2i.",
+        "La somme vaut 3−2i."
+      ],
+      "reponseFinale": "3 − 2i",
+      "competenceId": "math-c-c-calcul-algebrique"
+    },
+    {
+      "id": "math-c-cplx-ex02",
+      "enonce": "Développer (2+i)(3−2i).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Développer : 6−4i+3i−2i².",
+        "Utiliser i²=−1 : −2i²=2.",
+        "Réunir les termes : 8−i."
+      ],
+      "reponseFinale": "8 − i",
+      "competenceId": "math-c-c-calcul-algebrique"
+    },
+    {
+      "id": "math-c-cplx-ex03",
+      "enonce": "Développer (1+2i)⁴ à l'aide des puissances ou du binôme de Newton.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Calculer d'abord (1+2i)²=1+4i+4i²=−3+4i.",
+        "Alors (1+2i)⁴=(−3+4i)².",
+        "Développer : 9−24i+16i²=9−24i−16.",
+        "On obtient −7−24i."
+      ],
+      "reponseFinale": "−7 − 24i",
+      "competenceId": "math-c-c-binome-newton"
+    },
+    {
+      "id": "math-c-cplx-ex04",
+      "enonce": "Mettre 1/(1−i) sous forme algébrique.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Multiplier numérateur et dénominateur par le conjugué 1+i.",
+        "(1−i)(1+i)=1−i²=2.",
+        "Donc 1/(1−i)=(1+i)/2."
+      ],
+      "reponseFinale": "(1 + i)/2",
+      "competenceId": "math-c-c-quotient"
+    },
+    {
+      "id": "math-c-cplx-ex05",
+      "enonce": "Mettre (3+4i)/(1−2i) sous forme algébrique.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Multiplier par le conjugué 1+2i.",
+        "Le numérateur devient (3+4i)(1+2i)=3+6i+4i+8i²=−5+10i.",
+        "Le dénominateur vaut 1²+2²=5.",
+        "Le quotient vaut −1+2i."
+      ],
+      "reponseFinale": "−1 + 2i",
+      "competenceId": "math-c-c-quotient"
+    },
+    {
+      "id": "math-c-cplx-ex06",
+      "enonce": "Pour z=3−4i, déterminer z̄ et |z|.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le conjugué s'obtient en changeant le signe de la partie imaginaire : z̄=3+4i.",
+        "|z|=√(3²+(−4)²).",
+        "|z|=√25=5."
+      ],
+      "reponseFinale": "z̄ = 3 + 4i et |z| = 5",
+      "competenceId": "math-c-c-conjugue-module"
+    },
+    {
+      "id": "math-c-cplx-ex07",
+      "enonce": "Pour z=2−3i, calculer z+z̄ et zz̄.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "z̄=2+3i.",
+        "z+z̄=(2−3i)+(2+3i)=4.",
+        "zz̄=2²+3²=13."
+      ],
+      "reponseFinale": "z + z̄ = 4 et zz̄ = 13",
+      "competenceId": "math-c-c-conjugue-module"
+    },
+    {
+      "id": "math-c-cplx-ex08",
+      "enonce": "Résoudre dans ℂ : z³−(2+i)z²+(5+2i)z−5i=0, sachant que i est une racine.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Comme i est racine, le polynôme est divisible par z−i.",
+        "La division donne P(z)=(z−i)(z²−2z+5).",
+        "Résoudre z²−2z+5=0 : Δ=4−20=−16.",
+        "Les deux autres racines sont (2±4i)/2=1±2i."
+      ],
+      "reponseFinale": "S = {i ; 1 − 2i ; 1 + 2i}",
+      "competenceId": "math-c-c-equation-complexe"
+    },
+    {
+      "id": "math-c-cplx-ex09",
+      "enonce": "Déterminer le module et un argument de z=1+i.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "|z|=√(1²+1²)=√2.",
+        "cosθ=1/√2=√2/2 et sinθ=√2/2.",
+        "Un argument est θ=π/4."
+      ],
+      "reponseFinale": "|z| = √2 et arg(z) ≡ π/4 [2π]",
+      "competenceId": "math-c-c-argument"
+    },
+    {
+      "id": "math-c-cplx-ex10",
+      "enonce": "Déterminer le module et un argument de z=−1+i√3.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|z|=√(1+3)=2.",
+        "cosθ=−1/2 et sinθ=√3/2.",
+        "Dans le deuxième quadrant, θ=2π/3."
+      ],
+      "reponseFinale": "|z| = 2 et arg(z) ≡ 2π/3 [2π]",
+      "competenceId": "math-c-c-argument"
+    },
+    {
+      "id": "math-c-cplx-ex11",
+      "enonce": "Écrire 2(cos(π/6)+i sin(π/6)) sous forme algébrique.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "cos(π/6)=√3/2 et sin(π/6)=1/2.",
+        "Multiplier chaque terme par 2.",
+        "On obtient √3+i."
+      ],
+      "reponseFinale": "√3 + i",
+      "competenceId": "math-c-c-forme-polaire"
+    },
+    {
+      "id": "math-c-cplx-ex12",
+      "enonce": "Calculer le produit z₁z₂ si z₁=2eⁱπ⁄³ et z₂=3e⁻ⁱπ⁄⁶.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Multiplier les modules : 2×3=6.",
+        "Additionner les arguments : π/3−π/6=π/6.",
+        "Le produit est 6eⁱπ⁄⁶=6(√3/2+i/2)."
+      ],
+      "reponseFinale": "z₁z₂ = 3√3 + 3i",
+      "competenceId": "math-c-c-forme-exponentielle"
+    },
+    {
+      "id": "math-c-cplx-ex13",
+      "enonce": "Si z=(1+i)/√2, calculer z⁸.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "z a pour module 1 et argument π/4, donc z=eⁱπ⁄⁴.",
+        "Par Moivre, z⁸=eⁱ⁸π⁄⁴=eⁱ²π.",
+        "Ainsi z⁸=1."
+      ],
+      "reponseFinale": "z⁸ = 1",
+      "competenceId": "math-c-c-moivre"
+    },
+    {
+      "id": "math-c-cplx-ex14",
+      "enonce": "Déterminer les racines cubiques de l'unité.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Écrire 1=eⁱ⁰.",
+        "Les racines sont zₖ=eⁱ²ᵏπ⁄³ pour k=0,1,2.",
+        "Pour k=0 : 1 ; k=1 : −1/2+i√3/2 ; k=2 : −1/2−i√3/2."
+      ],
+      "reponseFinale": "{1 ; −1/2 + i√3/2 ; −1/2 − i√3/2}",
+      "competenceId": "math-c-c-racines-niemes"
+    },
+    {
+      "id": "math-c-cplx-ex15",
+      "enonce": "Déterminer les racines carrées de 3−4i.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Cherchons z=x+iy tel que z²=3−4i.",
+        "On obtient x²−y²=3, 2xy=−4 et x²+y²=|3−4i|=5.",
+        "Ainsi x²=4 et y²=1 ; puisque xy<0, les couples sont (2,−1) et (−2,1).",
+        "Les deux racines sont 2−i et −2+i."
+      ],
+      "reponseFinale": "{2 − i ; −2 + i}",
+      "competenceId": "math-c-c-racines-carrees"
+    },
+    {
+      "id": "math-c-cplx-ex16",
+      "enonce": "Résoudre dans ℂ : z²−2z+5=0.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le discriminant vaut Δ=(−2)²−4×1×5=−16.",
+        "Les racines carrées de Δ sont ±4i.",
+        "z=(2±4i)/2=1±2i."
+      ],
+      "reponseFinale": "S = {1 − 2i ; 1 + 2i}",
+      "competenceId": "math-c-c-equation-complexe"
+    },
+    {
+      "id": "math-c-cplx-ex17",
+      "enonce": "Résoudre dans ℂ : (1+i)z=2.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Comme 1+i≠0, z=2/(1+i).",
+        "Multiplier par 1−i : z=2(1−i)/((1+i)(1−i)).",
+        "Le dénominateur vaut 2, donc z=1−i."
+      ],
+      "reponseFinale": "S = {1 − i}",
+      "competenceId": "math-c-c-equation-complexe"
+    },
+    {
+      "id": "math-c-cplx-ex18",
+      "enonce": "Déterminer l'affixe du barycentre G de (A,2), (B,1), (C,1), avec zA=1+i, zB=−1+2i et zC=3−i.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La somme des coefficients vaut 2+1+1=4≠0.",
+        "zG=(2zA+zB+zC)/4.",
+        "2(1+i)+(−1+2i)+(3−i)=4+3i.",
+        "Donc zG=(4+3i)/4=1+3i/4."
+      ],
+      "reponseFinale": "zG = 1 + 3i/4",
+      "competenceId": "math-c-c-barycentre"
+    },
+    {
+      "id": "math-c-cplx-ex19",
+      "enonce": "Montrer que les points A, B, C d'affixes 1+i, 3+2i et 5+3i sont alignés.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "zB−zA=(3+2i)−(1+i)=2+i.",
+        "zC−zA=(5+3i)−(1+i)=4+2i=2(2+i).",
+        "Le quotient (zC−zA)/(zB−zA)=2 est réel.",
+        "Les vecteurs AB et AC sont colinéaires, donc A, B et C sont alignés."
+      ],
+      "reponseFinale": "A, B et C sont alignés",
+      "competenceId": "math-c-c-geometrie-complexe"
+    },
+    {
+      "id": "math-c-cplx-ex20",
+      "enonce": "Décrire le lieu des points M d'affixe z tels que |z−(1−2i)|=3.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|z−zA| représente la distance AM avec zA=1−2i.",
+        "La condition impose AM=3.",
+        "Le lieu est donc le cercle de centre A(1,−2) et de rayon 3."
+      ],
+      "reponseFinale": "Cercle de centre d'affixe 1 − 2i et de rayon 3",
+      "competenceId": "math-c-c-lieux-complexes"
+    }
+  ]
+}

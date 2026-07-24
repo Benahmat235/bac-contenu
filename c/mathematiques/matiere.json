@@ -1,0 +1,21 @@
+{
+  "id": "mathematiques-c",
+  "titre": "Mathématiques",
+  "type": "scientifique",
+  "seriesConcernees": ["c"],
+  "description": "Arithmétique, géométrie, analyse, complexes et probabilités : formules, exercices corrigés et quiz.",
+  "unites": [
+    { "id": "math-c-ar1", "titre": "Les ensembles ℕ et ℤ (arithmétique)", "ordre": 1, "fichier": "c/mathematiques/unite-01.json", "prerequis": [] },
+    { "id": "math-c-ve1", "titre": "Calculs vectoriels et barycentre", "ordre": 2, "fichier": "c/mathematiques/unite-02.json", "prerequis": [] },
+    { "id": "math-c-is1", "titre": "Isométries du plan et applications affines", "ordre": 3, "fichier": "c/mathematiques/unite-03.json", "prerequis": ["math-c-ve1"] },
+    { "id": "math-c-u7", "titre": "Les nombres complexes", "ordre": 4, "fichier": "c/mathematiques/unite-04.json", "prerequis": [] },
+    { "id": "math-c-u8", "titre": "Similitudes", "ordre": 5, "fichier": "c/mathematiques/unite-05.json", "prerequis": ["math-c-u7"] },
+    { "id": "math-c-u1", "titre": "Limites et continuité", "ordre": 6, "fichier": "c/mathematiques/unite-06.json", "prerequis": [] },
+    { "id": "math-c-u2", "titre": "Dérivations et étude de fonctions", "ordre": 7, "fichier": "c/mathematiques/unite-07.json", "prerequis": ["math-c-u1"] },
+    { "id": "math-c-u3", "titre": "Primitives et fonction logarithme népérien", "ordre": 8, "fichier": "c/mathematiques/unite-08.json", "prerequis": ["math-c-u2"] },
+    { "id": "math-c-u4", "titre": "Fonctions exponentielles et fonctions puissances", "ordre": 9, "fichier": "c/mathematiques/unite-09.json", "prerequis": ["math-c-u3"] },
+    { "id": "math-c-u9", "titre": "Dénombrement et probabilités", "ordre": 10, "fichier": "c/mathematiques/unite-10.json", "prerequis": [] },
+    { "id": "math-c-u5", "titre": "Suites numériques", "ordre": 11, "fichier": "c/mathematiques/unite-11.json", "prerequis": ["math-c-u1"] },
+    { "id": "math-c-u6", "titre": "Les intégrales", "ordre": 12, "fichier": "c/mathematiques/unite-12.json", "prerequis": ["math-c-u8"] }
+  ]
+}

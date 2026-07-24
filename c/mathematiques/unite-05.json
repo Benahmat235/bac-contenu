@@ -1,0 +1,543 @@
+{
+  "id": "math-c-u8",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Similitudes",
+  "ordre": 5,
+  "source": {
+    "document": "Mathématique TC",
+    "chapitre": "Chapitre 5 : Similitudes",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale exacte puis la correction étape par étape."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Écriture d'une similitude directe",
+      "verso": "z'=az+b, avec a∈ℂ*",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rapport et angle d'une similitude directe",
+      "verso": "k=|a| et α≡arg(a) [2π]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Centre d'une similitude directe non translation",
+      "verso": "Si a≠1, ω=b/(1−a)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Forme réduite directe",
+      "verso": "z'−ω=keⁱᵅ(z−ω)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+      "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Composée de deux similitudes directes",
+      "verso": "Les rapports se multiplient et les angles s'additionnent",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réciproque d'une similitude directe",
+      "verso": "Rapport 1/k et angle −α",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Écriture d'une similitude indirecte",
+      "verso": "z'=a z̄+b, avec a∈ℂ*",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rapport d'une similitude indirecte",
+      "verso": "k=|a|",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Point fixe",
+      "verso": "Résoudre z'=z",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "math-c-u8-e1",
+      "titre": "Mémoriser les écritures complexes",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-similitude",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Écriture complexe d'une similitude directe ?",
+          "verso": "z'=az+b, a≠0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Centre si z'=az+b et a≠1 ?",
+          "verso": "ω=b/(1−a)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Écriture complexe d'une similitude indirecte ?",
+          "verso": "z'=a z̄+b, a≠0",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "math-c-u8-e2",
+      "titre": "Quiz : reconnaître une similitude",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-nature-similitude",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "L'application z'=(1+i)z−2 est :",
+          "options": [
+            "une similitude directe",
+            "une similitude indirecte",
+            "une constante",
+            "une projection"
+          ],
+          "reponse": 0,
+          "explication": "Elle est de la forme z'=az+b avec a≠0."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Le rapport de z'=(1−2i)z̄+3 est :",
+          "options": [
+            "1",
+            "2",
+            "√5",
+            "5"
+          ],
+          "reponse": 2,
+          "explication": "Le rapport vaut |1−2i|=√5."
+        },
+        {
+          "type": "choix_unique",
+          "question": "L'application z'=z+2i est :",
+          "options": [
+            "une rotation",
+            "une translation",
+            "une réflexion",
+            "une homothétie de rapport 2"
+          ],
+          "reponse": 1,
+          "explication": "Dans z'=az+b, a=1 et b≠0 : c'est une translation."
+        }
+      ]
+    },
+    {
+      "id": "math-c-u8-e3",
+      "titre": "Méthode d'étude d'une similitude directe",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-elements-similitude",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Comment étudier S : z'=az+b ?",
+          "etapes": [
+            "Vérifier que a≠0 et reconnaître une similitude directe",
+            "Distinguer a=1 (translation) et a≠1",
+            "Si a≠1, calculer le centre ω=b/(1−a)",
+            "Calculer le rapport k=|a|",
+            "Déterminer l'angle α=arg(a) et contrôler la forme réduite"
+          ],
+          "ordreCorrect": [
+            "Vérifier que a≠0 et reconnaître une similitude directe",
+            "Distinguer a=1 (translation) et a≠1",
+            "Si a≠1, calculer le centre ω=b/(1−a)",
+            "Calculer le rapport k=|a|",
+            "Déterminer l'angle α=arg(a) et contrôler la forme réduite"
+          ],
+          "explication": "Les trois éléments caractéristiques sont le centre, le rapport et l'angle."
+        },
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Comment étudier S : z'=a z̄+b ?",
+          "etapes": [
+            "Vérifier que a≠0 et reconnaître une similitude indirecte",
+            "Calculer le rapport k=|a|",
+            "Passer aux coordonnées x,y pour obtenir x' et y'",
+            "Résoudre z'=z afin de déterminer les points fixes",
+            "Si k=1, distinguer réflexion et symétrie glissée ; si k≠1, décrire la réflexion composée avec une homothétie"
+          ],
+          "ordreCorrect": [
+            "Vérifier que a≠0 et reconnaître une similitude indirecte",
+            "Calculer le rapport k=|a|",
+            "Passer aux coordonnées x,y pour obtenir x' et y'",
+            "Résoudre z'=z afin de déterminer les points fixes",
+            "Si k=1, distinguer réflexion et symétrie glissée ; si k≠1, décrire la réflexion composée avec une homothétie"
+          ],
+          "explication": "Les points fixes et la valeur du rapport permettent de classer la similitude indirecte."
+        }
+      ]
+    },
+    {
+      "id": "math-c-u8-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-similitude-directe",
+      "activites": [
+        {
+          "id": "math-c-sim-ex01",
+          "enonce": "Déterminer le centre, le rapport et l'angle de S : z'=(1+i)z+2.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "a=1+i≠0 et a≠1 : S est une similitude directe avec centre.",
+            "ω=b/(1−a)=2/(−i)=2i.",
+            "k=|1+i|=√2.",
+            "arg(1+i)≡π/4 [2π]."
+          ],
+          "reponseFinale": "Centre Ω d'affixe 2i ; rapport √2 ; angle π/4",
+          "competenceId": "math-c-c-elements-similitude"
+        },
+        {
+          "id": "math-c-sim-ex02",
+          "enonce": "Étudier S : z'=2z−3.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "a=2 et b=−3 : S est directe.",
+            "ω=−3/(1−2)=3.",
+            "k=|2|=2 et arg(2)=0.",
+            "C'est l'homothétie de centre d'affixe 3 et de rapport 2."
+          ],
+          "reponseFinale": "Homothétie de centre 3 et de rapport 2",
+          "competenceId": "math-c-c-elements-similitude"
+        },
+        {
+          "id": "math-c-sim-ex03",
+          "enonce": "Étudier S : z'=−z+4+2i.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "a=−1 et b=4+2i.",
+            "ω=b/(1−a)=(4+2i)/2=2+i.",
+            "k=1 et arg(−1)≡π [2π].",
+            "S est un demi-tour, donc une symétrie centrale."
+          ],
+          "reponseFinale": "Symétrie centrale de centre d'affixe 2 + i",
+          "competenceId": "math-c-c-elements-similitude"
+        },
+        {
+          "id": "math-c-sim-ex04",
+          "enonce": "Donner l'écriture complexe de la similitude directe de centre 1+i, de rapport 2 et d'angle π/2.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "La forme réduite est z'−ω=keⁱᵅ(z−ω).",
+            "Ici keⁱᵅ=2i et ω=1+i.",
+            "z'=2i(z−1−i)+1+i=2iz−2i+2+1+i.",
+            "Donc z'=2iz+3−i."
+          ],
+          "reponseFinale": "z' = 2iz + 3 − i",
+          "competenceId": "math-c-c-forme-reduite"
+        }
+      ]
+    },
+    {
+      "id": "math-c-u8-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "math-c-c-synthese-similitude",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La composée de f(z)=z̄ puis g(z)=i z̄ est :",
+          "options": [
+            "z'=−iz",
+            "z'=iz",
+            "z'=i z̄",
+            "z'=z"
+          ],
+          "reponse": 1,
+          "explication": "g(f(z))=i·overline(z̄)=iz, rotation directe d'angle π/2."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-c-sim-ex01",
+      "enonce": "Déterminer le centre, le rapport et l'angle de S : z'=(1+i)z+2.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "a=1+i≠0 et a≠1 : S est une similitude directe avec centre.",
+        "ω=b/(1−a)=2/(−i)=2i.",
+        "k=|1+i|=√2.",
+        "arg(1+i)≡π/4 [2π]."
+      ],
+      "reponseFinale": "Centre Ω d'affixe 2i ; rapport √2 ; angle π/4",
+      "competenceId": "math-c-c-elements-similitude"
+    },
+    {
+      "id": "math-c-sim-ex02",
+      "enonce": "Étudier S : z'=2z−3.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "a=2 et b=−3 : S est directe.",
+        "ω=−3/(1−2)=3.",
+        "k=|2|=2 et arg(2)=0.",
+        "C'est l'homothétie de centre d'affixe 3 et de rapport 2."
+      ],
+      "reponseFinale": "Homothétie de centre 3 et de rapport 2",
+      "competenceId": "math-c-c-elements-similitude"
+    },
+    {
+      "id": "math-c-sim-ex03",
+      "enonce": "Étudier S : z'=−z+4+2i.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "a=−1 et b=4+2i.",
+        "ω=b/(1−a)=(4+2i)/2=2+i.",
+        "k=1 et arg(−1)≡π [2π].",
+        "S est un demi-tour, donc une symétrie centrale."
+      ],
+      "reponseFinale": "Symétrie centrale de centre d'affixe 2 + i",
+      "competenceId": "math-c-c-elements-similitude"
+    },
+    {
+      "id": "math-c-sim-ex04",
+      "enonce": "Donner l'écriture complexe de la similitude directe de centre 1+i, de rapport 2 et d'angle π/2.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La forme réduite est z'−ω=keⁱᵅ(z−ω).",
+        "Ici keⁱᵅ=2i et ω=1+i.",
+        "z'=2i(z−1−i)+1+i=2iz−2i+2+1+i.",
+        "Donc z'=2iz+3−i."
+      ],
+      "reponseFinale": "z' = 2iz + 3 − i",
+      "competenceId": "math-c-c-forme-reduite"
+    },
+    {
+      "id": "math-c-sim-ex05",
+      "enonce": "Calculer l'image du point d'affixe 1−i par S : z'=iz+2.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Remplacer z par 1−i.",
+        "z'=i(1−i)+2=i−i²+2.",
+        "Comme i²=−1, z'=i+1+2=3+i."
+      ],
+      "reponseFinale": "z' = 3 + i",
+      "competenceId": "math-c-c-image-similitude"
+    },
+    {
+      "id": "math-c-sim-ex06",
+      "enonce": "Déterminer la similitude directe S telle que S(0)=1 et S(1)=1+i, puis donner ses éléments caractéristiques.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Écrivons z'=az+b. De S(0)=1, on obtient b=1.",
+        "De S(1)=1+i, a+b=1+i, donc a=i.",
+        "Ainsi z'=iz+1.",
+        "Le centre vaut 1/(1−i)=(1+i)/2, le rapport 1 et l'angle π/2."
+      ],
+      "reponseFinale": "z' = iz + 1 ; centre (1+i)/2 ; rapport 1 ; angle π/2",
+      "competenceId": "math-c-c-determination-similitude"
+    },
+    {
+      "id": "math-c-sim-ex07",
+      "enonce": "Composer f(z)=2iz+1 puis g(z)=(1−i)z+2 : calculer g∘f.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g(f(z))=(1−i)(2iz+1)+2.",
+        "Le coefficient est 2i(1−i)=2+2i.",
+        "Le terme constant vaut 1−i+2=3−i.",
+        "Donc (g∘f)(z)=(2+2i)z+3−i."
+      ],
+      "reponseFinale": "(g∘f)(z) = (2 + 2i)z + 3 − i",
+      "competenceId": "math-c-c-composition"
+    },
+    {
+      "id": "math-c-sim-ex08",
+      "enonce": "Déterminer la réciproque de f(z)=(1+i)z−2.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Posons w=(1+i)z−2 et isolons z.",
+        "z=(w+2)/(1+i).",
+        "Comme 1/(1+i)=(1−i)/2, z=((1−i)/2)w+(1−i).",
+        "On remplace w par z pour écrire f⁻¹."
+      ],
+      "reponseFinale": "f⁻¹(z) = ((1 − i)/2)z + 1 − i",
+      "competenceId": "math-c-c-reciproque"
+    },
+    {
+      "id": "math-c-sim-ex09",
+      "enonce": "Donner l'écriture complexe de l'application x'=x−y+1, y'=x+y−2 et préciser sa nature.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "z'=x'+iy'=(x−y+1)+i(x+y−2).",
+        "(1+i)z=(1+i)(x+iy)=x−y+i(x+y).",
+        "Ainsi z'=(1+i)z+1−2i.",
+        "C'est une similitude directe de rapport √2 et d'angle π/4."
+      ],
+      "reponseFinale": "z' = (1 + i)z + 1 − 2i ; similitude directe",
+      "competenceId": "math-c-c-expression-analytique"
+    },
+    {
+      "id": "math-c-sim-ex10",
+      "enonce": "Déterminer les éléments caractéristiques de S : z'=3iz−1.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "a=3i et b=−1.",
+        "ω=b/(1−a)=−1/(1−3i)=−(1+3i)/10.",
+        "k=|3i|=3.",
+        "arg(3i)=π/2."
+      ],
+      "reponseFinale": "Centre d'affixe (−1−3i)/10 ; rapport 3 ; angle π/2",
+      "competenceId": "math-c-c-elements-similitude"
+    },
+    {
+      "id": "math-c-sim-ex11",
+      "enonce": "Identifier l'application S : z'=z̄.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Si z=x+iy, alors z̄=x−iy.",
+        "Les coordonnées deviennent (x,−y).",
+        "C'est la réflexion par rapport à l'axe réel."
+      ],
+      "reponseFinale": "Réflexion par rapport à l'axe réel",
+      "competenceId": "math-c-c-similitude-indirecte"
+    },
+    {
+      "id": "math-c-sim-ex12",
+      "enonce": "Identifier l'application S : z'=−z̄.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Si z=x+iy, alors −z̄=−x+iy.",
+        "Les coordonnées deviennent (−x,y).",
+        "C'est la réflexion par rapport à l'axe imaginaire."
+      ],
+      "reponseFinale": "Réflexion par rapport à l'axe imaginaire",
+      "competenceId": "math-c-c-similitude-indirecte"
+    },
+    {
+      "id": "math-c-sim-ex13",
+      "enonce": "Identifier l'application S : z'=z̄+2i.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Pour z=x+iy, z'=x+i(2−y).",
+        "Ainsi x'=x et y'=2−y.",
+        "Le milieu des ordonnées y et y' vaut 1.",
+        "C'est la réflexion d'axe y=1."
+      ],
+      "reponseFinale": "Réflexion par rapport à la droite y = 1",
+      "competenceId": "math-c-c-similitude-indirecte"
+    },
+    {
+      "id": "math-c-sim-ex14",
+      "enonce": "Étudier S : z'=2z̄.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'écriture z'=a z̄+b avec a=2 montre que S est indirecte.",
+        "Son rapport vaut |a|=2.",
+        "Elle est la composée de la réflexion d'axe réel et de l'homothétie de centre O, rapport 2.",
+        "L'origine est son unique point fixe."
+      ],
+      "reponseFinale": "Similitude indirecte de rapport 2, point fixe O",
+      "competenceId": "math-c-c-similitude-indirecte"
+    },
+    {
+      "id": "math-c-sim-ex15",
+      "enonce": "Calculer l'image de z=2+i par S : z'=(1+i)z̄.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le conjugué de 2+i est 2−i.",
+        "z'=(1+i)(2−i).",
+        "Développer : 2−i+2i−i²=3+i."
+      ],
+      "reponseFinale": "z' = 3 + i",
+      "competenceId": "math-c-c-image-similitude"
+    },
+    {
+      "id": "math-c-sim-ex16",
+      "enonce": "Donner l'écriture complexe de x'=2x+y+1, y'=x−2y et préciser la nature et le rapport.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "z'=(2x+y+1)+i(x−2y).",
+        "Or (2+i)z̄=(2+i)(x−iy)=2x+y+i(x−2y).",
+        "Donc z'=(2+i)z̄+1.",
+        "C'est une similitude indirecte de rapport |2+i|=√5."
+      ],
+      "reponseFinale": "z' = (2 + i)z̄ + 1 ; similitude indirecte de rapport √5",
+      "competenceId": "math-c-c-expression-analytique"
+    },
+    {
+      "id": "math-c-sim-ex17",
+      "enonce": "L'application S : z'=z̄+2 possède-t-elle un point fixe ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Posons z=x+iy et imposons z=z̄+2.",
+        "On obtient x+iy=x−iy+2.",
+        "L'égalité des parties réelles donnerait x=x+2, impossible.",
+        "Il n'existe donc aucun point fixe ; c'est une symétrie glissée."
+      ],
+      "reponseFinale": "Aucun point fixe",
+      "competenceId": "math-c-c-point-fixe"
+    },
+    {
+      "id": "math-c-sim-ex18",
+      "enonce": "Identifier S : z'=−z̄+4.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Pour z=x+iy, z'=−x+4+iy.",
+        "Ainsi x'=4−x et y'=y.",
+        "Le milieu des abscisses x et x' vaut 2.",
+        "C'est la réflexion d'axe x=2."
+      ],
+      "reponseFinale": "Réflexion par rapport à la droite x = 2",
+      "competenceId": "math-c-c-similitude-indirecte"
+    },
+    {
+      "id": "math-c-sim-ex19",
+      "enonce": "Composer f(z)=z̄ puis g(z)=i z̄. Donner la nature de g∘f.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g(f(z))=i·overline(f(z)).",
+        "Comme f(z)=z̄, overline(f(z))=z.",
+        "Donc (g∘f)(z)=iz.",
+        "C'est une rotation directe de centre O et d'angle π/2."
+      ],
+      "reponseFinale": "(g∘f)(z) = iz ; rotation de centre O et d'angle π/2",
+      "competenceId": "math-c-c-composition"
+    },
+    {
+      "id": "math-c-sim-ex20",
+      "enonce": "Étudier S : z'=(2−i)z̄+3 et déterminer son point fixe.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "La présence de z̄ montre que S est indirecte et son rapport vaut |2−i|=√5.",
+        "Posons z=x+iy. Alors (2−i)z̄+3=(2x−y+3)+i(−x−2y).",
+        "La condition z'=z donne x=2x−y+3 et y=−x−2y, soit −x+y=3 et x+3y=0.",
+        "On obtient x=−9/4 et y=3/4 ; ce point fixe est unique car le rapport diffère de 1."
+      ],
+      "reponseFinale": "Similitude indirecte de rapport √5 ; point fixe d'affixe (−9+3i)/4",
+      "competenceId": "math-c-c-similitude-indirecte"
+    }
+  ]
+}

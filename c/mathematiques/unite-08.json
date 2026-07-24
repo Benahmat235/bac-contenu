@@ -1,0 +1,468 @@
+{
+  "id": "math-c-u3",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Primitives et fonction logarithme népérien",
+  "ordre": 8,
+  "source": {
+    "document": "Mathématique TC",
+    "chapitre": "Chapitre 8 : Primitives et logarithme népérien",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Primitive de xⁿ (n≠−1)",
+      "verso": "xⁿ⁺¹/(n+1) + c",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Primitive de u'/u",
+      "verso": "ln|u| + c",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de ln x",
+      "verso": "1/x",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de ln u",
+      "verso": "u'/u",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Logarithme d'un produit",
+      "verso": "ln(ab) = ln a + ln b",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Logarithme d'un quotient",
+      "verso": "ln(a/b) = ln a − ln b",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Logarithme d'une puissance",
+      "verso": "ln(aⁿ) = n·ln a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Valeurs remarquables",
+      "verso": "ln 1 = 0 ; ln e = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limites du logarithme",
+      "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) (ln x)/x = 0",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "math-c-u3-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-ln-prop",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "ln(ab) = ?",
+          "verso": "ln a + ln b",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de ln u ?",
+          "verso": "u'/u",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive de u'/u ?",
+          "verso": "ln|u| + c",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "math-c-u3-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-ln-prop",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "ln 8 + ln 2 =",
+          "options": [
+            "ln 10",
+            "ln 16",
+            "ln 4",
+            "16"
+          ],
+          "reponse": 1,
+          "explication": "ln(8×2)=ln 16."
+        },
+        {
+          "type": "choix_unique",
+          "question": "La dérivée de ln(3x+1) est :",
+          "options": [
+            "3/(3x+1)",
+            "1/(3x+1)",
+            "3x+1",
+            "ln(3)"
+          ],
+          "reponse": 0,
+          "explication": "u'/u avec u'=3."
+        }
+      ]
+    },
+    {
+      "id": "math-c-u3-e3",
+      "titre": "La méthode (équation avec ln)",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-ln-eq",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Résoudre une équation ln(...)=ln(...) :",
+          "etapes": [
+            "Déterminer les conditions d'existence (arguments > 0)",
+            "Utiliser les propriétés pour regrouper en ln",
+            "Passer aux arguments (ln injective)",
+            "Résoudre puis vérifier les conditions"
+          ],
+          "ordreCorrect": [
+            "Déterminer les conditions d'existence (arguments > 0)",
+            "Utiliser les propriétés pour regrouper en ln",
+            "Passer aux arguments (ln injective)",
+            "Résoudre puis vérifier les conditions"
+          ],
+          "explication": "On vérifie toujours les conditions d'existence."
+        }
+      ]
+    },
+    {
+      "id": "math-c-u3-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-ln-eq",
+      "activites": [
+        {
+          "id": "math-c-ln-ex09",
+          "enonce": "Calculer ln 1 et ln e.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "ln 1 = 0 (car e⁰=1)",
+            "ln e = 1"
+          ],
+          "reponseFinale": "ln 1 = 0 ; ln e = 1",
+          "competenceId": "math-c-c-ln-prop"
+        },
+        {
+          "id": "math-c-ln-ex10",
+          "enonce": "Résoudre dans ℝ : ln x = 2.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "ln x = 2 ⟺ x = e²",
+            "(x>0 vérifié)"
+          ],
+          "reponseFinale": "x = e²",
+          "competenceId": "math-c-c-ln-eq"
+        },
+        {
+          "id": "math-c-ln-ex11",
+          "enonce": "Résoudre dans ℝ : ln(x − 1) = 0.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "ln(x−1)=0 ⟺ x−1 = 1",
+            "x = 2 (et x−1>0)"
+          ],
+          "reponseFinale": "x = 2",
+          "competenceId": "math-c-c-ln-eq"
+        },
+        {
+          "id": "math-c-ln-ex12",
+          "enonce": "Résoudre : ln x + ln(x − 3) = ln 4 (x > 3).",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "ln[x(x−3)] = ln 4 ⟺ x²−3x = 4",
+            "x²−3x−4 = 0 → x = 4 ou x = −1",
+            "x>3 : on garde x = 4"
+          ],
+          "reponseFinale": "x = 4",
+          "competenceId": "math-c-c-ln-eq"
+        }
+      ]
+    },
+    {
+      "id": "math-c-u3-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "math-c-c-ln-eq",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Solution de ln x + ln(x−3) = ln 4 (x>3) :",
+          "options": [
+            "x = 4",
+            "x = −1",
+            "x = 7",
+            "x = 1"
+          ],
+          "reponse": 0,
+          "explication": "x²−3x−4=0 → x=4 (x>3)."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-c-ln-ex01",
+      "enonce": "Déterminer une primitive de f(x) = x²",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Primitive de xⁿ : xⁿ⁺¹/(n+1)",
+        "F(x) = 1/3x³ + c"
+      ],
+      "reponseFinale": "F(x) = 1/3x³ + c",
+      "competenceId": "math-c-c-primitive"
+    },
+    {
+      "id": "math-c-ln-ex02",
+      "enonce": "Déterminer une primitive de f(x) = 6x² − 4x + 3",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Primitive de xⁿ : xⁿ⁺¹/(n+1)",
+        "F(x) = 2x³ − 2x² + 3x + c"
+      ],
+      "reponseFinale": "F(x) = 2x³ − 2x² + 3x + c",
+      "competenceId": "math-c-c-primitive"
+    },
+    {
+      "id": "math-c-ln-ex03",
+      "enonce": "Déterminer une primitive de f(x) = x³ + 2x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Primitive de xⁿ : xⁿ⁺¹/(n+1)",
+        "F(x) = 1/4x⁴ + x² + c"
+      ],
+      "reponseFinale": "F(x) = 1/4x⁴ + x² + c",
+      "competenceId": "math-c-c-primitive"
+    },
+    {
+      "id": "math-c-ln-ex04",
+      "enonce": "Déterminer une primitive de f(x) = 4x³ − 2x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Primitive de xⁿ : xⁿ⁺¹/(n+1)",
+        "F(x) = x⁴ − x² + c"
+      ],
+      "reponseFinale": "F(x) = x⁴ − x² + c",
+      "competenceId": "math-c-c-primitive"
+    },
+    {
+      "id": "math-c-ln-ex05",
+      "enonce": "Déterminer une primitive de f(x) = 5",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Primitive de xⁿ : xⁿ⁺¹/(n+1)",
+        "F(x) = 5x + c"
+      ],
+      "reponseFinale": "F(x) = 5x + c",
+      "competenceId": "math-c-c-primitive"
+    },
+    {
+      "id": "math-c-ln-ex06",
+      "enonce": "Simplifier ln 8 + ln 2 sous la forme ln N.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ln a + ln b = ln(ab)",
+        "ln 8 + ln 2 = ln 16"
+      ],
+      "reponseFinale": "ln 16",
+      "competenceId": "math-c-c-ln-prop"
+    },
+    {
+      "id": "math-c-ln-ex07",
+      "enonce": "Simplifier ln 12 − ln 4.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ln a − ln b = ln(a/b)",
+        "ln 12 − ln 4 = ln 3"
+      ],
+      "reponseFinale": "ln 3",
+      "competenceId": "math-c-c-ln-prop"
+    },
+    {
+      "id": "math-c-ln-ex08",
+      "enonce": "Écrire 3 ln 2 sous la forme ln N.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "n ln a = ln(aⁿ)",
+        "3 ln 2 = ln 2³ = ln 8"
+      ],
+      "reponseFinale": "ln 8",
+      "competenceId": "math-c-c-ln-prop"
+    },
+    {
+      "id": "math-c-ln-ex09",
+      "enonce": "Calculer ln 1 et ln e.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ln 1 = 0 (car e⁰=1)",
+        "ln e = 1"
+      ],
+      "reponseFinale": "ln 1 = 0 ; ln e = 1",
+      "competenceId": "math-c-c-ln-prop"
+    },
+    {
+      "id": "math-c-ln-ex10",
+      "enonce": "Résoudre dans ℝ : ln x = 2.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ln x = 2 ⟺ x = e²",
+        "(x>0 vérifié)"
+      ],
+      "reponseFinale": "x = e²",
+      "competenceId": "math-c-c-ln-eq"
+    },
+    {
+      "id": "math-c-ln-ex11",
+      "enonce": "Résoudre dans ℝ : ln(x − 1) = 0.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ln(x−1)=0 ⟺ x−1 = 1",
+        "x = 2 (et x−1>0)"
+      ],
+      "reponseFinale": "x = 2",
+      "competenceId": "math-c-c-ln-eq"
+    },
+    {
+      "id": "math-c-ln-ex12",
+      "enonce": "Résoudre : ln x + ln(x − 3) = ln 4 (x > 3).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "ln[x(x−3)] = ln 4 ⟺ x²−3x = 4",
+        "x²−3x−4 = 0 → x = 4 ou x = −1",
+        "x>3 : on garde x = 4"
+      ],
+      "reponseFinale": "x = 4",
+      "competenceId": "math-c-c-ln-eq"
+    },
+    {
+      "id": "math-c-ln-ex13",
+      "enonce": "Dériver f(x) = ln(3x + 1).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "(ln u)' = u'/u avec u = 3x+1, u' = 3",
+        "f'(x) = 3/(3x+1)"
+      ],
+      "reponseFinale": "f'(x) = 3/(3x + 1)",
+      "competenceId": "math-c-c-ln-deriv"
+    },
+    {
+      "id": "math-c-ln-ex14",
+      "enonce": "Dériver f(x) = x ln x.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "(uv)' = u'v+uv' avec u=x, v=ln x",
+        "f'(x) = ln x + x·(1/x) = ln x + 1"
+      ],
+      "reponseFinale": "f'(x) = ln x + 1",
+      "competenceId": "math-c-c-ln-deriv"
+    },
+    {
+      "id": "math-c-ln-ex15",
+      "enonce": "Dériver f(x) = ln(x² + 1).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "u = x²+1, u' = 2x",
+        "f'(x) = 2x/(x²+1)"
+      ],
+      "reponseFinale": "f'(x) = 2x/(x² + 1)",
+      "competenceId": "math-c-c-ln-deriv"
+    },
+    {
+      "id": "math-c-ln-ex16",
+      "enonce": "Calculer lim(x→+∞) ln x.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ln est strictement croissante et non majorée",
+        "lim = +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-c-c-ln-lim"
+    },
+    {
+      "id": "math-c-ln-ex17",
+      "enonce": "Calculer lim(x→0⁺) ln x.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ln x → −∞ quand x → 0⁺"
+      ],
+      "reponseFinale": "−∞",
+      "competenceId": "math-c-c-ln-lim"
+    },
+    {
+      "id": "math-c-ln-ex18",
+      "enonce": "Calculer lim(x→+∞) (ln x)/x.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Croissance comparée : x l'emporte sur ln x",
+        "lim = 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-c-c-ln-lim"
+    },
+    {
+      "id": "math-c-ln-ex19",
+      "enonce": "Déterminer une primitive de f(x) = (2x)/(x² + 1).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "De la forme u'/u avec u = x²+1",
+        "primitive = ln|u| = ln(x²+1)"
+      ],
+      "reponseFinale": "F(x) = ln(x² + 1) + c",
+      "competenceId": "math-c-c-primitive"
+    },
+    {
+      "id": "math-c-ln-ex20",
+      "enonce": "Résoudre dans ℝ : ln(2x + 1) = ln(x + 4).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Conditions : 2x+1>0 et x+4>0",
+        "ln injective : 2x+1 = x+4",
+        "x = 3 (conditions vérifiées)"
+      ],
+      "reponseFinale": "x = 3",
+      "competenceId": "math-c-c-ln-eq"
+    }
+  ]
+}

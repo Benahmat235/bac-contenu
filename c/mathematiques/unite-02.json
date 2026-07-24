@@ -1,0 +1,469 @@
+{
+  "id": "math-c-ve1",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Calculs vectoriels et barycentre",
+  "ordre": 2,
+  "source": {
+    "document": "Mathématique TC",
+    "chapitre": "Chapitre 2 : Calculs vectoriels",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Produit scalaire (coordonnées)",
+      "verso": "u·v = xᵤxᵥ + yᵤyᵥ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Norme d'un vecteur",
+      "verso": "‖u‖ = √(x² + y²)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vecteurs orthogonaux",
+      "verso": "u ⊥ v ⟺ u·v = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vecteurs colinéaires",
+      "verso": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Milieu d'un segment",
+      "verso": "I = ((xA+xB)/2 ; (yA+yB)/2)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Barycentre de n points pondérés",
+      "verso": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Équation d'un plan (vecteur normal n)",
+      "verso": "n·(M − A) = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Produit scalaire (norme et angle)",
+      "verso": "u·v = ‖u‖·‖v‖·cos(θ)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "math-c-vect-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-prodscalaire",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Produit scalaire en coordonnées ?",
+          "verso": "u·v = xᵤxᵥ + yᵤyᵥ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Coordonnées du barycentre ?",
+          "verso": "G = (Σαᵢxᵢ/Σαᵢ ; Σαᵢyᵢ/Σαᵢ)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "math-c-vect-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-orthogonal",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Deux vecteurs sont orthogonaux si :",
+          "options": [
+            "u·v = 1",
+            "u·v = 0",
+            "‖u‖ = ‖v‖",
+            "ils sont colinéaires"
+          ],
+          "reponse": 1,
+          "explication": "Orthogonaux ⟺ produit scalaire nul."
+        },
+        {
+          "type": "choix_unique",
+          "question": "L'isobarycentre de A et B est :",
+          "options": [
+            "le milieu de [AB]",
+            "le point A",
+            "l'origine",
+            "le vecteur AB"
+          ],
+          "reponse": 0,
+          "explication": "Coefficients égaux → milieu."
+        }
+      ]
+    },
+    {
+      "id": "math-c-vect-e3",
+      "titre": "La méthode (barycentre)",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-barycentre",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Comment calculer les coordonnées d'un barycentre ?",
+          "etapes": [
+            "Calculer la somme des coefficients Σαᵢ",
+            "Vérifier qu'elle est non nulle",
+            "Calculer Σαᵢxᵢ et Σαᵢyᵢ",
+            "Diviser chaque somme par Σαᵢ"
+          ],
+          "ordreCorrect": [
+            "Calculer la somme des coefficients Σαᵢ",
+            "Vérifier qu'elle est non nulle",
+            "Calculer Σαᵢxᵢ et Σαᵢyᵢ",
+            "Diviser chaque somme par Σαᵢ"
+          ],
+          "explication": "Le barycentre est une moyenne pondérée des coordonnées."
+        }
+      ]
+    },
+    {
+      "id": "math-c-vect-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "math-c-c-prodscalaire",
+      "activites": [
+        {
+          "id": "math-c-vect-ex01",
+          "enonce": "Calculer le produit scalaire u·v avec u(3, 4) et v(2, -1).",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "= 3×2 + 4×-1 = 2"
+          ],
+          "reponseFinale": "u·v = 2",
+          "competenceId": "math-c-c-prodscalaire"
+        },
+        {
+          "id": "math-c-vect-ex02",
+          "enonce": "Calculer le produit scalaire u·v avec u(1, 2) et v(2, 3).",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "= 1×2 + 2×3 = 8"
+          ],
+          "reponseFinale": "u·v = 8",
+          "competenceId": "math-c-c-prodscalaire"
+        },
+        {
+          "id": "math-c-vect-ex03",
+          "enonce": "Calculer le produit scalaire u·v avec u(-2, 5) et v(4, 1).",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "= -2×4 + 5×1 = -3"
+          ],
+          "reponseFinale": "u·v = -3",
+          "competenceId": "math-c-c-prodscalaire"
+        },
+        {
+          "id": "math-c-vect-ex04",
+          "enonce": "Calculer la norme du vecteur u(3, 4).",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "‖u‖ = √(x² + y²)",
+            "= √(9 + 16) = √25 = 5"
+          ],
+          "reponseFinale": "‖u‖ = 5",
+          "competenceId": "math-c-c-norme"
+        }
+      ]
+    },
+    {
+      "id": "math-c-vect-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "math-c-c-barycentre",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Barycentre de (A(0;0),1) et (B(6;3),2) :",
+          "options": [
+            "(3 ; 1,5)",
+            "(4 ; 2)",
+            "(2 ; 1)",
+            "(6 ; 3)"
+          ],
+          "reponse": 1,
+          "explication": "xG=(0+12)/3=4 ; yG=(0+6)/3=2."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-c-vect-ex01",
+      "enonce": "Calculer le produit scalaire u·v avec u(3, 4) et v(2, -1).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u·v = xᵤxᵥ + yᵤyᵥ",
+        "= 3×2 + 4×-1 = 2"
+      ],
+      "reponseFinale": "u·v = 2",
+      "competenceId": "math-c-c-prodscalaire"
+    },
+    {
+      "id": "math-c-vect-ex02",
+      "enonce": "Calculer le produit scalaire u·v avec u(1, 2) et v(2, 3).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u·v = xᵤxᵥ + yᵤyᵥ",
+        "= 1×2 + 2×3 = 8"
+      ],
+      "reponseFinale": "u·v = 8",
+      "competenceId": "math-c-c-prodscalaire"
+    },
+    {
+      "id": "math-c-vect-ex03",
+      "enonce": "Calculer le produit scalaire u·v avec u(-2, 5) et v(4, 1).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u·v = xᵤxᵥ + yᵤyᵥ",
+        "= -2×4 + 5×1 = -3"
+      ],
+      "reponseFinale": "u·v = -3",
+      "competenceId": "math-c-c-prodscalaire"
+    },
+    {
+      "id": "math-c-vect-ex04",
+      "enonce": "Calculer la norme du vecteur u(3, 4).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "‖u‖ = √(x² + y²)",
+        "= √(9 + 16) = √25 = 5"
+      ],
+      "reponseFinale": "‖u‖ = 5",
+      "competenceId": "math-c-c-norme"
+    },
+    {
+      "id": "math-c-vect-ex05",
+      "enonce": "Calculer la norme du vecteur u(6, 8).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "‖u‖ = √(x² + y²)",
+        "= √(36 + 64) = √100 = 10"
+      ],
+      "reponseFinale": "‖u‖ = 10",
+      "competenceId": "math-c-c-norme"
+    },
+    {
+      "id": "math-c-vect-ex06",
+      "enonce": "Calculer la norme du vecteur u(5, 12).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "‖u‖ = √(x² + y²)",
+        "= √(25 + 144) = √169 = 13"
+      ],
+      "reponseFinale": "‖u‖ = 13",
+      "competenceId": "math-c-c-norme"
+    },
+    {
+      "id": "math-c-vect-ex07",
+      "enonce": "Les vecteurs u(3, 4) et v(4, -3) sont-ils orthogonaux ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ils sont orthogonaux si u·v = 0",
+        "u·v = 0"
+      ],
+      "reponseFinale": "Oui (u·v = 0)",
+      "competenceId": "math-c-c-orthogonal"
+    },
+    {
+      "id": "math-c-vect-ex08",
+      "enonce": "Les vecteurs u(2, 1) et v(1, 2) sont-ils orthogonaux ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ils sont orthogonaux si u·v = 0",
+        "u·v = 4"
+      ],
+      "reponseFinale": "Non (u·v = 4)",
+      "competenceId": "math-c-c-orthogonal"
+    },
+    {
+      "id": "math-c-vect-ex09",
+      "enonce": "Les vecteurs u(1, 0) et v(0, 5) sont-ils orthogonaux ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ils sont orthogonaux si u·v = 0",
+        "u·v = 0"
+      ],
+      "reponseFinale": "Oui (u·v = 0)",
+      "competenceId": "math-c-c-orthogonal"
+    },
+    {
+      "id": "math-c-vect-ex10",
+      "enonce": "A(1;2) et B(5;6). Calculer les coordonnées du milieu I de [AB] (isobarycentre).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = ((xA+xB)/2 ; (yA+yB)/2)",
+        "= ((1+5)/2 ; (2+6)/2) = (3 ; 4)"
+      ],
+      "reponseFinale": "I(3 ; 4)",
+      "competenceId": "math-c-c-barycentre"
+    },
+    {
+      "id": "math-c-vect-ex11",
+      "enonce": "Barycentre G de (A(0;0), 1) et (B(6;3), 2).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "G = (Σαᵢxᵢ / Σαᵢ ; Σαᵢyᵢ / Σαᵢ)",
+        "xG = (1×0 + 2×6)/3 = 4 ; yG = (1×0 + 2×3)/3 = 2"
+      ],
+      "reponseFinale": "G(4 ; 2)",
+      "competenceId": "math-c-c-barycentre"
+    },
+    {
+      "id": "math-c-vect-ex12",
+      "enonce": "Barycentre G de (A(2;1),1), (B(4;3),1) et (C(0;2),1) (isobarycentre du triangle).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "G = moyenne des coordonnées",
+        "xG = (2+4+0)/3 = 2 ; yG = (1+3+2)/3 = 2"
+      ],
+      "reponseFinale": "G(2 ; 2)",
+      "competenceId": "math-c-c-barycentre"
+    },
+    {
+      "id": "math-c-vect-ex13",
+      "enonce": "Les vecteurs u(2, 4) et v(1, 2) sont-ils colinéaires ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ils sont colinéaires si le déterminant xᵤyᵥ − yᵤxᵥ = 0",
+        "dét = 2×2 − 4×1 = 0"
+      ],
+      "reponseFinale": "Oui (dét = 0)",
+      "competenceId": "math-c-c-colineaire"
+    },
+    {
+      "id": "math-c-vect-ex14",
+      "enonce": "Les vecteurs u(3, 1) et v(6, 2) sont-ils colinéaires ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ils sont colinéaires si le déterminant xᵤyᵥ − yᵤxᵥ = 0",
+        "dét = 3×2 − 1×6 = 0"
+      ],
+      "reponseFinale": "Oui (dét = 0)",
+      "competenceId": "math-c-c-colineaire"
+    },
+    {
+      "id": "math-c-vect-ex15",
+      "enonce": "Les vecteurs u(1, 3) et v(2, 5) sont-ils colinéaires ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ils sont colinéaires si le déterminant xᵤyᵥ − yᵤxᵥ = 0",
+        "dét = 1×5 − 3×2 = -1"
+      ],
+      "reponseFinale": "Non (dét = -1)",
+      "competenceId": "math-c-c-colineaire"
+    },
+    {
+      "id": "math-c-vect-ex16",
+      "enonce": "Donner une équation du plan passant par A(2;3;1) de vecteur normal n(−1;2;1).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Équation : n·(M − A) = 0, soit −1(x−2) + 2(y−3) + 1(z−1) = 0",
+        "−x + 2y + z + 2 − 6 − 1 = 0"
+      ],
+      "reponseFinale": "−x + 2y + z − 5 = 0",
+      "competenceId": "math-c-c-plan"
+    },
+    {
+      "id": "math-c-vect-ex17",
+      "enonce": "Calculer le produit scalaire u·v avec u(1, 3) et v(3, -1).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u·v = xᵤxᵥ + yᵤyᵥ",
+        "= 1×3 + 3×-1 = 0"
+      ],
+      "reponseFinale": "u·v = 0",
+      "competenceId": "math-c-c-prodscalaire"
+    },
+    {
+      "id": "math-c-vect-ex18",
+      "enonce": "Calculer le produit scalaire u·v avec u(2, 2) et v(-1, 1).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u·v = xᵤxᵥ + yᵤyᵥ",
+        "= 2×-1 + 2×1 = 0"
+      ],
+      "reponseFinale": "u·v = 0",
+      "competenceId": "math-c-c-prodscalaire"
+    },
+    {
+      "id": "math-c-vect-ex19",
+      "enonce": "Calculer la norme du vecteur u(8;6).",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "‖u‖ = √(x²+y²) = √(64+36) = √100",
+        "= 10"
+      ],
+      "reponseFinale": "‖u‖ = 10",
+      "competenceId": "math-c-c-norme"
+    },
+    {
+      "id": "math-c-vect-ex20",
+      "enonce": "A(−1;2) et B(3;−4). Calculer les coordonnées du milieu I de [AB].",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = ((xA+xB)/2 ; (yA+yB)/2)",
+        "= ((−1+3)/2 ; (2−4)/2) = (1 ; −1)"
+      ],
+      "reponseFinale": "I(1 ; −1)",
+      "competenceId": "math-c-c-barycentre"
+    },
+    {
+      "id": "math-c-vect-ex21",
+      "enonce": "Barycentre G de (A(1;1),2) et (B(4;7),1).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "xG = (2×1 + 1×4)/3 = 2 ; yG = (2×1 + 1×7)/3 = 3"
+      ],
+      "reponseFinale": "G(2 ; 3)",
+      "competenceId": "math-c-c-barycentre"
+    },
+    {
+      "id": "math-c-vect-ex22",
+      "enonce": "Les points A(0;0), B(2;3) et C(4;6) sont-ils alignés ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Vecteurs AB(2;3) et AC(4;6) ; déterminant = 2×6 − 3×4 = 0",
+        "AB et AC colinéaires → points alignés"
+      ],
+      "reponseFinale": "Oui, alignés",
+      "competenceId": "math-c-c-colineaire"
+    }
+  ]
+}
