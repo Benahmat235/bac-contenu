@@ -1,0 +1,402 @@
+{
+  "id": "svt-c-fn",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "De la fécondation à la naissance",
+  "ordre": 7,
+  "source": {
+    "document": "SVT TC-D",
+    "chapitre": "Chapitre 7 : De la fécondation à la naissance",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Lieu de la fécondation",
+      "verso": "l'ampoule de la trompe",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fécondation",
+      "verso": "fusion spermatozoïde + ovule → zygote (2n)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Segmentation",
+      "verso": "premières divisions du zygote",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Nidation",
+      "verso": "implantation de l'embryon dans l'endomètre utérin",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Placenta",
+      "verso": "assure les échanges entre mère et fœtus",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "HCG",
+      "verso": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Progestérone",
+      "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Durée de grossesse",
+      "verso": "environ 9 mois ; se termine par l'accouchement",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Contraception hormonale",
+      "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "svt-c-fn-fn-e1",
+      "titre": "Mémoriser les définitions",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-fn-grossesse",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Rôle du placenta ?",
+          "verso": "échanges entre la mère et le fœtus",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hormone des tests de grossesse ?",
+          "verso": "l'HCG",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-fn-fn-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-fn-fec",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La fécondation a lieu dans :",
+          "options": [
+            "l'utérus",
+            "l'ovaire",
+            "la trompe",
+            "le vagin"
+          ],
+          "reponse": 2,
+          "explication": "Dans l'ampoule de la trompe."
+        },
+        {
+          "type": "choix_unique",
+          "question": "La nidation est :",
+          "options": [
+            "la fusion des gamètes",
+            "l'implantation de l'embryon dans l'utérus",
+            "l'accouchement",
+            "l'ovulation"
+          ],
+          "reponse": 1,
+          "explication": "Implantation dans l'endomètre."
+        },
+        {
+          "type": "choix_unique",
+          "question": "La pilule contraceptive agit en :",
+          "options": [
+            "favorisant l'ovulation",
+            "bloquant l'ovulation",
+            "augmentant la LH",
+            "détruisant l'utérus"
+          ],
+          "reponse": 1,
+          "explication": "Elle bloque l'ovulation."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-fn-fn-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-fn-dev",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Ordonner les étapes de la fécondation à la nidation :",
+          "etapes": [
+            "Fécondation dans la trompe → zygote",
+            "Segmentation (divisions successives)",
+            "Migration vers l'utérus",
+            "Nidation dans l'endomètre"
+          ],
+          "ordreCorrect": [
+            "Fécondation dans la trompe → zygote",
+            "Segmentation (divisions successives)",
+            "Migration vers l'utérus",
+            "Nidation dans l'endomètre"
+          ],
+          "explication": "Fécondation → segmentation → nidation."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-fn-fn-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-fn-grossesse",
+      "activites": [
+        {
+          "id": "svt-c-fn-ex01",
+          "enonce": "Où se déroule normalement la fécondation chez la femme ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "La rencontre des gamètes a lieu dans l'ampoule (tiers supérieur) de la trompe."
+          ],
+          "reponseFinale": "Dans la trompe (ampoule)",
+          "competenceId": "svt-c-fn-fec"
+        },
+        {
+          "id": "svt-c-fn-ex02",
+          "enonce": "Qu'est-ce que la fécondation ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La fécondation est la fusion d'un spermatozoïde et d'un ovule donnant la cellule-œuf (zygote)."
+          ],
+          "reponseFinale": "La fusion des gamètes donnant le zygote",
+          "competenceId": "svt-c-fn-fec"
+        },
+        {
+          "id": "svt-c-fn-ex03",
+          "enonce": "Comment nomme-t-on la cellule issue de la fécondation ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La cellule-œuf ou zygote."
+          ],
+          "reponseFinale": "Le zygote (cellule-œuf)",
+          "competenceId": "svt-c-fn-fec"
+        },
+        {
+          "id": "svt-c-fn-ex04",
+          "enonce": "Comment appelle-t-on les divisions successives du zygote au début du développement ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Les premières divisions du zygote forment la segmentation."
+          ],
+          "reponseFinale": "La segmentation",
+          "competenceId": "svt-c-fn-dev"
+        },
+        {
+          "id": "svt-c-fn-ex05",
+          "enonce": "Qu'est-ce que la nidation ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "La nidation est l'implantation de l'embryon dans la muqueuse de l'utérus (endomètre)."
+          ],
+          "reponseFinale": "L'implantation de l'embryon dans l'utérus",
+          "competenceId": "svt-c-fn-dev"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-fn-fn-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-fn-grossesse",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "L'hormone qui maintient la grossesse et inhibe les contractions utérines est :",
+          "options": [
+            "l'HCG",
+            "la progestérone",
+            "la FSH",
+            "les œstrogènes"
+          ],
+          "reponse": 1,
+          "explication": "La progestérone."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-fn-ex01",
+      "enonce": "Où se déroule normalement la fécondation chez la femme ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La rencontre des gamètes a lieu dans l'ampoule (tiers supérieur) de la trompe."
+      ],
+      "reponseFinale": "Dans la trompe (ampoule)",
+      "competenceId": "svt-c-fn-fec"
+    },
+    {
+      "id": "svt-c-fn-ex02",
+      "enonce": "Qu'est-ce que la fécondation ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La fécondation est la fusion d'un spermatozoïde et d'un ovule donnant la cellule-œuf (zygote)."
+      ],
+      "reponseFinale": "La fusion des gamètes donnant le zygote",
+      "competenceId": "svt-c-fn-fec"
+    },
+    {
+      "id": "svt-c-fn-ex03",
+      "enonce": "Comment nomme-t-on la cellule issue de la fécondation ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La cellule-œuf ou zygote."
+      ],
+      "reponseFinale": "Le zygote (cellule-œuf)",
+      "competenceId": "svt-c-fn-fec"
+    },
+    {
+      "id": "svt-c-fn-ex04",
+      "enonce": "Comment appelle-t-on les divisions successives du zygote au début du développement ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les premières divisions du zygote forment la segmentation."
+      ],
+      "reponseFinale": "La segmentation",
+      "competenceId": "svt-c-fn-dev"
+    },
+    {
+      "id": "svt-c-fn-ex05",
+      "enonce": "Qu'est-ce que la nidation ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La nidation est l'implantation de l'embryon dans la muqueuse de l'utérus (endomètre)."
+      ],
+      "reponseFinale": "L'implantation de l'embryon dans l'utérus",
+      "competenceId": "svt-c-fn-dev"
+    },
+    {
+      "id": "svt-c-fn-ex06",
+      "enonce": "Quel organe assure les échanges entre la mère et le fœtus pendant la grossesse ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le placenta assure les échanges nutritifs, gazeux et hormonaux."
+      ],
+      "reponseFinale": "Le placenta",
+      "competenceId": "svt-c-fn-grossesse"
+    },
+    {
+      "id": "svt-c-fn-ex07",
+      "enonce": "Quelle hormone, produite dès le début de la grossesse, est détectée par les tests de grossesse ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "L'HCG (gonadotrophine chorionique) maintient le corps jaune et est détectée par les tests."
+      ],
+      "reponseFinale": "L'HCG (hormone chorionique)",
+      "competenceId": "svt-c-fn-grossesse"
+    },
+    {
+      "id": "svt-c-fn-ex08",
+      "enonce": "Quelle hormone, dite « hormone de la grossesse », inhibe les contractions de l'utérus ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La progestérone maintient la grossesse et empêche les contractions du myomètre."
+      ],
+      "reponseFinale": "La progestérone",
+      "competenceId": "svt-c-fn-grossesse"
+    },
+    {
+      "id": "svt-c-fn-ex09",
+      "enonce": "Pourquoi n'y a-t-il pas de règles pendant la grossesse ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Le corps jaune, maintenu par l'HCG, continue à sécréter la progestérone qui conserve l'endomètre : pas de menstruations."
+      ],
+      "reponseFinale": "La progestérone maintient l'endomètre (pas de menstruation)",
+      "competenceId": "svt-c-fn-grossesse"
+    },
+    {
+      "id": "svt-c-fn-ex10",
+      "enonce": "Combien de temps dure en moyenne une grossesse humaine ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La grossesse dure environ 9 mois (≈ 40 semaines)."
+      ],
+      "reponseFinale": "Environ 9 mois",
+      "competenceId": "svt-c-fn-grossesse"
+    },
+    {
+      "id": "svt-c-fn-ex11",
+      "enonce": "Comment nomme-t-on l'expulsion du fœtus à la fin de la grossesse ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "L'accouchement (parturition) est l'expulsion du fœtus."
+      ],
+      "reponseFinale": "L'accouchement",
+      "competenceId": "svt-c-fn-grossesse"
+    },
+    {
+      "id": "svt-c-fn-ex12",
+      "enonce": "Citer un moyen de contraception hormonal.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La pilule contraceptive (œstrogènes/progestatifs) bloque l'ovulation."
+      ],
+      "reponseFinale": "La pilule contraceptive",
+      "competenceId": "svt-c-fn-procreation"
+    },
+    {
+      "id": "svt-c-fn-ex13",
+      "enonce": "Sur quel évènement du cycle agit principalement la pilule contraceptive ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Elle bloque l'ovulation en inhibant la sécrétion des hormones hypophysaires (FSH, LH)."
+      ],
+      "reponseFinale": "Elle bloque l'ovulation",
+      "competenceId": "svt-c-fn-procreation"
+    },
+    {
+      "id": "svt-c-fn-ex14",
+      "enonce": "Comment nomme-t-on l'aide médicale à la procréation par fécondation en dehors du corps ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La fécondation in vitro (FIV) réalise la fécondation en laboratoire."
+      ],
+      "reponseFinale": "La fécondation in vitro (FIV)",
+      "competenceId": "svt-c-fn-procreation"
+    },
+    {
+      "id": "svt-c-fn-ex15",
+      "enonce": "Un spermatozoïde (n) féconde un ovule (n). Quel est le nombre de chromosomes du zygote ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "n + n = 2n : le zygote est diploïde."
+      ],
+      "reponseFinale": "2n (diploïde)",
+      "competenceId": "svt-c-fn-fec"
+    }
+  ]
+}

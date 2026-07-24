@@ -1,0 +1,419 @@
+{
+  "id": "svt-d-he",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "L'hérédité humaine",
+  "ordre": 10,
+  "source": {
+    "document": "SVT TC-D",
+    "chapitre": "Chapitre 10 : L'hérédité humaine",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Chromosomes sexuels",
+      "verso": "XX (femme) et XY (homme)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Hérédité liée au sexe",
+      "verso": "gène porté par un chromosome sexuel (souvent X)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Système ABO",
+      "verso": "4 groupes : A, B, AB, O",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Allèles ABO",
+      "verso": "A et B codominants, dominent O (récessif)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Génotypes ABO",
+      "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Donneur / receveur universel",
+      "verso": "donneur : O ; receveur : AB",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Facteur Rhésus",
+      "verso": "Rh+ (dominant) / Rh− (récessif)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Drépanocytose",
+      "verso": "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Trisomie 21",
+      "verso": "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Turner / Klinefelter",
+      "verso": "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "svt-d-he-he-e1",
+      "titre": "Mémoriser les définitions",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-he-abo",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Génotype du groupe O ?",
+          "verso": "O//O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Donneur universel / receveur universel ?",
+          "verso": "donneur O, receveur AB",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-he-he-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-he-abo",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le groupe sanguin O a pour génotype :",
+          "options": [
+            "A//O",
+            "O//O",
+            "A//B",
+            "B//O"
+          ],
+          "reponse": 1,
+          "explication": "O récessif ⇒ O//O."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Le receveur universel est du groupe :",
+          "options": [
+            "O",
+            "A",
+            "B",
+            "AB"
+          ],
+          "reponse": 3,
+          "explication": "AB reçoit de tous."
+        },
+        {
+          "type": "choix_unique",
+          "question": "La trisomie 21 comporte :",
+          "options": [
+            "45 chromosomes",
+            "46 chromosomes",
+            "47 chromosomes",
+            "48 chromosomes"
+          ],
+          "reponse": 2,
+          "explication": "47 (3 exemplaires du 21)."
+        }
+      ]
+    },
+    {
+      "id": "svt-d-he-he-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-he-abo",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Déterminer les génotypes des parents à partir d'un enfant de groupe O :",
+          "etapes": [
+            "L'enfant O est O//O",
+            "Il a reçu un allèle O de chaque parent",
+            "Chaque parent porte donc au moins un O",
+            "En tenant compte du groupe des parents, préciser leur génotype"
+          ],
+          "ordreCorrect": [
+            "L'enfant O est O//O",
+            "Il a reçu un allèle O de chaque parent",
+            "Chaque parent porte donc au moins un O",
+            "En tenant compte du groupe des parents, préciser leur génotype"
+          ],
+          "explication": "L'allèle O étant récessif, un enfant O révèle des parents porteurs de O."
+        }
+      ]
+    },
+    {
+      "id": "svt-d-he-he-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-he-abo",
+      "activites": [
+        {
+          "id": "svt-d-he-ex01",
+          "enonce": "Quels sont les chromosomes qui déterminent le sexe chez l'être humain ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Les chromosomes sexuels (gonosomes) : XX chez la femme, XY chez l'homme."
+          ],
+          "reponseFinale": "Les chromosomes sexuels : XX (femme), XY (homme)",
+          "competenceId": "svt-d-he-sexe"
+        },
+        {
+          "id": "svt-d-he-ex02",
+          "enonce": "Qu'est-ce qu'une maladie héréditaire liée au sexe ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "C'est une maladie dont le gène est porté par un chromosome sexuel (souvent X)."
+          ],
+          "reponseFinale": "Une maladie dont le gène est porté par un gonosome (X)",
+          "competenceId": "svt-d-he-sexe"
+        },
+        {
+          "id": "svt-d-he-ex03",
+          "enonce": "Combien de groupes sanguins comporte le système ABO et lesquels ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Quatre groupes : A, B, AB et O."
+          ],
+          "reponseFinale": "4 groupes : A, B, AB et O",
+          "competenceId": "svt-d-he-abo"
+        },
+        {
+          "id": "svt-d-he-ex04",
+          "enonce": "Quelle relation existe entre les allèles A et B, et vis-à-vis de O ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "A et B sont codominants ; ils dominent tous deux l'allèle O (récessif)."
+          ],
+          "reponseFinale": "A et B codominants, dominants sur O (récessif)",
+          "competenceId": "svt-d-he-abo"
+        },
+        {
+          "id": "svt-d-he-ex05",
+          "enonce": "Donner les génotypes possibles du groupe A.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Comme O est récessif : A//A ou A//O."
+          ],
+          "reponseFinale": "A//A ou A//O",
+          "competenceId": "svt-d-he-abo"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-he-he-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-d-he-drepano",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Un sujet de génotype A//S (drépanocytose) est :",
+          "options": [
+            "malade",
+            "porteur sain",
+            "normal non porteur",
+            "stérile"
+          ],
+          "reponse": 1,
+          "explication": "A//S : porteur sain (codominance)."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-d-he-ex01",
+      "enonce": "Quels sont les chromosomes qui déterminent le sexe chez l'être humain ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Les chromosomes sexuels (gonosomes) : XX chez la femme, XY chez l'homme."
+      ],
+      "reponseFinale": "Les chromosomes sexuels : XX (femme), XY (homme)",
+      "competenceId": "svt-d-he-sexe"
+    },
+    {
+      "id": "svt-d-he-ex02",
+      "enonce": "Qu'est-ce qu'une maladie héréditaire liée au sexe ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "C'est une maladie dont le gène est porté par un chromosome sexuel (souvent X)."
+      ],
+      "reponseFinale": "Une maladie dont le gène est porté par un gonosome (X)",
+      "competenceId": "svt-d-he-sexe"
+    },
+    {
+      "id": "svt-d-he-ex03",
+      "enonce": "Combien de groupes sanguins comporte le système ABO et lesquels ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Quatre groupes : A, B, AB et O."
+      ],
+      "reponseFinale": "4 groupes : A, B, AB et O",
+      "competenceId": "svt-d-he-abo"
+    },
+    {
+      "id": "svt-d-he-ex04",
+      "enonce": "Quelle relation existe entre les allèles A et B, et vis-à-vis de O ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "A et B sont codominants ; ils dominent tous deux l'allèle O (récessif)."
+      ],
+      "reponseFinale": "A et B codominants, dominants sur O (récessif)",
+      "competenceId": "svt-d-he-abo"
+    },
+    {
+      "id": "svt-d-he-ex05",
+      "enonce": "Donner les génotypes possibles du groupe A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Comme O est récessif : A//A ou A//O."
+      ],
+      "reponseFinale": "A//A ou A//O",
+      "competenceId": "svt-d-he-abo"
+    },
+    {
+      "id": "svt-d-he-ex06",
+      "enonce": "Quel est le génotype d'un individu de groupe O ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "O étant récessif, le groupe O est forcément O//O."
+      ],
+      "reponseFinale": "O//O",
+      "competenceId": "svt-d-he-abo"
+    },
+    {
+      "id": "svt-d-he-ex07",
+      "enonce": "Deux parents de groupe A ont un enfant de groupe O. Que peut-on dire de leurs génotypes ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "L'enfant O//O reçoit un allèle O de chaque parent.",
+        "Les deux parents sont donc hétérozygotes A//O."
+      ],
+      "reponseFinale": "Les deux parents sont A//O (hétérozygotes)",
+      "competenceId": "svt-d-he-abo"
+    },
+    {
+      "id": "svt-d-he-ex08",
+      "enonce": "Qui est le donneur universel et le receveur universel dans le système ABO ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Donneur universel : groupe O. Receveur universel : groupe AB."
+      ],
+      "reponseFinale": "Donneur : O ; receveur : AB",
+      "competenceId": "svt-d-he-abo"
+    },
+    {
+      "id": "svt-d-he-ex09",
+      "enonce": "Qu'est-ce que le facteur Rhésus ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Il dépend de la présence (Rh+) ou de l'absence (Rh−) d'un agglutinogène sur les hématies. Rh+ domine Rh−."
+      ],
+      "reponseFinale": "Rh+ (présence) domine Rh− (absence)",
+      "competenceId": "svt-d-he-rhesus"
+    },
+    {
+      "id": "svt-d-he-ex10",
+      "enonce": "Qu'est-ce que la drépanocytose (sicklémie) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Maladie héréditaire de l'hémoglobine : présence d'hématies en forme de faucille (hémoglobine S anormale)."
+      ],
+      "reponseFinale": "Une maladie héréditaire de l'hémoglobine (hématies en faucille)",
+      "competenceId": "svt-d-he-drepano"
+    },
+    {
+      "id": "svt-d-he-ex11",
+      "enonce": "Quels sont les phénotypes des génotypes A//A, A//S et S//S pour la drépanocytose ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "A et S codominants : A//A normal ; A//S normal mais porteur ; S//S drépanocytaire."
+      ],
+      "reponseFinale": "A//A normal, A//S porteur sain, S//S malade",
+      "competenceId": "svt-d-he-drepano"
+    },
+    {
+      "id": "svt-d-he-ex12",
+      "enonce": "Qu'est-ce que la trisomie 21 (maladie de Down) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Présence de 3 chromosomes 21 au lieu de 2 (47 chromosomes), due à une non-disjonction lors de la méiose."
+      ],
+      "reponseFinale": "3 chromosomes 21 au lieu de 2 (47 chromosomes)",
+      "competenceId": "svt-d-he-aberration"
+    },
+    {
+      "id": "svt-d-he-ex13",
+      "enonce": "Le caryotype du syndrome de Turner est 44 A + X. Combien de chromosomes ? Quel sexe ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "44 + 1 = 45 chromosomes ; un seul X ⇒ femme (stérile, petite taille)."
+      ],
+      "reponseFinale": "45 chromosomes (44A + X), sujet féminin",
+      "competenceId": "svt-d-he-aberration"
+    },
+    {
+      "id": "svt-d-he-ex14",
+      "enonce": "Le syndrome de Klinefelter correspond à 44 A + XXY. Combien de chromosomes ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "44 + 3 = 47 chromosomes."
+      ],
+      "reponseFinale": "47 chromosomes (44A + XXY)",
+      "competenceId": "svt-d-he-aberration"
+    },
+    {
+      "id": "svt-d-he-ex15",
+      "enonce": "À quoi sert un arbre généalogique en génétique humaine ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Il permet de suivre la transmission d'un caractère (ou d'une maladie) sur plusieurs générations."
+      ],
+      "reponseFinale": "Suivre la transmission d'un caractère sur plusieurs générations",
+      "competenceId": "svt-d-he-sexe"
+    },
+    {
+      "id": "svt-d-he-ex16",
+      "enonce": "Quelle est la cause générale des aberrations chromosomiques de nombre ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Une non-disjonction des chromosomes lors de la méiose (gamétogenèse)."
+      ],
+      "reponseFinale": "Une non-disjonction lors de la méiose",
+      "competenceId": "svt-d-he-aberration"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "svt-c",
+  "titre": "SVT",
+  "type": "scientifique",
+  "seriesConcernees": [
+    "c"
+  ],
+  "description": "Sciences de la Vie et de la Terre : définitions et lois mémorisées en répétition espacée, quiz, méthodes et exercices corrigés (reproduction de l'information génétique, hérédité, communication nerveuse et hormonale).",
+  "unites": [
+    {
+      "id": "svt-c-cell",
+      "titre": "Organisation de la cellule",
+      "ordre": 1,
+      "fichier": "c/svt/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-ig",
+      "titre": "Transmission de l'information génétique",
+      "ordre": 2,
+      "fichier": "c/svt/unite-02.json",
+      "prerequis": [
+        "svt-c-cell"
+      ]
+    },
+    {
+      "id": "svt-c-ex",
+      "titre": "Expression de l'information génétique",
+      "ordre": 3,
+      "fichier": "c/svt/unite-03.json",
+      "prerequis": [
+        "svt-c-ig"
+      ]
+    },
+    {
+      "id": "svt-c-br",
+      "titre": "Brassage génétique et méiose",
+      "ordre": 4,
+      "fichier": "c/svt/unite-04.json",
+      "prerequis": [
+        "svt-c-ex"
+      ]
+    },
+    {
+      "id": "svt-c-sp",
+      "titre": "Reproduction sexuée des spermaphytes",
+      "ordre": 5,
+      "fichier": "c/svt/unite-05.json",
+      "prerequis": [
+        "svt-c-br"
+      ]
+    },
+    {
+      "id": "svt-c-rh",
+      "titre": "La reproduction humaine",
+      "ordre": 6,
+      "fichier": "c/svt/unite-06.json",
+      "prerequis": [
+        "svt-c-sp"
+      ]
+    },
+    {
+      "id": "svt-c-fn",
+      "titre": "De la fécondation à la naissance",
+      "ordre": 7,
+      "fichier": "c/svt/unite-07.json",
+      "prerequis": [
+        "svt-c-rh"
+      ]
+    },
+    {
+      "id": "svt-c-mo",
+      "titre": "Le monohybridisme",
+      "ordre": 8,
+      "fichier": "c/svt/unite-08.json",
+      "prerequis": [
+        "svt-c-fn"
+      ]
+    },
+    {
+      "id": "svt-c-di",
+      "titre": "Le dihybridisme",
+      "ordre": 9,
+      "fichier": "c/svt/unite-09.json",
+      "prerequis": [
+        "svt-c-mo"
+      ]
+    },
+    {
+      "id": "svt-c-he",
+      "titre": "L'hérédité humaine",
+      "ordre": 10,
+      "fichier": "c/svt/unite-10.json",
+      "prerequis": [
+        "svt-c-di"
+      ]
+    },
+    {
+      "id": "svt-c-ne",
+      "titre": "La communication nerveuse",
+      "ordre": 11,
+      "fichier": "c/svt/unite-11.json",
+      "prerequis": [
+        "svt-c-he"
+      ]
+    },
+    {
+      "id": "svt-c-ho",
+      "titre": "La communication hormonale",
+      "ordre": 12,
+      "fichier": "c/svt/unite-12.json",
+      "prerequis": [
+        "svt-c-ne"
+      ]
+    }
+  ]
+}

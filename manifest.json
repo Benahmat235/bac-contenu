@@ -1,5 +1,5 @@
 {
-  "contentVersion": 11,
+  "contentVersion": 12,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -177,6 +177,27 @@
             "c/chimie/unite-07.json",
             "c/chimie/unite-08.json"
           ]
+        },
+        {
+          "id": "svt-c",
+          "titre": "SVT",
+          "type": "scientifique",
+          "version": 1,
+          "chemin": "c/svt/",
+          "fichiers": [
+            "c/svt/unite-01.json",
+            "c/svt/unite-02.json",
+            "c/svt/unite-03.json",
+            "c/svt/unite-04.json",
+            "c/svt/unite-05.json",
+            "c/svt/unite-06.json",
+            "c/svt/unite-07.json",
+            "c/svt/unite-08.json",
+            "c/svt/unite-09.json",
+            "c/svt/unite-10.json",
+            "c/svt/unite-11.json",
+            "c/svt/unite-12.json"
+          ]
         }
       ]
     },
@@ -246,6 +267,27 @@
             "d/chimie/unite-06.json",
             "d/chimie/unite-07.json",
             "d/chimie/unite-08.json"
+          ]
+        },
+        {
+          "id": "svt-d",
+          "titre": "SVT",
+          "type": "scientifique",
+          "version": 1,
+          "chemin": "d/svt/",
+          "fichiers": [
+            "d/svt/unite-01.json",
+            "d/svt/unite-02.json",
+            "d/svt/unite-03.json",
+            "d/svt/unite-04.json",
+            "d/svt/unite-05.json",
+            "d/svt/unite-06.json",
+            "d/svt/unite-07.json",
+            "d/svt/unite-08.json",
+            "d/svt/unite-09.json",
+            "d/svt/unite-10.json",
+            "d/svt/unite-11.json",
+            "d/svt/unite-12.json"
           ]
         }
       ]

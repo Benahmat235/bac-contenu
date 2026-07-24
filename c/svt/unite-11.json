@@ -1,0 +1,408 @@
+{
+  "id": "svt-c-ne",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La communication nerveuse",
+  "ordre": 11,
+  "source": {
+    "document": "SVT TC-D",
+    "chapitre": "Chapitre 11 : La communication nerveuse",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Système nerveux central",
+      "verso": "moelle épinière + encéphale",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Système nerveux périphérique",
+      "verso": "nerfs + ganglions",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Neurone",
+      "verso": "unité fonctionnelle du système nerveux",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Parties du neurone",
+      "verso": "corps cellulaire + dendrites + axone",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Le neurone",
+      "verso": "cellule différenciée qui ne se divise plus (perte irréparable)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Gaine de myéline",
+      "verso": "isolant électrique qui accélère la conduction",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Nœuds de Ranvier",
+      "verso": "étranglements réguliers de la gaine de myéline",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Synapse",
+      "verso": "zone de contact entre deux neurones",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Transmission synaptique",
+      "verso": "libération d'un neurotransmetteur (médiateur chimique)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Message nerveux",
+      "verso": "de nature électrique le long de la fibre",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "svt-c-ne-ne-e1",
+      "titre": "Mémoriser les définitions",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ne-neurone",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Unité du système nerveux ?",
+          "verso": "le neurone",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rôle de la myéline ?",
+          "verso": "isolant qui accélère la conduction",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ne-ne-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ne-sn",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le système nerveux central comprend :",
+          "options": [
+            "nerfs et ganglions",
+            "moelle épinière et encéphale",
+            "axone et dendrites",
+            "récepteurs"
+          ],
+          "reponse": 1,
+          "explication": "Moelle + encéphale."
+        },
+        {
+          "type": "choix_unique",
+          "question": "La transmission du message à la synapse se fait par :",
+          "options": [
+            "un courant qui saute",
+            "un neurotransmetteur",
+            "la myéline",
+            "un nœud de Ranvier"
+          ],
+          "reponse": 1,
+          "explication": "Médiateur chimique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Le neurone :",
+          "options": [
+            "se divise activement",
+            "ne se divise plus",
+            "n'a pas de noyau",
+            "est une fibre musculaire"
+          ],
+          "reponse": 1,
+          "explication": "Cellule différenciée."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ne-ne-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ne-message",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Ordonner le trajet du message dans un arc réflexe :",
+          "etapes": [
+            "Récepteur (stimulus)",
+            "Voie (nerf) sensitive",
+            "Centre nerveux (moelle)",
+            "Voie (nerf) motrice → effecteur (muscle)"
+          ],
+          "ordreCorrect": [
+            "Récepteur (stimulus)",
+            "Voie (nerf) sensitive",
+            "Centre nerveux (moelle)",
+            "Voie (nerf) motrice → effecteur (muscle)"
+          ],
+          "explication": "Le message va du récepteur à l'effecteur via le centre nerveux."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ne-ne-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-ne-neurone",
+      "activites": [
+        {
+          "id": "svt-c-ne-ex01",
+          "enonce": "En quelles deux grandes parties divise-t-on le système nerveux ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Le système nerveux central (névraxe) et le système nerveux périphérique."
+          ],
+          "reponseFinale": "Le système nerveux central et périphérique",
+          "competenceId": "svt-c-ne-sn"
+        },
+        {
+          "id": "svt-c-ne-ex02",
+          "enonce": "De quoi est formé le système nerveux central ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "De la moelle épinière (canal médullaire) et de l'encéphale (boîte crânienne)."
+          ],
+          "reponseFinale": "La moelle épinière et l'encéphale",
+          "competenceId": "svt-c-ne-sn"
+        },
+        {
+          "id": "svt-c-ne-ex03",
+          "enonce": "De quoi est formé le système nerveux périphérique ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "De l'ensemble des nerfs et des ganglions reliant le centre aux organes."
+          ],
+          "reponseFinale": "Les nerfs et les ganglions",
+          "competenceId": "svt-c-ne-sn"
+        },
+        {
+          "id": "svt-c-ne-ex04",
+          "enonce": "Quelle est l'unité fonctionnelle du système nerveux ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Le neurone (cellule nerveuse) est l'unité fonctionnelle."
+          ],
+          "reponseFinale": "Le neurone",
+          "competenceId": "svt-c-ne-neurone"
+        },
+        {
+          "id": "svt-c-ne-ex05",
+          "enonce": "Citer les trois parties d'un neurone.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Le corps cellulaire (avec le noyau), les dendrites et l'axone."
+          ],
+          "reponseFinale": "Le corps cellulaire, les dendrites et l'axone",
+          "competenceId": "svt-c-ne-neurone"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-ne-ne-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-ne-synapse",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le message franchit la synapse grâce à :",
+          "options": [
+            "la myéline",
+            "un neurotransmetteur",
+            "un nœud de Ranvier",
+            "un os"
+          ],
+          "reponse": 1,
+          "explication": "Neurotransmetteur."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-ne-ex01",
+      "enonce": "En quelles deux grandes parties divise-t-on le système nerveux ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le système nerveux central (névraxe) et le système nerveux périphérique."
+      ],
+      "reponseFinale": "Le système nerveux central et périphérique",
+      "competenceId": "svt-c-ne-sn"
+    },
+    {
+      "id": "svt-c-ne-ex02",
+      "enonce": "De quoi est formé le système nerveux central ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "De la moelle épinière (canal médullaire) et de l'encéphale (boîte crânienne)."
+      ],
+      "reponseFinale": "La moelle épinière et l'encéphale",
+      "competenceId": "svt-c-ne-sn"
+    },
+    {
+      "id": "svt-c-ne-ex03",
+      "enonce": "De quoi est formé le système nerveux périphérique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "De l'ensemble des nerfs et des ganglions reliant le centre aux organes."
+      ],
+      "reponseFinale": "Les nerfs et les ganglions",
+      "competenceId": "svt-c-ne-sn"
+    },
+    {
+      "id": "svt-c-ne-ex04",
+      "enonce": "Quelle est l'unité fonctionnelle du système nerveux ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le neurone (cellule nerveuse) est l'unité fonctionnelle."
+      ],
+      "reponseFinale": "Le neurone",
+      "competenceId": "svt-c-ne-neurone"
+    },
+    {
+      "id": "svt-c-ne-ex05",
+      "enonce": "Citer les trois parties d'un neurone.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le corps cellulaire (avec le noyau), les dendrites et l'axone."
+      ],
+      "reponseFinale": "Le corps cellulaire, les dendrites et l'axone",
+      "competenceId": "svt-c-ne-neurone"
+    },
+    {
+      "id": "svt-c-ne-ex06",
+      "enonce": "Quel prolongement du neurone conduit le message nerveux vers d'autres cellules ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'axone (cylindraxe), souvent long, conduit le message vers les autres cellules."
+      ],
+      "reponseFinale": "L'axone",
+      "competenceId": "svt-c-ne-neurone"
+    },
+    {
+      "id": "svt-c-ne-ex07",
+      "enonce": "Pourquoi la destruction d'un neurone est-elle irréparable ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le neurone est une cellule différenciée qui a perdu le pouvoir de se diviser."
+      ],
+      "reponseFinale": "Le neurone ne se divise plus",
+      "competenceId": "svt-c-ne-neurone"
+    },
+    {
+      "id": "svt-c-ne-ex08",
+      "enonce": "Qu'est-ce que la gaine de myéline et quel est son rôle ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Manchon lipidique entourant l'axone ; c'est un isolant électrique qui accélère la conduction."
+      ],
+      "reponseFinale": "Un isolant qui accélère la conduction du message",
+      "competenceId": "svt-c-ne-fibre"
+    },
+    {
+      "id": "svt-c-ne-ex09",
+      "enonce": "Comment nomme-t-on les étranglements réguliers de la gaine de myéline ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Les nœuds (étranglements) de Ranvier."
+      ],
+      "reponseFinale": "Les nœuds de Ranvier",
+      "competenceId": "svt-c-ne-fibre"
+    },
+    {
+      "id": "svt-c-ne-ex10",
+      "enonce": "Que contient la substance grise du système nerveux ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Elle contient les corps cellulaires des neurones (et les dendrites)."
+      ],
+      "reponseFinale": "Les corps cellulaires des neurones",
+      "competenceId": "svt-c-ne-fibre"
+    },
+    {
+      "id": "svt-c-ne-ex11",
+      "enonce": "Qu'est-ce qu'une synapse ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Une synapse est une zone de contact fonctionnelle entre deux neurones (ou neurone–organe)."
+      ],
+      "reponseFinale": "Une zone de contact entre deux neurones",
+      "competenceId": "svt-c-ne-synapse"
+    },
+    {
+      "id": "svt-c-ne-ex12",
+      "enonce": "Comment le message franchit-il la synapse ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "L'arrivée du message libère un neurotransmetteur (médiateur chimique) contenu dans les vésicules synaptiques."
+      ],
+      "reponseFinale": "Grâce à un neurotransmetteur (médiateur chimique)",
+      "competenceId": "svt-c-ne-synapse"
+    },
+    {
+      "id": "svt-c-ne-ex13",
+      "enonce": "Comment appelle-t-on le message qui circule le long du neurone ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le message (ou influx) nerveux, de nature électrique le long de la fibre."
+      ],
+      "reponseFinale": "Le message (influx) nerveux",
+      "competenceId": "svt-c-ne-message"
+    },
+    {
+      "id": "svt-c-ne-ex14",
+      "enonce": "Quelle est la nature du message nerveux le long de la fibre ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Il est de nature électrique (potentiel d'action) le long de l'axone."
+      ],
+      "reponseFinale": "Électrique (potentiel d'action)",
+      "competenceId": "svt-c-ne-message"
+    },
+    {
+      "id": "svt-c-ne-ex15",
+      "enonce": "Dans un arc réflexe, citer dans l'ordre les éléments traversés par le message.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Récepteur → nerf sensitif → centre nerveux (moelle) → nerf moteur → effecteur (muscle)."
+      ],
+      "reponseFinale": "Récepteur → voie sensitive → centre → voie motrice → effecteur",
+      "competenceId": "svt-c-ne-message"
+    }
+  ]
+}
