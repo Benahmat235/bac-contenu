@@ -1,15 +1,98 @@
 {
   "id": "philosophie",
   "titre": "Philosophie",
-  "seriesConcernees": ["a4"],
+  "seriesConcernees": [
+    "a4"
+  ],
   "description": "Le sujet, l'homme et l'action : notions et méthode de la dissertation.",
   "unites": [
     {
+      "id": "philo-intro",
+      "titre": "Qu'est-ce que la philosophie ?",
+      "ordre": 1,
+      "fichier": "a4/philosophie/unite-00.json",
+      "prerequis": []
+    },
+    {
       "id": "philo-u1",
       "titre": "Conscience et inconscient",
-      "ordre": 1,
+      "ordre": 2,
       "fichier": "a4/philosophie/unite-01.json",
-      "prerequis": []
+      "prerequis": [
+        "philo-intro"
+      ]
+    },
+    {
+      "id": "philo-u2",
+      "titre": "Le langage",
+      "ordre": 3,
+      "fichier": "a4/philosophie/unite-02.json",
+      "prerequis": [
+        "philo-u1"
+      ]
+    },
+    {
+      "id": "philo-u3",
+      "titre": "Autrui",
+      "ordre": 4,
+      "fichier": "a4/philosophie/unite-03.json",
+      "prerequis": [
+        "philo-u1"
+      ]
+    },
+    {
+      "id": "philo-u4",
+      "titre": "Nature, culture et civilisation",
+      "ordre": 5,
+      "fichier": "a4/philosophie/unite-04.json",
+      "prerequis": [
+        "philo-u1"
+      ]
+    },
+    {
+      "id": "philo-u5",
+      "titre": "Le travail, la technique et la question sociale",
+      "ordre": 6,
+      "fichier": "a4/philosophie/unite-05.json",
+      "prerequis": [
+        "philo-u4"
+      ]
+    },
+    {
+      "id": "philo-u6",
+      "titre": "Les grandes doctrines morales",
+      "ordre": 7,
+      "fichier": "a4/philosophie/unite-06.json",
+      "prerequis": [
+        "philo-u5"
+      ]
+    },
+    {
+      "id": "philo-u7",
+      "titre": "L'État, le pouvoir et les doctrines politiques",
+      "ordre": 8,
+      "fichier": "a4/philosophie/unite-07.json",
+      "prerequis": [
+        "philo-u6"
+      ]
+    },
+    {
+      "id": "philo-u8",
+      "titre": "La justice et le droit",
+      "ordre": 9,
+      "fichier": "a4/philosophie/unite-08.json",
+      "prerequis": [
+        "philo-u7"
+      ]
+    },
+    {
+      "id": "philo-u9",
+      "titre": "La liberté",
+      "ordre": 10,
+      "fichier": "a4/philosophie/unite-09.json",
+      "prerequis": [
+        "philo-u7"
+      ]
     }
   ]
 }

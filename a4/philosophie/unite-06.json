@@ -1,0 +1,207 @@
+{
+  "id": "philo-u6",
+  "matiere": "philosophie",
+  "titre": "Les grandes doctrines morales",
+  "ordre": 7,
+  "source": {
+    "document": "Philosophie TA4",
+    "chapitre": "Chapitre 7 : Les grandes doctrines morales",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "philo-u6-e1",
+      "titre": "Les définitions des mots-clés",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-morale-def",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque terme à sa définition.",
+          "paires": [
+            {
+              "gauche": "Morale",
+              "droite": "ensemble des règles de conduite"
+            },
+            {
+              "gauche": "Éthique",
+              "droite": "théorie raisonnée du bien et du mal"
+            },
+            {
+              "gauche": "Hédonisme",
+              "droite": "doctrine qui fait du plaisir le bien suprême"
+            }
+          ],
+          "explication": "La morale prescrit ; l'éthique réfléchit sur le bien et le mal."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pour Aristote (Éthique à Nicomaque), le but de la vie est…",
+          "options": [
+            "le plaisir immédiat",
+            "le bonheur",
+            "la richesse",
+            "le pouvoir"
+          ],
+          "reponse": 1,
+          "explication": "Aristote : le bonheur est la fin de la vie ; la vertu est le juste milieu entre deux excès."
+        }
+      ]
+    },
+    {
+      "id": "philo-u6-e2",
+      "titre": "Les citations philosophiques",
+      "categorie": "citations",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-morale-cit",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Agis toujours de telle sorte que la maxime de ton action puisse être érigée en loi universelle.",
+          "options": [
+            "Emmanuel Kant",
+            "Bentham",
+            "Épicure",
+            "Aristote"
+          ],
+          "reponse": 0,
+          "oeuvre": "1ʳᵉ maxime de l'impératif catégorique",
+          "explication": "Kant fonde la morale sur la raison et l'universalité de la maxime."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'homme est la mesure de toute chose.",
+          "options": [
+            "Protagoras",
+            "Socrate",
+            "Platon",
+            "Épicure"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Le sophiste Protagoras : les jugements moraux sont subjectifs, propres à chacun."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Tous les hommes recherchent le bonheur, même ceux qui vont se pendre.",
+          "options": [
+            "Blaise Pascal",
+            "Kant",
+            "Aristote",
+            "Épicure"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Pascal : le désir de bonheur est universel, mais la notion de bonheur reste vague."
+        }
+      ]
+    },
+    {
+      "id": "philo-u6-e3",
+      "titre": "Les grandes doctrines (thèses)",
+      "categorie": "these",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-morale-doctrines",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque doctrine morale à son idée centrale.",
+          "paires": [
+            {
+              "gauche": "Épicurisme",
+              "droite": "le plaisir mesuré, l'absence de douleur"
+            },
+            {
+              "gauche": "Stoïcisme",
+              "droite": "vivre selon la nature : endurer et renoncer"
+            },
+            {
+              "gauche": "Utilitarisme (Bentham)",
+              "droite": "le plus grand bonheur du plus grand nombre"
+            },
+            {
+              "gauche": "Morale de Kant",
+              "droite": "le devoir et la raison, indépendamment du plaisir"
+            }
+          ],
+          "explication": "Chaque doctrine propose un fondement différent de la morale."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pour Kant, une action est vraiment morale lorsqu'elle est accomplie…",
+          "options": [
+            "par intérêt",
+            "par devoir, par respect de la raison",
+            "par plaisir",
+            "par habitude"
+          ],
+          "reponse": 1,
+          "explication": "La morale de Kant est une morale du devoir, fondée sur la raison, non sur l'intérêt ou le plaisir."
+        }
+      ]
+    },
+    {
+      "id": "philo-u6-e4",
+      "titre": "Antithèse et exemples : les morales de l'intérêt",
+      "categorie": "antithese",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-morale-interet",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Le surmoi est l'héritier du complexe d'Œdipe.",
+          "options": [
+            "Sigmund Freud",
+            "Kant",
+            "Bentham",
+            "Schopenhauer"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Pour Freud, la conscience morale (surmoi) dérive de l'intériorisation des interdits parentaux."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Contre les morales de l'intérêt et du bonheur, quelle critique Kant formule-t-il ?",
+          "options": [
+            "Le bonheur est un idéal confus de l'imagination, non de la raison",
+            "Le plaisir n'existe pas",
+            "L'intérêt est toujours mauvais",
+            "Le devoir est impossible"
+          ],
+          "reponse": 0,
+          "explication": "Kant : le bonheur est trop vague pour fonder la morale ; seule la raison le peut."
+        }
+      ]
+    },
+    {
+      "id": "philo-u6-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "philo-c-morale-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelle question résume l'esprit de la morale de Kant ?",
+          "options": [
+            "« Qu'est-ce que j'y gagne ? »",
+            "« Et si tout le monde en faisait autant ? »",
+            "« Est-ce agréable ? »",
+            "« Est-ce à la mode ? »"
+          ],
+          "reponse": 1,
+          "explication": "L'universalisation de la maxime est le test moral kantien."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

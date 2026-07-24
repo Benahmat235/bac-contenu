@@ -1,0 +1,200 @@
+{
+  "id": "philo-u9",
+  "matiere": "philosophie",
+  "titre": "La liberté",
+  "ordre": 10,
+  "source": {
+    "document": "Philosophie TA4",
+    "chapitre": "Chapitre 10 : La liberté",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "philo-u9-e1",
+      "titre": "Les définitions et les faux-amis",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-liberte-def",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Distingue la liberté de ses faux-amis.",
+          "paires": [
+            {
+              "gauche": "Liberté",
+              "droite": "autonomie : vivre selon les règles qu'on se donne"
+            },
+            {
+              "gauche": "Licence",
+              "droite": "faire tout ce qui plaît : on devient esclave de ses plaisirs"
+            },
+            {
+              "gauche": "Sentiment de liberté",
+              "droite": "l'illusion d'être libre alors qu'on est déterminé"
+            }
+          ],
+          "explication": "La vraie liberté est autonomie, non licence ni simple sentiment."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque doctrine (ennemie de la liberté) à sa définition.",
+          "paires": [
+            {
+              "gauche": "Fatalisme",
+              "droite": "croyance en un destin que rien ne peut changer"
+            },
+            {
+              "gauche": "Déterminisme",
+              "droite": "tout état de l'univers est causé par l'état antérieur"
+            }
+          ],
+          "explication": "Fatalisme et déterminisme semblent nier la liberté humaine."
+        }
+      ]
+    },
+    {
+      "id": "philo-u9-e2",
+      "titre": "Les citations philosophiques",
+      "categorie": "citations",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-liberte-cit",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'homme n'est rien d'autre que ce qu'il se fait.",
+          "options": [
+            "Jean-Paul Sartre",
+            "Alain",
+            "La Boétie",
+            "Descartes"
+          ],
+          "reponse": 0,
+          "oeuvre": "L'existentialisme est un humanisme",
+          "explication": "Sartre : l'existence précède l'essence ; l'homme se construit par ses choix."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Il n'y a de pensée que dans un homme libre.",
+          "options": [
+            "Alain",
+            "Sartre",
+            "Hannah Arendt",
+            "Rousseau"
+          ],
+          "reponse": 0,
+          "oeuvre": "Propos sur l'éducation",
+          "explication": "Alain : penser par soi-même suppose d'être libre, de résister à l'opinion dominante."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Selon Étienne de La Boétie, quelle est la première raison de la « servitude volontaire » ?",
+          "options": [
+            "la peur",
+            "l'habitude",
+            "la richesse",
+            "la nature"
+          ],
+          "reponse": 1,
+          "explication": "La Boétie : les hommes s'habituent à l'oppression et la perpétuent eux-mêmes."
+        }
+      ]
+    },
+    {
+      "id": "philo-u9-e3",
+      "titre": "Thèse et antithèse : déterminisme et liberté",
+      "categorie": "these",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-liberte-these",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Thèse (déterminisme / fatalisme) : que soutient-elle ?",
+          "options": [
+            "L'homme est totalement libre",
+            "L'homme, être naturel, est déterminé et n'est pas libre",
+            "La liberté est un devoir",
+            "Le hasard gouverne tout"
+          ],
+          "reponse": 1,
+          "explication": "Si la nature est déterminée et que l'homme est naturel, alors l'homme serait déterminé."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Antithèse (Sartre, stoïciens) : comment concilier liberté et déterminisme ?",
+          "options": [
+            "En niant le déterminisme",
+            "La liberté s'exerce en situation : on choisit ce qu'on fait de sa nature",
+            "En obéissant au destin",
+            "En refusant d'agir"
+          ],
+          "reponse": 1,
+          "explication": "Sartre : la liberté s'incarne dans une situation ; les stoïciens : la liberté est d'abord intérieure (autonomie)."
+        }
+      ]
+    },
+    {
+      "id": "philo-u9-e4",
+      "titre": "Exemples et rôle de la société",
+      "categorie": "exemples",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-liberte-exemples",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quel exemple illustre l'illusion de la liberté (la licence) ?",
+          "options": [
+            "Le sage stoïcien",
+            "Le « soûlard » qui se croit libre mais obéit à son plaisir",
+            "Le citoyen qui vote",
+            "L'homme qui pense par lui-même"
+          ],
+          "reponse": 1,
+          "explication": "Celui qui vit dans la licence se croit libre mais devient esclave de ses plaisirs."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Le domaine où la liberté a toujours été connue est le domaine de la politique.",
+          "options": [
+            "Hannah Arendt",
+            "Sartre",
+            "Alain",
+            "La Boétie"
+          ],
+          "reponse": 0,
+          "oeuvre": "La crise de la culture",
+          "explication": "Arendt : la liberté n'a de sens que dans la vie sociale et politique."
+        }
+      ]
+    },
+    {
+      "id": "philo-u9-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "philo-c-liberte-synthese",
+      "activites": [
+        {
+          "type": "classement",
+          "consigne": "Remets dans l'ordre un plan sur « sommes-nous vraiment libres ? ».",
+          "elements": [
+            "Thèse : l'homme est déterminé par la nature (déterminisme)",
+            "Antithèse : l'homme est libre en situation, par ses choix (Sartre)",
+            "Synthèse : la liberté est une autonomie à conquérir au sein de la société"
+          ],
+          "ordreCorrect": [
+            "Thèse : l'homme est déterminé par la nature (déterminisme)",
+            "Antithèse : l'homme est libre en situation, par ses choix (Sartre)",
+            "Synthèse : la liberté est une autonomie à conquérir au sein de la société"
+          ],
+          "explication": "La liberté n'est ni licence ni pur déterminisme : c'est une autonomie qui se conquiert."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

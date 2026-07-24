@@ -1,0 +1,263 @@
+{
+  "id": "philo-u7",
+  "matiere": "philosophie",
+  "titre": "L'État, le pouvoir et les doctrines politiques",
+  "ordre": 8,
+  "source": {
+    "document": "Philosophie TA4",
+    "chapitre": "Chapitre 8 : L'État, le pouvoir et les grandes doctrines politiques",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "philo-u7-e1",
+      "titre": "Les définitions des mots-clés",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-etat-def",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'État est le monopole de la violence physique légitime.",
+          "options": [
+            "Max Weber",
+            "Hobbes",
+            "Rousseau",
+            "Machiavel"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Max Weber définit l'État par le monopole de la violence légitime."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque notion à sa définition.",
+          "paires": [
+            {
+              "gauche": "Nation",
+              "droite": "groupe uni par une volonté de vivre ensemble et une culture commune"
+            },
+            {
+              "gauche": "État",
+              "droite": "pouvoir central séparé de la société, organisant un territoire"
+            },
+            {
+              "gauche": "Patrie",
+              "droite": "l'attachement affectif de l'individu à sa nation"
+            }
+          ],
+          "explication": "État, nation et patrie ne se confondent pas."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque pouvoir de l'État à sa fonction.",
+          "paires": [
+            {
+              "gauche": "Législatif",
+              "droite": "élaborer les lois"
+            },
+            {
+              "gauche": "Judiciaire",
+              "droite": "dire le droit"
+            },
+            {
+              "gauche": "Exécutif",
+              "droite": "appliquer les lois"
+            }
+          ],
+          "explication": "La séparation des pouvoirs caractérise l'État libéral."
+        }
+      ]
+    },
+    {
+      "id": "philo-u7-e2",
+      "titre": "Les citations philosophiques",
+      "categorie": "citations",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-etat-cit",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'homme est un loup pour l'homme.",
+          "options": [
+            "Thomas Hobbes",
+            "Rousseau",
+            "Hegel",
+            "Alain"
+          ],
+          "reponse": 0,
+          "oeuvre": "à propos de l'état de nature",
+          "explication": "Hobbes justifie ainsi le pouvoir fort du Léviathan pour sortir de la guerre de tous contre tous."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'obéissance à la loi qu'on s'est prescrite est liberté.",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Hobbes",
+            "Bossuet",
+            "Machiavel"
+          ],
+          "reponse": 0,
+          "oeuvre": "Du contrat social",
+          "explication": "Rousseau : obéir à la loi qu'on a soi-même voulue, c'est être libre."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'État, c'est moi.",
+          "options": [
+            "Louis XIV",
+            "Napoléon",
+            "Bossuet",
+            "Machiavel"
+          ],
+          "reponse": 0,
+          "oeuvre": "absolutisme",
+          "explication": "Formule attribuée à Louis XIV, symbole de l'absolutisme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Complète Alain : « Résistance et obéissance, voilà les deux vertus du citoyen. Par l'obéissance il assure l'ordre ; par la résistance il assure… »",
+          "options": [
+            "la richesse",
+            "la liberté",
+            "la guerre",
+            "le silence"
+          ],
+          "reponse": 1,
+          "explication": "Pour Alain, la résistance d'opinion garantit la liberté face au pouvoir."
+        }
+      ]
+    },
+    {
+      "id": "philo-u7-e3",
+      "titre": "Thèse et antithèse : le fondement du pouvoir",
+      "categorie": "these",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-etat-fondement",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque théorie au fondement qu'elle donne au pouvoir.",
+          "paires": [
+            {
+              "gauche": "Droit divin (Bossuet)",
+              "droite": "le pouvoir vient de Dieu"
+            },
+            {
+              "gauche": "Droit naturel / contrat (Hobbes, Rousseau)",
+              "droite": "le pouvoir vient de la volonté des hommes"
+            }
+          ],
+          "explication": "On passe du droit divin (pouvoir de Dieu) au droit naturel (pouvoir des hommes)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle différence oppose le contrat de Hobbes et celui de Rousseau ?",
+          "options": [
+            "Aucune différence",
+            "Hobbes : pacte de soumission à un pouvoir absolu ; Rousseau : pacte d'association fondé sur la volonté générale",
+            "Rousseau défend la monarchie absolue",
+            "Hobbes refuse tout État"
+          ],
+          "reponse": 1,
+          "explication": "Hobbes fonde un pouvoir absolu ; Rousseau une souveraineté démocratique (volonté générale)."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque type d'autorité (Max Weber) à sa source.",
+          "paires": [
+            {
+              "gauche": "Traditionnelle",
+              "droite": "l'efficacité passée, la coutume"
+            },
+            {
+              "gauche": "Légale-rationnelle",
+              "droite": "le droit et la raison"
+            },
+            {
+              "gauche": "Charismatique",
+              "droite": "le prestige d'un chef, censé venir de Dieu ou du don"
+            }
+          ],
+          "explication": "Max Weber distingue trois types d'autorité."
+        }
+      ]
+    },
+    {
+      "id": "philo-u7-e4",
+      "titre": "Les doctrines politiques (exemples)",
+      "categorie": "exemples",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-etat-doctrines",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque doctrine politique à sa caractéristique.",
+          "paires": [
+            {
+              "gauche": "Monarchie",
+              "droite": "le pouvoir d'un seul, héréditaire"
+            },
+            {
+              "gauche": "Absolutisme",
+              "droite": "l'État a un pouvoir absolu ; l'individu doit obéir"
+            },
+            {
+              "gauche": "Anarchie",
+              "droite": "l'État est le mal ; l'individu est la valeur suprême"
+            },
+            {
+              "gauche": "Démocratie",
+              "droite": "le pouvoir vient du peuple, qui contrôle les gouvernants"
+            }
+          ],
+          "explication": "Le cours présente monarchie, absolutisme, anarchie, socialisme et démocratie."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Selon Hegel, quelle est la finalité de l'État ?",
+          "options": [
+            "la guerre",
+            "la liberté réalisée",
+            "la richesse d'un seul",
+            "la disparition du droit"
+          ],
+          "reponse": 1,
+          "explication": "Pour Hegel, l'État est le domaine de la liberté réalisée (obéir à la loi qu'on s'est prescrite)."
+        }
+      ]
+    },
+    {
+      "id": "philo-u7-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "philo-c-etat-synthese",
+      "activites": [
+        {
+          "type": "classement",
+          "consigne": "Remets dans l'ordre un plan sur « faut-il obéir à l'État ? ».",
+          "elements": [
+            "Thèse : l'État est nécessaire, il faut lui obéir pour l'ordre (Hobbes)",
+            "Antithèse : un pouvoir peut devenir injuste, d'où le devoir de résistance (Alain)",
+            "Synthèse : obéissance et résistance sont les deux vertus du citoyen"
+          ],
+          "ordreCorrect": [
+            "Thèse : l'État est nécessaire, il faut lui obéir pour l'ordre (Hobbes)",
+            "Antithèse : un pouvoir peut devenir injuste, d'où le devoir de résistance (Alain)",
+            "Synthèse : obéissance et résistance sont les deux vertus du citoyen"
+          ],
+          "explication": "L'obéissance assure l'ordre, la résistance assure la liberté."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

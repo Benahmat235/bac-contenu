@@ -1,0 +1,224 @@
+{
+  "id": "philo-intro",
+  "matiere": "philosophie",
+  "titre": "Qu'est-ce que la philosophie ?",
+  "ordre": 1,
+  "source": {
+    "document": "Philosophie TA4",
+    "chapitre": "Chapitre 1 : Qu'est-ce que la philosophie",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "philo-intro-e1",
+      "titre": "Les définitions des mots-clés",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-intro-def",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ___ .",
+          "reponse": "sagesse",
+          "toleranceMots": [
+            "sagesse"
+          ],
+          "explication": "Philosophie = amour de la sagesse, recherche permanente du savoir."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a, selon la tradition, inventé le mot « philosophe » ?",
+          "options": [
+            "Socrate",
+            "Pythagore",
+            "Platon",
+            "Aristote"
+          ],
+          "reponse": 1,
+          "explication": "Pythagore refusait d'être appelé savant et préférait le mot « philosophe »."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un philosophe ?",
+          "options": [
+            "Un détenteur du savoir",
+            "Celui qui, conscient de son ignorance, cherche le savoir",
+            "Un savant qui sait tout",
+            "Un homme sans opinion"
+          ],
+          "reponse": 1,
+          "explication": "Le philosophe n'est pas un savant : il a pris conscience de son ignorance et cherche le savoir."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Selon le cours, quelle civilisation a précédé et inspiré la pensée philosophique grecque ?",
+          "options": [
+            "La Chine",
+            "L'Égypte",
+            "Rome",
+            "La Mésopotamie seule"
+          ],
+          "reponse": 1,
+          "explication": "Le cours souligne (d'après J. Pirenné) que l'Égypte a ouvert la voie à la philosophie grecque."
+        }
+      ]
+    },
+    {
+      "id": "philo-intro-e2",
+      "titre": "Les citations et les auteurs",
+      "categorie": "citations",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-intro-cit",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques.",
+          "options": [
+            "Aristote",
+            "Platon",
+            "Descartes",
+            "Kant"
+          ],
+          "reponse": 0,
+          "oeuvre": "Métaphysique",
+          "explication": "Pour Aristote, l'étonnement est à l'origine de la philosophie."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "On n'apprend pas la philosophie, on apprend à philosopher.",
+          "options": [
+            "Kant",
+            "Socrate",
+            "Thalès",
+            "Hegel"
+          ],
+          "reponse": 0,
+          "oeuvre": "notée aussi par K. Jaspers",
+          "explication": "La philosophie est une activité qu'on exerce, non un savoir qu'on reçoit tout fait."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque présocratique au principe qu'il pose à l'origine de tout.",
+          "paires": [
+            {
+              "gauche": "Thalès",
+              "droite": "l'eau"
+            },
+            {
+              "gauche": "Anaximandre",
+              "droite": "l'infini (l'illimité)"
+            }
+          ],
+          "explication": "Les présocratiques expliquent la nature par des éléments naturels, non par les dieux."
+        }
+      ]
+    },
+    {
+      "id": "philo-intro-e3",
+      "titre": "La méthode philosophique",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-intro-methode",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque outil de la méthode socratique à sa définition.",
+          "paires": [
+            {
+              "gauche": "Ironie",
+              "droite": "questionner en feignant l'ignorance"
+            },
+            {
+              "gauche": "Maïeutique",
+              "droite": "l'art d'accoucher les esprits"
+            },
+            {
+              "gauche": "Dialectique",
+              "droite": "mouvement vers la connaissance, dépassement des apparences"
+            }
+          ],
+          "explication": "Socrate est la référence de la méthode philosophique."
+        },
+        {
+          "type": "choix_multiple",
+          "question": "Quelles sont les quatre règles de la méthode cartésienne ?",
+          "options": [
+            "L'évidence",
+            "L'analyse",
+            "La synthèse",
+            "Le dénombrement",
+            "La tradition"
+          ],
+          "reponses": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explication": "Descartes fonde la méthode sur l'évidence, l'analyse, la synthèse et le dénombrement."
+        },
+        {
+          "type": "association",
+          "consigne": "Associe chaque question de Kant au domaine qui y répond.",
+          "paires": [
+            {
+              "gauche": "Que puis-je savoir ?",
+              "droite": "la métaphysique"
+            },
+            {
+              "gauche": "Que dois-je faire ?",
+              "droite": "la morale"
+            },
+            {
+              "gauche": "Que m'est-il permis d'espérer ?",
+              "droite": "la religion"
+            },
+            {
+              "gauche": "Qu'est-ce que l'homme ?",
+              "droite": "l'anthropologie"
+            }
+          ],
+          "explication": "Kant ramène la philosophie à quatre grandes questions."
+        }
+      ]
+    },
+    {
+      "id": "philo-intro-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "philo-c-intro-synthese",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelle formule résume le mieux la nature de la philosophie ?",
+          "options": [
+            "La possession définitive du savoir",
+            "L'amour et la recherche de la sagesse",
+            "Un bavardage inutile",
+            "Une science exacte comme les mathématiques"
+          ],
+          "reponse": 1,
+          "explication": "La philosophie est recherche permanente de la sagesse, jamais une possession achevée."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Cite une caractéristique essentielle de la méthode philosophique.",
+          "reponsesAcceptees": [
+            "la réflexion critique",
+            "l'attitude interrogative",
+            "le refus des apparences",
+            "la mise en question radicale",
+            "le doute"
+          ],
+          "explication": "La méthode philosophique est critique, interrogative et refuse les apparences."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "philo-u4",
+  "matiere": "philosophie",
+  "titre": "Nature, culture et civilisation",
+  "ordre": 5,
+  "source": {
+    "document": "Philosophie TA4",
+    "chapitre": "Chapitre 5 : Nature, culture et civilisation",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "etapes": [
+    {
+      "id": "philo-u4-e1",
+      "titre": "Les définitions des mots-clés",
+      "categorie": "definitions",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-culture-def",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque terme à sa définition.",
+          "paires": [
+            {
+              "gauche": "La nature",
+              "droite": "ce qui est inné, donné sans intervention de l'homme"
+            },
+            {
+              "gauche": "La culture",
+              "droite": "ce que l'homme crée par son travail et la tradition"
+            },
+            {
+              "gauche": "La civilisation",
+              "droite": "l'ensemble des caractères de la vie d'une société"
+            }
+          ],
+          "explication": "La nature est le donné ; la culture est l'élaboré."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Complète la formule de Lévi-Strauss : « La nature, c'est tout ce qui est en nous par hérédité biologique ; la culture… »",
+          "options": [
+            "c'est ce que Dieu a créé",
+            "c'est tout ce que nous tenons de la tradition externe",
+            "c'est l'instinct",
+            "c'est le hasard"
+          ],
+          "reponse": 1,
+          "explication": "Lévi-Strauss oppose l'hérédité biologique (nature) à la tradition externe (culture)."
+        }
+      ]
+    },
+    {
+      "id": "philo-u4-e2",
+      "titre": "Les citations philosophiques",
+      "categorie": "citations",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-culture-cit",
+      "activites": [
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'homme naît bon, c'est la société qui le déprave.",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Hobbes",
+            "Lévi-Strauss",
+            "Kant"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Rousseau : l'état de nature est bon ; c'est la société (culture) qui corrompt l'homme."
+        },
+        {
+          "type": "citation",
+          "mode": "attribuer",
+          "citation": "L'homme est un loup pour l'homme.",
+          "options": [
+            "Thomas Hobbes",
+            "Rousseau",
+            "Spinoza",
+            "Aristote"
+          ],
+          "reponse": 0,
+          "oeuvre": "",
+          "explication": "Hobbes : à l'état de nature, l'homme est dangereux pour l'homme, d'où la nécessité d'un pacte."
+        }
+      ]
+    },
+    {
+      "id": "philo-u4-e3",
+      "titre": "Thèse et antithèse : hiérarchie ou égalité des cultures ?",
+      "categorie": "these",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-culture-these",
+      "activites": [
+        {
+          "type": "association",
+          "consigne": "Associe chaque terme à sa définition.",
+          "paires": [
+            {
+              "gauche": "Ethnocentrisme",
+              "droite": "juger les autres cultures inférieures à la sienne"
+            },
+            {
+              "gauche": "Impérialisme",
+              "droite": "domination d'un État qui impose sa culture"
+            },
+            {
+              "gauche": "Racisme",
+              "droite": "croyance en une hiérarchie des races"
+            }
+          ],
+          "explication": "Thèse contestée : certaines cultures seraient supérieures (ethnocentrisme, impérialisme, racisme)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Antithèse : quel argument réfute l'idée d'une supériorité biologique d'une culture ?",
+          "options": [
+            "Les civilisations brillantes (Égypte, Grèce) ont décliné sans changement biologique des peuples",
+            "Les races n'existent pas du tout",
+            "Toutes les cultures sont identiques",
+            "La culture est innée"
+          ],
+          "reponse": 0,
+          "explication": "Des civilisations autrefois brillantes ont disparu : l'essor d'une civilisation ne prouve aucune supériorité biologique."
+        }
+      ]
+    },
+    {
+      "id": "philo-u4-e4",
+      "titre": "Les exemples",
+      "categorie": "exemples",
+      "seuilReussite": 80,
+      "competenceId": "philo-c-culture-exemples",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le cas des « enfants sauvages » (étudié par Philippe Pinel) prouve que…",
+          "options": [
+            "l'homme est bon par nature",
+            "sans culture, l'homme ne s'humanise pas",
+            "la nature est supérieure",
+            "le langage est inné"
+          ],
+          "reponse": 1,
+          "explication": "Privé de tout milieu culturel, l'enfant sauvage reste « dénaturé » : la culture fait l'homme."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Donne un exemple montrant que la culture varie d'un peuple à l'autre.",
+          "reponsesAcceptees": [
+            "les modes de préparation de la nourriture",
+            "les pratiques sexuelles",
+            "les coutumes",
+            "la langue",
+            "les rites"
+          ],
+          "explication": "La faim est naturelle, mais les manières de manger sont culturelles et varient selon les sociétés."
+        }
+      ]
+    },
+    {
+      "id": "philo-u4-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "methode",
+      "seuilReussite": 90,
+      "competenceId": "philo-c-culture-synthese",
+      "activites": [
+        {
+          "type": "classement",
+          "consigne": "Remets dans l'ordre un plan sur « la société dénature-t-elle l'homme ? ».",
+          "elements": [
+            "Thèse : la société déprave l'homme naturellement bon (Rousseau)",
+            "Antithèse : sans la société et la culture, l'homme n'est rien (enfants sauvages)",
+            "Synthèse : la culture humanise l'homme tout en comportant des risques (racisme, aliénation)"
+          ],
+          "ordreCorrect": [
+            "Thèse : la société déprave l'homme naturellement bon (Rousseau)",
+            "Antithèse : sans la société et la culture, l'homme n'est rien (enfants sauvages)",
+            "Synthèse : la culture humanise l'homme tout en comportant des risques (racisme, aliénation)"
+          ],
+          "explication": "La culture fait l'homme, même si elle engendre des dérives à dépasser."
+        }
+      ],
+      "estDefi": true
+    }
+  ]
+}

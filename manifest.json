@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -69,10 +69,19 @@
           "id": "philosophie",
           "titre": "Philosophie",
           "type": "propre",
-          "version": 2,
+          "version": 3,
           "chemin": "a4/philosophie/",
           "fichiers": [
-            "a4/philosophie/unite-01.json"
+            "a4/philosophie/unite-00.json",
+            "a4/philosophie/unite-01.json",
+            "a4/philosophie/unite-02.json",
+            "a4/philosophie/unite-03.json",
+            "a4/philosophie/unite-04.json",
+            "a4/philosophie/unite-05.json",
+            "a4/philosophie/unite-06.json",
+            "a4/philosophie/unite-07.json",
+            "a4/philosophie/unite-08.json",
+            "a4/philosophie/unite-09.json"
           ]
         },
         {
