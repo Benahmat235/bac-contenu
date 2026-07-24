@@ -513,5 +513,49 @@
       "reponseFinale": "Cercle de centre d'affixe 1 − 2i et de rayon 3",
       "competenceId": "math-c-c-lieux-complexes"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Configuration du plan et nombre complexe",
+      "url": "https://youtu.be/kP5Hl7AFjBs",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Mettre sous la forme algébrique",
+      "url": "https://youtu.be/AcI8Dyu3c6c",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Résolution dans ℂ",
+      "url": "https://youtu.be/x6RvEPmMb0M",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Que faire si Delta est négatif ?",
+      "url": "https://youtu.be/zn0cdWbtR4Q",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Équation du troisième degré dans ℂ",
+      "url": "https://youtu.be/Ql07Xio8v1g",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Comment utiliser la formule de Moivre ?",
+      "url": "https://youtu.be/5p8_fUQHbKU",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    }
   ]
 }

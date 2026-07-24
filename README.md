@@ -46,6 +46,30 @@ la progression des élèves est reliée à ces identifiants.
 | `reponse_courte` | réponse ouverte courte | `question`, `reponsesAcceptees`, `explication` |
 | `citation` | attribuer/compléter une citation | `mode` (`attribuer`), `citation`, `options`, `reponse` (index), `oeuvre`, `explication` |
 
+## Champ optionnel `videos` (explications vidéo)
+
+Une unité peut porter un tableau `videos` : des vidéos d'explication (gratuites)
+recommandées pour le chapitre. L'application peut les proposer en complément.
+
+```json
+"videos": [
+  {
+    "titre": "1) Les types de référentiels",
+    "url": "https://youtu.be/bFS1x4T2els",
+    "type": "video",
+    "chaine": "Education Plus",
+    "auteur": "Al Habib Idriss"
+  }
+]
+```
+
+- `type` : `"video"` (une vidéo) ou `"playlist"` (un cours complet).
+- Pour les **séries C et D**, la chaîne de référence est **Education Plus**
+  (Al Habib Idriss, enseignant tchadien) : https://youtube.com/@alhabibidriss39
+  Elle couvre notamment la **Cinématique** (physique) et, en maths, les
+  **Suites numériques** et les **Nombres complexes**.
+- Script d'injection réutilisable : `add_videos.py` (à la racine du dépôt de travail).
+
 ## Champ optionnel `categorie` (utile en philosophie)
 
 Une étape peut porter une `categorie` pour organiser la mémorisation :

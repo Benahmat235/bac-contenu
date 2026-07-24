@@ -446,5 +446,14 @@
       "reponseFinale": "1/2",
       "competenceId": "math-c-c-limsuite"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Cours complet : Suites numériques",
+      "url": "https://www.youtube.com/playlist?list=PLrkPItsU9LKqe-WpqtqFi6P6sVNYDkZF-",
+      "type": "playlist",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    }
   ]
 }

@@ -454,5 +454,91 @@
       "reponseFinale": "a = 0 (mouvement uniforme)",
       "competenceId": "phy-d-cin-c-mru"
     }
+  ],
+  "videos": [
+    {
+      "titre": "1) Les types de référentiels",
+      "url": "https://youtu.be/bFS1x4T2els",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "2) Trajectoire d'un mobile",
+      "url": "https://youtu.be/5sVOPJlOMCg",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "3) Position d'un mobile",
+      "url": "https://youtu.be/o7aa-ZPwD0M",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "4) Applications sur le vecteur position",
+      "url": "https://youtu.be/jFy8Q2B4hhE",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "5) Équation de la trajectoire",
+      "url": "https://youtu.be/9VSmjj78rlI",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "7) Vecteur vitesse",
+      "url": "https://youtu.be/Rc5Rb9AIQlU",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "8) Application sur le vecteur vitesse",
+      "url": "https://youtu.be/sbKxIg_QY3M",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "9) Vecteur accélération",
+      "url": "https://youtu.be/-ZvoD2Qa2tA",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Détermination des composantes du vecteur accélération",
+      "url": "https://youtu.be/n-Rn8UR4x4Y",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "10) Application sur le vecteur accélération",
+      "url": "https://youtu.be/KHtiwcSi-_U",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "11) Variation du mouvement",
+      "url": "https://youtu.be/tJn_cYEFTEs",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "12) Application sur la variation du mouvement",
+      "url": "https://youtu.be/KWnBgFtfcJU",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    }
   ]
 }
