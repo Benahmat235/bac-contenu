@@ -1,0 +1,424 @@
+{
+  "id": "chi-c-afa",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Acide faible – base faible",
+  "ordre": 6,
+  "source": {
+    "document": "Chimie TC",
+    "chapitre": "Chapitre 6 : Acide faible – base faible",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "pH d'un acide faible",
+      "verso": "pH = ½·(pKa − log C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Relation de Henderson-Hasselbalch",
+      "verso": "pH = pKa + log([base]/[acide])",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Solution tampon",
+      "verso": "pH ≈ pKa quand [base] = [acide]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Acide faible",
+      "verso": "dissociation partielle dans l'eau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force et pKa",
+      "verso": "acide d'autant plus fort que le pKa est petit",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻][H₃O⁺]/[AH]",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "chi-c-afa-afa-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "chi-c-afa-c-afaible",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "pH d'un acide faible ?",
+          "verso": "pH = ½(pKa − log C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation de Henderson ?",
+          "verso": "pH = pKa + log([base]/[acide])",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chi-c-afa-afa-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "chi-c-afa-c-afaible",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Un acide faible se dissocie :",
+          "options": [
+            "totalement",
+            "partiellement",
+            "pas du tout",
+            "instantanément et totalement"
+          ],
+          "reponse": 1,
+          "explication": "Partiellement."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quand [base] = [acide], pH = ",
+          "options": [
+            "pKa",
+            "14",
+            "7",
+            "0"
+          ],
+          "reponse": 0,
+          "explication": "pH=pKa+log(1)=pKa."
+        }
+      ]
+    },
+    {
+      "id": "chi-c-afa-afa-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chi-c-afa-c-afaible",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer le pH d'un acide faible :",
+          "etapes": [
+            "Repérer le pKa et la concentration C",
+            "Appliquer pH = ½(pKa − log C)",
+            "Calculer",
+            "Comparer à l'acide fort correspondant"
+          ],
+          "ordreCorrect": [
+            "Repérer le pKa et la concentration C",
+            "Appliquer pH = ½(pKa − log C)",
+            "Calculer",
+            "Comparer à l'acide fort correspondant"
+          ],
+          "explication": "Formule du pH d'un acide faible."
+        }
+      ]
+    },
+    {
+      "id": "chi-c-afa-afa-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chi-c-afa-c-afaible",
+      "activites": [
+        {
+          "id": "chi-c-afa-ex01",
+          "enonce": "Acide faible de pKa = 4.8 et concentration C = 0.1 mol/L. Calculer le pH.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "pH = ½(pKa − log C)",
+            "pH = ½(4.8 − log(0.1))"
+          ],
+          "reponseFinale": "pH ≈ 2.9",
+          "competenceId": "chi-c-afa-c-afaible"
+        },
+        {
+          "id": "chi-c-afa-ex02",
+          "enonce": "Acide faible de pKa = 3.8 et concentration C = 0.01 mol/L. Calculer le pH.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "pH = ½(pKa − log C)",
+            "pH = ½(3.8 − log(0.01))"
+          ],
+          "reponseFinale": "pH ≈ 2.9",
+          "competenceId": "chi-c-afa-c-afaible"
+        },
+        {
+          "id": "chi-c-afa-ex03",
+          "enonce": "Acide faible de pKa = 4.8 et concentration C = 0.01 mol/L. Calculer le pH.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "pH = ½(pKa − log C)",
+            "pH = ½(4.8 − log(0.01))"
+          ],
+          "reponseFinale": "pH ≈ 3.4",
+          "competenceId": "chi-c-afa-c-afaible"
+        },
+        {
+          "id": "chi-c-afa-ex04",
+          "enonce": "Acide faible de pKa = 9.2 et concentration C = 0.1 mol/L. Calculer le pH.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "pH = ½(pKa − log C)",
+            "pH = ½(9.2 − log(0.1))"
+          ],
+          "reponseFinale": "pH ≈ 5.1",
+          "competenceId": "chi-c-afa-c-afaible"
+        }
+      ]
+    },
+    {
+      "id": "chi-c-afa-afa-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chi-c-afa-c-tampon",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Tampon pKa = 4,8 avec [base]=[acide]. Le pH vaut :",
+          "options": [
+            "4,8",
+            "7",
+            "9,6",
+            "2,4"
+          ],
+          "reponse": 0,
+          "explication": "pH=pKa."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-c-afa-ex01",
+      "enonce": "Acide faible de pKa = 4.8 et concentration C = 0.1 mol/L. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)",
+        "pH = ½(4.8 − log(0.1))"
+      ],
+      "reponseFinale": "pH ≈ 2.9",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex02",
+      "enonce": "Acide faible de pKa = 3.8 et concentration C = 0.01 mol/L. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)",
+        "pH = ½(3.8 − log(0.01))"
+      ],
+      "reponseFinale": "pH ≈ 2.9",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex03",
+      "enonce": "Acide faible de pKa = 4.8 et concentration C = 0.01 mol/L. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)",
+        "pH = ½(4.8 − log(0.01))"
+      ],
+      "reponseFinale": "pH ≈ 3.4",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex04",
+      "enonce": "Acide faible de pKa = 9.2 et concentration C = 0.1 mol/L. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)",
+        "pH = ½(9.2 − log(0.1))"
+      ],
+      "reponseFinale": "pH ≈ 5.1",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex05",
+      "enonce": "Solution tampon (Henderson) : pKa = 4.8, [base] = [acide]. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = pKa + log([base]/[acide])",
+        "pH = 4.8 + log(1)"
+      ],
+      "reponseFinale": "pH ≈ 4.8",
+      "competenceId": "chi-c-afa-c-tampon"
+    },
+    {
+      "id": "chi-c-afa-ex06",
+      "enonce": "Solution tampon (Henderson) : pKa = 4.8, [base]/[acide] = 10. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = pKa + log([base]/[acide])",
+        "pH = 4.8 + log(10)"
+      ],
+      "reponseFinale": "pH ≈ 5.8",
+      "competenceId": "chi-c-afa-c-tampon"
+    },
+    {
+      "id": "chi-c-afa-ex07",
+      "enonce": "Solution tampon (Henderson) : pKa = 9.2, [base]/[acide] = 0,1. Calculer le pH.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = pKa + log([base]/[acide])",
+        "pH = 9.2 + log(0.1)"
+      ],
+      "reponseFinale": "pH ≈ 8.2",
+      "competenceId": "chi-c-afa-c-tampon"
+    },
+    {
+      "id": "chi-c-afa-ex08",
+      "enonce": "Un acide faible est un acide qui :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "ne se dissocie que partiellement dans l'eau"
+      ],
+      "reponseFinale": "se dissocie partiellement",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex09",
+      "enonce": "Quand [base] = [acide] dans un couple, le pH est égal :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH = pKa + log(1) = pKa"
+      ],
+      "reponseFinale": "au pKa",
+      "competenceId": "chi-c-afa-c-tampon"
+    },
+    {
+      "id": "chi-c-afa-ex10",
+      "enonce": "Une solution tampon a la propriété de :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "modérer les variations de pH par ajout d'acide/base"
+      ],
+      "reponseFinale": "amortir les variations de pH",
+      "competenceId": "chi-c-afa-c-tampon"
+    },
+    {
+      "id": "chi-c-afa-ex11",
+      "enonce": "L'acide éthanoïque (CH₃COOH) a un pKa d'environ :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa ≈ 4,8"
+      ],
+      "reponseFinale": "≈ 4,8",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex12",
+      "enonce": "Acide faible pKa = 4.8, C = 0.05 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)"
+      ],
+      "reponseFinale": "pH ≈ 3.1",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex13",
+      "enonce": "Acide faible pKa = 3.8, C = 0.1 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)"
+      ],
+      "reponseFinale": "pH ≈ 2.4",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex14",
+      "enonce": "Acide faible pKa = 4.8, C = 0.001 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)"
+      ],
+      "reponseFinale": "pH ≈ 3.9",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex15",
+      "enonce": "Acide faible pKa = 6.5, C = 0.1 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)"
+      ],
+      "reponseFinale": "pH ≈ 3.8",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex16",
+      "enonce": "Acide faible pKa = 2.9, C = 0.01 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH = ½(pKa − log C)"
+      ],
+      "reponseFinale": "pH ≈ 2.5",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex17",
+      "enonce": "Plus un acide est fort, plus son pKa est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un acide fort a un pKa faible (petit)"
+      ],
+      "reponseFinale": "petit (faible)",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex18",
+      "enonce": "Comparé à un acide fort de même concentration, un acide faible a un pH :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Il libère moins d'ions H₃O⁺",
+        "donc un pH plus élevé"
+      ],
+      "reponseFinale": "plus élevé",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex19",
+      "enonce": "Le coefficient de dissociation α d'un acide faible est :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "compris entre 0 et 1 (dissociation partielle)"
+      ],
+      "reponseFinale": "entre 0 et 1",
+      "competenceId": "chi-c-afa-c-afaible"
+    },
+    {
+      "id": "chi-c-afa-ex20",
+      "enonce": "Quand la concentration C d'un acide faible diminue, son coefficient de dissociation α :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "augmente (dilution favorise la dissociation)"
+      ],
+      "reponseFinale": "augmente",
+      "competenceId": "chi-c-afa-c-afaible"
+    }
+  ]
+}

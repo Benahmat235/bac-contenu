@@ -1,0 +1,449 @@
+{
+  "id": "chi-d-af",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Acides forts – bases fortes",
+  "ordre": 2,
+  "source": {
+    "document": "Chimie TD",
+    "chapitre": "Chapitre 2 : Acides forts – bases fortes",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "pH d'un acide fort",
+      "verso": "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "pH d'une base forte",
+      "verso": "pH = 14 + log C ([OH⁻] = C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Concentration d'un acide fort",
+      "verso": "C = 10^(−pH)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Concentration d'une base forte",
+      "verso": "C = 10^(pH−14)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Acide fort",
+      "verso": "se dissocie totalement dans l'eau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Base forte",
+      "verso": "capte totalement des protons (ex. NaOH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "chi-d-af-af-e1",
+      "titre": "Mémoriser les formules",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-af-c-af",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "pH d'un acide fort ?",
+          "verso": "pH = −log C",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pH d'une base forte ?",
+          "verso": "pH = 14 + log C",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chi-d-af-af-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-af-c-af",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Pour un acide fort de concentration C :",
+          "options": [
+            "[H₃O⁺] = C",
+            "[H₃O⁺] = C²",
+            "pH = C",
+            "[OH⁻] = C"
+          ],
+          "reponse": 0,
+          "explication": "Dissociation totale."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Une base forte de C = 0,01 mol/L a un pH de :",
+          "options": [
+            "2",
+            "12",
+            "7",
+            "10"
+          ],
+          "reponse": 1,
+          "explication": "pH=14+log(0,01)=12."
+        }
+      ]
+    },
+    {
+      "id": "chi-d-af-af-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-af-c-af",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer le pH d'un acide fort :",
+          "etapes": [
+            "Écrire la dissociation totale : [H₃O⁺] = C",
+            "Appliquer pH = −log C",
+            "Calculer",
+            "Vérifier pH < 7"
+          ],
+          "ordreCorrect": [
+            "Écrire la dissociation totale : [H₃O⁺] = C",
+            "Appliquer pH = −log C",
+            "Calculer",
+            "Vérifier pH < 7"
+          ],
+          "explication": "Acide fort ⇒ [H₃O⁺] = C."
+        }
+      ]
+    },
+    {
+      "id": "chi-d-af-af-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-af-c-af",
+      "activites": [
+        {
+          "id": "chi-d-af-ex01",
+          "enonce": "Acide fort (ex. HCl) de concentration C = 0.1 mol/L. Calculer le pH.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Acide fort totalement dissocié : [H₃O⁺] = C",
+            "pH = −log C = −log(0.1)"
+          ],
+          "reponseFinale": "pH ≈ 1.0",
+          "competenceId": "chi-d-af-c-af"
+        },
+        {
+          "id": "chi-d-af-ex02",
+          "enonce": "Acide fort (ex. HCl) de concentration C = 0.01 mol/L. Calculer le pH.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Acide fort totalement dissocié : [H₃O⁺] = C",
+            "pH = −log C = −log(0.01)"
+          ],
+          "reponseFinale": "pH ≈ 2.0",
+          "competenceId": "chi-d-af-c-af"
+        },
+        {
+          "id": "chi-d-af-ex03",
+          "enonce": "Acide fort (ex. HCl) de concentration C = 0.001 mol/L. Calculer le pH.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Acide fort totalement dissocié : [H₃O⁺] = C",
+            "pH = −log C = −log(0.001)"
+          ],
+          "reponseFinale": "pH ≈ 3.0",
+          "competenceId": "chi-d-af-c-af"
+        },
+        {
+          "id": "chi-d-af-ex04",
+          "enonce": "Acide fort (ex. HCl) de concentration C = 0.05 mol/L. Calculer le pH.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Acide fort totalement dissocié : [H₃O⁺] = C",
+            "pH = −log C = −log(0.05)"
+          ],
+          "reponseFinale": "pH ≈ 1.3",
+          "competenceId": "chi-d-af-c-af"
+        }
+      ]
+    },
+    {
+      "id": "chi-d-af-af-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chi-d-af-c-bf",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Base forte C = 10⁻³ mol/L. Le pH vaut :",
+          "options": [
+            "3",
+            "11",
+            "7",
+            "14"
+          ],
+          "reponse": 1,
+          "explication": "pH=14+log(10⁻³)=11."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-d-af-ex01",
+      "enonce": "Acide fort (ex. HCl) de concentration C = 0.1 mol/L. Calculer le pH.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Acide fort totalement dissocié : [H₃O⁺] = C",
+        "pH = −log C = −log(0.1)"
+      ],
+      "reponseFinale": "pH ≈ 1.0",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex02",
+      "enonce": "Acide fort (ex. HCl) de concentration C = 0.01 mol/L. Calculer le pH.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Acide fort totalement dissocié : [H₃O⁺] = C",
+        "pH = −log C = −log(0.01)"
+      ],
+      "reponseFinale": "pH ≈ 2.0",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex03",
+      "enonce": "Acide fort (ex. HCl) de concentration C = 0.001 mol/L. Calculer le pH.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Acide fort totalement dissocié : [H₃O⁺] = C",
+        "pH = −log C = −log(0.001)"
+      ],
+      "reponseFinale": "pH ≈ 3.0",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex04",
+      "enonce": "Acide fort (ex. HCl) de concentration C = 0.05 mol/L. Calculer le pH.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Acide fort totalement dissocié : [H₃O⁺] = C",
+        "pH = −log C = −log(0.05)"
+      ],
+      "reponseFinale": "pH ≈ 1.3",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex05",
+      "enonce": "Acide fort (ex. HCl) de concentration C = 0.002 mol/L. Calculer le pH.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Acide fort totalement dissocié : [H₃O⁺] = C",
+        "pH = −log C = −log(0.002)"
+      ],
+      "reponseFinale": "pH ≈ 2.7",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex06",
+      "enonce": "Base forte (ex. NaOH) de concentration C = 0.1 mol/L. Calculer le pH.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Base forte : [OH⁻] = C, pOH = −log C",
+        "pH = 14 + log C = 14 + log(0.1)"
+      ],
+      "reponseFinale": "pH ≈ 13.0",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex07",
+      "enonce": "Base forte (ex. NaOH) de concentration C = 0.01 mol/L. Calculer le pH.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Base forte : [OH⁻] = C, pOH = −log C",
+        "pH = 14 + log C = 14 + log(0.01)"
+      ],
+      "reponseFinale": "pH ≈ 12.0",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex08",
+      "enonce": "Base forte (ex. NaOH) de concentration C = 0.001 mol/L. Calculer le pH.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Base forte : [OH⁻] = C, pOH = −log C",
+        "pH = 14 + log C = 14 + log(0.001)"
+      ],
+      "reponseFinale": "pH ≈ 11.0",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex09",
+      "enonce": "Base forte (ex. NaOH) de concentration C = 0.02 mol/L. Calculer le pH.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Base forte : [OH⁻] = C, pOH = −log C",
+        "pH = 14 + log C = 14 + log(0.02)"
+      ],
+      "reponseFinale": "pH ≈ 12.3",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex10",
+      "enonce": "Un acide fort a un pH = 2. Quelle est sa concentration C ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "C = [H₃O⁺] = 10^(−pH)",
+        "= 10^(−2)"
+      ],
+      "reponseFinale": "C ≈ 0.01 mol/L",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex11",
+      "enonce": "Un acide fort a un pH = 3. Quelle est sa concentration C ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "C = [H₃O⁺] = 10^(−pH)",
+        "= 10^(−3)"
+      ],
+      "reponseFinale": "C ≈ 0.001 mol/L",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex12",
+      "enonce": "Une base forte a un pH = 12. Quelle est sa concentration C ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = 14 + log C ⇒ log C = pH − 14",
+        "C = 10^(pH−14) = 10^(-2)"
+      ],
+      "reponseFinale": "C ≈ 0.01 mol/L",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex13",
+      "enonce": "Une base forte a un pH = 11. Quelle est sa concentration C ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH = 14 + log C ⇒ log C = pH − 14",
+        "C = 10^(pH−14) = 10^(-3)"
+      ],
+      "reponseFinale": "C ≈ 0.001 mol/L",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex14",
+      "enonce": "Un acide est dit « fort » lorsqu'il :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "se dissocie totalement dans l'eau"
+      ],
+      "reponseFinale": "se dissocie totalement dans l'eau",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex15",
+      "enonce": "Pour un acide fort, [H₃O⁺] est égale à :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "la concentration C de l'acide"
+      ],
+      "reponseFinale": "C (concentration de l'acide)",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex16",
+      "enonce": "HCl et H₂SO₄ sont des exemples :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "d'acides forts"
+      ],
+      "reponseFinale": "d'acides forts",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex17",
+      "enonce": "NaOH (soude) est une :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "base forte"
+      ],
+      "reponseFinale": "base forte",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex18",
+      "enonce": "Acide fort C = 0.005 mol/L. pH ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pH=−log C"
+      ],
+      "reponseFinale": "pH ≈ 2.3",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex19",
+      "enonce": "Acide fort C = 0.2 mol/L. pH ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pH=−log C"
+      ],
+      "reponseFinale": "pH ≈ 0.7",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex20",
+      "enonce": "Acide fort C = 0.4 mol/L. pH ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pH=−log C"
+      ],
+      "reponseFinale": "pH ≈ 0.4",
+      "competenceId": "chi-d-af-c-af"
+    },
+    {
+      "id": "chi-d-af-ex21",
+      "enonce": "Base forte C = 0.5 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH=14+log C"
+      ],
+      "reponseFinale": "pH ≈ 13.7",
+      "competenceId": "chi-d-af-c-bf"
+    },
+    {
+      "id": "chi-d-af-ex22",
+      "enonce": "Base forte C = 0.2 mol/L. pH ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pH=14+log C"
+      ],
+      "reponseFinale": "pH ≈ 13.3",
+      "competenceId": "chi-d-af-c-bf"
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "id": "chi-d-st",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Notion de stéréochimie",
+  "ordre": 6,
+  "source": {
+    "document": "Chimie TD",
+    "chapitre": "Chapitre 6 : Notion de stéréochimie",
+    "statutValidation": "brouillon",
+    "valideePar": null,
+    "dateValidation": null
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse finale puis la correction."
+  },
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Isomères",
+      "verso": "même formule brute, formules développées différentes",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isomérie de chaîne",
+      "verso": "diffèrent par la disposition de la chaîne carbonée",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isomérie de position",
+      "verso": "diffèrent par la position d'un groupe",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isomérie de fonction",
+      "verso": "même formule brute, fonctions différentes",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Carbone asymétrique",
+      "verso": "C lié à 4 groupes tous différents (noté C*)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énantiomères",
+      "verso": "images miroir non superposables (molécule chirale)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Représentation de Newman",
+      "verso": "visualise les conformations autour d'une liaison C–C",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "etapes": [
+    {
+      "id": "chi-d-st-st-e1",
+      "titre": "Mémoriser les définitions",
+      "categorie": "formulaire",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-st-c-isomerie",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Carbone asymétrique ?",
+          "verso": "C lié à 4 groupes tous différents",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énantiomères ?",
+          "verso": "images miroir non superposables",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chi-d-st-st-e2",
+      "titre": "Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-st-c-stereo",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Un carbone asymétrique est lié à :",
+          "options": [
+            "4 groupes différents",
+            "4 H",
+            "2 groupes",
+            "3 groupes"
+          ],
+          "reponse": 0,
+          "explication": "4 groupes tous différents."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Deux énantiomères sont :",
+          "options": [
+            "identiques",
+            "images miroir non superposables",
+            "des ions",
+            "des gaz"
+          ],
+          "reponse": 1,
+          "explication": "Images miroir."
+        }
+      ]
+    },
+    {
+      "id": "chi-d-st-st-e3",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-st-c-isomerie",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Identifier le type d'isomérie entre deux molécules :",
+          "etapes": [
+            "Vérifier qu'elles ont la même formule brute",
+            "Comparer les fonctions (fonction ?)",
+            "Sinon comparer la chaîne (chaîne ?)",
+            "Sinon la position d'un groupe (position)"
+          ],
+          "ordreCorrect": [
+            "Vérifier qu'elles ont la même formule brute",
+            "Comparer les fonctions (fonction ?)",
+            "Sinon comparer la chaîne (chaîne ?)",
+            "Sinon la position d'un groupe (position)"
+          ],
+          "explication": "On distingue chaîne, position, fonction."
+        }
+      ]
+    },
+    {
+      "id": "chi-d-st-st-e4",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chi-d-st-c-isomerie",
+      "activites": [
+        {
+          "id": "chi-d-st-ex01",
+          "enonce": "Qu'est-ce qu'un carbone asymétrique ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Un atome de carbone lié à 4 groupes tous différents"
+          ],
+          "reponseFinale": "un C lié à 4 groupes tous différents",
+          "competenceId": "chi-d-st-c-stereo"
+        },
+        {
+          "id": "chi-d-st-ex02",
+          "enonce": "Deux énantiomères sont :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "des images l'une de l'autre dans un miroir, non superposables"
+          ],
+          "reponseFinale": "images miroir non superposables",
+          "competenceId": "chi-d-st-c-stereo"
+        },
+        {
+          "id": "chi-d-st-ex03",
+          "enonce": "L'isomérie de chaîne concerne :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "la disposition (ramification) de la chaîne carbonée"
+          ],
+          "reponseFinale": "la chaîne carbonée",
+          "competenceId": "chi-d-st-c-stereo"
+        },
+        {
+          "id": "chi-d-st-ex04",
+          "enonce": "L'isomérie de position concerne :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "la position d'un groupe fonctionnel sur la chaîne"
+          ],
+          "reponseFinale": "la position d'un groupe",
+          "competenceId": "chi-d-st-c-stereo"
+        }
+      ]
+    },
+    {
+      "id": "chi-d-st-st-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chi-d-st-c-stereo",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Une molécule possédant un carbone asymétrique est :",
+          "options": [
+            "achirale",
+            "chirale",
+            "ionique",
+            "aromatique"
+          ],
+          "reponse": 1,
+          "explication": "Elle est chirale."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-d-st-ex01",
+      "enonce": "Qu'est-ce qu'un carbone asymétrique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un atome de carbone lié à 4 groupes tous différents"
+      ],
+      "reponseFinale": "un C lié à 4 groupes tous différents",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex02",
+      "enonce": "Deux énantiomères sont :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "des images l'une de l'autre dans un miroir, non superposables"
+      ],
+      "reponseFinale": "images miroir non superposables",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex03",
+      "enonce": "L'isomérie de chaîne concerne :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "la disposition (ramification) de la chaîne carbonée"
+      ],
+      "reponseFinale": "la chaîne carbonée",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex04",
+      "enonce": "L'isomérie de position concerne :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "la position d'un groupe fonctionnel sur la chaîne"
+      ],
+      "reponseFinale": "la position d'un groupe",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex05",
+      "enonce": "L'isomérie de fonction concerne :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "des composés de même formule brute mais de fonctions différentes"
+      ],
+      "reponseFinale": "des fonctions différentes",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex06",
+      "enonce": "La représentation de Newman sert à visualiser :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "les conformations autour d'une liaison C–C"
+      ],
+      "reponseFinale": "les conformations autour d'une liaison C–C",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex07",
+      "enonce": "Combien d'isomères de position l'alcool en C₃ (propanol) présente-t-il ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "propan-1-ol et propan-2-ol",
+        "soit 2 isomères de position"
+      ],
+      "reponseFinale": "2 (propan-1-ol, propan-2-ol)",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex08",
+      "enonce": "Une molécule qui possède un carbone asymétrique est dite :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "chirale"
+      ],
+      "reponseFinale": "chirale",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex09",
+      "enonce": "Deux stéréoisomères de configuration Z et E sont dus à :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "la double liaison C=C (isomérie géométrique)"
+      ],
+      "reponseFinale": "une double liaison C=C",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex10",
+      "enonce": "La formule brute C₂H₆O correspond à deux isomères de fonction :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "l'éthanol (alcool) et le méthoxyméthane (éther)"
+      ],
+      "reponseFinale": "éthanol et méthoxyméthane",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex11",
+      "enonce": "Deux molécules de même formule brute mais de formules développées différentes sont :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "des isomères"
+      ],
+      "reponseFinale": "des isomères",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex12",
+      "enonce": "Un mélange racémique contient :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "les deux énantiomères en quantités égales"
+      ],
+      "reponseFinale": "les deux énantiomères à 50/50",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex13",
+      "enonce": "Combien d'isomères de chaîne a le butane C₄H₁₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "butane et 2-méthylpropane",
+        "soit 2"
+      ],
+      "reponseFinale": "2 (butane, 2-méthylpropane)",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex14",
+      "enonce": "Associer les types d'isomérie (activité).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Voir l'association"
+      ],
+      "reponseFinale": "chaîne↔chaîne ; position↔groupe ; fonction↔fonctions différentes",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex15",
+      "enonce": "Le nombre d'isomères d'un alcane augmente-t-il avec le nombre de carbones ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Oui, plus la chaîne est longue, plus il y a d'isomères"
+      ],
+      "reponseFinale": "Oui",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex16",
+      "enonce": "Le pentane C₅H₁₂ possède combien d'isomères de chaîne ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pentane, 2-méthylbutane, 2,2-diméthylpropane",
+        "soit 3"
+      ],
+      "reponseFinale": "3",
+      "competenceId": "chi-d-st-c-isomerie"
+    },
+    {
+      "id": "chi-d-st-ex17",
+      "enonce": "Deux diastéréoisomères Z/E diffèrent par :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "la disposition des groupes autour d'une double liaison C=C"
+      ],
+      "reponseFinale": "la géométrie autour de C=C",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex18",
+      "enonce": "Une molécule est achirale si :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "elle est superposable à son image dans un miroir"
+      ],
+      "reponseFinale": "superposable à son image miroir",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex19",
+      "enonce": "Le butan-2-ol possède un carbone asymétrique : est-il chiral ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Le C2 porte 4 groupes différents ⇒ chiral"
+      ],
+      "reponseFinale": "Oui (chiral)",
+      "competenceId": "chi-d-st-c-stereo"
+    },
+    {
+      "id": "chi-d-st-ex20",
+      "enonce": "Deux énantiomères ont-ils les mêmes propriétés physiques (point de fusion, etc.) ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Oui, sauf vis-à-vis de la lumière polarisée (pouvoir rotatoire opposé)"
+      ],
+      "reponseFinale": "Oui, sauf le pouvoir rotatoire",
+      "competenceId": "chi-d-st-c-stereo"
+    }
+  ]
+}

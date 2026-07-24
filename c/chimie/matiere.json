@@ -1,0 +1,17 @@
+{
+  "id": "chimie-c",
+  "titre": "Chimie",
+  "type": "scientifique",
+  "seriesConcernees": ["c"],
+  "description": "Chimie organique et chimie acido-basique : formules, pH calculés, exercices corrigés et quiz.",
+  "unites": [
+    { "id": "chi-c-st", "titre": "Notion de stéréochimie", "ordre": 1, "fichier": "c/chimie/unite-01.json", "prerequis": [] },
+    { "id": "chi-c-al", "titre": "Alcools, polyalcools, aldéhydes et cétones", "ordre": 2, "fichier": "c/chimie/unite-02.json", "prerequis": ["chi-c-st"] },
+    { "id": "chi-c-ac", "titre": "Acides carboxyliques et leurs dérivés", "ordre": 3, "fichier": "c/chimie/unite-03.json", "prerequis": ["chi-c-al"] },
+    { "id": "chi-c-ph", "titre": "Solution aqueuse", "ordre": 4, "fichier": "c/chimie/unite-04.json", "prerequis": [] },
+    { "id": "chi-c-af", "titre": "Acide fort – base forte", "ordre": 5, "fichier": "c/chimie/unite-05.json", "prerequis": ["chi-c-ph"] },
+    { "id": "chi-c-afa", "titre": "Acide faible – base faible", "ordre": 6, "fichier": "c/chimie/unite-06.json", "prerequis": ["chi-c-af"] },
+    { "id": "chi-c-ka", "titre": "Constante d'acidité et classification", "ordre": 7, "fichier": "c/chimie/unite-07.json", "prerequis": ["chi-c-afa"] },
+    { "id": "chi-c-ci", "titre": "Cinétique chimique", "ordre": 8, "fichier": "c/chimie/unite-08.json", "prerequis": [] }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "contentVersion": 10,
+  "contentVersion": 11,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -164,10 +164,19 @@
         {
           "id": "chimie-c",
           "titre": "Chimie",
-          "type": "propre",
-          "version": 1,
+          "type": "scientifique",
+          "version": 2,
           "chemin": "c/chimie/",
-          "fichiers": []
+          "fichiers": [
+            "c/chimie/unite-01.json",
+            "c/chimie/unite-02.json",
+            "c/chimie/unite-03.json",
+            "c/chimie/unite-04.json",
+            "c/chimie/unite-05.json",
+            "c/chimie/unite-06.json",
+            "c/chimie/unite-07.json",
+            "c/chimie/unite-08.json"
+          ]
         }
       ]
     },
@@ -225,10 +234,19 @@
         {
           "id": "chimie-d",
           "titre": "Chimie",
-          "type": "propre",
-          "version": 1,
+          "type": "scientifique",
+          "version": 2,
           "chemin": "d/chimie/",
-          "fichiers": []
+          "fichiers": [
+            "d/chimie/unite-01.json",
+            "d/chimie/unite-02.json",
+            "d/chimie/unite-03.json",
+            "d/chimie/unite-04.json",
+            "d/chimie/unite-05.json",
+            "d/chimie/unite-06.json",
+            "d/chimie/unite-07.json",
+            "d/chimie/unite-08.json"
+          ]
         }
       ]
     }
