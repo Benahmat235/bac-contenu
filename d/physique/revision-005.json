@@ -1,0 +1,67 @@
+{
+  "id": "physique-d-r005",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-r005-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-r005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Force électrique ?",
+          "options": [
+            "F = q·E",
+            "g_h = G·M/(R+h)²",
+            "f₀ = 1/(2π·√(L·C))",
+            "F = B·I·l·sin(α)"
+          ],
+          "reponse": 0,
+          "explication": "F = q·E"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation et période ?",
+          "options": [
+            "ω = 2π/T = 2π·N",
+            "g_h = G·M/(R+h)²",
+            "T = 2π·√(m/k)",
+            "v = √(G·M/r)"
+          ],
+          "reponse": 0,
+          "explication": "ω = 2π/T = 2π·N"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Position en MRUV ?",
+          "options": [
+            "E = ½·k·X_m²",
+            "e = B·l·v",
+            "x = x₀ + v₀·t + ½·a·t²",
+            "F = B·I·l·sin(α)"
+          ],
+          "reponse": 2,
+          "explication": "x = x₀ + v₀·t + ½·a·t²"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

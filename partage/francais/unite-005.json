@@ -1,0 +1,137 @@
+{
+  "id": "francais-u005",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Les mouvements littéraires (1/3)",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les mouvements littéraires",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u005-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u005-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un mouvement littéraire ?",
+          "reponseAttendue": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que l'Humanisme (XVIe siècle) ?",
+          "reponseAttendue": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Classicisme (XVIIe siècle) ?",
+          "reponseAttendue": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que les Lumières (XVIIIe siècle) ?",
+          "reponseAttendue": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu."
+        }
+      ]
+    },
+    {
+      "id": "francais-u005-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un mouvement littéraire ?",
+          "options": [
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+            "Récit épique racontant la fondation de l'Empire du Mali par Soundjata Keïta, transmis par les griots.",
+            "Texte en prose où l'auteur expose et argumente ses réflexions sur un sujet (politique, moral, social)."
+          ],
+          "reponse": 1,
+          "explication": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que l'Humanisme (XVIe siècle) ?",
+          "options": [
+            "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle.",
+            "Récit épique racontant la fondation de l'Empire du Mali par Soundjata Keïta, transmis par les griots.",
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
+            "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat"
+          ],
+          "reponse": 2,
+          "explication": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le Classicisme (XVIIe siècle) ?",
+          "options": [
+            "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine.",
+            "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage).",
+            "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument.",
+            "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+          ],
+          "reponse": 0,
+          "explication": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce qu'un mouvement littéraire ?",
+      "verso": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
+    },
+    {
+      "recto": "Qu'est-ce que l'Humanisme (XVIe siècle) ?",
+      "verso": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
+    },
+    {
+      "recto": "Qu'est-ce que le Classicisme (XVIIe siècle) ?",
+      "verso": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
+    },
+    {
+      "recto": "Qu'est-ce que les Lumières (XVIIIe siècle) ?",
+      "verso": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Tour d'horizon des mouvements littéraires",
+      "url": "https://youtu.be/UmC59d_CXH4",
+      "type": "video",
+      "chaine": "Un Cours de 5 Minutes",
+      "auteur": "Un Cours de 5 Minutes"
+    },
+    {
+      "titre": "Les courants littéraires (humanisme, romantisme, réalisme...)",
+      "url": "https://youtu.be/pSmlalCi6UQ",
+      "type": "video",
+      "chaine": "Hugo Ndiaye",
+      "auteur": "Hugo Ndiaye"
+    }
+  ]
+}

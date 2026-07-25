@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-a4-u007",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Étude de fonction : limites, dérivées et tangentes (3/3)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Étude de fonction : limites, dérivées et tangentes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u007-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Limite d'un polynôme en ±∞",
+          "verso": "celle de son monôme de plus haut degré",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limite d'une fonction rationnelle en ±∞",
+          "verso": "celle du rapport des termes de plus haut degré",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Asymptote horizontale",
+          "verso": "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Limite d'un polynôme en ±∞ ?",
+          "options": [
+            "celle de son monôme de plus haut degré",
+            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "(ln x)' = 1/x",
+            "p(A) = Card(A)/Card(Ω)"
+          ],
+          "reponse": 0,
+          "explication": "celle de son monôme de plus haut degré"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limite d'une fonction rationnelle en ±∞ ?",
+          "options": [
+            "celle du rapport des termes de plus haut degré",
+            "(u/v)' = (u'v − uv') / v²",
+            "Δ' = b'² − ac",
+            "(u + v)' = u' + v'"
+          ],
+          "reponse": 0,
+          "explication": "celle du rapport des termes de plus haut degré"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote horizontale ?",
+          "options": [
+            "p(A) = Card(A)/Card(Ω)",
+            "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
+            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "(u + v)' = u' + v'"
+          ],
+          "reponse": 1,
+          "explication": "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Limite d'un polynôme en ±∞",
+      "verso": "celle de son monôme de plus haut degré"
+    },
+    {
+      "recto": "Limite d'une fonction rationnelle en ±∞",
+      "verso": "celle du rapport des termes de plus haut degré"
+    },
+    {
+      "recto": "Asymptote horizontale",
+      "verso": "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Limite d'un polynôme en ±∞",
+      "verso": "celle de son monôme de plus haut degré",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limite d'une fonction rationnelle en ±∞",
+      "verso": "celle du rapport des termes de plus haut degré",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Asymptote horizontale",
+      "verso": "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

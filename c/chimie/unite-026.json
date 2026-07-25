@@ -1,0 +1,143 @@
+{
+  "id": "chimie-c-u026",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Cinétique chimique (1/2)",
+  "ordre": 26,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Cinétique chimique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u026-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u026-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Vitesse volumique de disparition",
+          "verso": "v = −d[A]/dt",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Temps de demi-réaction t½",
+          "verso": "durée pour consommer la moitié du réactif limitant",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Facteurs cinétiques",
+          "verso": "température et concentration des réactifs",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u026-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u026-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Vitesse volumique de disparition ?",
+          "options": [
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "pKa = −log Ka",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+            "v = −d[A]/dt"
+          ],
+          "reponse": 3,
+          "explication": "v = −d[A]/dt"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Temps de demi-réaction t½ ?",
+          "options": [
+            "visualise les conformations autour d'une liaison C–C",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "[H₃O⁺] = 10^(−pH)",
+            "durée pour consommer la moitié du réactif limitant"
+          ],
+          "reponse": 3,
+          "explication": "durée pour consommer la moitié du réactif limitant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Facteurs cinétiques ?",
+          "options": [
+            "température et concentration des réactifs",
+            "se dissocie totalement dans l'eau",
+            "alcool 1aire → aldéhyde → acide carboxylique",
+            "pH + pOH = 14 (25 °C)"
+          ],
+          "reponse": 0,
+          "explication": "température et concentration des réactifs"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Vitesse volumique de disparition",
+      "verso": "v = −d[A]/dt"
+    },
+    {
+      "recto": "Temps de demi-réaction t½",
+      "verso": "durée pour consommer la moitié du réactif limitant"
+    },
+    {
+      "recto": "Facteurs cinétiques",
+      "verso": "température et concentration des réactifs"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Vitesse volumique de disparition",
+      "verso": "v = −d[A]/dt",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Temps de demi-réaction t½",
+      "verso": "durée pour consommer la moitié du réactif limitant",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Facteurs cinétiques",
+      "verso": "température et concentration des réactifs",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Cinétique chimique : cours complet (Terminale)",
+      "url": "https://youtu.be/mJtSODJ0nj8",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Cinétique chimique 1/3 : vitesse de réaction",
+      "url": "https://youtu.be/LIN5USz9bD4",
+      "type": "video",
+      "chaine": "M. DOUMBOUYA",
+      "auteur": "M. DOUMBOUYA"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u028",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "La reproduction humaine (3/3)",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La reproduction humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u028-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u028-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Hormones ovariennes",
+          "verso": "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hormones hypophysaires",
+          "verso": "FSH et LH ; le pic de LH déclenche l'ovulation",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hormone",
+          "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u028-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Hormones ovariennes ?",
+          "options": [
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "disjonction des allèles (pureté des gamètes)",
+            "ensemble classé des chromosomes d'une cellule",
+            "œstrogènes (phase folliculaire) et progestérone (corps jaune)"
+          ],
+          "reponse": 3,
+          "explication": "œstrogènes (phase folliculaire) et progestérone (corps jaune)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Hormones hypophysaires ?",
+          "options": [
+            "hyaloplasme (fluide) + organites (partie solide)",
+            "double hélice (Watson et Crick)",
+            "FSH et LH ; le pic de LH déclenche l'ovulation",
+            "dû au crossing-over"
+          ],
+          "reponse": 2,
+          "explication": "FSH et LH ; le pic de LH déclenche l'ovulation"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Hormone ?",
+          "options": [
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "unité structurale et fonctionnelle de tout être vivant",
+            "hyaloplasme (fluide) + organites (partie solide)",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+          ],
+          "reponse": 3,
+          "explication": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Hormones ovariennes",
+      "verso": "œstrogènes (phase folliculaire) et progestérone (corps jaune)"
+    },
+    {
+      "recto": "Hormones hypophysaires",
+      "verso": "FSH et LH ; le pic de LH déclenche l'ovulation"
+    },
+    {
+      "recto": "Hormone",
+      "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Hormones ovariennes",
+      "verso": "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Hormones hypophysaires",
+      "verso": "FSH et LH ; le pic de LH déclenche l'ovulation",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Hormone",
+      "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

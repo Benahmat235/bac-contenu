@@ -1,0 +1,143 @@
+{
+  "id": "svt-c-u031",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "De la fécondation à la naissance (1/3)",
+  "ordre": 31,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "De la fécondation à la naissance",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u031-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u031-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Lieu de la fécondation",
+          "verso": "l'ampoule de la trompe",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fécondation",
+          "verso": "fusion spermatozoïde + ovule → zygote (2n)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Segmentation",
+          "verso": "premières divisions du zygote",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u031-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u031-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Lieu de la fécondation ?",
+          "options": [
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "ovule → graine ; ovaire → fruit",
+            "l'ampoule de la trompe"
+          ],
+          "reponse": 3,
+          "explication": "l'ampoule de la trompe"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fécondation ?",
+          "options": [
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "maturation et sécrétion des substances",
+            "assure les échanges entre mère et fœtus",
+            "de nature électrique le long de la fibre"
+          ],
+          "reponse": 0,
+          "explication": "fusion spermatozoïde + ovule → zygote (2n)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Segmentation ?",
+          "options": [
+            "premières divisions du zygote",
+            "zone de contact entre deux neurones",
+            "uniformité des hybrides de la F1",
+            "A, T, G, C"
+          ],
+          "reponse": 0,
+          "explication": "premières divisions du zygote"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Lieu de la fécondation",
+      "verso": "l'ampoule de la trompe"
+    },
+    {
+      "recto": "Fécondation",
+      "verso": "fusion spermatozoïde + ovule → zygote (2n)"
+    },
+    {
+      "recto": "Segmentation",
+      "verso": "premières divisions du zygote"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Lieu de la fécondation",
+      "verso": "l'ampoule de la trompe",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fécondation",
+      "verso": "fusion spermatozoïde + ovule → zygote (2n)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Segmentation",
+      "verso": "premières divisions du zygote",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La fécondation et la grossesse",
+      "url": "https://youtu.be/lIMVeTBgWhM",
+      "type": "video",
+      "chaine": "Labo SVT",
+      "auteur": "Labo SVT"
+    },
+    {
+      "titre": "La fécondation (animation 3D)",
+      "url": "https://youtu.be/n5HEZZra-7o",
+      "type": "video",
+      "chaine": "Dr. Pauline Moyart",
+      "auteur": "Dr. Pauline Moyart"
+    }
+  ]
+}

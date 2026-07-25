@@ -1,0 +1,294 @@
+{
+  "id": "svt-c-e005",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Organisation de la cellule — Exercices",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Organisation de la cellule",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-c-e005-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e005-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Identifier une cellule végétale sur un schéma :",
+          "etapes": [
+            "Chercher une paroi rigide entourant la membrane",
+            "Repérer les chloroplastes (verts)",
+            "Repérer une grande vacuole centrale",
+            "Conclure : cellule végétale"
+          ],
+          "ordreCorrect": [
+            "Chercher une paroi rigide entourant la membrane",
+            "Repérer les chloroplastes (verts)",
+            "Repérer une grande vacuole centrale",
+            "Conclure : cellule végétale"
+          ],
+          "explication": "Paroi + chloroplastes + vacuole ⇒ végétale."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e005-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e005-c",
+      "activites": [
+        {
+          "id": "svt-c-cell-ex01",
+          "enonce": "Quelle est l'unité structurale et fonctionnelle de tout être vivant ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Tout être vivant est constitué de cellules.",
+            "La cellule est l'unité de base du vivant."
+          ],
+          "reponseFinale": "La cellule",
+          "competenceId": "svt-c-cell-cell"
+        },
+        {
+          "id": "svt-c-cell-ex02",
+          "enonce": "Citer les trois grandes parties d'une cellule vivante.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Membrane plasmique, cytoplasme et noyau."
+          ],
+          "reponseFinale": "La membrane plasmique, le cytoplasme et le noyau",
+          "competenceId": "svt-c-cell-cell"
+        },
+        {
+          "id": "svt-c-cell-ex03",
+          "enonce": "Quel organite est le siège de la respiration cellulaire et produit l'énergie (ATP) ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La respiration cellulaire libère l'énergie dans la mitochondrie."
+          ],
+          "reponseFinale": "La mitochondrie",
+          "competenceId": "svt-c-cell-organite"
+        },
+        {
+          "id": "svt-c-cell-ex04",
+          "enonce": "Quel organite, présent uniquement dans la cellule végétale, réalise la photosynthèse ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Le chloroplaste contient la chlorophylle et réalise la photosynthèse."
+          ],
+          "reponseFinale": "Le chloroplaste",
+          "competenceId": "svt-c-cell-organite"
+        },
+        {
+          "id": "svt-c-cell-ex05",
+          "enonce": "Où est localisée l'information génétique dans la cellule ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "L'ADN est contenu dans le noyau."
+          ],
+          "reponseFinale": "Dans le noyau",
+          "competenceId": "svt-c-cell-cell"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e005-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-e005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "L'organite qui produit l'énergie de la cellule est :",
+          "options": [
+            "le chloroplaste",
+            "la mitochondrie",
+            "le noyau",
+            "le Golgi"
+          ],
+          "reponse": 1,
+          "explication": "La mitochondrie (ATP)."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-cell-ex01",
+      "enonce": "Quelle est l'unité structurale et fonctionnelle de tout être vivant ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Tout être vivant est constitué de cellules.",
+        "La cellule est l'unité de base du vivant."
+      ],
+      "reponseFinale": "La cellule",
+      "competenceId": "svt-c-cell-cell"
+    },
+    {
+      "id": "svt-c-cell-ex02",
+      "enonce": "Citer les trois grandes parties d'une cellule vivante.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Membrane plasmique, cytoplasme et noyau."
+      ],
+      "reponseFinale": "La membrane plasmique, le cytoplasme et le noyau",
+      "competenceId": "svt-c-cell-cell"
+    },
+    {
+      "id": "svt-c-cell-ex03",
+      "enonce": "Quel organite est le siège de la respiration cellulaire et produit l'énergie (ATP) ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La respiration cellulaire libère l'énergie dans la mitochondrie."
+      ],
+      "reponseFinale": "La mitochondrie",
+      "competenceId": "svt-c-cell-organite"
+    },
+    {
+      "id": "svt-c-cell-ex04",
+      "enonce": "Quel organite, présent uniquement dans la cellule végétale, réalise la photosynthèse ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le chloroplaste contient la chlorophylle et réalise la photosynthèse."
+      ],
+      "reponseFinale": "Le chloroplaste",
+      "competenceId": "svt-c-cell-organite"
+    },
+    {
+      "id": "svt-c-cell-ex05",
+      "enonce": "Où est localisée l'information génétique dans la cellule ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "L'ADN est contenu dans le noyau."
+      ],
+      "reponseFinale": "Dans le noyau",
+      "competenceId": "svt-c-cell-cell"
+    },
+    {
+      "id": "svt-c-cell-ex06",
+      "enonce": "Quel est le rôle des ribosomes ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les ribosomes sont le siège de la synthèse des protéines."
+      ],
+      "reponseFinale": "La synthèse des protéines",
+      "competenceId": "svt-c-cell-organite"
+    },
+    {
+      "id": "svt-c-cell-ex07",
+      "enonce": "Comment appelle-t-on la partie fluide du cytoplasme ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le cytoplasme comprend une partie fluide (hyaloplasme ou cytosol) et une partie solide (organites)."
+      ],
+      "reponseFinale": "Le hyaloplasme (ou cytosol)",
+      "competenceId": "svt-c-cell-cell"
+    },
+    {
+      "id": "svt-c-cell-ex08",
+      "enonce": "Citer deux caractères qui distinguent la cellule végétale de la cellule animale.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La cellule végétale possède une paroi cellulosique, des chloroplastes et une grande vacuole ; absents chez l'animale."
+      ],
+      "reponseFinale": "Paroi cellulosique et chloroplastes (et grande vacuole)",
+      "competenceId": "svt-c-cell-animveg"
+    },
+    {
+      "id": "svt-c-cell-ex09",
+      "enonce": "Quel constituant rigide entoure la cellule végétale par-dessus la membrane plasmique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La paroi (ou membrane) cellulosique rigidifie la cellule végétale."
+      ],
+      "reponseFinale": "La paroi cellulosique",
+      "competenceId": "svt-c-cell-animveg"
+    },
+    {
+      "id": "svt-c-cell-ex10",
+      "enonce": "Quel est le rôle de la membrane plasmique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Elle délimite la cellule et règle les échanges avec le milieu extérieur (perméabilité sélective)."
+      ],
+      "reponseFinale": "Délimiter la cellule et contrôler les échanges",
+      "competenceId": "svt-c-cell-cell"
+    },
+    {
+      "id": "svt-c-cell-ex11",
+      "enonce": "Quel organite assure la sécrétion et la maturation des substances (empaquetage) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'appareil de Golgi assure la maturation et la sécrétion."
+      ],
+      "reponseFinale": "L'appareil de Golgi",
+      "competenceId": "svt-c-cell-organite"
+    },
+    {
+      "id": "svt-c-cell-ex12",
+      "enonce": "Quel réseau membranaire assure la synthèse et le transport des substances dans la cellule ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le réticulum endoplasmique assure synthèse et transport."
+      ],
+      "reponseFinale": "Le réticulum endoplasmique",
+      "competenceId": "svt-c-cell-organite"
+    },
+    {
+      "id": "svt-c-cell-ex13",
+      "enonce": "La grande vacuole remplie de suc cellulaire est caractéristique de quel type de cellule ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La grande vacuole est typique de la cellule végétale."
+      ],
+      "reponseFinale": "La cellule végétale",
+      "competenceId": "svt-c-cell-animveg"
+    },
+    {
+      "id": "svt-c-cell-ex14",
+      "enonce": "Pourquoi dit-on que la mitochondrie est la « centrale énergétique » de la cellule ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Elle réalise la respiration cellulaire qui dégrade le glucose et produit l'ATP, forme d'énergie utilisable."
+      ],
+      "reponseFinale": "Elle produit l'énergie (ATP) par la respiration cellulaire",
+      "competenceId": "svt-c-cell-organite"
+    },
+    {
+      "id": "svt-c-cell-ex15",
+      "enonce": "Une cellule qui possède un noyau bien individualisé est dite :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un vrai noyau entouré d'une membrane ⇒ cellule eucaryote."
+      ],
+      "reponseFinale": "eucaryote",
+      "competenceId": "svt-c-cell-cell"
+    },
+    {
+      "id": "svt-c-cell-ex16",
+      "enonce": "Citer un organite commun à la cellule animale et à la cellule végétale.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La mitochondrie (ou les ribosomes, le noyau) est commune aux deux."
+      ],
+      "reponseFinale": "La mitochondrie (noyau, ribosomes...)",
+      "competenceId": "svt-c-cell-animveg"
+    }
+  ],
+  "estExercices": true
+}

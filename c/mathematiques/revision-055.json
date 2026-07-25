@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r055",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 55,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r055-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r055-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "exp et ln réciproques ?",
+          "options": [
+            "z' = k·z (k réel non nul = rapport)",
+            "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "ln(eˣ) = x et e^(ln x) = x"
+          ],
+          "reponse": 3,
+          "explication": "ln(eˣ) = x et e^(ln x) = x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Valeur remarquable ?",
+          "options": [
+            "e⁰ = 1",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+            "t_v ∘ t_u = t_{u+v}",
+            "celle de son monôme de plus haut degré"
+          ],
+          "reponse": 0,
+          "explication": "e⁰ = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Racines n-ièmes de reⁱᶿ ?",
+          "options": [
+            "eⁱᶿ=cosθ+i sinθ",
+            "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+            "k=|a|",
+            "u·v = xᵤxᵥ + yᵤyᵥ"
+          ],
+          "reponse": 1,
+          "explication": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r004",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r004-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Algorithme d'Euclide ?",
+          "options": [
+            "u ⊥ v ⟺ u·v = 0",
+            "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+            "−1/x²",
+            "PGCD(a;b) = dernier reste non nul des divisions successives"
+          ],
+          "reponse": 3,
+          "explication": "PGCD(a;b) = dernier reste non nul des divisions successives"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème de Gauss ?",
+          "options": [
+            "z' = z + b (b = affixe du vecteur)",
+            "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+            "si a divise bc et PGCD(a;b) = 1, alors a divise c",
+            "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0"
+          ],
+          "reponse": 2,
+          "explication": "si a divise bc et PGCD(a;b) = 1, alors a divise c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Congruence modulo n ?",
+          "options": [
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "a ≡ b [n] si a − b est un multiple de n",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "si lim f = ±∞ en x₀, alors x = x₀"
+          ],
+          "reponse": 1,
+          "explication": "a ≡ b [n] si a − b est un multiple de n"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,67 @@
+{
+  "id": "physique-d-r021",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-r021-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-r021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "3ᵉ loi de Kepler ?",
+          "options": [
+            "ω = 2π/T = 2π·N",
+            "T²/r³ = 4π²/(G·M) = constante",
+            "aₙ = v²/R = ω²·R",
+            "E = ½·C·u²"
+          ],
+          "reponse": 1,
+          "explication": "T²/r³ = 4π²/(G·M) = constante"
+        },
+        {
+          "type": "choix_unique",
+          "question": "f.é.m. d'une barre en mouvement ?",
+          "options": [
+            "e = B·l·v",
+            "x = v₀·t ; y = ½·g·t²",
+            "E = ½·L·i²",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+          ],
+          "reponse": 0,
+          "explication": "e = B·l·v"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force de Laplace ?",
+          "options": [
+            "aₙ = v²/R = ω²·R",
+            "F = B·I·l·sin(α)",
+            "v² − v₀² = 2·a·(x − x₀)",
+            "T = 2π·√(m/k)"
+          ],
+          "reponse": 1,
+          "explication": "F = B·I·l·sin(α)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

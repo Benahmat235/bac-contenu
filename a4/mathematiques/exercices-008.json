@@ -1,0 +1,508 @@
+{
+  "id": "mathematiques-a4-e008",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Étude de fonction : limites, dérivées et tangentes — Exercices",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Étude de fonction : limites, dérivées et tangentes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-a4-e008-methode",
+      "titre": "La méthode d'étude d'une fonction",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-e008-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Dans quel ordre étudier une fonction f ?",
+          "etapes": [
+            "Déterminer le domaine de définition",
+            "Calculer les limites aux bornes du domaine",
+            "Calculer la dérivée f'(x)",
+            "Étudier le signe de f' et dresser le tableau de variations",
+            "Tracer la courbe et les asymptotes"
+          ],
+          "ordreCorrect": [
+            "Déterminer le domaine de définition",
+            "Calculer les limites aux bornes du domaine",
+            "Calculer la dérivée f'(x)",
+            "Étudier le signe de f' et dresser le tableau de variations",
+            "Tracer la courbe et les asymptotes"
+          ],
+          "explication": "L'étude complète va du domaine jusqu'au tracé de la courbe."
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-e008-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-e008-c",
+      "activites": [
+        {
+          "id": "math-a4-fct-ex01",
+          "enonce": "Calculer la dérivée de f(x) = x² − 3x + 2",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 2x − 3"
+          ],
+          "reponseFinale": "f'(x) = 2x − 3",
+          "competenceId": "math-a4-c-derivee"
+        },
+        {
+          "id": "math-a4-fct-ex02",
+          "enonce": "Calculer la dérivée de f(x) = x³ − 2x² + 1",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 3x² − 4x"
+          ],
+          "reponseFinale": "f'(x) = 3x² − 4x",
+          "competenceId": "math-a4-c-derivee"
+        },
+        {
+          "id": "math-a4-fct-ex03",
+          "enonce": "Calculer la dérivée de f(x) = 2x³ − 5x + 4",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 6x² − 5"
+          ],
+          "reponseFinale": "f'(x) = 6x² − 5",
+          "competenceId": "math-a4-c-derivee"
+        },
+        {
+          "id": "math-a4-fct-ex04",
+          "enonce": "Calculer la dérivée de f(x) = x⁴ − 3x² + 2x",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 4x³ − 6x + 2"
+          ],
+          "reponseFinale": "f'(x) = 4x³ − 6x + 2",
+          "competenceId": "math-a4-c-derivee"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-e008-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "mathematiques-a4-e008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Pour f(x) = x² − 5x + 6, l'équation de la tangente en x₀ = 1 est :",
+          "options": [
+            "y = −3x + 5",
+            "y = 2x − 5",
+            "y = −3x + 2",
+            "y = x + 1"
+          ],
+          "reponse": 0,
+          "explication": "f'(x)=2x−5, f'(1)=−3, f(1)=2, y=−3(x−1)+2=−3x+5."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-a4-fct-ex01",
+      "enonce": "Calculer la dérivée de f(x) = x² − 3x + 2",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 2x − 3"
+      ],
+      "reponseFinale": "f'(x) = 2x − 3",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex02",
+      "enonce": "Calculer la dérivée de f(x) = x³ − 2x² + 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 3x² − 4x"
+      ],
+      "reponseFinale": "f'(x) = 3x² − 4x",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex03",
+      "enonce": "Calculer la dérivée de f(x) = 2x³ − 5x + 4",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 6x² − 5"
+      ],
+      "reponseFinale": "f'(x) = 6x² − 5",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex04",
+      "enonce": "Calculer la dérivée de f(x) = x⁴ − 3x² + 2x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 4x³ − 6x + 2"
+      ],
+      "reponseFinale": "f'(x) = 4x³ − 6x + 2",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex05",
+      "enonce": "Calculer la dérivée de f(x) = 3x² − 6x + 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 6x − 6"
+      ],
+      "reponseFinale": "f'(x) = 6x − 6",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex06",
+      "enonce": "Calculer la dérivée de f(x) = −x³ + 4x² − 1",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = −3x² + 8x"
+      ],
+      "reponseFinale": "f'(x) = −3x² + 8x",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex07",
+      "enonce": "Calculer la dérivée de f(x) = 5x² + 2x − 7",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 10x + 2"
+      ],
+      "reponseFinale": "f'(x) = 10x + 2",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex08",
+      "enonce": "Calculer la dérivée de f(x) = x³ − 4x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 3x² − 4"
+      ],
+      "reponseFinale": "f'(x) = 3x² − 4",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex09",
+      "enonce": "Calculer la dérivée de f(x) = 4x² − x + 3",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 8x − 1"
+      ],
+      "reponseFinale": "f'(x) = 8x − 1",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex10",
+      "enonce": "Calculer la dérivée de f(x) = x⁴ − 2x³ + x",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 4x³ − 6x² + 1"
+      ],
+      "reponseFinale": "f'(x) = 4x³ − 6x² + 1",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex11",
+      "enonce": "Calculer la dérivée de f(x) = −2x³ + 3x² − x + 5",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = −6x² + 6x − 1"
+      ],
+      "reponseFinale": "f'(x) = −6x² + 6x − 1",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex12",
+      "enonce": "Calculer la dérivée de f(x) = 6x² − 4x",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 12x − 4"
+      ],
+      "reponseFinale": "f'(x) = 12x − 4",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex13",
+      "enonce": "Calculer la dérivée de f(x) = x⁵ − 3x³ + 2x",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 5x⁴ − 9x² + 2"
+      ],
+      "reponseFinale": "f'(x) = 5x⁴ − 9x² + 2",
+      "competenceId": "math-a4-c-derivee"
+    },
+    {
+      "id": "math-a4-fct-ex14",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = x² − 3x + 2 au point d'abscisse x₀ = 3",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 2x − 3",
+        "f'(3) = 3 (coefficient directeur)",
+        "f(3) = 2",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = 3(x − 3) + 2"
+      ],
+      "reponseFinale": "y = 3x − 7",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex15",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = x² − 1 au point d'abscisse x₀ = 2",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "f'(x) = 2x",
+        "f'(2) = 4 (coefficient directeur)",
+        "f(2) = 3",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = 4(x − 2) + 3"
+      ],
+      "reponseFinale": "y = 4x − 5",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex16",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = x³ − 3x au point d'abscisse x₀ = 1",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "f'(x) = 3x² − 3",
+        "f'(1) = 0 (coefficient directeur)",
+        "f(1) = −2",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = 0(x − 1) + −2"
+      ],
+      "reponseFinale": "y = −2",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex17",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = 2x² − 4x + 1 au point d'abscisse x₀ = 0",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 4x − 4",
+        "f'(0) = −4 (coefficient directeur)",
+        "f(0) = 1",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = −4(x − 0) + 1"
+      ],
+      "reponseFinale": "y = −4x + 1",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex18",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = x² − 5x + 6 au point d'abscisse x₀ = 1",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 2x − 5",
+        "f'(1) = −3 (coefficient directeur)",
+        "f(1) = 2",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = −3(x − 1) + 2"
+      ],
+      "reponseFinale": "y = −3x + 5",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex19",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = x² + 2x − 3 au point d'abscisse x₀ = 2",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 2x + 2",
+        "f'(2) = 6 (coefficient directeur)",
+        "f(2) = 5",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = 6(x − 2) + 5"
+      ],
+      "reponseFinale": "y = 6x − 7",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex20",
+      "enonce": "Déterminer l'équation de la tangente à la courbe de f(x) = x³ + 1 au point d'abscisse x₀ = 1",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "f'(x) = 3x²",
+        "f'(1) = 3 (coefficient directeur)",
+        "f(1) = 2",
+        "Tangente : y = f'(x₀)(x − x₀) + f(x₀) = 3(x − 1) + 2"
+      ],
+      "reponseFinale": "y = 3x − 1",
+      "competenceId": "math-a4-c-tangente"
+    },
+    {
+      "id": "math-a4-fct-ex21",
+      "enonce": "Calculer lim(x→+∞) 2x³ − 5x + 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "le monôme de plus haut degré 2x³ tend vers +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex22",
+      "enonce": "Calculer lim(x→−∞) −x² + 3x",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "le monôme −x² l'emporte : −(+∞) = −∞"
+      ],
+      "reponseFinale": "−∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex23",
+      "enonce": "Calculer lim(x→+∞) −3x⁴ + x²",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "−3x⁴ → −∞"
+      ],
+      "reponseFinale": "−∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex24",
+      "enonce": "Calculer lim(x→+∞) (2x² + 1)/(x² − 3)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "rapport des termes de plus haut degré : 2x²/x² = 2"
+      ],
+      "reponseFinale": "2",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex25",
+      "enonce": "Calculer lim(x→+∞) (x + 1)/(x² − 2)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "degré du numérateur < degré du dénominateur : limite 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex26",
+      "enonce": "Calculer lim(x→+∞) (3x³)/(x²)",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "degré du numérateur > dénominateur : 3x → +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex27",
+      "enonce": "Calculer lim(x→+∞) 5x² − 100x",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "5x² l'emporte sur −100x : +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex28",
+      "enonce": "Calculer lim(x→−∞) 2x³ + x²",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "2x³ → −∞ quand x → −∞"
+      ],
+      "reponseFinale": "−∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex29",
+      "enonce": "Calculer lim(x→+∞) (−4x² + 3)/(2x² + 1)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "rapport des termes dominants : −4x²/2x² = −2"
+      ],
+      "reponseFinale": "−2",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex30",
+      "enonce": "Calculer lim(x→+∞) (x³ + 1)/(x + 2)",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
+        "numérateur de degré plus grand : x²  → +∞"
+      ],
+      "reponseFinale": "+∞",
+      "competenceId": "math-a4-c-limite"
+    },
+    {
+      "id": "math-a4-fct-ex31",
+      "enonce": "Déterminer l'asymptote horizontale de la courbe de f(x) = (2x + 1)/(x − 3)",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On calcule la limite en +∞ (rapport des termes de plus haut degré)",
+        "lim f = 2 (réel) → asymptote horizontale",
+        "La droite d'équation y = 2 est asymptote horizontale"
+      ],
+      "reponseFinale": "y = 2",
+      "competenceId": "math-a4-c-asymptote"
+    },
+    {
+      "id": "math-a4-fct-ex32",
+      "enonce": "Déterminer l'asymptote horizontale de la courbe de f(x) = (5x² − 1)/(x² + 2)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On calcule la limite en +∞ (rapport des termes de plus haut degré)",
+        "lim f = 5 (réel) → asymptote horizontale",
+        "La droite d'équation y = 5 est asymptote horizontale"
+      ],
+      "reponseFinale": "y = 5",
+      "competenceId": "math-a4-c-asymptote"
+    },
+    {
+      "id": "math-a4-fct-ex33",
+      "enonce": "Déterminer l'asymptote horizontale de la courbe de f(x) = (x + 4)/(x² − 1)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On calcule la limite en +∞ (rapport des termes de plus haut degré)",
+        "lim f = 0 (réel) → asymptote horizontale",
+        "La droite d'équation y = 0 est asymptote horizontale"
+      ],
+      "reponseFinale": "y = 0",
+      "competenceId": "math-a4-c-asymptote"
+    }
+  ],
+  "estExercices": true
+}

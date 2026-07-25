@@ -1,0 +1,67 @@
+{
+  "id": "physique-c-r016",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-r016-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-r016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Théorème de l'énergie cinétique ?",
+          "options": [
+            "ΔEc = ΣW(forces)",
+            "ω₀ = 1/√(L·C)",
+            "v² − v₀² = 2·a·(x − x₀)",
+            "le becquerel : 1 Bq = 1 désintégration/s"
+          ],
+          "reponse": 0,
+          "explication": "ΔEc = ΣW(forces)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation propre ?",
+          "options": [
+            "A = λ·N",
+            "v² − v₀² = 2·a·(x − x₀)",
+            "v = R·ω",
+            "ω₀ = 1/√(L·C)"
+          ],
+          "reponse": 3,
+          "explication": "ω₀ = 1/√(L·C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème de l'énergie cinétique ?",
+          "options": [
+            "n = t / T½",
+            "ω = 2π/T = 2π·N",
+            "ΔEc = ΣW(forces)",
+            "P = m·g"
+          ],
+          "reponse": 2,
+          "explication": "ΔEc = ΣW(forces)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

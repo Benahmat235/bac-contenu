@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u052",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Suites numériques (3/3)",
+  "ordre": 52,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Suites numériques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u052-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u052-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Suite croissante / décroissante",
+          "verso": "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Suite monotone bornée",
+          "verso": "toute suite croissante majorée (ou décroissante minorée) converge",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Suites adjacentes",
+          "verso": "deux suites adjacentes convergent vers la même limite",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u052-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u052-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Suite croissante / décroissante ?",
+          "options": [
+            "n!=n(n−1)…2×1 et 0!=1",
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "u·v = ‖u‖·‖v‖·cos(θ)"
+          ],
+          "reponse": 2,
+          "explication": "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Suite monotone bornée ?",
+          "options": [
+            "ln 1 = 0 ; ln e = 1",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+            "uₙ = u₀·qⁿ",
+            "toute suite croissante majorée (ou décroissante minorée) converge"
+          ],
+          "reponse": 3,
+          "explication": "toute suite croissante majorée (ou décroissante minorée) converge"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Suites adjacentes ?",
+          "options": [
+            "(u/v)' = (u'v − uv')/v²",
+            "deux suites adjacentes convergent vers la même limite",
+            "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+            "P(A)=Card(A)/Card(Ω)"
+          ],
+          "reponse": 1,
+          "explication": "deux suites adjacentes convergent vers la même limite"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Suite croissante / décroissante",
+      "verso": "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)"
+    },
+    {
+      "recto": "Suite monotone bornée",
+      "verso": "toute suite croissante majorée (ou décroissante minorée) converge"
+    },
+    {
+      "recto": "Suites adjacentes",
+      "verso": "deux suites adjacentes convergent vers la même limite"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Suite croissante / décroissante",
+      "verso": "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Suite monotone bornée",
+      "verso": "toute suite croissante majorée (ou décroissante minorée) converge",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Suites adjacentes",
+      "verso": "deux suites adjacentes convergent vers la même limite",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

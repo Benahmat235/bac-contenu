@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u002",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Les ensembles ℕ et ℤ (arithmétique) (2/3)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les ensembles ℕ et ℤ (arithmétique)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nombres premiers entre eux",
+          "verso": "a et b premiers entre eux ⟺ PGCD(a;b) = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Théorème de Bézout",
+          "verso": "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Théorème de Gauss",
+          "verso": "si a divise bc et PGCD(a;b) = 1, alors a divise c",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombres premiers entre eux ?",
+          "options": [
+            "∫ₐᵇ f(x) dx = F(b) − F(a)",
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "a et b premiers entre eux ⟺ PGCD(a;b) = 1",
+            "aˣ = e^(x·ln a)"
+          ],
+          "reponse": 2,
+          "explication": "a et b premiers entre eux ⟺ PGCD(a;b) = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème de Bézout ?",
+          "options": [
+            "eⁱᶿ=cosθ+i sinθ",
+            "ln(ab) = ln a + ln b",
+            "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+            "S = (nb de termes)×(1er + dernier)/2"
+          ],
+          "reponse": 2,
+          "explication": "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème de Gauss ?",
+          "options": [
+            "u'/u",
+            "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+            "lim(x→+∞) eˣ/x = +∞",
+            "si a divise bc et PGCD(a;b) = 1, alors a divise c"
+          ],
+          "reponse": 3,
+          "explication": "si a divise bc et PGCD(a;b) = 1, alors a divise c"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nombres premiers entre eux",
+      "verso": "a et b premiers entre eux ⟺ PGCD(a;b) = 1"
+    },
+    {
+      "recto": "Théorème de Bézout",
+      "verso": "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1"
+    },
+    {
+      "recto": "Théorème de Gauss",
+      "verso": "si a divise bc et PGCD(a;b) = 1, alors a divise c"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nombres premiers entre eux",
+      "verso": "a et b premiers entre eux ⟺ PGCD(a;b) = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Théorème de Bézout",
+      "verso": "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Théorème de Gauss",
+      "verso": "si a divise bc et PGCD(a;b) = 1, alors a divise c",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

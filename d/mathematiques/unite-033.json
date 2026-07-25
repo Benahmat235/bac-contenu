@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u033",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Nombres complexes (3/3)",
+  "ordre": 33,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Nombres complexes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u033-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u033-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Racines n-ièmes de reⁱᶿ",
+          "verso": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Distance dans le plan complexe",
+          "verso": "AB=|zB−zA|",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Affixe d'un barycentre",
+          "verso": "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u033-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u033-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Racines n-ièmes de reⁱᶿ ?",
+          "options": [
+            "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+            "si lim f = l (réel) en ±∞, alors y = l",
+            "toute suite croissante majorée (ou décroissante minorée) converge",
+            "eᵘ + c"
+          ],
+          "reponse": 0,
+          "explication": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Distance dans le plan complexe ?",
+          "options": [
+            "xⁿ⁺¹/(n+1) + c",
+            "P(A∪B)=P(A)+P(B)−P(A∩B)",
+            "AB=|zB−zA|",
+            "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg"
+          ],
+          "reponse": 2,
+          "explication": "AB=|zB−zA|"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Affixe d'un barycentre ?",
+          "options": [
+            "P(A)=Card(A)/Card(Ω)",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C"
+          ],
+          "reponse": 2,
+          "explication": "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Racines n-ièmes de reⁱᶿ",
+      "verso": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1"
+    },
+    {
+      "recto": "Distance dans le plan complexe",
+      "verso": "AB=|zB−zA|"
+    },
+    {
+      "recto": "Affixe d'un barycentre",
+      "verso": "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Racines n-ièmes de reⁱᶿ",
+      "verso": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Distance dans le plan complexe",
+      "verso": "AB=|zB−zA|",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Affixe d'un barycentre",
+      "verso": "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

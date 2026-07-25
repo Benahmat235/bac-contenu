@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r004",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r004-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Limite d'une fonction rationnelle en ±∞ ?",
+          "options": [
+            "∫ₐᵇ f(x) dx = F(b) − F(a)",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "celle du rapport des termes de plus haut degré",
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)"
+          ],
+          "reponse": 2,
+          "explication": "celle du rapport des termes de plus haut degré"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème des gendarmes ?",
+          "options": [
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "k=|a| et α≡arg(a) [2π]"
+          ],
+          "reponse": 1,
+          "explication": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote horizontale ?",
+          "options": [
+            "si lim f = l (réel) en ±∞, alors y = l",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+            "P(A)=Card(A)/Card(Ω)"
+          ],
+          "reponse": 0,
+          "explication": "si lim f = l (réel) en ±∞, alors y = l"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u021",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essay Writing & Useful Expressions (2/3)",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Essay Writing & Useful Expressions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u021-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u021-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for conclusion.",
+          "reponseAttendue": "In conclusion, to sum up, all in all, finally.",
+          "modeReponse": "auto_evaluation",
+          "explication": "In conclusion, to sum up, all in all, finally."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "How do you express your opinion in English?",
+          "reponseAttendue": "In my opinion, I believe that, From my point of view, It seems to me that.",
+          "modeReponse": "auto_evaluation",
+          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "How do you introduce an example?",
+          "reponseAttendue": "For instance, for example, such as, to illustrate.",
+          "modeReponse": "auto_evaluation",
+          "explication": "For instance, for example, such as, to illustrate."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u021-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for conclusion. ?",
+          "options": [
+            "deforestation",
+            "climate change",
+            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+            "In conclusion, to sum up, all in all, finally."
+          ],
+          "reponse": 3,
+          "explication": "In conclusion, to sum up, all in all, finally."
+        },
+        {
+          "type": "choix_unique",
+          "question": "How do you express your opinion in English?",
+          "options": [
+            "illiteracy",
+            "In conclusion, to sum up, all in all, finally.",
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "renewable energy"
+          ],
+          "reponse": 2,
+          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+        },
+        {
+          "type": "choix_unique",
+          "question": "How do you introduce an example?",
+          "options": [
+            "For instance, for example, such as, to illustrate.",
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 0,
+          "explication": "For instance, for example, such as, to illustrate."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Give 3 connectors for conclusion.",
+      "verso": "In conclusion, to sum up, all in all, finally."
+    },
+    {
+      "recto": "How do you express your opinion in English?",
+      "verso": "In my opinion, I believe that, From my point of view, It seems to me that."
+    },
+    {
+      "recto": "How do you introduce an example?",
+      "verso": "For instance, for example, such as, to illustrate."
+    }
+  ]
+}

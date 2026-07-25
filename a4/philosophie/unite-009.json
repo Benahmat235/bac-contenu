@@ -1,0 +1,137 @@
+{
+  "id": "philosophie-u009",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Les grandes doctrines morales",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les grandes doctrines morales",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u009-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Agis toujours de telle sorte que la maxime de ton action puisse être érigée en loi universelle. » ?",
+          "reponseAttendue": "Emmanuel Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "Emmanuel Kant"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme est la mesure de toute chose. » ?",
+          "reponseAttendue": "Protagoras",
+          "modeReponse": "auto_evaluation",
+          "explication": "Protagoras"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Tous les hommes recherchent le bonheur, même ceux qui vont se pendre. » ?",
+          "reponseAttendue": "Blaise Pascal",
+          "modeReponse": "auto_evaluation",
+          "explication": "Blaise Pascal"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le surmoi est l'héritier du complexe d'Œdipe. » ?",
+          "reponseAttendue": "Sigmund Freud",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sigmund Freud"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Agis toujours de telle sorte que la maxime de ton action puisse être érigée en loi universelle. » ?",
+          "options": [
+            "Sigmund Freud",
+            "Jean-Paul Sartre",
+            "Emmanuel Kant",
+            "Jean Rostand"
+          ],
+          "reponse": 2,
+          "explication": "Emmanuel Kant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme est la mesure de toute chose. » ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Protagoras",
+            "Jean Rostand",
+            "Leibniz"
+          ],
+          "reponse": 1,
+          "explication": "Protagoras"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Tous les hommes recherchent le bonheur, même ceux qui vont se pendre. » ?",
+          "options": [
+            "Blaise Pascal",
+            "Protagoras",
+            "Thomas Hobbes",
+            "Hegel"
+          ],
+          "reponse": 0,
+          "explication": "Blaise Pascal"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « Agis toujours de telle sorte que la maxime de ton action puisse être érigée en loi universelle. » ?",
+      "verso": "Emmanuel Kant"
+    },
+    {
+      "recto": "Qui a dit : « L'homme est la mesure de toute chose. » ?",
+      "verso": "Protagoras"
+    },
+    {
+      "recto": "Qui a dit : « Tous les hommes recherchent le bonheur, même ceux qui vont se pendre. » ?",
+      "verso": "Blaise Pascal"
+    },
+    {
+      "recto": "Qui a dit : « Le surmoi est l'héritier du complexe d'Œdipe. » ?",
+      "verso": "Sigmund Freud"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Le devoir (cours de philosophie)",
+      "url": "https://youtu.be/LpR2zZPR3OY",
+      "type": "video",
+      "chaine": "Coursitout",
+      "auteur": "Coursitout"
+    },
+    {
+      "titre": "La morale (fiche de révisions)",
+      "url": "https://youtu.be/CLhP8Xi3TEY",
+      "type": "video",
+      "chaine": "digiSchool Lycée",
+      "auteur": "digiSchool Lycée"
+    }
+  ]
+}

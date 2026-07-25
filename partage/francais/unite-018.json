@@ -1,0 +1,121 @@
+{
+  "id": "francais-u018",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Méthodologie : le commentaire composé et le résumé (1/2)",
+  "ordre": 18,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Méthodologie : le commentaire composé et le résumé",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u018-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u018-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un commentaire composé ?",
+          "reponseAttendue": "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les étapes du commentaire composé ?",
+          "reponseAttendue": "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger.",
+          "modeReponse": "auto_evaluation",
+          "explication": "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un axe de lecture dans un commentaire ?",
+          "reponseAttendue": "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale').",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale')."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un résumé de texte ?",
+          "reponseAttendue": "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnelles.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnelles."
+        }
+      ]
+    },
+    {
+      "id": "francais-u018-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u018-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un commentaire composé ?",
+          "options": [
+            "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié).",
+            "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens).",
+            "L'ensemble des œuvres littéraires en français produites par des auteurs africains.",
+            "Le contenu : les idées, les thèmes, le message de l'auteur."
+          ],
+          "reponse": 1,
+          "explication": "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les étapes du commentaire composé ?",
+          "options": [
+            "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments).",
+            "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger.",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+            "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas)."
+          ],
+          "reponse": 1,
+          "explication": "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un axe de lecture dans un commentaire ?",
+          "options": [
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme.",
+            "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences.",
+            "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale').",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
+          ],
+          "reponse": 2,
+          "explication": "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale')."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce qu'un commentaire composé ?",
+      "verso": "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens)."
+    },
+    {
+      "recto": "Quelles sont les étapes du commentaire composé ?",
+      "verso": "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger."
+    },
+    {
+      "recto": "Qu'est-ce qu'un axe de lecture dans un commentaire ?",
+      "verso": "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale')."
+    },
+    {
+      "recto": "Qu'est-ce qu'un résumé de texte ?",
+      "verso": "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnelles."
+    }
+  ]
+}

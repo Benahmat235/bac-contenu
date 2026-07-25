@@ -1,0 +1,159 @@
+{
+  "id": "svt-c-u036",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Le monohybridisme (1/3)",
+  "ordre": 36,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le monohybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u036-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u036-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Monohybridisme",
+          "verso": "transmission d'un seul caractère (un couple d'allèles)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Lignée (race) pure",
+          "verso": "individu homozygote à descendance identique",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Allèle",
+          "verso": "une des versions possibles d'un gène",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Homozygote / hétérozygote",
+          "verso": "A//A (identiques) / A//a (différents)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u036-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u036-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Monohybridisme ?",
+          "options": [
+            "uniformité des hybrides de la F1",
+            "transmission d'un seul caractère (un couple d'allèles)",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+          ],
+          "reponse": 1,
+          "explication": "transmission d'un seul caractère (un couple d'allèles)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Lignée (race) pure ?",
+          "options": [
+            "2^n types de gamètes (n = nombre de paires)",
+            "individu homozygote à descendance identique",
+            "premières divisions du zygote",
+            "cellules α ; hyperglycémiant (fait monter la glycémie)"
+          ],
+          "reponse": 1,
+          "explication": "individu homozygote à descendance identique"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Allèle ?",
+          "options": [
+            "donneur : O ; receveur : AB",
+            "FSH et LH ; le pic de LH déclenche l'ovulation",
+            "une des versions possibles d'un gène",
+            "AUG (méthionine)"
+          ],
+          "reponse": 2,
+          "explication": "une des versions possibles d'un gène"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Monohybridisme",
+      "verso": "transmission d'un seul caractère (un couple d'allèles)"
+    },
+    {
+      "recto": "Lignée (race) pure",
+      "verso": "individu homozygote à descendance identique"
+    },
+    {
+      "recto": "Allèle",
+      "verso": "une des versions possibles d'un gène"
+    },
+    {
+      "recto": "Homozygote / hétérozygote",
+      "verso": "A//A (identiques) / A//a (différents)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Monohybridisme",
+      "verso": "transmission d'un seul caractère (un couple d'allèles)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Lignée (race) pure",
+      "verso": "individu homozygote à descendance identique",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Allèle",
+      "verso": "une des versions possibles d'un gène",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Homozygote / hétérozygote",
+      "verso": "A//A (identiques) / A//a (différents)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Le monohybridisme : les lois de Mendel (TS)",
+      "url": "https://youtu.be/vTgLaMHKEKo",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Lois de Mendel",
+      "url": "https://youtu.be/Z8mC-hCbdVI",
+      "type": "video",
+      "chaine": "Mathrix",
+      "auteur": "Mathrix"
+    }
+  ]
+}

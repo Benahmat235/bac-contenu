@@ -1,0 +1,127 @@
+{
+  "id": "physique-c-u031",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Décroissance radioactive (2/2)",
+  "ordre": 31,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Décroissance radioactive",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u031-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u031-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Unité d'activité",
+          "verso": "le becquerel : 1 Bq = 1 désintégration/s",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nombre de demi-vies",
+          "verso": "n = t / T½",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Décroissance de l'activité",
+          "verso": "A(t) = A₀·e^(−λt)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u031-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u031-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Unité d'activité ?",
+          "options": [
+            "h = 6,63×10⁻³⁴ J·s",
+            "Ec = ½·m·v²",
+            "E = ½·C·u²",
+            "le becquerel : 1 Bq = 1 désintégration/s"
+          ],
+          "reponse": 3,
+          "explication": "le becquerel : 1 Bq = 1 désintégration/s"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nombre de demi-vies ?",
+          "options": [
+            "n = t / T½",
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "a = F/m (constante)",
+            "a = Δv/Δt"
+          ],
+          "reponse": 0,
+          "explication": "n = t / T½"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Décroissance de l'activité ?",
+          "options": [
+            "e = −L·(di/dt)",
+            "x = x₀ + v₀·t + ½·a·t²",
+            "ω₀ = 1/√(L·C)",
+            "A(t) = A₀·e^(−λt)"
+          ],
+          "reponse": 3,
+          "explication": "A(t) = A₀·e^(−λt)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Unité d'activité",
+      "verso": "le becquerel : 1 Bq = 1 désintégration/s"
+    },
+    {
+      "recto": "Nombre de demi-vies",
+      "verso": "n = t / T½"
+    },
+    {
+      "recto": "Décroissance de l'activité",
+      "verso": "A(t) = A₀·e^(−λt)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Unité d'activité",
+      "verso": "le becquerel : 1 Bq = 1 désintégration/s",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Nombre de demi-vies",
+      "verso": "n = t / T½",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Décroissance de l'activité",
+      "verso": "A(t) = A₀·e^(−λt)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

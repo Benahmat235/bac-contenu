@@ -1,0 +1,143 @@
+{
+  "id": "chimie-c-u008",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Acides carboxyliques et leurs dérivés (1/2)",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acides carboxyliques et leurs dérivés",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u008-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u008-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Groupe acide carboxylique",
+          "verso": "carboxyle −COOH",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Estérification",
+          "verso": "acide + alcool ⇌ ester + eau (lente et limitée)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Saponification",
+          "verso": "ester + base → carboxylate (savon) + alcool (totale)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u008-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe acide carboxylique ?",
+          "options": [
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)",
+            "acide + base forte → carboxylate + eau",
+            "carboxyle −COOH"
+          ],
+          "reponse": 3,
+          "explication": "carboxyle −COOH"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Estérification ?",
+          "options": [
+            "ester + base → carboxylate (savon) + alcool (totale)",
+            "acide + alcool ⇌ ester + eau (lente et limitée)",
+            "visualise les conformations autour d'une liaison C–C",
+            "capte totalement des protons (ex. NaOH)"
+          ],
+          "reponse": 1,
+          "explication": "acide + alcool ⇌ ester + eau (lente et limitée)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Saponification ?",
+          "options": [
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "pH < 7 : [H₃O⁺] > [OH⁻]",
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "ester + base → carboxylate (savon) + alcool (totale)"
+          ],
+          "reponse": 3,
+          "explication": "ester + base → carboxylate (savon) + alcool (totale)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Groupe acide carboxylique",
+      "verso": "carboxyle −COOH"
+    },
+    {
+      "recto": "Estérification",
+      "verso": "acide + alcool ⇌ ester + eau (lente et limitée)"
+    },
+    {
+      "recto": "Saponification",
+      "verso": "ester + base → carboxylate (savon) + alcool (totale)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Groupe acide carboxylique",
+      "verso": "carboxyle −COOH",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Estérification",
+      "verso": "acide + alcool ⇌ ester + eau (lente et limitée)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Saponification",
+      "verso": "ester + base → carboxylate (savon) + alcool (totale)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Acides carboxyliques et dérivés : synthèse (TS)",
+      "url": "https://youtu.be/9OhOs_vjvBo",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Les acides carboxyliques et leurs dérivés (cours complet)",
+      "url": "https://youtu.be/02XRFThuFvg",
+      "type": "video",
+      "chaine": "NEXCLASS",
+      "auteur": "NEXCLASS"
+    }
+  ]
+}

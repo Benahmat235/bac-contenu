@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u002",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Notion de stéréochimie (2/2)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Notion de stéréochimie",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Carbone asymétrique",
+          "verso": "C lié à 4 groupes tous différents (noté C*)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énantiomères",
+          "verso": "images miroir non superposables (molécule chirale)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Représentation de Newman",
+          "verso": "visualise les conformations autour d'une liaison C–C",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Carbone asymétrique ?",
+          "options": [
+            "−COO− (−CO−O−)",
+            "C lié à 4 groupes tous différents (noté C*)",
+            "capte totalement des protons (ex. NaOH)",
+            "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)"
+          ],
+          "reponse": 1,
+          "explication": "C lié à 4 groupes tous différents (noté C*)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énantiomères ?",
+          "options": [
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "alcool 2aire → cétone",
+            "images miroir non superposables (molécule chirale)",
+            "pH ≈ pKa quand [base] = [acide]"
+          ],
+          "reponse": 2,
+          "explication": "images miroir non superposables (molécule chirale)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Représentation de Newman ?",
+          "options": [
+            "carboxyle −COOH",
+            "visualise les conformations autour d'une liaison C–C",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "AH / A⁻ (l'acide cède un proton H⁺)"
+          ],
+          "reponse": 1,
+          "explication": "visualise les conformations autour d'une liaison C–C"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Carbone asymétrique",
+      "verso": "C lié à 4 groupes tous différents (noté C*)"
+    },
+    {
+      "recto": "Énantiomères",
+      "verso": "images miroir non superposables (molécule chirale)"
+    },
+    {
+      "recto": "Représentation de Newman",
+      "verso": "visualise les conformations autour d'une liaison C–C"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Carbone asymétrique",
+      "verso": "C lié à 4 groupes tous différents (noté C*)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énantiomères",
+      "verso": "images miroir non superposables (molécule chirale)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Représentation de Newman",
+      "verso": "visualise les conformations autour d'une liaison C–C",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

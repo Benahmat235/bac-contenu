@@ -1,0 +1,136 @@
+{
+  "id": "mathematiques-d-u021",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Suites numériques (1/3)",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Suites numériques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u021-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u021-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Terme d'une suite arithmétique",
+          "verso": "uₙ = u₀ + n·r",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Somme d'une suite arithmétique",
+          "verso": "S = (nb de termes)×(1er + dernier)/2",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Terme d'une suite géométrique",
+          "verso": "uₙ = u₀·qⁿ",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u021-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Terme d'une suite arithmétique ?",
+          "options": [
+            "n!=n(n−1)…2×1 et 0!=1",
+            "uₙ = u₀ + n·r",
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "P(A)=Card(A)/Card(Ω)"
+          ],
+          "reponse": 1,
+          "explication": "uₙ = u₀ + n·r"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Somme d'une suite arithmétique ?",
+          "options": [
+            "S = (nb de termes)×(1er + dernier)/2",
+            "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+            "1/z=z̄/|z|²",
+            "(uv)' = u'v + uv'"
+          ],
+          "reponse": 0,
+          "explication": "S = (nb de termes)×(1er + dernier)/2"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Terme d'une suite géométrique ?",
+          "options": [
+            "uₙ = u₀·qⁿ",
+            "Résoudre z'=z",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+          ],
+          "reponse": 0,
+          "explication": "uₙ = u₀·qⁿ"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Terme d'une suite arithmétique",
+      "verso": "uₙ = u₀ + n·r"
+    },
+    {
+      "recto": "Somme d'une suite arithmétique",
+      "verso": "S = (nb de termes)×(1er + dernier)/2"
+    },
+    {
+      "recto": "Terme d'une suite géométrique",
+      "verso": "uₙ = u₀·qⁿ"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Terme d'une suite arithmétique",
+      "verso": "uₙ = u₀ + n·r",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Somme d'une suite arithmétique",
+      "verso": "S = (nb de termes)×(1er + dernier)/2",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Terme d'une suite géométrique",
+      "verso": "uₙ = u₀·qⁿ",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Cours complet : Suites numériques",
+      "url": "https://www.youtube.com/playlist?list=PLrkPItsU9LKqe-WpqtqFi6P6sVNYDkZF-",
+      "type": "playlist",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    }
+  ]
+}

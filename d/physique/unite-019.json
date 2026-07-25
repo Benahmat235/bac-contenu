@@ -1,0 +1,159 @@
+{
+  "id": "physique-d-u019",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Électromagnétisme (1/2)",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Électromagnétisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u019-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u019-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Flux magnétique",
+          "verso": "Φ = B·S·cos(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Loi de Faraday",
+          "verso": "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "f.é.m. d'une barre en mouvement",
+          "verso": "e = B·l·v",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Loi de Lenz",
+          "verso": "le courant induit s'oppose à la variation de flux",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u019-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Flux magnétique ?",
+          "options": [
+            "Φ = B·S·cos(α)",
+            "E = ½·k·X_m²",
+            "F = |q|·v·B·sin(α)",
+            "ω₀ = 1/√(L·C)"
+          ],
+          "reponse": 0,
+          "explication": "Φ = B·S·cos(α)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Loi de Faraday ?",
+          "options": [
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+            "f₀ = 1/(2π·√(L·C))",
+            "F = B·I·l·sin(α)",
+            "le courant induit s'oppose à la variation de flux"
+          ],
+          "reponse": 0,
+          "explication": "e = −dΦ/dt (|e| = |ΔΦ/Δt|)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "f.é.m. d'une barre en mouvement ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "F = G·M·m/r² = m·v²/r",
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+            "e = B·l·v"
+          ],
+          "reponse": 3,
+          "explication": "e = B·l·v"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Flux magnétique",
+      "verso": "Φ = B·S·cos(α)"
+    },
+    {
+      "recto": "Loi de Faraday",
+      "verso": "e = −dΦ/dt (|e| = |ΔΦ/Δt|)"
+    },
+    {
+      "recto": "f.é.m. d'une barre en mouvement",
+      "verso": "e = B·l·v"
+    },
+    {
+      "recto": "Loi de Lenz",
+      "verso": "le courant induit s'oppose à la variation de flux"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Flux magnétique",
+      "verso": "Φ = B·S·cos(α)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Loi de Faraday",
+      "verso": "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "f.é.m. d'une barre en mouvement",
+      "verso": "e = B·l·v",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Loi de Lenz",
+      "verso": "le courant induit s'oppose à la variation de flux",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Induction électromagnétique : dipôle RL (cours)",
+      "url": "https://youtu.be/j3_hrFPKczw",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Loi de Laplace, balance de Cotton : résumé",
+      "url": "https://youtu.be/TtVQi6Ef8xo",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u003",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Organisation de la cellule (3/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Organisation de la cellule",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u003-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Appareil de Golgi",
+          "verso": "maturation et sécrétion des substances",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réticulum endoplasmique",
+          "verso": "synthèse et transport des substances",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Cellule végétale vs animale",
+          "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Appareil de Golgi ?",
+          "options": [
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+            "maturation et sécrétion des substances",
+            "double hélice (Watson et Crick)",
+            "produire les ovules et sécréter les hormones ovariennes"
+          ],
+          "reponse": 1,
+          "explication": "maturation et sécrétion des substances"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réticulum endoplasmique ?",
+          "options": [
+            "production des spermatozoïdes (spermatogenèse)",
+            "synthèse et transport des substances",
+            "membrane plasmique, cytoplasme, noyau",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+          ],
+          "reponse": 1,
+          "explication": "synthèse et transport des substances"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cellule végétale vs animale ?",
+          "options": [
+            "ovaire + style + stigmate",
+            "calice (sépales) et corolle (pétales)",
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "équationnelle (conserve n)"
+          ],
+          "reponse": 2,
+          "explication": "la végétale a paroi cellulosique, chloroplastes et grande vacuole"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Appareil de Golgi",
+      "verso": "maturation et sécrétion des substances"
+    },
+    {
+      "recto": "Réticulum endoplasmique",
+      "verso": "synthèse et transport des substances"
+    },
+    {
+      "recto": "Cellule végétale vs animale",
+      "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Appareil de Golgi",
+      "verso": "maturation et sécrétion des substances",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réticulum endoplasmique",
+      "verso": "synthèse et transport des substances",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Cellule végétale vs animale",
+      "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

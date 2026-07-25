@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u042",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Fonctions exponentielles et fonctions puissances (3/3)",
+  "ordre": 42,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Fonctions exponentielles et fonctions puissances",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u042-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u042-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Croissance comparée",
+          "verso": "lim(x→+∞) eˣ/x = +∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive de u'eᵘ",
+          "verso": "eᵘ + c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction puissance / base a",
+          "verso": "aˣ = e^(x·ln a)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u042-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u042-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Croissance comparée ?",
+          "options": [
+            "r(O ; θ)⁻¹ = r(O ; −θ)",
+            "z'=az+b, avec a∈ℂ*",
+            "lim(x→+∞) eˣ/x = +∞",
+            "converge (vers 0) si |q| < 1 ; diverge si |q| > 1"
+          ],
+          "reponse": 2,
+          "explication": "lim(x→+∞) eˣ/x = +∞"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Primitive de u'eᵘ ?",
+          "options": [
+            "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
+            "F(x)=P(X≤x)",
+            "eᵘ + c",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du"
+          ],
+          "reponse": 2,
+          "explication": "eᵘ + c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonction puissance / base a ?",
+          "options": [
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+            "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+            "eᵃ/eᵇ = eᵃ⁻ᵇ",
+            "aˣ = e^(x·ln a)"
+          ],
+          "reponse": 3,
+          "explication": "aˣ = e^(x·ln a)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) eˣ/x = +∞"
+    },
+    {
+      "recto": "Primitive de u'eᵘ",
+      "verso": "eᵘ + c"
+    },
+    {
+      "recto": "Fonction puissance / base a",
+      "verso": "aˣ = e^(x·ln a)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) eˣ/x = +∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Primitive de u'eᵘ",
+      "verso": "eᵘ + c",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fonction puissance / base a",
+      "verso": "aˣ = e^(x·ln a)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

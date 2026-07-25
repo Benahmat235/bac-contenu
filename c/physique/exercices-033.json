@@ -1,0 +1,343 @@
+{
+  "id": "physique-c-e033",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Décroissance radioactive — Exercices",
+  "ordre": 33,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Décroissance radioactive",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-c-e033-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-e033-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Déterminer ce qui reste après une durée t :",
+          "etapes": [
+            "Calculer le nombre de demi-vies n = t/T½",
+            "Écrire N = N₀/2ⁿ",
+            "Remplacer N₀ et n",
+            "Calculer"
+          ],
+          "ordreCorrect": [
+            "Calculer le nombre de demi-vies n = t/T½",
+            "Écrire N = N₀/2ⁿ",
+            "Remplacer N₀ et n",
+            "Calculer"
+          ],
+          "explication": "On compte le nombre de demi-vies écoulées."
+        }
+      ]
+    },
+    {
+      "id": "physique-c-e033-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-e033-c",
+      "activites": [
+        {
+          "id": "phy-c-radio-ex01",
+          "enonce": "Un noyau a une demi-vie T½ = 5730 (même unité). Calculer la constante radioactive λ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "λ = ln2 / T½",
+            "λ = 0,693/5730"
+          ],
+          "reponseFinale": "λ ≈ 0.000121 (unité⁻¹)",
+          "competenceId": "phy-c-radio-c-lambda"
+        },
+        {
+          "id": "phy-c-radio-ex02",
+          "enonce": "Un noyau a une demi-vie T½ = 8 (même unité). Calculer la constante radioactive λ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "λ = ln2 / T½",
+            "λ = 0,693/8"
+          ],
+          "reponseFinale": "λ ≈ 0.0866 (unité⁻¹)",
+          "competenceId": "phy-c-radio-c-lambda"
+        },
+        {
+          "id": "phy-c-radio-ex03",
+          "enonce": "Un noyau a une demi-vie T½ = 1600 (même unité). Calculer la constante radioactive λ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "λ = ln2 / T½",
+            "λ = 0,693/1600"
+          ],
+          "reponseFinale": "λ ≈ 0.000433 (unité⁻¹)",
+          "competenceId": "phy-c-radio-c-lambda"
+        },
+        {
+          "id": "phy-c-radio-ex04",
+          "enonce": "Un noyau a une demi-vie T½ = 138 (même unité). Calculer la constante radioactive λ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "λ = ln2 / T½",
+            "λ = 0,693/138"
+          ],
+          "reponseFinale": "λ ≈ 0.00502 (unité⁻¹)",
+          "competenceId": "phy-c-radio-c-lambda"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-e033-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-c-e033-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "T½ = 8 jours. Après 24 jours, il reste :",
+          "options": [
+            "1/2",
+            "1/8",
+            "1/3",
+            "1/24"
+          ],
+          "reponse": 1,
+          "explication": "n=24/8=3 → 1/2³=1/8."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-c-radio-ex01",
+      "enonce": "Un noyau a une demi-vie T½ = 5730 (même unité). Calculer la constante radioactive λ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "λ = ln2 / T½",
+        "λ = 0,693/5730"
+      ],
+      "reponseFinale": "λ ≈ 0.000121 (unité⁻¹)",
+      "competenceId": "phy-c-radio-c-lambda"
+    },
+    {
+      "id": "phy-c-radio-ex02",
+      "enonce": "Un noyau a une demi-vie T½ = 8 (même unité). Calculer la constante radioactive λ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "λ = ln2 / T½",
+        "λ = 0,693/8"
+      ],
+      "reponseFinale": "λ ≈ 0.0866 (unité⁻¹)",
+      "competenceId": "phy-c-radio-c-lambda"
+    },
+    {
+      "id": "phy-c-radio-ex03",
+      "enonce": "Un noyau a une demi-vie T½ = 1600 (même unité). Calculer la constante radioactive λ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "λ = ln2 / T½",
+        "λ = 0,693/1600"
+      ],
+      "reponseFinale": "λ ≈ 0.000433 (unité⁻¹)",
+      "competenceId": "phy-c-radio-c-lambda"
+    },
+    {
+      "id": "phy-c-radio-ex04",
+      "enonce": "Un noyau a une demi-vie T½ = 138 (même unité). Calculer la constante radioactive λ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "λ = ln2 / T½",
+        "λ = 0,693/138"
+      ],
+      "reponseFinale": "λ ≈ 0.00502 (unité⁻¹)",
+      "competenceId": "phy-c-radio-c-lambda"
+    },
+    {
+      "id": "phy-c-radio-ex05",
+      "enonce": "Quelle proportion d'un échantillon radioactif reste après 1 demi-vie(s) ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Après n demi-vies : N = N₀/2ⁿ",
+        "N = N₀/2^1"
+      ],
+      "reponseFinale": "50 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex06",
+      "enonce": "Quelle proportion d'un échantillon radioactif reste après 2 demi-vie(s) ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Après n demi-vies : N = N₀/2ⁿ",
+        "N = N₀/2^2"
+      ],
+      "reponseFinale": "25 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex07",
+      "enonce": "Quelle proportion d'un échantillon radioactif reste après 3 demi-vie(s) ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Après n demi-vies : N = N₀/2ⁿ",
+        "N = N₀/2^3"
+      ],
+      "reponseFinale": "12.5 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex08",
+      "enonce": "Quelle proportion d'un échantillon radioactif reste après 4 demi-vie(s) ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Après n demi-vies : N = N₀/2ⁿ",
+        "N = N₀/2^4"
+      ],
+      "reponseFinale": "6.25 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex09",
+      "enonce": "Échantillon initial N₀ = 1e+06 noyaux. Combien reste-t-il après 3 demi-vies ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "N = N₀/2ⁿ",
+        "N = 1e+06/2^3"
+      ],
+      "reponseFinale": "N ≈ 1.25e+05 noyaux",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex10",
+      "enonce": "Échantillon initial N₀ = 8e+06 noyaux. Combien reste-t-il après 2 demi-vies ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "N = N₀/2ⁿ",
+        "N = 8e+06/2^2"
+      ],
+      "reponseFinale": "N ≈ 2e+06 noyaux",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex11",
+      "enonce": "Échantillon initial N₀ = 1e+12 noyaux. Combien reste-t-il après 4 demi-vies ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "N = N₀/2ⁿ",
+        "N = 1e+12/2^4"
+      ],
+      "reponseFinale": "N ≈ 6.25e+10 noyaux",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex12",
+      "enonce": "Activité : λ = 0.001 s⁻¹, N = 1e+12 noyaux. Calculer l'activité A = λ·N.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "A = λ·N",
+        "A = 0.001×1e+12"
+      ],
+      "reponseFinale": "A ≈ 1e+09 Bq",
+      "competenceId": "phy-c-radio-c-activite"
+    },
+    {
+      "id": "phy-c-radio-ex13",
+      "enonce": "Activité : λ = 0.02 s⁻¹, N = 5e+10 noyaux. Calculer l'activité A = λ·N.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "A = λ·N",
+        "A = 0.02×5e+10"
+      ],
+      "reponseFinale": "A ≈ 1e+09 Bq",
+      "competenceId": "phy-c-radio-c-activite"
+    },
+    {
+      "id": "phy-c-radio-ex14",
+      "enonce": "Demi-vie T½ = 8, durée écoulée t = 24. Proportion restante ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Nombre de demi-vies : n = t/T½ = 3",
+        "N/N₀ = 1/2ⁿ"
+      ],
+      "reponseFinale": "≈ 12.5 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex15",
+      "enonce": "Demi-vie T½ = 5730, durée écoulée t = 11460. Proportion restante ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Nombre de demi-vies : n = t/T½ = 2",
+        "N/N₀ = 1/2ⁿ"
+      ],
+      "reponseFinale": "≈ 25 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex16",
+      "enonce": "Demi-vie T½ = 1600, durée écoulée t = 4800. Proportion restante ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Nombre de demi-vies : n = t/T½ = 3",
+        "N/N₀ = 1/2ⁿ"
+      ],
+      "reponseFinale": "≈ 12.5 % de N₀",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex17",
+      "enonce": "La loi de décroissance radioactive s'écrit :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "N(t) = N₀·e^(−λt)"
+      ],
+      "reponseFinale": "N(t) = N₀·e^(−λt)",
+      "competenceId": "phy-c-radio-c-loi"
+    },
+    {
+      "id": "phy-c-radio-ex18",
+      "enonce": "L'activité d'un échantillon s'exprime en :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "becquerel (Bq)"
+      ],
+      "reponseFinale": "becquerel (Bq)",
+      "competenceId": "phy-c-radio-c-activite"
+    },
+    {
+      "id": "phy-c-radio-ex19",
+      "enonce": "La demi-vie est la durée au bout de laquelle :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "la moitié des noyaux s'est désintégrée"
+      ],
+      "reponseFinale": "la moitié des noyaux se sont désintégrés",
+      "competenceId": "phy-c-radio-c-demivie"
+    },
+    {
+      "id": "phy-c-radio-ex20",
+      "enonce": "Échantillon N₀ = 1.6e+09 noyaux : combien reste-t-il après 5 demi-vies ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "N = N₀/2ⁿ",
+        "N = 1.6e+09/2^5"
+      ],
+      "reponseFinale": "N ≈ 5e+07 noyaux",
+      "competenceId": "phy-c-radio-c-demivie"
+    }
+  ],
+  "estExercices": true
+}

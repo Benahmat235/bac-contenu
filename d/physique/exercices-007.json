@@ -1,0 +1,345 @@
+{
+  "id": "physique-d-e007",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Champs et interactions — Exercices",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Champs et interactions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-d-e007-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e007-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer une force de gravitation :",
+          "etapes": [
+            "Identifier M, m et la distance d",
+            "Écrire F = G·M·m/d²",
+            "Remplacer avec G = 6,67e-11",
+            "Calculer en newtons"
+          ],
+          "ordreCorrect": [
+            "Identifier M, m et la distance d",
+            "Écrire F = G·M·m/d²",
+            "Remplacer avec G = 6,67e-11",
+            "Calculer en newtons"
+          ],
+          "explication": "On applique la loi de Newton pour la gravitation."
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e007-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e007-c",
+      "activites": [
+        {
+          "id": "phy-d-champ-ex01",
+          "enonce": "Condensateur plan : U = 100 V, distance d = 0.02 m. Calculer le champ E.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "E = U/d",
+            "E = 100/0.02"
+          ],
+          "reponseFinale": "E = 5e+03 V/m",
+          "competenceId": "phy-d-champ-c-champE"
+        },
+        {
+          "id": "phy-d-champ-ex02",
+          "enonce": "Condensateur plan : U = 200 V, distance d = 0.1 m. Calculer le champ E.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "E = U/d",
+            "E = 200/0.1"
+          ],
+          "reponseFinale": "E = 2e+03 V/m",
+          "competenceId": "phy-d-champ-c-champE"
+        },
+        {
+          "id": "phy-d-champ-ex03",
+          "enonce": "Condensateur plan : U = 50 V, distance d = 0.005 m. Calculer le champ E.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "E = U/d",
+            "E = 50/0.005"
+          ],
+          "reponseFinale": "E = 1e+04 V/m",
+          "competenceId": "phy-d-champ-c-champE"
+        },
+        {
+          "id": "phy-d-champ-ex04",
+          "enonce": "Charge q = 1.6e-19 C dans un champ E = 1e+04 V/m. Force électrique ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "F = q·E",
+            "F = 1.6e-19×1e+04"
+          ],
+          "reponseFinale": "F = 1.6e-15 N",
+          "competenceId": "phy-d-champ-c-champE"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e007-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-d-e007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "U = 100 V, d = 0,02 m. Le champ E vaut :",
+          "options": [
+            "2 V/m",
+            "5000 V/m",
+            "50 V/m",
+            "0,0002 V/m"
+          ],
+          "reponse": 1,
+          "explication": "E=U/d=100/0,02=5000 V/m."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-d-champ-ex01",
+      "enonce": "Condensateur plan : U = 100 V, distance d = 0.02 m. Calculer le champ E.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = U/d",
+        "E = 100/0.02"
+      ],
+      "reponseFinale": "E = 5e+03 V/m",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex02",
+      "enonce": "Condensateur plan : U = 200 V, distance d = 0.1 m. Calculer le champ E.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = U/d",
+        "E = 200/0.1"
+      ],
+      "reponseFinale": "E = 2e+03 V/m",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex03",
+      "enonce": "Condensateur plan : U = 50 V, distance d = 0.005 m. Calculer le champ E.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = U/d",
+        "E = 50/0.005"
+      ],
+      "reponseFinale": "E = 1e+04 V/m",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex04",
+      "enonce": "Charge q = 1.6e-19 C dans un champ E = 1e+04 V/m. Force électrique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = q·E",
+        "F = 1.6e-19×1e+04"
+      ],
+      "reponseFinale": "F = 1.6e-15 N",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex05",
+      "enonce": "Charge q = 2e-06 C dans un champ E = 500 V/m. Force électrique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = q·E",
+        "F = 2e-06×500"
+      ],
+      "reponseFinale": "F = 0.001 N",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex06",
+      "enonce": "Charge q = 1.6e-19 C dans un champ E = 2e+05 V/m. Force électrique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = q·E",
+        "F = 1.6e-19×2e+05"
+      ],
+      "reponseFinale": "F = 3.2e-14 N",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex07",
+      "enonce": "Force de Laplace : B = 0.5 T, I = 2 A, l = 0.1 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 0.5×2×0.1"
+      ],
+      "reponseFinale": "F = 0.1 N",
+      "competenceId": "phy-d-champ-c-laplace"
+    },
+    {
+      "id": "phy-d-champ-ex08",
+      "enonce": "Force de Laplace : B = 0.2 T, I = 5 A, l = 0.3 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 0.2×5×0.3"
+      ],
+      "reponseFinale": "F = 0.3 N",
+      "competenceId": "phy-d-champ-c-laplace"
+    },
+    {
+      "id": "phy-d-champ-ex09",
+      "enonce": "Force de Laplace : B = 1 T, I = 0.5 A, l = 0.2 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 1×0.5×0.2"
+      ],
+      "reponseFinale": "F = 0.1 N",
+      "competenceId": "phy-d-champ-c-laplace"
+    },
+    {
+      "id": "phy-d-champ-ex10",
+      "enonce": "Force de Lorentz : q = 1.6e-19 C, v = 1e+06 m/s, B = 0.5 T (⊥). Calculer F.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "F = q·v·B",
+        "F = 1.6e-19×1e+06×0.5"
+      ],
+      "reponseFinale": "F = 8e-14 N",
+      "competenceId": "phy-d-champ-c-lorentz"
+    },
+    {
+      "id": "phy-d-champ-ex11",
+      "enonce": "Force de Lorentz : q = 1.6e-19 C, v = 2e+06 m/s, B = 0.2 T (⊥). Calculer F.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "F = q·v·B",
+        "F = 1.6e-19×2e+06×0.2"
+      ],
+      "reponseFinale": "F = 6.4e-14 N",
+      "competenceId": "phy-d-champ-c-lorentz"
+    },
+    {
+      "id": "phy-d-champ-ex12",
+      "enonce": "Gravitation : M = 6e+24 kg, m = 1 kg, d = 6.4e+06 m. Calculer F (G = 6,67e-11).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "F = G·M·m/d²",
+        "F = 6,67e-11×6e+24×1/(6.4e+06)²"
+      ],
+      "reponseFinale": "F ≈ 9.77 N",
+      "competenceId": "phy-d-champ-c-gravitation"
+    },
+    {
+      "id": "phy-d-champ-ex13",
+      "enonce": "Gravitation : M = 6e+24 kg, m = 1000 kg, d = 7e+06 m. Calculer F (G = 6,67e-11).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "F = G·M·m/d²",
+        "F = 6,67e-11×6e+24×1000/(7e+06)²"
+      ],
+      "reponseFinale": "F ≈ 8.17e+03 N",
+      "competenceId": "phy-d-champ-c-gravitation"
+    },
+    {
+      "id": "phy-d-champ-ex14",
+      "enonce": "Champ de pesanteur : M = 6e+24 kg, R = 6.4e+06 m. Calculer g = GM/R².",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g = G·M/R²",
+        "g = 6,67e-11×6e+24/(6.4e+06)²"
+      ],
+      "reponseFinale": "g ≈ 9.77 m/s²",
+      "competenceId": "phy-d-champ-c-gravitation"
+    },
+    {
+      "id": "phy-d-champ-ex15",
+      "enonce": "Champ de pesanteur : M = 7.3e+22 kg, R = 1.7e+06 m. Calculer g = GM/R².",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g = G·M/R²",
+        "g = 6,67e-11×7.3e+22/(1.7e+06)²"
+      ],
+      "reponseFinale": "g ≈ 1.68 m/s²",
+      "competenceId": "phy-d-champ-c-gravitation"
+    },
+    {
+      "id": "phy-d-champ-ex16",
+      "enonce": "Entre deux armatures, les lignes de champ électrique uniforme sont :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le champ est uniforme",
+        "Les lignes de champ sont des droites parallèles"
+      ],
+      "reponseFinale": "des droites parallèles",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex17",
+      "enonce": "La force de Laplace s'exerce sur :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "un conducteur parcouru par un courant dans un champ magnétique"
+      ],
+      "reponseFinale": "un conducteur parcouru par un courant dans B",
+      "competenceId": "phy-d-champ-c-laplace"
+    },
+    {
+      "id": "phy-d-champ-ex18",
+      "enonce": "Condensateur plan : U = 400 V, d = 0.08 m. Calculer le champ E.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = U/d",
+        "E = 400/0.08"
+      ],
+      "reponseFinale": "E = 5e+03 V/m",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex19",
+      "enonce": "Condensateur plan : U = 1000 V, d = 0.02 m. Calculer le champ E.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = U/d",
+        "E = 1000/0.02"
+      ],
+      "reponseFinale": "E = 5e+04 V/m",
+      "competenceId": "phy-d-champ-c-champE"
+    },
+    {
+      "id": "phy-d-champ-ex20",
+      "enonce": "Force de Laplace : B = 0.4 T, I = 3 A, l = 0.25 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 0.4×3×0.25"
+      ],
+      "reponseFinale": "F = 0.3 N",
+      "competenceId": "phy-d-champ-c-laplace"
+    }
+  ],
+  "estExercices": true
+}

@@ -1,0 +1,110 @@
+{
+  "id": "geographie-u005",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "Le climat, les sols et la végétation du Tchad (2/3)",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le climat, les sols et la végétation du Tchad",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "geographie-u005-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "geographie-u005-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Citez les domaines de végétation au Tchad.",
+          "reponseAttendue": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Montrez l'interdépendance climat-sol-végétation.",
+          "reponseAttendue": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Définir : pluviométrie, isohyète, altitude, latitude.",
+          "reponseAttendue": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur."
+        }
+      ]
+    },
+    {
+      "id": "geographie-u005-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Citez les domaines de végétation au Tchad. ?",
+          "options": [
+            "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe).",
+            "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m).",
+            "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique.",
+            "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga."
+          ],
+          "reponse": 0,
+          "explication": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Montrez l'interdépendance climat-sol-végétation. ?",
+          "options": [
+            "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
+            "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations.",
+            "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée).",
+            "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga."
+          ],
+          "reponse": 2,
+          "explication": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définir : pluviométrie, isohyète, altitude, latitude. ?",
+          "options": [
+            "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga.",
+            "Dégradation de l'environnement, perte de terres cultivables, migration, abandon des activités traditionnelles.",
+            "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
+            "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude :"
+          ],
+          "reponse": 3,
+          "explication": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Citez les domaines de végétation au Tchad.",
+      "verso": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe)."
+    },
+    {
+      "recto": "Montrez l'interdépendance climat-sol-végétation.",
+      "verso": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
+    },
+    {
+      "recto": "Définir : pluviométrie, isohyète, altitude, latitude.",
+      "verso": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur."
+    }
+  ]
+}

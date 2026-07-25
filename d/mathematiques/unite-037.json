@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u037",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Similitudes directes et indirectes (2/3)",
+  "ordre": 37,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Similitudes directes et indirectes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u037-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u037-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+          "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Composée de deux similitudes directes",
+          "verso": "Les rapports se multiplient et les angles s'additionnent",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réciproque d'une similitude directe",
+          "verso": "Rapport 1/k et angle −α",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u037-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u037-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Similitude directe déterminée par A↦A' et B↦B' ?",
+          "options": [
+            "Résoudre z'=z",
+            "n·xⁿ⁻¹",
+            "Rapport 1/k et angle −α",
+            "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+          ],
+          "reponse": 3,
+          "explication": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Composée de deux similitudes directes ?",
+          "options": [
+            "eᵃ/eᵇ = eᵃ⁻ᵇ",
+            "ln(aⁿ) = n·ln a",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "Les rapports se multiplient et les angles s'additionnent"
+          ],
+          "reponse": 3,
+          "explication": "Les rapports se multiplient et les angles s'additionnent"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réciproque d'une similitude directe ?",
+          "options": [
+            "aˣ = e^(x·ln a)",
+            "toute suite croissante majorée (ou décroissante minorée) converge",
+            "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)",
+            "Rapport 1/k et angle −α"
+          ],
+          "reponse": 3,
+          "explication": "Rapport 1/k et angle −α"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+      "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+    },
+    {
+      "recto": "Composée de deux similitudes directes",
+      "verso": "Les rapports se multiplient et les angles s'additionnent"
+    },
+    {
+      "recto": "Réciproque d'une similitude directe",
+      "verso": "Rapport 1/k et angle −α"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+      "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Composée de deux similitudes directes",
+      "verso": "Les rapports se multiplient et les angles s'additionnent",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réciproque d'une similitude directe",
+      "verso": "Rapport 1/k et angle −α",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

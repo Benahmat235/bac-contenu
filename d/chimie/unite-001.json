@@ -1,0 +1,159 @@
+{
+  "id": "chimie-d-u001",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Solutions aqueuses et pH (1/2)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Solutions aqueuses et pH",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Définition du pH",
+          "verso": "pH = −log[H₃O⁺]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Concentration en ions H₃O⁺",
+          "verso": "[H₃O⁺] = 10^(−pH)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit ionique de l'eau",
+          "verso": "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation pH – pOH",
+          "verso": "pH + pOH = 14 (25 °C)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Définition du pH ?",
+          "options": [
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+            "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+            "pH > 7 : [H₃O⁺] < [OH⁻]",
+            "pH = −log[H₃O⁺]"
+          ],
+          "reponse": 3,
+          "explication": "pH = −log[H₃O⁺]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Concentration en ions H₃O⁺ ?",
+          "options": [
+            "pH + pOH = 14 (25 °C)",
+            "capte totalement des protons (ex. NaOH)",
+            "pKa = −log Ka",
+            "[H₃O⁺] = 10^(−pH)"
+          ],
+          "reponse": 3,
+          "explication": "[H₃O⁺] = 10^(−pH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit ionique de l'eau ?",
+          "options": [
+            "[H₃O⁺] = 10^(−pH)",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+            "C lié à 4 groupes tous différents (noté C*)",
+            "forme acide si pH < pKa ; forme basique si pH > pKa"
+          ],
+          "reponse": 1,
+          "explication": "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Définition du pH",
+      "verso": "pH = −log[H₃O⁺]"
+    },
+    {
+      "recto": "Concentration en ions H₃O⁺",
+      "verso": "[H₃O⁺] = 10^(−pH)"
+    },
+    {
+      "recto": "Produit ionique de l'eau",
+      "verso": "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)"
+    },
+    {
+      "recto": "Relation pH – pOH",
+      "verso": "pH + pOH = 14 (25 °C)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Définition du pH",
+      "verso": "pH = −log[H₃O⁺]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Concentration en ions H₃O⁺",
+      "verso": "[H₃O⁺] = 10^(−pH)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Produit ionique de l'eau",
+      "verso": "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Relation pH – pOH",
+      "verso": "pH + pOH = 14 (25 °C)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Comment calculer le pH ? (Terminale)",
+      "url": "https://youtu.be/oJuDr-e0Dmw",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Solution aqueuse et notion de pH : acide, basique, neutre",
+      "url": "https://youtu.be/YqKlmA1qLoc",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

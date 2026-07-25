@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u004",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Les champs et interactions universelles (1/2)",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les champs et interactions universelles",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u004-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u004-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Champ dans un condensateur plan",
+          "verso": "E = U/d",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force électrique",
+          "verso": "F = q·E",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force de Laplace",
+          "verso": "F = B·I·l·sin(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force de Lorentz",
+          "verso": "F = |q|·v·B·sin(α)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u004-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Champ dans un condensateur plan ?",
+          "options": [
+            "v = v₀ + a·t",
+            "U = Z·I",
+            "E = U/d",
+            "Ec = h·ν − W₀"
+          ],
+          "reponse": 2,
+          "explication": "E = U/d"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force électrique ?",
+          "options": [
+            "ΔEc = ΣW(forces)",
+            "F = q·E",
+            "E = U/d",
+            "P = m·g"
+          ],
+          "reponse": 1,
+          "explication": "F = q·E"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force de Laplace ?",
+          "options": [
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "F = B·I·l·sin(α)",
+            "h = 6,63×10⁻³⁴ J·s",
+            "f₀ = 1/(2π·√(L·C))"
+          ],
+          "reponse": 1,
+          "explication": "F = B·I·l·sin(α)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Champ dans un condensateur plan",
+      "verso": "E = U/d"
+    },
+    {
+      "recto": "Force électrique",
+      "verso": "F = q·E"
+    },
+    {
+      "recto": "Force de Laplace",
+      "verso": "F = B·I·l·sin(α)"
+    },
+    {
+      "recto": "Force de Lorentz",
+      "verso": "F = |q|·v·B·sin(α)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Champ dans un condensateur plan",
+      "verso": "E = U/d",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force électrique",
+      "verso": "F = q·E",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force de Laplace",
+      "verso": "F = B·I·l·sin(α)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force de Lorentz",
+      "verso": "F = |q|·v·B·sin(α)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Champ électrostatique et gravitation",
+      "url": "https://youtu.be/ubpMM5b3kTQ",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Champ magnétique : résumé de cours",
+      "url": "https://youtu.be/roVLKGxcnPU",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

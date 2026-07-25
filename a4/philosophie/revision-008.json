@@ -1,0 +1,67 @@
+{
+  "id": "philosophie-r008",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-r008-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-r008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le capitalisme porte en lui la guerre comme la nuée porte l'orage. » ?",
+          "options": [
+            "solipsisme",
+            "variable",
+            "Jean Jaurès",
+            "Protagoras"
+          ],
+          "reponse": 2,
+          "explication": "Jean Jaurès"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le moi n'est pas maître dans sa propre maison. » ?",
+          "options": [
+            "Jean Jaurès",
+            "Emmanuel Kant",
+            "Alain",
+            "Sigmund Freud"
+          ],
+          "reponse": 3,
+          "explication": "Sigmund Freud"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'enfer, c'est les autres. » ?",
+          "options": [
+            "Karl Marx",
+            "Emmanuel Kant",
+            "Jean Jaurès",
+            "Jean-Paul Sartre"
+          ],
+          "reponse": 3,
+          "explication": "Jean-Paul Sartre"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

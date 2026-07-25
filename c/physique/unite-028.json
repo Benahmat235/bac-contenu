@@ -1,0 +1,127 @@
+{
+  "id": "physique-c-u028",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Effet photoélectrique (2/2)",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Effet photoélectrique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u028-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u028-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique max (Einstein)",
+          "verso": "Ec = h·ν − W₀",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Longueur d'onde seuil",
+          "verso": "λ₀ = h·c/W₀",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Électron-volt",
+          "verso": "1 eV = 1,6×10⁻¹⁹ J",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u028-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Énergie cinétique max (Einstein) ?",
+          "options": [
+            "T₀ = 2π·√(L·C)",
+            "Ec = ½·m·v²",
+            "Ec = h·ν − W₀",
+            "F = q·E"
+          ],
+          "reponse": 2,
+          "explication": "Ec = h·ν − W₀"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Longueur d'onde seuil ?",
+          "options": [
+            "le becquerel : 1 Bq = 1 désintégration/s",
+            "F = G·M·m/d²",
+            "λ₀ = h·c/W₀",
+            "Z = √(R² + (Lω − 1/(Cω))²)"
+          ],
+          "reponse": 2,
+          "explication": "λ₀ = h·c/W₀"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Électron-volt ?",
+          "options": [
+            "F = |q|·v·B·sin(α)",
+            "F = G·M·m/d²",
+            "1 eV = 1,6×10⁻¹⁹ J",
+            "ΣF = m·a"
+          ],
+          "reponse": 2,
+          "explication": "1 eV = 1,6×10⁻¹⁹ J"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Énergie cinétique max (Einstein)",
+      "verso": "Ec = h·ν − W₀"
+    },
+    {
+      "recto": "Longueur d'onde seuil",
+      "verso": "λ₀ = h·c/W₀"
+    },
+    {
+      "recto": "Électron-volt",
+      "verso": "1 eV = 1,6×10⁻¹⁹ J"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Énergie cinétique max (Einstein)",
+      "verso": "Ec = h·ν − W₀",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Longueur d'onde seuil",
+      "verso": "λ₀ = h·c/W₀",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Électron-volt",
+      "verso": "1 eV = 1,6×10⁻¹⁹ J",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

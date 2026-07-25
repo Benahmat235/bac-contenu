@@ -1,0 +1,119 @@
+{
+  "id": "geographie-u003",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "Le climat, les sols et la végétation du Tchad (1/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le climat, les sols et la végétation du Tchad",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "geographie-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "geographie-u003-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Citez les zones climatiques du Tchad.",
+          "reponseAttendue": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quel est le rôle de la végétation dans les microclimats ?",
+          "reponseAttendue": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les types de sols au Tchad ?",
+          "reponseAttendue": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau)."
+        }
+      ]
+    },
+    {
+      "id": "geographie-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Citez les zones climatiques du Tchad. ?",
+          "options": [
+            "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
+            "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption."
+          ],
+          "reponse": 2,
+          "explication": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel est le rôle de la végétation dans les microclimats ?",
+          "options": [
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitati",
+            "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information.",
+            "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas)."
+          ],
+          "reponse": 1,
+          "explication": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les types de sols au Tchad ?",
+          "options": [
+            "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique.",
+            "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et ",
+            "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture).",
+            "Atout : force de travail, transport, engrais. Handicap : les animaux peuvent dévaster les champs (conflits)."
+          ],
+          "reponse": 1,
+          "explication": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Citez les zones climatiques du Tchad.",
+      "verso": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
+    },
+    {
+      "recto": "Quel est le rôle de la végétation dans les microclimats ?",
+      "verso": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations."
+    },
+    {
+      "recto": "Quels sont les types de sols au Tchad ?",
+      "verso": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau)."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Relief, climat, sol et végétation (géographie Terminale)",
+      "url": "https://youtu.be/zfzHbH1l1YI",
+      "type": "video",
+      "chaine": "Collège Saint Joseph",
+      "auteur": "Collège Saint Joseph"
+    }
+  ]
+}

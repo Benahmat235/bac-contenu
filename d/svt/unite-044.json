@@ -1,0 +1,159 @@
+{
+  "id": "svt-d-u044",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "L'hérédité humaine (1/3)",
+  "ordre": 44,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'hérédité humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u044-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u044-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Chromosomes sexuels",
+          "verso": "XX (femme) et XY (homme)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hérédité liée au sexe",
+          "verso": "gène porté par un chromosome sexuel (souvent X)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Système ABO",
+          "verso": "4 groupes : A, B, AB, O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Allèles ABO",
+          "verso": "A et B codominants, dominent O (récessif)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u044-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u044-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Chromosomes sexuels ?",
+          "options": [
+            "A, T, G, C",
+            "synthèse et transport des substances",
+            "libération d'un neurotransmetteur (médiateur chimique)",
+            "XX (femme) et XY (homme)"
+          ],
+          "reponse": 3,
+          "explication": "XX (femme) et XY (homme)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Hérédité liée au sexe ?",
+          "options": [
+            "gène porté par un chromosome sexuel (souvent X)",
+            "glande mixte ; îlots de Langerhans (cellules α et β)",
+            "élimine les introns et réunit les exons",
+            "hyaloplasme (fluide) + organites (partie solide)"
+          ],
+          "reponse": 0,
+          "explication": "gène porté par un chromosome sexuel (souvent X)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Système ABO ?",
+          "options": [
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+            "plantes à fleurs (reproduction dans la fleur)",
+            "4 groupes : A, B, AB, O",
+            "3/4 dominant, 1/4 récessif (3 : 1)"
+          ],
+          "reponse": 2,
+          "explication": "4 groupes : A, B, AB, O"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Chromosomes sexuels",
+      "verso": "XX (femme) et XY (homme)"
+    },
+    {
+      "recto": "Hérédité liée au sexe",
+      "verso": "gène porté par un chromosome sexuel (souvent X)"
+    },
+    {
+      "recto": "Système ABO",
+      "verso": "4 groupes : A, B, AB, O"
+    },
+    {
+      "recto": "Allèles ABO",
+      "verso": "A et B codominants, dominent O (récessif)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Chromosomes sexuels",
+      "verso": "XX (femme) et XY (homme)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Hérédité liée au sexe",
+      "verso": "gène porté par un chromosome sexuel (souvent X)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Système ABO",
+      "verso": "4 groupes : A, B, AB, O",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Allèles ABO",
+      "verso": "A et B codominants, dominent O (récessif)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "L'hérédité humaine : les groupes sanguins (cours)",
+      "url": "https://youtu.be/Vk3jcGVrs7g",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Le groupe sanguin (système ABO)",
+      "url": "https://youtu.be/qlxiWTfrL0g",
+      "type": "video",
+      "chaine": "ATG start",
+      "auteur": "ATG start"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u046",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "L'hérédité humaine (2/3)",
+  "ordre": 46,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'hérédité humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u046-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u046-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Génotypes ABO",
+          "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Donneur / receveur universel",
+          "verso": "donneur : O ; receveur : AB",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Facteur Rhésus",
+          "verso": "Rh+ (dominant) / Rh− (récessif)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u046-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u046-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Génotypes ABO ?",
+          "options": [
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+            "libération de glucose à partir du glycogène (foie)",
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "9 : 3 : 3 : 1"
+          ],
+          "reponse": 0,
+          "explication": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Donneur / receveur universel ?",
+          "options": [
+            "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade",
+            "donneur : O ; receveur : AB",
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+            "cellules α ; hyperglycémiant (fait monter la glycémie)"
+          ],
+          "reponse": 1,
+          "explication": "donneur : O ; receveur : AB"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Facteur Rhésus ?",
+          "options": [
+            "Rh+ (dominant) / Rh− (récessif)",
+            "donneur : O ; receveur : AB",
+            "uniformité des hybrides de la F1",
+            "double hélice (Watson et Crick)"
+          ],
+          "reponse": 0,
+          "explication": "Rh+ (dominant) / Rh− (récessif)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Génotypes ABO",
+      "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O"
+    },
+    {
+      "recto": "Donneur / receveur universel",
+      "verso": "donneur : O ; receveur : AB"
+    },
+    {
+      "recto": "Facteur Rhésus",
+      "verso": "Rh+ (dominant) / Rh− (récessif)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Génotypes ABO",
+      "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Donneur / receveur universel",
+      "verso": "donneur : O ; receveur : AB",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Facteur Rhésus",
+      "verso": "Rh+ (dominant) / Rh− (récessif)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

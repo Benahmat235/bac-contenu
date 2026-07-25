@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u037",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Le monohybridisme (2/3)",
+  "ordre": 37,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le monohybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u037-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u037-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Génotype / phénotype",
+          "verso": "génotype = allèles ; phénotype = caractère observé",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "1re loi de Mendel",
+          "verso": "uniformité des hybrides de la F1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "2e loi de Mendel",
+          "verso": "disjonction des allèles (pureté des gamètes)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u037-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u037-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Génotype / phénotype ?",
+          "options": [
+            "implantation de l'embryon dans l'endomètre utérin",
+            "génotype = allèles ; phénotype = caractère observé",
+            "dû au crossing-over",
+            "Rh+ (dominant) / Rh− (récessif)"
+          ],
+          "reponse": 1,
+          "explication": "génotype = allèles ; phénotype = caractère observé"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1re loi de Mendel ?",
+          "options": [
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "zone de contact entre deux neurones",
+            "uniformité des hybrides de la F1",
+            "28 jours en moyenne ; ovulation vers le 14e jour"
+          ],
+          "reponse": 2,
+          "explication": "uniformité des hybrides de la F1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "2e loi de Mendel ?",
+          "options": [
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "disjonction des allèles (pureté des gamètes)",
+            "calice (sépales) et corolle (pétales)"
+          ],
+          "reponse": 2,
+          "explication": "disjonction des allèles (pureté des gamètes)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Génotype / phénotype",
+      "verso": "génotype = allèles ; phénotype = caractère observé"
+    },
+    {
+      "recto": "1re loi de Mendel",
+      "verso": "uniformité des hybrides de la F1"
+    },
+    {
+      "recto": "2e loi de Mendel",
+      "verso": "disjonction des allèles (pureté des gamètes)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Génotype / phénotype",
+      "verso": "génotype = allèles ; phénotype = caractère observé",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "1re loi de Mendel",
+      "verso": "uniformité des hybrides de la F1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "2e loi de Mendel",
+      "verso": "disjonction des allèles (pureté des gamètes)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

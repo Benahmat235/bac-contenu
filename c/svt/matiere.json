@@ -8,142 +8,433 @@
   "description": "Sciences de la Vie et de la Terre : définitions et lois mémorisées en répétition espacée, quiz, méthodes et exercices corrigés (reproduction de l'information génétique, hérédité, communication nerveuse et hormonale).",
   "unites": [
     {
-      "id": "svt-c-cell",
-      "titre": "Organisation de la cellule",
+      "id": "svt-c-u001",
+      "titre": "Organisation de la cellule (1/3)",
       "ordre": 1,
-      "fichier": "c/svt/unite-01.json",
+      "fichier": "c/svt/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "svt-c-ig",
-      "titre": "Transmission de l'information génétique",
+      "id": "svt-c-u002",
+      "titre": "Organisation de la cellule (2/3)",
       "ordre": 2,
-      "fichier": "c/svt/unite-02.json",
-      "prerequis": [
-        "svt-c-cell"
-      ]
+      "fichier": "c/svt/unite-002.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-ex",
-      "titre": "Expression de l'information génétique",
+      "id": "svt-c-u003",
+      "titre": "Organisation de la cellule (3/3)",
       "ordre": 3,
-      "fichier": "c/svt/unite-03.json",
-      "prerequis": [
-        "svt-c-ig"
-      ]
+      "fichier": "c/svt/unite-003.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-rev01",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "svt-c-r004",
+      "titre": "Révision",
       "ordre": 4,
-      "fichier": "c/svt/revision-01.json",
+      "fichier": "c/svt/revision-004.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "svt-c-br",
-      "titre": "Brassage génétique et méiose",
+      "id": "svt-c-e005",
+      "titre": "Organisation de la cellule — Exercices",
       "ordre": 5,
-      "fichier": "c/svt/unite-04.json",
-      "prerequis": [
-        "svt-c-ex"
-      ]
+      "fichier": "c/svt/exercices-005.json",
+      "prerequis": [],
+      "estExercices": true
     },
     {
-      "id": "svt-c-sp",
-      "titre": "Reproduction sexuée des spermaphytes",
+      "id": "svt-c-u006",
+      "titre": "Transmission de l'information génétique (1/3)",
       "ordre": 6,
-      "fichier": "c/svt/unite-05.json",
-      "prerequis": [
-        "svt-c-br"
-      ]
+      "fichier": "c/svt/unite-006.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-rh",
-      "titre": "La reproduction humaine",
+      "id": "svt-c-u007",
+      "titre": "Transmission de l'information génétique (2/3)",
       "ordre": 7,
-      "fichier": "c/svt/unite-06.json",
-      "prerequis": [
-        "svt-c-sp"
-      ]
+      "fichier": "c/svt/unite-007.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-rev02",
-      "titre": "Révision : leçons 4 à 6",
+      "id": "svt-c-u008",
+      "titre": "Transmission de l'information génétique (3/3)",
       "ordre": 8,
-      "fichier": "c/svt/revision-02.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "c/svt/unite-008.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-fn",
-      "titre": "De la fécondation à la naissance",
+      "id": "svt-c-r009",
+      "titre": "Révision",
       "ordre": 9,
-      "fichier": "c/svt/unite-07.json",
-      "prerequis": [
-        "svt-c-rh"
-      ]
+      "fichier": "c/svt/revision-009.json",
+      "prerequis": [],
+      "estRevision": true
     },
     {
-      "id": "svt-c-mo",
-      "titre": "Le monohybridisme",
+      "id": "svt-c-e010",
+      "titre": "Transmission de l'information génétique — Exercices",
       "ordre": 10,
-      "fichier": "c/svt/unite-08.json",
-      "prerequis": [
-        "svt-c-fn"
-      ]
+      "fichier": "c/svt/exercices-010.json",
+      "prerequis": [],
+      "estExercices": true
     },
     {
-      "id": "svt-c-di",
-      "titre": "Le dihybridisme",
+      "id": "svt-c-u011",
+      "titre": "Expression de l'information génétique (1/3)",
       "ordre": 11,
-      "fichier": "c/svt/unite-09.json",
-      "prerequis": [
-        "svt-c-mo"
-      ]
+      "fichier": "c/svt/unite-011.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-rev03",
-      "titre": "Révision : leçons 7 à 9",
+      "id": "svt-c-u012",
+      "titre": "Expression de l'information génétique (2/3)",
       "ordre": 12,
-      "fichier": "c/svt/revision-03.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "c/svt/unite-012.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-he",
-      "titre": "L'hérédité humaine",
+      "id": "svt-c-u013",
+      "titre": "Expression de l'information génétique (3/3)",
       "ordre": 13,
-      "fichier": "c/svt/unite-10.json",
-      "prerequis": [
-        "svt-c-di"
-      ]
+      "fichier": "c/svt/unite-013.json",
+      "prerequis": []
     },
     {
-      "id": "svt-c-ne",
-      "titre": "La communication nerveuse",
+      "id": "svt-c-r014",
+      "titre": "Révision",
       "ordre": 14,
-      "fichier": "c/svt/unite-11.json",
-      "prerequis": [
-        "svt-c-he"
-      ]
-    },
-    {
-      "id": "svt-c-ho",
-      "titre": "La communication hormonale",
-      "ordre": 15,
-      "fichier": "c/svt/unite-12.json",
-      "prerequis": [
-        "svt-c-ne"
-      ]
-    },
-    {
-      "id": "svt-c-rev04",
-      "titre": "Révision : leçons 10 à 12",
-      "ordre": 16,
-      "fichier": "c/svt/revision-04.json",
+      "fichier": "c/svt/revision-014.json",
       "prerequis": [],
       "estRevision": true
+    },
+    {
+      "id": "svt-c-e015",
+      "titre": "Expression de l'information génétique — Exercices",
+      "ordre": 15,
+      "fichier": "c/svt/exercices-015.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u016",
+      "titre": "Brassage génétique et méiose (1/3)",
+      "ordre": 16,
+      "fichier": "c/svt/unite-016.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u017",
+      "titre": "Brassage génétique et méiose (2/3)",
+      "ordre": 17,
+      "fichier": "c/svt/unite-017.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u018",
+      "titre": "Brassage génétique et méiose (3/3)",
+      "ordre": 18,
+      "fichier": "c/svt/unite-018.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r019",
+      "titre": "Révision",
+      "ordre": 19,
+      "fichier": "c/svt/revision-019.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-e020",
+      "titre": "Brassage génétique et méiose — Exercices",
+      "ordre": 20,
+      "fichier": "c/svt/exercices-020.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u021",
+      "titre": "Reproduction sexuée des spermaphytes (1/3)",
+      "ordre": 21,
+      "fichier": "c/svt/unite-021.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u022",
+      "titre": "Reproduction sexuée des spermaphytes (2/3)",
+      "ordre": 22,
+      "fichier": "c/svt/unite-022.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u023",
+      "titre": "Reproduction sexuée des spermaphytes (3/3)",
+      "ordre": 23,
+      "fichier": "c/svt/unite-023.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r024",
+      "titre": "Révision",
+      "ordre": 24,
+      "fichier": "c/svt/revision-024.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-e025",
+      "titre": "Reproduction sexuée des spermaphytes — Exercices",
+      "ordre": 25,
+      "fichier": "c/svt/exercices-025.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u026",
+      "titre": "La reproduction humaine (1/3)",
+      "ordre": 26,
+      "fichier": "c/svt/unite-026.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u027",
+      "titre": "La reproduction humaine (2/3)",
+      "ordre": 27,
+      "fichier": "c/svt/unite-027.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u028",
+      "titre": "La reproduction humaine (3/3)",
+      "ordre": 28,
+      "fichier": "c/svt/unite-028.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r029",
+      "titre": "Révision",
+      "ordre": 29,
+      "fichier": "c/svt/revision-029.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-e030",
+      "titre": "La reproduction humaine — Exercices",
+      "ordre": 30,
+      "fichier": "c/svt/exercices-030.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u031",
+      "titre": "De la fécondation à la naissance (1/3)",
+      "ordre": 31,
+      "fichier": "c/svt/unite-031.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u032",
+      "titre": "De la fécondation à la naissance (2/3)",
+      "ordre": 32,
+      "fichier": "c/svt/unite-032.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u033",
+      "titre": "De la fécondation à la naissance (3/3)",
+      "ordre": 33,
+      "fichier": "c/svt/unite-033.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r034",
+      "titre": "Révision",
+      "ordre": 34,
+      "fichier": "c/svt/revision-034.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-e035",
+      "titre": "De la fécondation à la naissance — Exercices",
+      "ordre": 35,
+      "fichier": "c/svt/exercices-035.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u036",
+      "titre": "Le monohybridisme (1/3)",
+      "ordre": 36,
+      "fichier": "c/svt/unite-036.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u037",
+      "titre": "Le monohybridisme (2/3)",
+      "ordre": 37,
+      "fichier": "c/svt/unite-037.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u038",
+      "titre": "Le monohybridisme (3/3)",
+      "ordre": 38,
+      "fichier": "c/svt/unite-038.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r039",
+      "titre": "Révision",
+      "ordre": 39,
+      "fichier": "c/svt/revision-039.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-e040",
+      "titre": "Le monohybridisme — Exercices",
+      "ordre": 40,
+      "fichier": "c/svt/exercices-040.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u041",
+      "titre": "Le dihybridisme (1/2)",
+      "ordre": 41,
+      "fichier": "c/svt/unite-041.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u042",
+      "titre": "Le dihybridisme (2/2)",
+      "ordre": 42,
+      "fichier": "c/svt/unite-042.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-e043",
+      "titre": "Le dihybridisme — Exercices",
+      "ordre": 43,
+      "fichier": "c/svt/exercices-043.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u044",
+      "titre": "L'hérédité humaine (1/3)",
+      "ordre": 44,
+      "fichier": "c/svt/unite-044.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r045",
+      "titre": "Révision",
+      "ordre": 45,
+      "fichier": "c/svt/revision-045.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-u046",
+      "titre": "L'hérédité humaine (2/3)",
+      "ordre": 46,
+      "fichier": "c/svt/unite-046.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u047",
+      "titre": "L'hérédité humaine (3/3)",
+      "ordre": 47,
+      "fichier": "c/svt/unite-047.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-e048",
+      "titre": "L'hérédité humaine — Exercices",
+      "ordre": 48,
+      "fichier": "c/svt/exercices-048.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u049",
+      "titre": "La communication nerveuse (1/3)",
+      "ordre": 49,
+      "fichier": "c/svt/unite-049.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r050",
+      "titre": "Révision",
+      "ordre": 50,
+      "fichier": "c/svt/revision-050.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-u051",
+      "titre": "La communication nerveuse (2/3)",
+      "ordre": 51,
+      "fichier": "c/svt/unite-051.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u052",
+      "titre": "La communication nerveuse (3/3)",
+      "ordre": 52,
+      "fichier": "c/svt/unite-052.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-e053",
+      "titre": "La communication nerveuse — Exercices",
+      "ordre": 53,
+      "fichier": "c/svt/exercices-053.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "svt-c-u054",
+      "titre": "La communication hormonale (1/3)",
+      "ordre": 54,
+      "fichier": "c/svt/unite-054.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-r055",
+      "titre": "Révision",
+      "ordre": 55,
+      "fichier": "c/svt/revision-055.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "svt-c-u056",
+      "titre": "La communication hormonale (2/3)",
+      "ordre": 56,
+      "fichier": "c/svt/unite-056.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-u057",
+      "titre": "La communication hormonale (3/3)",
+      "ordre": 57,
+      "fichier": "c/svt/unite-057.json",
+      "prerequis": []
+    },
+    {
+      "id": "svt-c-e058",
+      "titre": "La communication hormonale — Exercices",
+      "ordre": 58,
+      "fichier": "c/svt/exercices-058.json",
+      "prerequis": [],
+      "estExercices": true
     }
   ]
 }

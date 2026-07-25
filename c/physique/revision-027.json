@@ -1,0 +1,67 @@
+{
+  "id": "physique-c-r027",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 27,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-r027-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-r027-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "2ᵉ loi de Newton ?",
+          "options": [
+            "Ec = h·ν − W₀",
+            "ΣF = m·a",
+            "h = 6,63×10⁻³⁴ J·s",
+            "F = G·M·m/d²"
+          ],
+          "reponse": 1,
+          "explication": "ΣF = m·a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante de gravitation ?",
+          "options": [
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
+            "E = ½·L·i²",
+            "E = ½·C·u²"
+          ],
+          "reponse": 1,
+          "explication": "G = 6,67×10⁻¹¹ N·m²·kg⁻²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Période propre d'un circuit LC ?",
+          "options": [
+            "Ep = m·g·h",
+            "T₀ = 2π·√(L·C)",
+            "x = x₀ + v₀·t + ½·a·t²",
+            "aₙ = v²/R = ω²·R"
+          ],
+          "reponse": 1,
+          "explication": "T₀ = 2π·√(L·C)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

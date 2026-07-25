@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u002",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Limites et continuité (2/3)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Limites et continuité",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Théorème des gendarmes",
+          "verso": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Asymptote horizontale",
+          "verso": "si lim f = l (réel) en ±∞, alors y = l",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Asymptote verticale",
+          "verso": "si lim f = ±∞ en x₀, alors x = x₀",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Théorème des gendarmes ?",
+          "options": [
+            "Si a≠1, ω=b/(1−a)",
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+            "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+          ],
+          "reponse": 3,
+          "explication": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote horizontale ?",
+          "options": [
+            "(√u)' = u'/(2√u)",
+            "z'=az+b, avec a∈ℂ*",
+            "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+            "si lim f = l (réel) en ±∞, alors y = l"
+          ],
+          "reponse": 3,
+          "explication": "si lim f = l (réel) en ±∞, alors y = l"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote verticale ?",
+          "options": [
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+            "uₙ = u₀ + n·r"
+          ],
+          "reponse": 0,
+          "explication": "si lim f = ±∞ en x₀, alors x = x₀"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Théorème des gendarmes",
+      "verso": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+    },
+    {
+      "recto": "Asymptote horizontale",
+      "verso": "si lim f = l (réel) en ±∞, alors y = l"
+    },
+    {
+      "recto": "Asymptote verticale",
+      "verso": "si lim f = ±∞ en x₀, alors x = x₀"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Théorème des gendarmes",
+      "verso": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Asymptote horizontale",
+      "verso": "si lim f = l (réel) en ±∞, alors y = l",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Asymptote verticale",
+      "verso": "si lim f = ±∞ en x₀, alors x = x₀",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

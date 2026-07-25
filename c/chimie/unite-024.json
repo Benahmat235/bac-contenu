@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u024",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Constante d'acidité et classification (2/2)",
+  "ordre": 24,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Constante d'acidité et classification",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u024-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u024-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Acide le plus fort",
+          "verso": "celui dont le pKa est le plus petit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Domaine de prédominance",
+          "verso": "forme acide si pH < pKa ; forme basique si pH > pKa",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Couple acide/base",
+          "verso": "AH / A⁻ (l'acide cède un proton H⁺)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u024-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u024-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Acide le plus fort ?",
+          "options": [
+            "pH ≈ pKa quand [base] = [acide]",
+            "pH = pKa + log([base]/[acide])",
+            "durée pour consommer la moitié du réactif limitant",
+            "celui dont le pKa est le plus petit"
+          ],
+          "reponse": 3,
+          "explication": "celui dont le pKa est le plus petit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "pH = −log[H₃O⁺]",
+            "−COO− (−CO−O−)",
+            "diffèrent par la position d'un groupe"
+          ],
+          "reponse": 0,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Couple acide/base ?",
+          "options": [
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+            "se dissocie totalement dans l'eau",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "images miroir non superposables (molécule chirale)"
+          ],
+          "reponse": 2,
+          "explication": "AH / A⁻ (l'acide cède un proton H⁺)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Acide le plus fort",
+      "verso": "celui dont le pKa est le plus petit"
+    },
+    {
+      "recto": "Domaine de prédominance",
+      "verso": "forme acide si pH < pKa ; forme basique si pH > pKa"
+    },
+    {
+      "recto": "Couple acide/base",
+      "verso": "AH / A⁻ (l'acide cède un proton H⁺)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Acide le plus fort",
+      "verso": "celui dont le pKa est le plus petit",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Domaine de prédominance",
+      "verso": "forme acide si pH < pKa ; forme basique si pH > pKa",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Couple acide/base",
+      "verso": "AH / A⁻ (l'acide cède un proton H⁺)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

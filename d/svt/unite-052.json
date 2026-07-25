@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u052",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "La communication nerveuse (3/3)",
+  "ordre": 52,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication nerveuse",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u052-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u052-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Synapse",
+          "verso": "zone de contact entre deux neurones",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Transmission synaptique",
+          "verso": "libération d'un neurotransmetteur (médiateur chimique)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Message nerveux",
+          "verso": "de nature électrique le long de la fibre",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u052-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u052-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Synapse ?",
+          "options": [
+            "nerfs + ganglions",
+            "zone de contact entre deux neurones",
+            "maturation et sécrétion des substances",
+            "génotype = allèles ; phénotype = caractère observé"
+          ],
+          "reponse": 1,
+          "explication": "zone de contact entre deux neurones"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Transmission synaptique ?",
+          "options": [
+            "libération d'un neurotransmetteur (médiateur chimique)",
+            "unité structurale et fonctionnelle de tout être vivant",
+            "transport du pollen vers le stigmate (anémophile/entomophile)",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur"
+          ],
+          "reponse": 0,
+          "explication": "libération d'un neurotransmetteur (médiateur chimique)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Message nerveux ?",
+          "options": [
+            "de nature électrique le long de la fibre",
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "isolant électrique qui accélère la conduction",
+            "A, T, G, C"
+          ],
+          "reponse": 0,
+          "explication": "de nature électrique le long de la fibre"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Synapse",
+      "verso": "zone de contact entre deux neurones"
+    },
+    {
+      "recto": "Transmission synaptique",
+      "verso": "libération d'un neurotransmetteur (médiateur chimique)"
+    },
+    {
+      "recto": "Message nerveux",
+      "verso": "de nature électrique le long de la fibre"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Synapse",
+      "verso": "zone de contact entre deux neurones",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Transmission synaptique",
+      "verso": "libération d'un neurotransmetteur (médiateur chimique)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Message nerveux",
+      "verso": "de nature électrique le long de la fibre",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

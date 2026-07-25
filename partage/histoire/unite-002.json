@@ -1,0 +1,121 @@
+{
+  "id": "histoire-u002",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (2/5)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u002-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+          "reponseAttendue": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que signifie crime contre l'humanité et crime de guerre ?",
+          "reponseAttendue": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
+          "reponseAttendue": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg.",
+          "modeReponse": "auto_evaluation",
+          "explication": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que vous rappelle Pearl Harbour, Auschwitz et camp de concentration ?",
+          "reponseAttendue": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+          "options": [
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941.",
+            "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent.",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv"
+          ],
+          "reponse": 1,
+          "explication": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que signifie crime contre l'humanité et crime de guerre ?",
+          "options": [
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas",
+            "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de con"
+          ],
+          "reponse": 2,
+          "explication": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
+          "options": [
+            "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS.",
+            "La Guinée-Conakry, accédant à l'indépendance le 2 octobre 1958.",
+            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/194",
+            "Bombe atomique. USA depuis 1945, URSS depuis 1949."
+          ],
+          "reponse": 2,
+          "explication": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+      "verso": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+    },
+    {
+      "recto": "Que signifie crime contre l'humanité et crime de guerre ?",
+      "verso": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols)."
+    },
+    {
+      "recto": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
+      "verso": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+    },
+    {
+      "recto": "Que vous rappelle Pearl Harbour, Auschwitz et camp de concentration ?",
+      "verso": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers."
+    }
+  ]
+}

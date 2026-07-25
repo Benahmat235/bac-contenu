@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r025",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 25,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r025-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r025-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Symétries d'axes parallèles ?",
+          "options": [
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "composée = translation",
+            "factoriser, ou multiplier par l'expression conjuguée",
+            "r(O ; θ)⁻¹ = r(O ; −θ)"
+          ],
+          "reponse": 1,
+          "explication": "composée = translation"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Composée de deux translations ?",
+          "options": [
+            "Résoudre z'=z",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "t_v ∘ t_u = t_{u+v}",
+            "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'"
+          ],
+          "reponse": 2,
+          "explication": "t_v ∘ t_u = t_{u+v}"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Point fixe ?",
+          "options": [
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "z'=az+b, avec a∈ℂ*",
+            "Rapport 1/k et angle −α",
+            "Résoudre z'=z"
+          ],
+          "reponse": 3,
+          "explication": "Résoudre z'=z"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

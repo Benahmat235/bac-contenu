@@ -8,103 +8,337 @@
   "description": "Analyse, nombres complexes, similitudes et probabilités : formules à mémoriser, exercices corrigés et quiz.",
   "unites": [
     {
-      "id": "math-d-u1",
-      "titre": "Limites et continuité",
+      "id": "mathematiques-d-u001",
+      "titre": "Limites et continuité (1/3)",
       "ordre": 1,
-      "fichier": "d/mathematiques/unite-01.json",
+      "fichier": "d/mathematiques/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "math-d-u2",
-      "titre": "Dérivations et étude de fonctions",
+      "id": "mathematiques-d-u002",
+      "titre": "Limites et continuité (2/3)",
       "ordre": 2,
-      "fichier": "d/mathematiques/unite-02.json",
-      "prerequis": [
-        "math-d-u1"
-      ]
+      "fichier": "d/mathematiques/unite-002.json",
+      "prerequis": []
     },
     {
-      "id": "math-d-u3",
-      "titre": "Primitives et fonction logarithme népérien",
+      "id": "mathematiques-d-u003",
+      "titre": "Limites et continuité (3/3)",
       "ordre": 3,
-      "fichier": "d/mathematiques/unite-03.json",
-      "prerequis": [
-        "math-d-u2"
-      ]
+      "fichier": "d/mathematiques/unite-003.json",
+      "prerequis": []
     },
     {
-      "id": "mathematiques-d-rev01",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "mathematiques-d-r004",
+      "titre": "Révision",
       "ordre": 4,
-      "fichier": "d/mathematiques/revision-01.json",
+      "fichier": "d/mathematiques/revision-004.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "math-d-u4",
-      "titre": "Fonctions exponentielles et fonctions puissances",
+      "id": "mathematiques-d-e005",
+      "titre": "Limites et continuité — Exercices",
       "ordre": 5,
-      "fichier": "d/mathematiques/unite-04.json",
-      "prerequis": [
-        "math-d-u3"
-      ]
+      "fichier": "d/mathematiques/exercices-005.json",
+      "prerequis": [],
+      "estExercices": true
     },
     {
-      "id": "math-d-u5",
-      "titre": "Suites numériques",
+      "id": "mathematiques-d-u006",
+      "titre": "Dérivations et étude de fonctions (1/3)",
       "ordre": 6,
-      "fichier": "d/mathematiques/unite-05.json",
-      "prerequis": [
-        "math-d-u1"
-      ]
+      "fichier": "d/mathematiques/unite-006.json",
+      "prerequis": []
     },
     {
-      "id": "math-d-u6",
-      "titre": "Les intégrales",
+      "id": "mathematiques-d-u007",
+      "titre": "Dérivations et étude de fonctions (2/3)",
       "ordre": 7,
-      "fichier": "d/mathematiques/unite-06.json",
-      "prerequis": [
-        "math-d-u3"
-      ]
+      "fichier": "d/mathematiques/unite-007.json",
+      "prerequis": []
     },
     {
-      "id": "mathematiques-d-rev02",
-      "titre": "Révision : leçons 4 à 6",
+      "id": "mathematiques-d-u008",
+      "titre": "Dérivations et étude de fonctions (3/3)",
       "ordre": 8,
-      "fichier": "d/mathematiques/revision-02.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "d/mathematiques/unite-008.json",
+      "prerequis": []
     },
     {
-      "id": "math-d-u7",
-      "titre": "Nombres complexes",
+      "id": "mathematiques-d-r009",
+      "titre": "Révision",
       "ordre": 9,
-      "fichier": "d/mathematiques/unite-07.json",
-      "prerequis": []
-    },
-    {
-      "id": "math-d-u8",
-      "titre": "Similitudes directes et indirectes",
-      "ordre": 10,
-      "fichier": "d/mathematiques/unite-08.json",
-      "prerequis": [
-        "math-d-u7"
-      ]
-    },
-    {
-      "id": "math-d-u9",
-      "titre": "Dénombrement, probabilités et variables aléatoires",
-      "ordre": 11,
-      "fichier": "d/mathematiques/unite-09.json",
-      "prerequis": []
-    },
-    {
-      "id": "mathematiques-d-rev03",
-      "titre": "Révision : leçons 7 à 9",
-      "ordre": 12,
-      "fichier": "d/mathematiques/revision-03.json",
+      "fichier": "d/mathematiques/revision-009.json",
       "prerequis": [],
       "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e010",
+      "titre": "Dérivations et étude de fonctions — Exercices",
+      "ordre": 10,
+      "fichier": "d/mathematiques/exercices-010.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u011",
+      "titre": "Primitives et fonction logarithme népérien (1/3)",
+      "ordre": 11,
+      "fichier": "d/mathematiques/unite-011.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u012",
+      "titre": "Primitives et fonction logarithme népérien (2/3)",
+      "ordre": 12,
+      "fichier": "d/mathematiques/unite-012.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u013",
+      "titre": "Primitives et fonction logarithme népérien (3/3)",
+      "ordre": 13,
+      "fichier": "d/mathematiques/unite-013.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r014",
+      "titre": "Révision",
+      "ordre": 14,
+      "fichier": "d/mathematiques/revision-014.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e015",
+      "titre": "Primitives et fonction logarithme népérien — Exercices",
+      "ordre": 15,
+      "fichier": "d/mathematiques/exercices-015.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u016",
+      "titre": "Fonctions exponentielles et fonctions puissances (1/3)",
+      "ordre": 16,
+      "fichier": "d/mathematiques/unite-016.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u017",
+      "titre": "Fonctions exponentielles et fonctions puissances (2/3)",
+      "ordre": 17,
+      "fichier": "d/mathematiques/unite-017.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u018",
+      "titre": "Fonctions exponentielles et fonctions puissances (3/3)",
+      "ordre": 18,
+      "fichier": "d/mathematiques/unite-018.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r019",
+      "titre": "Révision",
+      "ordre": 19,
+      "fichier": "d/mathematiques/revision-019.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e020",
+      "titre": "Fonctions exponentielles et fonctions puissances — Exercices",
+      "ordre": 20,
+      "fichier": "d/mathematiques/exercices-020.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u021",
+      "titre": "Suites numériques (1/3)",
+      "ordre": 21,
+      "fichier": "d/mathematiques/unite-021.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u022",
+      "titre": "Suites numériques (2/3)",
+      "ordre": 22,
+      "fichier": "d/mathematiques/unite-022.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u023",
+      "titre": "Suites numériques (3/3)",
+      "ordre": 23,
+      "fichier": "d/mathematiques/unite-023.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r024",
+      "titre": "Révision",
+      "ordre": 24,
+      "fichier": "d/mathematiques/revision-024.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e025",
+      "titre": "Suites numériques — Exercices",
+      "ordre": 25,
+      "fichier": "d/mathematiques/exercices-025.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u026",
+      "titre": "Intégrales (1/3)",
+      "ordre": 26,
+      "fichier": "d/mathematiques/unite-026.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u027",
+      "titre": "Intégrales (2/3)",
+      "ordre": 27,
+      "fichier": "d/mathematiques/unite-027.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u028",
+      "titre": "Intégrales (3/3)",
+      "ordre": 28,
+      "fichier": "d/mathematiques/unite-028.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r029",
+      "titre": "Révision",
+      "ordre": 29,
+      "fichier": "d/mathematiques/revision-029.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e030",
+      "titre": "Intégrales — Exercices",
+      "ordre": 30,
+      "fichier": "d/mathematiques/exercices-030.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u031",
+      "titre": "Nombres complexes (1/3)",
+      "ordre": 31,
+      "fichier": "d/mathematiques/unite-031.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u032",
+      "titre": "Nombres complexes (2/3)",
+      "ordre": 32,
+      "fichier": "d/mathematiques/unite-032.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u033",
+      "titre": "Nombres complexes (3/3)",
+      "ordre": 33,
+      "fichier": "d/mathematiques/unite-033.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r034",
+      "titre": "Révision",
+      "ordre": 34,
+      "fichier": "d/mathematiques/revision-034.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e035",
+      "titre": "Nombres complexes — Exercices",
+      "ordre": 35,
+      "fichier": "d/mathematiques/exercices-035.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u036",
+      "titre": "Similitudes directes et indirectes (1/3)",
+      "ordre": 36,
+      "fichier": "d/mathematiques/unite-036.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u037",
+      "titre": "Similitudes directes et indirectes (2/3)",
+      "ordre": 37,
+      "fichier": "d/mathematiques/unite-037.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u038",
+      "titre": "Similitudes directes et indirectes (3/3)",
+      "ordre": 38,
+      "fichier": "d/mathematiques/unite-038.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r039",
+      "titre": "Révision",
+      "ordre": 39,
+      "fichier": "d/mathematiques/revision-039.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e040",
+      "titre": "Similitudes directes et indirectes — Exercices",
+      "ordre": 40,
+      "fichier": "d/mathematiques/exercices-040.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-d-u041",
+      "titre": "Dénombrement, probabilités et variables aléatoires (1/3)",
+      "ordre": 41,
+      "fichier": "d/mathematiques/unite-041.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u042",
+      "titre": "Dénombrement, probabilités et variables aléatoires (2/3)",
+      "ordre": 42,
+      "fichier": "d/mathematiques/unite-042.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-u043",
+      "titre": "Dénombrement, probabilités et variables aléatoires (3/3)",
+      "ordre": 43,
+      "fichier": "d/mathematiques/unite-043.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-r044",
+      "titre": "Révision",
+      "ordre": 44,
+      "fichier": "d/mathematiques/revision-044.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-d-e045",
+      "titre": "Dénombrement, probabilités et variables aléatoires — Exercices",
+      "ordre": 45,
+      "fichier": "d/mathematiques/exercices-045.json",
+      "prerequis": [],
+      "estExercices": true
     }
   ]
 }

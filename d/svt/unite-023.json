@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u023",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Reproduction sexuée des spermaphytes (3/3)",
+  "ordre": 23,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Reproduction sexuée des spermaphytes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u023-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u023-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Double fécondation",
+          "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Devenir après fécondation",
+          "verso": "ovule → graine ; ovaire → fruit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Germination",
+          "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u023-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u023-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Double fécondation ?",
+          "options": [
+            "glande mixte ; îlots de Langerhans (cellules α et β)",
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+            "9 : 3 : 3 : 1",
+            "AUG (méthionine)"
+          ],
+          "reponse": 1,
+          "explication": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Devenir après fécondation ?",
+          "options": [
+            "maintiennent constant le nombre de chromosomes de l'espèce",
+            "donneur : O ; receveur : AB",
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "ovule → graine ; ovaire → fruit"
+          ],
+          "reponse": 3,
+          "explication": "ovule → graine ; ovaire → fruit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Germination ?",
+          "options": [
+            "de nature électrique le long de la fibre",
+            "apporte les acides aminés et porte l'anticodon",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "échange de segments entre chromosomes homologues (prophase I)"
+          ],
+          "reponse": 2,
+          "explication": "graine → plantule ; nécessite eau, dioxygène et chaleur"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Double fécondation",
+      "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)"
+    },
+    {
+      "recto": "Devenir après fécondation",
+      "verso": "ovule → graine ; ovaire → fruit"
+    },
+    {
+      "recto": "Germination",
+      "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Double fécondation",
+      "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Devenir après fécondation",
+      "verso": "ovule → graine ; ovaire → fruit",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Germination",
+      "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

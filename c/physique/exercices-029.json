@@ -1,0 +1,348 @@
+{
+  "id": "physique-c-e029",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Effet photoélectrique — Exercices",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Effet photoélectrique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-c-e029-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-e029-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Déterminer l'énergie cinétique des électrons émis :",
+          "etapes": [
+            "Calculer l'énergie du photon E = hc/λ",
+            "Comparer à W₀ (émission si E > W₀)",
+            "Calculer Ec = E − W₀",
+            "Convertir en eV si besoin"
+          ],
+          "ordreCorrect": [
+            "Calculer l'énergie du photon E = hc/λ",
+            "Comparer à W₀ (émission si E > W₀)",
+            "Calculer Ec = E − W₀",
+            "Convertir en eV si besoin"
+          ],
+          "explication": "On applique la relation d'Einstein."
+        }
+      ]
+    },
+    {
+      "id": "physique-c-e029-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-e029-c",
+      "activites": [
+        {
+          "id": "phy-c-photo-ex01",
+          "enonce": "Énergie d'un photon de longueur d'onde λ = 5e-07 m (h=6,63e-34, c=3e8).",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "E = h·c/λ",
+            "E = 6,63e-34×3e8/5e-07",
+            "En eV : E/1,6e-19"
+          ],
+          "reponseFinale": "E ≈ 3.98e-19 J (≈ 2.49 eV)",
+          "competenceId": "phy-c-photo-c-photon"
+        },
+        {
+          "id": "phy-c-photo-ex02",
+          "enonce": "Énergie d'un photon de longueur d'onde λ = 4e-07 m (h=6,63e-34, c=3e8).",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "E = h·c/λ",
+            "E = 6,63e-34×3e8/4e-07",
+            "En eV : E/1,6e-19"
+          ],
+          "reponseFinale": "E ≈ 4.97e-19 J (≈ 3.11 eV)",
+          "competenceId": "phy-c-photo-c-photon"
+        },
+        {
+          "id": "phy-c-photo-ex03",
+          "enonce": "Énergie d'un photon de longueur d'onde λ = 6.5e-07 m (h=6,63e-34, c=3e8).",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "E = h·c/λ",
+            "E = 6,63e-34×3e8/6.5e-07",
+            "En eV : E/1,6e-19"
+          ],
+          "reponseFinale": "E ≈ 3.06e-19 J (≈ 1.91 eV)",
+          "competenceId": "phy-c-photo-c-photon"
+        },
+        {
+          "id": "phy-c-photo-ex04",
+          "enonce": "Énergie d'un photon de fréquence ν = 6e+14 Hz.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "E = h·ν",
+            "E = 6,63e-34×6e+14"
+          ],
+          "reponseFinale": "E ≈ 3.98e-19 J (≈ 2.49 eV)",
+          "competenceId": "phy-c-photo-c-photon"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-e029-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-c-e029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Si l'énergie du photon est inférieure à W₀ :",
+          "options": [
+            "émission d'électrons",
+            "pas d'émission",
+            "résonance",
+            "ionisation totale"
+          ],
+          "reponse": 1,
+          "explication": "Aucune émission si E < W₀."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-c-photo-ex01",
+      "enonce": "Énergie d'un photon de longueur d'onde λ = 5e-07 m (h=6,63e-34, c=3e8).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·c/λ",
+        "E = 6,63e-34×3e8/5e-07",
+        "En eV : E/1,6e-19"
+      ],
+      "reponseFinale": "E ≈ 3.98e-19 J (≈ 2.49 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex02",
+      "enonce": "Énergie d'un photon de longueur d'onde λ = 4e-07 m (h=6,63e-34, c=3e8).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·c/λ",
+        "E = 6,63e-34×3e8/4e-07",
+        "En eV : E/1,6e-19"
+      ],
+      "reponseFinale": "E ≈ 4.97e-19 J (≈ 3.11 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex03",
+      "enonce": "Énergie d'un photon de longueur d'onde λ = 6.5e-07 m (h=6,63e-34, c=3e8).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·c/λ",
+        "E = 6,63e-34×3e8/6.5e-07",
+        "En eV : E/1,6e-19"
+      ],
+      "reponseFinale": "E ≈ 3.06e-19 J (≈ 1.91 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex04",
+      "enonce": "Énergie d'un photon de fréquence ν = 6e+14 Hz.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·ν",
+        "E = 6,63e-34×6e+14"
+      ],
+      "reponseFinale": "E ≈ 3.98e-19 J (≈ 2.49 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex05",
+      "enonce": "Énergie d'un photon de fréquence ν = 5e+14 Hz.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·ν",
+        "E = 6,63e-34×5e+14"
+      ],
+      "reponseFinale": "E ≈ 3.31e-19 J (≈ 2.07 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex06",
+      "enonce": "Métal de travail d'extraction W₀ = 2 eV, éclairé par λ = 4e-07 m. Énergie cinétique max des électrons ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Ec = h·c/λ − W₀",
+        "E_photon = 3.11 eV",
+        "Ec = 3.11 − 2"
+      ],
+      "reponseFinale": "Ec ≈ 1.11 eV",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex07",
+      "enonce": "Métal de travail d'extraction W₀ = 1.5 eV, éclairé par λ = 5e-07 m. Énergie cinétique max des électrons ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Ec = h·c/λ − W₀",
+        "E_photon = 2.49 eV",
+        "Ec = 2.49 − 1.5"
+      ],
+      "reponseFinale": "Ec ≈ 0.99 eV",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex08",
+      "enonce": "Travail d'extraction W₀ = 2 eV. Fréquence seuil ν₀ = W₀/h ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ν₀ = W₀/h",
+        "ν₀ = 2×1,6e-19/6,63e-34"
+      ],
+      "reponseFinale": "ν₀ ≈ 4.83e+14 Hz",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex09",
+      "enonce": "Travail d'extraction W₀ = 3 eV. Fréquence seuil ν₀ = W₀/h ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ν₀ = W₀/h",
+        "ν₀ = 3×1,6e-19/6,63e-34"
+      ],
+      "reponseFinale": "ν₀ ≈ 7.24e+14 Hz",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex10",
+      "enonce": "Travail d'extraction W₀ = 1.8 eV. Fréquence seuil ν₀ = W₀/h ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "ν₀ = W₀/h",
+        "ν₀ = 1.8×1,6e-19/6,63e-34"
+      ],
+      "reponseFinale": "ν₀ ≈ 4.34e+14 Hz",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex11",
+      "enonce": "L'effet photoélectrique se produit si :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "l'énergie du photon dépasse le travail d'extraction",
+        "ν ≥ ν₀ (ou λ ≤ λ₀)"
+      ],
+      "reponseFinale": "si ν ≥ ν₀ (E ≥ W₀)",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex12",
+      "enonce": "L'énergie d'un photon est proportionnelle à :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = h·ν",
+        "à sa fréquence ν"
+      ],
+      "reponseFinale": "sa fréquence ν (E = hν)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex13",
+      "enonce": "1 eV vaut en joules :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "1 eV = 1,6×10⁻¹⁹ J"
+      ],
+      "reponseFinale": "1,6×10⁻¹⁹ J",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex14",
+      "enonce": "La constante de Planck h vaut :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "h = 6,63×10⁻³⁴ J·s"
+      ],
+      "reponseFinale": "6,63×10⁻³⁴ J·s",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex15",
+      "enonce": "Énergie d'un photon de longueur d'onde λ = 3e-07 m.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·c/λ"
+      ],
+      "reponseFinale": "E ≈ 6.63e-19 J (≈ 4.14 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex16",
+      "enonce": "Énergie d'un photon de longueur d'onde λ = 6e-07 m.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·c/λ"
+      ],
+      "reponseFinale": "E ≈ 3.31e-19 J (≈ 2.07 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex17",
+      "enonce": "Énergie d'un photon de longueur d'onde λ = 4.5e-07 m.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = h·c/λ"
+      ],
+      "reponseFinale": "E ≈ 4.42e-19 J (≈ 2.76 eV)",
+      "competenceId": "phy-c-photo-c-photon"
+    },
+    {
+      "id": "phy-c-photo-ex18",
+      "enonce": "Travail d'extraction W₀ = 4 eV. Longueur d'onde seuil λ₀ = hc/W₀ ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "λ₀ = h·c/W₀",
+        "W₀ = 4×1,6e-19 J"
+      ],
+      "reponseFinale": "λ₀ ≈ 3.11e-07 m",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex19",
+      "enonce": "Travail d'extraction W₀ = 2.5 eV. Longueur d'onde seuil λ₀ = hc/W₀ ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "λ₀ = h·c/W₀",
+        "W₀ = 2.5×1,6e-19 J"
+      ],
+      "reponseFinale": "λ₀ ≈ 4.97e-07 m",
+      "competenceId": "phy-c-photo-c-seuil"
+    },
+    {
+      "id": "phy-c-photo-ex20",
+      "enonce": "Plus la fréquence d'un photon est grande, plus son énergie est :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "E = hν croît avec ν"
+      ],
+      "reponseFinale": "grande",
+      "competenceId": "phy-c-photo-c-photon"
+    }
+  ],
+  "estExercices": true
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u013",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Expression de l'information génétique (3/3)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Expression de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u013-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "ARN de transfert (ARNt)",
+          "verso": "apporte les acides aminés et porte l'anticodon",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Épissage",
+          "verso": "élimine les introns et réunit les exons",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Propriétés du code",
+          "verso": "universel et dégénéré",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "ARN de transfert (ARNt) ?",
+          "options": [
+            "calice (sépales) et corolle (pétales)",
+            "assure les échanges entre mère et fœtus",
+            "apporte les acides aminés et porte l'anticodon",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines"
+          ],
+          "reponse": 2,
+          "explication": "apporte les acides aminés et porte l'anticodon"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Épissage ?",
+          "options": [
+            "élimine les introns et réunit les exons",
+            "9 : 3 : 3 : 1",
+            "A, T, G, C",
+            "cellule différenciée qui ne se divise plus (perte irréparable)"
+          ],
+          "reponse": 0,
+          "explication": "élimine les introns et réunit les exons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Propriétés du code ?",
+          "options": [
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "universel et dégénéré",
+            "testicules (mâle) et ovaires (femelle)",
+            "moelle épinière + encéphale"
+          ],
+          "reponse": 1,
+          "explication": "universel et dégénéré"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "ARN de transfert (ARNt)",
+      "verso": "apporte les acides aminés et porte l'anticodon"
+    },
+    {
+      "recto": "Épissage",
+      "verso": "élimine les introns et réunit les exons"
+    },
+    {
+      "recto": "Propriétés du code",
+      "verso": "universel et dégénéré"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "ARN de transfert (ARNt)",
+      "verso": "apporte les acides aminés et porte l'anticodon",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Épissage",
+      "verso": "élimine les introns et réunit les exons",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Propriétés du code",
+      "verso": "universel et dégénéré",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

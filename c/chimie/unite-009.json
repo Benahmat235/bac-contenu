@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u009",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Acides carboxyliques et leurs dérivés (2/2)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acides carboxyliques et leurs dérivés",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u009-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Groupe ester",
+          "verso": "−COO− (−CO−O−)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acidité",
+          "verso": "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réaction avec une base",
+          "verso": "acide + base forte → carboxylate + eau",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe ester ?",
+          "options": [
+            "−COO− (−CO−O−)",
+            "diminue au cours du temps (réactifs consommés)",
+            "se dissocie totalement dans l'eau",
+            "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)"
+          ],
+          "reponse": 0,
+          "explication": "−COO− (−CO−O−)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Acidité ?",
+          "options": [
+            "ester + base → carboxylate (savon) + alcool (totale)",
+            "pH + pOH = 14 (25 °C)",
+            "pH ≈ pKa quand [base] = [acide]",
+            "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)"
+          ],
+          "reponse": 3,
+          "explication": "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réaction avec une base ?",
+          "options": [
+            "acide + base forte → carboxylate + eau",
+            "C = 10^(−pH)",
+            "acide d'autant plus fort que le pKa est petit",
+            "visualise les conformations autour d'une liaison C–C"
+          ],
+          "reponse": 0,
+          "explication": "acide + base forte → carboxylate + eau"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Groupe ester",
+      "verso": "−COO− (−CO−O−)"
+    },
+    {
+      "recto": "Acidité",
+      "verso": "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)"
+    },
+    {
+      "recto": "Réaction avec une base",
+      "verso": "acide + base forte → carboxylate + eau"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Groupe ester",
+      "verso": "−COO− (−CO−O−)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Acidité",
+      "verso": "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réaction avec une base",
+      "verso": "acide + base forte → carboxylate + eau",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u011",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "English Tenses: Present & Past (3/3)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u011-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "When do we use the Past Continuous?",
+          "reponseAttendue": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give the past participle of: go, see, write, take",
+          "reponseAttendue": "gone, seen, written, taken",
+          "modeReponse": "auto_evaluation",
+          "explication": "gone, seen, written, taken"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give the past participle of: be, have, do, make",
+          "reponseAttendue": "been, had, done, made",
+          "modeReponse": "auto_evaluation",
+          "explication": "been, had, done, made"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Past Continuous?",
+          "options": [
+            "renewable energy",
+            "gone, seen, written, taken",
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+            "However, nevertheless, on the other hand, whereas."
+          ],
+          "reponse": 2,
+          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give the past participle of: go, see, write, take ?",
+          "options": [
+            "prevention",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "baccalaureate / high school diploma",
+            "gone, seen, written, taken"
+          ],
+          "reponse": 3,
+          "explication": "gone, seen, written, taken"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give the past participle of: be, have, do, make ?",
+          "options": [
+            "been, had, done, made",
+            "'The letter was written (by her).'",
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 0,
+          "explication": "been, had, done, made"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "When do we use the Past Continuous?",
+      "verso": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+    },
+    {
+      "recto": "Give the past participle of: go, see, write, take",
+      "verso": "gone, seen, written, taken"
+    },
+    {
+      "recto": "Give the past participle of: be, have, do, make",
+      "verso": "been, had, done, made"
+    }
+  ]
+}

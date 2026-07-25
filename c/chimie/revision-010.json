@@ -1,0 +1,67 @@
+{
+  "id": "chimie-c-r010",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-r010-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-r010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Estérification ?",
+          "options": [
+            "pH = pKa + log([base]/[acide])",
+            "C = 10^(−pH)",
+            "C = 10^(pH−14)",
+            "acide + alcool ⇌ ester + eau (lente et limitée)"
+          ],
+          "reponse": 3,
+          "explication": "acide + alcool ⇌ ester + eau (lente et limitée)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de fonction ?",
+          "options": [
+            "même formule brute, fonctions différentes",
+            "pente de la tangente à la courbe [A] = f(t)",
+            "diffèrent par la disposition de la chaîne carbonée",
+            "se dissocie totalement dans l'eau"
+          ],
+          "reponse": 0,
+          "explication": "même formule brute, fonctions différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Alcool tertiaire ?",
+          "options": [
+            "durée pour consommer la moitié du réactif limitant",
+            "non oxydable par oxydation ménagée",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "ester + base → carboxylate (savon) + alcool (totale)"
+          ],
+          "reponse": 1,
+          "explication": "non oxydable par oxydation ménagée"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

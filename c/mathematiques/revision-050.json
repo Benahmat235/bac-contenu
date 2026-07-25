@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r050",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 50,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r050-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r050-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Primitive de xⁿ (n≠−1) ?",
+          "options": [
+            "1/(2√x)",
+            "celle du rapport des termes de plus haut degré",
+            "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
+            "xⁿ⁺¹/(n+1) + c"
+          ],
+          "reponse": 3,
+          "explication": "xⁿ⁺¹/(n+1) + c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivées de cos x et sin x ?",
+          "options": [
+            "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+            "(√u)' = u'/(2√u)",
+            "(cos x)' = −sin x ; (sin x)' = cos x",
+            "Les rapports se multiplient et les angles s'additionnent"
+          ],
+          "reponse": 2,
+          "explication": "(cos x)' = −sin x ; (sin x)' = cos x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Barycentre de n points pondérés ?",
+          "options": [
+            "e⁰ = 1",
+            "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+            "u'/u",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du"
+          ],
+          "reponse": 1,
+          "explication": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

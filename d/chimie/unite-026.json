@@ -1,0 +1,143 @@
+{
+  "id": "chimie-d-u026",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Amines et amides (1/2)",
+  "ordre": 26,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Amines et amides",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u026-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u026-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Groupe des amines",
+          "verso": "amine primaire −NH₂ (dérivé de NH₃)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Caractère des amines",
+          "verso": "basiques (doublet non liant de l'azote)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Classe des amines",
+          "verso": "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u026-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u026-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe des amines ?",
+          "options": [
+            "C = 10^(−pH)",
+            "amine primaire −NH₂ (dérivé de NH₃)",
+            "celui dont le pKa est le plus petit",
+            "[H₃O⁺] = 10^(−pH)"
+          ],
+          "reponse": 1,
+          "explication": "amine primaire −NH₂ (dérivé de NH₃)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Caractère des amines ?",
+          "options": [
+            "basiques (doublet non liant de l'azote)",
+            "alcool 1aire → aldéhyde → acide carboxylique",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "capte totalement des protons (ex. NaOH)"
+          ],
+          "reponse": 0,
+          "explication": "basiques (doublet non liant de l'azote)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Classe des amines ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "amine primaire −NH₂ (dérivé de NH₃)",
+            "amine + H⁺ → R−NH₃⁺",
+            "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)"
+          ],
+          "reponse": 3,
+          "explication": "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Groupe des amines",
+      "verso": "amine primaire −NH₂ (dérivé de NH₃)"
+    },
+    {
+      "recto": "Caractère des amines",
+      "verso": "basiques (doublet non liant de l'azote)"
+    },
+    {
+      "recto": "Classe des amines",
+      "verso": "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Groupe des amines",
+      "verso": "amine primaire −NH₂ (dérivé de NH₃)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Caractère des amines",
+      "verso": "basiques (doublet non liant de l'azote)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Classe des amines",
+      "verso": "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Les amines : résumé de cours",
+      "url": "https://youtu.be/aW6Xjouf-Bw",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Nomenclature des amines",
+      "url": "https://youtu.be/j9WS3vC7Fhc",
+      "type": "video",
+      "chaine": "e-profs Physique Chimie",
+      "auteur": "e-profs Physique Chimie"
+    }
+  ]
+}

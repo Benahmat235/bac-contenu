@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r040",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 40,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r040-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r040-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Écriture d'une similitude directe ?",
+          "options": [
+            "u'·eᵘ",
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "z'=az+b, avec a∈ℂ*",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)"
+          ],
+          "reponse": 2,
+          "explication": "z'=az+b, avec a∈ℂ*"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de √u ?",
+          "options": [
+            "z' = k·z (k réel non nul = rapport)",
+            "eᵃ·eᵇ = eᵃ⁺ᵇ",
+            "f est continue en a si lim(x→a) f(x) = f(a)",
+            "(√u)' = u'/(2√u)"
+          ],
+          "reponse": 3,
+          "explication": "(√u)' = u'/(2√u)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un quotient ?",
+          "options": [
+            "eˣ",
+            "ln(a/b) = ln a − ln b",
+            "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)",
+            "celle du rapport des termes de plus haut degré"
+          ],
+          "reponse": 1,
+          "explication": "ln(a/b) = ln a − ln b"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

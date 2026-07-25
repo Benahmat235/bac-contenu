@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u024",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "La fonction alcool et ses dérivés (2/2)",
+  "ordre": 24,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La fonction alcool et ses dérivés",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u024-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u024-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Oxydation alcool secondaire",
+          "verso": "alcool 2aire → cétone",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Alcool tertiaire",
+          "verso": "non oxydable par oxydation ménagée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Test des aldéhydes",
+          "verso": "réduisent la liqueur de Fehling / le réactif de Tollens",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u024-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u024-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Oxydation alcool secondaire ?",
+          "options": [
+            "alcool 2aire → cétone",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "pH = 7 : [H₃O⁺] = [OH⁻]"
+          ],
+          "reponse": 0,
+          "explication": "alcool 2aire → cétone"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Alcool tertiaire ?",
+          "options": [
+            "même formule brute, fonctions différentes",
+            "espèce qui capte un proton H⁺",
+            "pH = −log[H₃O⁺]",
+            "non oxydable par oxydation ménagée"
+          ],
+          "reponse": 3,
+          "explication": "non oxydable par oxydation ménagée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Test des aldéhydes ?",
+          "options": [
+            "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "visualise les conformations autour d'une liaison C–C",
+            "même formule brute, fonctions différentes"
+          ],
+          "reponse": 1,
+          "explication": "réduisent la liqueur de Fehling / le réactif de Tollens"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Oxydation alcool secondaire",
+      "verso": "alcool 2aire → cétone"
+    },
+    {
+      "recto": "Alcool tertiaire",
+      "verso": "non oxydable par oxydation ménagée"
+    },
+    {
+      "recto": "Test des aldéhydes",
+      "verso": "réduisent la liqueur de Fehling / le réactif de Tollens"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Oxydation alcool secondaire",
+      "verso": "alcool 2aire → cétone",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Alcool tertiaire",
+      "verso": "non oxydable par oxydation ménagée",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Test des aldéhydes",
+      "verso": "réduisent la liqueur de Fehling / le réactif de Tollens",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

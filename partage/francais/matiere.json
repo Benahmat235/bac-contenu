@@ -9,60 +9,147 @@
   "description": "Littérature française et africaine, mouvements littéraires, genres, méthodologie (dissertation, commentaire, résumé).",
   "unites": [
     {
-      "id": "fr-u01",
-      "titre": "Généralités sur la littérature",
+      "id": "francais-u001",
+      "titre": "Généralités sur la littérature (1/3)",
       "ordre": 1,
-      "fichier": "partage/francais/unite-01.json",
+      "fichier": "partage/francais/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "fr-u02",
-      "titre": "Les mouvements littéraires",
+      "id": "francais-u002",
+      "titre": "Généralités sur la littérature (2/3)",
       "ordre": 2,
-      "fichier": "partage/francais/unite-02.json",
+      "fichier": "partage/francais/unite-002.json",
       "prerequis": []
     },
     {
-      "id": "fr-u03",
-      "titre": "Les genres littéraires en détail",
+      "id": "francais-u003",
+      "titre": "Généralités sur la littérature (3/3)",
       "ordre": 3,
-      "fichier": "partage/francais/unite-03.json",
+      "fichier": "partage/francais/unite-003.json",
       "prerequis": []
     },
     {
-      "id": "fr-rev04",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "francais-r004",
+      "titre": "Révision",
       "ordre": 4,
-      "fichier": "partage/francais/revision-04.json",
+      "fichier": "partage/francais/revision-004.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "fr-u05",
-      "titre": "La littérature africaine et tchadienne",
+      "id": "francais-u005",
+      "titre": "Les mouvements littéraires (1/3)",
       "ordre": 5,
-      "fichier": "partage/francais/unite-05.json",
+      "fichier": "partage/francais/unite-005.json",
       "prerequis": []
     },
     {
-      "id": "fr-u06",
-      "titre": "Méthodologie : la dissertation",
+      "id": "francais-u006",
+      "titre": "Les mouvements littéraires (2/3)",
       "ordre": 6,
-      "fichier": "partage/francais/unite-06.json",
+      "fichier": "partage/francais/unite-006.json",
       "prerequis": []
     },
     {
-      "id": "fr-u07",
-      "titre": "Méthodologie : le commentaire composé et le résumé",
+      "id": "francais-u007",
+      "titre": "Les mouvements littéraires (3/3)",
       "ordre": 7,
-      "fichier": "partage/francais/unite-07.json",
+      "fichier": "partage/francais/unite-007.json",
       "prerequis": []
     },
     {
-      "id": "fr-rev08",
-      "titre": "Révision : leçons 4 à 6",
+      "id": "francais-r008",
+      "titre": "Révision",
       "ordre": 8,
-      "fichier": "partage/francais/revision-08.json",
+      "fichier": "partage/francais/revision-008.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "francais-u009",
+      "titre": "Les genres littéraires en détail (1/3)",
+      "ordre": 9,
+      "fichier": "partage/francais/unite-009.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-u010",
+      "titre": "Les genres littéraires en détail (2/3)",
+      "ordre": 10,
+      "fichier": "partage/francais/unite-010.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-u011",
+      "titre": "Les genres littéraires en détail (3/3)",
+      "ordre": 11,
+      "fichier": "partage/francais/unite-011.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-r012",
+      "titre": "Révision",
+      "ordre": 12,
+      "fichier": "partage/francais/revision-012.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "francais-u013",
+      "titre": "La littérature africaine et tchadienne (1/2)",
+      "ordre": 13,
+      "fichier": "partage/francais/unite-013.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-u014",
+      "titre": "La littérature africaine et tchadienne (2/2)",
+      "ordre": 14,
+      "fichier": "partage/francais/unite-014.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-u015",
+      "titre": "Méthodologie : la dissertation (1/2)",
+      "ordre": 15,
+      "fichier": "partage/francais/unite-015.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-r016",
+      "titre": "Révision",
+      "ordre": 16,
+      "fichier": "partage/francais/revision-016.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "francais-u017",
+      "titre": "Méthodologie : la dissertation (2/2)",
+      "ordre": 17,
+      "fichier": "partage/francais/unite-017.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-u018",
+      "titre": "Méthodologie : le commentaire composé et le résumé (1/2)",
+      "ordre": 18,
+      "fichier": "partage/francais/unite-018.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-u019",
+      "titre": "Méthodologie : le commentaire composé et le résumé (2/2)",
+      "ordre": 19,
+      "fichier": "partage/francais/unite-019.json",
+      "prerequis": []
+    },
+    {
+      "id": "francais-r020",
+      "titre": "Révision",
+      "ordre": 20,
+      "fichier": "partage/francais/revision-020.json",
       "prerequis": [],
       "estRevision": true
     }

@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-c-u029",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dérivations et étude de fonctions (1/3)",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dérivations et étude de fonctions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u029-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u029-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dérivée de xⁿ",
+          "verso": "n·xⁿ⁻¹",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de 1/x",
+          "verso": "−1/x²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de √x",
+          "verso": "1/(2√x)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivées de cos x et sin x",
+          "verso": "(cos x)' = −sin x ; (sin x)' = cos x",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u029-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de xⁿ ?",
+          "options": [
+            "z' = −z + b, centre d'affixe b/2",
+            "n·xⁿ⁻¹",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "u·v = xᵤxᵥ + yᵤyᵥ"
+          ],
+          "reponse": 1,
+          "explication": "n·xⁿ⁻¹"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de 1/x ?",
+          "options": [
+            "ln(a/b) = ln a − ln b",
+            "−1/x²",
+            "ln(eˣ) = x et e^(ln x) = x",
+            "(uv)' = u'v + uv'"
+          ],
+          "reponse": 1,
+          "explication": "−1/x²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de √x ?",
+          "options": [
+            "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+            "t_v ∘ t_u = t_{u+v}",
+            "1/(2√x)",
+            "−1/x²"
+          ],
+          "reponse": 2,
+          "explication": "1/(2√x)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dérivée de xⁿ",
+      "verso": "n·xⁿ⁻¹"
+    },
+    {
+      "recto": "Dérivée de 1/x",
+      "verso": "−1/x²"
+    },
+    {
+      "recto": "Dérivée de √x",
+      "verso": "1/(2√x)"
+    },
+    {
+      "recto": "Dérivées de cos x et sin x",
+      "verso": "(cos x)' = −sin x ; (sin x)' = cos x"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dérivée de xⁿ",
+      "verso": "n·xⁿ⁻¹",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de 1/x",
+      "verso": "−1/x²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de √x",
+      "verso": "1/(2√x)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivées de cos x et sin x",
+      "verso": "(cos x)' = −sin x ; (sin x)' = cos x",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La dérivation - Terminale",
+      "url": "https://youtu.be/XAgdHblbajE",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Dérivée de fonctions",
+      "url": "https://youtu.be/IvV0j6JE3V0",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    }
+  ]
+}

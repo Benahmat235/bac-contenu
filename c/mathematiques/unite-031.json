@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u031",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dérivations et étude de fonctions (2/3)",
+  "ordre": 31,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dérivations et étude de fonctions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u031-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u031-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dérivée d'un produit",
+          "verso": "(uv)' = u'v + uv'",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'un quotient",
+          "verso": "(u/v)' = (u'v − uv')/v²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'une puissance",
+          "verso": "(uⁿ)' = n·u'·uⁿ⁻¹",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u031-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u031-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'un produit ?",
+          "options": [
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "P(A∪B)=P(A)+P(B)−P(A∩B)",
+            "(uv)' = u'v + uv'",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+          ],
+          "reponse": 2,
+          "explication": "(uv)' = u'v + uv'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'un quotient ?",
+          "options": [
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "(u/v)' = (u'v − uv')/v²",
+            "n·xⁿ⁻¹",
+            "a divise b s'il existe k entier tel que b = k·a"
+          ],
+          "reponse": 1,
+          "explication": "(u/v)' = (u'v − uv')/v²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une puissance ?",
+          "options": [
+            "k=|a|",
+            "n·(M − A) = 0",
+            "f est continue en a si lim(x→a) f(x) = f(a)",
+            "(uⁿ)' = n·u'·uⁿ⁻¹"
+          ],
+          "reponse": 3,
+          "explication": "(uⁿ)' = n·u'·uⁿ⁻¹"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dérivée d'un produit",
+      "verso": "(uv)' = u'v + uv'"
+    },
+    {
+      "recto": "Dérivée d'un quotient",
+      "verso": "(u/v)' = (u'v − uv')/v²"
+    },
+    {
+      "recto": "Dérivée d'une puissance",
+      "verso": "(uⁿ)' = n·u'·uⁿ⁻¹"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dérivée d'un produit",
+      "verso": "(uv)' = u'v + uv'",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée d'un quotient",
+      "verso": "(u/v)' = (u'v − uv')/v²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée d'une puissance",
+      "verso": "(uⁿ)' = n·u'·uⁿ⁻¹",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u028",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Cinétique chimique (2/2)",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Cinétique chimique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u028-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u028-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Catalyseur",
+          "verso": "accélère la réaction sans être consommé ni modifier l'état final",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vitesse instantanée",
+          "verso": "pente de la tangente à la courbe [A] = f(t)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Évolution de la vitesse",
+          "verso": "diminue au cours du temps (réactifs consommés)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u028-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Catalyseur ?",
+          "options": [
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+            "acide + alcool ⇌ ester + eau (lente et limitée)",
+            "pH = 14 + log C ([OH⁻] = C)",
+            "accélère la réaction sans être consommé ni modifier l'état final"
+          ],
+          "reponse": 3,
+          "explication": "accélère la réaction sans être consommé ni modifier l'état final"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse instantanée ?",
+          "options": [
+            "C = 10^(pH−14)",
+            "pente de la tangente à la courbe [A] = f(t)",
+            "non oxydable par oxydation ménagée",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]"
+          ],
+          "reponse": 1,
+          "explication": "pente de la tangente à la courbe [A] = f(t)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Évolution de la vitesse ?",
+          "options": [
+            "diminue au cours du temps (réactifs consommés)",
+            "diffèrent par la disposition de la chaîne carbonée",
+            "non oxydable par oxydation ménagée",
+            "acide d'autant plus fort que le pKa est petit"
+          ],
+          "reponse": 0,
+          "explication": "diminue au cours du temps (réactifs consommés)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Catalyseur",
+      "verso": "accélère la réaction sans être consommé ni modifier l'état final"
+    },
+    {
+      "recto": "Vitesse instantanée",
+      "verso": "pente de la tangente à la courbe [A] = f(t)"
+    },
+    {
+      "recto": "Évolution de la vitesse",
+      "verso": "diminue au cours du temps (réactifs consommés)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Catalyseur",
+      "verso": "accélère la réaction sans être consommé ni modifier l'état final",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vitesse instantanée",
+      "verso": "pente de la tangente à la courbe [A] = f(t)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Évolution de la vitesse",
+      "verso": "diminue au cours du temps (réactifs consommés)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

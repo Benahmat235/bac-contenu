@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u021",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Similitudes (2/3)",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Similitudes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u021-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u021-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+          "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Composée de deux similitudes directes",
+          "verso": "Les rapports se multiplient et les angles s'additionnent",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réciproque d'une similitude directe",
+          "verso": "Rapport 1/k et angle −α",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u021-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Similitude directe déterminée par A↦A' et B↦B' ?",
+          "options": [
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "P(A)=Card(A)/Card(Ω)",
+            "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+            "si lim f = l (réel) en ±∞, alors y = l"
+          ],
+          "reponse": 2,
+          "explication": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Composée de deux similitudes directes ?",
+          "options": [
+            "ln|u| + c",
+            "Les rapports se multiplient et les angles s'additionnent",
+            "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+            "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]"
+          ],
+          "reponse": 1,
+          "explication": "Les rapports se multiplient et les angles s'additionnent"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réciproque d'une similitude directe ?",
+          "options": [
+            "composée = translation",
+            "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+            "z'−ω=keⁱᵅ(z−ω)",
+            "Rapport 1/k et angle −α"
+          ],
+          "reponse": 3,
+          "explication": "Rapport 1/k et angle −α"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+      "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+    },
+    {
+      "recto": "Composée de deux similitudes directes",
+      "verso": "Les rapports se multiplient et les angles s'additionnent"
+    },
+    {
+      "recto": "Réciproque d'une similitude directe",
+      "verso": "Rapport 1/k et angle −α"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+      "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Composée de deux similitudes directes",
+      "verso": "Les rapports se multiplient et les angles s'additionnent",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réciproque d'une similitude directe",
+      "verso": "Rapport 1/k et angle −α",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

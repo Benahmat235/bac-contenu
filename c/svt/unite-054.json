@@ -1,0 +1,143 @@
+{
+  "id": "svt-c-u054",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La communication hormonale (1/3)",
+  "ordre": 54,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication hormonale",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u054-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u054-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Hormone",
+          "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glande endocrine / exocrine",
+          "verso": "endocrine → sang ; exocrine → canal excréteur",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glycémie",
+          "verso": "taux de glucose sanguin ≈ 1 g/L",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u054-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u054-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Hormone ?",
+          "options": [
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "membrane plasmique, cytoplasme, noyau",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "génotype = allèles ; phénotype = caractère observé"
+          ],
+          "reponse": 2,
+          "explication": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Glande endocrine / exocrine ?",
+          "options": [
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+            "endocrine → sang ; exocrine → canal excréteur"
+          ],
+          "reponse": 3,
+          "explication": "endocrine → sang ; exocrine → canal excréteur"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Glycémie ?",
+          "options": [
+            "moelle épinière + encéphale",
+            "endocrine → sang ; exocrine → canal excréteur",
+            "taux de glucose sanguin ≈ 1 g/L",
+            "zone de contact entre deux neurones"
+          ],
+          "reponse": 2,
+          "explication": "taux de glucose sanguin ≈ 1 g/L"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Hormone",
+      "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+    },
+    {
+      "recto": "Glande endocrine / exocrine",
+      "verso": "endocrine → sang ; exocrine → canal excréteur"
+    },
+    {
+      "recto": "Glycémie",
+      "verso": "taux de glucose sanguin ≈ 1 g/L"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Hormone",
+      "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Glande endocrine / exocrine",
+      "verso": "endocrine → sang ; exocrine → canal excréteur",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Glycémie",
+      "verso": "taux de glucose sanguin ≈ 1 g/L",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La régulation de la glycémie - SVT Terminale",
+      "url": "https://youtu.be/CeRWzkVh7a4",
+      "type": "video",
+      "chaine": "Mon Cours De SVT",
+      "auteur": "Mon Cours De SVT"
+    },
+    {
+      "titre": "La régulation de la glycémie",
+      "url": "https://youtu.be/cQE7eiee80I",
+      "type": "video",
+      "chaine": "Joyez SVT",
+      "auteur": "Joyez SVT"
+    }
+  ]
+}

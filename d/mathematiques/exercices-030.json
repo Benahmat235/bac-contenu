@@ -1,0 +1,373 @@
+{
+  "id": "mathematiques-d-e030",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Intégrales — Exercices",
+  "ordre": 30,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Intégrales",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-d-e030-methode",
+      "titre": "Méthode de calcul d'une intégrale",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-e030-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Dans quel ordre calculer une intégrale définie ?",
+          "etapes": [
+            "Identifier la structure de l'intégrande et choisir une technique",
+            "Déterminer une primitive ou effectuer le changement de variable",
+            "Évaluer la primitive aux deux bornes",
+            "Calculer F(b) − F(a) et simplifier exactement",
+            "Contrôler le signe et l'ordre de grandeur"
+          ],
+          "ordreCorrect": [
+            "Identifier la structure de l'intégrande et choisir une technique",
+            "Déterminer une primitive ou effectuer le changement de variable",
+            "Évaluer la primitive aux deux bornes",
+            "Calculer F(b) − F(a) et simplifier exactement",
+            "Contrôler le signe et l'ordre de grandeur"
+          ],
+          "explication": "Le contrôle final permet de repérer une inversion des bornes ou une primitive incorrecte."
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-e030-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-e030-c",
+      "activites": [
+        {
+          "id": "math-d-int-ex01",
+          "enonce": "Calculer I = ∫₀²(3x² + 2) dx.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Une primitive de 3x² + 2 est F(x)=x³+2x.",
+            "I=F(2)−F(0).",
+            "I=(8+4)−0=12."
+          ],
+          "reponseFinale": "I = 12",
+          "competenceId": "math-d-c-primitives"
+        },
+        {
+          "id": "math-d-int-ex02",
+          "enonce": "Calculer I = ∫₁³(2x − 1) dx.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Une primitive est F(x)=x²−x.",
+            "I=F(3)−F(1).",
+            "I=(9−3)−(1−1)=6."
+          ],
+          "reponseFinale": "I = 6",
+          "competenceId": "math-d-c-primitives"
+        },
+        {
+          "id": "math-d-int-ex03",
+          "enonce": "Calculer I = ∫₀^π sin x dx.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Une primitive de sin x est −cos x.",
+            "I=[−cos x]₀^π.",
+            "I=−cos π−(−cos 0)=1+1=2."
+          ],
+          "reponseFinale": "I = 2",
+          "competenceId": "math-d-c-primitives"
+        },
+        {
+          "id": "math-d-int-ex04",
+          "enonce": "Calculer I = ∫₀¹ eˣ dx.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La fonction eˣ est sa propre primitive.",
+            "I=[eˣ]₀¹=e¹−e⁰.",
+            "I=e−1."
+          ],
+          "reponseFinale": "I = e − 1",
+          "competenceId": "math-d-c-primitives"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-e030-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "mathematiques-d-e030-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La valeur exacte de ∫₀¹ x eˣ dx est :",
+          "options": [
+            "0",
+            "1",
+            "e−1",
+            "e"
+          ],
+          "reponse": 1,
+          "explication": "Par parties, [xeˣ]₀¹−∫₀¹eˣdx=e−(e−1)=1."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-d-int-ex01",
+      "enonce": "Calculer I = ∫₀²(3x² + 2) dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Une primitive de 3x² + 2 est F(x)=x³+2x.",
+        "I=F(2)−F(0).",
+        "I=(8+4)−0=12."
+      ],
+      "reponseFinale": "I = 12",
+      "competenceId": "math-d-c-primitives"
+    },
+    {
+      "id": "math-d-int-ex02",
+      "enonce": "Calculer I = ∫₁³(2x − 1) dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Une primitive est F(x)=x²−x.",
+        "I=F(3)−F(1).",
+        "I=(9−3)−(1−1)=6."
+      ],
+      "reponseFinale": "I = 6",
+      "competenceId": "math-d-c-primitives"
+    },
+    {
+      "id": "math-d-int-ex03",
+      "enonce": "Calculer I = ∫₀^π sin x dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Une primitive de sin x est −cos x.",
+        "I=[−cos x]₀^π.",
+        "I=−cos π−(−cos 0)=1+1=2."
+      ],
+      "reponseFinale": "I = 2",
+      "competenceId": "math-d-c-primitives"
+    },
+    {
+      "id": "math-d-int-ex04",
+      "enonce": "Calculer I = ∫₀¹ eˣ dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La fonction eˣ est sa propre primitive.",
+        "I=[eˣ]₀¹=e¹−e⁰.",
+        "I=e−1."
+      ],
+      "reponseFinale": "I = e − 1",
+      "competenceId": "math-d-c-primitives"
+    },
+    {
+      "id": "math-d-int-ex05",
+      "enonce": "Calculer I = ∫₁ᵉ 1/x dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Sur ]0,+∞[, une primitive de 1/x est ln x.",
+        "I=[ln x]₁ᵉ.",
+        "I=ln e−ln 1=1−0=1."
+      ],
+      "reponseFinale": "I = 1",
+      "competenceId": "math-d-c-logarithme"
+    },
+    {
+      "id": "math-d-int-ex06",
+      "enonce": "Calculer I = ∫₋₂² x³ dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La fonction x↦x³ est impaire.",
+        "L'intervalle [−2,2] est symétrique par rapport à 0.",
+        "L'intégrale d'une fonction impaire sur [−a,a] est nulle."
+      ],
+      "reponseFinale": "I = 0",
+      "competenceId": "math-d-c-parite"
+    },
+    {
+      "id": "math-d-int-ex07",
+      "enonce": "Calculer I = ∫₋₁¹(x² + 1) dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La fonction x²+1 est paire, donc I=2∫₀¹(x²+1)dx.",
+        "Une primitive est x³/3+x.",
+        "I=2(1/3+1)=8/3."
+      ],
+      "reponseFinale": "I = 8/3",
+      "competenceId": "math-d-c-parite"
+    },
+    {
+      "id": "math-d-int-ex08",
+      "enonce": "Calculer I = ∫₀¹ 2x/(x²+1) dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Posons u=x²+1 ; alors du=2x dx.",
+        "Les bornes deviennent u(0)=1 et u(1)=2.",
+        "I=∫₁² du/u=[ln u]₁²=ln 2."
+      ],
+      "reponseFinale": "I = ln 2",
+      "competenceId": "math-d-c-changement-variable"
+    },
+    {
+      "id": "math-d-int-ex09",
+      "enonce": "Calculer I = ∫₀¹ x e^(x²) dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Posons u=x² ; du=2x dx, donc x dx=du/2.",
+        "Les bornes restent 0 et 1.",
+        "I=(1/2)∫₀¹eᵘdu=(1/2)[eᵘ]₀¹=(e−1)/2."
+      ],
+      "reponseFinale": "I = (e − 1)/2",
+      "competenceId": "math-d-c-changement-variable"
+    },
+    {
+      "id": "math-d-int-ex10",
+      "enonce": "Calculer I = ∫₀¹(3x + 1)² dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Posons u=3x+1 ; du=3dx, donc dx=du/3.",
+        "Les bornes deviennent 1 et 4.",
+        "I=(1/3)∫₁⁴u²du=[u³/9]₁⁴=(64−1)/9=7."
+      ],
+      "reponseFinale": "I = 7",
+      "competenceId": "math-d-c-changement-variable"
+    },
+    {
+      "id": "math-d-int-ex11",
+      "enonce": "Calculer I = ∫₀¹ x eˣ dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Intégrons par parties avec u=x et v'=eˣ, donc u'=1 et v=eˣ.",
+        "I=[xeˣ]₀¹−∫₀¹eˣdx.",
+        "I=e−(e−1)=1."
+      ],
+      "reponseFinale": "I = 1",
+      "competenceId": "math-d-c-integration-parties"
+    },
+    {
+      "id": "math-d-int-ex12",
+      "enonce": "Calculer I = ∫₁ᵉ ln x dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Par parties, prenons u=ln x et v'=1 ; alors u'=1/x et v=x.",
+        "Une primitive est x ln x−x.",
+        "I=[x ln x−x]₁ᵉ=(e−e)−(0−1)=1."
+      ],
+      "reponseFinale": "I = 1",
+      "competenceId": "math-d-c-integration-parties"
+    },
+    {
+      "id": "math-d-int-ex13",
+      "enonce": "Calculer I = ∫₀^(π/2) x cos x dx.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Par parties, prenons u=x et v'=cos x ; alors u'=1 et v=sin x.",
+        "I=[x sin x]₀^(π/2)−∫₀^(π/2)sin x dx.",
+        "I=π/2−1 car ∫₀^(π/2)sin x dx=[−cos x]₀^(π/2)=1.",
+        "Donc I=π/2−1."
+      ],
+      "reponseFinale": "I = π/2 − 1",
+      "competenceId": "math-d-c-integration-parties"
+    },
+    {
+      "id": "math-d-int-ex14",
+      "enonce": "Calculer I = ∫₀¹ 1/(x+1) dx.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Sur [0,1], x+1>0.",
+        "Une primitive est ln(x+1).",
+        "I=[ln(x+1)]₀¹=ln2−ln1=ln2."
+      ],
+      "reponseFinale": "I = ln 2",
+      "competenceId": "math-d-c-logarithme"
+    },
+    {
+      "id": "math-d-int-ex15",
+      "enonce": "Calculer I = ∫₀¹ 1/((x+1)(x+2)) dx.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Décomposons : 1/((x+1)(x+2))=1/(x+1)−1/(x+2).",
+        "Une primitive est ln(x+1)−ln(x+2).",
+        "I=(ln2−ln3)−(ln1−ln2)=2ln2−ln3=ln(4/3)."
+      ],
+      "reponseFinale": "I = ln(4/3)",
+      "competenceId": "math-d-c-fonctions-rationnelles"
+    },
+    {
+      "id": "math-d-int-ex16",
+      "enonce": "Calculer I = ∫₋₁¹ cos²x dx.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Utilisons cos²x=(1+cos2x)/2.",
+        "Une primitive est x/2+sin(2x)/4.",
+        "I=[x/2+sin(2x)/4]₋₁¹=1+sin2/2."
+      ],
+      "reponseFinale": "I = 1 + (sin 2)/2",
+      "competenceId": "math-d-c-trigonometrie"
+    },
+    {
+      "id": "math-d-int-ex17",
+      "enonce": "Calculer I = ∫₀^π sin²x dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Utilisons sin²x=(1−cos2x)/2.",
+        "Une primitive est x/2−sin(2x)/4.",
+        "I=π/2−0=π/2."
+      ],
+      "reponseFinale": "I = π/2",
+      "competenceId": "math-d-c-trigonometrie"
+    },
+    {
+      "id": "math-d-int-ex18",
+      "enonce": "Pour f(x)=x² sur [0,1], calculer ∫₀¹f et vérifier l'encadrement donné par 0≤f≤1.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Une primitive de x² est x³/3, donc ∫₀¹x²dx=1/3.",
+        "L'inégalité de la moyenne donne 0×1≤∫₀¹f≤1×1.",
+        "On vérifie bien 0≤1/3≤1."
+      ],
+      "reponseFinale": "∫₀¹x² dx = 1/3 et 0 ≤ 1/3 ≤ 1",
+      "competenceId": "math-d-c-inegalite-moyenne"
+    },
+    {
+      "id": "math-d-int-ex19",
+      "enonce": "Calculer l'aire comprise entre y=x et y=x² pour 0≤x≤1.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Sur [0,1], x−x²=x(1−x)≥0.",
+        "L'aire vaut A=∫₀¹(x−x²)dx.",
+        "A=[x²/2−x³/3]₀¹=1/2−1/3=1/6."
+      ],
+      "reponseFinale": "A = 1/6 unité d'aire",
+      "competenceId": "math-d-c-aire"
+    },
+    {
+      "id": "math-d-int-ex20",
+      "enonce": "Calculer I = ∫₀^(2π)(sin x + 2) dx.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Par linéarité, I=∫₀^(2π)sin x dx+∫₀^(2π)2dx.",
+        "Sur une période complète, ∫₀^(2π)sin x dx=0.",
+        "La seconde intégrale vaut 2×2π=4π."
+      ],
+      "reponseFinale": "I = 4π",
+      "competenceId": "math-d-c-periodicite"
+    }
+  ],
+  "estExercices": true
+}

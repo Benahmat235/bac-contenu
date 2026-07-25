@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u018",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Brassage génétique et méiose (3/3)",
+  "ordre": 18,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Brassage génétique et méiose",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u018-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u018-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nombre de gamètes",
+          "verso": "2^n types de gamètes (n = nombre de paires)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fécondation",
+          "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rôle méiose + fécondation",
+          "verso": "maintiennent constant le nombre de chromosomes de l'espèce",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u018-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u018-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombre de gamètes ?",
+          "options": [
+            "2^n types de gamètes (n = nombre de paires)",
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+            "premières divisions du zygote",
+            "cellule différenciée qui ne se divise plus (perte irréparable)"
+          ],
+          "reponse": 0,
+          "explication": "2^n types de gamètes (n = nombre de paires)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fécondation ?",
+          "options": [
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+            "plantes à fleurs (reproduction dans la fleur)",
+            "gène porté par un chromosome sexuel (souvent X)"
+          ],
+          "reponse": 1,
+          "explication": "fusion de 2 gamètes (n + n = 2n) donnant le zygote"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rôle méiose + fécondation ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "donneur : O ; receveur : AB",
+            "taux de glucose sanguin ≈ 1 g/L",
+            "maintiennent constant le nombre de chromosomes de l'espèce"
+          ],
+          "reponse": 3,
+          "explication": "maintiennent constant le nombre de chromosomes de l'espèce"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nombre de gamètes",
+      "verso": "2^n types de gamètes (n = nombre de paires)"
+    },
+    {
+      "recto": "Fécondation",
+      "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote"
+    },
+    {
+      "recto": "Rôle méiose + fécondation",
+      "verso": "maintiennent constant le nombre de chromosomes de l'espèce"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nombre de gamètes",
+      "verso": "2^n types de gamètes (n = nombre de paires)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fécondation",
+      "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rôle méiose + fécondation",
+      "verso": "maintiennent constant le nombre de chromosomes de l'espèce",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

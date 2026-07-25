@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u028",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Intégrales (3/3)",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Intégrales",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u028-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u028-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Changement affine u = αx + β, avec α≠0",
+          "verso": "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Parité sur un intervalle symétrique",
+          "verso": "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Inégalité de la moyenne",
+          "verso": "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u028-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Changement affine u = αx + β, avec α≠0 ?",
+          "options": [
+            "(cos x)' = −sin x ; (sin x)' = cos x",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "(√u)' = u'/(2√u)"
+          ],
+          "reponse": 2,
+          "explication": "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Parité sur un intervalle symétrique ?",
+          "options": [
+            "aˣ = e^(x·ln a)",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "eⁱᶿ=cosθ+i sinθ",
+            "C(n,p)=n!/(p!(n−p)!)"
+          ],
+          "reponse": 1,
+          "explication": "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Inégalité de la moyenne ?",
+          "options": [
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "Résoudre z'=z",
+            "(uv)' = u'v + uv'",
+            "eⁱᶿ=cosθ+i sinθ"
+          ],
+          "reponse": 0,
+          "explication": "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Changement affine u = αx + β, avec α≠0",
+      "verso": "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du"
+    },
+    {
+      "recto": "Parité sur un intervalle symétrique",
+      "verso": "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+    },
+    {
+      "recto": "Inégalité de la moyenne",
+      "verso": "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Changement affine u = αx + β, avec α≠0",
+      "verso": "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Parité sur un intervalle symétrique",
+      "verso": "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Inégalité de la moyenne",
+      "verso": "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -8,94 +8,220 @@
   "description": "Chimie organique et chimie acido-basique : formules, pH calculés, exercices corrigés et quiz.",
   "unites": [
     {
-      "id": "chi-c-st",
-      "titre": "Notion de stéréochimie",
+      "id": "chimie-c-u001",
+      "titre": "Notion de stéréochimie (1/2)",
       "ordre": 1,
-      "fichier": "c/chimie/unite-01.json",
+      "fichier": "c/chimie/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "chi-c-al",
-      "titre": "Alcools, polyalcools, aldéhydes et cétones",
+      "id": "chimie-c-u002",
+      "titre": "Notion de stéréochimie (2/2)",
       "ordre": 2,
-      "fichier": "c/chimie/unite-02.json",
-      "prerequis": [
-        "chi-c-st"
-      ]
+      "fichier": "c/chimie/unite-002.json",
+      "prerequis": []
     },
     {
-      "id": "chi-c-ac",
-      "titre": "Acides carboxyliques et leurs dérivés",
+      "id": "chimie-c-e003",
+      "titre": "Notion de stéréochimie — Exercices",
       "ordre": 3,
-      "fichier": "c/chimie/unite-03.json",
-      "prerequis": [
-        "chi-c-al"
-      ]
+      "fichier": "c/chimie/exercices-003.json",
+      "prerequis": [],
+      "estExercices": true
     },
     {
-      "id": "chimie-c-rev01",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "chimie-c-u004",
+      "titre": "Alcools, polyalcools, aldéhydes et cétones (1/2)",
       "ordre": 4,
-      "fichier": "c/chimie/revision-01.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "c/chimie/unite-004.json",
+      "prerequis": []
     },
     {
-      "id": "chi-c-ph",
-      "titre": "Solution aqueuse",
+      "id": "chimie-c-r005",
+      "titre": "Révision",
       "ordre": 5,
-      "fichier": "c/chimie/unite-04.json",
-      "prerequis": []
+      "fichier": "c/chimie/revision-005.json",
+      "prerequis": [],
+      "estRevision": true
     },
     {
-      "id": "chi-c-af",
-      "titre": "Acide fort – base forte",
+      "id": "chimie-c-u006",
+      "titre": "Alcools, polyalcools, aldéhydes et cétones (2/2)",
       "ordre": 6,
-      "fichier": "c/chimie/unite-05.json",
-      "prerequis": [
-        "chi-c-ph"
-      ]
-    },
-    {
-      "id": "chi-c-afa",
-      "titre": "Acide faible – base faible",
-      "ordre": 7,
-      "fichier": "c/chimie/unite-06.json",
-      "prerequis": [
-        "chi-c-af"
-      ]
-    },
-    {
-      "id": "chimie-c-rev02",
-      "titre": "Révision : leçons 4 à 6",
-      "ordre": 8,
-      "fichier": "c/chimie/revision-02.json",
-      "prerequis": [],
-      "estRevision": true
-    },
-    {
-      "id": "chi-c-ka",
-      "titre": "Constante d'acidité et classification",
-      "ordre": 9,
-      "fichier": "c/chimie/unite-07.json",
-      "prerequis": [
-        "chi-c-afa"
-      ]
-    },
-    {
-      "id": "chi-c-ci",
-      "titre": "Cinétique chimique",
-      "ordre": 10,
-      "fichier": "c/chimie/unite-08.json",
+      "fichier": "c/chimie/unite-006.json",
       "prerequis": []
     },
     {
-      "id": "chimie-c-rev03",
-      "titre": "Révision finale",
-      "ordre": 11,
-      "fichier": "c/chimie/revision-03.json",
+      "id": "chimie-c-e007",
+      "titre": "Alcools, polyalcools, aldéhydes et cétones — Exercices",
+      "ordre": 7,
+      "fichier": "c/chimie/exercices-007.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "chimie-c-u008",
+      "titre": "Acides carboxyliques et leurs dérivés (1/2)",
+      "ordre": 8,
+      "fichier": "c/chimie/unite-008.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-u009",
+      "titre": "Acides carboxyliques et leurs dérivés (2/2)",
+      "ordre": 9,
+      "fichier": "c/chimie/unite-009.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-r010",
+      "titre": "Révision",
+      "ordre": 10,
+      "fichier": "c/chimie/revision-010.json",
       "prerequis": [],
       "estRevision": true
+    },
+    {
+      "id": "chimie-c-e011",
+      "titre": "Acides carboxyliques et leurs dérivés — Exercices",
+      "ordre": 11,
+      "fichier": "c/chimie/exercices-011.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "chimie-c-u012",
+      "titre": "Solution aqueuse (1/2)",
+      "ordre": 12,
+      "fichier": "c/chimie/unite-012.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-u013",
+      "titre": "Solution aqueuse (2/2)",
+      "ordre": 13,
+      "fichier": "c/chimie/unite-013.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-e014",
+      "titre": "Solution aqueuse — Exercices",
+      "ordre": 14,
+      "fichier": "c/chimie/exercices-014.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "chimie-c-u015",
+      "titre": "Acide fort – base forte (1/2)",
+      "ordre": 15,
+      "fichier": "c/chimie/unite-015.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-r016",
+      "titre": "Révision",
+      "ordre": 16,
+      "fichier": "c/chimie/revision-016.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "chimie-c-u017",
+      "titre": "Acide fort – base forte (2/2)",
+      "ordre": 17,
+      "fichier": "c/chimie/unite-017.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-e018",
+      "titre": "Acide fort – base forte — Exercices",
+      "ordre": 18,
+      "fichier": "c/chimie/exercices-018.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "chimie-c-u019",
+      "titre": "Acide faible – base faible (1/2)",
+      "ordre": 19,
+      "fichier": "c/chimie/unite-019.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-u020",
+      "titre": "Acide faible – base faible (2/2)",
+      "ordre": 20,
+      "fichier": "c/chimie/unite-020.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-r021",
+      "titre": "Révision",
+      "ordre": 21,
+      "fichier": "c/chimie/revision-021.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "chimie-c-e022",
+      "titre": "Acide faible – base faible — Exercices",
+      "ordre": 22,
+      "fichier": "c/chimie/exercices-022.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "chimie-c-u023",
+      "titre": "Constante d'acidité et classification (1/2)",
+      "ordre": 23,
+      "fichier": "c/chimie/unite-023.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-u024",
+      "titre": "Constante d'acidité et classification (2/2)",
+      "ordre": 24,
+      "fichier": "c/chimie/unite-024.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-e025",
+      "titre": "Constante d'acidité et classification — Exercices",
+      "ordre": 25,
+      "fichier": "c/chimie/exercices-025.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "chimie-c-u026",
+      "titre": "Cinétique chimique (1/2)",
+      "ordre": 26,
+      "fichier": "c/chimie/unite-026.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-r027",
+      "titre": "Révision",
+      "ordre": 27,
+      "fichier": "c/chimie/revision-027.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "chimie-c-u028",
+      "titre": "Cinétique chimique (2/2)",
+      "ordre": 28,
+      "fichier": "c/chimie/unite-028.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-c-e029",
+      "titre": "Cinétique chimique — Exercices",
+      "ordre": 29,
+      "fichier": "c/chimie/exercices-029.json",
+      "prerequis": [],
+      "estExercices": true
     }
   ]
 }

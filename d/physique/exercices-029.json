@@ -1,0 +1,342 @@
+{
+  "id": "physique-d-e029",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Circuits RLC en régime sinusoïdal forcé — Exercices",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Circuits RLC en régime sinusoïdal forcé",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-d-e029-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e029-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer l'impédance d'un RLC série :",
+          "etapes": [
+            "Calculer Lω et 1/(Cω)",
+            "Calculer la réactance X = Lω − 1/(Cω)",
+            "Écrire Z = √(R² + X²)",
+            "Calculer"
+          ],
+          "ordreCorrect": [
+            "Calculer Lω et 1/(Cω)",
+            "Calculer la réactance X = Lω − 1/(Cω)",
+            "Écrire Z = √(R² + X²)",
+            "Calculer"
+          ],
+          "explication": "L'impédance combine résistance et réactance."
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e029-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e029-c",
+      "activites": [
+        {
+          "id": "phy-d-rlc-ex01",
+          "enonce": "RLC série : R = 100 Ω, L = 0.1 H, C = 1e-05 F, ω = 1000 rad/s. Calculer l'impédance Z.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "Lω = 100 ; 1/(Cω) = 100"
+          ],
+          "reponseFinale": "Z ≈ 100.0 Ω",
+          "competenceId": "phy-d-rlc-c-impedance"
+        },
+        {
+          "id": "phy-d-rlc-ex02",
+          "enonce": "RLC série : R = 50 Ω, L = 0.2 H, C = 2e-05 F, ω = 500 rad/s. Calculer l'impédance Z.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "Lω = 100 ; 1/(Cω) = 100"
+          ],
+          "reponseFinale": "Z ≈ 50.0 Ω",
+          "competenceId": "phy-d-rlc-c-impedance"
+        },
+        {
+          "id": "phy-d-rlc-ex03",
+          "enonce": "RLC série : R = 200 Ω, L = 0.5 H, C = 1e-06 F, ω = 2000 rad/s. Calculer l'impédance Z.",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "Lω = 1000 ; 1/(Cω) = 500"
+          ],
+          "reponseFinale": "Z ≈ 538.5 Ω",
+          "competenceId": "phy-d-rlc-c-impedance"
+        },
+        {
+          "id": "phy-d-rlc-ex04",
+          "enonce": "RLC série : L = 0.1 H, C = 1e-05 F. Pulsation de résonance ω₀ ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "À la résonance : ω₀ = 1/√(L·C)",
+            "ω₀ = 1/√(0.1×1e-05)"
+          ],
+          "reponseFinale": "ω₀ ≈ 1e+03 rad/s",
+          "competenceId": "phy-d-rlc-c-resonance"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e029-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-d-e029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "U = 24 V, Z = 60 Ω. L'intensité efficace vaut :",
+          "options": [
+            "0,4 A",
+            "1,4 A",
+            "0,04 A",
+            "4 A"
+          ],
+          "reponse": 0,
+          "explication": "I=U/Z=24/60=0,4 A."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-d-rlc-ex01",
+      "enonce": "RLC série : R = 100 Ω, L = 0.1 H, C = 1e-05 F, ω = 1000 rad/s. Calculer l'impédance Z.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Z = √(R² + (Lω − 1/(Cω))²)",
+        "Lω = 100 ; 1/(Cω) = 100"
+      ],
+      "reponseFinale": "Z ≈ 100.0 Ω",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex02",
+      "enonce": "RLC série : R = 50 Ω, L = 0.2 H, C = 2e-05 F, ω = 500 rad/s. Calculer l'impédance Z.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Z = √(R² + (Lω − 1/(Cω))²)",
+        "Lω = 100 ; 1/(Cω) = 100"
+      ],
+      "reponseFinale": "Z ≈ 50.0 Ω",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex03",
+      "enonce": "RLC série : R = 200 Ω, L = 0.5 H, C = 1e-06 F, ω = 2000 rad/s. Calculer l'impédance Z.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Z = √(R² + (Lω − 1/(Cω))²)",
+        "Lω = 1000 ; 1/(Cω) = 500"
+      ],
+      "reponseFinale": "Z ≈ 538.5 Ω",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex04",
+      "enonce": "RLC série : L = 0.1 H, C = 1e-05 F. Pulsation de résonance ω₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "À la résonance : ω₀ = 1/√(L·C)",
+        "ω₀ = 1/√(0.1×1e-05)"
+      ],
+      "reponseFinale": "ω₀ ≈ 1e+03 rad/s",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex05",
+      "enonce": "RLC série : L = 0.1 H, C = 1e-05 F. Fréquence de résonance f₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f₀ = 1/(2π√(L·C))"
+      ],
+      "reponseFinale": "f₀ ≈ 159 Hz",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex06",
+      "enonce": "RLC série : L = 0.2 H, C = 2e-06 F. Pulsation de résonance ω₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "À la résonance : ω₀ = 1/√(L·C)",
+        "ω₀ = 1/√(0.2×2e-06)"
+      ],
+      "reponseFinale": "ω₀ ≈ 1.58e+03 rad/s",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex07",
+      "enonce": "RLC série : L = 0.2 H, C = 2e-06 F. Fréquence de résonance f₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f₀ = 1/(2π√(L·C))"
+      ],
+      "reponseFinale": "f₀ ≈ 252 Hz",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex08",
+      "enonce": "RLC série : L = 0.5 H, C = 1e-06 F. Pulsation de résonance ω₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "À la résonance : ω₀ = 1/√(L·C)",
+        "ω₀ = 1/√(0.5×1e-06)"
+      ],
+      "reponseFinale": "ω₀ ≈ 1.41e+03 rad/s",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex09",
+      "enonce": "RLC série : L = 0.5 H, C = 1e-06 F. Fréquence de résonance f₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f₀ = 1/(2π√(L·C))"
+      ],
+      "reponseFinale": "f₀ ≈ 225 Hz",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex10",
+      "enonce": "Régime forcé : tension efficace U = 10 V, impédance Z = 100 Ω. Intensité efficace I ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = U/Z",
+        "I = 10/100"
+      ],
+      "reponseFinale": "I = 0.1 A",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex11",
+      "enonce": "Régime forcé : tension efficace U = 24 V, impédance Z = 60 Ω. Intensité efficace I ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = U/Z",
+        "I = 24/60"
+      ],
+      "reponseFinale": "I = 0.4 A",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex12",
+      "enonce": "Régime forcé : tension efficace U = 12 V, impédance Z = 50 Ω. Intensité efficace I ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = U/Z",
+        "I = 12/50"
+      ],
+      "reponseFinale": "I = 0.24 A",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex13",
+      "enonce": "Puissance moyenne dissipée dans R : R = 100 Ω, I = 0.1 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "P = R·I²",
+        "P = 100×0.1²"
+      ],
+      "reponseFinale": "P = 1 W",
+      "competenceId": "phy-d-rlc-c-puissance"
+    },
+    {
+      "id": "phy-d-rlc-ex14",
+      "enonce": "Puissance moyenne dissipée dans R : R = 50 Ω, I = 0.5 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "P = R·I²",
+        "P = 50×0.5²"
+      ],
+      "reponseFinale": "P = 12.5 W",
+      "competenceId": "phy-d-rlc-c-puissance"
+    },
+    {
+      "id": "phy-d-rlc-ex15",
+      "enonce": "Puissance moyenne dissipée dans R : R = 200 Ω, I = 0.2 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "P = R·I²",
+        "P = 200×0.2²"
+      ],
+      "reponseFinale": "P = 8 W",
+      "competenceId": "phy-d-rlc-c-puissance"
+    },
+    {
+      "id": "phy-d-rlc-ex16",
+      "enonce": "À la résonance d'intensité d'un circuit RLC série, l'impédance est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Z est minimale et vaut R",
+        "Z = R"
+      ],
+      "reponseFinale": "Z = R (minimale)",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex17",
+      "enonce": "À la résonance, le circuit RLC série est équivalent à :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Lω = 1/(Cω) donc le circuit est purement résistif"
+      ],
+      "reponseFinale": "une résistance pure",
+      "competenceId": "phy-d-rlc-c-resonance"
+    },
+    {
+      "id": "phy-d-rlc-ex18",
+      "enonce": "Régime forcé : U = 220 V, Z = 110 Ω. Intensité efficace I ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = U/Z",
+        "I = 220/110"
+      ],
+      "reponseFinale": "I = 2 A",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex19",
+      "enonce": "Régime forcé : U = 6 V, Z = 30 Ω. Intensité efficace I ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "I = U/Z",
+        "I = 6/30"
+      ],
+      "reponseFinale": "I = 0.2 A",
+      "competenceId": "phy-d-rlc-c-impedance"
+    },
+    {
+      "id": "phy-d-rlc-ex20",
+      "enonce": "Puissance dissipée : R = 80 Ω, I = 0.25 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "P = R·I²",
+        "P = 80×0.25²"
+      ],
+      "reponseFinale": "P = 5 W",
+      "competenceId": "phy-d-rlc-c-puissance"
+    }
+  ],
+  "estExercices": true
+}

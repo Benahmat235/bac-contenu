@@ -1,0 +1,143 @@
+{
+  "id": "chimie-c-u019",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Acide faible – base faible (1/2)",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acide faible – base faible",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u019-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u019-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "pH d'un acide faible",
+          "verso": "pH = ½·(pKa − log C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation de Henderson-Hasselbalch",
+          "verso": "pH = pKa + log([base]/[acide])",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution tampon",
+          "verso": "pH ≈ pKa quand [base] = [acide]",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u019-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "pH d'un acide faible ?",
+          "options": [
+            "acide + alcool ⇌ ester + eau (lente et limitée)",
+            "pH = ½·(pKa − log C)",
+            "capte totalement des protons (ex. NaOH)",
+            "alcool 2aire → cétone"
+          ],
+          "reponse": 1,
+          "explication": "pH = ½·(pKa − log C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Relation de Henderson-Hasselbalch ?",
+          "options": [
+            "diffèrent par la disposition de la chaîne carbonée",
+            "alcool 1aire → aldéhyde → acide carboxylique",
+            "pH = pKa + log([base]/[acide])",
+            "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)"
+          ],
+          "reponse": 2,
+          "explication": "pH = pKa + log([base]/[acide])"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution tampon ?",
+          "options": [
+            "pH ≈ pKa quand [base] = [acide]",
+            "celui dont le pKa est le plus petit",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
+            "visualise les conformations autour d'une liaison C–C"
+          ],
+          "reponse": 0,
+          "explication": "pH ≈ pKa quand [base] = [acide]"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "pH d'un acide faible",
+      "verso": "pH = ½·(pKa − log C)"
+    },
+    {
+      "recto": "Relation de Henderson-Hasselbalch",
+      "verso": "pH = pKa + log([base]/[acide])"
+    },
+    {
+      "recto": "Solution tampon",
+      "verso": "pH ≈ pKa quand [base] = [acide]"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "pH d'un acide faible",
+      "verso": "pH = ½·(pKa − log C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Relation de Henderson-Hasselbalch",
+      "verso": "pH = pKa + log([base]/[acide])",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Solution tampon",
+      "verso": "pH ≈ pKa quand [base] = [acide]",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Acide faible, base faible, solution tampon : synthèse (TS/PC)",
+      "url": "https://youtu.be/utXDXSRJ0WA",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Acide et base faibles : Ka, pKa (Terminale)",
+      "url": "https://youtu.be/swKCSgcp6_s",
+      "type": "video",
+      "chaine": "Florence RAFFIN",
+      "auteur": "Florence RAFFIN"
+    }
+  ]
+}

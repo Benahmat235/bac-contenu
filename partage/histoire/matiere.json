@@ -9,61 +9,147 @@
   "description": "Le monde de 1945 à nos jours : 2GM, ONU, guerre froide, décolonisation, UA.",
   "unites": [
     {
-      "id": "histoire-u01",
-      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+      "id": "histoire-u001",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (1/5)",
       "ordre": 1,
-      "fichier": "partage/histoire/unite-01.json",
+      "fichier": "partage/histoire/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "histoire-u02",
-      "titre": "L'Organisation des Nations Unies (ONU)",
+      "id": "histoire-u002",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (2/5)",
       "ordre": 2,
-      "fichier": "partage/histoire/unite-02.json",
+      "fichier": "partage/histoire/unite-002.json",
       "prerequis": []
     },
     {
-      "id": "histoire-rev03",
-      "titre": "Révision : leçons 1 et 2",
+      "id": "histoire-u003",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (3/5)",
       "ordre": 3,
-      "fichier": "partage/histoire/unite-03.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "partage/histoire/unite-003.json",
+      "prerequis": []
     },
     {
-      "id": "histoire-u04",
-      "titre": "La guerre froide (1947-1991)",
+      "id": "histoire-r004",
+      "titre": "Révision",
       "ordre": 4,
-      "fichier": "partage/histoire/unite-04.json",
-      "prerequis": []
-    },
-    {
-      "id": "histoire-u05",
-      "titre": "La décolonisation de l'Afrique",
-      "ordre": 5,
-      "fichier": "partage/histoire/unite-05.json",
-      "prerequis": []
-    },
-    {
-      "id": "histoire-rev06",
-      "titre": "Révision : leçons 3 et 4",
-      "ordre": 6,
-      "fichier": "partage/histoire/unite-06.json",
+      "fichier": "partage/histoire/revision-004.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "histoire-u07",
-      "titre": "L'OUA et l'Union Africaine",
-      "ordre": 7,
-      "fichier": "partage/histoire/unite-07.json",
+      "id": "histoire-u005",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (4/5)",
+      "ordre": 5,
+      "fichier": "partage/histoire/unite-005.json",
       "prerequis": []
     },
     {
-      "id": "histoire-rev08",
-      "titre": "Révision finale",
+      "id": "histoire-u006",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (5/5)",
+      "ordre": 6,
+      "fichier": "partage/histoire/unite-006.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u007",
+      "titre": "L'Organisation des Nations Unies (ONU) (1/2)",
+      "ordre": 7,
+      "fichier": "partage/histoire/unite-007.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-r008",
+      "titre": "Révision",
       "ordre": 8,
-      "fichier": "partage/histoire/unite-08.json",
+      "fichier": "partage/histoire/revision-008.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "histoire-u009",
+      "titre": "L'Organisation des Nations Unies (ONU) (2/2)",
+      "ordre": 9,
+      "fichier": "partage/histoire/unite-009.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u010",
+      "titre": "La guerre froide (1947-1991) (1/4)",
+      "ordre": 10,
+      "fichier": "partage/histoire/unite-010.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u011",
+      "titre": "La guerre froide (1947-1991) (2/4)",
+      "ordre": 11,
+      "fichier": "partage/histoire/unite-011.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-r012",
+      "titre": "Révision",
+      "ordre": 12,
+      "fichier": "partage/histoire/revision-012.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "histoire-u013",
+      "titre": "La guerre froide (1947-1991) (3/4)",
+      "ordre": 13,
+      "fichier": "partage/histoire/unite-013.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u014",
+      "titre": "La guerre froide (1947-1991) (4/4)",
+      "ordre": 14,
+      "fichier": "partage/histoire/unite-014.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u015",
+      "titre": "La décolonisation de l'Afrique (1/3)",
+      "ordre": 15,
+      "fichier": "partage/histoire/unite-015.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-r016",
+      "titre": "Révision",
+      "ordre": 16,
+      "fichier": "partage/histoire/revision-016.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "histoire-u017",
+      "titre": "La décolonisation de l'Afrique (2/3)",
+      "ordre": 17,
+      "fichier": "partage/histoire/unite-017.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u018",
+      "titre": "La décolonisation de l'Afrique (3/3)",
+      "ordre": 18,
+      "fichier": "partage/histoire/unite-018.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-u019",
+      "titre": "L'OUA et l'Union Africaine",
+      "ordre": 19,
+      "fichier": "partage/histoire/unite-019.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-r020",
+      "titre": "Révision",
+      "ordre": 20,
+      "fichier": "partage/histoire/revision-020.json",
       "prerequis": [],
       "estRevision": true
     }

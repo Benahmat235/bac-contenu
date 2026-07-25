@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u003",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Les ensembles ℕ et ℤ (arithmétique) (3/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les ensembles ℕ et ℤ (arithmétique)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u003-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Critère de divisibilité par 3 et 9",
+          "verso": "la somme des chiffres est divisible par 3 (ou 9)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Critère de divisibilité par 11",
+          "verso": "la différence alternée des chiffres est divisible par 11",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nombre premier",
+          "verso": "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Critère de divisibilité par 3 et 9 ?",
+          "options": [
+            "transformation qui conserve les distances",
+            "n!=n(n−1)…2×1 et 0!=1",
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1"
+          ],
+          "reponse": 2,
+          "explication": "la somme des chiffres est divisible par 3 (ou 9)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Critère de divisibilité par 11 ?",
+          "options": [
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+            "la différence alternée des chiffres est divisible par 11",
+            "1/z=z̄/|z|²",
+            "factoriser, ou multiplier par l'expression conjuguée"
+          ],
+          "reponse": 1,
+          "explication": "la différence alternée des chiffres est divisible par 11"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nombre premier ?",
+          "options": [
+            "transformation qui conserve les distances",
+            "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
+            "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+            "eⁱᶿ=cosθ+i sinθ"
+          ],
+          "reponse": 1,
+          "explication": "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Critère de divisibilité par 3 et 9",
+      "verso": "la somme des chiffres est divisible par 3 (ou 9)"
+    },
+    {
+      "recto": "Critère de divisibilité par 11",
+      "verso": "la différence alternée des chiffres est divisible par 11"
+    },
+    {
+      "recto": "Nombre premier",
+      "verso": "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Critère de divisibilité par 3 et 9",
+      "verso": "la somme des chiffres est divisible par 3 (ou 9)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Critère de divisibilité par 11",
+      "verso": "la différence alternée des chiffres est divisible par 11",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Nombre premier",
+      "verso": "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "histoire-u001",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (1/5)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u001-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+          "reponseAttendue": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939.",
+          "modeReponse": "auto_evaluation",
+          "explication": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
+          "reponseAttendue": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "reponseAttendue": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les phases de la seconde guerre mondiale ?",
+          "reponseAttendue": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés.",
+          "modeReponse": "auto_evaluation",
+          "explication": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+          "options": [
+            "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir ",
+            "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme",
+            "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM."
+          ],
+          "reponse": 1,
+          "explication": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
+          "options": [
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent.",
+            "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'"
+          ],
+          "reponse": 3,
+          "explication": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "options": [
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
+            "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avril - 26 juin 1945).",
+            "D'abord OUA le 25 mai 1963 à Addis-Abeba, transformée en UA en 2002 à Durban (initiative de Syrte 1999) pour dépasser le",
+            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour int"
+          ],
+          "reponse": 0,
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+      "verso": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
+    },
+    {
+      "recto": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
+      "verso": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
+    },
+    {
+      "recto": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+      "verso": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+    },
+    {
+      "recto": "Quelles sont les phases de la seconde guerre mondiale ?",
+      "verso": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La Seconde Guerre mondiale (Histoire Tle)",
+      "url": "https://youtu.be/_8X9RaEQZeA",
+      "type": "video",
+      "chaine": "Lelivrescolaire.fr",
+      "auteur": "Lelivrescolaire.fr"
+    },
+    {
+      "titre": "La Seconde Guerre mondiale - résumé sur cartes",
+      "url": "https://youtu.be/OJ0gZNmF63c",
+      "type": "video",
+      "chaine": "Histoire Géo",
+      "auteur": "Histoire Géo"
+    }
+  ]
+}

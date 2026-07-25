@@ -1,0 +1,159 @@
+{
+  "id": "svt-c-u041",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Le dihybridisme (1/2)",
+  "ordre": 41,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le dihybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u041-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u041-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dihybridisme",
+          "verso": "transmission de deux caractères (deux couples d'allèles)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "3e loi de Mendel",
+          "verso": "ségrégation indépendante des caractères (gènes indépendants)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "F2 dihybride (gènes indépendants)",
+          "verso": "9 : 3 : 3 : 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gamètes du double hétérozygote (indépendants)",
+          "verso": "4 types : AB, Ab, aB, ab",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u041-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u041-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dihybridisme ?",
+          "options": [
+            "transmission de deux caractères (deux couples d'allèles)",
+            "9 : 3 : 3 : 1",
+            "étranglements réguliers de la gaine de myéline",
+            "glande mixte ; îlots de Langerhans (cellules α et β)"
+          ],
+          "reponse": 0,
+          "explication": "transmission de deux caractères (deux couples d'allèles)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "3e loi de Mendel ?",
+          "options": [
+            "élimine les introns et réunit les exons",
+            "A, T, G, C",
+            "contient l'information génétique (ADN)",
+            "ségrégation indépendante des caractères (gènes indépendants)"
+          ],
+          "reponse": 3,
+          "explication": "ségrégation indépendante des caractères (gènes indépendants)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "F2 dihybride (gènes indépendants) ?",
+          "options": [
+            "9 : 3 : 3 : 1",
+            "premières divisions du zygote",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "échange de segments entre chromosomes homologues (prophase I)"
+          ],
+          "reponse": 0,
+          "explication": "9 : 3 : 3 : 1"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dihybridisme",
+      "verso": "transmission de deux caractères (deux couples d'allèles)"
+    },
+    {
+      "recto": "3e loi de Mendel",
+      "verso": "ségrégation indépendante des caractères (gènes indépendants)"
+    },
+    {
+      "recto": "F2 dihybride (gènes indépendants)",
+      "verso": "9 : 3 : 3 : 1"
+    },
+    {
+      "recto": "Gamètes du double hétérozygote (indépendants)",
+      "verso": "4 types : AB, Ab, aB, ab"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dihybridisme",
+      "verso": "transmission de deux caractères (deux couples d'allèles)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "3e loi de Mendel",
+      "verso": "ségrégation indépendante des caractères (gènes indépendants)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "F2 dihybride (gènes indépendants)",
+      "verso": "9 : 3 : 3 : 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Gamètes du double hétérozygote (indépendants)",
+      "verso": "4 types : AB, Ab, aB, ab",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Le dihybridisme (TS)",
+      "url": "https://youtu.be/862iK6nWbQk",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Exercices corrigés : le dihybridisme (Terminale)",
+      "url": "https://youtu.be/L6tKgZie4uo",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "svt-d-u042",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Le dihybridisme (2/2)",
+  "ordre": 42,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le dihybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u042-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u042-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Gènes liés (linkage)",
+          "verso": "portés par le même chromosome, transmis ensemble",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Crossing-over",
+          "verso": "produit des gamètes recombinés (minoritaires)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Test-cross dihybride (indépendants)",
+          "verso": "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Signature du linkage partiel",
+          "verso": "parentaux majoritaires + recombinés minoritaires",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u042-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u042-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Gènes liés (linkage) ?",
+          "options": [
+            "maintiennent constant le nombre de chromosomes de l'espèce",
+            "croisement avec le double récessif pour révéler le génotype",
+            "testicules (mâle) et ovaires (femelle)",
+            "portés par le même chromosome, transmis ensemble"
+          ],
+          "reponse": 3,
+          "explication": "portés par le même chromosome, transmis ensemble"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Crossing-over ?",
+          "options": [
+            "produit des gamètes recombinés (minoritaires)",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "étamines (androcée) et carpelles (gynécée)",
+            "dû à la répartition au hasard des chromosomes (métaphase I)"
+          ],
+          "reponse": 0,
+          "explication": "produit des gamètes recombinés (minoritaires)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Test-cross dihybride (indépendants) ?",
+          "options": [
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+            "testicules (mâle) et ovaires (femelle)",
+            "transmission d'un seul caractère (un couple d'allèles)",
+            "l'ADN (acide désoxyribonucléique)"
+          ],
+          "reponse": 0,
+          "explication": "4 phénotypes équiprobables (1 : 1 : 1 : 1)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Gènes liés (linkage)",
+      "verso": "portés par le même chromosome, transmis ensemble"
+    },
+    {
+      "recto": "Crossing-over",
+      "verso": "produit des gamètes recombinés (minoritaires)"
+    },
+    {
+      "recto": "Test-cross dihybride (indépendants)",
+      "verso": "4 phénotypes équiprobables (1 : 1 : 1 : 1)"
+    },
+    {
+      "recto": "Signature du linkage partiel",
+      "verso": "parentaux majoritaires + recombinés minoritaires"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Gènes liés (linkage)",
+      "verso": "portés par le même chromosome, transmis ensemble",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Crossing-over",
+      "verso": "produit des gamètes recombinés (minoritaires)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Test-cross dihybride (indépendants)",
+      "verso": "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Signature du linkage partiel",
+      "verso": "parentaux majoritaires + recombinés minoritaires",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

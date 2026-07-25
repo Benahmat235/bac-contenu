@@ -1,0 +1,338 @@
+{
+  "id": "physique-d-e022",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Électromagnétisme — Exercices",
+  "ordre": 22,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Électromagnétisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-d-e022-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e022-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer une f.é.m. induite :",
+          "etapes": [
+            "Calculer le flux Φ = B·S·cos(α)",
+            "Déterminer la variation ΔΦ",
+            "Écrire |e| = |ΔΦ/Δt|",
+            "Calculer en volts"
+          ],
+          "ordreCorrect": [
+            "Calculer le flux Φ = B·S·cos(α)",
+            "Déterminer la variation ΔΦ",
+            "Écrire |e| = |ΔΦ/Δt|",
+            "Calculer en volts"
+          ],
+          "explication": "La f.é.m. vient de la variation du flux."
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e022-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e022-c",
+      "activites": [
+        {
+          "id": "phy-d-em-ex01",
+          "enonce": "Flux magnétique : B = 0.5 T, S = 0.02 m², angle (n,B) = 0°. Calculer Φ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Φ = B·S·cos(α)",
+            "Φ = 0.5×0.02×cos(0°)"
+          ],
+          "reponseFinale": "Φ ≈ 0.01 Wb",
+          "competenceId": "phy-d-em-c-flux"
+        },
+        {
+          "id": "phy-d-em-ex02",
+          "enonce": "Flux magnétique : B = 0.2 T, S = 0.1 m², angle (n,B) = 0°. Calculer Φ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Φ = B·S·cos(α)",
+            "Φ = 0.2×0.1×cos(0°)"
+          ],
+          "reponseFinale": "Φ ≈ 0.02 Wb",
+          "competenceId": "phy-d-em-c-flux"
+        },
+        {
+          "id": "phy-d-em-ex03",
+          "enonce": "Flux magnétique : B = 0.4 T, S = 0.05 m², angle (n,B) = 60°. Calculer Φ.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Φ = B·S·cos(α)",
+            "Φ = 0.4×0.05×cos(60°)"
+          ],
+          "reponseFinale": "Φ ≈ 0.01 Wb",
+          "competenceId": "phy-d-em-c-flux"
+        },
+        {
+          "id": "phy-d-em-ex04",
+          "enonce": "Loi de Faraday : variation de flux ΔΦ = 0.02 Wb en Δt = 0.1 s. Force électromotrice induite |e| ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "|e| = |ΔΦ/Δt|",
+            "e = 0.02/0.1"
+          ],
+          "reponseFinale": "e = 0.2 V",
+          "competenceId": "phy-d-em-c-faraday"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e022-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-d-e022-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "ΔΦ = 0,5 Wb en Δt = 0,01 s. La f.é.m. induite vaut :",
+          "options": [
+            "5 V",
+            "50 V",
+            "0,5 V",
+            "500 V"
+          ],
+          "reponse": 1,
+          "explication": "e=0,5/0,01=50 V."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-d-em-ex01",
+      "enonce": "Flux magnétique : B = 0.5 T, S = 0.02 m², angle (n,B) = 0°. Calculer Φ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Φ = B·S·cos(α)",
+        "Φ = 0.5×0.02×cos(0°)"
+      ],
+      "reponseFinale": "Φ ≈ 0.01 Wb",
+      "competenceId": "phy-d-em-c-flux"
+    },
+    {
+      "id": "phy-d-em-ex02",
+      "enonce": "Flux magnétique : B = 0.2 T, S = 0.1 m², angle (n,B) = 0°. Calculer Φ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Φ = B·S·cos(α)",
+        "Φ = 0.2×0.1×cos(0°)"
+      ],
+      "reponseFinale": "Φ ≈ 0.02 Wb",
+      "competenceId": "phy-d-em-c-flux"
+    },
+    {
+      "id": "phy-d-em-ex03",
+      "enonce": "Flux magnétique : B = 0.4 T, S = 0.05 m², angle (n,B) = 60°. Calculer Φ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Φ = B·S·cos(α)",
+        "Φ = 0.4×0.05×cos(60°)"
+      ],
+      "reponseFinale": "Φ ≈ 0.01 Wb",
+      "competenceId": "phy-d-em-c-flux"
+    },
+    {
+      "id": "phy-d-em-ex04",
+      "enonce": "Loi de Faraday : variation de flux ΔΦ = 0.02 Wb en Δt = 0.1 s. Force électromotrice induite |e| ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|e| = |ΔΦ/Δt|",
+        "e = 0.02/0.1"
+      ],
+      "reponseFinale": "e = 0.2 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex05",
+      "enonce": "Loi de Faraday : variation de flux ΔΦ = 0.5 Wb en Δt = 0.01 s. Force électromotrice induite |e| ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|e| = |ΔΦ/Δt|",
+        "e = 0.5/0.01"
+      ],
+      "reponseFinale": "e = 50 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex06",
+      "enonce": "Loi de Faraday : variation de flux ΔΦ = 0.1 Wb en Δt = 0.05 s. Force électromotrice induite |e| ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|e| = |ΔΦ/Δt|",
+        "e = 0.1/0.05"
+      ],
+      "reponseFinale": "e = 2 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex07",
+      "enonce": "Barre conductrice (longueur l = 0.2 m) se déplaçant à v = 10 m/s dans B = 0.5 T. f.é.m. induite ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "e = B·l·v",
+        "e = 0.5×0.2×10"
+      ],
+      "reponseFinale": "e = 1 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex08",
+      "enonce": "Barre conductrice (longueur l = 0.5 m) se déplaçant à v = 4 m/s dans B = 0.3 T. f.é.m. induite ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "e = B·l·v",
+        "e = 0.3×0.5×4"
+      ],
+      "reponseFinale": "e = 0.6 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex09",
+      "enonce": "Force de Laplace : B = 0.5 T, I = 2 A, l = 0.1 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 0.5×2×0.1"
+      ],
+      "reponseFinale": "F = 0.1 N",
+      "competenceId": "phy-d-em-c-laplace"
+    },
+    {
+      "id": "phy-d-em-ex10",
+      "enonce": "Force de Laplace : B = 0.2 T, I = 5 A, l = 0.3 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 0.2×5×0.3"
+      ],
+      "reponseFinale": "F = 0.3 N",
+      "competenceId": "phy-d-em-c-laplace"
+    },
+    {
+      "id": "phy-d-em-ex11",
+      "enonce": "Force de Laplace : B = 1 T, I = 0.5 A, l = 0.2 m (⊥). Calculer F.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F = B·I·l",
+        "F = 1×0.5×0.2"
+      ],
+      "reponseFinale": "F = 0.1 N",
+      "competenceId": "phy-d-em-c-laplace"
+    },
+    {
+      "id": "phy-d-em-ex12",
+      "enonce": "Force de Lorentz : q = 1.6e-19 C, v = 1e+06 m/s, B = 0.5 T (⊥). Calculer F.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "F = q·v·B"
+      ],
+      "reponseFinale": "F = 8e-14 N",
+      "competenceId": "phy-d-em-c-lorentz"
+    },
+    {
+      "id": "phy-d-em-ex13",
+      "enonce": "Force de Lorentz : q = 1.6e-19 C, v = 2e+06 m/s, B = 0.2 T (⊥). Calculer F.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "F = q·v·B"
+      ],
+      "reponseFinale": "F = 6.4e-14 N",
+      "competenceId": "phy-d-em-c-lorentz"
+    },
+    {
+      "id": "phy-d-em-ex14",
+      "enonce": "La loi de Lenz indique que le courant induit s'oppose :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "à la cause qui lui donne naissance"
+      ],
+      "reponseFinale": "à la variation de flux qui le crée",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex15",
+      "enonce": "Le flux magnétique s'exprime en :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "weber (Wb)"
+      ],
+      "reponseFinale": "weber (Wb)",
+      "competenceId": "phy-d-em-c-flux"
+    },
+    {
+      "id": "phy-d-em-ex16",
+      "enonce": "La force de Laplace est maximale lorsque le conducteur est :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "perpendiculaire au champ (sin 90° = 1)"
+      ],
+      "reponseFinale": "perpendiculaire au champ B",
+      "competenceId": "phy-d-em-c-laplace"
+    },
+    {
+      "id": "phy-d-em-ex17",
+      "enonce": "L'induction électromagnétique produit un courant quand :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "le flux magnétique à travers le circuit varie"
+      ],
+      "reponseFinale": "le flux magnétique varie",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex18",
+      "enonce": "f.é.m. induite : ΔΦ = 0.3 Wb, Δt = 0.02 s.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|e|=ΔΦ/Δt"
+      ],
+      "reponseFinale": "e = 15 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex19",
+      "enonce": "f.é.m. induite : ΔΦ = 0.05 Wb, Δt = 0.1 s.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|e|=ΔΦ/Δt"
+      ],
+      "reponseFinale": "e = 0.5 V",
+      "competenceId": "phy-d-em-c-faraday"
+    },
+    {
+      "id": "phy-d-em-ex20",
+      "enonce": "Barre de longueur l = 0.4 m à v = 5 m/s dans B = 0.6 T. f.é.m. e = B·l·v ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "e = B·l·v",
+        "e = 0.6×0.4×5"
+      ],
+      "reponseFinale": "e = 1.2 V",
+      "competenceId": "phy-d-em-c-faraday"
+    }
+  ],
+  "estExercices": true
+}

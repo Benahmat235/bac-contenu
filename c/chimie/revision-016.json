@@ -1,0 +1,67 @@
+{
+  "id": "chimie-c-r016",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-r016-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-r016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe acide carboxylique ?",
+          "options": [
+            "carboxyle −COOH",
+            "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "capte totalement des protons (ex. NaOH)"
+          ],
+          "reponse": 0,
+          "explication": "carboxyle −COOH"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des aldéhydes ?",
+          "options": [
+            "celui dont le pKa est le plus petit",
+            "C lié à 4 groupes tous différents (noté C*)",
+            "[H₃O⁺] = 10^(−pH)",
+            "−CHO (carbonyle en bout de chaîne)"
+          ],
+          "reponse": 3,
+          "explication": "−CHO (carbonyle en bout de chaîne)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des alcools ?",
+          "options": [
+            "celui dont le pKa est le plus petit",
+            "pH = 14 + log C ([OH⁻] = C)",
+            "diffèrent par la disposition de la chaîne carbonée",
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+          ],
+          "reponse": 3,
+          "explication": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

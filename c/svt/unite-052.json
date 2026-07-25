@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u052",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La communication nerveuse (3/3)",
+  "ordre": 52,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication nerveuse",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u052-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u052-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Synapse",
+          "verso": "zone de contact entre deux neurones",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Transmission synaptique",
+          "verso": "libération d'un neurotransmetteur (médiateur chimique)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Message nerveux",
+          "verso": "de nature électrique le long de la fibre",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u052-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u052-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Synapse ?",
+          "options": [
+            "synthèse et transport des substances",
+            "zone de contact entre deux neurones",
+            "transmission de deux caractères (deux couples d'allèles)",
+            "formation des grains de pollen dans l'anthère"
+          ],
+          "reponse": 1,
+          "explication": "zone de contact entre deux neurones"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Transmission synaptique ?",
+          "options": [
+            "libération d'un neurotransmetteur (médiateur chimique)",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "4 types : AB, Ab, aB, ab",
+            "stockage du glucose en glycogène (foie, muscles)"
+          ],
+          "reponse": 0,
+          "explication": "libération d'un neurotransmetteur (médiateur chimique)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Message nerveux ?",
+          "options": [
+            "de nature électrique le long de la fibre",
+            "l'ampoule de la trompe",
+            "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur"
+          ],
+          "reponse": 0,
+          "explication": "de nature électrique le long de la fibre"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Synapse",
+      "verso": "zone de contact entre deux neurones"
+    },
+    {
+      "recto": "Transmission synaptique",
+      "verso": "libération d'un neurotransmetteur (médiateur chimique)"
+    },
+    {
+      "recto": "Message nerveux",
+      "verso": "de nature électrique le long de la fibre"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Synapse",
+      "verso": "zone de contact entre deux neurones",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Transmission synaptique",
+      "verso": "libération d'un neurotransmetteur (médiateur chimique)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Message nerveux",
+      "verso": "de nature électrique le long de la fibre",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

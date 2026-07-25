@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-c-u016",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Les nombres complexes (2/3)",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les nombres complexes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u016-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u016-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Forme trigonométrique",
+          "verso": "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit en forme polaire",
+          "verso": "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Formule de Moivre",
+          "verso": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Formule d'Euler",
+          "verso": "eⁱᶿ=cosθ+i sinθ",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u016-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Forme trigonométrique ?",
+          "options": [
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "u·v = ‖u‖·‖v‖·cos(θ)",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+          ],
+          "reponse": 0,
+          "explication": "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit en forme polaire ?",
+          "options": [
+            "z' = z + b (b = affixe du vecteur)",
+            "celle de son monôme de plus haut degré",
+            "n·xⁿ⁻¹",
+            "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]"
+          ],
+          "reponse": 3,
+          "explication": "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Formule de Moivre ?",
+          "options": [
+            "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+            "r(O ; θ)⁻¹ = r(O ; −θ)",
+            "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+            "eᵃ/eᵇ = eᵃ⁻ᵇ"
+          ],
+          "reponse": 2,
+          "explication": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Forme trigonométrique",
+      "verso": "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)"
+    },
+    {
+      "recto": "Produit en forme polaire",
+      "verso": "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]"
+    },
+    {
+      "recto": "Formule de Moivre",
+      "verso": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)"
+    },
+    {
+      "recto": "Formule d'Euler",
+      "verso": "eⁱᶿ=cosθ+i sinθ"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Forme trigonométrique",
+      "verso": "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Produit en forme polaire",
+      "verso": "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Formule de Moivre",
+      "verso": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Formule d'Euler",
+      "verso": "eⁱᶿ=cosθ+i sinθ",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

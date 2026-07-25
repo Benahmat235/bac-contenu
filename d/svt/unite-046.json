@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u046",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "L'hérédité humaine (2/3)",
+  "ordre": 46,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'hérédité humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u046-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u046-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Génotypes ABO",
+          "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Donneur / receveur universel",
+          "verso": "donneur : O ; receveur : AB",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Facteur Rhésus",
+          "verso": "Rh+ (dominant) / Rh− (récessif)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u046-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u046-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Génotypes ABO ?",
+          "options": [
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "synthèse et transport des substances",
+            "transport du pollen vers le stigmate (anémophile/entomophile)",
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O"
+          ],
+          "reponse": 3,
+          "explication": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Donneur / receveur universel ?",
+          "options": [
+            "étranglements réguliers de la gaine de myéline",
+            "A, T, G, C",
+            "donneur : O ; receveur : AB",
+            "2^n types de gamètes (n = nombre de paires)"
+          ],
+          "reponse": 2,
+          "explication": "donneur : O ; receveur : AB"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Facteur Rhésus ?",
+          "options": [
+            "Rh+ (dominant) / Rh− (récessif)",
+            "libération d'un neurotransmetteur (médiateur chimique)",
+            "génotype = allèles ; phénotype = caractère observé",
+            "portés par le même chromosome, transmis ensemble"
+          ],
+          "reponse": 0,
+          "explication": "Rh+ (dominant) / Rh− (récessif)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Génotypes ABO",
+      "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O"
+    },
+    {
+      "recto": "Donneur / receveur universel",
+      "verso": "donneur : O ; receveur : AB"
+    },
+    {
+      "recto": "Facteur Rhésus",
+      "verso": "Rh+ (dominant) / Rh− (récessif)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Génotypes ABO",
+      "verso": "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Donneur / receveur universel",
+      "verso": "donneur : O ; receveur : AB",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Facteur Rhésus",
+      "verso": "Rh+ (dominant) / Rh− (récessif)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

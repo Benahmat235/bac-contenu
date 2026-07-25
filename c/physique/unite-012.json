@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u012",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Application des lois de Newton (1/2)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Application des lois de Newton",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "2ᵉ loi de Newton",
+          "verso": "ΣF = m·a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "1ère loi (inertie)",
+          "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique",
+          "verso": "Ec = ½·m·v²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie potentielle de pesanteur",
+          "verso": "Ep = m·g·h",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "2ᵉ loi de Newton ?",
+          "options": [
+            "ΣF = m·a",
+            "ΔEc = ΣW(forces)",
+            "e = −L·(di/dt)",
+            "a = F/m (constante)"
+          ],
+          "reponse": 0,
+          "explication": "ΣF = m·a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1ère loi (inertie) ?",
+          "options": [
+            "λ₀ = h·c/W₀",
+            "ω₀ = 1/√(L·C)",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "f₀ = 1/(2π·√(L·C))"
+          ],
+          "reponse": 2,
+          "explication": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énergie cinétique ?",
+          "options": [
+            "a = F/m (constante)",
+            "E = ½·L·i²",
+            "Ec = ½·m·v²",
+            "v = R·ω"
+          ],
+          "reponse": 2,
+          "explication": "Ec = ½·m·v²"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a"
+    },
+    {
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+    },
+    {
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²"
+    },
+    {
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "2e loi de Newton : vecteurs, coordonnées, Frenet",
+      "url": "https://youtu.be/Y3wbzDFnoZk",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Mouvements et 2e loi de Newton (spé physique)",
+      "url": "https://youtu.be/aCM62SsWzos",
+      "type": "video",
+      "chaine": "Physique Chimie HD",
+      "auteur": "Physique Chimie HD"
+    }
+  ]
+}

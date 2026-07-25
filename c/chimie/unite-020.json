@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u020",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Acide faible – base faible (2/2)",
+  "ordre": 20,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acide faible – base faible",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u020-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u020-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Acide faible",
+          "verso": "dissociation partielle dans l'eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force et pKa",
+          "verso": "acide d'autant plus fort que le pKa est petit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante d'acidité",
+          "verso": "Ka = [A⁻][H₃O⁺]/[AH]",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u020-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u020-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Acide faible ?",
+          "options": [
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "dissociation partielle dans l'eau",
+            "température et concentration des réactifs",
+            "acide + alcool ⇌ ester + eau (lente et limitée)"
+          ],
+          "reponse": 1,
+          "explication": "dissociation partielle dans l'eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force et pKa ?",
+          "options": [
+            "acide d'autant plus fort que le pKa est petit",
+            "C = 10^(pH−14)",
+            "images miroir non superposables (molécule chirale)",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)"
+          ],
+          "reponse": 0,
+          "explication": "acide d'autant plus fort que le pKa est petit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante d'acidité ?",
+          "options": [
+            "ester + base → carboxylate (savon) + alcool (totale)",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "Ka = [A⁻][H₃O⁺]/[AH]",
+            "température et concentration des réactifs"
+          ],
+          "reponse": 2,
+          "explication": "Ka = [A⁻][H₃O⁺]/[AH]"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Acide faible",
+      "verso": "dissociation partielle dans l'eau"
+    },
+    {
+      "recto": "Force et pKa",
+      "verso": "acide d'autant plus fort que le pKa est petit"
+    },
+    {
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻][H₃O⁺]/[AH]"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Acide faible",
+      "verso": "dissociation partielle dans l'eau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force et pKa",
+      "verso": "acide d'autant plus fort que le pKa est petit",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻][H₃O⁺]/[AH]",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

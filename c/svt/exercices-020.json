@@ -1,0 +1,284 @@
+{
+  "id": "svt-c-e020",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Brassage génétique et méiose — Exercices",
+  "ordre": 20,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Brassage génétique et méiose",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-c-e020-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e020-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer le nombre de types de gamètes (brassage interchromosomique) :",
+          "etapes": [
+            "Repérer 2n puis calculer n = 2n / 2",
+            "Appliquer la formule 2^n",
+            "Effectuer le calcul",
+            "Conclure"
+          ],
+          "ordreCorrect": [
+            "Repérer 2n puis calculer n = 2n / 2",
+            "Appliquer la formule 2^n",
+            "Effectuer le calcul",
+            "Conclure"
+          ],
+          "explication": "Nombre de gamètes = 2^n."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e020-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e020-c",
+      "activites": [
+        {
+          "id": "svt-c-br-ex01",
+          "enonce": "Qu'est-ce que la méiose ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La méiose est une double division cellulaire qui, à partir d'une cellule diploïde (2n), donne 4 cellules haploïdes (n)."
+          ],
+          "reponseFinale": "Une double division donnant 4 cellules haploïdes",
+          "competenceId": "svt-c-br-meiose"
+        },
+        {
+          "id": "svt-c-br-ex02",
+          "enonce": "Combien de cellules-filles produit la méiose et avec quel nombre de chromosomes ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Une cellule à 2n donne 4 cellules à n chromosomes."
+          ],
+          "reponseFinale": "4 cellules à n chromosomes",
+          "competenceId": "svt-c-br-meiose"
+        },
+        {
+          "id": "svt-c-br-ex03",
+          "enonce": "Comment nomme-t-on la première division de méiose qui divise par deux le nombre de chromosomes ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "La 1re division est réductionnelle (2n → n)."
+          ],
+          "reponseFinale": "La division réductionnelle",
+          "competenceId": "svt-c-br-meiose"
+        },
+        {
+          "id": "svt-c-br-ex04",
+          "enonce": "Comment nomme-t-on la seconde division de méiose ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "La 2e division est équationnelle (elle conserve le nombre n, comme une mitose)."
+          ],
+          "reponseFinale": "La division équationnelle",
+          "competenceId": "svt-c-br-meiose"
+        },
+        {
+          "id": "svt-c-br-ex05",
+          "enonce": "Qu'est-ce que le crossing-over (enjambement) ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "C'est un échange de segments entre chromosomes homologues pendant la prophase I."
+          ],
+          "reponseFinale": "Un échange de segments entre chromosomes homologues",
+          "competenceId": "svt-c-br-brassage"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e020-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-e020-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Espèce à 2n = 6. Nombre de types de gamètes (sans crossing-over) :",
+          "options": [
+            "6",
+            "8",
+            "9",
+            "64"
+          ],
+          "reponse": 1,
+          "explication": "n = 3 ⇒ 2³ = 8."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-br-ex01",
+      "enonce": "Qu'est-ce que la méiose ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La méiose est une double division cellulaire qui, à partir d'une cellule diploïde (2n), donne 4 cellules haploïdes (n)."
+      ],
+      "reponseFinale": "Une double division donnant 4 cellules haploïdes",
+      "competenceId": "svt-c-br-meiose"
+    },
+    {
+      "id": "svt-c-br-ex02",
+      "enonce": "Combien de cellules-filles produit la méiose et avec quel nombre de chromosomes ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Une cellule à 2n donne 4 cellules à n chromosomes."
+      ],
+      "reponseFinale": "4 cellules à n chromosomes",
+      "competenceId": "svt-c-br-meiose"
+    },
+    {
+      "id": "svt-c-br-ex03",
+      "enonce": "Comment nomme-t-on la première division de méiose qui divise par deux le nombre de chromosomes ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La 1re division est réductionnelle (2n → n)."
+      ],
+      "reponseFinale": "La division réductionnelle",
+      "competenceId": "svt-c-br-meiose"
+    },
+    {
+      "id": "svt-c-br-ex04",
+      "enonce": "Comment nomme-t-on la seconde division de méiose ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La 2e division est équationnelle (elle conserve le nombre n, comme une mitose)."
+      ],
+      "reponseFinale": "La division équationnelle",
+      "competenceId": "svt-c-br-meiose"
+    },
+    {
+      "id": "svt-c-br-ex05",
+      "enonce": "Qu'est-ce que le crossing-over (enjambement) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "C'est un échange de segments entre chromosomes homologues pendant la prophase I."
+      ],
+      "reponseFinale": "Un échange de segments entre chromosomes homologues",
+      "competenceId": "svt-c-br-brassage"
+    },
+    {
+      "id": "svt-c-br-ex06",
+      "enonce": "À quel type de brassage correspond le crossing-over ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Le crossing-over mélange les allèles sur un même chromosome : brassage intrachromosomique."
+      ],
+      "reponseFinale": "Au brassage intrachromosomique",
+      "competenceId": "svt-c-br-brassage"
+    },
+    {
+      "id": "svt-c-br-ex07",
+      "enonce": "À quel brassage correspond la répartition au hasard des chromosomes en métaphase I ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "La disposition aléatoire des paires ⇒ brassage interchromosomique."
+      ],
+      "reponseFinale": "Au brassage interchromosomique",
+      "competenceId": "svt-c-br-brassage"
+    },
+    {
+      "id": "svt-c-br-ex08",
+      "enonce": "Un individu possède 2n = 4 chromosomes. Combien de types de gamètes différents peut-il produire (sans crossing-over) ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Nombre de gamètes = 2^n avec n = 2.",
+        "2² = 4 types de gamètes."
+      ],
+      "reponseFinale": "4 types de gamètes",
+      "competenceId": "svt-c-br-gamete"
+    },
+    {
+      "id": "svt-c-br-ex09",
+      "enonce": "Chez l'espèce humaine (2n = 46, donc n = 23), combien de gamètes différents par brassage interchromosomique ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "2^n = 2^23 ≈ 8,4 millions."
+      ],
+      "reponseFinale": "2²³ (environ 8,4 millions)",
+      "competenceId": "svt-c-br-gamete"
+    },
+    {
+      "id": "svt-c-br-ex10",
+      "enonce": "Quel phénomène rétablit le nombre 2n de chromosomes ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La fécondation réunit deux gamètes n + n = 2n."
+      ],
+      "reponseFinale": "La fécondation",
+      "competenceId": "svt-c-br-fecondation"
+    },
+    {
+      "id": "svt-c-br-ex11",
+      "enonce": "Comment appelle-t-on la cellule-œuf issue de la fécondation ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La fusion des gamètes donne le zygote (cellule-œuf) à 2n."
+      ],
+      "reponseFinale": "Le zygote (cellule-œuf)",
+      "competenceId": "svt-c-br-fecondation"
+    },
+    {
+      "id": "svt-c-br-ex12",
+      "enonce": "Pourquoi dit-on que la fécondation est une source de brassage génétique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Elle associe au hasard un gamète mâle et un gamète femelle parmi une immense diversité."
+      ],
+      "reponseFinale": "Elle réunit au hasard deux gamètes très variés",
+      "competenceId": "svt-c-br-brassage"
+    },
+    {
+      "id": "svt-c-br-ex13",
+      "enonce": "Un couple d'une espèce à n = 3 : combien de zygotes génétiquement différents possibles (brassage interchromosomique) ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Chaque parent produit 2^3 = 8 gamètes.",
+        "Zygotes = 8 × 8 = 64."
+      ],
+      "reponseFinale": "64",
+      "competenceId": "svt-c-br-gamete"
+    },
+    {
+      "id": "svt-c-br-ex14",
+      "enonce": "Dans quelles cellules la méiose se déroule-t-elle ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La méiose a lieu dans les cellules reproductrices (lignée germinale) lors de la gamétogenèse."
+      ],
+      "reponseFinale": "Les cellules reproductrices (gamétogenèse)",
+      "competenceId": "svt-c-br-meiose"
+    },
+    {
+      "id": "svt-c-br-ex15",
+      "enonce": "Méiose et fécondation assurent, au cours des générations, la constance de quoi ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La méiose (÷2) et la fécondation (×2) maintiennent constant le nombre de chromosomes de l'espèce."
+      ],
+      "reponseFinale": "La constance du caryotype (nombre de chromosomes)",
+      "competenceId": "svt-c-br-fecondation"
+    }
+  ],
+  "estExercices": true
+}

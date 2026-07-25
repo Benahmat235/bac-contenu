@@ -1,0 +1,143 @@
+{
+  "id": "svt-d-u026",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "La reproduction humaine (1/3)",
+  "ordre": 26,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La reproduction humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u026-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u026-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Gonades",
+          "verso": "testicules (mâle) et ovaires (femelle)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction exocrine du testicule",
+          "verso": "production des spermatozoïdes (spermatogenèse)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction endocrine du testicule",
+          "verso": "sécrétion de testostérone (cellules de Leydig)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u026-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u026-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Gonades ?",
+          "options": [
+            "développement des caractères sexuels secondaires masculins",
+            "testicules (mâle) et ovaires (femelle)",
+            "équationnelle (conserve n)",
+            "production des spermatozoïdes (spermatogenèse)"
+          ],
+          "reponse": 1,
+          "explication": "testicules (mâle) et ovaires (femelle)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonction exocrine du testicule ?",
+          "options": [
+            "AUG (méthionine)",
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "production des spermatozoïdes (spermatogenèse)",
+            "contient l'information génétique (ADN)"
+          ],
+          "reponse": 2,
+          "explication": "production des spermatozoïdes (spermatogenèse)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonction endocrine du testicule ?",
+          "options": [
+            "sécrétion de testostérone (cellules de Leydig)",
+            "nerfs + ganglions",
+            "4³ = 64 codons",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 0,
+          "explication": "sécrétion de testostérone (cellules de Leydig)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Gonades",
+      "verso": "testicules (mâle) et ovaires (femelle)"
+    },
+    {
+      "recto": "Fonction exocrine du testicule",
+      "verso": "production des spermatozoïdes (spermatogenèse)"
+    },
+    {
+      "recto": "Fonction endocrine du testicule",
+      "verso": "sécrétion de testostérone (cellules de Leydig)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Gonades",
+      "verso": "testicules (mâle) et ovaires (femelle)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fonction exocrine du testicule",
+      "verso": "production des spermatozoïdes (spermatogenèse)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fonction endocrine du testicule",
+      "verso": "sécrétion de testostérone (cellules de Leydig)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Cycle ovarien, cycle utérin et régulation hormonale",
+      "url": "https://youtu.be/fFyAfuCZCHk",
+      "type": "video",
+      "chaine": "Easy Biology",
+      "auteur": "Easy Biology"
+    },
+    {
+      "titre": "Au cœur des organes : le cycle ovarien",
+      "url": "https://youtu.be/9wK8G60rDZA",
+      "type": "video",
+      "chaine": "Inserm",
+      "auteur": "Inserm"
+    }
+  ]
+}

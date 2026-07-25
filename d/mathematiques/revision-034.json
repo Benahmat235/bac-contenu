@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r034",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 34,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r034-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r034-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Lever une indétermination ?",
+          "options": [
+            "P(A)=Card(A)/Card(Ω)",
+            "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+            "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+            "factoriser, ou multiplier par l'expression conjuguée"
+          ],
+          "reponse": 3,
+          "explication": "factoriser, ou multiplier par l'expression conjuguée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de 1/x ?",
+          "options": [
+            "n!=n(n−1)…2×1 et 0!=1",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "−1/x²",
+            "xⁿ⁺¹/(n+1) + c"
+          ],
+          "reponse": 2,
+          "explication": "−1/x²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonction puissance / base a ?",
+          "options": [
+            "ln(a/b) = ln a − ln b",
+            "k=|a| et α≡arg(a) [2π]",
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "aˣ = e^(x·ln a)"
+          ],
+          "reponse": 3,
+          "explication": "aˣ = e^(x·ln a)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

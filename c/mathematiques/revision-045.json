@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r045",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 45,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r045-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r045-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Rapport d'une similitude indirecte ?",
+          "options": [
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "transformation qui conserve les distances",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "k=|a|"
+          ],
+          "reponse": 3,
+          "explication": "k=|a|"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vecteurs orthogonaux ?",
+          "options": [
+            "u ⊥ v ⟺ u·v = 0",
+            "nᵖ suites ordonnées de longueur p",
+            "z'−ω=keⁱᵅ(z−ω)",
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞"
+          ],
+          "reponse": 0,
+          "explication": "u ⊥ v ⟺ u·v = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Primitive de u'/u ?",
+          "options": [
+            "PGCD(a;b) = dernier reste non nul des divisions successives",
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+            "n·(M − A) = 0",
+            "ln|u| + c"
+          ],
+          "reponse": 3,
+          "explication": "ln|u| + c"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-a4-u001",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Le second degré : équations et inéquations (1/2)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le second degré : équations et inéquations",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Forme générale d'un trinôme du second degré",
+          "verso": "P(x) = ax² + bx + c, avec a ≠ 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Discriminant d'un trinôme ax² + bx + c",
+          "verso": "Δ = b² − 4ac",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Racines si Δ > 0",
+          "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Racine si Δ = 0 (racine double)",
+          "verso": "x₀ = −b / 2a",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Forme générale d'un trinôme du second degré ?",
+          "options": [
+            "(ln x)' = 1/x",
+            "P(x) = a(x − x₁)(x − x₂)",
+            "P(x) = ax² + bx + c, avec a ≠ 0",
+            "Cⁿₚ = n!/((n−p)!·p!)"
+          ],
+          "reponse": 2,
+          "explication": "P(x) = ax² + bx + c, avec a ≠ 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Discriminant d'un trinôme ax² + bx + c ?",
+          "options": [
+            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "p(A∪B) = p(A) + p(B) − p(A∩B)",
+            "Δ = b² − 4ac",
+            "p(A) = Card(A)/Card(Ω)"
+          ],
+          "reponse": 2,
+          "explication": "Δ = b² − 4ac"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Racines si Δ > 0 ?",
+          "options": [
+            "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "(eˣ)' = eˣ",
+            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+          ],
+          "reponse": 3,
+          "explication": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Forme générale d'un trinôme du second degré",
+      "verso": "P(x) = ax² + bx + c, avec a ≠ 0"
+    },
+    {
+      "recto": "Discriminant d'un trinôme ax² + bx + c",
+      "verso": "Δ = b² − 4ac"
+    },
+    {
+      "recto": "Racines si Δ > 0",
+      "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+    },
+    {
+      "recto": "Racine si Δ = 0 (racine double)",
+      "verso": "x₀ = −b / 2a"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Forme générale d'un trinôme du second degré",
+      "verso": "P(x) = ax² + bx + c, avec a ≠ 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Discriminant d'un trinôme ax² + bx + c",
+      "verso": "Δ = b² − 4ac",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Racines si Δ > 0",
+      "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Racine si Δ = 0 (racine double)",
+      "verso": "x₀ = −b / 2a",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Équations du second degré",
+      "url": "https://youtu.be/tc9wvbYuZts",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Résoudre une inéquation avec le signe d'un trinôme",
+      "url": "https://youtu.be/AEL4qKKNvp8",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

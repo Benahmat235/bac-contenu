@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-d-u011",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Primitives et fonction logarithme népérien (1/3)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Primitives et fonction logarithme népérien",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u011-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Primitive de xⁿ (n≠−1)",
+          "verso": "xⁿ⁺¹/(n+1) + c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive de u'/u",
+          "verso": "ln|u| + c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de ln x",
+          "verso": "1/x",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de ln u",
+          "verso": "u'/u",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Primitive de xⁿ (n≠−1) ?",
+          "options": [
+            "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+            "nᵖ suites ordonnées de longueur p",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "xⁿ⁺¹/(n+1) + c"
+          ],
+          "reponse": 3,
+          "explication": "xⁿ⁺¹/(n+1) + c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Primitive de u'/u ?",
+          "options": [
+            "lim(x→+∞) (ln x)/x = 0",
+            "uₙ = u₀ + n·r",
+            "ln|u| + c",
+            "1/(2√x)"
+          ],
+          "reponse": 2,
+          "explication": "ln|u| + c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de ln x ?",
+          "options": [
+            "1/x",
+            "eᵃ/eᵇ = eᵃ⁻ᵇ",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+            "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1"
+          ],
+          "reponse": 0,
+          "explication": "1/x"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Primitive de xⁿ (n≠−1)",
+      "verso": "xⁿ⁺¹/(n+1) + c"
+    },
+    {
+      "recto": "Primitive de u'/u",
+      "verso": "ln|u| + c"
+    },
+    {
+      "recto": "Dérivée de ln x",
+      "verso": "1/x"
+    },
+    {
+      "recto": "Dérivée de ln u",
+      "verso": "u'/u"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Primitive de xⁿ (n≠−1)",
+      "verso": "xⁿ⁺¹/(n+1) + c",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Primitive de u'/u",
+      "verso": "ln|u| + c",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de ln x",
+      "verso": "1/x",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de ln u",
+      "verso": "u'/u",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Les primitives - Terminale",
+      "url": "https://youtu.be/bQ-eS1zZCdw",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Logarithme népérien - Terminale",
+      "url": "https://youtu.be/VJns0RfVWGg",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

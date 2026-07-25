@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u012",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Isométries du plan et applications affines (3/3)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Isométries du plan et applications affines",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Symétries d'axes sécants en O",
+          "verso": "composée = rotation de centre O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réciproque d'une rotation",
+          "verso": "r(O ; θ)⁻¹ = r(O ; −θ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isométrie",
+          "verso": "transformation qui conserve les distances",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Symétries d'axes sécants en O ?",
+          "options": [
+            "nᵖ suites ordonnées de longueur p",
+            "z'=az+b, avec a∈ℂ*",
+            "composée = rotation de centre O",
+            "si lim f = l (réel) en ±∞, alors y = l"
+          ],
+          "reponse": 2,
+          "explication": "composée = rotation de centre O"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réciproque d'une rotation ?",
+          "options": [
+            "u'·eᵘ",
+            "r(O ; θ)⁻¹ = r(O ; −θ)",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "|a+ib|=√(a²+b²)"
+          ],
+          "reponse": 1,
+          "explication": "r(O ; θ)⁻¹ = r(O ; −θ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isométrie ?",
+          "options": [
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "transformation qui conserve les distances",
+            "eᵘ + c",
+            "C(n,p)=n!/(p!(n−p)!)"
+          ],
+          "reponse": 1,
+          "explication": "transformation qui conserve les distances"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Symétries d'axes sécants en O",
+      "verso": "composée = rotation de centre O"
+    },
+    {
+      "recto": "Réciproque d'une rotation",
+      "verso": "r(O ; θ)⁻¹ = r(O ; −θ)"
+    },
+    {
+      "recto": "Isométrie",
+      "verso": "transformation qui conserve les distances"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Symétries d'axes sécants en O",
+      "verso": "composée = rotation de centre O",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réciproque d'une rotation",
+      "verso": "r(O ; θ)⁻¹ = r(O ; −θ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isométrie",
+      "verso": "transformation qui conserve les distances",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

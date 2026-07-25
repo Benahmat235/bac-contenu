@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-d-u026",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Intégrales (1/3)",
+  "ordre": 26,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Intégrales",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u026-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u026-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Intégrale par une primitive F de f",
+          "verso": "∫ₐᵇ f(x) dx = F(b) − F(a)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation de Chasles",
+          "verso": "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Linéarité",
+          "verso": "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive d'une puissance",
+          "verso": "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u026-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u026-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Intégrale par une primitive F de f ?",
+          "options": [
+            "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "∫ₐᵇ f(x) dx = F(b) − F(a)",
+            "n!=n(n−1)…2×1 et 0!=1"
+          ],
+          "reponse": 2,
+          "explication": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Relation de Chasles ?",
+          "options": [
+            "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f",
+            "Résoudre z'=z",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "lim(x→0) sin(x)/x = 1"
+          ],
+          "reponse": 0,
+          "explication": "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Linéarité ?",
+          "options": [
+            "ln(a/b) = ln a − ln b",
+            "ln|u| + c",
+            "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+            "P(A)=Card(A)/Card(Ω)"
+          ],
+          "reponse": 2,
+          "explication": "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Intégrale par une primitive F de f",
+      "verso": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+    },
+    {
+      "recto": "Relation de Chasles",
+      "verso": "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f"
+    },
+    {
+      "recto": "Linéarité",
+      "verso": "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg"
+    },
+    {
+      "recto": "Primitive d'une puissance",
+      "verso": "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Intégrale par une primitive F de f",
+      "verso": "∫ₐᵇ f(x) dx = F(b) − F(a)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Relation de Chasles",
+      "verso": "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Linéarité",
+      "verso": "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Primitive d'une puissance",
+      "verso": "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Intégration - Terminale (le cours)",
+      "url": "https://youtu.be/pFKzXZrMVxs",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Calculer une intégrale - Terminale",
+      "url": "https://youtu.be/Z3vKJJE57Uw",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

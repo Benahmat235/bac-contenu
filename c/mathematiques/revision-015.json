@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r015",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 15,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r015-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r015-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Milieu d'un segment ?",
+          "options": [
+            "u'/u",
+            "z' = −z + b, centre d'affixe b/2",
+            "I = ((xA+xB)/2 ; (yA+yB)/2)",
+            "r(O ; θ)⁻¹ = r(O ; −θ)"
+          ],
+          "reponse": 2,
+          "explication": "I = ((xA+xB)/2 ; (yA+yB)/2)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit scalaire (coordonnées) ?",
+          "options": [
+            "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+            "factoriser, ou multiplier par l'expression conjuguée",
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "(u/v)' = (u'v − uv')/v²"
+          ],
+          "reponse": 2,
+          "explication": "u·v = xᵤxᵥ + yᵤyᵥ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Lien PGCD–PPCM ?",
+          "options": [
+            "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+            "E(X)=ΣxᵢP(X=xᵢ)",
+            "(uv)' = u'v + uv'",
+            "PGCD(a;b) × PPCM(a;b) = a × b"
+          ],
+          "reponse": 3,
+          "explication": "PGCD(a;b) × PPCM(a;b) = a × b"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

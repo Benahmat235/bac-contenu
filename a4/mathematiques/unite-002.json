@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-a4-u002",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Le second degré : équations et inéquations (2/2)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le second degré : équations et inéquations",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nombre de racines si Δ < 0",
+          "verso": "Aucune racine réelle : S = ∅",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Forme factorisée d'un trinôme (Δ > 0)",
+          "verso": "P(x) = a(x − x₁)(x − x₂)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Signe du trinôme P(x) selon Δ",
+          "verso": "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a.",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Discriminant réduit (quand b est pair, b' = b/2)",
+          "verso": "Δ' = b'² − ac",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombre de racines si Δ < 0 ?",
+          "options": [
+            "Card(A∪B) = CardA + CardB − Card(A∩B)",
+            "Δ = b² − 4ac",
+            "Aucune racine réelle : S = ∅",
+            "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)"
+          ],
+          "reponse": 2,
+          "explication": "Aucune racine réelle : S = ∅"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Forme factorisée d'un trinôme (Δ > 0) ?",
+          "options": [
+            "Δ = b² − 4ac",
+            "P(x) = a(x − x₁)(x − x₂)",
+            "p(A∪B) = p(A) + p(B) − p(A∩B)",
+            "x₀ = −b / 2a"
+          ],
+          "reponse": 1,
+          "explication": "P(x) = a(x − x₁)(x − x₂)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Signe du trinôme P(x) selon Δ ?",
+          "options": [
+            "p(A∪B) = p(A) + p(B) − p(A∩B)",
+            "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a.",
+            "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
+            "x₀ = −b / 2a"
+          ],
+          "reponse": 1,
+          "explication": "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nombre de racines si Δ < 0",
+      "verso": "Aucune racine réelle : S = ∅"
+    },
+    {
+      "recto": "Forme factorisée d'un trinôme (Δ > 0)",
+      "verso": "P(x) = a(x − x₁)(x − x₂)"
+    },
+    {
+      "recto": "Signe du trinôme P(x) selon Δ",
+      "verso": "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a."
+    },
+    {
+      "recto": "Discriminant réduit (quand b est pair, b' = b/2)",
+      "verso": "Δ' = b'² − ac"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nombre de racines si Δ < 0",
+      "verso": "Aucune racine réelle : S = ∅",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Forme factorisée d'un trinôme (Δ > 0)",
+      "verso": "P(x) = a(x − x₁)(x − x₂)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Signe du trinôme P(x) selon Δ",
+      "verso": "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a.",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Discriminant réduit (quand b est pair, b' = b/2)",
+      "verso": "Δ' = b'² − ac",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

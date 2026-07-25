@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u038",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Le monohybridisme (3/3)",
+  "ordre": 38,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le monohybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u038-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u038-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "F2 en dominance parfaite",
+          "verso": "3/4 dominant, 1/4 récessif (3 : 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "F2 en dominance intermédiaire",
+          "verso": "1/4 : 2/4 : 1/4",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croisement-test (backcross)",
+          "verso": "croisement avec le double récessif pour révéler le génotype",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u038-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u038-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "F2 en dominance parfaite ?",
+          "options": [
+            "individu homozygote à descendance identique",
+            "ovaire + style + stigmate",
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole"
+          ],
+          "reponse": 2,
+          "explication": "3/4 dominant, 1/4 récessif (3 : 1)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "F2 en dominance intermédiaire ?",
+          "options": [
+            "2n = diploïde ; n = haploïde (gamètes)",
+            "1/4 : 2/4 : 1/4",
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "élimine les introns et réunit les exons"
+          ],
+          "reponse": 1,
+          "explication": "1/4 : 2/4 : 1/4"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Croisement-test (backcross) ?",
+          "options": [
+            "croisement avec le double récessif pour révéler le génotype",
+            "apporte les acides aminés et porte l'anticodon",
+            "taux de glucose sanguin ≈ 1 g/L",
+            "la pilule bloque l'ovulation (inhibition FSH/LH)"
+          ],
+          "reponse": 0,
+          "explication": "croisement avec le double récessif pour révéler le génotype"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "F2 en dominance parfaite",
+      "verso": "3/4 dominant, 1/4 récessif (3 : 1)"
+    },
+    {
+      "recto": "F2 en dominance intermédiaire",
+      "verso": "1/4 : 2/4 : 1/4"
+    },
+    {
+      "recto": "Croisement-test (backcross)",
+      "verso": "croisement avec le double récessif pour révéler le génotype"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "F2 en dominance parfaite",
+      "verso": "3/4 dominant, 1/4 récessif (3 : 1)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "F2 en dominance intermédiaire",
+      "verso": "1/4 : 2/4 : 1/4",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Croisement-test (backcross)",
+      "verso": "croisement avec le double récessif pour révéler le génotype",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

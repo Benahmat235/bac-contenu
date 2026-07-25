@@ -1,0 +1,342 @@
+{
+  "id": "physique-d-e025",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Les circuits oscillants — Exercices",
+  "ordre": 25,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les circuits oscillants",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-d-e025-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e025-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer la fréquence propre d'un circuit LC :",
+          "etapes": [
+            "Repérer L et C",
+            "Écrire f₀ = 1/(2π√(LC))",
+            "Calculer √(LC) puis 2π√(LC)",
+            "Prendre l'inverse"
+          ],
+          "ordreCorrect": [
+            "Repérer L et C",
+            "Écrire f₀ = 1/(2π√(LC))",
+            "Calculer √(LC) puis 2π√(LC)",
+            "Prendre l'inverse"
+          ],
+          "explication": "On applique la formule de Thomson."
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e025-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e025-c",
+      "activites": [
+        {
+          "id": "phy-d-lc-ex01",
+          "enonce": "Circuit LC : L = 0.1 H, C = 1e-06 F. Calculer la période propre T₀.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "T₀ = 2π·√(L·C)",
+            "T₀ = 2π·√(0.1×1e-06)"
+          ],
+          "reponseFinale": "T₀ ≈ 0.00199 s",
+          "competenceId": "phy-d-lc-c-lc"
+        },
+        {
+          "id": "phy-d-lc-ex02",
+          "enonce": "Circuit LC : L = 0.5 H, C = 2e-06 F. Calculer la période propre T₀.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "T₀ = 2π·√(L·C)",
+            "T₀ = 2π·√(0.5×2e-06)"
+          ],
+          "reponseFinale": "T₀ ≈ 0.00628 s",
+          "competenceId": "phy-d-lc-c-lc"
+        },
+        {
+          "id": "phy-d-lc-ex03",
+          "enonce": "Circuit LC : L = 0.2 H, C = 5e-07 F. Calculer la période propre T₀.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "T₀ = 2π·√(L·C)",
+            "T₀ = 2π·√(0.2×5e-07)"
+          ],
+          "reponseFinale": "T₀ ≈ 0.00199 s",
+          "competenceId": "phy-d-lc-c-lc"
+        },
+        {
+          "id": "phy-d-lc-ex04",
+          "enonce": "Circuit LC : L = 1 H, C = 1e-06 F. Calculer la période propre T₀.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "T₀ = 2π·√(L·C)",
+            "T₀ = 2π·√(1×1e-06)"
+          ],
+          "reponseFinale": "T₀ ≈ 0.00628 s",
+          "competenceId": "phy-d-lc-c-lc"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e025-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-d-e025-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "C = 1 µF, U = 10 V. L'énergie du condensateur vaut :",
+          "options": [
+            "5×10⁻⁵ J",
+            "1×10⁻⁴ J",
+            "5×10⁻⁴ J",
+            "0,1 J"
+          ],
+          "reponse": 0,
+          "explication": "E=½CU²=0,5×1e-6×100=5e-5 J."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-d-lc-ex01",
+      "enonce": "Circuit LC : L = 0.1 H, C = 1e-06 F. Calculer la période propre T₀.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)",
+        "T₀ = 2π·√(0.1×1e-06)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00199 s",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex02",
+      "enonce": "Circuit LC : L = 0.5 H, C = 2e-06 F. Calculer la période propre T₀.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)",
+        "T₀ = 2π·√(0.5×2e-06)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00628 s",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex03",
+      "enonce": "Circuit LC : L = 0.2 H, C = 5e-07 F. Calculer la période propre T₀.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)",
+        "T₀ = 2π·√(0.2×5e-07)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00199 s",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex04",
+      "enonce": "Circuit LC : L = 1 H, C = 1e-06 F. Calculer la période propre T₀.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)",
+        "T₀ = 2π·√(1×1e-06)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00628 s",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex05",
+      "enonce": "Circuit LC : L = 0.05 H, C = 4e-06 F. Calculer la période propre T₀.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)",
+        "T₀ = 2π·√(0.05×4e-06)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00281 s",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex06",
+      "enonce": "Circuit LC : L = 0.1 H, C = 1e-06 F. Calculer la fréquence propre f₀.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "f₀ = 1/(2π·√(L·C))",
+        "f₀ = 1/(2π·√(0.1×1e-06))"
+      ],
+      "reponseFinale": "f₀ ≈ 503 Hz",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex07",
+      "enonce": "Circuit LC : L = 0.5 H, C = 2e-06 F. Calculer la fréquence propre f₀.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "f₀ = 1/(2π·√(L·C))",
+        "f₀ = 1/(2π·√(0.5×2e-06))"
+      ],
+      "reponseFinale": "f₀ ≈ 159 Hz",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex08",
+      "enonce": "Circuit LC : L = 0.2 H, C = 5e-07 F. Calculer la fréquence propre f₀.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "f₀ = 1/(2π·√(L·C))",
+        "f₀ = 1/(2π·√(0.2×5e-07))"
+      ],
+      "reponseFinale": "f₀ ≈ 503 Hz",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex09",
+      "enonce": "Énergie emmagasinée dans une bobine : L = 0.1 H, I = 2 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = ½·L·I²",
+        "E = 0,5×0.1×2²"
+      ],
+      "reponseFinale": "E = 0.2 J",
+      "competenceId": "phy-d-lc-c-bobine"
+    },
+    {
+      "id": "phy-d-lc-ex10",
+      "enonce": "Énergie emmagasinée dans une bobine : L = 0.5 H, I = 0.5 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = ½·L·I²",
+        "E = 0,5×0.5×0.5²"
+      ],
+      "reponseFinale": "E = 0.0625 J",
+      "competenceId": "phy-d-lc-c-bobine"
+    },
+    {
+      "id": "phy-d-lc-ex11",
+      "enonce": "Énergie emmagasinée dans une bobine : L = 1 H, I = 1 A.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = ½·L·I²",
+        "E = 0,5×1×1²"
+      ],
+      "reponseFinale": "E = 0.5 J",
+      "competenceId": "phy-d-lc-c-bobine"
+    },
+    {
+      "id": "phy-d-lc-ex12",
+      "enonce": "Énergie dans un condensateur : C = 1e-06 F, U = 10 V.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = ½·C·U²",
+        "E = 0,5×1e-06×10²"
+      ],
+      "reponseFinale": "E = 5e-05 J",
+      "competenceId": "phy-d-lc-c-condo"
+    },
+    {
+      "id": "phy-d-lc-ex13",
+      "enonce": "Énergie dans un condensateur : C = 2e-06 F, U = 5 V.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = ½·C·U²",
+        "E = 0,5×2e-06×5²"
+      ],
+      "reponseFinale": "E = 2.5e-05 J",
+      "competenceId": "phy-d-lc-c-condo"
+    },
+    {
+      "id": "phy-d-lc-ex14",
+      "enonce": "Énergie dans un condensateur : C = 0.001 F, U = 12 V.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "E = ½·C·U²",
+        "E = 0,5×0.001×12²"
+      ],
+      "reponseFinale": "E = 0.072 J",
+      "competenceId": "phy-d-lc-c-condo"
+    },
+    {
+      "id": "phy-d-lc-ex15",
+      "enonce": "Auto-induction : L = 0.2 H, di/dt = 50 A/s. Valeur de la tension e = L·di/dt.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "|e| = L·|di/dt|",
+        "e = 0.2×50"
+      ],
+      "reponseFinale": "e = 10 V",
+      "competenceId": "phy-d-lc-c-autoinduction"
+    },
+    {
+      "id": "phy-d-lc-ex16",
+      "enonce": "Auto-induction : L = 0.5 H, di/dt = 10 A/s. Valeur de la tension e = L·di/dt.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "|e| = L·|di/dt|",
+        "e = 0.5×10"
+      ],
+      "reponseFinale": "e = 5 V",
+      "competenceId": "phy-d-lc-c-autoinduction"
+    },
+    {
+      "id": "phy-d-lc-ex17",
+      "enonce": "Dans un circuit LC idéal, l'énergie oscille entre :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "la bobine et le condensateur"
+      ],
+      "reponseFinale": "la bobine (magnétique) et le condensateur (électrique)",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex18",
+      "enonce": "L'unité de l'inductance L est :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "le henry (H)"
+      ],
+      "reponseFinale": "le henry (H)",
+      "competenceId": "phy-d-lc-c-bobine"
+    },
+    {
+      "id": "phy-d-lc-ex19",
+      "enonce": "Circuit LC : L = 0.3 H, C = 3e-06 F. Période propre T₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00596 s",
+      "competenceId": "phy-d-lc-c-lc"
+    },
+    {
+      "id": "phy-d-lc-ex20",
+      "enonce": "Circuit LC : L = 0.4 H, C = 1e-06 F. Période propre T₀ ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T₀ = 2π·√(L·C)"
+      ],
+      "reponseFinale": "T₀ ≈ 0.00397 s",
+      "competenceId": "phy-d-lc-c-lc"
+    }
+  ],
+  "estExercices": true
+}

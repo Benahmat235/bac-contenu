@@ -1,0 +1,126 @@
+{
+  "id": "philosophie-u013",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "La liberté",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La liberté",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u013-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme n'est rien d'autre que ce qu'il se fait. » ?",
+          "reponseAttendue": "Jean-Paul Sartre",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Paul Sartre"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Il n'y a de pensée que dans un homme libre. » ?",
+          "reponseAttendue": "Alain",
+          "modeReponse": "auto_evaluation",
+          "explication": "Alain"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le domaine où la liberté a toujours été connue est le domaine de la politique. » ?",
+          "reponseAttendue": "Hannah Arendt",
+          "modeReponse": "auto_evaluation",
+          "explication": "Hannah Arendt"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme n'est rien d'autre que ce qu'il se fait. » ?",
+          "options": [
+            "Emmanuel Kant",
+            "Jean-Jacques Rousseau",
+            "Jean-Paul Sartre",
+            "Emmanuel Kant"
+          ],
+          "reponse": 2,
+          "explication": "Jean-Paul Sartre"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Il n'y a de pensée que dans un homme libre. » ?",
+          "options": [
+            "Alain",
+            "immédiate",
+            "Emmanuel Kant",
+            "Hegel"
+          ],
+          "reponse": 0,
+          "explication": "Alain"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le domaine où la liberté a toujours été connue est le domaine de la politique. » ?",
+          "options": [
+            "Louis XIV",
+            "Jean-Jacques Rousseau",
+            "Hannah Arendt",
+            "immédiate"
+          ],
+          "reponse": 2,
+          "explication": "Hannah Arendt"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « L'homme n'est rien d'autre que ce qu'il se fait. » ?",
+      "verso": "Jean-Paul Sartre"
+    },
+    {
+      "recto": "Qui a dit : « Il n'y a de pensée que dans un homme libre. » ?",
+      "verso": "Alain"
+    },
+    {
+      "recto": "Qui a dit : « Le domaine où la liberté a toujours été connue est le domaine de la politique. » ?",
+      "verso": "Hannah Arendt"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La liberté (cours)",
+      "url": "https://youtu.be/Ep8xl0jN-qM",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "La liberté - Terminale",
+      "url": "https://youtu.be/wpkLV9dc4Cg",
+      "type": "video",
+      "chaine": "Apprendre la philosophie",
+      "auteur": "Apprendre la philosophie"
+    }
+  ]
+}

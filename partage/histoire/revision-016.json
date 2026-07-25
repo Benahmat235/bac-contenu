@@ -1,0 +1,67 @@
+{
+  "id": "histoire-r016",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-r016-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "histoire-r016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "options": [
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
+            "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence sov",
+            "Conférence de l'Union, Commission, Conseil Exécutif, Parlement Panafricain, Conseil Économique Social et Culturel."
+          ],
+          "reponse": 1,
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 3 domaines d'intervention de l'ONU. ?",
+          "options": [
+            "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR).",
+            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour int",
+            "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
+            "Conflits armés, querelles de leadership, financement insuffisant, faiblesse de sa justice face à la CPI."
+          ],
+          "reponse": 0,
+          "explication": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pourquoi la crise de Cuba fut la plus grave ?",
+          "options": [
+            "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance.",
+            "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
+            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favor",
+            "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+          ],
+          "reponse": 3,
+          "explication": "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

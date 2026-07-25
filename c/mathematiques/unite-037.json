@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u037",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Primitives et fonction logarithme népérien (3/3)",
+  "ordre": 37,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Primitives et fonction logarithme népérien",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u037-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u037-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Valeurs remarquables",
+          "verso": "ln 1 = 0 ; ln e = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limites du logarithme",
+          "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croissance comparée",
+          "verso": "lim(x→+∞) (ln x)/x = 0",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u037-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u037-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Valeurs remarquables ?",
+          "options": [
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "ln 1 = 0 ; ln e = 1",
+            "u ⊥ v ⟺ u·v = 0"
+          ],
+          "reponse": 2,
+          "explication": "ln 1 = 0 ; ln e = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limites du logarithme ?",
+          "options": [
+            "n·xⁿ⁻¹",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+            "(u/v)' = (u'v − uv')/v²",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+          ],
+          "reponse": 3,
+          "explication": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Croissance comparée ?",
+          "options": [
+            "toute suite croissante majorée (ou décroissante minorée) converge",
+            "lim(x→+∞) (ln x)/x = 0",
+            "e⁰ = 1",
+            "Si a≠1, ω=b/(1−a)"
+          ],
+          "reponse": 1,
+          "explication": "lim(x→+∞) (ln x)/x = 0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Valeurs remarquables",
+      "verso": "ln 1 = 0 ; ln e = 1"
+    },
+    {
+      "recto": "Limites du logarithme",
+      "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+    },
+    {
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) (ln x)/x = 0"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Valeurs remarquables",
+      "verso": "ln 1 = 0 ; ln e = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limites du logarithme",
+      "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) (ln x)/x = 0",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

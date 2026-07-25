@@ -1,0 +1,354 @@
+{
+  "id": "chimie-c-e025",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Constante d'acidité et classification — Exercices",
+  "ordre": 25,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Constante d'acidité et classification",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-c-e025-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-e025-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Comparer la force de deux acides :",
+          "etapes": [
+            "Déterminer le pKa de chaque couple",
+            "Comparer les pKa",
+            "L'acide le plus fort a le pKa le plus petit",
+            "Conclure"
+          ],
+          "ordreCorrect": [
+            "Déterminer le pKa de chaque couple",
+            "Comparer les pKa",
+            "L'acide le plus fort a le pKa le plus petit",
+            "Conclure"
+          ],
+          "explication": "On classe selon les pKa."
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-e025-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-e025-c",
+      "activites": [
+        {
+          "id": "chi-c-ka-ex01",
+          "enonce": "Un couple acide/base a Ka = 1e-05. Calculer le pKa.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "pKa = −log Ka",
+            "pKa = −log(1e-05)"
+          ],
+          "reponseFinale": "pKa ≈ 5.0",
+          "competenceId": "chi-c-ka-c-pka"
+        },
+        {
+          "id": "chi-c-ka-ex02",
+          "enonce": "Un couple acide/base a Ka = 1.6e-05. Calculer le pKa.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "pKa = −log Ka",
+            "pKa = −log(1.6e-05)"
+          ],
+          "reponseFinale": "pKa ≈ 4.8",
+          "competenceId": "chi-c-ka-c-pka"
+        },
+        {
+          "id": "chi-c-ka-ex03",
+          "enonce": "Un couple acide/base a Ka = 0.00063. Calculer le pKa.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "pKa = −log Ka",
+            "pKa = −log(0.00063)"
+          ],
+          "reponseFinale": "pKa ≈ 3.2",
+          "competenceId": "chi-c-ka-c-pka"
+        },
+        {
+          "id": "chi-c-ka-ex04",
+          "enonce": "Un couple acide/base a Ka = 1e-10. Calculer le pKa.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "pKa = −log Ka",
+            "pKa = −log(1e-10)"
+          ],
+          "reponseFinale": "pKa ≈ 10.0",
+          "competenceId": "chi-c-ka-c-pka"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-e025-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chimie-c-e025-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Ka = 10⁻⁵. Le pKa vaut :",
+          "options": [
+            "5",
+            "−5",
+            "10",
+            "1e-5"
+          ],
+          "reponse": 0,
+          "explication": "pKa=−log(10⁻⁵)=5."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-c-ka-ex01",
+      "enonce": "Un couple acide/base a Ka = 1e-05. Calculer le pKa.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pKa = −log Ka",
+        "pKa = −log(1e-05)"
+      ],
+      "reponseFinale": "pKa ≈ 5.0",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex02",
+      "enonce": "Un couple acide/base a Ka = 1.6e-05. Calculer le pKa.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pKa = −log Ka",
+        "pKa = −log(1.6e-05)"
+      ],
+      "reponseFinale": "pKa ≈ 4.8",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex03",
+      "enonce": "Un couple acide/base a Ka = 0.00063. Calculer le pKa.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pKa = −log Ka",
+        "pKa = −log(0.00063)"
+      ],
+      "reponseFinale": "pKa ≈ 3.2",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex04",
+      "enonce": "Un couple acide/base a Ka = 1e-10. Calculer le pKa.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pKa = −log Ka",
+        "pKa = −log(1e-10)"
+      ],
+      "reponseFinale": "pKa ≈ 10.0",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex05",
+      "enonce": "Un couple a pKa = 4.8. Calculer la constante d'acidité Ka.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ka = 10^(−pKa)",
+        "= 10^(−4.8)"
+      ],
+      "reponseFinale": "Ka ≈ 1.6e-05",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex06",
+      "enonce": "Un couple a pKa = 9.2. Calculer la constante d'acidité Ka.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ka = 10^(−pKa)",
+        "= 10^(−9.2)"
+      ],
+      "reponseFinale": "Ka ≈ 6.3e-10",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex07",
+      "enonce": "Un couple a pKa = 3.8. Calculer la constante d'acidité Ka.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ka = 10^(−pKa)",
+        "= 10^(−3.8)"
+      ],
+      "reponseFinale": "Ka ≈ 0.00016",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex08",
+      "enonce": "Un couple a pKa = 6.4. Calculer la constante d'acidité Ka.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Ka = 10^(−pKa)",
+        "= 10^(−6.4)"
+      ],
+      "reponseFinale": "Ka ≈ 4e-07",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex09",
+      "enonce": "La constante d'acidité s'écrit :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ka = [A⁻]·[H₃O⁺]/[AH]"
+      ],
+      "reponseFinale": "Ka = [A⁻][H₃O⁺]/[AH]",
+      "competenceId": "chi-c-ka-c-ka"
+    },
+    {
+      "id": "chi-c-ka-ex10",
+      "enonce": "Entre deux couples, l'acide le plus fort est celui dont le pKa est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "le plus petit"
+      ],
+      "reponseFinale": "le plus petit",
+      "competenceId": "chi-c-ka-c-classification"
+    },
+    {
+      "id": "chi-c-ka-ex11",
+      "enonce": "Entre deux couples, la base la plus forte est celle dont le pKa est :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "le plus grand"
+      ],
+      "reponseFinale": "le plus grand",
+      "competenceId": "chi-c-ka-c-classification"
+    },
+    {
+      "id": "chi-c-ka-ex12",
+      "enonce": "Un couple prédomine sous forme basique si :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH > pKa"
+      ],
+      "reponseFinale": "pH > pKa",
+      "competenceId": "chi-c-ka-c-classification"
+    },
+    {
+      "id": "chi-c-ka-ex13",
+      "enonce": "Un couple prédomine sous forme acide si :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "pH < pKa"
+      ],
+      "reponseFinale": "pH < pKa",
+      "competenceId": "chi-c-ka-c-classification"
+    },
+    {
+      "id": "chi-c-ka-ex14",
+      "enonce": "Couple avec Ka = 4e-05 : pKa ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa=−log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 4.4",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex15",
+      "enonce": "Couple avec Ka = 2.5e-09 : pKa ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa=−log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 8.6",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex16",
+      "enonce": "Couple avec Ka = 0.001 : pKa ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa=−log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 3.0",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex17",
+      "enonce": "Couple avec Ka = 3.2e-08 : pKa ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa=−log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 7.5",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex18",
+      "enonce": "Le pKa et le Ka sont liés par :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "pKa = −log Ka (et Ka = 10^(−pKa))"
+      ],
+      "reponseFinale": "pKa = −log Ka",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex19",
+      "enonce": "Couple avec Ka = 5e-06. Calculer le pKa.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa = −log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 5.3",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex20",
+      "enonce": "Couple avec Ka = 7.9e-10. Calculer le pKa.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa = −log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 9.1",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex21",
+      "enonce": "Couple avec Ka = 2e-05. Calculer le pKa.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa = −log Ka"
+      ],
+      "reponseFinale": "pKa ≈ 4.7",
+      "competenceId": "chi-c-ka-c-pka"
+    },
+    {
+      "id": "chi-c-ka-ex22",
+      "enonce": "Le couple NH₄⁺/NH₃ a un pKa d'environ 9,2. NH₄⁺ est-il un acide fort ou faible ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "pKa élevé (9,2) ⇒ acide faible"
+      ],
+      "reponseFinale": "acide faible",
+      "competenceId": "chi-c-ka-c-classification"
+    }
+  ],
+  "estExercices": true
+}

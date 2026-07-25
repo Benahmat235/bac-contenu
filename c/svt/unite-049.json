@@ -1,0 +1,159 @@
+{
+  "id": "svt-c-u049",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La communication nerveuse (1/3)",
+  "ordre": 49,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication nerveuse",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u049-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u049-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Système nerveux central",
+          "verso": "moelle épinière + encéphale",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Système nerveux périphérique",
+          "verso": "nerfs + ganglions",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Neurone",
+          "verso": "unité fonctionnelle du système nerveux",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Parties du neurone",
+          "verso": "corps cellulaire + dendrites + axone",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u049-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u049-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Système nerveux central ?",
+          "options": [
+            "2n = diploïde ; n = haploïde (gamètes)",
+            "endocrine → sang ; exocrine → canal excréteur",
+            "moelle épinière + encéphale",
+            "A et B codominants, dominent O (récessif)"
+          ],
+          "reponse": 2,
+          "explication": "moelle épinière + encéphale"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Système nerveux périphérique ?",
+          "options": [
+            "universel et dégénéré",
+            "organe régulateur du glucose (stockage/déstockage)",
+            "nerfs + ganglions",
+            "double hélice (Watson et Crick)"
+          ],
+          "reponse": 2,
+          "explication": "nerfs + ganglions"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Neurone ?",
+          "options": [
+            "parentaux majoritaires + recombinés minoritaires",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "unité fonctionnelle du système nerveux",
+            "2n = diploïde ; n = haploïde (gamètes)"
+          ],
+          "reponse": 2,
+          "explication": "unité fonctionnelle du système nerveux"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Système nerveux central",
+      "verso": "moelle épinière + encéphale"
+    },
+    {
+      "recto": "Système nerveux périphérique",
+      "verso": "nerfs + ganglions"
+    },
+    {
+      "recto": "Neurone",
+      "verso": "unité fonctionnelle du système nerveux"
+    },
+    {
+      "recto": "Parties du neurone",
+      "verso": "corps cellulaire + dendrites + axone"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Système nerveux central",
+      "verso": "moelle épinière + encéphale",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Système nerveux périphérique",
+      "verso": "nerfs + ganglions",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Neurone",
+      "verso": "unité fonctionnelle du système nerveux",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Parties du neurone",
+      "verso": "corps cellulaire + dendrites + axone",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Fonctionnement du tissu nerveux : conduction et synapses (TS)",
+      "url": "https://youtu.be/QPutke4U93A",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Le potentiel d'action et la transmission synaptique",
+      "url": "https://youtu.be/20hXrKt8I-c",
+      "type": "video",
+      "chaine": "e-SVT M POURCHER",
+      "auteur": "e-SVT M POURCHER"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u041",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Fonctions exponentielles et fonctions puissances (2/3)",
+  "ordre": 41,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Fonctions exponentielles et fonctions puissances",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u041-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u041-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "exp et ln réciproques",
+          "verso": "ln(eˣ) = x et e^(ln x) = x",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Valeur remarquable",
+          "verso": "e⁰ = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limites de l'exponentielle",
+          "verso": "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u041-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u041-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "exp et ln réciproques ?",
+          "options": [
+            "ln(eˣ) = x et e^(ln x) = x",
+            "toute suite croissante majorée (ou décroissante minorée) converge",
+            "k=|a| et α≡arg(a) [2π]",
+            "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)"
+          ],
+          "reponse": 0,
+          "explication": "ln(eˣ) = x et e^(ln x) = x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Valeur remarquable ?",
+          "options": [
+            "e⁰ = 1",
+            "celle du rapport des termes de plus haut degré",
+            "z' = e^{iθ}·z (|a| = 1)",
+            "composée = rotation de centre O"
+          ],
+          "reponse": 0,
+          "explication": "e⁰ = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limites de l'exponentielle ?",
+          "options": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "lim(x→+∞) (ln x)/x = 0",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0"
+          ],
+          "reponse": 3,
+          "explication": "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "exp et ln réciproques",
+      "verso": "ln(eˣ) = x et e^(ln x) = x"
+    },
+    {
+      "recto": "Valeur remarquable",
+      "verso": "e⁰ = 1"
+    },
+    {
+      "recto": "Limites de l'exponentielle",
+      "verso": "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "exp et ln réciproques",
+      "verso": "ln(eˣ) = x et e^(ln x) = x",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Valeur remarquable",
+      "verso": "e⁰ = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limites de l'exponentielle",
+      "verso": "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

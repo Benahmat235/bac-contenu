@@ -1,0 +1,127 @@
+{
+  "id": "physique-d-u028",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Circuits RLC en régime sinusoïdal forcé (2/2)",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Circuits RLC en régime sinusoïdal forcé",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u028-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u028-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "À la résonance",
+          "verso": "Z = R (minimale), circuit résistif",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Puissance moyenne",
+          "verso": "P = R·I² = U·I·cos(φ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réactance",
+          "verso": "X = Lω − 1/(Cω)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u028-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "À la résonance ?",
+          "options": [
+            "g_h = G·M/(R+h)²",
+            "ω = 2π/T = 2π·N",
+            "F = B·I·l·sin(α)",
+            "Z = R (minimale), circuit résistif"
+          ],
+          "reponse": 3,
+          "explication": "Z = R (minimale), circuit résistif"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Puissance moyenne ?",
+          "options": [
+            "F = q·E",
+            "f₀ = 1/(2π·√(L·C))",
+            "P = R·I² = U·I·cos(φ)",
+            "a = F/m (constante)"
+          ],
+          "reponse": 2,
+          "explication": "P = R·I² = U·I·cos(φ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réactance ?",
+          "options": [
+            "e = −L·(di/dt)",
+            "T²/r³ = 4π²/(G·M) = constante",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "X = Lω − 1/(Cω)"
+          ],
+          "reponse": 3,
+          "explication": "X = Lω − 1/(Cω)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "À la résonance",
+      "verso": "Z = R (minimale), circuit résistif"
+    },
+    {
+      "recto": "Puissance moyenne",
+      "verso": "P = R·I² = U·I·cos(φ)"
+    },
+    {
+      "recto": "Réactance",
+      "verso": "X = Lω − 1/(Cω)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "À la résonance",
+      "verso": "Z = R (minimale), circuit résistif",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Puissance moyenne",
+      "verso": "P = R·I² = U·I·cos(φ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réactance",
+      "verso": "X = Lω − 1/(Cω)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

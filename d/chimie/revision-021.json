@@ -1,0 +1,67 @@
+{
+  "id": "chimie-d-r021",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-r021-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-r021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Ka à partir du pKa ?",
+          "options": [
+            "Ka = 10^(−pKa)",
+            "espèce qui capte un proton H⁺",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "celui dont le pKa est le plus petit"
+          ],
+          "reponse": 0,
+          "explication": "Ka = 10^(−pKa)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "pH > 7",
+            "−CO−NH− (liaison amide)",
+            "diffèrent par la position d'un groupe"
+          ],
+          "reponse": 0,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de position ?",
+          "options": [
+            "pH = 7",
+            "H₃O⁺ + OH⁻ → 2 H₂O",
+            "images miroir non superposables (molécule chirale)",
+            "diffèrent par la position d'un groupe"
+          ],
+          "reponse": 3,
+          "explication": "diffèrent par la position d'un groupe"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,137 @@
+{
+  "id": "philosophie-u010",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "L'État, le pouvoir et les doctrines politiques",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'État, le pouvoir et les doctrines politiques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u010-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u010-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'État est le monopole de la violence physique légitime. » ?",
+          "reponseAttendue": "Max Weber",
+          "modeReponse": "auto_evaluation",
+          "explication": "Max Weber"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "reponseAttendue": "Thomas Hobbes",
+          "modeReponse": "auto_evaluation",
+          "explication": "Thomas Hobbes"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'obéissance à la loi qu'on s'est prescrite est liberté. » ?",
+          "reponseAttendue": "Jean-Jacques Rousseau",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Jacques Rousseau"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'État, c'est moi. » ?",
+          "reponseAttendue": "Louis XIV",
+          "modeReponse": "auto_evaluation",
+          "explication": "Louis XIV"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u010-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'État est le monopole de la violence physique légitime. » ?",
+          "options": [
+            "Max Weber",
+            "Jean Rostand",
+            "Jean-Paul Sartre",
+            "Hannah Arendt"
+          ],
+          "reponse": 0,
+          "explication": "Max Weber"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "options": [
+            "Karl Marx",
+            "Thomas Hobbes",
+            "Max Weber",
+            "Sigmund Freud"
+          ],
+          "reponse": 1,
+          "explication": "Thomas Hobbes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'obéissance à la loi qu'on s'est prescrite est liberté. » ?",
+          "options": [
+            "Leibniz",
+            "Hannah Arendt",
+            "Jean-Jacques Rousseau",
+            "Jean-Paul Sartre"
+          ],
+          "reponse": 2,
+          "explication": "Jean-Jacques Rousseau"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « L'État est le monopole de la violence physique légitime. » ?",
+      "verso": "Max Weber"
+    },
+    {
+      "recto": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+      "verso": "Thomas Hobbes"
+    },
+    {
+      "recto": "Qui a dit : « L'obéissance à la loi qu'on s'est prescrite est liberté. » ?",
+      "verso": "Jean-Jacques Rousseau"
+    },
+    {
+      "recto": "Qui a dit : « L'État, c'est moi. » ?",
+      "verso": "Louis XIV"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "L'État (cours)",
+      "url": "https://youtu.be/-n8Le8cIP9c",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "L'État et le pouvoir politique",
+      "url": "https://youtu.be/0HPKbR1qiNE",
+      "type": "video",
+      "chaine": "PREPA BAC",
+      "auteur": "PREPA BAC"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u002",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Organisation de la cellule (2/3)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Organisation de la cellule",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Mitochondrie",
+          "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Chloroplaste",
+          "verso": "réalise la photosynthèse (cellule végétale uniquement)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ribosomes",
+          "verso": "siège de la synthèse des protéines",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Mitochondrie ?",
+          "options": [
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "2n = diploïde ; n = haploïde (gamètes)",
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "de nature électrique le long de la fibre"
+          ],
+          "reponse": 2,
+          "explication": "siège de la respiration cellulaire, produit l'énergie (ATP)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Chloroplaste ?",
+          "options": [
+            "apporte les acides aminés et porte l'anticodon",
+            "hyaloplasme (fluide) + organites (partie solide)",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "réalise la photosynthèse (cellule végétale uniquement)"
+          ],
+          "reponse": 3,
+          "explication": "réalise la photosynthèse (cellule végétale uniquement)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "siège de la synthèse des protéines",
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "testicules (mâle) et ovaires (femelle)"
+          ],
+          "reponse": 1,
+          "explication": "siège de la synthèse des protéines"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Mitochondrie",
+      "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)"
+    },
+    {
+      "recto": "Chloroplaste",
+      "verso": "réalise la photosynthèse (cellule végétale uniquement)"
+    },
+    {
+      "recto": "Ribosomes",
+      "verso": "siège de la synthèse des protéines"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Mitochondrie",
+      "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Chloroplaste",
+      "verso": "réalise la photosynthèse (cellule végétale uniquement)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Ribosomes",
+      "verso": "siège de la synthèse des protéines",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

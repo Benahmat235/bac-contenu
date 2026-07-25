@@ -1,0 +1,67 @@
+{
+  "id": "anglais-r008",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r008-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'réussir un examen' ?",
+          "options": [
+            "water pollution",
+            "human rights",
+            "sustainable development",
+            "to pass an exam"
+          ],
+          "reponse": 3,
+          "explication": "to pass an exam"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'développement durable' ?",
+          "options": [
+            "been, had, done, made",
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "sustainable development",
+            "climate change"
+          ],
+          "reponse": 2,
+          "explication": "sustainable development"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'bourse d'études' ?",
+          "options": [
+            "scholarship",
+            "sanitation",
+            "However, nevertheless, on the other hand, whereas.",
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+          ],
+          "reponse": 0,
+          "explication": "scholarship"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

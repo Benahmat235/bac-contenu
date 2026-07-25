@@ -1,0 +1,67 @@
+{
+  "id": "philosophie-r004",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-r004-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-r004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La langue est étudiée par la linguistique ; le langage, lui, est étudié par la ______ (science des signes). ?",
+          "options": [
+            "Jean-Paul Sartre",
+            "sémiologie",
+            "Jean Jaurès",
+            "Blaise Pascal"
+          ],
+          "reponse": 1,
+          "explication": "sémiologie"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définis l'inconscient (au sens psychanalytique). ?",
+          "options": [
+            "Louis XIV",
+            "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous.",
+            "Jean-Paul Sartre",
+            "immédiate"
+          ],
+          "reponse": 1,
+          "explication": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+          "options": [
+            "Jean Rostand",
+            "Hannah Arendt",
+            "Aristote",
+            "Protagoras"
+          ],
+          "reponse": 2,
+          "explication": "Aristote"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

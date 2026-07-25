@@ -1,0 +1,137 @@
+{
+  "id": "anglais-u001",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Vocabulary: Education & Society (1/3)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Vocabulary: Education & Society",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u001-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'baccalauréat'",
+          "reponseAttendue": "baccalaureate / high school diploma",
+          "modeReponse": "auto_evaluation",
+          "explication": "baccalaureate / high school diploma"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'réussir un examen'",
+          "reponseAttendue": "to pass an exam",
+          "modeReponse": "auto_evaluation",
+          "explication": "to pass an exam"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'échouer à un examen'",
+          "reponseAttendue": "to fail an exam",
+          "modeReponse": "auto_evaluation",
+          "explication": "to fail an exam"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'bourse d'études'",
+          "reponseAttendue": "scholarship",
+          "modeReponse": "auto_evaluation",
+          "explication": "scholarship"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'baccalauréat' ?",
+          "options": [
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
+            "baccalaureate / high school diploma",
+            "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          ],
+          "reponse": 1,
+          "explication": "baccalaureate / high school diploma"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'réussir un examen' ?",
+          "options": [
+            "water pollution",
+            "to pass an exam",
+            "life expectancy",
+            "sustainable development"
+          ],
+          "reponse": 1,
+          "explication": "to pass an exam"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'échouer à un examen' ?",
+          "options": [
+            "baccalaureate / high school diploma",
+            "enrollment rate / schooling rate",
+            "to fail an exam",
+            "The first sentence of a paragraph that states its main idea."
+          ],
+          "reponse": 2,
+          "explication": "to fail an exam"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'baccalauréat'",
+      "verso": "baccalaureate / high school diploma"
+    },
+    {
+      "recto": "Translate: 'réussir un examen'",
+      "verso": "to pass an exam"
+    },
+    {
+      "recto": "Translate: 'échouer à un examen'",
+      "verso": "to fail an exam"
+    },
+    {
+      "recto": "Translate: 'bourse d'études'",
+      "verso": "scholarship"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "How to remember English vocabulary",
+      "url": "https://youtu.be/ZM6Sg4SN7kU",
+      "type": "video",
+      "chaine": "Bob the Canadian",
+      "auteur": "Bob the Canadian"
+    },
+    {
+      "titre": "The best way to improve your English vocabulary",
+      "url": "https://youtu.be/awIXN5LgWKY",
+      "type": "video",
+      "chaine": "EngFluent",
+      "auteur": "EngFluent"
+    }
+  ]
+}

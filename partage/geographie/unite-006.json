@@ -1,0 +1,110 @@
+{
+  "id": "geographie-u006",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "Le climat, les sols et la végétation du Tchad (3/3)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le climat, les sols et la végétation du Tchad",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "geographie-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "geographie-u006-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Définir : climat, sol et végétation.",
+          "reponseAttendue": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelle stratégie pour protéger l'environnement au Tchad ?",
+          "reponseAttendue": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez deux causes de l'assèchement du lac Tchad.",
+          "reponseAttendue": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
+        }
+      ]
+    },
+    {
+      "id": "geographie-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Définir : climat, sol et végétation. ?",
+          "options": [
+            "Manque de capitaux, de techniciens, concurrence étrangère, manque de débouchés, coût élevé de l'électricité.",
+            "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral.",
+            "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
+            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des"
+          ],
+          "reponse": 3,
+          "explication": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle stratégie pour protéger l'environnement au Tchad ?",
+          "options": [
+            "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
+            "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
+            "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, et ergs (dunes de sable).",
+            "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs."
+          ],
+          "reponse": 1,
+          "explication": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez deux causes de l'assèchement du lac Tchad. ?",
+          "options": [
+            "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas).",
+            "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture).",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Renouvelable : ne s'épuise pas (soleil, vent). Non renouvelable : stocks limités (pétrole, gaz)."
+          ],
+          "reponse": 1,
+          "explication": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Définir : climat, sol et végétation.",
+      "verso": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
+    },
+    {
+      "recto": "Quelle stratégie pour protéger l'environnement au Tchad ?",
+      "verso": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement."
+    },
+    {
+      "recto": "Citez deux causes de l'assèchement du lac Tchad.",
+      "verso": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
+    }
+  ]
+}

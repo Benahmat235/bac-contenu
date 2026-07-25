@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r035",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 35,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r035-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r035-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Vecteurs orthogonaux ?",
+          "options": [
+            "(uv)' = u'v + uv'",
+            "t_v ∘ t_u = t_{u+v}",
+            "u ⊥ v ⟺ u·v = 0",
+            "PGCD(a;b) × PPCM(a;b) = a × b"
+          ],
+          "reponse": 2,
+          "explication": "u ⊥ v ⟺ u·v = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Distance dans le plan complexe ?",
+          "options": [
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+            "k=|a|",
+            "AB=|zB−zA|"
+          ],
+          "reponse": 3,
+          "explication": "AB=|zB−zA|"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limite d'une fonction rationnelle en ±∞ ?",
+          "options": [
+            "‖u‖ = √(x² + y²)",
+            "a ≡ b [n] si a − b est un multiple de n",
+            "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+            "celle du rapport des termes de plus haut degré"
+          ],
+          "reponse": 3,
+          "explication": "celle du rapport des termes de plus haut degré"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u007",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Transmission de l'information génétique (2/3)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Transmission de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u007-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Structure de l'ADN",
+          "verso": "double hélice (Watson et Crick)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gène",
+          "verso": "portion d'ADN responsable d'un caractère héréditaire",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Caryotype",
+          "verso": "ensemble classé des chromosomes d'une cellule",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Structure de l'ADN ?",
+          "options": [
+            "double hélice (Watson et Crick)",
+            "transport du pollen vers le stigmate (anémophile/entomophile)",
+            "9 : 3 : 3 : 1",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+          ],
+          "reponse": 0,
+          "explication": "double hélice (Watson et Crick)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Gène ?",
+          "options": [
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "formation du sac embryonnaire dans l'ovule",
+            "double hélice (Watson et Crick)",
+            "étamines (androcée) et carpelles (gynécée)"
+          ],
+          "reponse": 0,
+          "explication": "portion d'ADN responsable d'un caractère héréditaire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Caryotype ?",
+          "options": [
+            "unité fonctionnelle du système nerveux",
+            "corps cellulaire + dendrites + axone",
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+            "ensemble classé des chromosomes d'une cellule"
+          ],
+          "reponse": 3,
+          "explication": "ensemble classé des chromosomes d'une cellule"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Structure de l'ADN",
+      "verso": "double hélice (Watson et Crick)"
+    },
+    {
+      "recto": "Gène",
+      "verso": "portion d'ADN responsable d'un caractère héréditaire"
+    },
+    {
+      "recto": "Caryotype",
+      "verso": "ensemble classé des chromosomes d'une cellule"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Structure de l'ADN",
+      "verso": "double hélice (Watson et Crick)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Gène",
+      "verso": "portion d'ADN responsable d'un caractère héréditaire",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Caryotype",
+      "verso": "ensemble classé des chromosomes d'une cellule",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

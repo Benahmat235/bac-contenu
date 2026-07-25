@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u017",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Brassage génétique et méiose (2/3)",
+  "ordre": 17,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Brassage génétique et méiose",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u017-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u017-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Crossing-over",
+          "verso": "échange de segments entre chromosomes homologues (prophase I)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Brassage intrachromosomique",
+          "verso": "dû au crossing-over",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Brassage interchromosomique",
+          "verso": "dû à la répartition au hasard des chromosomes (métaphase I)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u017-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u017-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Crossing-over ?",
+          "options": [
+            "production des spermatozoïdes (spermatogenèse)",
+            "synthèse et transport des substances",
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+            "échange de segments entre chromosomes homologues (prophase I)"
+          ],
+          "reponse": 3,
+          "explication": "échange de segments entre chromosomes homologues (prophase I)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Brassage intrachromosomique ?",
+          "options": [
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "A//A (identiques) / A//a (différents)",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "dû au crossing-over"
+          ],
+          "reponse": 3,
+          "explication": "dû au crossing-over"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Brassage interchromosomique ?",
+          "options": [
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "isolant électrique qui accélère la conduction",
+            "dû à la répartition au hasard des chromosomes (métaphase I)",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 2,
+          "explication": "dû à la répartition au hasard des chromosomes (métaphase I)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Crossing-over",
+      "verso": "échange de segments entre chromosomes homologues (prophase I)"
+    },
+    {
+      "recto": "Brassage intrachromosomique",
+      "verso": "dû au crossing-over"
+    },
+    {
+      "recto": "Brassage interchromosomique",
+      "verso": "dû à la répartition au hasard des chromosomes (métaphase I)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Crossing-over",
+      "verso": "échange de segments entre chromosomes homologues (prophase I)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Brassage intrachromosomique",
+      "verso": "dû au crossing-over",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Brassage interchromosomique",
+      "verso": "dû à la répartition au hasard des chromosomes (métaphase I)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

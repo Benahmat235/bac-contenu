@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u022",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essay Writing & Useful Expressions (3/3)",
+  "ordre": 22,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Essay Writing & Useful Expressions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u022-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u022-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "What is a 'topic sentence'?",
+          "reponseAttendue": "The first sentence of a paragraph that states its main idea.",
+          "modeReponse": "auto_evaluation",
+          "explication": "The first sentence of a paragraph that states its main idea."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
+          "reponseAttendue": "In conclusion, I believe that education is the key to development.",
+          "modeReponse": "auto_evaluation",
+          "explication": "In conclusion, I believe that education is the key to development."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'D'une part… d'autre part…'",
+          "reponseAttendue": "On the one hand… on the other hand…",
+          "modeReponse": "auto_evaluation",
+          "explication": "On the one hand… on the other hand…"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u022-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u022-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is a 'topic sentence'?",
+          "options": [
+            "She told me not to go.",
+            "Furthermore, moreover, in addition, besides.",
+            "The first sentence of a paragraph that states its main idea.",
+            "human rights"
+          ],
+          "reponse": 2,
+          "explication": "The first sentence of a paragraph that states its main idea."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.' ?",
+          "options": [
+            "In conclusion, I believe that education is the key to development.",
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "He said (that) he was happy.",
+            "On the one hand… on the other hand…"
+          ],
+          "reponse": 0,
+          "explication": "In conclusion, I believe that education is the key to development."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'D'une part… d'autre part…' ?",
+          "options": [
+            "On the one hand… on the other hand…",
+            "baccalaureate / high school diploma",
+            "In conclusion, I believe that education is the key to development.",
+            "human rights"
+          ],
+          "reponse": 0,
+          "explication": "On the one hand… on the other hand…"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "What is a 'topic sentence'?",
+      "verso": "The first sentence of a paragraph that states its main idea."
+    },
+    {
+      "recto": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
+      "verso": "In conclusion, I believe that education is the key to development."
+    },
+    {
+      "recto": "Translate: 'D'une part… d'autre part…'",
+      "verso": "On the one hand… on the other hand…"
+    }
+  ]
+}

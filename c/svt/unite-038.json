@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u038",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Le monohybridisme (3/3)",
+  "ordre": 38,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le monohybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u038-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u038-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "F2 en dominance parfaite",
+          "verso": "3/4 dominant, 1/4 récessif (3 : 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "F2 en dominance intermédiaire",
+          "verso": "1/4 : 2/4 : 1/4",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croisement-test (backcross)",
+          "verso": "croisement avec le double récessif pour révéler le génotype",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u038-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u038-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "F2 en dominance parfaite ?",
+          "options": [
+            "implantation de l'embryon dans l'endomètre utérin",
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "A, T, G, C",
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)"
+          ],
+          "reponse": 1,
+          "explication": "3/4 dominant, 1/4 récessif (3 : 1)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "F2 en dominance intermédiaire ?",
+          "options": [
+            "équationnelle (conserve n)",
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "produire les ovules et sécréter les hormones ovariennes",
+            "1/4 : 2/4 : 1/4"
+          ],
+          "reponse": 3,
+          "explication": "1/4 : 2/4 : 1/4"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Croisement-test (backcross) ?",
+          "options": [
+            "une des versions possibles d'un gène",
+            "double hélice (Watson et Crick)",
+            "maturation et sécrétion des substances",
+            "croisement avec le double récessif pour révéler le génotype"
+          ],
+          "reponse": 3,
+          "explication": "croisement avec le double récessif pour révéler le génotype"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "F2 en dominance parfaite",
+      "verso": "3/4 dominant, 1/4 récessif (3 : 1)"
+    },
+    {
+      "recto": "F2 en dominance intermédiaire",
+      "verso": "1/4 : 2/4 : 1/4"
+    },
+    {
+      "recto": "Croisement-test (backcross)",
+      "verso": "croisement avec le double récessif pour révéler le génotype"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "F2 en dominance parfaite",
+      "verso": "3/4 dominant, 1/4 récessif (3 : 1)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "F2 en dominance intermédiaire",
+      "verso": "1/4 : 2/4 : 1/4",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Croisement-test (backcross)",
+      "verso": "croisement avec le double récessif pour révéler le génotype",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

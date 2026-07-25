@@ -1,0 +1,110 @@
+{
+  "id": "histoire-u013",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La guerre froide (1947-1991) (3/4)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La guerre froide (1947-1991)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u013-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la bipolarisation ?",
+          "reponseAttendue": "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les causes de la crise de Cuba ?",
+          "reponseAttendue": "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui est Gorbatchev et son œuvre ?",
+          "reponseAttendue": "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la bipolarisation ?",
+          "options": [
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
+            "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
+            "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
+          ],
+          "reponse": 2,
+          "explication": "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les causes de la crise de Cuba ?",
+          "options": [
+            "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétique",
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir ",
+            "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octr",
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopér"
+          ],
+          "reponse": 0,
+          "explication": "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui est Gorbatchev et son œuvre ?",
+          "options": [
+            "Le 30 janvier 2017.",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'",
+            "Tunisie : 20 mars 1956. Maroc : 7 juillet 1956. Algérie : 3 juillet 1962."
+          ],
+          "reponse": 1,
+          "explication": "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que la bipolarisation ?",
+      "verso": "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991."
+    },
+    {
+      "recto": "Quelles sont les causes de la crise de Cuba ?",
+      "verso": "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba."
+    },
+    {
+      "recto": "Qui est Gorbatchev et son œuvre ?",
+      "verso": "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS."
+    }
+  ]
+}

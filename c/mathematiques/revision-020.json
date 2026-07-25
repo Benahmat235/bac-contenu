@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r020",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 20,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r020-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r020-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Critère de divisibilité par 3 et 9 ?",
+          "options": [
+            "Si a≠1, ω=b/(1−a)",
+            "PGCD(a;b) = dernier reste non nul des divisions successives",
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+          ],
+          "reponse": 2,
+          "explication": "la somme des chiffres est divisible par 3 (ou 9)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Symétries d'axes parallèles ?",
+          "options": [
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "k=|a|",
+            "eᵃ·eᵇ = eᵃ⁺ᵇ",
+            "composée = translation"
+          ],
+          "reponse": 3,
+          "explication": "composée = translation"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Équation d'un plan (vecteur normal n) ?",
+          "options": [
+            "eᵃ·eᵇ = eᵃ⁺ᵇ",
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "z'−ω=keⁱᵅ(z−ω)",
+            "n·(M − A) = 0"
+          ],
+          "reponse": 3,
+          "explication": "n·(M − A) = 0"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

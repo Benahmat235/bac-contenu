@@ -1,0 +1,159 @@
+{
+  "id": "svt-c-u011",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Expression de l'information génétique (1/3)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Expression de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u011-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Expression d'un gène",
+          "verso": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Transcription",
+          "verso": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Traduction",
+          "verso": "synthèse de la protéine dans le cytoplasme, sur les ribosomes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codon",
+          "verso": "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Expression d'un gène ?",
+          "options": [
+            "étamines (androcée) et carpelles (gynécée)",
+            "A et B codominants, dominent O (récessif)",
+            "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+            "synthèse et transport des substances"
+          ],
+          "reponse": 2,
+          "explication": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Transcription ?",
+          "options": [
+            "réductionnelle (2n → n)",
+            "développement des caractères sexuels secondaires masculins",
+            "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+            "stockage du glucose en glycogène (foie, muscles)"
+          ],
+          "reponse": 2,
+          "explication": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Traduction ?",
+          "options": [
+            "individu homozygote à descendance identique",
+            "synthèse de la protéine dans le cytoplasme, sur les ribosomes",
+            "ségrégation indépendante des caractères (gènes indépendants)",
+            "formation du sac embryonnaire dans l'ovule"
+          ],
+          "reponse": 1,
+          "explication": "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Expression d'un gène",
+      "verso": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)"
+    },
+    {
+      "recto": "Transcription",
+      "verso": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)"
+    },
+    {
+      "recto": "Traduction",
+      "verso": "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+    },
+    {
+      "recto": "Codon",
+      "verso": "séquence de 3 nucléotides de l'ARNm codant un acide aminé"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Expression d'un gène",
+      "verso": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Transcription",
+      "verso": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Traduction",
+      "verso": "synthèse de la protéine dans le cytoplasme, sur les ribosomes",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codon",
+      "verso": "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Expression de l'information génétique : transcription et traduction",
+      "url": "https://youtu.be/HrPw0uhyRbs",
+      "type": "video",
+      "chaine": "Joyez SVT",
+      "auteur": "Joyez SVT"
+    },
+    {
+      "titre": "Les étapes de l'expression : transcription et traduction",
+      "url": "https://youtu.be/Sx1FOOmlamM",
+      "type": "video",
+      "chaine": "SVT ONLINE",
+      "auteur": "SVT ONLINE"
+    }
+  ]
+}

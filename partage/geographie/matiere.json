@@ -9,63 +9,105 @@
   "description": "Le Tchad : relief, climat, élevage, énergie, transport et développement.",
   "unites": [
     {
-      "id": "geographie-u01",
-      "titre": "Le relief et l'hydrographie du Tchad",
+      "id": "geographie-u001",
+      "titre": "Le relief et l'hydrographie du Tchad (1/2)",
       "ordre": 1,
-      "fichier": "partage/geographie/unite-01.json",
+      "fichier": "partage/geographie/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "geographie-u02",
-      "titre": "Le climat, les sols et la végétation du Tchad",
+      "id": "geographie-u002",
+      "titre": "Le relief et l'hydrographie du Tchad (2/2)",
       "ordre": 2,
-      "fichier": "partage/geographie/unite-02.json",
+      "fichier": "partage/geographie/unite-002.json",
       "prerequis": []
     },
     {
-      "id": "geographie-rev03",
-      "titre": "Révision : leçons 1 et 2",
+      "id": "geographie-u003",
+      "titre": "Le climat, les sols et la végétation du Tchad (1/3)",
       "ordre": 3,
-      "fichier": "partage/geographie/unite-03.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "partage/geographie/unite-003.json",
+      "prerequis": []
     },
     {
-      "id": "geographie-u04",
-      "titre": "L'élevage et la pêche au Tchad",
+      "id": "geographie-r004",
+      "titre": "Révision",
       "ordre": 4,
-      "fichier": "partage/geographie/unite-04.json",
-      "prerequis": []
+      "fichier": "partage/geographie/revision-004.json",
+      "prerequis": [],
+      "estRevision": true
     },
     {
-      "id": "geographie-u05",
-      "titre": "L'énergie, l'industrie et le pétrole au Tchad",
+      "id": "geographie-u005",
+      "titre": "Le climat, les sols et la végétation du Tchad (2/3)",
       "ordre": 5,
-      "fichier": "partage/geographie/unite-05.json",
+      "fichier": "partage/geographie/unite-005.json",
       "prerequis": []
     },
     {
-      "id": "geographie-rev06",
-      "titre": "Révision : leçons 3 et 4",
+      "id": "geographie-u006",
+      "titre": "Le climat, les sols et la végétation du Tchad (3/3)",
       "ordre": 6,
-      "fichier": "partage/geographie/unite-06.json",
-      "prerequis": [],
-      "estRevision": true
-    },
-    {
-      "id": "geographie-u07",
-      "titre": "Transport, commerce, tourisme et développement",
-      "ordre": 7,
-      "fichier": "partage/geographie/unite-07.json",
+      "fichier": "partage/geographie/unite-006.json",
       "prerequis": []
     },
     {
-      "id": "geographie-rev08",
-      "titre": "Révision finale",
+      "id": "geographie-u007",
+      "titre": "L'élevage et la pêche au Tchad (1/2)",
+      "ordre": 7,
+      "fichier": "partage/geographie/unite-007.json",
+      "prerequis": []
+    },
+    {
+      "id": "geographie-r008",
+      "titre": "Révision",
       "ordre": 8,
-      "fichier": "partage/geographie/unite-08.json",
+      "fichier": "partage/geographie/revision-008.json",
       "prerequis": [],
       "estRevision": true
+    },
+    {
+      "id": "geographie-u009",
+      "titre": "L'élevage et la pêche au Tchad (2/2)",
+      "ordre": 9,
+      "fichier": "partage/geographie/unite-009.json",
+      "prerequis": []
+    },
+    {
+      "id": "geographie-u010",
+      "titre": "L'énergie, l'industrie et le pétrole au Tchad (1/2)",
+      "ordre": 10,
+      "fichier": "partage/geographie/unite-010.json",
+      "prerequis": []
+    },
+    {
+      "id": "geographie-u011",
+      "titre": "L'énergie, l'industrie et le pétrole au Tchad (2/2)",
+      "ordre": 11,
+      "fichier": "partage/geographie/unite-011.json",
+      "prerequis": []
+    },
+    {
+      "id": "geographie-r012",
+      "titre": "Révision",
+      "ordre": 12,
+      "fichier": "partage/geographie/revision-012.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "geographie-u013",
+      "titre": "Transport, commerce, tourisme et développement (1/2)",
+      "ordre": 13,
+      "fichier": "partage/geographie/unite-013.json",
+      "prerequis": []
+    },
+    {
+      "id": "geographie-u014",
+      "titre": "Transport, commerce, tourisme et développement (2/2)",
+      "ordre": 14,
+      "fichier": "partage/geographie/unite-014.json",
+      "prerequis": []
     }
   ]
 }

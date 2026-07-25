@@ -1,0 +1,159 @@
+{
+  "id": "chimie-c-u001",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Notion de stéréochimie (1/2)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Notion de stéréochimie",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Isomères",
+          "verso": "même formule brute, formules développées différentes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de chaîne",
+          "verso": "diffèrent par la disposition de la chaîne carbonée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de position",
+          "verso": "diffèrent par la position d'un groupe",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de fonction",
+          "verso": "même formule brute, fonctions différentes",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Isomères ?",
+          "options": [
+            "Ka = [A⁻][H₃O⁺]/[AH]",
+            "même formule brute, formules développées différentes",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "pH = −log[H₃O⁺]"
+          ],
+          "reponse": 1,
+          "explication": "même formule brute, formules développées différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de chaîne ?",
+          "options": [
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "pH = −log[H₃O⁺]",
+            "diffèrent par la disposition de la chaîne carbonée",
+            "images miroir non superposables (molécule chirale)"
+          ],
+          "reponse": 2,
+          "explication": "diffèrent par la disposition de la chaîne carbonée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de position ?",
+          "options": [
+            "visualise les conformations autour d'une liaison C–C",
+            "diffèrent par la position d'un groupe",
+            "se dissocie totalement dans l'eau",
+            "−COO− (−CO−O−)"
+          ],
+          "reponse": 1,
+          "explication": "diffèrent par la position d'un groupe"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Isomères",
+      "verso": "même formule brute, formules développées différentes"
+    },
+    {
+      "recto": "Isomérie de chaîne",
+      "verso": "diffèrent par la disposition de la chaîne carbonée"
+    },
+    {
+      "recto": "Isomérie de position",
+      "verso": "diffèrent par la position d'un groupe"
+    },
+    {
+      "recto": "Isomérie de fonction",
+      "verso": "même formule brute, fonctions différentes"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Isomères",
+      "verso": "même formule brute, formules développées différentes",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isomérie de chaîne",
+      "verso": "diffèrent par la disposition de la chaîne carbonée",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isomérie de position",
+      "verso": "diffèrent par la position d'un groupe",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Isomérie de fonction",
+      "verso": "même formule brute, fonctions différentes",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Stéréochimie 1/8 : les isomères",
+      "url": "https://youtu.be/s4sA1Q7kO0g",
+      "type": "video",
+      "chaine": "M. DOUMBOUYA",
+      "auteur": "M. DOUMBOUYA"
+    },
+    {
+      "titre": "Stéréoisomérie : énantiomères et diastéréoisomères",
+      "url": "https://youtu.be/efmRKnj0H4E",
+      "type": "video",
+      "chaine": "Mathrix",
+      "auteur": "Mathrix"
+    }
+  ]
+}

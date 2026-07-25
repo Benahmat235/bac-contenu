@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r010",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r010-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translation (écriture complexe) ?",
+          "options": [
+            "z' = z + b (b = affixe du vecteur)",
+            "r(O ; θ)⁻¹ = r(O ; −θ)",
+            "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+            "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)"
+          ],
+          "reponse": 0,
+          "explication": "z' = z + b (b = affixe du vecteur)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit scalaire (coordonnées) ?",
+          "options": [
+            "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "uₙ = u₀ + n·r",
+            "deux suites adjacentes convergent vers la même limite"
+          ],
+          "reponse": 1,
+          "explication": "u·v = xᵤxᵥ + yᵤyᵥ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nombres premiers entre eux ?",
+          "options": [
+            "eˣ",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+            "a et b premiers entre eux ⟺ PGCD(a;b) = 1",
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)"
+          ],
+          "reponse": 2,
+          "explication": "a et b premiers entre eux ⟺ PGCD(a;b) = 1"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

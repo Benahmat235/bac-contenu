@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u030",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Décroissance radioactive (1/2)",
+  "ordre": 30,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Décroissance radioactive",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u030-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u030-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Loi de décroissance",
+          "verso": "N(t) = N₀·e^(−λt)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante radioactive et demi-vie",
+          "verso": "λ = ln2 / T½",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Après n demi-vies",
+          "verso": "N = N₀ / 2ⁿ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Activité",
+          "verso": "A = λ·N",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u030-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u030-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Loi de décroissance ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "N(t) = N₀·e^(−λt)",
+            "f₀ = 1/(2π·√(L·C))",
+            "Ep = m·g·h"
+          ],
+          "reponse": 1,
+          "explication": "N(t) = N₀·e^(−λt)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante radioactive et demi-vie ?",
+          "options": [
+            "λ = ln2 / T½",
+            "Ep = m·g·h",
+            "f₀ = 1/(2π·√(L·C))",
+            "E = ½·L·i²"
+          ],
+          "reponse": 0,
+          "explication": "λ = ln2 / T½"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Après n demi-vies ?",
+          "options": [
+            "F = G·M·m/d²",
+            "N = N₀ / 2ⁿ",
+            "ω₀ = 1/√(L·C)",
+            "ω = 2π/T = 2π·N"
+          ],
+          "reponse": 1,
+          "explication": "N = N₀ / 2ⁿ"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Loi de décroissance",
+      "verso": "N(t) = N₀·e^(−λt)"
+    },
+    {
+      "recto": "Constante radioactive et demi-vie",
+      "verso": "λ = ln2 / T½"
+    },
+    {
+      "recto": "Après n demi-vies",
+      "verso": "N = N₀ / 2ⁿ"
+    },
+    {
+      "recto": "Activité",
+      "verso": "A = λ·N"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Loi de décroissance",
+      "verso": "N(t) = N₀·e^(−λt)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Constante radioactive et demi-vie",
+      "verso": "λ = ln2 / T½",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Après n demi-vies",
+      "verso": "N = N₀ / 2ⁿ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Activité",
+      "verso": "A = λ·N",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Transformation nucléaire et radioactivité : cours complet",
+      "url": "https://youtu.be/7qw-pWW9bM8",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Décroissance radioactive, activité et demi-vie",
+      "url": "https://youtu.be/5OtgPL7MfHE",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    }
+  ]
+}

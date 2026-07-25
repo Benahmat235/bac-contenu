@@ -1,0 +1,229 @@
+{
+  "id": "physique-d-u001",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Cinématique (1/2)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Cinématique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Vitesse en MRUV",
+          "verso": "v = v₀ + a·t",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Position en MRUV",
+          "verso": "x = x₀ + v₀·t + ½·a·t²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Mouvement rectiligne uniforme (MRU)",
+          "verso": "x = v·t (a = 0)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation sans le temps",
+          "verso": "v² − v₀² = 2·a·(x − x₀)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Vitesse en MRUV ?",
+          "options": [
+            "v = v₀ + a·t",
+            "Ec = ½·m·v²",
+            "U = Z·I",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+          ],
+          "reponse": 0,
+          "explication": "v = v₀ + a·t"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Position en MRUV ?",
+          "options": [
+            "g = G·M/R²",
+            "e = B·l·v",
+            "x = x₀ + v₀·t + ½·a·t²",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+          ],
+          "reponse": 2,
+          "explication": "x = x₀ + v₀·t + ½·a·t²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Mouvement rectiligne uniforme (MRU) ?",
+          "options": [
+            "T₀ = 2π·√(L·C)",
+            "x = v·t (a = 0)",
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+            "ω₀ = 1/√(L·C)"
+          ],
+          "reponse": 1,
+          "explication": "x = v·t (a = 0)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Vitesse en MRUV",
+      "verso": "v = v₀ + a·t"
+    },
+    {
+      "recto": "Position en MRUV",
+      "verso": "x = x₀ + v₀·t + ½·a·t²"
+    },
+    {
+      "recto": "Mouvement rectiligne uniforme (MRU)",
+      "verso": "x = v·t (a = 0)"
+    },
+    {
+      "recto": "Relation sans le temps",
+      "verso": "v² − v₀² = 2·a·(x − x₀)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Vitesse en MRUV",
+      "verso": "v = v₀ + a·t",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Position en MRUV",
+      "verso": "x = x₀ + v₀·t + ½·a·t²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Mouvement rectiligne uniforme (MRU)",
+      "verso": "x = v·t (a = 0)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Relation sans le temps",
+      "verso": "v² − v₀² = 2·a·(x − x₀)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "1) Les types de référentiels",
+      "url": "https://youtu.be/bFS1x4T2els",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "2) Trajectoire d'un mobile",
+      "url": "https://youtu.be/5sVOPJlOMCg",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "3) Position d'un mobile",
+      "url": "https://youtu.be/o7aa-ZPwD0M",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "4) Applications sur le vecteur position",
+      "url": "https://youtu.be/jFy8Q2B4hhE",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "5) Équation de la trajectoire",
+      "url": "https://youtu.be/9VSmjj78rlI",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "7) Vecteur vitesse",
+      "url": "https://youtu.be/Rc5Rb9AIQlU",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "8) Application sur le vecteur vitesse",
+      "url": "https://youtu.be/sbKxIg_QY3M",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "9) Vecteur accélération",
+      "url": "https://youtu.be/-ZvoD2Qa2tA",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "Détermination des composantes du vecteur accélération",
+      "url": "https://youtu.be/n-Rn8UR4x4Y",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "10) Application sur le vecteur accélération",
+      "url": "https://youtu.be/KHtiwcSi-_U",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "11) Variation du mouvement",
+      "url": "https://youtu.be/tJn_cYEFTEs",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    },
+    {
+      "titre": "12) Application sur la variation du mouvement",
+      "url": "https://youtu.be/KWnBgFtfcJU",
+      "type": "video",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    }
+  ]
+}

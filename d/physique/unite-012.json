@@ -1,0 +1,159 @@
+{
+  "id": "physique-d-u012",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Mouvement d'une particule soumise à une force constante (1/2)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Mouvement d'une particule soumise à une force constante",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "2ᵉ loi de Newton",
+          "verso": "ΣF = m·a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "1ère loi (inertie)",
+          "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique",
+          "verso": "Ec = ½·m·v²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie potentielle de pesanteur",
+          "verso": "Ep = m·g·h",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "2ᵉ loi de Newton ?",
+          "options": [
+            "x = v·t (a = 0)",
+            "x(t) = X_m·cos(ωt + φ)",
+            "U = Z·I",
+            "ΣF = m·a"
+          ],
+          "reponse": 3,
+          "explication": "ΣF = m·a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1ère loi (inertie) ?",
+          "options": [
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "F = G·M·m/d²",
+            "ω₀ = 1/√(L·C)",
+            "Z = R (minimale), circuit résistif"
+          ],
+          "reponse": 0,
+          "explication": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énergie cinétique ?",
+          "options": [
+            "Ec = ½·m·v²",
+            "Ep = m·g·h",
+            "F = |q|·v·B·sin(α)",
+            "T²/r³ = 4π²/(G·M) = constante"
+          ],
+          "reponse": 0,
+          "explication": "Ec = ½·m·v²"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a"
+    },
+    {
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+    },
+    {
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²"
+    },
+    {
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Mouvement d'un projectile dans un champ de pesanteur",
+      "url": "https://youtu.be/GWp7BF6pndc",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    },
+    {
+      "titre": "Mouvement dans un champ de pesanteur uniforme : cours complet",
+      "url": "https://youtu.be/TQ-h9CzOECo",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u006",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Acides forts – bases fortes (2/2)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acides forts – bases fortes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u006-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Concentration d'une base forte",
+          "verso": "C = 10^(pH−14)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acide fort",
+          "verso": "se dissocie totalement dans l'eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Base forte",
+          "verso": "capte totalement des protons (ex. NaOH)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'une base forte ?",
+          "options": [
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "C = 10^(pH−14)",
+            "non oxydable par oxydation ménagée",
+            "AH / A⁻ (l'acide cède un proton H⁺)"
+          ],
+          "reponse": 1,
+          "explication": "C = 10^(pH−14)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Acide fort ?",
+          "options": [
+            "pH = −log[H₃O⁺]",
+            "se dissocie totalement dans l'eau",
+            "[H₃O⁺] = 10^(−pH)",
+            "celui dont le pKa est le plus petit"
+          ],
+          "reponse": 1,
+          "explication": "se dissocie totalement dans l'eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Base forte ?",
+          "options": [
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "capte totalement des protons (ex. NaOH)",
+            "pH + pOH = 14 (25 °C)",
+            "alcool 2aire → cétone"
+          ],
+          "reponse": 1,
+          "explication": "capte totalement des protons (ex. NaOH)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Concentration d'une base forte",
+      "verso": "C = 10^(pH−14)"
+    },
+    {
+      "recto": "Acide fort",
+      "verso": "se dissocie totalement dans l'eau"
+    },
+    {
+      "recto": "Base forte",
+      "verso": "capte totalement des protons (ex. NaOH)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Concentration d'une base forte",
+      "verso": "C = 10^(pH−14)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Acide fort",
+      "verso": "se dissocie totalement dans l'eau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Base forte",
+      "verso": "capte totalement des protons (ex. NaOH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

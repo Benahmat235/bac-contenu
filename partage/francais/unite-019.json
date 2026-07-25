@@ -1,0 +1,121 @@
+{
+  "id": "francais-u019",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Méthodologie : le commentaire composé et le résumé (2/2)",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Méthodologie : le commentaire composé et le résumé",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u019-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u019-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les règles du résumé ?",
+          "reponseAttendue": "Respecter l'ordre des idées, reformuler (ne pas recopier), garder l'essentiel, respecter le nombre de mots demandé (±10%).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Respecter l'ordre des idées, reformuler (ne pas recopier), garder l'essentiel, respecter le nombre de mots demandé (±10%)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la discussion (exercice) ?",
+          "reponseAttendue": "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un champ lexical ?",
+          "reponseAttendue": "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat…).",
+          "modeReponse": "auto_evaluation",
+          "explication": "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat…)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 5 figures de style à connaître pour le bac.",
+          "reponseAttendue": "Métaphore, comparaison, personnification, hyperbole, antithèse, anaphore, litote.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Métaphore, comparaison, personnification, hyperbole, antithèse, anaphore, litote."
+        }
+      ]
+    },
+    {
+      "id": "francais-u019-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les règles du résumé ?",
+          "options": [
+            "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas).",
+            "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant.",
+            "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences.",
+            "Respecter l'ordre des idées, reformuler (ne pas recopier), garder l'essentiel, respecter le nombre de mots demandé (±10%"
+          ],
+          "reponse": 3,
+          "explication": "Respecter l'ordre des idées, reformuler (ne pas recopier), garder l'essentiel, respecter le nombre de mots demandé (±10%)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la discussion (exercice) ?",
+          "options": [
+            "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire.",
+            "Métaphore, comparaison, personnification, hyperbole, antithèse, anaphore, litote.",
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre)."
+          ],
+          "reponse": 3,
+          "explication": "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un champ lexical ?",
+          "options": [
+            "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat",
+            "Une accroche, la présentation du sujet, la problématique et l'annonce du plan.",
+            "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnel",
+            "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+          ],
+          "reponse": 0,
+          "explication": "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat…)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quelles sont les règles du résumé ?",
+      "verso": "Respecter l'ordre des idées, reformuler (ne pas recopier), garder l'essentiel, respecter le nombre de mots demandé (±10%)."
+    },
+    {
+      "recto": "Qu'est-ce que la discussion (exercice) ?",
+      "verso": "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un champ lexical ?",
+      "verso": "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat…)."
+    },
+    {
+      "recto": "Citez 5 figures de style à connaître pour le bac.",
+      "verso": "Métaphore, comparaison, personnification, hyperbole, antithèse, anaphore, litote."
+    }
+  ]
+}

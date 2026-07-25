@@ -1,0 +1,121 @@
+{
+  "id": "anglais-u019",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essay Writing & Useful Expressions (1/3)",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Essay Writing & Useful Expressions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u019-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u019-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "What is the structure of an English essay?",
+          "reponseAttendue": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for adding ideas.",
+          "reponseAttendue": "Furthermore, moreover, in addition, besides.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Furthermore, moreover, in addition, besides."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for contrast.",
+          "reponseAttendue": "However, nevertheless, on the other hand, whereas.",
+          "modeReponse": "auto_evaluation",
+          "explication": "However, nevertheless, on the other hand, whereas."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for cause/consequence.",
+          "reponseAttendue": "Because, therefore, as a result, consequently, due to.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Because, therefore, as a result, consequently, due to."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u019-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of an English essay?",
+          "options": [
+            "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
+            "to pass an exam",
+            "illiteracy",
+            "healthcare system"
+          ],
+          "reponse": 0,
+          "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for adding ideas. ?",
+          "options": [
+            "Furthermore, moreover, in addition, besides.",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "prevention",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 0,
+          "explication": "Furthermore, moreover, in addition, besides."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for contrast. ?",
+          "options": [
+            "illiteracy",
+            "However, nevertheless, on the other hand, whereas.",
+            "unemployment",
+            "'French is spoken in Chad.'"
+          ],
+          "reponse": 1,
+          "explication": "However, nevertheless, on the other hand, whereas."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "What is the structure of an English essay?",
+      "verso": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+    },
+    {
+      "recto": "Give 3 connectors for adding ideas.",
+      "verso": "Furthermore, moreover, in addition, besides."
+    },
+    {
+      "recto": "Give 3 connectors for contrast.",
+      "verso": "However, nevertheless, on the other hand, whereas."
+    },
+    {
+      "recto": "Give 3 connectors for cause/consequence.",
+      "verso": "Because, therefore, as a result, consequently, due to."
+    }
+  ]
+}

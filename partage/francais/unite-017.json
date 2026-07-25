@@ -1,0 +1,121 @@
+{
+  "id": "francais-u017",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Méthodologie : la dissertation (2/2)",
+  "ordre": 17,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Méthodologie : la dissertation",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u017-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u017-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le plan dialectique ?",
+          "reponseAttendue": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un argument ?",
+          "reponseAttendue": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un exemple littéraire ?",
+          "reponseAttendue": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Comment formuler une problématique ?",
+          "reponseAttendue": "Transformer le sujet en une question à laquelle le développement répondra.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Transformer le sujet en une question à laquelle le développement répondra."
+        }
+      ]
+    },
+    {
+      "id": "francais-u017-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u017-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le plan dialectique ?",
+          "options": [
+            "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola.",
+            "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement).",
+            "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal.",
+            "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+          ],
+          "reponse": 3,
+          "explication": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un argument ?",
+          "options": [
+            "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre).",
+            "Récit épique racontant la fondation de l'Empire du Mali par Soundjata Keïta, transmis par les griots.",
+            "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens).",
+            "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple."
+          ],
+          "reponse": 3,
+          "explication": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un exemple littéraire ?",
+          "options": [
+            "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument.",
+            "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset.",
+            "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas).",
+            "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié)."
+          ],
+          "reponse": 0,
+          "explication": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que le plan dialectique ?",
+      "verso": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+    },
+    {
+      "recto": "Qu'est-ce qu'un argument ?",
+      "verso": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple."
+    },
+    {
+      "recto": "Qu'est-ce qu'un exemple littéraire ?",
+      "verso": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument."
+    },
+    {
+      "recto": "Comment formuler une problématique ?",
+      "verso": "Transformer le sujet en une question à laquelle le développement répondra."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r050",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 50,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r050-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r050-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Durée de grossesse ?",
+          "options": [
+            "zone de contact entre deux neurones",
+            "2^n types de gamètes (n = nombre de paires)",
+            "environ 9 mois ; se termine par l'accouchement",
+            "28 jours en moyenne ; ovulation vers le 14e jour"
+          ],
+          "reponse": 2,
+          "explication": "environ 9 mois ; se termine par l'accouchement"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "génotype = allèles ; phénotype = caractère observé",
+            "testicules (mâle) et ovaires (femelle)",
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U"
+          ],
+          "reponse": 0,
+          "explication": "siège de la synthèse des protéines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Germination ?",
+          "options": [
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+            "croisement avec le double récessif pour révéler le génotype",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+          ],
+          "reponse": 0,
+          "explication": "graine → plantule ; nécessite eau, dioxygène et chaleur"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

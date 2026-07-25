@@ -1,0 +1,127 @@
+{
+  "id": "physique-d-u017",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Les oscillations mécaniques (2/2)",
+  "ordre": 17,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les oscillations mécaniques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u017-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u017-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Pulsation",
+          "verso": "ω = 2π/T = 2π·N",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation horaire",
+          "verso": "x(t) = X_m·cos(ωt + φ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie mécanique (ressort)",
+          "verso": "E = ½·k·X_m²",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u017-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u017-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Pulsation ?",
+          "options": [
+            "T = 2π·√(r³/(G·M))",
+            "F = |q|·v·B·sin(α)",
+            "ω = 2π/T = 2π·N",
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)"
+          ],
+          "reponse": 2,
+          "explication": "ω = 2π/T = 2π·N"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Équation horaire ?",
+          "options": [
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "e = B·l·v",
+            "x(t) = X_m·cos(ωt + φ)",
+            "période T = 24 h, au-dessus de l'équateur"
+          ],
+          "reponse": 2,
+          "explication": "x(t) = X_m·cos(ωt + φ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énergie mécanique (ressort) ?",
+          "options": [
+            "X = Lω − 1/(Cω)",
+            "E = ½·k·X_m²",
+            "aₙ = v²/R = ω²·R",
+            "Φ = B·S·cos(α)"
+          ],
+          "reponse": 1,
+          "explication": "E = ½·k·X_m²"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Pulsation",
+      "verso": "ω = 2π/T = 2π·N"
+    },
+    {
+      "recto": "Équation horaire",
+      "verso": "x(t) = X_m·cos(ωt + φ)"
+    },
+    {
+      "recto": "Énergie mécanique (ressort)",
+      "verso": "E = ½·k·X_m²"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Pulsation",
+      "verso": "ω = 2π/T = 2π·N",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Équation horaire",
+      "verso": "x(t) = X_m·cos(ωt + φ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie mécanique (ressort)",
+      "verso": "E = ½·k·X_m²",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

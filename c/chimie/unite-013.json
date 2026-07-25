@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u013",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Solution aqueuse (2/2)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Solution aqueuse",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u013-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Solution acide",
+          "verso": "pH < 7 : [H₃O⁺] > [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution basique",
+          "verso": "pH > 7 : [H₃O⁺] < [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution neutre",
+          "verso": "pH = 7 : [H₃O⁺] = [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Solution acide ?",
+          "options": [
+            "pH = pKa + log([base]/[acide])",
+            "pH < 7 : [H₃O⁺] > [OH⁻]",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
+            "acide d'autant plus fort que le pKa est petit"
+          ],
+          "reponse": 1,
+          "explication": "pH < 7 : [H₃O⁺] > [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution basique ?",
+          "options": [
+            "images miroir non superposables (molécule chirale)",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "pH > 7 : [H₃O⁺] < [OH⁻]"
+          ],
+          "reponse": 3,
+          "explication": "pH > 7 : [H₃O⁺] < [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution neutre ?",
+          "options": [
+            "diminue au cours du temps (réactifs consommés)",
+            "pH ≈ pKa quand [base] = [acide]",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "pH = 7 : [H₃O⁺] = [OH⁻]"
+          ],
+          "reponse": 3,
+          "explication": "pH = 7 : [H₃O⁺] = [OH⁻]"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Solution acide",
+      "verso": "pH < 7 : [H₃O⁺] > [OH⁻]"
+    },
+    {
+      "recto": "Solution basique",
+      "verso": "pH > 7 : [H₃O⁺] < [OH⁻]"
+    },
+    {
+      "recto": "Solution neutre",
+      "verso": "pH = 7 : [H₃O⁺] = [OH⁻]"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Solution acide",
+      "verso": "pH < 7 : [H₃O⁺] > [OH⁻]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Solution basique",
+      "verso": "pH > 7 : [H₃O⁺] < [OH⁻]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Solution neutre",
+      "verso": "pH = 7 : [H₃O⁺] = [OH⁻]",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

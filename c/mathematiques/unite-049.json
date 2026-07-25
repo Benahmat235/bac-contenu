@@ -1,0 +1,136 @@
+{
+  "id": "mathematiques-c-u049",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Suites numériques (1/3)",
+  "ordre": 49,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Suites numériques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u049-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u049-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Terme d'une suite arithmétique",
+          "verso": "uₙ = u₀ + n·r",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Somme d'une suite arithmétique",
+          "verso": "S = (nb de termes)×(1er + dernier)/2",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Terme d'une suite géométrique",
+          "verso": "uₙ = u₀·qⁿ",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u049-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u049-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Terme d'une suite arithmétique ?",
+          "options": [
+            "composée = rotation de centre O",
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+            "uₙ = u₀ + n·r"
+          ],
+          "reponse": 3,
+          "explication": "uₙ = u₀ + n·r"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Somme d'une suite arithmétique ?",
+          "options": [
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+            "eˣ",
+            "S = (nb de termes)×(1er + dernier)/2",
+            "z' = e^{iθ}·z (|a| = 1)"
+          ],
+          "reponse": 2,
+          "explication": "S = (nb de termes)×(1er + dernier)/2"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Terme d'une suite géométrique ?",
+          "options": [
+            "AB=|zB−zA|",
+            "uₙ = u₀·qⁿ",
+            "k=|a| et α≡arg(a) [2π]",
+            "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)"
+          ],
+          "reponse": 1,
+          "explication": "uₙ = u₀·qⁿ"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Terme d'une suite arithmétique",
+      "verso": "uₙ = u₀ + n·r"
+    },
+    {
+      "recto": "Somme d'une suite arithmétique",
+      "verso": "S = (nb de termes)×(1er + dernier)/2"
+    },
+    {
+      "recto": "Terme d'une suite géométrique",
+      "verso": "uₙ = u₀·qⁿ"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Terme d'une suite arithmétique",
+      "verso": "uₙ = u₀ + n·r",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Somme d'une suite arithmétique",
+      "verso": "S = (nb de termes)×(1er + dernier)/2",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Terme d'une suite géométrique",
+      "verso": "uₙ = u₀·qⁿ",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Cours complet : Suites numériques",
+      "url": "https://www.youtube.com/playlist?list=PLrkPItsU9LKqe-WpqtqFi6P6sVNYDkZF-",
+      "type": "playlist",
+      "chaine": "Education Plus",
+      "auteur": "Al Habib Idriss"
+    }
+  ]
+}

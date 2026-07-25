@@ -1,0 +1,137 @@
+{
+  "id": "histoire-u007",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "L'Organisation des Nations Unies (ONU) (1/2)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'Organisation des Nations Unies (ONU)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u007-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quand, où et dans quel contexte l'ONU a été créée ?",
+          "reponseAttendue": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale.",
+          "modeReponse": "auto_evaluation",
+          "explication": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les organes principaux de l'ONU ?",
+          "reponseAttendue": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 6 organes spécialisés de l'ONU.",
+          "reponseAttendue": "OMS, HCR, UNESCO, PNUD, PAM, Unicef.",
+          "modeReponse": "auto_evaluation",
+          "explication": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que signifie 'droit de véto' ?",
+          "reponseAttendue": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quand, où et dans quel contexte l'ONU a été créée ?",
+          "options": [
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopér",
+            "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais san",
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l"
+          ],
+          "reponse": 1,
+          "explication": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les organes principaux de l'ONU ?",
+          "options": [
+            "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
+            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour int",
+            "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs poss",
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,"
+          ],
+          "reponse": 1,
+          "explication": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 6 organes spécialisés de l'ONU. ?",
+          "options": [
+            "OMS, HCR, UNESCO, PNUD, PAM, Unicef.",
+            "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS.",
+            "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais san",
+            "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre."
+          ],
+          "reponse": 0,
+          "explication": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quand, où et dans quel contexte l'ONU a été créée ?",
+      "verso": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
+    },
+    {
+      "recto": "Quels sont les organes principaux de l'ONU ?",
+      "verso": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice."
+    },
+    {
+      "recto": "Citez 6 organes spécialisés de l'ONU.",
+      "verso": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+    },
+    {
+      "recto": "Que signifie 'droit de véto' ?",
+      "verso": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "L'ONU : naissance et objectifs (Terminale BAC)",
+      "url": "https://youtu.be/I_fr60E9QOs",
+      "type": "video",
+      "chaine": "Réussir BAC and BEPC",
+      "auteur": "Réussir BAC and BEPC"
+    },
+    {
+      "titre": "Leçon Terminale : l'ONU",
+      "url": "https://youtu.be/sQpaavq626o",
+      "type": "video",
+      "chaine": "Ndiaye-Histoire",
+      "auteur": "Ndiaye-Histoire"
+    }
+  ]
+}

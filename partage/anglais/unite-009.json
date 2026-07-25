@@ -1,0 +1,144 @@
+{
+  "id": "anglais-u009",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "English Tenses: Present & Past (1/3)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u009-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "When do we use the Present Simple?",
+          "reponseAttendue": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "When do we use the Present Continuous?",
+          "reponseAttendue": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "When do we use the Past Simple?",
+          "reponseAttendue": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "When do we use the Present Perfect?",
+          "reponseAttendue": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Present Simple?",
+          "options": [
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
+            "For instance, for example, such as, to illustrate.",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "She told me not to go."
+          ],
+          "reponse": 0,
+          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Present Continuous?",
+          "options": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "prevention",
+            "renewable energy",
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+          ],
+          "reponse": 0,
+          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Past Simple?",
+          "options": [
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+            "baccalaureate / high school diploma",
+            "'The letter was written (by her).'",
+            "drought"
+          ],
+          "reponse": 0,
+          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "When do we use the Present Simple?",
+      "verso": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+    },
+    {
+      "recto": "When do we use the Present Continuous?",
+      "verso": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+    },
+    {
+      "recto": "When do we use the Past Simple?",
+      "verso": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+    },
+    {
+      "recto": "When do we use the Present Perfect?",
+      "verso": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "The conditionals (0, 1, 2 & 3)",
+      "url": "https://youtu.be/vXp0ETWXbWo",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "Reported speech (indirect speech)",
+      "url": "https://youtu.be/eplQBhE0-Hg",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "Passive voice : step by step",
+      "url": "https://youtu.be/N7uvEllP5Jg",
+      "type": "video",
+      "chaine": "Arnel's Everyday English",
+      "auteur": "Arnel's Everyday English"
+    }
+  ]
+}

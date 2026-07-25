@@ -8,35 +8,100 @@
   "description": "Équations, fonctions et probabilités : formules, exercices corrigés et quiz.",
   "unites": [
     {
-      "id": "math-a4-u1",
-      "titre": "Le second degré : équations et inéquations",
+      "id": "mathematiques-a4-u001",
+      "titre": "Le second degré : équations et inéquations (1/2)",
       "ordre": 1,
-      "fichier": "a4/mathematiques/unite-01.json",
+      "fichier": "a4/mathematiques/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "math-a4-u2",
-      "titre": "Étude de fonction : limites, dérivées et tangentes",
+      "id": "mathematiques-a4-u002",
+      "titre": "Le second degré : équations et inéquations (2/2)",
       "ordre": 2,
-      "fichier": "a4/mathematiques/unite-02.json",
-      "prerequis": [
-        "math-a4-u1"
-      ]
-    },
-    {
-      "id": "math-a4-u3",
-      "titre": "Probabilité : dénombrement et calcul des probabilités",
-      "ordre": 3,
-      "fichier": "a4/mathematiques/unite-03.json",
+      "fichier": "a4/mathematiques/unite-002.json",
       "prerequis": []
     },
     {
-      "id": "mathematiques-a4-rev01",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "mathematiques-a4-e003",
+      "titre": "Le second degré : équations et inéquations — Exercices",
+      "ordre": 3,
+      "fichier": "a4/mathematiques/exercices-003.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-a4-u004",
+      "titre": "Étude de fonction : limites, dérivées et tangentes (1/3)",
       "ordre": 4,
-      "fichier": "a4/mathematiques/revision-01.json",
+      "fichier": "a4/mathematiques/unite-004.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-r005",
+      "titre": "Révision",
+      "ordre": 5,
+      "fichier": "a4/mathematiques/revision-005.json",
       "prerequis": [],
       "estRevision": true
+    },
+    {
+      "id": "mathematiques-a4-u006",
+      "titre": "Étude de fonction : limites, dérivées et tangentes (2/3)",
+      "ordre": 6,
+      "fichier": "a4/mathematiques/unite-006.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-u007",
+      "titre": "Étude de fonction : limites, dérivées et tangentes (3/3)",
+      "ordre": 7,
+      "fichier": "a4/mathematiques/unite-007.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-e008",
+      "titre": "Étude de fonction : limites, dérivées et tangentes — Exercices",
+      "ordre": 8,
+      "fichier": "a4/mathematiques/exercices-008.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "mathematiques-a4-u009",
+      "titre": "Probabilité : dénombrement et calcul des probabilités (1/3)",
+      "ordre": 9,
+      "fichier": "a4/mathematiques/unite-009.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-r010",
+      "titre": "Révision",
+      "ordre": 10,
+      "fichier": "a4/mathematiques/revision-010.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "mathematiques-a4-u011",
+      "titre": "Probabilité : dénombrement et calcul des probabilités (2/3)",
+      "ordre": 11,
+      "fichier": "a4/mathematiques/unite-011.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-u012",
+      "titre": "Probabilité : dénombrement et calcul des probabilités (3/3)",
+      "ordre": 12,
+      "fichier": "a4/mathematiques/unite-012.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-e013",
+      "titre": "Probabilité : dénombrement et calcul des probabilités — Exercices",
+      "ordre": 13,
+      "fichier": "a4/mathematiques/exercices-013.json",
+      "prerequis": [],
+      "estExercices": true
     }
   ]
 }

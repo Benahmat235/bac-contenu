@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r014",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 14,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r014-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r014-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Limite trigonométrique de référence ?",
+          "options": [
+            "Rapport 1/k et angle −α",
+            "eᵃ/eᵇ = eᵃ⁻ᵇ",
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "lim(x→0) sin(x)/x = 1"
+          ],
+          "reponse": 3,
+          "explication": "lim(x→0) sin(x)/x = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de 1/x ?",
+          "options": [
+            "−1/x²",
+            "P(A∪B)=P(A)+P(B)−P(A∩B)",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+            "Rapport 1/k et angle −α"
+          ],
+          "reponse": 0,
+          "explication": "−1/x²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote verticale ?",
+          "options": [
+            "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'",
+            "lim(x→+∞) eˣ/x = +∞",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "si lim f = ±∞ en x₀, alors x = x₀"
+          ],
+          "reponse": 3,
+          "explication": "si lim f = ±∞ en x₀, alors x = x₀"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u003",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Vocabulary: Education & Society (3/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Vocabulary: Education & Society",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u003-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'développement durable'",
+          "reponseAttendue": "sustainable development",
+          "modeReponse": "auto_evaluation",
+          "explication": "sustainable development"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'chômage'",
+          "reponseAttendue": "unemployment",
+          "modeReponse": "auto_evaluation",
+          "explication": "unemployment"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'droits de l'homme'",
+          "reponseAttendue": "human rights",
+          "modeReponse": "auto_evaluation",
+          "explication": "human rights"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'développement durable' ?",
+          "options": [
+            "sustainable development",
+            "In conclusion, I believe that education is the key to development.",
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
+            "prevention"
+          ],
+          "reponse": 0,
+          "explication": "sustainable development"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'chômage' ?",
+          "options": [
+            "unemployment",
+            "He asked if/whether I had seen it.",
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          ],
+          "reponse": 0,
+          "explication": "unemployment"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'droits de l'homme' ?",
+          "options": [
+            "He asked if/whether I had seen it.",
+            "human rights",
+            "The first sentence of a paragraph that states its main idea.",
+            "enrollment rate / schooling rate"
+          ],
+          "reponse": 1,
+          "explication": "human rights"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'développement durable'",
+      "verso": "sustainable development"
+    },
+    {
+      "recto": "Translate: 'chômage'",
+      "verso": "unemployment"
+    },
+    {
+      "recto": "Translate: 'droits de l'homme'",
+      "verso": "human rights"
+    }
+  ]
+}

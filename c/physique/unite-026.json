@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u026",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Effet photoélectrique (1/2)",
+  "ordre": 26,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Effet photoélectrique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u026-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u026-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Énergie d'un photon",
+          "verso": "E = h·ν = h·c/λ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante de Planck",
+          "verso": "h = 6,63×10⁻³⁴ J·s",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Condition d'émission (seuil)",
+          "verso": "ν ≥ ν₀ (ou λ ≤ λ₀)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Travail d'extraction",
+          "verso": "W₀ = h·ν₀",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u026-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u026-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Énergie d'un photon ?",
+          "options": [
+            "E = h·ν = h·c/λ",
+            "F = G·M·m/d²",
+            "q = C·u",
+            "N = N₀ / 2ⁿ"
+          ],
+          "reponse": 0,
+          "explication": "E = h·ν = h·c/λ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante de Planck ?",
+          "options": [
+            "v = v₀ + a·t",
+            "h = 6,63×10⁻³⁴ J·s",
+            "P = m·g",
+            "1 eV = 1,6×10⁻¹⁹ J"
+          ],
+          "reponse": 1,
+          "explication": "h = 6,63×10⁻³⁴ J·s"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Condition d'émission (seuil) ?",
+          "options": [
+            "v = v₀ + a·t",
+            "e = −L·(di/dt)",
+            "ν ≥ ν₀ (ou λ ≤ λ₀)",
+            "Ep = m·g·h"
+          ],
+          "reponse": 2,
+          "explication": "ν ≥ ν₀ (ou λ ≤ λ₀)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Énergie d'un photon",
+      "verso": "E = h·ν = h·c/λ"
+    },
+    {
+      "recto": "Constante de Planck",
+      "verso": "h = 6,63×10⁻³⁴ J·s"
+    },
+    {
+      "recto": "Condition d'émission (seuil)",
+      "verso": "ν ≥ ν₀ (ou λ ≤ λ₀)"
+    },
+    {
+      "recto": "Travail d'extraction",
+      "verso": "W₀ = h·ν₀"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Énergie d'un photon",
+      "verso": "E = h·ν = h·c/λ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Constante de Planck",
+      "verso": "h = 6,63×10⁻³⁴ J·s",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Condition d'émission (seuil)",
+      "verso": "ν ≥ ν₀ (ou λ ≤ λ₀)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Travail d'extraction",
+      "verso": "W₀ = h·ν₀",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "L'effet photoélectrique : synthèse (TS/PC)",
+      "url": "https://youtu.be/GdyL0HqpbJM",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Effet photoélectrique : explications + exercice",
+      "url": "https://youtu.be/TbOVWSokZgA",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    }
+  ]
+}

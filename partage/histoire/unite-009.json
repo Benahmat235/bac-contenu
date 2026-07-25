@@ -1,0 +1,121 @@
+{
+  "id": "histoire-u009",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "L'Organisation des Nations Unies (ONU) (2/2)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'Organisation des Nations Unies (ONU)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u009-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "En quoi le droit de véto paralyse l'ONU ?",
+          "reponseAttendue": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 3 domaines d'intervention de l'ONU.",
+          "reponseAttendue": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les objectifs de l'ONU ?",
+          "reponseAttendue": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi le Conseil de sécurité est l'organe le plus sensible ?",
+          "reponseAttendue": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "En quoi le droit de véto paralyse l'ONU ?",
+          "options": [
+            "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des ",
+            "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre.",
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM."
+          ],
+          "reponse": 2,
+          "explication": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 3 domaines d'intervention de l'ONU. ?",
+          "options": [
+            "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR).",
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopér",
+            "OMS, HCR, UNESCO, PNUD, PAM, Unicef.",
+            "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991."
+          ],
+          "reponse": 0,
+          "explication": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les objectifs de l'ONU ?",
+          "options": [
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,",
+            "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des ",
+            "La Guinée-Conakry, accédant à l'indépendance le 2 octobre 1958.",
+            "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde."
+          ],
+          "reponse": 1,
+          "explication": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "En quoi le droit de véto paralyse l'ONU ?",
+      "verso": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution."
+    },
+    {
+      "recto": "Citez 3 domaines d'intervention de l'ONU.",
+      "verso": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+    },
+    {
+      "recto": "Quels sont les objectifs de l'ONU ?",
+      "verso": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme."
+    },
+    {
+      "recto": "Pourquoi le Conseil de sécurité est l'organe le plus sensible ?",
+      "verso": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent."
+    }
+  ]
+}

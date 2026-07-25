@@ -1,0 +1,143 @@
+{
+  "id": "chimie-d-u015",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Les réactions acido-basiques (1/2)",
+  "ordre": 15,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les réactions acido-basiques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u015-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u015-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Acide (Brønsted)",
+          "verso": "espèce qui cède un proton H⁺",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Base (Brønsted)",
+          "verso": "espèce qui capte un proton H⁺",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réaction acide fort / base forte",
+          "verso": "H₃O⁺ + OH⁻ → 2 H₂O",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u015-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u015-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Acide (Brønsted) ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "espèce qui cède un proton H⁺",
+            "même formule brute, formules développées différentes",
+            "pH > 7 : [H₃O⁺] < [OH⁻]"
+          ],
+          "reponse": 1,
+          "explication": "espèce qui cède un proton H⁺"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Base (Brønsted) ?",
+          "options": [
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "espèce qui capte un proton H⁺",
+            "Ka = 10^(−pKa)",
+            "même formule brute, fonctions différentes"
+          ],
+          "reponse": 1,
+          "explication": "espèce qui capte un proton H⁺"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réaction acide fort / base forte ?",
+          "options": [
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "pKa = −log Ka",
+            "H₃O⁺ + OH⁻ → 2 H₂O"
+          ],
+          "reponse": 3,
+          "explication": "H₃O⁺ + OH⁻ → 2 H₂O"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Acide (Brønsted)",
+      "verso": "espèce qui cède un proton H⁺"
+    },
+    {
+      "recto": "Base (Brønsted)",
+      "verso": "espèce qui capte un proton H⁺"
+    },
+    {
+      "recto": "Réaction acide fort / base forte",
+      "verso": "H₃O⁺ + OH⁻ → 2 H₂O"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Acide (Brønsted)",
+      "verso": "espèce qui cède un proton H⁺",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Base (Brønsted)",
+      "verso": "espèce qui capte un proton H⁺",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réaction acide fort / base forte",
+      "verso": "H₃O⁺ + OH⁻ → 2 H₂O",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Réaction acido-basique et dosage (résumé de cours)",
+      "url": "https://youtu.be/_7wWUbz6cIY",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Réaction acide-base : écrire l'équation (méthode)",
+      "url": "https://youtu.be/rzx8NnQZHww",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    }
+  ]
+}

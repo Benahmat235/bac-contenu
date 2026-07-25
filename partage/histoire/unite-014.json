@@ -1,0 +1,110 @@
+{
+  "id": "histoire-u014",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La guerre froide (1947-1991) (4/4)",
+  "ordre": 14,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La guerre froide (1947-1991)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u014-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u014-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Que signifient les accords SALT et le traité INF ?",
+          "reponseAttendue": "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire.",
+          "modeReponse": "auto_evaluation",
+          "explication": "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le non-alignement ?",
+          "reponseAttendue": "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez la cause directe de la division du monde en deux blocs.",
+          "reponseAttendue": "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u014-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u014-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Que signifient les accords SALT et le traité INF ?",
+          "options": [
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
+            "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS).",
+            "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire."
+          ],
+          "reponse": 3,
+          "explication": "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le non-alignement ?",
+          "options": [
+            "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des ",
+            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favor",
+            "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde.",
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas"
+          ],
+          "reponse": 2,
+          "explication": "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Donnez la cause directe de la division du monde en deux blocs. ?",
+          "options": [
+            "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire.",
+            "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS.",
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis"
+          ],
+          "reponse": 1,
+          "explication": "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Que signifient les accords SALT et le traité INF ?",
+      "verso": "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire."
+    },
+    {
+      "recto": "Qu'est-ce que le non-alignement ?",
+      "verso": "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde."
+    },
+    {
+      "recto": "Donnez la cause directe de la division du monde en deux blocs.",
+      "verso": "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "physique-d-r010",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-r010-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-r010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Constante de gravitation ?",
+          "options": [
+            "F = |q|·v·B·sin(α)",
+            "a = Δv/Δt",
+            "T₀ = 2π·√(L·C)",
+            "G = 6,67×10⁻¹¹ N·m²·kg⁻²"
+          ],
+          "reponse": 3,
+          "explication": "G = 6,67×10⁻¹¹ N·m²·kg⁻²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force électrique ?",
+          "options": [
+            "T₀ = 2π·√(L·C)",
+            "F = q·E",
+            "le weber (Wb)",
+            "v = v₀ + a·t"
+          ],
+          "reponse": 1,
+          "explication": "F = q·E"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse orbitale ?",
+          "options": [
+            "e = B·l·v",
+            "ω = 2π/T = 2π·N",
+            "le courant induit s'oppose à la variation de flux",
+            "v = √(G·M/r)"
+          ],
+          "reponse": 3,
+          "explication": "v = √(G·M/r)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

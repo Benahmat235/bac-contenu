@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-c-u044",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dénombrement et probabilités (1/3)",
+  "ordre": 44,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dénombrement et probabilités",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u044-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u044-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Factorielle",
+          "verso": "n!=n(n−1)…2×1 et 0!=1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Arrangement avec répétition",
+          "verso": "nᵖ suites ordonnées de longueur p",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Arrangement sans répétition",
+          "verso": "A(n,p)=n!/(n−p)!",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Combinaison",
+          "verso": "C(n,p)=n!/(p!(n−p)!)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u044-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u044-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Factorielle ?",
+          "options": [
+            "n!=n(n−1)…2×1 et 0!=1",
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "eˣ",
+            "u ⊥ v ⟺ u·v = 0"
+          ],
+          "reponse": 0,
+          "explication": "n!=n(n−1)…2×1 et 0!=1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Arrangement avec répétition ?",
+          "options": [
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "nᵖ suites ordonnées de longueur p",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C"
+          ],
+          "reponse": 2,
+          "explication": "nᵖ suites ordonnées de longueur p"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Arrangement sans répétition ?",
+          "options": [
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "A(n,p)=n!/(n−p)!",
+            "n·xⁿ⁻¹",
+            "u·v = ‖u‖·‖v‖·cos(θ)"
+          ],
+          "reponse": 1,
+          "explication": "A(n,p)=n!/(n−p)!"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Factorielle",
+      "verso": "n!=n(n−1)…2×1 et 0!=1"
+    },
+    {
+      "recto": "Arrangement avec répétition",
+      "verso": "nᵖ suites ordonnées de longueur p"
+    },
+    {
+      "recto": "Arrangement sans répétition",
+      "verso": "A(n,p)=n!/(n−p)!"
+    },
+    {
+      "recto": "Combinaison",
+      "verso": "C(n,p)=n!/(p!(n−p)!)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Factorielle",
+      "verso": "n!=n(n−1)…2×1 et 0!=1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Arrangement avec répétition",
+      "verso": "nᵖ suites ordonnées de longueur p",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Arrangement sans répétition",
+      "verso": "A(n,p)=n!/(n−p)!",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Combinaison",
+      "verso": "C(n,p)=n!/(p!(n−p)!)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Combinatoire et dénombrement : tout le cours",
+      "url": "https://youtu.be/Cb-jNj-RyBE",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    },
+    {
+      "titre": "Arrangement, permutation, combinaison : lequel choisir ?",
+      "url": "https://youtu.be/hWkIwXXEECc",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

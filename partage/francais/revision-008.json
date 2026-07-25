@@ -1,0 +1,67 @@
+{
+  "id": "francais-r008",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-r008-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "francais-r008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le Réalisme (XIXe siècle) ?",
+          "options": [
+            "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un obje",
+            "Le contenu : les idées, les thèmes, le message de l'auteur.",
+            "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre).",
+            "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal."
+          ],
+          "reponse": 3,
+          "explication": "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la forme d'un texte littéraire ?",
+          "options": [
+            "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon.",
+            "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle.",
+            "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié).",
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+          ],
+          "reponse": 3,
+          "explication": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le Naturalisme ?",
+          "options": [
+            "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde.",
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
+            "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je ».",
+            "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola."
+          ],
+          "reponse": 3,
+          "explication": "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

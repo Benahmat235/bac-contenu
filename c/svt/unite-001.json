@@ -1,0 +1,159 @@
+{
+  "id": "svt-c-u001",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Organisation de la cellule (1/3)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Organisation de la cellule",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Cellule",
+          "verso": "unité structurale et fonctionnelle de tout être vivant",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Les 3 parties d'une cellule",
+          "verso": "membrane plasmique, cytoplasme, noyau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Noyau",
+          "verso": "contient l'information génétique (ADN)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Cytoplasme",
+          "verso": "hyaloplasme (fluide) + organites (partie solide)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Cellule ?",
+          "options": [
+            "unité structurale et fonctionnelle de tout être vivant",
+            "ségrégation indépendante des caractères (gènes indépendants)",
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "stockage du glucose en glycogène (foie, muscles)"
+          ],
+          "reponse": 0,
+          "explication": "unité structurale et fonctionnelle de tout être vivant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Les 3 parties d'une cellule ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "membrane plasmique, cytoplasme, noyau",
+            "croisement avec le double récessif pour révéler le génotype",
+            "assure les échanges entre mère et fœtus"
+          ],
+          "reponse": 1,
+          "explication": "membrane plasmique, cytoplasme, noyau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Noyau ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "contient l'information génétique (ADN)",
+            "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+            "l'ampoule de la trompe"
+          ],
+          "reponse": 1,
+          "explication": "contient l'information génétique (ADN)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Cellule",
+      "verso": "unité structurale et fonctionnelle de tout être vivant"
+    },
+    {
+      "recto": "Les 3 parties d'une cellule",
+      "verso": "membrane plasmique, cytoplasme, noyau"
+    },
+    {
+      "recto": "Noyau",
+      "verso": "contient l'information génétique (ADN)"
+    },
+    {
+      "recto": "Cytoplasme",
+      "verso": "hyaloplasme (fluide) + organites (partie solide)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Cellule",
+      "verso": "unité structurale et fonctionnelle de tout être vivant",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Les 3 parties d'une cellule",
+      "verso": "membrane plasmique, cytoplasme, noyau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Noyau",
+      "verso": "contient l'information génétique (ADN)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Cytoplasme",
+      "verso": "hyaloplasme (fluide) + organites (partie solide)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Organisation et structure de la cellule (cours)",
+      "url": "https://youtu.be/qPjUIuJc8NA",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Tout savoir sur la cellule en 6 minutes",
+      "url": "https://youtu.be/jSRMqO0e908",
+      "type": "video",
+      "chaine": "Sciences Nat'",
+      "auteur": "Sciences Nat'"
+    }
+  ]
+}

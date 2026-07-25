@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u013",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Primitives et fonction logarithme népérien (3/3)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Primitives et fonction logarithme népérien",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u013-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Valeurs remarquables",
+          "verso": "ln 1 = 0 ; ln e = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limites du logarithme",
+          "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croissance comparée",
+          "verso": "lim(x→+∞) (ln x)/x = 0",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Valeurs remarquables ?",
+          "options": [
+            "Les rapports se multiplient et les angles s'additionnent",
+            "ln 1 = 0 ; ln e = 1",
+            "(uⁿ)' = n·u'·uⁿ⁻¹",
+            "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²"
+          ],
+          "reponse": 1,
+          "explication": "ln 1 = 0 ; ln e = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limites du logarithme ?",
+          "options": [
+            "factoriser, ou multiplier par l'expression conjuguée",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "Rapport 1/k et angle −α",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0"
+          ],
+          "reponse": 1,
+          "explication": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Croissance comparée ?",
+          "options": [
+            "ln(aⁿ) = n·ln a",
+            "celle de son monôme de plus haut degré",
+            "xⁿ⁺¹/(n+1) + c",
+            "lim(x→+∞) (ln x)/x = 0"
+          ],
+          "reponse": 3,
+          "explication": "lim(x→+∞) (ln x)/x = 0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Valeurs remarquables",
+      "verso": "ln 1 = 0 ; ln e = 1"
+    },
+    {
+      "recto": "Limites du logarithme",
+      "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+    },
+    {
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) (ln x)/x = 0"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Valeurs remarquables",
+      "verso": "ln 1 = 0 ; ln e = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limites du logarithme",
+      "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) (ln x)/x = 0",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

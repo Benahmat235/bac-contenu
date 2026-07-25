@@ -1,0 +1,137 @@
+{
+  "id": "francais-u009",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Les genres littéraires en détail (1/3)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les genres littéraires en détail",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u009-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les sous-genres du roman ?",
+          "reponseAttendue": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une nouvelle ?",
+          "reponseAttendue": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les types de poésie ?",
+          "reponseAttendue": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un sonnet ?",
+          "reponseAttendue": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié)."
+        }
+      ]
+    },
+    {
+      "id": "francais-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les sous-genres du roman ?",
+          "options": [
+            "Métaphore, comparaison, personnification, hyperbole, antithèse, anaphore, litote.",
+            "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine.",
+            "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle.",
+            "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences."
+          ],
+          "reponse": 2,
+          "explication": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'une nouvelle ?",
+          "options": [
+            "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage).",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
+          ],
+          "reponse": 2,
+          "explication": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les types de poésie ?",
+          "options": [
+            "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement).",
+            "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat",
+            "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié).",
+            "Texte en prose où l'auteur expose et argumente ses réflexions sur un sujet (politique, moral, social)."
+          ],
+          "reponse": 0,
+          "explication": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quels sont les sous-genres du roman ?",
+      "verso": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle."
+    },
+    {
+      "recto": "Qu'est-ce qu'une nouvelle ?",
+      "verso": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
+    },
+    {
+      "recto": "Quels sont les types de poésie ?",
+      "verso": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un sonnet ?",
+      "verso": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié)."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Les genres littéraires : l'essentiel",
+      "url": "https://youtu.be/r51H1KLp_nM",
+      "type": "video",
+      "chaine": "Un Cours de 5 Minutes",
+      "auteur": "Un Cours de 5 Minutes"
+    },
+    {
+      "titre": "Les principaux genres littéraires (bac de français)",
+      "url": "https://youtu.be/b76pGH6Mqrs",
+      "type": "video",
+      "chaine": "Voscours",
+      "auteur": "Voscours"
+    }
+  ]
+}

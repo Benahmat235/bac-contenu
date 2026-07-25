@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r004",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r004-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Cellule ?",
+          "options": [
+            "dû à la répartition au hasard des chromosomes (métaphase I)",
+            "unité structurale et fonctionnelle de tout être vivant",
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+            "transmission de deux caractères (deux couples d'allèles)"
+          ],
+          "reponse": 1,
+          "explication": "unité structurale et fonctionnelle de tout être vivant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cellule végétale vs animale ?",
+          "options": [
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "taux de glucose sanguin ≈ 1 g/L",
+            "apporte les acides aminés et porte l'anticodon",
+            "corps cellulaire + dendrites + axone"
+          ],
+          "reponse": 0,
+          "explication": "la végétale a paroi cellulosique, chloroplastes et grande vacuole"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "individu homozygote à descendance identique",
+            "une des versions possibles d'un gène",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 3,
+          "explication": "siège de la synthèse des protéines"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

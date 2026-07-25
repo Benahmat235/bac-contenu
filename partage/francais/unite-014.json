@@ -1,0 +1,121 @@
+{
+  "id": "francais-u014",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "La littérature africaine et tchadienne (2/2)",
+  "ordre": 14,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La littérature africaine et tchadienne",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u014-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u014-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la littérature engagée ?",
+          "reponseAttendue": "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que l'oralité dans la littérature africaine ?",
+          "reponseAttendue": "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine.",
+          "modeReponse": "auto_evaluation",
+          "explication": "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quel rôle joue le griot dans la littérature orale africaine ?",
+          "reponseAttendue": "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que Soundjata ou l'épopée mandingue ?",
+          "reponseAttendue": "Récit épique racontant la fondation de l'Empire du Mali par Soundjata Keïta, transmis par les griots.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit épique racontant la fondation de l'Empire du Mali par Soundjata Keïta, transmis par les griots."
+        }
+      ]
+    },
+    {
+      "id": "francais-u014-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u014-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la littérature engagée ?",
+          "options": [
+            "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences.",
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
+            "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
+          ],
+          "reponse": 0,
+          "explication": "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que l'oralité dans la littérature africaine ?",
+          "options": [
+            "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine.",
+            "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens).",
+            "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde.",
+            "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif)."
+          ],
+          "reponse": 0,
+          "explication": "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel rôle joue le griot dans la littérature orale africaine ?",
+          "options": [
+            "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole.",
+            "Le contenu : les idées, les thèmes, le message de l'auteur.",
+            "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire.",
+            "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+          ],
+          "reponse": 0,
+          "explication": "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que la littérature engagée ?",
+      "verso": "Une littérature qui prend position sur des problèmes sociaux ou politiques pour éveiller les consciences."
+    },
+    {
+      "recto": "Qu'est-ce que l'oralité dans la littérature africaine ?",
+      "verso": "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine."
+    },
+    {
+      "recto": "Quel rôle joue le griot dans la littérature orale africaine ?",
+      "verso": "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole."
+    },
+    {
+      "recto": "Qu'est-ce que Soundjata ou l'épopée mandingue ?",
+      "verso": "Récit épique racontant la fondation de l'Empire du Mali par Soundjata Keïta, transmis par les griots."
+    }
+  ]
+}

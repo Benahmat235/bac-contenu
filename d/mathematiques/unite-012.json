@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u012",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Primitives et fonction logarithme népérien (2/3)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Primitives et fonction logarithme népérien",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Logarithme d'un produit",
+          "verso": "ln(ab) = ln a + ln b",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Logarithme d'un quotient",
+          "verso": "ln(a/b) = ln a − ln b",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Logarithme d'une puissance",
+          "verso": "ln(aⁿ) = n·ln a",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un produit ?",
+          "options": [
+            "ln(ab) = ln a + ln b",
+            "eⁱᶿ=cosθ+i sinθ",
+            "celle du rapport des termes de plus haut degré",
+            "(uv)' = u'v + uv'"
+          ],
+          "reponse": 0,
+          "explication": "ln(ab) = ln a + ln b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un quotient ?",
+          "options": [
+            "ln(a/b) = ln a − ln b",
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "1/(2√x)",
+            "z'=a z̄+b, avec a∈ℂ*"
+          ],
+          "reponse": 0,
+          "explication": "ln(a/b) = ln a − ln b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'une puissance ?",
+          "options": [
+            "ln(aⁿ) = n·ln a",
+            "ln 1 = 0 ; ln e = 1",
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "si lim f = l (réel) en ±∞, alors y = l"
+          ],
+          "reponse": 0,
+          "explication": "ln(aⁿ) = n·ln a"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Logarithme d'un produit",
+      "verso": "ln(ab) = ln a + ln b"
+    },
+    {
+      "recto": "Logarithme d'un quotient",
+      "verso": "ln(a/b) = ln a − ln b"
+    },
+    {
+      "recto": "Logarithme d'une puissance",
+      "verso": "ln(aⁿ) = n·ln a"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Logarithme d'un produit",
+      "verso": "ln(ab) = ln a + ln b",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Logarithme d'un quotient",
+      "verso": "ln(a/b) = ln a − ln b",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Logarithme d'une puissance",
+      "verso": "ln(aⁿ) = n·ln a",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

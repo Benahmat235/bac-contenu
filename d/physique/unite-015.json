@@ -1,0 +1,159 @@
+{
+  "id": "physique-d-u015",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Les oscillations mécaniques (1/2)",
+  "ordre": 15,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les oscillations mécaniques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u015-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u015-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Période d'un pendule élastique",
+          "verso": "T = 2π·√(m/k)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation propre (ressort)",
+          "verso": "ω₀ = √(k/m)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Période d'un pendule simple",
+          "verso": "T = 2π·√(L/g)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fréquence",
+          "verso": "N = 1/T",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u015-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u015-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Période d'un pendule élastique ?",
+          "options": [
+            "T = 2π·√(m/k)",
+            "e = −L·(di/dt)",
+            "ω = 2π/T = 2π·N",
+            "P = m·g"
+          ],
+          "reponse": 0,
+          "explication": "T = 2π·√(m/k)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation propre (ressort) ?",
+          "options": [
+            "ω = 2π/T = 2π·N",
+            "F = B·I·l·sin(α)",
+            "ω₀ = √(k/m)",
+            "x = x₀ + v₀·t + ½·a·t²"
+          ],
+          "reponse": 2,
+          "explication": "ω₀ = √(k/m)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Période d'un pendule simple ?",
+          "options": [
+            "le courant induit s'oppose à la variation de flux",
+            "Φ = B·S·cos(α)",
+            "ω = 2π/T = 2π·N",
+            "T = 2π·√(L/g)"
+          ],
+          "reponse": 3,
+          "explication": "T = 2π·√(L/g)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Période d'un pendule élastique",
+      "verso": "T = 2π·√(m/k)"
+    },
+    {
+      "recto": "Pulsation propre (ressort)",
+      "verso": "ω₀ = √(k/m)"
+    },
+    {
+      "recto": "Période d'un pendule simple",
+      "verso": "T = 2π·√(L/g)"
+    },
+    {
+      "recto": "Fréquence",
+      "verso": "N = 1/T"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Période d'un pendule élastique",
+      "verso": "T = 2π·√(m/k)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pulsation propre (ressort)",
+      "verso": "ω₀ = √(k/m)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Période d'un pendule simple",
+      "verso": "T = 2π·√(L/g)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fréquence",
+      "verso": "N = 1/T",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Oscillations mécaniques libres : synthèse (TleS/PC)",
+      "url": "https://youtu.be/BGrDTk85LOY",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Oscillations mécaniques : résumé de cours",
+      "url": "https://youtu.be/HfvKpLRD5m0",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

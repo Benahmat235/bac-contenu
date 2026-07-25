@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u018",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Fonctions exponentielles et fonctions puissances (3/3)",
+  "ordre": 18,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Fonctions exponentielles et fonctions puissances",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u018-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u018-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Croissance comparée",
+          "verso": "lim(x→+∞) eˣ/x = +∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive de u'eᵘ",
+          "verso": "eᵘ + c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction puissance / base a",
+          "verso": "aˣ = e^(x·ln a)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u018-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u018-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Croissance comparée ?",
+          "options": [
+            "lim(x→+∞) eˣ/x = +∞",
+            "Les rapports se multiplient et les angles s'additionnent",
+            "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+            "ln(aⁿ) = n·ln a"
+          ],
+          "reponse": 0,
+          "explication": "lim(x→+∞) eˣ/x = +∞"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Primitive de u'eᵘ ?",
+          "options": [
+            "n!=n(n−1)…2×1 et 0!=1",
+            "eᵘ + c",
+            "−1/x²",
+            "ln 1 = 0 ; ln e = 1"
+          ],
+          "reponse": 1,
+          "explication": "eᵘ + c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonction puissance / base a ?",
+          "options": [
+            "Si a≠1, ω=b/(1−a)",
+            "aˣ = e^(x·ln a)",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "ln(a/b) = ln a − ln b"
+          ],
+          "reponse": 1,
+          "explication": "aˣ = e^(x·ln a)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) eˣ/x = +∞"
+    },
+    {
+      "recto": "Primitive de u'eᵘ",
+      "verso": "eᵘ + c"
+    },
+    {
+      "recto": "Fonction puissance / base a",
+      "verso": "aˣ = e^(x·ln a)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Croissance comparée",
+      "verso": "lim(x→+∞) eˣ/x = +∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Primitive de u'eᵘ",
+      "verso": "eᵘ + c",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fonction puissance / base a",
+      "verso": "aˣ = e^(x·ln a)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

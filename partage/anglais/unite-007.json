@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u007",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Vocabulary: Environment & Health (3/3)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Vocabulary: Environment & Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u007-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'système de santé'",
+          "reponseAttendue": "healthcare system",
+          "modeReponse": "auto_evaluation",
+          "explication": "healthcare system"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'prévention'",
+          "reponseAttendue": "prevention",
+          "modeReponse": "auto_evaluation",
+          "explication": "prevention"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'assainissement'",
+          "reponseAttendue": "sanitation",
+          "modeReponse": "auto_evaluation",
+          "explication": "sanitation"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'système de santé' ?",
+          "options": [
+            "healthcare system",
+            "In conclusion, I believe that education is the key to development.",
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+            "sustainable development"
+          ],
+          "reponse": 0,
+          "explication": "healthcare system"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'prévention' ?",
+          "options": [
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "'The letter was written (by her).'",
+            "life expectancy",
+            "prevention"
+          ],
+          "reponse": 3,
+          "explication": "prevention"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'assainissement' ?",
+          "options": [
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
+            "sanitation",
+            "illiteracy",
+            "sustainable development"
+          ],
+          "reponse": 1,
+          "explication": "sanitation"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'système de santé'",
+      "verso": "healthcare system"
+    },
+    {
+      "recto": "Translate: 'prévention'",
+      "verso": "prevention"
+    },
+    {
+      "recto": "Translate: 'assainissement'",
+      "verso": "sanitation"
+    }
+  ]
+}

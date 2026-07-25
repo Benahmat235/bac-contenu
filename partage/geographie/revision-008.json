@@ -1,0 +1,67 @@
+{
+  "id": "geographie-r008",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "geographie-r008-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "geographie-r008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les éléments du relief tchadien ?",
+          "options": [
+            "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs.",
+            "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
+            "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, et ergs (dunes de sable).",
+            "Manque d'infrastructures, coût élevé des transports, insécurité, manque de promotion."
+          ],
+          "reponse": 2,
+          "explication": "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, et ergs (dunes de sable)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définir : relief, hydrographie. ?",
+          "options": [
+            "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
+            "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption.",
+            "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information.",
+            "Relief : inégalités de la surface terrestre. Hydrographie : étude des eaux (cours d'eau, lacs) d'une région."
+          ],
+          "reponse": 3,
+          "explication": "Relief : inégalités de la surface terrestre. Hydrographie : étude des eaux (cours d'eau, lacs) d'une région."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel élément majeur détermine la répartition des espèces élevées ?",
+          "options": [
+            "Le 10 octobre 2003.",
+            "Manque de capitaux, de techniciens, concurrence étrangère, manque de débouchés, coût élevé de l'électricité.",
+            "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien).",
+            "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude :"
+          ],
+          "reponse": 2,
+          "explication": "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien)."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

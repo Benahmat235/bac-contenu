@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r009",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r009-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Équation de la tangente en x₀ ?",
+          "options": [
+            "ln 1 = 0 ; ln e = 1",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "f est continue en a si lim(x→a) f(x) = f(a)",
+            "ln|u| + c"
+          ],
+          "reponse": 1,
+          "explication": "y = f'(x₀)(x − x₀) + f(x₀)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de 1/x ?",
+          "options": [
+            "−1/x²",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "e⁰ = 1",
+            "E(X)=ΣxᵢP(X=xᵢ)"
+          ],
+          "reponse": 0,
+          "explication": "−1/x²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote oblique ?",
+          "options": [
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+            "(cos x)' = −sin x ; (sin x)' = cos x",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0"
+          ],
+          "reponse": 2,
+          "explication": "y = ax + b si lim [f(x) − (ax+b)] = 0"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

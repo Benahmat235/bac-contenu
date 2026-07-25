@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-d-u001",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Limites et continuité (1/3)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Limites et continuité",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Limite d'un polynôme en ±∞",
+          "verso": "celle de son monôme de plus haut degré",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limite d'une fonction rationnelle en ±∞",
+          "verso": "celle du rapport des termes de plus haut degré",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Les 4 formes indéterminées",
+          "verso": "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Lever une indétermination",
+          "verso": "factoriser, ou multiplier par l'expression conjuguée",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Limite d'un polynôme en ±∞ ?",
+          "options": [
+            "si lim f = l (réel) en ±∞, alors y = l",
+            "celle de son monôme de plus haut degré",
+            "eˣ",
+            "F(x)=P(X≤x)"
+          ],
+          "reponse": 1,
+          "explication": "celle de son monôme de plus haut degré"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limite d'une fonction rationnelle en ±∞ ?",
+          "options": [
+            "celle du rapport des termes de plus haut degré",
+            "e⁰ = 1",
+            "1/x",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)"
+          ],
+          "reponse": 0,
+          "explication": "celle du rapport des termes de plus haut degré"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Les 4 formes indéterminées ?",
+          "options": [
+            "z'=az+b, avec a∈ℂ*",
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+            "−1/x²",
+            "k=|a| et α≡arg(a) [2π]"
+          ],
+          "reponse": 1,
+          "explication": "∞ − ∞, ∞/∞, 0/0, 0 × ∞"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Limite d'un polynôme en ±∞",
+      "verso": "celle de son monôme de plus haut degré"
+    },
+    {
+      "recto": "Limite d'une fonction rationnelle en ±∞",
+      "verso": "celle du rapport des termes de plus haut degré"
+    },
+    {
+      "recto": "Les 4 formes indéterminées",
+      "verso": "∞ − ∞, ∞/∞, 0/0, 0 × ∞"
+    },
+    {
+      "recto": "Lever une indétermination",
+      "verso": "factoriser, ou multiplier par l'expression conjuguée"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Limite d'un polynôme en ±∞",
+      "verso": "celle de son monôme de plus haut degré",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limite d'une fonction rationnelle en ±∞",
+      "verso": "celle du rapport des termes de plus haut degré",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Les 4 formes indéterminées",
+      "verso": "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Lever une indétermination",
+      "verso": "factoriser, ou multiplier par l'expression conjuguée",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Notion de limite d'une fonction - Terminale",
+      "url": "https://youtu.be/YPwJyYDsmxM",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Continuité d'une fonction - Terminale",
+      "url": "https://youtu.be/9SSEUoyHh2s",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

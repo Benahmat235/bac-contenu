@@ -1,0 +1,67 @@
+{
+  "id": "physique-c-r010",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-r010-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-r010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Accélération (force constante) ?",
+          "options": [
+            "f₀ = 1/(2π·√(L·C))",
+            "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
+            "a = F/m (constante)",
+            "e = −L·(di/dt)"
+          ],
+          "reponse": 2,
+          "explication": "a = F/m (constante)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation et période ?",
+          "options": [
+            "f₀ = 1/(2π·√(L·C))",
+            "ω = 2π/T = 2π·N",
+            "e = −L·(di/dt)",
+            "E = h·ν = h·c/λ"
+          ],
+          "reponse": 1,
+          "explication": "ω = 2π/T = 2π·N"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Position en MRUV ?",
+          "options": [
+            "x = x₀ + v₀·t + ½·a·t²",
+            "U = Z·I",
+            "Ec = ½·m·v²",
+            "q = C·u"
+          ],
+          "reponse": 0,
+          "explication": "x = x₀ + v₀·t + ½·a·t²"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

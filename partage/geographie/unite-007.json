@@ -1,0 +1,121 @@
+{
+  "id": "geographie-u007",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "L'élevage et la pêche au Tchad (1/2)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'élevage et la pêche au Tchad",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "geographie-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "geographie-u007-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quel élément majeur détermine la répartition des espèces élevées ?",
+          "reponseAttendue": "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Conséquences de la sécheresse sur le cheptel tchadien ?",
+          "reponseAttendue": "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les forces de l'élevage tchadien ?",
+          "reponseAttendue": "Diversité des races grâce aux climats variés, appui de l'État et des partenaires internationaux.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Diversité des races grâce aux climats variés, appui de l'État et des partenaires internationaux."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Obstacles à l'élevage tchadien ?",
+          "reponseAttendue": "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, taxes élevées.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, taxes élevées."
+        }
+      ]
+    },
+    {
+      "id": "geographie-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quel élément majeur détermine la répartition des espèces élevées ?",
+          "options": [
+            "Logone, Chari et Lac Tchad (principales) ; affluents et petits lacs (secondaires).",
+            "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien).",
+            "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations.",
+            "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao)."
+          ],
+          "reponse": 1,
+          "explication": "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Conséquences de la sécheresse sur le cheptel tchadien ?",
+          "options": [
+            "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga.",
+            "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, ",
+            "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
+            "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral."
+          ],
+          "reponse": 3,
+          "explication": "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les forces de l'élevage tchadien ?",
+          "options": [
+            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des",
+            "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m).",
+            "Diversité des races grâce aux climats variés, appui de l'État et des partenaires internationaux.",
+            "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique."
+          ],
+          "reponse": 2,
+          "explication": "Diversité des races grâce aux climats variés, appui de l'État et des partenaires internationaux."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quel élément majeur détermine la répartition des espèces élevées ?",
+      "verso": "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien)."
+    },
+    {
+      "recto": "Conséquences de la sécheresse sur le cheptel tchadien ?",
+      "verso": "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral."
+    },
+    {
+      "recto": "Quelles sont les forces de l'élevage tchadien ?",
+      "verso": "Diversité des races grâce aux climats variés, appui de l'État et des partenaires internationaux."
+    },
+    {
+      "recto": "Obstacles à l'élevage tchadien ?",
+      "verso": "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, taxes élevées."
+    }
+  ]
+}

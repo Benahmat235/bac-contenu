@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r034",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 34,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r034-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r034-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Rôle de la testostérone ?",
+          "options": [
+            "apporte les acides aminés et porte l'anticodon",
+            "développement des caractères sexuels secondaires masculins",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "portion d'ADN responsable d'un caractère héréditaire"
+          ],
+          "reponse": 1,
+          "explication": "développement des caractères sexuels secondaires masculins"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cellule ?",
+          "options": [
+            "unité structurale et fonctionnelle de tout être vivant",
+            "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+            "étamines (androcée) et carpelles (gynécée)",
+            "4 groupes : A, B, AB, O"
+          ],
+          "reponse": 0,
+          "explication": "unité structurale et fonctionnelle de tout être vivant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1re division de méiose ?",
+          "options": [
+            "A, T, G, C",
+            "réductionnelle (2n → n)",
+            "formation des grains de pollen dans l'anthère",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n"
+          ],
+          "reponse": 1,
+          "explication": "réductionnelle (2n → n)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

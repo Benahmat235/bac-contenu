@@ -1,0 +1,137 @@
+{
+  "id": "histoire-u015",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La décolonisation de l'Afrique (1/3)",
+  "ordre": 15,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La décolonisation de l'Afrique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u015-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u015-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi la 2GM est un facteur déclencheur de la décolonisation ?",
+          "reponseAttendue": "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
+          "modeReponse": "auto_evaluation",
+          "explication": "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les étapes de la décolonisation en Afrique noire française ?",
+          "reponseAttendue": "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960).",
+          "modeReponse": "auto_evaluation",
+          "explication": "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quand et sous l'égide de qui la conférence de Brazzaville s'est réunie ?",
+          "reponseAttendue": "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais sans promettre l'indépendance.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais sans promettre l'indépendance."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les facteurs internes et externes de la décolonisation ?",
+          "reponseAttendue": "Internes : intellectuels, religieux, syndicats, étudiants. Externes : rôle anti-colonialiste des USA/URSS, ONU, conférence de Bandung.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Internes : intellectuels, religieux, syndicats, étudiants. Externes : rôle anti-colonialiste des USA/URSS, ONU, conférence de Bandung."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u015-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u015-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Pourquoi la 2GM est un facteur déclencheur de la décolonisation ?",
+          "options": [
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire.",
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,"
+          ],
+          "reponse": 1,
+          "explication": "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les étapes de la décolonisation en Afrique noire française ?",
+          "options": [
+            "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
+            "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
+            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et "
+          ],
+          "reponse": 2,
+          "explication": "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quand et sous l'égide de qui la conférence de Brazzaville s'est réunie ?",
+          "options": [
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
+            "D'abord OUA le 25 mai 1963 à Addis-Abeba, transformée en UA en 2002 à Durban (initiative de Syrte 1999) pour dépasser le",
+            "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais san",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, "
+          ],
+          "reponse": 2,
+          "explication": "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais sans promettre l'indépendance."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Pourquoi la 2GM est un facteur déclencheur de la décolonisation ?",
+      "verso": "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux."
+    },
+    {
+      "recto": "Quelles sont les étapes de la décolonisation en Afrique noire française ?",
+      "verso": "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960)."
+    },
+    {
+      "recto": "Quand et sous l'égide de qui la conférence de Brazzaville s'est réunie ?",
+      "verso": "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais sans promettre l'indépendance."
+    },
+    {
+      "recto": "Quels sont les facteurs internes et externes de la décolonisation ?",
+      "verso": "Internes : intellectuels, religieux, syndicats, étudiants. Externes : rôle anti-colonialiste des USA/URSS, ONU, conférence de Bandung."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Les causes de la décolonisation de l'Afrique (Terminale)",
+      "url": "https://youtu.be/KGPKiNBeHjc",
+      "type": "video",
+      "chaine": "Faso e-Education",
+      "auteur": "Faso e-Education"
+    },
+    {
+      "titre": "Les formes de la décolonisation (cours)",
+      "url": "https://youtu.be/GS_Fxp8i2HE",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
+  ]
+}

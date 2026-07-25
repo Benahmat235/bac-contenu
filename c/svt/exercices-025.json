@@ -1,0 +1,323 @@
+{
+  "id": "svt-c-e025",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Reproduction sexuée des spermaphytes — Exercices",
+  "ordre": 25,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Reproduction sexuée des spermaphytes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-c-e025-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e025-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Retrouver le devenir des pièces florales après fécondation :",
+          "etapes": [
+            "Repérer l'ovule dans l'ovaire",
+            "L'ovule fécondé devient la graine",
+            "L'ovaire devient le fruit",
+            "Conclure sur graine et fruit"
+          ],
+          "ordreCorrect": [
+            "Repérer l'ovule dans l'ovaire",
+            "L'ovule fécondé devient la graine",
+            "L'ovaire devient le fruit",
+            "Conclure sur graine et fruit"
+          ],
+          "explication": "Ovule → graine ; ovaire → fruit."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e025-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e025-c",
+      "activites": [
+        {
+          "id": "svt-c-sp-ex01",
+          "enonce": "Quel nom donne-t-on généralement aux plantes à fleurs ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Les plantes à fleurs sont les Spermaphytes (ou Phanérogames)."
+          ],
+          "reponseFinale": "Les Spermaphytes (Phanérogames)",
+          "competenceId": "svt-c-sp-fleur"
+        },
+        {
+          "id": "svt-c-sp-ex02",
+          "enonce": "Que signifie le terme « phanérogame » ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Phanérogame signifie « mariage visible » : la reproduction se fait dans un organe visible, la fleur."
+          ],
+          "reponseFinale": "« Mariage visible » (reproduction dans la fleur)",
+          "competenceId": "svt-c-sp-fleur"
+        },
+        {
+          "id": "svt-c-sp-ex03",
+          "enonce": "Quels sont les deux grands groupes de Spermaphytes ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Les Spermaphytes se divisent en Angiospermes (graines dans un fruit) et Gymnospermes (graines nues)."
+          ],
+          "reponseFinale": "Les Angiospermes et les Gymnospermes",
+          "competenceId": "svt-c-sp-fleur"
+        },
+        {
+          "id": "svt-c-sp-ex04",
+          "enonce": "Quelles sont les pièces fertiles (reproductrices) de la fleur ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Les étamines (androcée, mâle) et les carpelles (gynécée, femelle)."
+          ],
+          "reponseFinale": "Les étamines (androcée) et les carpelles (gynécée)",
+          "competenceId": "svt-c-sp-fleur"
+        },
+        {
+          "id": "svt-c-sp-ex05",
+          "enonce": "Quelles sont les pièces stériles de la fleur ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Le calice (sépales) et la corolle (pétales)."
+          ],
+          "reponseFinale": "Le calice (sépales) et la corolle (pétales)",
+          "competenceId": "svt-c-sp-fleur"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e025-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-e025-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "L'albumen d'une graine d'Angiosperme est issu de l'œuf :",
+          "options": [
+            "principal (2n)",
+            "accessoire (3n)",
+            "haploïde (n)",
+            "non fécondé"
+          ],
+          "reponse": 1,
+          "explication": "Œuf accessoire 3n → albumen."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-sp-ex01",
+      "enonce": "Quel nom donne-t-on généralement aux plantes à fleurs ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Les plantes à fleurs sont les Spermaphytes (ou Phanérogames)."
+      ],
+      "reponseFinale": "Les Spermaphytes (Phanérogames)",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex02",
+      "enonce": "Que signifie le terme « phanérogame » ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Phanérogame signifie « mariage visible » : la reproduction se fait dans un organe visible, la fleur."
+      ],
+      "reponseFinale": "« Mariage visible » (reproduction dans la fleur)",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex03",
+      "enonce": "Quels sont les deux grands groupes de Spermaphytes ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les Spermaphytes se divisent en Angiospermes (graines dans un fruit) et Gymnospermes (graines nues)."
+      ],
+      "reponseFinale": "Les Angiospermes et les Gymnospermes",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex04",
+      "enonce": "Quelles sont les pièces fertiles (reproductrices) de la fleur ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Les étamines (androcée, mâle) et les carpelles (gynécée, femelle)."
+      ],
+      "reponseFinale": "Les étamines (androcée) et les carpelles (gynécée)",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex05",
+      "enonce": "Quelles sont les pièces stériles de la fleur ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le calice (sépales) et la corolle (pétales)."
+      ],
+      "reponseFinale": "Le calice (sépales) et la corolle (pétales)",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex06",
+      "enonce": "Comment nomme-t-on l'ensemble des pièces reproductrices mâles de la fleur ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "L'ensemble des étamines forme l'androcée."
+      ],
+      "reponseFinale": "L'androcée",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex07",
+      "enonce": "Comment nomme-t-on l'ensemble des pièces reproductrices femelles de la fleur ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "L'ensemble des carpelles forme le gynécée (ou pistil)."
+      ],
+      "reponseFinale": "Le gynécée (pistil)",
+      "competenceId": "svt-c-sp-fleur"
+    },
+    {
+      "id": "svt-c-sp-ex08",
+      "enonce": "Dans quelle partie de l'étamine se forme le grain de pollen ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le grain de pollen se forme dans les sacs polliniques de l'anthère."
+      ],
+      "reponseFinale": "Dans l'anthère (sacs polliniques)",
+      "competenceId": "svt-c-sp-pollen"
+    },
+    {
+      "id": "svt-c-sp-ex09",
+      "enonce": "Comment se nomme la formation des grains de pollen ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La formation du pollen est la microsporogenèse (pollinogenèse)."
+      ],
+      "reponseFinale": "La microsporogenèse",
+      "competenceId": "svt-c-sp-pollen"
+    },
+    {
+      "id": "svt-c-sp-ex10",
+      "enonce": "Dans quelle partie du gynécée se forme le sac embryonnaire ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le sac embryonnaire se forme dans l'ovule, contenu dans l'ovaire."
+      ],
+      "reponseFinale": "Dans l'ovule (contenu dans l'ovaire)",
+      "competenceId": "svt-c-sp-ovule"
+    },
+    {
+      "id": "svt-c-sp-ex11",
+      "enonce": "Comment se nomme la formation du sac embryonnaire ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La formation du sac embryonnaire est la macrosporogenèse."
+      ],
+      "reponseFinale": "La macrosporogenèse",
+      "competenceId": "svt-c-sp-ovule"
+    },
+    {
+      "id": "svt-c-sp-ex12",
+      "enonce": "Quelles sont les trois parties d'un carpelle ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un carpelle comprend l'ovaire (base renflée), le style et le stigmate."
+      ],
+      "reponseFinale": "L'ovaire, le style et le stigmate",
+      "competenceId": "svt-c-sp-ovule"
+    },
+    {
+      "id": "svt-c-sp-ex13",
+      "enonce": "Qu'est-ce que la pollinisation ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La pollinisation est le transport du pollen des étamines vers le stigmate."
+      ],
+      "reponseFinale": "Le transport du pollen vers le stigmate",
+      "competenceId": "svt-c-sp-pollinisation"
+    },
+    {
+      "id": "svt-c-sp-ex14",
+      "enonce": "Comment appelle-t-on la pollinisation assurée par le vent ? par les insectes ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Par le vent : anémophile ; par les insectes : entomophile."
+      ],
+      "reponseFinale": "Anémophile (vent) et entomophile (insectes)",
+      "competenceId": "svt-c-sp-pollinisation"
+    },
+    {
+      "id": "svt-c-sp-ex15",
+      "enonce": "En quoi consiste la double fécondation des Angiospermes ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Un anthérozoïde féconde l'oosphère → œuf principal (2n, futur embryon).",
+        "L'autre féconde la cellule centrale (2 noyaux) → œuf accessoire (3n, futur albumen)."
+      ],
+      "reponseFinale": "Un œuf principal (2n → embryon) et un œuf accessoire (3n → albumen)",
+      "competenceId": "svt-c-sp-fecondation"
+    },
+    {
+      "id": "svt-c-sp-ex16",
+      "enonce": "En quoi se transforme l'ovule fécondé ? et l'ovaire ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'ovule fécondé devient la graine ; l'ovaire devient le fruit."
+      ],
+      "reponseFinale": "L'ovule → graine ; l'ovaire → fruit",
+      "competenceId": "svt-c-sp-graine"
+    },
+    {
+      "id": "svt-c-sp-ex17",
+      "enonce": "Qu'est-ce que la germination d'une graine ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La germination est le passage de la graine (vie ralentie) à une jeune plante (plantule)."
+      ],
+      "reponseFinale": "Le développement de la graine en plantule",
+      "competenceId": "svt-c-sp-germination"
+    },
+    {
+      "id": "svt-c-sp-ex18",
+      "enonce": "Citer deux conditions externes nécessaires à la germination.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Eau (hydratation), dioxygène (respiration) et chaleur (température convenable)."
+      ],
+      "reponseFinale": "L'eau, le dioxygène et une température convenable",
+      "competenceId": "svt-c-sp-germination"
+    },
+    {
+      "id": "svt-c-sp-ex19",
+      "enonce": "Distinguer une germination épigée d'une germination hypogée.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Épigée : les cotylédons sortent du sol. Hypogée : les cotylédons restent dans le sol."
+      ],
+      "reponseFinale": "Épigée : cotylédons hors du sol ; hypogée : cotylédons dans le sol",
+      "competenceId": "svt-c-sp-germination"
+    }
+  ],
+  "estExercices": true
+}

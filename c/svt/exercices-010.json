@@ -1,0 +1,295 @@
+{
+  "id": "svt-c-e010",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Transmission de l'information génétique — Exercices",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Transmission de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-c-e010-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e010-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Écrire le brin complémentaire d'un brin d'ADN :",
+          "etapes": [
+            "Lire la séquence du brin donné",
+            "Remplacer A par T et T par A",
+            "Remplacer G par C et C par G",
+            "Écrire la séquence obtenue"
+          ],
+          "ordreCorrect": [
+            "Lire la séquence du brin donné",
+            "Remplacer A par T et T par A",
+            "Remplacer G par C et C par G",
+            "Écrire la séquence obtenue"
+          ],
+          "explication": "On applique A–T et G–C."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e010-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e010-c",
+      "activites": [
+        {
+          "id": "svt-c-ig-ex01",
+          "enonce": "Quelle molécule constitue le support de l'information génétique ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "L'ADN (acide désoxyribonucléique) porte l'information génétique."
+          ],
+          "reponseFinale": "L'ADN",
+          "competenceId": "svt-c-ig-adn"
+        },
+        {
+          "id": "svt-c-ig-ex02",
+          "enonce": "Dans l'expérience de section de l'amibe, quelle moitié survit et se régénère ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "La partie qui contient le noyau se cicatrise et régénère ; la partie sans noyau meurt.",
+            "Cela montre le rôle du noyau dans le contrôle de la cellule."
+          ],
+          "reponseFinale": "La partie contenant le noyau (partie nucléée)",
+          "competenceId": "svt-c-ig-adn"
+        },
+        {
+          "id": "svt-c-ig-ex03",
+          "enonce": "De quels éléments est formé un nucléotide ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Un nucléotide = un groupe phosphate + un sucre (désoxyribose) + une base azotée."
+          ],
+          "reponseFinale": "Un phosphate, un sucre (désoxyribose) et une base azotée",
+          "competenceId": "svt-c-ig-adn"
+        },
+        {
+          "id": "svt-c-ig-ex04",
+          "enonce": "Citer les quatre bases azotées de l'ADN.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Les bases de l'ADN sont l'adénine (A), la thymine (T), la guanine (G) et la cytosine (C)."
+          ],
+          "reponseFinale": "A, T, G et C",
+          "competenceId": "svt-c-ig-adn"
+        },
+        {
+          "id": "svt-c-ig-ex05",
+          "enonce": "Énoncer les règles de complémentarité des bases de l'ADN.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "A s'apparie avec T, et G s'apparie avec C (liaisons hydrogène)."
+          ],
+          "reponseFinale": "A–T et G–C",
+          "competenceId": "svt-c-ig-adn"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e010-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-e010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le brin complémentaire de T-G-C-A est :",
+          "options": [
+            "A-C-G-T",
+            "T-G-C-A",
+            "U-C-G-A",
+            "A-G-C-T"
+          ],
+          "reponse": 0,
+          "explication": "T↔A, G↔C, C↔G, A↔T."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-ig-ex01",
+      "enonce": "Quelle molécule constitue le support de l'information génétique ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "L'ADN (acide désoxyribonucléique) porte l'information génétique."
+      ],
+      "reponseFinale": "L'ADN",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex02",
+      "enonce": "Dans l'expérience de section de l'amibe, quelle moitié survit et se régénère ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "La partie qui contient le noyau se cicatrise et régénère ; la partie sans noyau meurt.",
+        "Cela montre le rôle du noyau dans le contrôle de la cellule."
+      ],
+      "reponseFinale": "La partie contenant le noyau (partie nucléée)",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex03",
+      "enonce": "De quels éléments est formé un nucléotide ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Un nucléotide = un groupe phosphate + un sucre (désoxyribose) + une base azotée."
+      ],
+      "reponseFinale": "Un phosphate, un sucre (désoxyribose) et une base azotée",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex04",
+      "enonce": "Citer les quatre bases azotées de l'ADN.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Les bases de l'ADN sont l'adénine (A), la thymine (T), la guanine (G) et la cytosine (C)."
+      ],
+      "reponseFinale": "A, T, G et C",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex05",
+      "enonce": "Énoncer les règles de complémentarité des bases de l'ADN.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "A s'apparie avec T, et G s'apparie avec C (liaisons hydrogène)."
+      ],
+      "reponseFinale": "A–T et G–C",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex06",
+      "enonce": "Quelle est la structure spatiale de la molécule d'ADN ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Deux brins complémentaires enroulés : la double hélice (modèle de Watson et Crick)."
+      ],
+      "reponseFinale": "Une double hélice",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex07",
+      "enonce": "Un brin d'ADN porte la séquence A-T-G-C. Quelle est la séquence du brin complémentaire ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "A↔T, T↔A, G↔C, C↔G.",
+        "En face de A-T-G-C on écrit T-A-C-G."
+      ],
+      "reponseFinale": "T-A-C-G",
+      "competenceId": "svt-c-ig-adn"
+    },
+    {
+      "id": "svt-c-ig-ex08",
+      "enonce": "Comment appelle-t-on une portion d'ADN qui gouverne un caractère héréditaire ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Un gène est une portion d'ADN responsable d'un caractère."
+      ],
+      "reponseFinale": "Un gène",
+      "competenceId": "svt-c-ig-gene"
+    },
+    {
+      "id": "svt-c-ig-ex09",
+      "enonce": "Comment appelle-t-on la structure condensée qui porte les gènes lors de la division ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "L'ADN se condense en chromosomes."
+      ],
+      "reponseFinale": "Le chromosome",
+      "competenceId": "svt-c-ig-chromosome"
+    },
+    {
+      "id": "svt-c-ig-ex10",
+      "enonce": "Qu'est-ce qu'un caryotype ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le caryotype est la garniture chromosomique d'une cellule, classée par paires."
+      ],
+      "reponseFinale": "L'ensemble classé des chromosomes d'une cellule",
+      "competenceId": "svt-c-ig-chromosome"
+    },
+    {
+      "id": "svt-c-ig-ex11",
+      "enonce": "Une cellule à 2n chromosomes est dite :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "2n = deux exemplaires de chaque chromosome ⇒ diploïde."
+      ],
+      "reponseFinale": "diploïde",
+      "competenceId": "svt-c-ig-chromosome"
+    },
+    {
+      "id": "svt-c-ig-ex12",
+      "enonce": "Une cellule qui ne possède qu'un seul exemplaire de chaque chromosome est dite :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "n chromosomes ⇒ haploïde (cas des gamètes)."
+      ],
+      "reponseFinale": "haploïde",
+      "competenceId": "svt-c-ig-chromosome"
+    },
+    {
+      "id": "svt-c-ig-ex13",
+      "enonce": "Comment se nomme la duplication de l'ADN avant la division cellulaire ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'ADN se copie : c'est la réplication (ou duplication)."
+      ],
+      "reponseFinale": "La réplication (duplication)",
+      "competenceId": "svt-c-ig-replication"
+    },
+    {
+      "id": "svt-c-ig-ex14",
+      "enonce": "La réplication de l'ADN est dite « semi-conservative ». Pourquoi ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Chaque molécule fille garde un brin ancien (parental) et un brin néoformé."
+      ],
+      "reponseFinale": "Chaque molécule fille conserve un brin d'origine",
+      "competenceId": "svt-c-ig-replication"
+    },
+    {
+      "id": "svt-c-ig-ex15",
+      "enonce": "Citer deux différences entre l'ADN et l'ARN.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "ADN : double brin, sucre = désoxyribose, base T. ARN : simple brin, sucre = ribose, base U (uracile)."
+      ],
+      "reponseFinale": "ADN double brin (désoxyribose, T) ; ARN simple brin (ribose, U)",
+      "competenceId": "svt-c-ig-arn"
+    },
+    {
+      "id": "svt-c-ig-ex16",
+      "enonce": "Quelle base remplace la thymine dans l'ARN ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Dans l'ARN, la thymine (T) est remplacée par l'uracile (U)."
+      ],
+      "reponseFinale": "L'uracile (U)",
+      "competenceId": "svt-c-ig-arn"
+    }
+  ],
+  "estExercices": true
+}

@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u020",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Notion de stéréochimie (2/2)",
+  "ordre": 20,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Notion de stéréochimie",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u020-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u020-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Carbone asymétrique",
+          "verso": "C lié à 4 groupes tous différents (noté C*)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énantiomères",
+          "verso": "images miroir non superposables (molécule chirale)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Représentation de Newman",
+          "verso": "visualise les conformations autour d'une liaison C–C",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u020-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u020-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Carbone asymétrique ?",
+          "options": [
+            "C lié à 4 groupes tous différents (noté C*)",
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+          ],
+          "reponse": 0,
+          "explication": "C lié à 4 groupes tous différents (noté C*)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énantiomères ?",
+          "options": [
+            "C lié à 4 groupes tous différents (noté C*)",
+            "images miroir non superposables (molécule chirale)",
+            "H₃O⁺ + OH⁻ → 2 H₂O",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)"
+          ],
+          "reponse": 1,
+          "explication": "images miroir non superposables (molécule chirale)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Représentation de Newman ?",
+          "options": [
+            "visualise les conformations autour d'une liaison C–C",
+            "pH + pOH = 14 (25 °C)",
+            "diffèrent par la position d'un groupe",
+            "AH / A⁻ (l'acide cède un proton H⁺)"
+          ],
+          "reponse": 0,
+          "explication": "visualise les conformations autour d'une liaison C–C"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Carbone asymétrique",
+      "verso": "C lié à 4 groupes tous différents (noté C*)"
+    },
+    {
+      "recto": "Énantiomères",
+      "verso": "images miroir non superposables (molécule chirale)"
+    },
+    {
+      "recto": "Représentation de Newman",
+      "verso": "visualise les conformations autour d'une liaison C–C"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Carbone asymétrique",
+      "verso": "C lié à 4 groupes tous différents (noté C*)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énantiomères",
+      "verso": "images miroir non superposables (molécule chirale)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Représentation de Newman",
+      "verso": "visualise les conformations autour d'une liaison C–C",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

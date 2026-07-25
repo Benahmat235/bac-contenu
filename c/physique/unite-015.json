@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u015",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Auto-induction et circuits oscillants (1/2)",
+  "ordre": 15,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Auto-induction et circuits oscillants",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u015-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u015-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Période propre d'un circuit LC",
+          "verso": "T₀ = 2π·√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fréquence propre",
+          "verso": "f₀ = 1/(2π·√(L·C))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation propre",
+          "verso": "ω₀ = 1/√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie d'une bobine",
+          "verso": "E = ½·L·i²",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u015-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u015-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Période propre d'un circuit LC ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "q = C·u",
+            "a = Δv/Δt",
+            "T₀ = 2π·√(L·C)"
+          ],
+          "reponse": 3,
+          "explication": "T₀ = 2π·√(L·C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fréquence propre ?",
+          "options": [
+            "f₀ = 1/(2π·√(L·C))",
+            "g = G·M/R²",
+            "h = 6,63×10⁻³⁴ J·s",
+            "e = −L·(di/dt)"
+          ],
+          "reponse": 0,
+          "explication": "f₀ = 1/(2π·√(L·C))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation propre ?",
+          "options": [
+            "U = Z·I",
+            "ω₀ = 1/√(L·C)",
+            "Ec = ½·m·v²",
+            "W₀ = h·ν₀"
+          ],
+          "reponse": 1,
+          "explication": "ω₀ = 1/√(L·C)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Période propre d'un circuit LC",
+      "verso": "T₀ = 2π·√(L·C)"
+    },
+    {
+      "recto": "Fréquence propre",
+      "verso": "f₀ = 1/(2π·√(L·C))"
+    },
+    {
+      "recto": "Pulsation propre",
+      "verso": "ω₀ = 1/√(L·C)"
+    },
+    {
+      "recto": "Énergie d'une bobine",
+      "verso": "E = ½·L·i²"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Période propre d'un circuit LC",
+      "verso": "T₀ = 2π·√(L·C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fréquence propre",
+      "verso": "f₀ = 1/(2π·√(L·C))",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pulsation propre",
+      "verso": "ω₀ = 1/√(L·C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie d'une bobine",
+      "verso": "E = ½·L·i²",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Oscillations électriques : résumé de cours",
+      "url": "https://youtu.be/uu5cozICjPc",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Circuit LC : équation différentielle, tensions, énergies",
+      "url": "https://youtu.be/f1YKZkXn-xU",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

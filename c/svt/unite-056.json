@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u056",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La communication hormonale (2/3)",
+  "ordre": 56,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication hormonale",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u056-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u056-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Pancréas",
+          "verso": "glande mixte ; îlots de Langerhans (cellules α et β)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Insuline",
+          "verso": "cellules β ; hypoglycémiante (fait baisser la glycémie)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glucagon",
+          "verso": "cellules α ; hyperglycémiant (fait monter la glycémie)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u056-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u056-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Pancréas ?",
+          "options": [
+            "glande mixte ; îlots de Langerhans (cellules α et β)",
+            "implantation de l'embryon dans l'endomètre utérin",
+            "2^n types de gamètes (n = nombre de paires)",
+            "disjonction des allèles (pureté des gamètes)"
+          ],
+          "reponse": 0,
+          "explication": "glande mixte ; îlots de Langerhans (cellules α et β)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Insuline ?",
+          "options": [
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "siège de la synthèse des protéines",
+            "A//A (identiques) / A//a (différents)",
+            "cellules β ; hypoglycémiante (fait baisser la glycémie)"
+          ],
+          "reponse": 3,
+          "explication": "cellules β ; hypoglycémiante (fait baisser la glycémie)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Glucagon ?",
+          "options": [
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "moelle épinière + encéphale",
+            "cellules α ; hyperglycémiant (fait monter la glycémie)",
+            "individu homozygote à descendance identique"
+          ],
+          "reponse": 2,
+          "explication": "cellules α ; hyperglycémiant (fait monter la glycémie)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Pancréas",
+      "verso": "glande mixte ; îlots de Langerhans (cellules α et β)"
+    },
+    {
+      "recto": "Insuline",
+      "verso": "cellules β ; hypoglycémiante (fait baisser la glycémie)"
+    },
+    {
+      "recto": "Glucagon",
+      "verso": "cellules α ; hyperglycémiant (fait monter la glycémie)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Pancréas",
+      "verso": "glande mixte ; îlots de Langerhans (cellules α et β)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Insuline",
+      "verso": "cellules β ; hypoglycémiante (fait baisser la glycémie)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Glucagon",
+      "verso": "cellules α ; hyperglycémiant (fait monter la glycémie)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

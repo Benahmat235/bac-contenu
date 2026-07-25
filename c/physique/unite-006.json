@@ -1,0 +1,143 @@
+{
+  "id": "physique-c-u006",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Les champs et interactions universelles (2/2)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les champs et interactions universelles",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u006-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Loi de gravitation universelle",
+          "verso": "F = G·M·m/d²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Champ de pesanteur",
+          "verso": "g = G·M/R²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Champ de gravitation en altitude h",
+          "verso": "g_h = G·M/(R+h)²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante de gravitation",
+          "verso": "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Loi de gravitation universelle ?",
+          "options": [
+            "E = ½·L·i²",
+            "F = G·M·m/d²",
+            "ΣF = m·a",
+            "N = N₀ / 2ⁿ"
+          ],
+          "reponse": 1,
+          "explication": "F = G·M·m/d²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Champ de pesanteur ?",
+          "options": [
+            "f₀ = 1/(2π·√(L·C))",
+            "W₀ = h·ν₀",
+            "g = G·M/R²",
+            "P = m·g"
+          ],
+          "reponse": 2,
+          "explication": "g = G·M/R²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Champ de gravitation en altitude h ?",
+          "options": [
+            "ΣF = m·a",
+            "g_h = G·M/(R+h)²",
+            "e = −L·(di/dt)",
+            "Ep = m·g·h"
+          ],
+          "reponse": 1,
+          "explication": "g_h = G·M/(R+h)²"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Loi de gravitation universelle",
+      "verso": "F = G·M·m/d²"
+    },
+    {
+      "recto": "Champ de pesanteur",
+      "verso": "g = G·M/R²"
+    },
+    {
+      "recto": "Champ de gravitation en altitude h",
+      "verso": "g_h = G·M/(R+h)²"
+    },
+    {
+      "recto": "Constante de gravitation",
+      "verso": "G = 6,67×10⁻¹¹ N·m²·kg⁻²"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Loi de gravitation universelle",
+      "verso": "F = G·M·m/d²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Champ de pesanteur",
+      "verso": "g = G·M/R²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Champ de gravitation en altitude h",
+      "verso": "g_h = G·M/(R+h)²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Constante de gravitation",
+      "verso": "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

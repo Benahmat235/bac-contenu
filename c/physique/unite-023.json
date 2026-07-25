@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u023",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Circuits RLC en régime forcé (1/2)",
+  "ordre": 23,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Circuits RLC en régime forcé",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u023-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u023-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Impédance d'un RLC série",
+          "verso": "Z = √(R² + (Lω − 1/(Cω))²)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Loi d'Ohm en régime forcé",
+          "verso": "U = Z·I",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation de résonance",
+          "verso": "ω₀ = 1/√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fréquence de résonance",
+          "verso": "f₀ = 1/(2π·√(L·C))",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u023-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u023-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Impédance d'un RLC série ?",
+          "options": [
+            "ΣF = m·a",
+            "e = −L·(di/dt)",
+            "A = λ·N",
+            "Z = √(R² + (Lω − 1/(Cω))²)"
+          ],
+          "reponse": 3,
+          "explication": "Z = √(R² + (Lω − 1/(Cω))²)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Loi d'Ohm en régime forcé ?",
+          "options": [
+            "ΔEc = ΣW(forces)",
+            "U = Z·I",
+            "aₙ = v²/R = ω²·R",
+            "P = R·I² = U·I·cos(φ)"
+          ],
+          "reponse": 1,
+          "explication": "U = Z·I"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation de résonance ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "N = N₀ / 2ⁿ",
+            "E = ½·C·u²",
+            "X = Lω − 1/(Cω)"
+          ],
+          "reponse": 0,
+          "explication": "ω₀ = 1/√(L·C)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Impédance d'un RLC série",
+      "verso": "Z = √(R² + (Lω − 1/(Cω))²)"
+    },
+    {
+      "recto": "Loi d'Ohm en régime forcé",
+      "verso": "U = Z·I"
+    },
+    {
+      "recto": "Pulsation de résonance",
+      "verso": "ω₀ = 1/√(L·C)"
+    },
+    {
+      "recto": "Fréquence de résonance",
+      "verso": "f₀ = 1/(2π·√(L·C))"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Impédance d'un RLC série",
+      "verso": "Z = √(R² + (Lω − 1/(Cω))²)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Loi d'Ohm en régime forcé",
+      "verso": "U = Z·I",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pulsation de résonance",
+      "verso": "ω₀ = 1/√(L·C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fréquence de résonance",
+      "verso": "f₀ = 1/(2π·√(L·C))",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Circuit RLC série en régime sinusoïdal forcé",
+      "url": "https://youtu.be/Z5WKoA6MVxA",
+      "type": "video",
+      "chaine": "Physique Chimie",
+      "auteur": "Physique Chimie"
+    },
+    {
+      "titre": "RLC : résumé et formules",
+      "url": "https://youtu.be/ZT0ZQ1DXIis",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

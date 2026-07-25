@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u003",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Organisation de la cellule (3/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Organisation de la cellule",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u003-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Appareil de Golgi",
+          "verso": "maturation et sécrétion des substances",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réticulum endoplasmique",
+          "verso": "synthèse et transport des substances",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Cellule végétale vs animale",
+          "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Appareil de Golgi ?",
+          "options": [
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "maturation et sécrétion des substances",
+            "A//A (identiques) / A//a (différents)",
+            "moelle épinière + encéphale"
+          ],
+          "reponse": 1,
+          "explication": "maturation et sécrétion des substances"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réticulum endoplasmique ?",
+          "options": [
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+            "synthèse et transport des substances",
+            "parentaux majoritaires + recombinés minoritaires",
+            "apporte les acides aminés et porte l'anticodon"
+          ],
+          "reponse": 1,
+          "explication": "synthèse et transport des substances"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cellule végétale vs animale ?",
+          "options": [
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "corps cellulaire + dendrites + axone",
+            "4³ = 64 codons",
+            "libération d'un neurotransmetteur (médiateur chimique)"
+          ],
+          "reponse": 0,
+          "explication": "la végétale a paroi cellulosique, chloroplastes et grande vacuole"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Appareil de Golgi",
+      "verso": "maturation et sécrétion des substances"
+    },
+    {
+      "recto": "Réticulum endoplasmique",
+      "verso": "synthèse et transport des substances"
+    },
+    {
+      "recto": "Cellule végétale vs animale",
+      "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Appareil de Golgi",
+      "verso": "maturation et sécrétion des substances",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réticulum endoplasmique",
+      "verso": "synthèse et transport des substances",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Cellule végétale vs animale",
+      "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}
