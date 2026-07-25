@@ -478,5 +478,21 @@
       "reponseFinale": "Oui, continue en 1",
       "competenceId": "math-d-c-continuite"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Notion de limite d'une fonction - Terminale",
+      "url": "https://youtu.be/YPwJyYDsmxM",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Continuité d'une fonction - Terminale",
+      "url": "https://youtu.be/9SSEUoyHh2s",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

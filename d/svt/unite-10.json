@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 10 : L'hérédité humaine",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -414,6 +414,22 @@
       ],
       "reponseFinale": "Une non-disjonction lors de la méiose",
       "competenceId": "svt-d-he-aberration"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "L'hérédité humaine : les groupes sanguins (cours)",
+      "url": "https://youtu.be/Vk3jcGVrs7g",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Le groupe sanguin (système ABO)",
+      "url": "https://youtu.be/qlxiWTfrL0g",
+      "type": "video",
+      "chaine": "ATG start",
+      "auteur": "ATG start"
     }
   ]
 }

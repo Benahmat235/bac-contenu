@@ -451,5 +451,21 @@
       "reponseFinale": "x = 1 ou x = 2",
       "competenceId": "math-d-c-exp-eq"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Fonction exponentielle - Terminale",
+      "url": "https://youtu.be/sCcy4IQKits",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Dérivées des fonctions exponentielles",
+      "url": "https://youtu.be/OtRensLKpHs",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    }
   ]
 }

@@ -464,5 +464,21 @@
       "reponseFinale": "x = 3",
       "competenceId": "math-d-c-ln-eq"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Les primitives - Terminale",
+      "url": "https://youtu.be/bQ-eS1zZCdw",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Logarithme népérien - Terminale",
+      "url": "https://youtu.be/VJns0RfVWGg",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

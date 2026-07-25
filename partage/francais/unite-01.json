@@ -120,5 +120,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "La littérature et ses généralités (Terminale)",
+      "url": "https://youtu.be/R9FlaGIg4D8",
+      "type": "video",
+      "chaine": "E-Repetiteur",
+      "auteur": "E-Repetiteur"
+    },
+    {
+      "titre": "Analyser un texte littéraire : le fond et la forme",
+      "url": "https://youtu.be/zFh7fys3QCU",
+      "type": "video",
+      "chaine": "Madame D",
+      "auteur": "Madame D"
+    }
   ]
 }

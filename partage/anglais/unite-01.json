@@ -137,5 +137,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "How to remember English vocabulary",
+      "url": "https://youtu.be/ZM6Sg4SN7kU",
+      "type": "video",
+      "chaine": "Bob the Canadian",
+      "auteur": "Bob the Canadian"
+    },
+    {
+      "titre": "The best way to improve your English vocabulary",
+      "url": "https://youtu.be/awIXN5LgWKY",
+      "type": "video",
+      "chaine": "EngFluent",
+      "auteur": "EngFluent"
+    }
   ]
 }

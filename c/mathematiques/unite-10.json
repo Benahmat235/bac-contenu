@@ -514,5 +514,21 @@
       "reponseFinale": "E(X) = 3 ; V(X) = 21/10 ; σ(X) = √(21/10)",
       "competenceId": "math-c-c-loi-binomiale"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Combinatoire et dénombrement : tout le cours",
+      "url": "https://youtu.be/Cb-jNj-RyBE",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    },
+    {
+      "titre": "Arrangement, permutation, combinaison : lequel choisir ?",
+      "url": "https://youtu.be/hWkIwXXEECc",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

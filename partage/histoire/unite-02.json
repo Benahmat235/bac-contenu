@@ -1,258 +1,189 @@
 {
-  "id": "hist-u2",
+  "id": "histoire-u02",
   "matiere": "histoire",
-  "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+  "type": "litteraire",
+  "titre": "L'Organisation des Nations Unies (ONU)",
   "ordre": 2,
   "source": {
-    "document": "Histoire TA4 C D",
-    "chapitre": "Conséquences de la Deuxième Guerre mondiale",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Histoire-Géo Tchad",
+    "chapitre": "L'Organisation des Nations Unies (ONU)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève mémorise la question avec sa réponse (flashcard). En cas d'oubli, la réponse est révélée."
   },
   "etapes": [
     {
-      "id": "hist-u2-e1",
-      "titre": "Les causes de la guerre",
-      "categorie": "causes",
+      "id": "histoire-u02-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "hist-c-2gm-causes",
+      "competenceId": "histoire-u02-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Quelles sont les causes principales de la Seconde Guerre mondiale ?",
-          "reponseAttendue": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939.",
-          "modeReponse": "auto_evaluation"
+          "question": "Quand, où et dans quel contexte l'ONU a été créée ?",
+          "reponseAttendue": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale.",
+          "modeReponse": "auto_evaluation",
+          "explication": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
         },
         {
           "type": "rappel_actif",
-          "question": "Montrez en quoi le traité de Versailles est considéré comme l'une des causes du déclenchement de la Seconde Guerre mondiale.",
-          "reponseAttendue": "Le traité de Versailles de 1919 avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut l'une des causes primordiales de la Seconde Guerre mondiale.",
-          "modeReponse": "auto_evaluation"
+          "question": "Quels sont les organes principaux de l'ONU ?",
+          "reponseAttendue": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice."
         },
         {
           "type": "rappel_actif",
-          "question": "Montrez en quoi la crise économique de 1929 est considérée comme l'une des causes de la Seconde Guerre mondiale.",
-          "reponseAttendue": "Elle a favorisé la montée au pouvoir des régimes totalitaires en Europe (fascisme et nazisme) qui ont agressé les vainqueurs de la Première Guerre et provoqué la seconde.",
-          "modeReponse": "auto_evaluation"
+          "question": "Citez 6 organes spécialisés de l'ONU.",
+          "reponseAttendue": "OMS, HCR, UNESCO, PNUD, PAM, Unicef.",
+          "modeReponse": "auto_evaluation",
+          "explication": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que signifie 'droit de véto' ?",
+          "reponseAttendue": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "En quoi le droit de véto paralyse l'ONU ?",
+          "reponseAttendue": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 3 domaines d'intervention de l'ONU.",
+          "reponseAttendue": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les objectifs de l'ONU ?",
+          "reponseAttendue": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi le Conseil de sécurité est l'organe le plus sensible ?",
+          "reponseAttendue": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent."
         }
       ]
     },
     {
-      "id": "hist-u2-e2",
-      "titre": "Le déroulement",
-      "categorie": "deroulement",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-2gm-deroulement",
+      "id": "histoire-u02-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u02-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Quelles sont les phases (ou étapes) de la Seconde Guerre mondiale ?",
-          "reponseAttendue": "La première phase européenne de 1939 à 1941 (succès de l'axe), la deuxième phase de 1942 à 1943 (équilibre du front), et la troisième phase de 1944 à 1945 (victoire des alliés).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quand et pourquoi les USA sont-ils entrés dans la Seconde Guerre mondiale ?",
-          "reponseAttendue": "Les USA sont entrés en guerre le 8 décembre 1941, à la suite de l'attaque japonaise de la base navale américaine de Pearl Harbour le 7 décembre 1941.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quel était le degré de participation de l'Afrique à la Seconde Guerre mondiale ?",
-          "reponseAttendue": "Sur le plan militaire : plus d'un million d'Africains participaient aux opérations. Sur le plan matériel : la population civile a participé à l'effort de guerre par des matières premières. Sur le plan stratégique : l'Afrique a servi de base arrière aux puissances alliées et de l'axe.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Que vous rappellent Pearl Harbour, Auschwitz et le camp de concentration pendant la Seconde Guerre mondiale ?",
-          "reponseAttendue": "Pearl Harbour : base navale américaine attaquée par les Japonais. Auschwitz : camp de concentration en Pologne pour l'extermination des juifs. Camp de concentration : espaces aménagés par les nazis pour entasser et laisser mourir les prisonniers.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u2-e3",
-      "titre": "Crimes et procès",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-2gm-proces",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Que signifient crime contre l'humanité et crime de guerre ?",
-          "reponseAttendue": "Le crime contre l'humanité est un crime commis en violation des règles internationales du droit dans une circonstance donnée. Le crime de guerre est la violation des règles de la guerre (massacre des prisonniers, tortures, viols, non-respect de l'armistice).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Qu'est-ce que le procès de Nuremberg ?",
-          "reponseAttendue": "Le procès de Nuremberg visait à juger les nazis pour leurs exactions. 12 nazis furent condamnés à mort par pendaison et les autres à des peines lourdes.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Qu'est-ce que le procès de Tokyo ?",
-          "reponseAttendue": "Le procès de Tokyo fut une initiative américaine à la fin de la guerre pour juger les criminels de guerre japonais. 25 Japonais furent jugés et l'empereur Hirohito abdiqua.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u2-e4",
-      "titre": "La fin de la guerre et les conférences",
-      "categorie": "dates",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-2gm-conferences",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Que vous rappellent les dates : 12 avril 1945, 6 et 9 août 1945, 2 septembre 1945, 20 novembre 1945, août 1961, octobre 1962, 9 novembre 1989 ?",
-          "reponseAttendue": "12 avril 1945 : décès du président américain Roosevelt. 6 août 1945 : bombardement de Hiroshima. 9 août 1945 : bombardement de Nagasaki. 2 septembre 1945 : fin de la Seconde Guerre mondiale. 20 novembre 1945 : ouverture du procès de Nuremberg. Août 1961 : construction du mur de Berlin. Octobre 1962 : crise des fusées (Cuba). 9 novembre 1989 : chute du mur de Berlin.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quelles sont les principales conférences de paix qui ont eu lieu pendant la Seconde Guerre mondiale ?",
-          "reponseAttendue": "La charte de l'Atlantique (1941), la conférence de Washington (1942), la conférence de Téhéran (1943), la conférence de Dumbarton Oaks (1944), la conférence de Yalta (1945), la conférence de San Francisco (1945).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quelles ont été les trois grandes conférences organisées à la fin de la guerre pour remettre de l'ordre dans le monde ?",
-          "reponseAttendue": "La conférence de Yalta (4-11 février 1945), la conférence de Potsdam (17 juillet - 2 août 1945) et la conférence de San Francisco (25 avril - 26 juin 1945).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quelles sont les grandes décisions prises à la conférence de Yalta ?",
-          "reponseAttendue": "La capitulation sans condition de l'Allemagne, sa réorganisation, l'engagement de l'URSS à entrer en guerre contre le Japon, le jugement des criminels de guerre et la création de l'ONU.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "À la conférence de Potsdam de 1945, quel était le sort réservé à l'Allemagne ?",
-          "reponseAttendue": "Son désarmement total, sa dénazification, la comparution en justice des criminels nazis et les réparations des pertes de la guerre.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "À l'issue de la conférence de Potsdam, les alliés avaient décidé d'instaurer le système des trois « D » contre l'Allemagne. Expliquez ce système.",
-          "reponseAttendue": "Le système des trois « D » signifie : démilitarisation (désarmement), dénazification (faire disparaître le nazisme) et décartellisation (contrôle de l'économie).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Parlez brièvement de la conférence de Bretton Woods de 1944.",
-          "reponseAttendue": "C'est une conférence monétaire et financière tenue en 1944 aux USA pour poser les bases d'un système international plus stable. Le FMI et la Banque Mondiale y ont été créés, et le dollar américain est devenu la monnaie de référence.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Qu'est-ce que la bombe A et qui sont les premiers à la détenir ?",
-          "reponseAttendue": "C'est la bombe atomique. Les USA sont les premiers à la posséder depuis 1945, puis l'URSS en 1949.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Qu'est-ce que la bombe H et qui sont les premiers à la posséder ?",
-          "reponseAttendue": "C'est la bombe à hydrogène. Les USA l'ont détenue pour la première fois en 1952 et l'URSS en 1953.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u2-e5",
-      "titre": "Les conséquences",
-      "categorie": "consequences",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-2gm-consequences",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Quelles sont les conséquences politiques de la Seconde Guerre mondiale ?",
-          "reponseAttendue": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux et début du processus de décolonisation.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Montrez en quoi la participation des colonies d'Afrique noire française à la guerre leur a été bénéfique.",
-          "reponseAttendue": "Elle leur a permis de profiter des cultures coloniales, des édifices ont été construits, des pensions ont été accordées aux anciens combattants et l'indépendance fut aussi octroyée.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quel intérêt tire notre pays (le Tchad) en participant à la guerre aux côtés des Alliés ?",
-          "reponseAttendue": "L'indépendance, les pensions accordées aux anciens combattants tchadiens, la construction d'infrastructures (routes, hôpitaux, écoles, aéroports...).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quelles sont les défaites de la France observées pendant et après la guerre ayant permis la décolonisation ?",
-          "reponseAttendue": "La défaite française face à l'armée allemande (1940), la défaite de Dien Bien Phu (1954), la défaite en Égypte (1956) et celle d'Algérie (1962).",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u2-defi",
-      "titre": "Défi de maîtrise",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "hist-c-2gm-synthese",
-      "activites": [
-        {
-          "type": "classement",
-          "consigne": "Remets ces phases de la Seconde Guerre mondiale dans l'ordre chronologique.",
-          "elements": [
-            "Phase 1 : succès de l'axe (1939-1941)",
-            "Phase 2 : équilibre du front (1942-1943)",
-            "Phase 3 : victoire des alliés (1944-1945)"
+          "type": "choix_unique",
+          "question": "Quand, où et dans quel contexte l'ONU a été créée ?",
+          "options": [
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : main",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "ordreCorrect": [
-            "Phase 1 : succès de l'axe (1939-1941)",
-            "Phase 2 : équilibre du front (1942-1943)",
-            "Phase 3 : victoire des alliés (1944-1945)"
-          ],
-          "explication": "La guerre passe de la domination de l'axe à la victoire des alliés."
-        },
-        {
-          "type": "association",
-          "consigne": "Associe chaque date à l'événement correspondant.",
-          "paires": [
-            {
-              "gauche": "6 août 1945",
-              "droite": "bombardement de Hiroshima"
-            },
-            {
-              "gauche": "2 septembre 1945",
-              "droite": "fin de la guerre"
-            },
-            {
-              "gauche": "9 novembre 1989",
-              "droite": "chute du mur de Berlin"
-            },
-            {
-              "gauche": "7 décembre 1941",
-              "droite": "attaque de Pearl Harbour"
-            }
-          ],
-          "explication": "Ces dates jalonnent la guerre et l'après-guerre."
+          "reponse": 0,
+          "explication": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
         },
         {
           "type": "choix_unique",
-          "question": "Quel événement a provoqué l'entrée des USA dans la guerre ?",
+          "question": "Quels sont les organes principaux de l'ONU ?",
           "options": [
-            "La chute de Berlin",
-            "L'attaque de Pearl Harbour",
-            "Le débarquement de Normandie",
-            "La crise de 1929"
+            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "reponse": 1,
-          "explication": "L'attaque japonaise de Pearl Harbour (7 déc. 1941) fait entrer les USA en guerre le 8 décembre 1941."
+          "reponse": 0,
+          "explication": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 6 organes spécialisés de l'ONU.",
+          "options": [
+            "OMS, HCR, UNESCO, PNUD, PAM, Unicef.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que signifie 'droit de véto' ?",
+          "options": [
+            "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, Fra",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+        },
+        {
+          "type": "choix_unique",
+          "question": "En quoi le droit de véto paralyse l'ONU ?",
+          "options": [
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave l",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution."
         }
-      ],
-      "estDefi": true
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quand, où et dans quel contexte l'ONU a été créée ?",
+      "verso": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
+    },
+    {
+      "recto": "Quels sont les organes principaux de l'ONU ?",
+      "verso": "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice."
+    },
+    {
+      "recto": "Citez 6 organes spécialisés de l'ONU.",
+      "verso": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+    },
+    {
+      "recto": "Que signifie 'droit de véto' ?",
+      "verso": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+    },
+    {
+      "recto": "En quoi le droit de véto paralyse l'ONU ?",
+      "verso": "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution."
+    },
+    {
+      "recto": "Citez 3 domaines d'intervention de l'ONU.",
+      "verso": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+    },
+    {
+      "recto": "Quels sont les objectifs de l'ONU ?",
+      "verso": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme."
+    },
+    {
+      "recto": "Pourquoi le Conseil de sécurité est l'organe le plus sensible ?",
+      "verso": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent."
     }
   ]
 }

@@ -440,5 +440,21 @@
       "reponseFinale": "acide faible",
       "competenceId": "chi-c-ka-c-classification"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Constante d'acidité : Ka et pKa (Terminale)",
+      "url": "https://youtu.be/Qe6VFTmTMIQ",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Constante d'acidité d'un couple acide/base",
+      "url": "https://youtu.be/YmjLYRuFoFg",
+      "type": "video",
+      "chaine": "Super Prof",
+      "auteur": "Super Prof"
+    }
   ]
 }

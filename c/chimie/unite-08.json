@@ -408,5 +408,21 @@
       "reponseFinale": "mol·L⁻¹·s⁻¹",
       "competenceId": "chi-c-ci-c-cinetique"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Cinétique chimique : cours complet (Terminale)",
+      "url": "https://youtu.be/mJtSODJ0nj8",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Cinétique chimique 1/3 : vitesse de réaction",
+      "url": "https://youtu.be/LIN5USz9bD4",
+      "type": "video",
+      "chaine": "M. DOUMBOUYA",
+      "auteur": "M. DOUMBOUYA"
+    }
   ]
 }

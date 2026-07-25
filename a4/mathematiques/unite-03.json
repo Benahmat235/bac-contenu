@@ -504,5 +504,21 @@
       "reponseFinale": "p = 15/28",
       "competenceId": "math-a4-c-probabilite"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Combinatoire et dénombrement : tout le cours",
+      "url": "https://youtu.be/Cb-jNj-RyBE",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    },
+    {
+      "titre": "Dénombrer pour calculer une probabilité",
+      "url": "https://youtu.be/5ZNYG3e2g_k",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

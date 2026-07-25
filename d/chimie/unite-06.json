@@ -417,5 +417,21 @@
       "reponseFinale": "Oui, sauf le pouvoir rotatoire",
       "competenceId": "chi-d-st-c-stereo"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Stéréochimie 1/8 : les isomères",
+      "url": "https://youtu.be/s4sA1Q7kO0g",
+      "type": "video",
+      "chaine": "M. DOUMBOUYA",
+      "auteur": "M. DOUMBOUYA"
+    },
+    {
+      "titre": "Stéréoisomérie : énantiomères et diastéréoisomères",
+      "url": "https://youtu.be/efmRKnj0H4E",
+      "type": "video",
+      "chaine": "Mathrix",
+      "auteur": "Mathrix"
+    }
   ]
 }

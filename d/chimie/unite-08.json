@@ -411,5 +411,21 @@
       "reponseFinale": "basique",
       "competenceId": "chi-d-am-c-amine"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Les amines : résumé de cours",
+      "url": "https://youtu.be/aW6Xjouf-Bw",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Nomenclature des amines",
+      "url": "https://youtu.be/j9WS3vC7Fhc",
+      "type": "video",
+      "chaine": "e-profs Physique Chimie",
+      "auteur": "e-profs Physique Chimie"
+    }
   ]
 }

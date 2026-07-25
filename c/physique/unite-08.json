@@ -440,5 +440,21 @@
       "reponseFinale": "grande",
       "competenceId": "phy-c-photo-c-photon"
     }
+  ],
+  "videos": [
+    {
+      "titre": "L'effet photoélectrique : synthèse (TS/PC)",
+      "url": "https://youtu.be/GdyL0HqpbJM",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Effet photoélectrique : explications + exercice",
+      "url": "https://youtu.be/TbOVWSokZgA",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    }
   ]
 }

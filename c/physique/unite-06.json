@@ -434,5 +434,21 @@
       "reponseFinale": "T₀ ≈ 0.00397 s",
       "competenceId": "phy-c-osce-c-lc"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Dipôle RLC : oscillations électriques libres (synthèse TS/PC)",
+      "url": "https://youtu.be/IrYer_OXWkI",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Oscillations électriques libres et forcées (cours)",
+      "url": "https://youtu.be/KWuiAaiqukE",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
   ]
 }

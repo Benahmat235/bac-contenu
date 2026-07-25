@@ -435,5 +435,21 @@
       "reponseFinale": "N ≈ 5e+07 noyaux",
       "competenceId": "phy-c-radio-c-demivie"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Transformation nucléaire et radioactivité : cours complet",
+      "url": "https://youtu.be/7qw-pWW9bM8",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Décroissance radioactive, activité et demi-vie",
+      "url": "https://youtu.be/5OtgPL7MfHE",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    }
   ]
 }

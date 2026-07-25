@@ -437,5 +437,21 @@
       "reponseFinale": "T ≈ 0.63 s",
       "competenceId": "phy-d-osc-c-ressort"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Oscillations mécaniques libres : synthèse (TleS/PC)",
+      "url": "https://youtu.be/BGrDTk85LOY",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Oscillations mécaniques : résumé de cours",
+      "url": "https://youtu.be/HfvKpLRD5m0",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
   ]
 }

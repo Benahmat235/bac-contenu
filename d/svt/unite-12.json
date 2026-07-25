@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 12 : La communication hormonale",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -407,6 +407,22 @@
       ],
       "reponseFinale": "Hyperglycémie et hypoglycémie",
       "competenceId": "svt-d-ho-glycemie"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La régulation de la glycémie - SVT Terminale",
+      "url": "https://youtu.be/CeRWzkVh7a4",
+      "type": "video",
+      "chaine": "Mon Cours De SVT",
+      "auteur": "Mon Cours De SVT"
+    },
+    {
+      "titre": "La régulation de la glycémie",
+      "url": "https://youtu.be/cQE7eiee80I",
+      "type": "video",
+      "chaine": "Joyez SVT",
+      "auteur": "Joyez SVT"
     }
   ]
 }

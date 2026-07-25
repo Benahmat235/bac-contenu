@@ -636,5 +636,21 @@
       "reponseFinale": "y = 0",
       "competenceId": "math-a4-c-asymptote"
     }
+  ],
+  "videos": [
+    {
+      "titre": "La dérivation - Terminale",
+      "url": "https://youtu.be/XAgdHblbajE",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Notion de limite d'une fonction - Terminale",
+      "url": "https://youtu.be/YPwJyYDsmxM",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
   ]
 }

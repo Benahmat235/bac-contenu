@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 2 : Localisation, nature et transmission de l'information génétique",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -416,6 +416,22 @@
       ],
       "reponseFinale": "L'uracile (U)",
       "competenceId": "svt-c-ig-arn"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "ADN, chromosomes, gènes, allèles : quelles différences ?",
+      "url": "https://youtu.be/6IOAaNdKCrE",
+      "type": "video",
+      "chaine": "Sciences, Terre et Vie",
+      "auteur": "Sciences, Terre et Vie"
+    },
+    {
+      "titre": "L'ADN et l'information génétique",
+      "url": "https://youtu.be/ibuLXGBI4Kg",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
     }
   ]
 }

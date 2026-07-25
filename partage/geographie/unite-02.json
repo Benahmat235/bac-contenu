@@ -1,167 +1,200 @@
 {
-  "id": "geo-u2",
+  "id": "geographie-u02",
   "matiere": "geographie",
+  "type": "litteraire",
   "titre": "Le climat, les sols et la végétation du Tchad",
   "ordre": 2,
   "source": {
-    "document": "Géographie TA4 C D",
-    "chapitre": "Étude physique du Tchad : climat, sols et végétation",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Histoire-Géo Tchad",
+    "chapitre": "Le climat, les sols et la végétation du Tchad",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève mémorise la question avec sa réponse (flashcard). En cas d'oubli, la réponse est révélée."
   },
   "etapes": [
     {
-      "id": "geo-u2-e1",
-      "titre": "Le climat",
-      "categorie": "definitions",
+      "id": "geographie-u02-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "geo-c-climat",
+      "competenceId": "geographie-u02-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Expliquez le mécanisme de la mousson au Tchad.",
-          "reponseAttendue": "Le climat du Tchad est déterminé par la rencontre de deux masses d'air : l'harmattan (vent sec et chaud du nord-est) et la mousson (vent humide du sud-ouest venant de l'Atlantique). Leur zone de rencontre, le Front Intertropical (FIT), détermine la saison des pluies en remontant vers le nord.",
-          "modeReponse": "auto_evaluation"
+          "question": "Citez les zones climatiques du Tchad.",
+          "reponseAttendue": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
         },
         {
           "type": "rappel_actif",
-          "question": "Citez les principales masses d'air qui commandent le mécanisme du climat du Tchad.",
-          "reponseAttendue": "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime humide).",
-          "modeReponse": "auto_evaluation"
+          "question": "Quel est le rôle de la végétation dans les microclimats ?",
+          "reponseAttendue": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations."
         },
         {
           "type": "rappel_actif",
-          "question": "Citez les zones climatiques du Tchad et leurs caractéristiques.",
-          "reponseAttendue": "Zone tropicale humide (soudanienne) : +800 mm/an, 6-7 mois de pluie. Zone sahélienne : 200-800 mm/an, 3-4 mois de pluie. Zone désertique (saharienne) : -200 mm/an, pluies rares et irrégulières.",
-          "modeReponse": "auto_evaluation"
+          "question": "Quels sont les types de sols au Tchad ?",
+          "reponseAttendue": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau)."
         },
         {
           "type": "rappel_actif",
-          "question": "Définissez : pluviométrie, isohyète, altitude, latitude.",
-          "reponseAttendue": "Pluviométrie : quantité de pluie tombée. Isohyète : ligne reliant sur une carte les points d'égale pluviométrie. Altitude : élévation par rapport au niveau de la mer. Latitude : distance en degrés par rapport à l'équateur.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "geo-u2-e2",
-      "titre": "Les sols et la végétation",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "geo-c-sols-vegetation",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Définissez : climat, sol et végétation.",
-          "reponseAttendue": "Climat : ensemble des conditions météorologiques moyennes sur une longue période. Sol : couche superficielle de la Terre où poussent les plantes. Végétation : ensemble des plantes d'un lieu.",
-          "modeReponse": "auto_evaluation"
+          "question": "Citez les domaines de végétation au Tchad.",
+          "reponseAttendue": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe)."
         },
         {
           "type": "rappel_actif",
-          "question": "Citez les principaux domaines de végétation au Tchad.",
-          "reponseAttendue": "Domaine soudano-guinéen (grands arbres), domaine soudanien (savane boisée), domaine sahélien (savane arbustive, steppe).",
-          "modeReponse": "auto_evaluation"
+          "question": "Montrez l'interdépendance climat-sol-végétation.",
+          "reponseAttendue": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
         },
         {
           "type": "rappel_actif",
-          "question": "Quels sont les types de sols rencontrés au Tchad ?",
-          "reponseAttendue": "Sols ferralitiques et ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau).",
-          "modeReponse": "auto_evaluation"
+          "question": "Définir : pluviométrie, isohyète, altitude, latitude.",
+          "reponseAttendue": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur."
         },
         {
           "type": "rappel_actif",
-          "question": "Montrez, à partir d'une zone climatique, l'interdépendance entre le climat, les sols et la végétation.",
-          "reponseAttendue": "Exemple de la zone soudanienne : le climat tropical humide (beaucoup de pluie) permet des sols riches (ferralitiques, ferrugineux) qui supportent à leur tour une végétation dense (forêt claire, savane arborée).",
-          "modeReponse": "auto_evaluation"
+          "question": "Définir : climat, sol et végétation.",
+          "reponseAttendue": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
         },
         {
           "type": "rappel_actif",
-          "question": "Quel est le rôle de la végétation dans la mise en place des microclimats ?",
-          "reponseAttendue": "La végétation produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion et influence les précipitations par l'évapotranspiration.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "geo-u2-e3",
-      "titre": "Zones et enjeux environnementaux",
-      "categorie": "consequences",
-      "seuilReussite": 80,
-      "competenceId": "geo-c-zones-enjeux",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Citez les zones climatiques du Tchad avec leurs principales activités économiques.",
-          "reponseAttendue": "Zone saharienne : élevage nomade (dromadaires), culture de palmiers-dattiers, commerce. Zone sahélienne : agriculture (mil, sorgho), élevage, pêche. Zone soudanienne : agriculture (coton, maïs), élevage sédentaire, pêche, chasse.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quels sont les éléments qui constituent l'étude physique du Tchad ?",
-          "reponseAttendue": "Le climat, le sol, la végétation, le relief et l'hydrographie.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Citez les principales zones climatiques des USA.",
-          "reponseAttendue": "Climat océanique (ouest), continental sec (centre), méditerranéen (sud-ouest), continental humide (centre-est), tropical humide (sud-est).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quelle stratégie le gouvernement tchadien doit-il adopter pour la protection de l'environnement ?",
-          "reponseAttendue": "Sensibiliser la population, promouvoir des énergies alternatives au bois (gaz, électricité) et mener des campagnes de reboisement.",
-          "modeReponse": "auto_evaluation"
+          "question": "Quelle stratégie pour protéger l'environnement au Tchad ?",
+          "reponseAttendue": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement."
         },
         {
           "type": "rappel_actif",
           "question": "Citez deux causes de l'assèchement du lac Tchad.",
-          "reponseAttendue": "Causes naturelles (sécheresse, évaporation) et causes anthropiques (surexploitation de l'eau pour l'agriculture).",
-          "modeReponse": "auto_evaluation"
+          "reponseAttendue": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
         }
       ]
     },
     {
-      "id": "geo-u2-defi",
-      "titre": "Défi de maîtrise",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "geo-c-climat-synthese",
+      "id": "geographie-u02-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u02-c",
       "activites": [
         {
-          "type": "association",
-          "consigne": "Associe chaque zone climatique à sa pluviométrie.",
-          "paires": [
-            {
-              "gauche": "Zone soudanienne",
-              "droite": "+800 mm/an"
-            },
-            {
-              "gauche": "Zone sahélienne",
-              "droite": "200-800 mm/an"
-            },
-            {
-              "gauche": "Zone saharienne",
-              "droite": "-200 mm/an"
-            }
+          "type": "choix_unique",
+          "question": "Citez les zones climatiques du Tchad.",
+          "options": [
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "explication": "La pluviométrie diminue du sud vers le nord."
+          "reponse": 0,
+          "explication": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
         },
         {
           "type": "choix_unique",
-          "question": "Comment s'appelle la zone de rencontre entre l'harmattan et la mousson ?",
+          "question": "Quel est le rôle de la végétation dans les microclimats ?",
           "options": [
-            "L'équateur",
-            "Le Front Intertropical (FIT)",
-            "L'isohyète",
-            "La zone sahélienne"
+            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "reponse": 1,
-          "explication": "Le Front Intertropical (FIT) détermine la saison des pluies."
+          "reponse": 0,
+          "explication": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les types de sols au Tchad ?",
+          "options": [
+            "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris d",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez les domaines de végétation au Tchad.",
+          "options": [
+            "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (sa",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Montrez l'interdépendance climat-sol-végétation.",
+          "options": [
+            "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
         }
-      ],
-      "estDefi": true
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Citez les zones climatiques du Tchad.",
+      "verso": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
+    },
+    {
+      "recto": "Quel est le rôle de la végétation dans les microclimats ?",
+      "verso": "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations."
+    },
+    {
+      "recto": "Quels sont les types de sols au Tchad ?",
+      "verso": "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau)."
+    },
+    {
+      "recto": "Citez les domaines de végétation au Tchad.",
+      "verso": "Domaine soudano-guinéen (grands arbres), soudanien (savane boisée), sahélien (savane arbustive, steppe)."
+    },
+    {
+      "recto": "Montrez l'interdépendance climat-sol-végétation.",
+      "verso": "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
+    },
+    {
+      "recto": "Définir : pluviométrie, isohyète, altitude, latitude.",
+      "verso": "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur."
+    },
+    {
+      "recto": "Définir : climat, sol et végétation.",
+      "verso": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
+    },
+    {
+      "recto": "Quelle stratégie pour protéger l'environnement au Tchad ?",
+      "verso": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement."
+    },
+    {
+      "recto": "Citez deux causes de l'assèchement du lac Tchad.",
+      "verso": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
     }
   ]
 }

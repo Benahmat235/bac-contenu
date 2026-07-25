@@ -445,5 +445,21 @@
       "reponseFinale": "pH ≈ 13.3",
       "competenceId": "chi-d-af-c-bf"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Acides forts, bases fortes : synthèse de cours (TLES/PC)",
+      "url": "https://youtu.be/WbrPdv92ymE",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Calculer le pH d'un acide fort et d'une base forte",
+      "url": "https://youtu.be/hiyaXlT-YBY",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
   ]
 }

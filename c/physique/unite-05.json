@@ -434,5 +434,21 @@
       "reponseFinale": "T₀ ≈ 0.00397 s",
       "competenceId": "phy-c-lc-c-lc"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Oscillations électriques : résumé de cours",
+      "url": "https://youtu.be/uu5cozICjPc",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Circuit LC : équation différentielle, tensions, énergies",
+      "url": "https://youtu.be/f1YKZkXn-xU",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
   ]
 }

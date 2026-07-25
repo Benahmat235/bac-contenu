@@ -201,5 +201,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Le langage (cours de philosophie)",
+      "url": "https://youtu.be/C27ac1opVWk",
+      "type": "video",
+      "chaine": "Coursitout",
+      "auteur": "Coursitout"
+    },
+    {
+      "titre": "Le langage - Terminale",
+      "url": "https://youtu.be/mX8gL0vmh3Y",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
   ]
 }

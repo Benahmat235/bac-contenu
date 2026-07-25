@@ -228,5 +228,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "La justice et le droit - Terminale",
+      "url": "https://youtu.be/ZK3hojwmDYU",
+      "type": "video",
+      "chaine": "Boîte à Philo",
+      "auteur": "Boîte à Philo"
+    },
+    {
+      "titre": "La justice - Terminale",
+      "url": "https://youtu.be/bQyHJlLk4ds",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
   ]
 }

@@ -6,59 +6,66 @@
     "c",
     "d"
   ],
-  "description": "Le monde de 1945 à nos jours et l'Afrique contemporaine.",
+  "description": "Le monde de 1945 à nos jours : 2GM, ONU, guerre froide, décolonisation, UA.",
   "unites": [
     {
-      "id": "hist-u1",
-      "titre": "Le monde en 1945 : bilan de la guerre",
+      "id": "histoire-u01",
+      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
       "ordre": 1,
       "fichier": "partage/histoire/unite-01.json",
       "prerequis": []
     },
     {
-      "id": "hist-u2",
-      "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+      "id": "histoire-u02",
+      "titre": "L'Organisation des Nations Unies (ONU)",
       "ordre": 2,
       "fichier": "partage/histoire/unite-02.json",
-      "prerequis": [
-        "hist-u1"
-      ]
+      "prerequis": []
     },
     {
-      "id": "hist-u3",
-      "titre": "L'Organisation des Nations Unies (ONU)",
+      "id": "histoire-rev03",
+      "titre": "Révision : leçons 1 et 2",
       "ordre": 3,
       "fichier": "partage/histoire/unite-03.json",
-      "prerequis": [
-        "hist-u2"
-      ]
+      "prerequis": [],
+      "estRevision": true
     },
     {
-      "id": "hist-u4",
+      "id": "histoire-u04",
       "titre": "La guerre froide (1947-1991)",
       "ordre": 4,
       "fichier": "partage/histoire/unite-04.json",
-      "prerequis": [
-        "hist-u2"
-      ]
+      "prerequis": []
     },
     {
-      "id": "hist-u5",
+      "id": "histoire-u05",
       "titre": "La décolonisation de l'Afrique",
       "ordre": 5,
       "fichier": "partage/histoire/unite-05.json",
-      "prerequis": [
-        "hist-u2"
-      ]
+      "prerequis": []
     },
     {
-      "id": "hist-u6",
-      "titre": "L'OUA et l'Union Africaine",
+      "id": "histoire-rev06",
+      "titre": "Révision : leçons 3 et 4",
       "ordre": 6,
       "fichier": "partage/histoire/unite-06.json",
-      "prerequis": [
-        "hist-u5"
-      ]
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "histoire-u07",
+      "titre": "L'OUA et l'Union Africaine",
+      "ordre": 7,
+      "fichier": "partage/histoire/unite-07.json",
+      "prerequis": []
+    },
+    {
+      "id": "histoire-rev08",
+      "titre": "Révision finale",
+      "ordre": 8,
+      "fichier": "partage/histoire/unite-08.json",
+      "prerequis": [],
+      "estRevision": true
     }
   ]
 }

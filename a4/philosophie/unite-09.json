@@ -196,5 +196,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "La liberté (cours)",
+      "url": "https://youtu.be/Ep8xl0jN-qM",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "La liberté - Terminale",
+      "url": "https://youtu.be/wpkLV9dc4Cg",
+      "type": "video",
+      "chaine": "Apprendre la philosophie",
+      "auteur": "Apprendre la philosophie"
+    }
   ]
 }
