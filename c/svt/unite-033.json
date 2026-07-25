@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u033",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "De la fécondation à la naissance (3/3)",
+  "ordre": 33,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "De la fécondation à la naissance",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u033-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u033-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Progestérone",
+          "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Durée de grossesse",
+          "verso": "environ 9 mois ; se termine par l'accouchement",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Contraception hormonale",
+          "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u033-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u033-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Progestérone ?",
+          "options": [
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "l'ADN (acide désoxyribonucléique)"
+          ],
+          "reponse": 2,
+          "explication": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Durée de grossesse ?",
+          "options": [
+            "moelle épinière + encéphale",
+            "maturation et sécrétion des substances",
+            "environ 9 mois ; se termine par l'accouchement",
+            "croisement avec le double récessif pour révéler le génotype"
+          ],
+          "reponse": 2,
+          "explication": "environ 9 mois ; se termine par l'accouchement"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Contraception hormonale ?",
+          "options": [
+            "double hélice (Watson et Crick)",
+            "la pilule bloque l'ovulation (inhibition FSH/LH)",
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+            "cellules β ; hypoglycémiante (fait baisser la glycémie)"
+          ],
+          "reponse": 1,
+          "explication": "la pilule bloque l'ovulation (inhibition FSH/LH)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Progestérone",
+      "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines"
+    },
+    {
+      "recto": "Durée de grossesse",
+      "verso": "environ 9 mois ; se termine par l'accouchement"
+    },
+    {
+      "recto": "Contraception hormonale",
+      "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Progestérone",
+      "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Durée de grossesse",
+      "verso": "environ 9 mois ; se termine par l'accouchement",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Contraception hormonale",
+      "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

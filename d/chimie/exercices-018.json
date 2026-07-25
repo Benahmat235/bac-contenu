@@ -1,0 +1,333 @@
+{
+  "id": "chimie-d-e018",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Les réactions acido-basiques — Exercices",
+  "ordre": 18,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les réactions acido-basiques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-d-e018-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-e018-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Exploiter l'équivalence d'un dosage :",
+          "etapes": [
+            "Repérer le volume à l'équivalence Vb",
+            "Écrire Ca·Va = Cb·Vb",
+            "Isoler l'inconnue",
+            "Calculer"
+          ],
+          "ordreCorrect": [
+            "Repérer le volume à l'équivalence Vb",
+            "Écrire Ca·Va = Cb·Vb",
+            "Isoler l'inconnue",
+            "Calculer"
+          ],
+          "explication": "À l'équivalence, les quantités sont stœchiométriques."
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-e018-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-e018-c",
+      "activites": [
+        {
+          "id": "chi-d-rab-ex01",
+          "enonce": "Écrire la réaction entre un acide fort (HCl) et une base forte (NaOH).",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Réaction : H₃O⁺ + OH⁻ → 2 H₂O",
+            "(réaction totale)"
+          ],
+          "reponseFinale": "H₃O⁺ + OH⁻ → 2 H₂O",
+          "competenceId": "chi-d-rab-c-reaction"
+        },
+        {
+          "id": "chi-d-rab-ex02",
+          "enonce": "À l'équivalence d'un dosage acide fort / base forte, le pH vaut :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Les quantités sont stœchiométriques",
+            "pH = 7 (produit neutre)"
+          ],
+          "reponseFinale": "pH = 7",
+          "competenceId": "chi-d-rab-c-dosage"
+        },
+        {
+          "id": "chi-d-rab-ex03",
+          "enonce": "À l'équivalence acide faible / base forte, le pH est :",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "Le produit est une base faible (A⁻)",
+            "pH > 7 (basique)"
+          ],
+          "reponseFinale": "pH > 7",
+          "competenceId": "chi-d-rab-c-dosage"
+        },
+        {
+          "id": "chi-d-rab-ex04",
+          "enonce": "À l'équivalence d'un dosage, la relation est :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "n(acide) = n(base) : Ca·Va = Cb·Vb"
+          ],
+          "reponseFinale": "Ca·Va = Cb·Vb",
+          "competenceId": "chi-d-rab-c-dosage"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-e018-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chimie-d-e018-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Cb=0,1 ; Vb=10 mL pour Va=20 mL. Ca =",
+          "options": [
+            "0,05 mol/L",
+            "0,2 mol/L",
+            "0,1 mol/L",
+            "2 mol/L"
+          ],
+          "reponse": 0,
+          "explication": "Ca=0,1×10/20=0,05."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-d-rab-ex01",
+      "enonce": "Écrire la réaction entre un acide fort (HCl) et une base forte (NaOH).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Réaction : H₃O⁺ + OH⁻ → 2 H₂O",
+        "(réaction totale)"
+      ],
+      "reponseFinale": "H₃O⁺ + OH⁻ → 2 H₂O",
+      "competenceId": "chi-d-rab-c-reaction"
+    },
+    {
+      "id": "chi-d-rab-ex02",
+      "enonce": "À l'équivalence d'un dosage acide fort / base forte, le pH vaut :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les quantités sont stœchiométriques",
+        "pH = 7 (produit neutre)"
+      ],
+      "reponseFinale": "pH = 7",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex03",
+      "enonce": "À l'équivalence acide faible / base forte, le pH est :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Le produit est une base faible (A⁻)",
+        "pH > 7 (basique)"
+      ],
+      "reponseFinale": "pH > 7",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex04",
+      "enonce": "À l'équivalence d'un dosage, la relation est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "n(acide) = n(base) : Ca·Va = Cb·Vb"
+      ],
+      "reponseFinale": "Ca·Va = Cb·Vb",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex05",
+      "enonce": "Dosage : à l'équivalence, Cb = 0.1 mol/L, Vb = 10 mL versés pour Va = 20 mL d'acide. Ca ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "À l'équivalence : Ca·Va = Cb·Vb",
+        "Ca = Cb·Vb/Va = 0.1×10/20"
+      ],
+      "reponseFinale": "Ca = 0.05 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex06",
+      "enonce": "Dosage : à l'équivalence, Cb = 0.2 mol/L, Vb = 15 mL versés pour Va = 30 mL d'acide. Ca ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "À l'équivalence : Ca·Va = Cb·Vb",
+        "Ca = Cb·Vb/Va = 0.2×15/30"
+      ],
+      "reponseFinale": "Ca = 0.1 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex07",
+      "enonce": "Dosage : à l'équivalence, Cb = 0.05 mol/L, Vb = 25 mL versés pour Va = 10 mL d'acide. Ca ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "À l'équivalence : Ca·Va = Cb·Vb",
+        "Ca = Cb·Vb/Va = 0.05×25/10"
+      ],
+      "reponseFinale": "Ca = 0.125 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex08",
+      "enonce": "Dosage : Ca = 0.1 mol/L, Va = 20 mL, base Cb = 0.1 mol/L. Volume Vb à l'équivalence ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Ca·Va = Cb·Vb ⇒ Vb = Ca·Va/Cb",
+        "Vb = 0.1×20/0.1"
+      ],
+      "reponseFinale": "Vb = 20 mL",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex09",
+      "enonce": "Dosage : Ca = 0.05 mol/L, Va = 10 mL, base Cb = 0.1 mol/L. Volume Vb à l'équivalence ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Ca·Va = Cb·Vb ⇒ Vb = Ca·Va/Cb",
+        "Vb = 0.05×10/0.1"
+      ],
+      "reponseFinale": "Vb = 5 mL",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex10",
+      "enonce": "Une réaction acido-basique est un transfert de :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "protons H⁺ (H₃O⁺)"
+      ],
+      "reponseFinale": "protons (H⁺)",
+      "competenceId": "chi-d-rab-c-reaction"
+    },
+    {
+      "id": "chi-d-rab-ex11",
+      "enonce": "Selon Brønsted, un acide est une espèce capable de :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "céder un proton H⁺"
+      ],
+      "reponseFinale": "céder un proton H⁺",
+      "competenceId": "chi-d-rab-c-reaction"
+    },
+    {
+      "id": "chi-d-rab-ex12",
+      "enonce": "Selon Brønsted, une base est une espèce capable de :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "capter un proton H⁺"
+      ],
+      "reponseFinale": "capter un proton H⁺",
+      "competenceId": "chi-d-rab-c-reaction"
+    },
+    {
+      "id": "chi-d-rab-ex13",
+      "enonce": "Le point d'équivalence d'un dosage est repéré par :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "un indicateur coloré ou un saut de pH"
+      ],
+      "reponseFinale": "un saut de pH (ou indicateur)",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex14",
+      "enonce": "Une réaction acide fort / base forte est :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "totale (quasi complète)"
+      ],
+      "reponseFinale": "totale",
+      "competenceId": "chi-d-rab-c-reaction"
+    },
+    {
+      "id": "chi-d-rab-ex15",
+      "enonce": "Équivalence : Cb=0.1, Vb=12 mL, Va=24 mL. Ca ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ca=Cb·Vb/Va"
+      ],
+      "reponseFinale": "Ca = 0.05 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex16",
+      "enonce": "Équivalence : Cb=0.15, Vb=20 mL, Va=15 mL. Ca ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ca=Cb·Vb/Va"
+      ],
+      "reponseFinale": "Ca = 0.2 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex17",
+      "enonce": "Équivalence : Cb=0.2, Vb=25 mL, Va=50 mL. Ca ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ca=Cb·Vb/Va"
+      ],
+      "reponseFinale": "Ca = 0.1 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex18",
+      "enonce": "Équivalence : Cb=0.05, Vb=40 mL, Va=20 mL. Ca ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Ca=Cb·Vb/Va"
+      ],
+      "reponseFinale": "Ca = 0.1 mol/L",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex19",
+      "enonce": "Un indicateur coloré est bien choisi si sa zone de virage :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "contient le pH à l'équivalence"
+      ],
+      "reponseFinale": "encadre le pH d'équivalence",
+      "competenceId": "chi-d-rab-c-dosage"
+    },
+    {
+      "id": "chi-d-rab-ex20",
+      "enonce": "Le couple de l'eau agissant comme acide est :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "H₂O / OH⁻ (l'eau cède un H⁺)"
+      ],
+      "reponseFinale": "H₂O / OH⁻",
+      "competenceId": "chi-d-rab-c-reaction"
+    }
+  ],
+  "estExercices": true
+}

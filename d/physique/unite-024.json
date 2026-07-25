@@ -1,0 +1,127 @@
+{
+  "id": "physique-d-u024",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Les circuits oscillants (2/2)",
+  "ordre": 24,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les circuits oscillants",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u024-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u024-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Énergie d'un condensateur",
+          "verso": "E = ½·C·u²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Tension d'auto-induction",
+          "verso": "e = −L·(di/dt)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Charge d'un condensateur",
+          "verso": "q = C·u",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u024-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u024-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Énergie d'un condensateur ?",
+          "options": [
+            "E = ½·C·u²",
+            "f₀ = 1/(2π·√(L·C))",
+            "Ep = m·g·h",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+          ],
+          "reponse": 0,
+          "explication": "E = ½·C·u²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Tension d'auto-induction ?",
+          "options": [
+            "F = |q|·v·B·sin(α)",
+            "x = v₀·t ; y = ½·g·t²",
+            "f₀ = 1/(2π·√(L·C))",
+            "e = −L·(di/dt)"
+          ],
+          "reponse": 3,
+          "explication": "e = −L·(di/dt)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Charge d'un condensateur ?",
+          "options": [
+            "le courant induit s'oppose à la variation de flux",
+            "P = R·I² = U·I·cos(φ)",
+            "q = C·u",
+            "T₀ = 2π·√(L·C)"
+          ],
+          "reponse": 2,
+          "explication": "q = C·u"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Énergie d'un condensateur",
+      "verso": "E = ½·C·u²"
+    },
+    {
+      "recto": "Tension d'auto-induction",
+      "verso": "e = −L·(di/dt)"
+    },
+    {
+      "recto": "Charge d'un condensateur",
+      "verso": "q = C·u"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Énergie d'un condensateur",
+      "verso": "E = ½·C·u²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Tension d'auto-induction",
+      "verso": "e = −L·(di/dt)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Charge d'un condensateur",
+      "verso": "q = C·u",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

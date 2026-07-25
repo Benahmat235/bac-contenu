@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r019",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r019-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un quotient ?",
+          "options": [
+            "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+            "P(A)=Card(A)/Card(Ω)",
+            "ln(a/b) = ln a − ln b",
+            "S = (nb de termes)×(1er + dernier)/2"
+          ],
+          "reponse": 2,
+          "explication": "ln(a/b) = ln a − ln b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une composée ?",
+          "options": [
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "∫ₐᵇ f(x) dx = F(b) − F(a)",
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+            "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+          ],
+          "reponse": 0,
+          "explication": "(g∘f)'(x) = f'(x)·g'(f(x))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de 1/x ?",
+          "options": [
+            "si lim f = l (réel) en ±∞, alors y = l",
+            "−1/x²",
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+            "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg"
+          ],
+          "reponse": 1,
+          "explication": "−1/x²"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

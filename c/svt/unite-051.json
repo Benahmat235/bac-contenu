@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u051",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La communication nerveuse (2/3)",
+  "ordre": 51,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication nerveuse",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u051-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u051-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Le neurone",
+          "verso": "cellule différenciée qui ne se divise plus (perte irréparable)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gaine de myéline",
+          "verso": "isolant électrique qui accélère la conduction",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nœuds de Ranvier",
+          "verso": "étranglements réguliers de la gaine de myéline",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u051-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u051-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Le neurone ?",
+          "options": [
+            "premières divisions du zygote",
+            "A et B codominants, dominent O (récessif)",
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "cellules β ; hypoglycémiante (fait baisser la glycémie)"
+          ],
+          "reponse": 2,
+          "explication": "cellule différenciée qui ne se divise plus (perte irréparable)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Gaine de myéline ?",
+          "options": [
+            "l'ADN (acide désoxyribonucléique)",
+            "isolant électrique qui accélère la conduction",
+            "taux de glucose sanguin ≈ 1 g/L",
+            "A et B codominants, dominent O (récessif)"
+          ],
+          "reponse": 1,
+          "explication": "isolant électrique qui accélère la conduction"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nœuds de Ranvier ?",
+          "options": [
+            "étranglements réguliers de la gaine de myéline",
+            "double hélice (Watson et Crick)",
+            "libération de glucose à partir du glycogène (foie)",
+            "membrane plasmique, cytoplasme, noyau"
+          ],
+          "reponse": 0,
+          "explication": "étranglements réguliers de la gaine de myéline"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Le neurone",
+      "verso": "cellule différenciée qui ne se divise plus (perte irréparable)"
+    },
+    {
+      "recto": "Gaine de myéline",
+      "verso": "isolant électrique qui accélère la conduction"
+    },
+    {
+      "recto": "Nœuds de Ranvier",
+      "verso": "étranglements réguliers de la gaine de myéline"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Le neurone",
+      "verso": "cellule différenciée qui ne se divise plus (perte irréparable)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Gaine de myéline",
+      "verso": "isolant électrique qui accélère la conduction",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Nœuds de Ranvier",
+      "verso": "étranglements réguliers de la gaine de myéline",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

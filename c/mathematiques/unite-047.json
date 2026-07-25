@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-c-u047",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dénombrement et probabilités (3/3)",
+  "ordre": 47,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dénombrement et probabilités",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u047-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u047-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Loi binomiale et moments",
+          "verso": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Espérance d'une variable discrète",
+          "verso": "E(X)=ΣxᵢP(X=xᵢ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Variance et écart-type",
+          "verso": "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction de répartition",
+          "verso": "F(x)=P(X≤x)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u047-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u047-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Loi binomiale et moments ?",
+          "options": [
+            "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+            "u'/u",
+            "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
+            "factoriser, ou multiplier par l'expression conjuguée"
+          ],
+          "reponse": 0,
+          "explication": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Espérance d'une variable discrète ?",
+          "options": [
+            "transformation qui conserve les distances",
+            "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0",
+            "E(X)=ΣxᵢP(X=xᵢ)"
+          ],
+          "reponse": 3,
+          "explication": "E(X)=ΣxᵢP(X=xᵢ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Variance et écart-type ?",
+          "options": [
+            "(uⁿ)' = n·u'·uⁿ⁻¹",
+            "ln|u| + c",
+            "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+            "eᵘ + c"
+          ],
+          "reponse": 2,
+          "explication": "V(X)=E(X²)−E(X)² et σ(X)=√V(X)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Loi binomiale et moments",
+      "verso": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)"
+    },
+    {
+      "recto": "Espérance d'une variable discrète",
+      "verso": "E(X)=ΣxᵢP(X=xᵢ)"
+    },
+    {
+      "recto": "Variance et écart-type",
+      "verso": "V(X)=E(X²)−E(X)² et σ(X)=√V(X)"
+    },
+    {
+      "recto": "Fonction de répartition",
+      "verso": "F(x)=P(X≤x)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Loi binomiale et moments",
+      "verso": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Espérance d'une variable discrète",
+      "verso": "E(X)=ΣxᵢP(X=xᵢ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Variance et écart-type",
+      "verso": "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fonction de répartition",
+      "verso": "F(x)=P(X≤x)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

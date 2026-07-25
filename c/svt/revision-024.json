@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r024",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 24,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r024-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r024-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Caryotype ?",
+          "options": [
+            "ensemble classé des chromosomes d'une cellule",
+            "équationnelle (conserve n)",
+            "étranglements réguliers de la gaine de myéline",
+            "l'ampoule de la trompe"
+          ],
+          "reponse": 0,
+          "explication": "ensemble classé des chromosomes d'une cellule"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nombre de codons ?",
+          "options": [
+            "apporte les acides aminés et porte l'anticodon",
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "siège de la synthèse des protéines",
+            "4³ = 64 codons"
+          ],
+          "reponse": 3,
+          "explication": "4³ = 64 codons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Structure de l'ADN ?",
+          "options": [
+            "parentaux majoritaires + recombinés minoritaires",
+            "double hélice (Watson et Crick)",
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)"
+          ],
+          "reponse": 1,
+          "explication": "double hélice (Watson et Crick)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

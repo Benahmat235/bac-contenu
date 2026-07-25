@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u028",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Amines et amides (2/2)",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Amines et amides",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u028-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u028-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Groupe des amides",
+          "verso": "−CO−NH− (liaison amide)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Formation d'un amide",
+          "verso": "acide carboxylique + amine → amide + eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ion ammonium",
+          "verso": "amine + H⁺ → R−NH₃⁺",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u028-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe des amides ?",
+          "options": [
+            "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+            "pH = −log[H₃O⁺]",
+            "celui dont le pKa est le plus petit",
+            "−CO−NH− (liaison amide)"
+          ],
+          "reponse": 3,
+          "explication": "−CO−NH− (liaison amide)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Formation d'un amide ?",
+          "options": [
+            "images miroir non superposables (molécule chirale)",
+            "acide carboxylique + amine → amide + eau",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "visualise les conformations autour d'une liaison C–C"
+          ],
+          "reponse": 1,
+          "explication": "acide carboxylique + amine → amide + eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ion ammonium ?",
+          "options": [
+            "amine + H⁺ → R−NH₃⁺",
+            "pH = −log[H₃O⁺]",
+            "−CO−NH− (liaison amide)",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]"
+          ],
+          "reponse": 0,
+          "explication": "amine + H⁺ → R−NH₃⁺"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Groupe des amides",
+      "verso": "−CO−NH− (liaison amide)"
+    },
+    {
+      "recto": "Formation d'un amide",
+      "verso": "acide carboxylique + amine → amide + eau"
+    },
+    {
+      "recto": "Ion ammonium",
+      "verso": "amine + H⁺ → R−NH₃⁺"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Groupe des amides",
+      "verso": "−CO−NH− (liaison amide)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Formation d'un amide",
+      "verso": "acide carboxylique + amine → amide + eau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Ion ammonium",
+      "verso": "amine + H⁺ → R−NH₃⁺",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

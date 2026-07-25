@@ -1,0 +1,67 @@
+{
+  "id": "physique-c-r005",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-r005-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-r005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Vitesse en MRUV ?",
+          "options": [
+            "W₀ = h·ν₀",
+            "ω₀ = 1/√(L·C)",
+            "v = v₀ + a·t",
+            "v² − v₀² = 2·a·(x − x₀)"
+          ],
+          "reponse": 2,
+          "explication": "v = v₀ + a·t"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force électrique ?",
+          "options": [
+            "x = x₀ + v₀·t + ½·a·t²",
+            "E = ½·C·u²",
+            "F = q·E",
+            "h = 6,63×10⁻³⁴ J·s"
+          ],
+          "reponse": 2,
+          "explication": "F = q·E"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation et période ?",
+          "options": [
+            "e = −L·(di/dt)",
+            "ω = 2π/T = 2π·N",
+            "E = U/d",
+            "x = v₀·t ; y = ½·g·t²"
+          ],
+          "reponse": 1,
+          "explication": "ω = 2π/T = 2π·N"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

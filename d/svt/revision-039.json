@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r039",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 39,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r039-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r039-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Fonctions de l'ovaire ?",
+          "options": [
+            "produire les ovules et sécréter les hormones ovariennes",
+            "A et B codominants, dominent O (récessif)",
+            "portés par le même chromosome, transmis ensemble",
+            "endocrine → sang ; exocrine → canal excréteur"
+          ],
+          "reponse": 0,
+          "explication": "produire les ovules et sécréter les hormones ovariennes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "HCG ?",
+          "options": [
+            "1/4 : 2/4 : 1/4",
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "unité fonctionnelle du système nerveux",
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune"
+          ],
+          "reponse": 3,
+          "explication": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Durée du cycle sexuel ?",
+          "options": [
+            "transmission d'un seul caractère (un couple d'allèles)",
+            "sécrétion de testostérone (cellules de Leydig)",
+            "étranglements réguliers de la gaine de myéline",
+            "28 jours en moyenne ; ovulation vers le 14e jour"
+          ],
+          "reponse": 3,
+          "explication": "28 jours en moyenne ; ovulation vers le 14e jour"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

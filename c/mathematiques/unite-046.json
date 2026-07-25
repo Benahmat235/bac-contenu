@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-c-u046",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dénombrement et probabilités (2/3)",
+  "ordre": 46,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dénombrement et probabilités",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u046-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u046-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Équiprobabilité",
+          "verso": "P(A)=Card(A)/Card(Ω)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réunion",
+          "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Probabilité conditionnelle",
+          "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Indépendance",
+          "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u046-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u046-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Équiprobabilité ?",
+          "options": [
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "PGCD(a;b) × PPCM(a;b) = a × b",
+            "P(A)=Card(A)/Card(Ω)",
+            "uₙ = u₀ + n·r"
+          ],
+          "reponse": 2,
+          "explication": "P(A)=Card(A)/Card(Ω)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réunion ?",
+          "options": [
+            "P(A∪B)=P(A)+P(B)−P(A∩B)",
+            "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+            "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+            "composée = translation"
+          ],
+          "reponse": 0,
+          "explication": "P(A∪B)=P(A)+P(B)−P(A∩B)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Probabilité conditionnelle ?",
+          "options": [
+            "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+            "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+            "eᵃ/eᵇ = eᵃ⁻ᵇ",
+            "y = f'(x₀)(x − x₀) + f(x₀)"
+          ],
+          "reponse": 1,
+          "explication": "P(B|A)=P(A∩B)/P(A), si P(A)>0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Équiprobabilité",
+      "verso": "P(A)=Card(A)/Card(Ω)"
+    },
+    {
+      "recto": "Réunion",
+      "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)"
+    },
+    {
+      "recto": "Probabilité conditionnelle",
+      "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0"
+    },
+    {
+      "recto": "Indépendance",
+      "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Équiprobabilité",
+      "verso": "P(A)=Card(A)/Card(Ω)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réunion",
+      "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Probabilité conditionnelle",
+      "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Indépendance",
+      "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r045",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 45,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r045-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r045-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Croisement-test (backcross) ?",
+          "options": [
+            "étranglements réguliers de la gaine de myéline",
+            "ovaire + style + stigmate",
+            "croisement avec le double récessif pour révéler le génotype",
+            "A et B codominants, dominent O (récessif)"
+          ],
+          "reponse": 2,
+          "explication": "croisement avec le double récessif pour révéler le génotype"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Traduction ?",
+          "options": [
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+            "isolant électrique qui accélère la conduction",
+            "une des versions possibles d'un gène",
+            "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+          ],
+          "reponse": 3,
+          "explication": "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "HCG ?",
+          "options": [
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+            "corps cellulaire + dendrites + axone",
+            "transmission de deux caractères (deux couples d'allèles)",
+            "stockage du glucose en glycogène (foie, muscles)"
+          ],
+          "reponse": 0,
+          "explication": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

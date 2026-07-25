@@ -1,0 +1,143 @@
+{
+  "id": "physique-c-u002",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Cinématique (2/2)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Cinématique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Pulsation et période",
+          "verso": "ω = 2π/T = 2π·N",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vitesse linéaire (circulaire)",
+          "verso": "v = R·ω",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération normale",
+          "verso": "aₙ = v²/R = ω²·R",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération",
+          "verso": "a = Δv/Δt",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Pulsation et période ?",
+          "options": [
+            "F = G·M·m/d²",
+            "a = F/m (constante)",
+            "ω = 2π/T = 2π·N",
+            "T₀ = 2π·√(L·C)"
+          ],
+          "reponse": 2,
+          "explication": "ω = 2π/T = 2π·N"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse linéaire (circulaire) ?",
+          "options": [
+            "Ec = ½·m·v²",
+            "v = R·ω",
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "F = q·E"
+          ],
+          "reponse": 1,
+          "explication": "v = R·ω"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Accélération normale ?",
+          "options": [
+            "aₙ = v²/R = ω²·R",
+            "g_h = G·M/(R+h)²",
+            "ω₀ = 1/√(L·C)",
+            "N = N₀ / 2ⁿ"
+          ],
+          "reponse": 0,
+          "explication": "aₙ = v²/R = ω²·R"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Pulsation et période",
+      "verso": "ω = 2π/T = 2π·N"
+    },
+    {
+      "recto": "Vitesse linéaire (circulaire)",
+      "verso": "v = R·ω"
+    },
+    {
+      "recto": "Accélération normale",
+      "verso": "aₙ = v²/R = ω²·R"
+    },
+    {
+      "recto": "Accélération",
+      "verso": "a = Δv/Δt"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Pulsation et période",
+      "verso": "ω = 2π/T = 2π·N",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vitesse linéaire (circulaire)",
+      "verso": "v = R·ω",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération normale",
+      "verso": "aₙ = v²/R = ω²·R",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération",
+      "verso": "a = Δv/Δt",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

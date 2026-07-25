@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r029",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r029-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Chloroplaste ?",
+          "options": [
+            "premières divisions du zygote",
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "produire les ovules et sécréter les hormones ovariennes",
+            "portion d'ADN responsable d'un caractère héréditaire"
+          ],
+          "reponse": 1,
+          "explication": "réalise la photosynthèse (cellule végétale uniquement)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cytoplasme ?",
+          "options": [
+            "l'ampoule de la trompe",
+            "AUG (méthionine)",
+            "hyaloplasme (fluide) + organites (partie solide)",
+            "maintiennent constant le nombre de chromosomes de l'espèce"
+          ],
+          "reponse": 2,
+          "explication": "hyaloplasme (fluide) + organites (partie solide)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Brassage interchromosomique ?",
+          "options": [
+            "unité fonctionnelle du système nerveux",
+            "A–T et G–C",
+            "AUG (méthionine)",
+            "dû à la répartition au hasard des chromosomes (métaphase I)"
+          ],
+          "reponse": 3,
+          "explication": "dû à la répartition au hasard des chromosomes (métaphase I)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

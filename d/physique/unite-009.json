@@ -1,0 +1,127 @@
+{
+  "id": "physique-d-u009",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Interaction gravitationnelle et satellites (2/2)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Interaction gravitationnelle et satellites",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u009-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Satellite géostationnaire",
+          "verso": "période T = 24 h, au-dessus de l'équateur",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force centripète (gravitation)",
+          "verso": "F = G·M·m/r² = m·v²/r",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante de gravitation",
+          "verso": "G = 6,67×10⁻¹¹ SI",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Satellite géostationnaire ?",
+          "options": [
+            "ΔEc = ΣW(forces)",
+            "G = 6,67×10⁻¹¹ SI",
+            "E = ½·L·i²",
+            "période T = 24 h, au-dessus de l'équateur"
+          ],
+          "reponse": 3,
+          "explication": "période T = 24 h, au-dessus de l'équateur"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force centripète (gravitation) ?",
+          "options": [
+            "F = G·M·m/r² = m·v²/r",
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+            "E = ½·C·u²",
+            "P = m·g"
+          ],
+          "reponse": 0,
+          "explication": "F = G·M·m/r² = m·v²/r"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante de gravitation ?",
+          "options": [
+            "G = 6,67×10⁻¹¹ SI",
+            "F = |q|·v·B·sin(α)",
+            "v = R·ω",
+            "Φ = B·S·cos(α)"
+          ],
+          "reponse": 0,
+          "explication": "G = 6,67×10⁻¹¹ SI"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Satellite géostationnaire",
+      "verso": "période T = 24 h, au-dessus de l'équateur"
+    },
+    {
+      "recto": "Force centripète (gravitation)",
+      "verso": "F = G·M·m/r² = m·v²/r"
+    },
+    {
+      "recto": "Constante de gravitation",
+      "verso": "G = 6,67×10⁻¹¹ SI"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Satellite géostationnaire",
+      "verso": "période T = 24 h, au-dessus de l'équateur",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force centripète (gravitation)",
+      "verso": "F = G·M·m/r² = m·v²/r",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Constante de gravitation",
+      "verso": "G = 6,67×10⁻¹¹ SI",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

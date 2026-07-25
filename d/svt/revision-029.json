@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r029",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r029-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Épissage ?",
+          "options": [
+            "libération d'un neurotransmetteur (médiateur chimique)",
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+            "élimine les introns et réunit les exons",
+            "corps cellulaire + dendrites + axone"
+          ],
+          "reponse": 2,
+          "explication": "élimine les introns et réunit les exons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Caryotype ?",
+          "options": [
+            "maturation et sécrétion des substances",
+            "gène porté par un chromosome sexuel (souvent X)",
+            "étamines (androcée) et carpelles (gynécée)",
+            "ensemble classé des chromosomes d'une cellule"
+          ],
+          "reponse": 3,
+          "explication": "ensemble classé des chromosomes d'une cellule"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codon ?",
+          "options": [
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "réductionnelle (2n → n)",
+            "produire les ovules et sécréter les hormones ovariennes",
+            "étranglements réguliers de la gaine de myéline"
+          ],
+          "reponse": 0,
+          "explication": "séquence de 3 nucléotides de l'ARNm codant un acide aminé"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

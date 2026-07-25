@@ -1,0 +1,363 @@
+{
+  "id": "mathematiques-c-e033",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dérivations et étude de fonctions — Exercices",
+  "ordre": 33,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dérivations et étude de fonctions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-c-e033-methode",
+      "titre": "La méthode d'étude d'une fonction",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-e033-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Ordre d'une étude complète de fonction :",
+          "etapes": [
+            "Déterminer l'ensemble de définition",
+            "Calculer les limites aux bornes",
+            "Calculer la dérivée et étudier son signe",
+            "Dresser le tableau de variations",
+            "Déterminer asymptotes et tangentes, puis tracer"
+          ],
+          "ordreCorrect": [
+            "Déterminer l'ensemble de définition",
+            "Calculer les limites aux bornes",
+            "Calculer la dérivée et étudier son signe",
+            "Dresser le tableau de variations",
+            "Déterminer asymptotes et tangentes, puis tracer"
+          ],
+          "explication": "Du domaine au tracé."
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-e033-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-e033-c",
+      "activites": [
+        {
+          "id": "math-c-der-ex01",
+          "enonce": "Calculer la dérivée de f(x) = x³ − 2x² + 5x − 1",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 3x² − 4x + 5"
+          ],
+          "reponseFinale": "f'(x) = 3x² − 4x + 5",
+          "competenceId": "math-c-c-derivee"
+        },
+        {
+          "id": "math-c-der-ex02",
+          "enonce": "Calculer la dérivée de f(x) = 2x³ − 3x² + 1",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 6x² − 6x"
+          ],
+          "reponseFinale": "f'(x) = 6x² − 6x",
+          "competenceId": "math-c-c-derivee"
+        },
+        {
+          "id": "math-c-der-ex03",
+          "enonce": "Calculer la dérivée de f(x) = x⁴ − 4x² + 3x",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 4x³ − 8x + 3"
+          ],
+          "reponseFinale": "f'(x) = 4x³ − 8x + 3",
+          "competenceId": "math-c-c-derivee"
+        },
+        {
+          "id": "math-c-der-ex04",
+          "enonce": "Calculer la dérivée de f(x) = 3x² − 6x + 2",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+            "f'(x) = 6x − 6"
+          ],
+          "reponseFinale": "f'(x) = 6x − 6",
+          "competenceId": "math-c-c-derivee"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-e033-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "mathematiques-c-e033-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Tangente à f(x)=x²−3x+2 en x₀=3 :",
+          "options": [
+            "y = 3x − 7",
+            "y = −3x+5",
+            "y = 2x−5",
+            "y = x+1"
+          ],
+          "reponse": 0,
+          "explication": "f'(3)=3, f(3)=2, y=3(x−3)+2=3x−7."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-c-der-ex01",
+      "enonce": "Calculer la dérivée de f(x) = x³ − 2x² + 5x − 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 3x² − 4x + 5"
+      ],
+      "reponseFinale": "f'(x) = 3x² − 4x + 5",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex02",
+      "enonce": "Calculer la dérivée de f(x) = 2x³ − 3x² + 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 6x² − 6x"
+      ],
+      "reponseFinale": "f'(x) = 6x² − 6x",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex03",
+      "enonce": "Calculer la dérivée de f(x) = x⁴ − 4x² + 3x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 4x³ − 8x + 3"
+      ],
+      "reponseFinale": "f'(x) = 4x³ − 8x + 3",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex04",
+      "enonce": "Calculer la dérivée de f(x) = 3x² − 6x + 2",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 6x − 6"
+      ],
+      "reponseFinale": "f'(x) = 6x − 6",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex05",
+      "enonce": "Calculer la dérivée de f(x) = −x³ + 2x² − 5x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = −3x² + 4x − 5"
+      ],
+      "reponseFinale": "f'(x) = −3x² + 4x − 5",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex06",
+      "enonce": "Calculer la dérivée de f(x) = 5x² − x + 7",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 10x − 1"
+      ],
+      "reponseFinale": "f'(x) = 10x − 1",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex07",
+      "enonce": "Calculer la dérivée de f(x) = x⁵ − 2x³ + x",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 5x⁴ − 6x² + 1"
+      ],
+      "reponseFinale": "f'(x) = 5x⁴ − 6x² + 1",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex08",
+      "enonce": "Calculer la dérivée de f(x) = 4x³ − 9x",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "On dérive terme à terme : (xⁿ)' = n·xⁿ⁻¹",
+        "f'(x) = 12x² − 9"
+      ],
+      "reponseFinale": "f'(x) = 12x² − 9",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex09",
+      "enonce": "Équation de la tangente à f(x) = x² − 3x + 2 en x₀ = 3",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 2x − 3",
+        "f'(3) = 3",
+        "f(3) = 2",
+        "y = f'(x₀)(x − x₀) + f(x₀) = 3(x − 3) + 2"
+      ],
+      "reponseFinale": "y = 3x − 7",
+      "competenceId": "math-c-c-tangente"
+    },
+    {
+      "id": "math-c-der-ex10",
+      "enonce": "Équation de la tangente à f(x) = x³ − 3x en x₀ = 1",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "f'(x) = 3x² − 3",
+        "f'(1) = 0",
+        "f(1) = −2",
+        "y = f'(x₀)(x − x₀) + f(x₀) = 0(x − 1) + −2"
+      ],
+      "reponseFinale": "y = −2",
+      "competenceId": "math-c-c-tangente"
+    },
+    {
+      "id": "math-c-der-ex11",
+      "enonce": "Équation de la tangente à f(x) = 2x² − 4x + 1 en x₀ = 0",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 4x − 4",
+        "f'(0) = −4",
+        "f(0) = 1",
+        "y = f'(x₀)(x − x₀) + f(x₀) = −4(x − 0) + 1"
+      ],
+      "reponseFinale": "y = −4x + 1",
+      "competenceId": "math-c-c-tangente"
+    },
+    {
+      "id": "math-c-der-ex12",
+      "enonce": "Équation de la tangente à f(x) = x² − 5x + 6 en x₀ = 2",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "f'(x) = 2x − 5",
+        "f'(2) = −1",
+        "f(2) = 0",
+        "y = f'(x₀)(x − x₀) + f(x₀) = −1(x − 2) + 0"
+      ],
+      "reponseFinale": "y = −x + 2",
+      "competenceId": "math-c-c-tangente"
+    },
+    {
+      "id": "math-c-der-ex13",
+      "enonce": "Équation de la tangente à f(x) = x² + x − 2 en x₀ = 1",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "f'(x) = 2x + 1",
+        "f'(1) = 3",
+        "f(1) = 0",
+        "y = f'(x₀)(x − x₀) + f(x₀) = 3(x − 1) + 0"
+      ],
+      "reponseFinale": "y = 3x − 3",
+      "competenceId": "math-c-c-tangente"
+    },
+    {
+      "id": "math-c-der-ex14",
+      "enonce": "Dériver f(x) = (2x + 1)(x² − 3)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "(uv)' = u'v + uv' avec u = 2x+1, v = x²−3",
+        "u' = 2, v' = 2x",
+        "f'(x) = 2(x²−3) + (2x+1)(2x) = 2x²−6 + 4x²+2x",
+        "f'(x) = 6x² + 2x − 6"
+      ],
+      "reponseFinale": "f'(x) = 6x² + 2x − 6",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex15",
+      "enonce": "Dériver f(x) = (x − 1)/(x + 2)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "(u/v)' = (u'v − uv')/v² avec u = x−1, v = x+2",
+        "u'=1, v'=1",
+        "f'(x) = [(x+2) − (x−1)]/(x+2)² = 3/(x+2)²"
+      ],
+      "reponseFinale": "f'(x) = 3/(x + 2)²",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex16",
+      "enonce": "Dériver f(x) = (x² + 1)³",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "(uⁿ)' = n·u'·uⁿ⁻¹ avec u = x²+1, u' = 2x, n = 3",
+        "f'(x) = 3·2x·(x²+1)² = 6x(x²+1)²"
+      ],
+      "reponseFinale": "f'(x) = 6x(x² + 1)²",
+      "competenceId": "math-c-c-composee"
+    },
+    {
+      "id": "math-c-der-ex17",
+      "enonce": "Dériver f(x) = √(3x + 1)",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "(√u)' = u'/(2√u) avec u = 3x+1, u' = 3",
+        "f'(x) = 3/(2√(3x+1))"
+      ],
+      "reponseFinale": "f'(x) = 3/(2√(3x + 1))",
+      "competenceId": "math-c-c-composee"
+    },
+    {
+      "id": "math-c-der-ex18",
+      "enonce": "Dériver f(x) = cos(x² + 1)",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "[cos(u)]' = −u'·sin(u) avec u = x²+1, u' = 2x",
+        "f'(x) = −2x·sin(x² + 1)"
+      ],
+      "reponseFinale": "f'(x) = −2x sin(x² + 1)",
+      "competenceId": "math-c-c-composee"
+    },
+    {
+      "id": "math-c-der-ex19",
+      "enonce": "Dériver f(x) = (3x − 2)/(x² + 1)",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "(u/v)' = (u'v − uv')/v² avec u = 3x−2, v = x²+1",
+        "u'=3, v'=2x",
+        "f'(x) = [3(x²+1) − (3x−2)(2x)]/(x²+1)²",
+        "= (3x²+3 − 6x²+4x)/(x²+1)² = (−3x²+4x+3)/(x²+1)²"
+      ],
+      "reponseFinale": "f'(x) = (−3x² + 4x + 3)/(x² + 1)²",
+      "competenceId": "math-c-c-derivee"
+    },
+    {
+      "id": "math-c-der-ex20",
+      "enonce": "Dériver f(x) = sin(2x)",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "[sin(u)]' = u'·cos(u) avec u = 2x, u' = 2",
+        "f'(x) = 2cos(2x)"
+      ],
+      "reponseFinale": "f'(x) = 2cos(2x)",
+      "competenceId": "math-c-c-composee"
+    }
+  ],
+  "estExercices": true
+}

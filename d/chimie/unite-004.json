@@ -1,0 +1,143 @@
+{
+  "id": "chimie-d-u004",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Acides forts – bases fortes (1/2)",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acides forts – bases fortes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u004-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u004-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "pH d'un acide fort",
+          "verso": "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pH d'une base forte",
+          "verso": "pH = 14 + log C ([OH⁻] = C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Concentration d'un acide fort",
+          "verso": "C = 10^(−pH)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u004-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "pH d'un acide fort ?",
+          "options": [
+            "pH + pOH = 14 (25 °C)",
+            "pH = 14 + log C ([OH⁻] = C)",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)"
+          ],
+          "reponse": 3,
+          "explication": "pH = −log C (dissociation totale, [H₃O⁺] = C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pH d'une base forte ?",
+          "options": [
+            "pH = 14 + log C ([OH⁻] = C)",
+            "celui dont le pKa est le plus petit",
+            "pH = 7",
+            "pH = 7 : [H₃O⁺] = [OH⁻]"
+          ],
+          "reponse": 0,
+          "explication": "pH = 14 + log C ([OH⁻] = C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'un acide fort ?",
+          "options": [
+            "C = 10^(−pH)",
+            "Ka = 10^(−pKa)",
+            "celui dont le pKa est le plus petit",
+            "acide carboxylique + amine → amide + eau"
+          ],
+          "reponse": 0,
+          "explication": "C = 10^(−pH)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "pH d'un acide fort",
+      "verso": "pH = −log C (dissociation totale, [H₃O⁺] = C)"
+    },
+    {
+      "recto": "pH d'une base forte",
+      "verso": "pH = 14 + log C ([OH⁻] = C)"
+    },
+    {
+      "recto": "Concentration d'un acide fort",
+      "verso": "C = 10^(−pH)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "pH d'un acide fort",
+      "verso": "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "pH d'une base forte",
+      "verso": "pH = 14 + log C ([OH⁻] = C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Concentration d'un acide fort",
+      "verso": "C = 10^(−pH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Acides forts, bases fortes : synthèse de cours (TLES/PC)",
+      "url": "https://youtu.be/WbrPdv92ymE",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Calculer le pH d'un acide fort et d'une base forte",
+      "url": "https://youtu.be/hiyaXlT-YBY",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
+  ]
+}

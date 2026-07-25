@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u032",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "De la fécondation à la naissance (2/3)",
+  "ordre": 32,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "De la fécondation à la naissance",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u032-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u032-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nidation",
+          "verso": "implantation de l'embryon dans l'endomètre utérin",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Placenta",
+          "verso": "assure les échanges entre mère et fœtus",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "HCG",
+          "verso": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u032-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u032-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nidation ?",
+          "options": [
+            "nerfs + ganglions",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "environ 9 mois ; se termine par l'accouchement",
+            "implantation de l'embryon dans l'endomètre utérin"
+          ],
+          "reponse": 3,
+          "explication": "implantation de l'embryon dans l'endomètre utérin"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Placenta ?",
+          "options": [
+            "hyaloplasme (fluide) + organites (partie solide)",
+            "assure les échanges entre mère et fœtus",
+            "transport du pollen vers le stigmate (anémophile/entomophile)",
+            "28 jours en moyenne ; ovulation vers le 14e jour"
+          ],
+          "reponse": 1,
+          "explication": "assure les échanges entre mère et fœtus"
+        },
+        {
+          "type": "choix_unique",
+          "question": "HCG ?",
+          "options": [
+            "portés par le même chromosome, transmis ensemble",
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "une des versions possibles d'un gène"
+          ],
+          "reponse": 1,
+          "explication": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nidation",
+      "verso": "implantation de l'embryon dans l'endomètre utérin"
+    },
+    {
+      "recto": "Placenta",
+      "verso": "assure les échanges entre mère et fœtus"
+    },
+    {
+      "recto": "HCG",
+      "verso": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nidation",
+      "verso": "implantation de l'embryon dans l'endomètre utérin",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Placenta",
+      "verso": "assure les échanges entre mère et fœtus",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "HCG",
+      "verso": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

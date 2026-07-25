@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u012",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Expression de l'information génétique (2/3)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Expression de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nombre de codons",
+          "verso": "4³ = 64 codons",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codon d'initiation",
+          "verso": "AUG (méthionine)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codons-stop",
+          "verso": "UAA, UAG, UGA : arrêtent la traduction",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombre de codons ?",
+          "options": [
+            "ensemble classé des chromosomes d'une cellule",
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+            "4³ = 64 codons",
+            "ségrégation indépendante des caractères (gènes indépendants)"
+          ],
+          "reponse": 2,
+          "explication": "4³ = 64 codons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codon d'initiation ?",
+          "options": [
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "ségrégation indépendante des caractères (gènes indépendants)",
+            "AUG (méthionine)",
+            "premières divisions du zygote"
+          ],
+          "reponse": 2,
+          "explication": "AUG (méthionine)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codons-stop ?",
+          "options": [
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "universel et dégénéré",
+            "uniformité des hybrides de la F1"
+          ],
+          "reponse": 1,
+          "explication": "UAA, UAG, UGA : arrêtent la traduction"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nombre de codons",
+      "verso": "4³ = 64 codons"
+    },
+    {
+      "recto": "Codon d'initiation",
+      "verso": "AUG (méthionine)"
+    },
+    {
+      "recto": "Codons-stop",
+      "verso": "UAA, UAG, UGA : arrêtent la traduction"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nombre de codons",
+      "verso": "4³ = 64 codons",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codon d'initiation",
+      "verso": "AUG (méthionine)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codons-stop",
+      "verso": "UAA, UAG, UGA : arrêtent la traduction",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

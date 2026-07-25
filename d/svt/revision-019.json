@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r019",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r019-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "A–T et G–C",
+            "siège de la synthèse des protéines",
+            "apporte les acides aminés et porte l'anticodon",
+            "génotype = allèles ; phénotype = caractère observé"
+          ],
+          "reponse": 1,
+          "explication": "siège de la synthèse des protéines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réplication de l'ADN ?",
+          "options": [
+            "production des spermatozoïdes (spermatogenèse)",
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "ovule → graine ; ovaire → fruit",
+            "parentaux majoritaires + recombinés minoritaires"
+          ],
+          "reponse": 1,
+          "explication": "duplication semi-conservative (un brin ancien + un brin neuf)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Mitochondrie ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "libération d'un neurotransmetteur (médiateur chimique)",
+            "produire les ovules et sécréter les hormones ovariennes"
+          ],
+          "reponse": 1,
+          "explication": "siège de la respiration cellulaire, produit l'énergie (ATP)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

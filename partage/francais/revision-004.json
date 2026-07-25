@@ -1,0 +1,67 @@
+{
+  "id": "francais-r004",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-r004-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "francais-r004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la forme d'un texte littéraire ?",
+          "options": [
+            "Un bilan du développement, une réponse à la problématique et une ouverture.",
+            "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique.",
+            "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale').",
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+          ],
+          "reponse": 3,
+          "explication": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un thème littéraire ?",
+          "options": [
+            "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur.",
+            "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je ».",
+            "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…).",
+            "Transformer le sujet en une question à laquelle le développement répondra."
+          ],
+          "reponse": 2,
+          "explication": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un registre littéraire ?",
+          "options": [
+            "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens).",
+            "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je ».",
+            "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique.",
+            "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange des deux)."
+          ],
+          "reponse": 2,
+          "explication": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

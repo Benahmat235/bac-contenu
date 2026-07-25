@@ -1,0 +1,110 @@
+{
+  "id": "francais-u011",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Les genres littéraires en détail (3/3)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les genres littéraires en détail",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u011-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une autobiographie ?",
+          "reponseAttendue": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un conte ?",
+          "reponseAttendue": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 3 figures de style avec leur définition.",
+          "reponseAttendue": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal."
+        }
+      ]
+    },
+    {
+      "id": "francais-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'une autobiographie ?",
+          "options": [
+            "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage).",
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme.",
+            "Une accroche, la présentation du sujet, la problématique et l'annonce du plan.",
+            "Respecter l'ordre des idées, reformuler (ne pas recopier), garder l'essentiel, respecter le nombre de mots demandé (±10%"
+          ],
+          "reponse": 0,
+          "explication": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un conte ?",
+          "options": [
+            "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola.",
+            "Un angle d'analyse qui regroupe plusieurs observations sur le texte (ex: 'Le lyrisme du poète', 'La satire sociale').",
+            "Donner son avis argumenté sur une affirmation : d'abord expliquer la thèse, puis la discuter (pour/contre).",
+            "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'."
+          ],
+          "reponse": 3,
+          "explication": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 3 figures de style avec leur définition. ?",
+          "options": [
+            "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un obje",
+            "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas.",
+            "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments).",
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+          ],
+          "reponse": 0,
+          "explication": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce qu'une autobiographie ?",
+      "verso": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un conte ?",
+      "verso": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'."
+    },
+    {
+      "recto": "Citez 3 figures de style avec leur définition.",
+      "verso": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal."
+    }
+  ]
+}

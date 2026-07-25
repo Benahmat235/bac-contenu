@@ -1,0 +1,67 @@
+{
+  "id": "physique-c-r021",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-r021-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-r021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "1ère loi (inertie) ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "ν ≥ ν₀ (ou λ ≤ λ₀)",
+            "T₀ = 2π·√(L·C)"
+          ],
+          "reponse": 1,
+          "explication": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énergie d'un condensateur ?",
+          "options": [
+            "E = ½·C·u²",
+            "f₀ = 1/(2π·√(L·C))",
+            "Ec = ½·m·v²",
+            "A(t) = A₀·e^(−λt)"
+          ],
+          "reponse": 0,
+          "explication": "E = ½·C·u²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énergie d'un condensateur ?",
+          "options": [
+            "g_h = G·M/(R+h)²",
+            "E = ½·C·u²",
+            "v = R·ω",
+            "A(t) = A₀·e^(−λt)"
+          ],
+          "reponse": 1,
+          "explication": "E = ½·C·u²"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

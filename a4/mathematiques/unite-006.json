@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-a4-u006",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Étude de fonction : limites, dérivées et tangentes (2/3)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Étude de fonction : limites, dérivées et tangentes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u006-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dérivée de ln(x)",
+          "verso": "(ln x)' = 1/x",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de eˣ",
+          "verso": "(eˣ)' = eˣ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation de la tangente en x₀",
+          "verso": "y = f'(x₀)(x − x₀) + f(x₀)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de ln(x) ?",
+          "options": [
+            "x₀ = −b / 2a",
+            "(ln x)' = 1/x",
+            "p(Ā) = 1 − p(A)",
+            "(u/v)' = (u'v − uv') / v²"
+          ],
+          "reponse": 1,
+          "explication": "(ln x)' = 1/x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de eˣ ?",
+          "options": [
+            "(xⁿ)' = n·xⁿ⁻¹",
+            "p(A∪B) = p(A) + p(B) − p(A∩B)",
+            "(eˣ)' = eˣ",
+            "Cⁿₚ = n!/((n−p)!·p!)"
+          ],
+          "reponse": 2,
+          "explication": "(eˣ)' = eˣ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Équation de la tangente en x₀ ?",
+          "options": [
+            "x₀ = −b / 2a",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "Aⁿₚ = n!/(n−p)!",
+            "nᵖ"
+          ],
+          "reponse": 1,
+          "explication": "y = f'(x₀)(x − x₀) + f(x₀)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dérivée de ln(x)",
+      "verso": "(ln x)' = 1/x"
+    },
+    {
+      "recto": "Dérivée de eˣ",
+      "verso": "(eˣ)' = eˣ"
+    },
+    {
+      "recto": "Équation de la tangente en x₀",
+      "verso": "y = f'(x₀)(x − x₀) + f(x₀)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dérivée de ln(x)",
+      "verso": "(ln x)' = 1/x",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de eˣ",
+      "verso": "(eˣ)' = eˣ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Équation de la tangente en x₀",
+      "verso": "y = f'(x₀)(x − x₀) + f(x₀)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

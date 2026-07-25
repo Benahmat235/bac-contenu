@@ -1,0 +1,159 @@
+{
+  "id": "chimie-c-u004",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Alcools, polyalcools, aldéhydes et cétones (1/2)",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Alcools, polyalcools, aldéhydes et cétones",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u004-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u004-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Groupe des alcools",
+          "verso": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Groupe des aldéhydes",
+          "verso": "−CHO (carbonyle en bout de chaîne)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Groupe des cétones",
+          "verso": "R−CO−R' (carbonyle entre deux carbones)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Oxydation alcool primaire",
+          "verso": "alcool 1aire → aldéhyde → acide carboxylique",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u004-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe des alcools ?",
+          "options": [
+            "C = 10^(pH−14)",
+            "pH > 7 : [H₃O⁺] < [OH⁻]",
+            "pKa = −log Ka",
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+          ],
+          "reponse": 3,
+          "explication": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des aldéhydes ?",
+          "options": [
+            "même formule brute, fonctions différentes",
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+            "celui dont le pKa est le plus petit",
+            "−CHO (carbonyle en bout de chaîne)"
+          ],
+          "reponse": 3,
+          "explication": "−CHO (carbonyle en bout de chaîne)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des cétones ?",
+          "options": [
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "acide + base forte → carboxylate + eau",
+            "durée pour consommer la moitié du réactif limitant",
+            "réduisent la liqueur de Fehling / le réactif de Tollens"
+          ],
+          "reponse": 0,
+          "explication": "R−CO−R' (carbonyle entre deux carbones)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Groupe des alcools",
+      "verso": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+    },
+    {
+      "recto": "Groupe des aldéhydes",
+      "verso": "−CHO (carbonyle en bout de chaîne)"
+    },
+    {
+      "recto": "Groupe des cétones",
+      "verso": "R−CO−R' (carbonyle entre deux carbones)"
+    },
+    {
+      "recto": "Oxydation alcool primaire",
+      "verso": "alcool 1aire → aldéhyde → acide carboxylique"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Groupe des alcools",
+      "verso": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Groupe des aldéhydes",
+      "verso": "−CHO (carbonyle en bout de chaîne)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Groupe des cétones",
+      "verso": "R−CO−R' (carbonyle entre deux carbones)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Oxydation alcool primaire",
+      "verso": "alcool 1aire → aldéhyde → acide carboxylique",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Aldéhydes et cétones : résumé de cours",
+      "url": "https://youtu.be/5bBgvTWOl8M",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Les alcools",
+      "url": "https://youtu.be/na3-f3SXmqQ",
+      "type": "video",
+      "chaine": "Académie de Sciences",
+      "auteur": "Académie de Sciences"
+    }
+  ]
+}

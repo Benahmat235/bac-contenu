@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u022",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Similitudes (3/3)",
+  "ordre": 22,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Similitudes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u022-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u022-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Écriture d'une similitude indirecte",
+          "verso": "z'=a z̄+b, avec a∈ℂ*",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rapport d'une similitude indirecte",
+          "verso": "k=|a|",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Point fixe",
+          "verso": "Résoudre z'=z",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u022-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u022-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Écriture d'une similitude indirecte ?",
+          "options": [
+            "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+            "eⁱᶿ=cosθ+i sinθ",
+            "k=|a|",
+            "z'=a z̄+b, avec a∈ℂ*"
+          ],
+          "reponse": 3,
+          "explication": "z'=a z̄+b, avec a∈ℂ*"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rapport d'une similitude indirecte ?",
+          "options": [
+            "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+            "(u/v)' = (u'v − uv')/v²",
+            "e⁰ = 1",
+            "k=|a|"
+          ],
+          "reponse": 3,
+          "explication": "k=|a|"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Point fixe ?",
+          "options": [
+            "uₙ = u₀ + n·r",
+            "Résoudre z'=z",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0"
+          ],
+          "reponse": 1,
+          "explication": "Résoudre z'=z"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Écriture d'une similitude indirecte",
+      "verso": "z'=a z̄+b, avec a∈ℂ*"
+    },
+    {
+      "recto": "Rapport d'une similitude indirecte",
+      "verso": "k=|a|"
+    },
+    {
+      "recto": "Point fixe",
+      "verso": "Résoudre z'=z"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Écriture d'une similitude indirecte",
+      "verso": "z'=a z̄+b, avec a∈ℂ*",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rapport d'une similitude indirecte",
+      "verso": "k=|a|",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Point fixe",
+      "verso": "Résoudre z'=z",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r004",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r004-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Les 3 parties d'une cellule ?",
+          "options": [
+            "membrane plasmique, cytoplasme, noyau",
+            "zone de contact entre deux neurones",
+            "corps cellulaire + dendrites + axone",
+            "ovaire + style + stigmate"
+          ],
+          "reponse": 0,
+          "explication": "membrane plasmique, cytoplasme, noyau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "produit des gamètes recombinés (minoritaires)",
+            "double hélice (Watson et Crick)",
+            "A et B codominants, dominent O (récessif)",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 3,
+          "explication": "siège de la synthèse des protéines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cellule ?",
+          "options": [
+            "environ 9 mois ; se termine par l'accouchement",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "unité structurale et fonctionnelle de tout être vivant",
+            "réductionnelle (2n → n)"
+          ],
+          "reponse": 2,
+          "explication": "unité structurale et fonctionnelle de tout être vivant"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

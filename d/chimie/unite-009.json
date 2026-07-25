@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u009",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Couple acide/base (2/2)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Couple acide/base",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u009-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Acide le plus fort",
+          "verso": "celui dont le pKa est le plus petit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Domaine de prédominance",
+          "verso": "forme acide si pH < pKa ; forme basique si pH > pKa",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Couple acide/base",
+          "verso": "AH / A⁻ (l'acide cède un proton H⁺)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Acide le plus fort ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "Ka = 10^(−pKa)",
+            "celui dont le pKa est le plus petit",
+            "capte totalement des protons (ex. NaOH)"
+          ],
+          "reponse": 2,
+          "explication": "celui dont le pKa est le plus petit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "C lié à 4 groupes tous différents (noté C*)",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "pH + pOH = 14 (25 °C)"
+          ],
+          "reponse": 1,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Couple acide/base ?",
+          "options": [
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+            "se dissocie totalement dans l'eau",
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "visualise les conformations autour d'une liaison C–C"
+          ],
+          "reponse": 2,
+          "explication": "AH / A⁻ (l'acide cède un proton H⁺)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Acide le plus fort",
+      "verso": "celui dont le pKa est le plus petit"
+    },
+    {
+      "recto": "Domaine de prédominance",
+      "verso": "forme acide si pH < pKa ; forme basique si pH > pKa"
+    },
+    {
+      "recto": "Couple acide/base",
+      "verso": "AH / A⁻ (l'acide cède un proton H⁺)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Acide le plus fort",
+      "verso": "celui dont le pKa est le plus petit",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Domaine de prédominance",
+      "verso": "forme acide si pH < pKa ; forme basique si pH > pKa",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Couple acide/base",
+      "verso": "AH / A⁻ (l'acide cède un proton H⁺)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

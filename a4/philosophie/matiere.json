@@ -7,124 +7,98 @@
   "description": "Le sujet, l'homme et l'action : notions et méthode de la dissertation.",
   "unites": [
     {
-      "id": "philo-intro",
+      "id": "philosophie-u001",
       "titre": "Qu'est-ce que la philosophie ?",
       "ordre": 1,
-      "fichier": "a4/philosophie/unite-00.json",
+      "fichier": "a4/philosophie/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "philo-u1",
+      "id": "philosophie-u002",
       "titre": "Conscience et inconscient",
       "ordre": 2,
-      "fichier": "a4/philosophie/unite-01.json",
-      "prerequis": [
-        "philo-intro"
-      ]
+      "fichier": "a4/philosophie/unite-002.json",
+      "prerequis": []
     },
     {
-      "id": "philo-u2",
+      "id": "philosophie-u003",
       "titre": "Le langage",
       "ordre": 3,
-      "fichier": "a4/philosophie/unite-02.json",
-      "prerequis": [
-        "philo-u1"
-      ]
+      "fichier": "a4/philosophie/unite-003.json",
+      "prerequis": []
     },
     {
-      "id": "philosophie-rev01",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "philosophie-r004",
+      "titre": "Révision",
       "ordre": 4,
-      "fichier": "a4/philosophie/revision-01.json",
+      "fichier": "a4/philosophie/revision-004.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "philo-u3",
+      "id": "philosophie-u005",
       "titre": "Autrui",
       "ordre": 5,
-      "fichier": "a4/philosophie/unite-03.json",
-      "prerequis": [
-        "philo-u1"
-      ]
+      "fichier": "a4/philosophie/unite-005.json",
+      "prerequis": []
     },
     {
-      "id": "philo-u4",
+      "id": "philosophie-u006",
       "titre": "Nature, culture et civilisation",
       "ordre": 6,
-      "fichier": "a4/philosophie/unite-04.json",
-      "prerequis": [
-        "philo-u1"
-      ]
+      "fichier": "a4/philosophie/unite-006.json",
+      "prerequis": []
     },
     {
-      "id": "philo-u5",
+      "id": "philosophie-u007",
       "titre": "Le travail, la technique et la question sociale",
       "ordre": 7,
-      "fichier": "a4/philosophie/unite-05.json",
-      "prerequis": [
-        "philo-u4"
-      ]
+      "fichier": "a4/philosophie/unite-007.json",
+      "prerequis": []
     },
     {
-      "id": "philosophie-rev02",
-      "titre": "Révision : leçons 4 à 6",
+      "id": "philosophie-r008",
+      "titre": "Révision",
       "ordre": 8,
-      "fichier": "a4/philosophie/revision-02.json",
+      "fichier": "a4/philosophie/revision-008.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "philo-u6",
+      "id": "philosophie-u009",
       "titre": "Les grandes doctrines morales",
       "ordre": 9,
-      "fichier": "a4/philosophie/unite-06.json",
-      "prerequis": [
-        "philo-u5"
-      ]
+      "fichier": "a4/philosophie/unite-009.json",
+      "prerequis": []
     },
     {
-      "id": "philo-u7",
+      "id": "philosophie-u010",
       "titre": "L'État, le pouvoir et les doctrines politiques",
       "ordre": 10,
-      "fichier": "a4/philosophie/unite-07.json",
-      "prerequis": [
-        "philo-u6"
-      ]
+      "fichier": "a4/philosophie/unite-010.json",
+      "prerequis": []
     },
     {
-      "id": "philo-u8",
+      "id": "philosophie-u011",
       "titre": "La justice et le droit",
       "ordre": 11,
-      "fichier": "a4/philosophie/unite-08.json",
-      "prerequis": [
-        "philo-u7"
-      ]
+      "fichier": "a4/philosophie/unite-011.json",
+      "prerequis": []
     },
     {
-      "id": "philosophie-rev03",
-      "titre": "Révision : leçons 7 à 9",
+      "id": "philosophie-r012",
+      "titre": "Révision",
       "ordre": 12,
-      "fichier": "a4/philosophie/revision-03.json",
+      "fichier": "a4/philosophie/revision-012.json",
       "prerequis": [],
       "estRevision": true
     },
     {
-      "id": "philo-u9",
+      "id": "philosophie-u013",
       "titre": "La liberté",
       "ordre": 13,
-      "fichier": "a4/philosophie/unite-09.json",
-      "prerequis": [
-        "philo-u7"
-      ]
-    },
-    {
-      "id": "philosophie-rev04",
-      "titre": "Révision finale",
-      "ordre": 14,
-      "fichier": "a4/philosophie/revision-04.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "a4/philosophie/unite-013.json",
+      "prerequis": []
     }
   ]
 }

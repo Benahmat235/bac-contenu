@@ -1,0 +1,67 @@
+{
+  "id": "chimie-d-r027",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 27,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-r027-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-r027-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "pH = 14 + log C ([OH⁻] = C)",
+            "espèce qui cède un proton H⁺",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "acide carboxylique + amine → amide + eau"
+          ],
+          "reponse": 2,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pKa ?",
+          "options": [
+            "pH + pOH = 14 (25 °C)",
+            "−CHO (carbonyle en bout de chaîne)",
+            "pKa = −log Ka",
+            "capte totalement des protons (ex. NaOH)"
+          ],
+          "reponse": 2,
+          "explication": "pKa = −log Ka"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante d'acidité ?",
+          "options": [
+            "−CO−NH− (liaison amide)",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+            "capte totalement des protons (ex. NaOH)",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]"
+          ],
+          "reponse": 3,
+          "explication": "Ka = [A⁻]·[H₃O⁺]/[AH]"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

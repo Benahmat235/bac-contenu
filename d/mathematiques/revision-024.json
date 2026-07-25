@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r024",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 24,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r024-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r024-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un produit ?",
+          "options": [
+            "eˣ",
+            "1/z=z̄/|z|²",
+            "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+            "ln(ab) = ln a + ln b"
+          ],
+          "reponse": 3,
+          "explication": "ln(ab) = ln a + ln b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Lever une indétermination ?",
+          "options": [
+            "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+            "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+            "eⁱᶿ=cosθ+i sinθ",
+            "factoriser, ou multiplier par l'expression conjuguée"
+          ],
+          "reponse": 3,
+          "explication": "factoriser, ou multiplier par l'expression conjuguée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de ln u ?",
+          "options": [
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+            "Les rapports se multiplient et les angles s'additionnent",
+            "u'/u"
+          ],
+          "reponse": 3,
+          "explication": "u'/u"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

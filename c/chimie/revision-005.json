@@ -1,0 +1,67 @@
+{
+  "id": "chimie-c-r005",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-r005-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-r005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Représentation de Newman ?",
+          "options": [
+            "pH = 14 + log C ([OH⁻] = C)",
+            "carboxyle −COOH",
+            "température et concentration des réactifs",
+            "visualise les conformations autour d'une liaison C–C"
+          ],
+          "reponse": 3,
+          "explication": "visualise les conformations autour d'une liaison C–C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomères ?",
+          "options": [
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "Ka = 10^(−pKa)",
+            "même formule brute, formules développées différentes",
+            "diffèrent par la disposition de la chaîne carbonée"
+          ],
+          "reponse": 2,
+          "explication": "même formule brute, formules développées différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Oxydation alcool primaire ?",
+          "options": [
+            "alcool 1aire → aldéhyde → acide carboxylique",
+            "même formule brute, fonctions différentes",
+            "[H₃O⁺] = 10^(−pH)",
+            "−CHO (carbonyle en bout de chaîne)"
+          ],
+          "reponse": 0,
+          "explication": "alcool 1aire → aldéhyde → acide carboxylique"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

@@ -1,0 +1,67 @@
+{
+  "id": "chimie-d-r016",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-r016-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-r016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'une base forte ?",
+          "options": [
+            "pKa = −log Ka",
+            "C = 10^(pH−14)",
+            "non oxydable par oxydation ménagée",
+            "pH + pOH = 14 (25 °C)"
+          ],
+          "reponse": 1,
+          "explication": "C = 10^(pH−14)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Base forte ?",
+          "options": [
+            "capte totalement des protons (ex. NaOH)",
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "Ka = 10^(−pKa)"
+          ],
+          "reponse": 0,
+          "explication": "capte totalement des protons (ex. NaOH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réaction acide fort / base forte ?",
+          "options": [
+            "[H₃O⁺] = 10^(−pH)",
+            "C = 10^(pH−14)",
+            "C lié à 4 groupes tous différents (noté C*)",
+            "H₃O⁺ + OH⁻ → 2 H₂O"
+          ],
+          "reponse": 3,
+          "explication": "H₃O⁺ + OH⁻ → 2 H₂O"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

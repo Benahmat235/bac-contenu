@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-c-u006",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Calculs vectoriels et barycentre (1/2)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Calculs vectoriels et barycentre",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u006-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Produit scalaire (coordonnées)",
+          "verso": "u·v = xᵤxᵥ + yᵤyᵥ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Norme d'un vecteur",
+          "verso": "‖u‖ = √(x² + y²)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vecteurs orthogonaux",
+          "verso": "u ⊥ v ⟺ u·v = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vecteurs colinéaires",
+          "verso": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Produit scalaire (coordonnées) ?",
+          "options": [
+            "u·v = ‖u‖·‖v‖·cos(θ)",
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "uₙ = u₀·qⁿ",
+            "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C"
+          ],
+          "reponse": 1,
+          "explication": "u·v = xᵤxᵥ + yᵤyᵥ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Norme d'un vecteur ?",
+          "options": [
+            "Si a≠1, ω=b/(1−a)",
+            "z'−ω=keⁱᵅ(z−ω)",
+            "‖u‖ = √(x² + y²)",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l"
+          ],
+          "reponse": 2,
+          "explication": "‖u‖ = √(x² + y²)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vecteurs orthogonaux ?",
+          "options": [
+            "n·(M − A) = 0",
+            "u'/u",
+            "−1/x²",
+            "u ⊥ v ⟺ u·v = 0"
+          ],
+          "reponse": 3,
+          "explication": "u ⊥ v ⟺ u·v = 0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Produit scalaire (coordonnées)",
+      "verso": "u·v = xᵤxᵥ + yᵤyᵥ"
+    },
+    {
+      "recto": "Norme d'un vecteur",
+      "verso": "‖u‖ = √(x² + y²)"
+    },
+    {
+      "recto": "Vecteurs orthogonaux",
+      "verso": "u ⊥ v ⟺ u·v = 0"
+    },
+    {
+      "recto": "Vecteurs colinéaires",
+      "verso": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Produit scalaire (coordonnées)",
+      "verso": "u·v = xᵤxᵥ + yᵤyᵥ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Norme d'un vecteur",
+      "verso": "‖u‖ = √(x² + y²)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vecteurs orthogonaux",
+      "verso": "u ⊥ v ⟺ u·v = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vecteurs colinéaires",
+      "verso": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Barycentre (cours)",
+      "url": "https://youtu.be/BXs5eZnSwU0",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    },
+    {
+      "titre": "Barycentre : cours complet avec exemples",
+      "url": "https://youtu.be/6RTHhgkiopc",
+      "type": "video",
+      "chaine": "The Professor Math Academy",
+      "auteur": "The Professor Math Academy"
+    }
+  ]
+}

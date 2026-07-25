@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-c-u019",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Similitudes (1/3)",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Similitudes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u019-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u019-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Écriture d'une similitude directe",
+          "verso": "z'=az+b, avec a∈ℂ*",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rapport et angle d'une similitude directe",
+          "verso": "k=|a| et α≡arg(a) [2π]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Centre d'une similitude directe non translation",
+          "verso": "Si a≠1, ω=b/(1−a)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Forme réduite directe",
+          "verso": "z'−ω=keⁱᵅ(z−ω)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u019-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Écriture d'une similitude directe ?",
+          "options": [
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "z'=az+b, avec a∈ℂ*",
+            "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
+            "a=(zB'−zA')/(zB−zA), puis b=zA'−azA"
+          ],
+          "reponse": 1,
+          "explication": "z'=az+b, avec a∈ℂ*"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rapport et angle d'une similitude directe ?",
+          "options": [
+            "k=|a| et α≡arg(a) [2π]",
+            "|a+ib|=√(a²+b²)",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0",
+            "r(O ; θ)⁻¹ = r(O ; −θ)"
+          ],
+          "reponse": 0,
+          "explication": "k=|a| et α≡arg(a) [2π]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Centre d'une similitude directe non translation ?",
+          "options": [
+            "|a+ib|=√(a²+b²)",
+            "t_v ∘ t_u = t_{u+v}",
+            "Si a≠1, ω=b/(1−a)",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)"
+          ],
+          "reponse": 2,
+          "explication": "Si a≠1, ω=b/(1−a)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Écriture d'une similitude directe",
+      "verso": "z'=az+b, avec a∈ℂ*"
+    },
+    {
+      "recto": "Rapport et angle d'une similitude directe",
+      "verso": "k=|a| et α≡arg(a) [2π]"
+    },
+    {
+      "recto": "Centre d'une similitude directe non translation",
+      "verso": "Si a≠1, ω=b/(1−a)"
+    },
+    {
+      "recto": "Forme réduite directe",
+      "verso": "z'−ω=keⁱᵅ(z−ω)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Écriture d'une similitude directe",
+      "verso": "z'=az+b, avec a∈ℂ*",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rapport et angle d'une similitude directe",
+      "verso": "k=|a| et α≡arg(a) [2π]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Centre d'une similitude directe non translation",
+      "verso": "Si a≠1, ω=b/(1−a)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Forme réduite directe",
+      "verso": "z'−ω=keⁱᵅ(z−ω)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Similitudes planes directes : résumé de cours (Terminale)",
+      "url": "https://youtu.be/4ZOUim8A2Uo",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Similitudes planes directes (résumé)",
+      "url": "https://youtu.be/a_JbVE92Ss8",
+      "type": "video",
+      "chaine": "Monsieur DIAGNE",
+      "auteur": "Monsieur DIAGNE"
+    }
+  ]
+}

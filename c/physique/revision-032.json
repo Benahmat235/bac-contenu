@@ -1,0 +1,67 @@
+{
+  "id": "physique-c-r032",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 32,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-r032-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-r032-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Théorème de l'énergie cinétique ?",
+          "options": [
+            "ΔEc = ΣW(forces)",
+            "ω = 2π/T = 2π·N",
+            "F = q·E",
+            "e = −L·(di/dt)"
+          ],
+          "reponse": 0,
+          "explication": "ΔEc = ΣW(forces)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Accélération ?",
+          "options": [
+            "E = ½·L·i²",
+            "F = B·I·l·sin(α)",
+            "Ec = ½·m·v²",
+            "a = Δv/Δt"
+          ],
+          "reponse": 3,
+          "explication": "a = Δv/Δt"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Tension d'auto-induction ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "ΔEc = ΣW(forces)",
+            "e = −L·(di/dt)",
+            "Ec = h·ν − W₀"
+          ],
+          "reponse": 2,
+          "explication": "e = −L·(di/dt)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

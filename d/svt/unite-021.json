@@ -1,0 +1,159 @@
+{
+  "id": "svt-d-u021",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Reproduction sexuée des spermaphytes (1/3)",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Reproduction sexuée des spermaphytes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u021-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u021-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Spermaphytes (Phanérogames)",
+          "verso": "plantes à fleurs (reproduction dans la fleur)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pièces fertiles de la fleur",
+          "verso": "étamines (androcée) et carpelles (gynécée)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pièces stériles de la fleur",
+          "verso": "calice (sépales) et corolle (pétales)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Androcée / Gynécée",
+          "verso": "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u021-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Spermaphytes (Phanérogames) ?",
+          "options": [
+            "formation des grains de pollen dans l'anthère",
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "parentaux majoritaires + recombinés minoritaires",
+            "plantes à fleurs (reproduction dans la fleur)"
+          ],
+          "reponse": 3,
+          "explication": "plantes à fleurs (reproduction dans la fleur)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pièces fertiles de la fleur ?",
+          "options": [
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "développement des caractères sexuels secondaires masculins",
+            "étamines (androcée) et carpelles (gynécée)",
+            "FSH et LH ; le pic de LH déclenche l'ovulation"
+          ],
+          "reponse": 2,
+          "explication": "étamines (androcée) et carpelles (gynécée)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pièces stériles de la fleur ?",
+          "options": [
+            "2n = diploïde ; n = haploïde (gamètes)",
+            "calice (sépales) et corolle (pétales)",
+            "plantes à fleurs (reproduction dans la fleur)",
+            "réductionnelle (2n → n)"
+          ],
+          "reponse": 1,
+          "explication": "calice (sépales) et corolle (pétales)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Spermaphytes (Phanérogames)",
+      "verso": "plantes à fleurs (reproduction dans la fleur)"
+    },
+    {
+      "recto": "Pièces fertiles de la fleur",
+      "verso": "étamines (androcée) et carpelles (gynécée)"
+    },
+    {
+      "recto": "Pièces stériles de la fleur",
+      "verso": "calice (sépales) et corolle (pétales)"
+    },
+    {
+      "recto": "Androcée / Gynécée",
+      "verso": "androcée = étamines (mâle) ; gynécée = carpelles (femelle)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Spermaphytes (Phanérogames)",
+      "verso": "plantes à fleurs (reproduction dans la fleur)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pièces fertiles de la fleur",
+      "verso": "étamines (androcée) et carpelles (gynécée)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pièces stériles de la fleur",
+      "verso": "calice (sépales) et corolle (pétales)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Androcée / Gynécée",
+      "verso": "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Reproduction des spermaphytes : structure de la fleur (cours)",
+      "url": "https://youtu.be/QOXRLG3Cmyk",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Reproduction des spermaphytes : devenir des pièces florales",
+      "url": "https://youtu.be/p1l5Fh9CFew",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
+  ]
+}

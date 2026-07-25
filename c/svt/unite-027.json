@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u027",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "La reproduction humaine (2/3)",
+  "ordre": 27,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La reproduction humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u027-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u027-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Rôle de la testostérone",
+          "verso": "développement des caractères sexuels secondaires masculins",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonctions de l'ovaire",
+          "verso": "produire les ovules et sécréter les hormones ovariennes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Durée du cycle sexuel",
+          "verso": "28 jours en moyenne ; ovulation vers le 14e jour",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u027-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u027-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Rôle de la testostérone ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+            "développement des caractères sexuels secondaires masculins",
+            "hyaloplasme (fluide) + organites (partie solide)"
+          ],
+          "reponse": 2,
+          "explication": "développement des caractères sexuels secondaires masculins"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonctions de l'ovaire ?",
+          "options": [
+            "testicules (mâle) et ovaires (femelle)",
+            "28 jours en moyenne ; ovulation vers le 14e jour",
+            "produire les ovules et sécréter les hormones ovariennes",
+            "AUG (méthionine)"
+          ],
+          "reponse": 2,
+          "explication": "produire les ovules et sécréter les hormones ovariennes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Durée du cycle sexuel ?",
+          "options": [
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "28 jours en moyenne ; ovulation vers le 14e jour",
+            "synthèse et transport des substances",
+            "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)"
+          ],
+          "reponse": 1,
+          "explication": "28 jours en moyenne ; ovulation vers le 14e jour"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Rôle de la testostérone",
+      "verso": "développement des caractères sexuels secondaires masculins"
+    },
+    {
+      "recto": "Fonctions de l'ovaire",
+      "verso": "produire les ovules et sécréter les hormones ovariennes"
+    },
+    {
+      "recto": "Durée du cycle sexuel",
+      "verso": "28 jours en moyenne ; ovulation vers le 14e jour"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Rôle de la testostérone",
+      "verso": "développement des caractères sexuels secondaires masculins",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fonctions de l'ovaire",
+      "verso": "produire les ovules et sécréter les hormones ovariennes",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Durée du cycle sexuel",
+      "verso": "28 jours en moyenne ; ovulation vers le 14e jour",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

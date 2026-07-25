@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u013",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Expression de l'information génétique (3/3)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Expression de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u013-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "ARN de transfert (ARNt)",
+          "verso": "apporte les acides aminés et porte l'anticodon",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Épissage",
+          "verso": "élimine les introns et réunit les exons",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Propriétés du code",
+          "verso": "universel et dégénéré",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "ARN de transfert (ARNt) ?",
+          "options": [
+            "environ 9 mois ; se termine par l'accouchement",
+            "uniformité des hybrides de la F1",
+            "apporte les acides aminés et porte l'anticodon",
+            "équationnelle (conserve n)"
+          ],
+          "reponse": 2,
+          "explication": "apporte les acides aminés et porte l'anticodon"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Épissage ?",
+          "options": [
+            "libération de glucose à partir du glycogène (foie)",
+            "siège de la synthèse des protéines",
+            "A, T, G, C",
+            "élimine les introns et réunit les exons"
+          ],
+          "reponse": 3,
+          "explication": "élimine les introns et réunit les exons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Propriétés du code ?",
+          "options": [
+            "production des spermatozoïdes (spermatogenèse)",
+            "1/4 : 2/4 : 1/4",
+            "universel et dégénéré",
+            "échange de segments entre chromosomes homologues (prophase I)"
+          ],
+          "reponse": 2,
+          "explication": "universel et dégénéré"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "ARN de transfert (ARNt)",
+      "verso": "apporte les acides aminés et porte l'anticodon"
+    },
+    {
+      "recto": "Épissage",
+      "verso": "élimine les introns et réunit les exons"
+    },
+    {
+      "recto": "Propriétés du code",
+      "verso": "universel et dégénéré"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "ARN de transfert (ARNt)",
+      "verso": "apporte les acides aminés et porte l'anticodon",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Épissage",
+      "verso": "élimine les introns et réunit les exons",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Propriétés du code",
+      "verso": "universel et dégénéré",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

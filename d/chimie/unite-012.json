@@ -1,0 +1,143 @@
+{
+  "id": "chimie-d-u012",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Constante d'acidité d'un couple (1/2)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Constante d'acidité d'un couple",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Constante d'acidité",
+          "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pKa",
+          "verso": "pKa = −log Ka",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ka à partir du pKa",
+          "verso": "Ka = 10^(−pKa)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Constante d'acidité ?",
+          "options": [
+            "pKa = −log Ka",
+            "images miroir non superposables (molécule chirale)",
+            "pKa = −log Ka",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]"
+          ],
+          "reponse": 3,
+          "explication": "Ka = [A⁻]·[H₃O⁺]/[AH]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pKa ?",
+          "options": [
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "pKa = −log Ka",
+            "C = 10^(pH−14)",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)"
+          ],
+          "reponse": 1,
+          "explication": "pKa = −log Ka"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ka à partir du pKa ?",
+          "options": [
+            "−CHO (carbonyle en bout de chaîne)",
+            "espèce qui cède un proton H⁺",
+            "visualise les conformations autour d'une liaison C–C",
+            "Ka = 10^(−pKa)"
+          ],
+          "reponse": 3,
+          "explication": "Ka = 10^(−pKa)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]"
+    },
+    {
+      "recto": "pKa",
+      "verso": "pKa = −log Ka"
+    },
+    {
+      "recto": "Ka à partir du pKa",
+      "verso": "Ka = 10^(−pKa)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "pKa",
+      "verso": "pKa = −log Ka",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Ka à partir du pKa",
+      "verso": "Ka = 10^(−pKa)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Constante d'acidité : Ka et pKa (Terminale)",
+      "url": "https://youtu.be/Qe6VFTmTMIQ",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Constante d'acidité d'un couple acide/base",
+      "url": "https://youtu.be/YmjLYRuFoFg",
+      "type": "video",
+      "chaine": "Super Prof",
+      "auteur": "Super Prof"
+    }
+  ]
+}

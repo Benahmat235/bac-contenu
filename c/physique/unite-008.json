@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u008",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "La relation fondamentale de la dynamique (1/2)",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La relation fondamentale de la dynamique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u008-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u008-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "2ᵉ loi de Newton",
+          "verso": "ΣF = m·a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "1ère loi (inertie)",
+          "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique",
+          "verso": "Ec = ½·m·v²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie potentielle de pesanteur",
+          "verso": "Ep = m·g·h",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u008-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "2ᵉ loi de Newton ?",
+          "options": [
+            "ω = 2π/T = 2π·N",
+            "v² − v₀² = 2·a·(x − x₀)",
+            "v = v₀ + a·t",
+            "ΣF = m·a"
+          ],
+          "reponse": 3,
+          "explication": "ΣF = m·a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1ère loi (inertie) ?",
+          "options": [
+            "N(t) = N₀·e^(−λt)",
+            "a = Δv/Δt",
+            "P = m·g",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+          ],
+          "reponse": 3,
+          "explication": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énergie cinétique ?",
+          "options": [
+            "A(t) = A₀·e^(−λt)",
+            "Ec = ½·m·v²",
+            "F = G·M·m/d²",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+          ],
+          "reponse": 1,
+          "explication": "Ec = ½·m·v²"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a"
+    },
+    {
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme"
+    },
+    {
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²"
+    },
+    {
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "2ᵉ loi de Newton",
+      "verso": "ΣF = m·a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "1ère loi (inertie)",
+      "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie cinétique",
+      "verso": "Ec = ½·m·v²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie potentielle de pesanteur",
+      "verso": "Ep = m·g·h",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "2e loi de Newton (Terminale)",
+      "url": "https://youtu.be/YebURH6uD_Q",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Les 3 lois de Newton (cours de lycée)",
+      "url": "https://youtu.be/dhVXGV_j6Sw",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    }
+  ]
+}

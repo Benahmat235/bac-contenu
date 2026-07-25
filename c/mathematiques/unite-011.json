@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u011",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Isométries du plan et applications affines (2/3)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Isométries du plan et applications affines",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u011-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Symétrie centrale",
+          "verso": "z' = −z + b, centre d'affixe b/2",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Composée de deux translations",
+          "verso": "t_v ∘ t_u = t_{u+v}",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Symétries d'axes parallèles",
+          "verso": "composée = translation",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Symétrie centrale ?",
+          "options": [
+            "z' = −z + b, centre d'affixe b/2",
+            "uₙ = u₀·qⁿ",
+            "f est continue en a si lim(x→a) f(x) = f(a)",
+            "k=|a| et α≡arg(a) [2π]"
+          ],
+          "reponse": 0,
+          "explication": "z' = −z + b, centre d'affixe b/2"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Composée de deux translations ?",
+          "options": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "t_v ∘ t_u = t_{u+v}"
+          ],
+          "reponse": 3,
+          "explication": "t_v ∘ t_u = t_{u+v}"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Symétries d'axes parallèles ?",
+          "options": [
+            "a divise b s'il existe k entier tel que b = k·a",
+            "composée = translation",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0",
+            "eˣ"
+          ],
+          "reponse": 1,
+          "explication": "composée = translation"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Symétrie centrale",
+      "verso": "z' = −z + b, centre d'affixe b/2"
+    },
+    {
+      "recto": "Composée de deux translations",
+      "verso": "t_v ∘ t_u = t_{u+v}"
+    },
+    {
+      "recto": "Symétries d'axes parallèles",
+      "verso": "composée = translation"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Symétrie centrale",
+      "verso": "z' = −z + b, centre d'affixe b/2",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Composée de deux translations",
+      "verso": "t_v ∘ t_u = t_{u+v}",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Symétries d'axes parallèles",
+      "verso": "composée = translation",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

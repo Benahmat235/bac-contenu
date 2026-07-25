@@ -1,0 +1,143 @@
+{
+  "id": "svt-d-u016",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Brassage génétique et méiose (1/3)",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Brassage génétique et méiose",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u016-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u016-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Méiose",
+          "verso": "double division : 1 cellule 2n → 4 cellules haploïdes n",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "1re division de méiose",
+          "verso": "réductionnelle (2n → n)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "2e division de méiose",
+          "verso": "équationnelle (conserve n)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u016-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Méiose ?",
+          "options": [
+            "cellules α ; hyperglycémiant (fait monter la glycémie)",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "l'ampoule de la trompe",
+            "génotype = allèles ; phénotype = caractère observé"
+          ],
+          "reponse": 1,
+          "explication": "double division : 1 cellule 2n → 4 cellules haploïdes n"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1re division de méiose ?",
+          "options": [
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "testicules (mâle) et ovaires (femelle)",
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "réductionnelle (2n → n)"
+          ],
+          "reponse": 3,
+          "explication": "réductionnelle (2n → n)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "2e division de méiose ?",
+          "options": [
+            "gène porté par un chromosome sexuel (souvent X)",
+            "équationnelle (conserve n)",
+            "4 types : AB, Ab, aB, ab",
+            "une des versions possibles d'un gène"
+          ],
+          "reponse": 1,
+          "explication": "équationnelle (conserve n)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Méiose",
+      "verso": "double division : 1 cellule 2n → 4 cellules haploïdes n"
+    },
+    {
+      "recto": "1re division de méiose",
+      "verso": "réductionnelle (2n → n)"
+    },
+    {
+      "recto": "2e division de méiose",
+      "verso": "équationnelle (conserve n)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Méiose",
+      "verso": "double division : 1 cellule 2n → 4 cellules haploïdes n",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "1re division de méiose",
+      "verso": "réductionnelle (2n → n)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "2e division de méiose",
+      "verso": "équationnelle (conserve n)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Méiose et brassages génétiques (révisions BAC)",
+      "url": "https://youtu.be/2CQKsUzT4uw",
+      "type": "video",
+      "chaine": "Tania Louis",
+      "auteur": "Tania Louis"
+    },
+    {
+      "titre": "Méiose et diversité génétique - SVT Terminale",
+      "url": "https://youtu.be/hzbfhYSBOa0",
+      "type": "video",
+      "chaine": "NOVELCLASS",
+      "auteur": "NOVELCLASS"
+    }
+  ]
+}

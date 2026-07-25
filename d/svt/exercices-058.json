@@ -1,0 +1,292 @@
+{
+  "id": "svt-d-e058",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "La communication hormonale — Exercices",
+  "ordre": 58,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication hormonale",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-d-e058-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-e058-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Expliquer la correction d'une hyperglycémie :",
+          "etapes": [
+            "La glycémie s'élève (après un repas)",
+            "Les cellules β détectent la hausse et sécrètent l'insuline",
+            "L'insuline favorise l'entrée du glucose et la glycogénogenèse (foie)",
+            "La glycémie revient à ≈ 1 g/L"
+          ],
+          "ordreCorrect": [
+            "La glycémie s'élève (après un repas)",
+            "Les cellules β détectent la hausse et sécrètent l'insuline",
+            "L'insuline favorise l'entrée du glucose et la glycogénogenèse (foie)",
+            "La glycémie revient à ≈ 1 g/L"
+          ],
+          "explication": "L'insuline abaisse la glycémie."
+        }
+      ]
+    },
+    {
+      "id": "svt-d-e058-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-e058-c",
+      "activites": [
+        {
+          "id": "svt-d-ho-ex01",
+          "enonce": "Qu'est-ce qu'une hormone ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Substance biochimique produite par une glande endocrine, véhiculée par le sang, agissant sur des cellules cibles."
+          ],
+          "reponseFinale": "Une substance d'une glande endocrine transportée par le sang",
+          "competenceId": "svt-d-ho-hormone"
+        },
+        {
+          "id": "svt-d-ho-ex02",
+          "enonce": "Différence entre glande endocrine et glande exocrine ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Endocrine : déverse ses hormones dans le sang. Exocrine : déverse ses sécrétions par un canal (vers l'extérieur ou un organe)."
+          ],
+          "reponseFinale": "Endocrine → sang ; exocrine → canal excréteur",
+          "competenceId": "svt-d-ho-hormone"
+        },
+        {
+          "id": "svt-d-ho-ex03",
+          "enonce": "Qu'est-ce que la glycémie et quelle est sa valeur normale ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "La glycémie est le taux de glucose dans le sang ; elle est d'environ 1 g/L."
+          ],
+          "reponseFinale": "Le taux de glucose sanguin (≈ 1 g/L)",
+          "competenceId": "svt-d-ho-glycemie"
+        },
+        {
+          "id": "svt-d-ho-ex04",
+          "enonce": "Pourquoi dit-on que le pancréas est une glande mixte (double) ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Il est exocrine (sucs digestifs vers l'intestin) et endocrine (hormones dans le sang)."
+          ],
+          "reponseFinale": "Il est à la fois exocrine et endocrine",
+          "competenceId": "svt-d-ho-pancreas"
+        },
+        {
+          "id": "svt-d-ho-ex05",
+          "enonce": "Comment nomme-t-on les amas de cellules endocrines du pancréas ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Les îlots de Langerhans."
+          ],
+          "reponseFinale": "Les îlots de Langerhans",
+          "competenceId": "svt-d-ho-pancreas"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-e058-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-d-e058-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "L'hormone qui fait baisser la glycémie est :",
+          "options": [
+            "le glucagon",
+            "l'insuline",
+            "l'adrénaline",
+            "la LH"
+          ],
+          "reponse": 1,
+          "explication": "L'insuline (hypoglycémiante)."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-d-ho-ex01",
+      "enonce": "Qu'est-ce qu'une hormone ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Substance biochimique produite par une glande endocrine, véhiculée par le sang, agissant sur des cellules cibles."
+      ],
+      "reponseFinale": "Une substance d'une glande endocrine transportée par le sang",
+      "competenceId": "svt-d-ho-hormone"
+    },
+    {
+      "id": "svt-d-ho-ex02",
+      "enonce": "Différence entre glande endocrine et glande exocrine ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Endocrine : déverse ses hormones dans le sang. Exocrine : déverse ses sécrétions par un canal (vers l'extérieur ou un organe)."
+      ],
+      "reponseFinale": "Endocrine → sang ; exocrine → canal excréteur",
+      "competenceId": "svt-d-ho-hormone"
+    },
+    {
+      "id": "svt-d-ho-ex03",
+      "enonce": "Qu'est-ce que la glycémie et quelle est sa valeur normale ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "La glycémie est le taux de glucose dans le sang ; elle est d'environ 1 g/L."
+      ],
+      "reponseFinale": "Le taux de glucose sanguin (≈ 1 g/L)",
+      "competenceId": "svt-d-ho-glycemie"
+    },
+    {
+      "id": "svt-d-ho-ex04",
+      "enonce": "Pourquoi dit-on que le pancréas est une glande mixte (double) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Il est exocrine (sucs digestifs vers l'intestin) et endocrine (hormones dans le sang)."
+      ],
+      "reponseFinale": "Il est à la fois exocrine et endocrine",
+      "competenceId": "svt-d-ho-pancreas"
+    },
+    {
+      "id": "svt-d-ho-ex05",
+      "enonce": "Comment nomme-t-on les amas de cellules endocrines du pancréas ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les îlots de Langerhans."
+      ],
+      "reponseFinale": "Les îlots de Langerhans",
+      "competenceId": "svt-d-ho-pancreas"
+    },
+    {
+      "id": "svt-d-ho-ex06",
+      "enonce": "Quelle hormone produisent les cellules bêta des îlots de Langerhans ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les cellules bêta produisent l'insuline."
+      ],
+      "reponseFinale": "L'insuline",
+      "competenceId": "svt-d-ho-pancreas"
+    },
+    {
+      "id": "svt-d-ho-ex07",
+      "enonce": "Quelle hormone produisent les cellules alpha des îlots de Langerhans ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les cellules alpha produisent le glucagon."
+      ],
+      "reponseFinale": "Le glucagon",
+      "competenceId": "svt-d-ho-pancreas"
+    },
+    {
+      "id": "svt-d-ho-ex08",
+      "enonce": "Quelle est l'action de l'insuline sur la glycémie ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Libérée quand la glycémie monte, l'insuline est hypoglycémiante (elle fait baisser la glycémie)."
+      ],
+      "reponseFinale": "Elle fait baisser la glycémie (hypoglycémiante)",
+      "competenceId": "svt-d-ho-regulation"
+    },
+    {
+      "id": "svt-d-ho-ex09",
+      "enonce": "Quelle est l'action du glucagon sur la glycémie ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Libéré quand la glycémie baisse, le glucagon est hyperglycémiant (il fait monter la glycémie)."
+      ],
+      "reponseFinale": "Il fait monter la glycémie (hyperglycémiant)",
+      "competenceId": "svt-d-ho-regulation"
+    },
+    {
+      "id": "svt-d-ho-ex10",
+      "enonce": "Comment nomme-t-on la mise en réserve du glucose sous forme de glycogène ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le stockage du glucose en glycogène est la glycogénogenèse (foie et muscles)."
+      ],
+      "reponseFinale": "La glycogénogenèse",
+      "competenceId": "svt-d-ho-foie"
+    },
+    {
+      "id": "svt-d-ho-ex11",
+      "enonce": "Comment nomme-t-on la libération de glucose à partir du glycogène ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le déstockage (glycogène → glucose) est la glycogénolyse (foie)."
+      ],
+      "reponseFinale": "La glycogénolyse",
+      "competenceId": "svt-d-ho-foie"
+    },
+    {
+      "id": "svt-d-ho-ex12",
+      "enonce": "Quel organe joue un rôle central de stockage/déstockage du glucose ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le foie stocke (glycogénogenèse) et libère (glycogénolyse) le glucose : organe régulateur."
+      ],
+      "reponseFinale": "Le foie",
+      "competenceId": "svt-d-ho-foie"
+    },
+    {
+      "id": "svt-d-ho-ex13",
+      "enonce": "Que se passe-t-il si la glycémie augmente ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "La sécrétion d'insuline augmente et celle de glucagon diminue : la glycémie revient à la normale."
+      ],
+      "reponseFinale": "Plus d'insuline, moins de glucagon",
+      "competenceId": "svt-d-ho-regulation"
+    },
+    {
+      "id": "svt-d-ho-ex14",
+      "enonce": "Que se passe-t-il si la glycémie diminue ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "La sécrétion de glucagon augmente et celle d'insuline diminue : la glycémie remonte."
+      ],
+      "reponseFinale": "Plus de glucagon, moins d'insuline",
+      "competenceId": "svt-d-ho-regulation"
+    },
+    {
+      "id": "svt-d-ho-ex15",
+      "enonce": "Après l'ablation du pancréas, on observe une hyperglycémie. Que conclut-on ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Le pancréas participe à la baisse de la glycémie via une hormone (l'insuline)."
+      ],
+      "reponseFinale": "Le pancréas abaisse la glycémie (via l'insuline)",
+      "competenceId": "svt-d-ho-pancreas"
+    },
+    {
+      "id": "svt-d-ho-ex16",
+      "enonce": "Comment appelle-t-on une glycémie trop élevée ? trop basse ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Trop élevée : hyperglycémie ; trop basse : hypoglycémie."
+      ],
+      "reponseFinale": "Hyperglycémie et hypoglycémie",
+      "competenceId": "svt-d-ho-glycemie"
+    }
+  ],
+  "estExercices": true
+}

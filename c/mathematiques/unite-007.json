@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-c-u007",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Calculs vectoriels et barycentre (2/2)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Calculs vectoriels et barycentre",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u007-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Milieu d'un segment",
+          "verso": "I = ((xA+xB)/2 ; (yA+yB)/2)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Barycentre de n points pondérés",
+          "verso": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation d'un plan (vecteur normal n)",
+          "verso": "n·(M − A) = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit scalaire (norme et angle)",
+          "verso": "u·v = ‖u‖·‖v‖·cos(θ)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Milieu d'un segment ?",
+          "options": [
+            "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
+            "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+            "I = ((xA+xB)/2 ; (yA+yB)/2)",
+            "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1"
+          ],
+          "reponse": 2,
+          "explication": "I = ((xA+xB)/2 ; (yA+yB)/2)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Barycentre de n points pondérés ?",
+          "options": [
+            "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "z' = e^{iθ}·z (|a| = 1)",
+            "eᵘ + c"
+          ],
+          "reponse": 0,
+          "explication": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Équation d'un plan (vecteur normal n) ?",
+          "options": [
+            "eᵃ·eᵇ = eᵃ⁺ᵇ",
+            "n·(M − A) = 0",
+            "si lim f = l (réel) en ±∞, alors y = l",
+            "z' = e^{iθ}·z (|a| = 1)"
+          ],
+          "reponse": 1,
+          "explication": "n·(M − A) = 0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Milieu d'un segment",
+      "verso": "I = ((xA+xB)/2 ; (yA+yB)/2)"
+    },
+    {
+      "recto": "Barycentre de n points pondérés",
+      "verso": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)"
+    },
+    {
+      "recto": "Équation d'un plan (vecteur normal n)",
+      "verso": "n·(M − A) = 0"
+    },
+    {
+      "recto": "Produit scalaire (norme et angle)",
+      "verso": "u·v = ‖u‖·‖v‖·cos(θ)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Milieu d'un segment",
+      "verso": "I = ((xA+xB)/2 ; (yA+yB)/2)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Barycentre de n points pondérés",
+      "verso": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Équation d'un plan (vecteur normal n)",
+      "verso": "n·(M − A) = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Produit scalaire (norme et angle)",
+      "verso": "u·v = ‖u‖·‖v‖·cos(θ)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-c-u001",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Les ensembles ℕ et ℤ (arithmétique) (1/3)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les ensembles ℕ et ℤ (arithmétique)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u001-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Divisibilité dans ℤ",
+          "verso": "a divise b s'il existe k entier tel que b = k·a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Congruence modulo n",
+          "verso": "a ≡ b [n] si a − b est un multiple de n",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Algorithme d'Euclide",
+          "verso": "PGCD(a;b) = dernier reste non nul des divisions successives",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Lien PGCD–PPCM",
+          "verso": "PGCD(a;b) × PPCM(a;b) = a × b",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Divisibilité dans ℤ ?",
+          "options": [
+            "la différence alternée des chiffres est divisible par 11",
+            "lim(x→+∞) eˣ/x = +∞",
+            "E(X)=ΣxᵢP(X=xᵢ)",
+            "a divise b s'il existe k entier tel que b = k·a"
+          ],
+          "reponse": 3,
+          "explication": "a divise b s'il existe k entier tel que b = k·a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Congruence modulo n ?",
+          "options": [
+            "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+            "composée = translation",
+            "a ≡ b [n] si a − b est un multiple de n",
+            "la somme des chiffres est divisible par 3 (ou 9)"
+          ],
+          "reponse": 2,
+          "explication": "a ≡ b [n] si a − b est un multiple de n"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Algorithme d'Euclide ?",
+          "options": [
+            "PGCD(a;b) = dernier reste non nul des divisions successives",
+            "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "k=|a| et α≡arg(a) [2π]"
+          ],
+          "reponse": 0,
+          "explication": "PGCD(a;b) = dernier reste non nul des divisions successives"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Divisibilité dans ℤ",
+      "verso": "a divise b s'il existe k entier tel que b = k·a"
+    },
+    {
+      "recto": "Congruence modulo n",
+      "verso": "a ≡ b [n] si a − b est un multiple de n"
+    },
+    {
+      "recto": "Algorithme d'Euclide",
+      "verso": "PGCD(a;b) = dernier reste non nul des divisions successives"
+    },
+    {
+      "recto": "Lien PGCD–PPCM",
+      "verso": "PGCD(a;b) × PPCM(a;b) = a × b"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Divisibilité dans ℤ",
+      "verso": "a divise b s'il existe k entier tel que b = k·a",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Congruence modulo n",
+      "verso": "a ≡ b [n] si a − b est un multiple de n",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Algorithme d'Euclide",
+      "verso": "PGCD(a;b) = dernier reste non nul des divisions successives",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Lien PGCD–PPCM",
+      "verso": "PGCD(a;b) × PPCM(a;b) = a × b",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Divisibilité, division euclidienne, congruence : cours complet",
+      "url": "https://youtu.be/gviAJH3uHsw",
+      "type": "video",
+      "chaine": "The Professor Math Academy",
+      "auteur": "The Professor Math Academy"
+    },
+    {
+      "titre": "Notion de congruence",
+      "url": "https://youtu.be/HxcyqNbdVUI",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

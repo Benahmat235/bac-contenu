@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r039",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 39,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r039-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r039-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Croissance comparée ?",
+          "options": [
+            "lim(x→+∞) eˣ/x = +∞",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "n!=n(n−1)…2×1 et 0!=1",
+            "S = (nb de termes)×(1er + dernier)/2"
+          ],
+          "reponse": 0,
+          "explication": "lim(x→+∞) eˣ/x = +∞"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Valeurs remarquables ?",
+          "options": [
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+            "deux suites adjacentes convergent vers la même limite",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "ln 1 = 0 ; ln e = 1"
+          ],
+          "reponse": 3,
+          "explication": "ln 1 = 0 ; ln e = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limite trigonométrique de référence ?",
+          "options": [
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
+            "lim(x→0) sin(x)/x = 1"
+          ],
+          "reponse": 3,
+          "explication": "lim(x→0) sin(x)/x = 1"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

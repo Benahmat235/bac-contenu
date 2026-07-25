@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u047",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "L'hérédité humaine (3/3)",
+  "ordre": 47,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'hérédité humaine",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u047-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u047-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Drépanocytose",
+          "verso": "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Trisomie 21",
+          "verso": "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Turner / Klinefelter",
+          "verso": "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u047-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u047-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Drépanocytose ?",
+          "options": [
+            "endocrine → sang ; exocrine → canal excréteur",
+            "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade",
+            "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+            "organe régulateur du glucose (stockage/déstockage)"
+          ],
+          "reponse": 1,
+          "explication": "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Trisomie 21 ?",
+          "options": [
+            "produire les ovules et sécréter les hormones ovariennes",
+            "croisement avec le double récessif pour révéler le génotype",
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)"
+          ],
+          "reponse": 2,
+          "explication": "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Turner / Klinefelter ?",
+          "options": [
+            "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+            "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+            "échange de segments entre chromosomes homologues (prophase I)",
+            "individu homozygote à descendance identique"
+          ],
+          "reponse": 0,
+          "explication": "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Drépanocytose",
+      "verso": "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade"
+    },
+    {
+      "recto": "Trisomie 21",
+      "verso": "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique"
+    },
+    {
+      "recto": "Turner / Klinefelter",
+      "verso": "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Drépanocytose",
+      "verso": "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Trisomie 21",
+      "verso": "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Turner / Klinefelter",
+      "verso": "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

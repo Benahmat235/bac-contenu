@@ -1,0 +1,67 @@
+{
+  "id": "francais-r020",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 20,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-r020-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "francais-r020-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la littérature ?",
+          "options": [
+            "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine.",
+            "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique.",
+            "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas.",
+            "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset."
+          ],
+          "reponse": 1,
+          "explication": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que doit contenir la conclusion d'une dissertation ?",
+          "options": [
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "Un bilan du développement, une réponse à la problématique et une ouverture.",
+            "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif).",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
+          ],
+          "reponse": 1,
+          "explication": "Un bilan du développement, une réponse à la problématique et une ouverture."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 3 auteurs de la Négritude et une œuvre. ?",
+          "options": [
+            "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments).",
+            "Transformer le sujet en une question à laquelle le développement répondra.",
+            "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…).",
+            "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+          ],
+          "reponse": 0,
+          "explication": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

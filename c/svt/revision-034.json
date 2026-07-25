@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r034",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 34,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r034-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r034-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Gène ?",
+          "options": [
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "isolant électrique qui accélère la conduction",
+            "assure les échanges entre mère et fœtus"
+          ],
+          "reponse": 0,
+          "explication": "portion d'ADN responsable d'un caractère héréditaire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fécondation ?",
+          "options": [
+            "A et B codominants, dominent O (récessif)",
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "nerfs + ganglions"
+          ],
+          "reponse": 1,
+          "explication": "fusion spermatozoïde + ovule → zygote (2n)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Expression d'un gène ?",
+          "options": [
+            "unité structurale et fonctionnelle de tout être vivant",
+            "XX (femme) et XY (homme)",
+            "de nature électrique le long de la fibre",
+            "transcription (ADN→ARNm) puis traduction (ARNm→protéine)"
+          ],
+          "reponse": 3,
+          "explication": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

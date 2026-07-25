@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u008",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Transmission de l'information génétique (3/3)",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Transmission de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u008-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u008-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Diploïde / haploïde",
+          "verso": "2n = diploïde ; n = haploïde (gamètes)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réplication de l'ADN",
+          "verso": "duplication semi-conservative (un brin ancien + un brin neuf)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "ADN vs ARN",
+          "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u008-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Diploïde / haploïde ?",
+          "options": [
+            "2n = diploïde ; n = haploïde (gamètes)",
+            "environ 9 mois ; se termine par l'accouchement",
+            "corps cellulaire + dendrites + axone",
+            "nerfs + ganglions"
+          ],
+          "reponse": 0,
+          "explication": "2n = diploïde ; n = haploïde (gamètes)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réplication de l'ADN ?",
+          "options": [
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "universel et dégénéré",
+            "fusion spermatozoïde + ovule → zygote (2n)",
+            "XX (femme) et XY (homme)"
+          ],
+          "reponse": 0,
+          "explication": "duplication semi-conservative (un brin ancien + un brin neuf)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "ADN vs ARN ?",
+          "options": [
+            "élimine les introns et réunit les exons",
+            "unité structurale et fonctionnelle de tout être vivant",
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "parentaux majoritaires + recombinés minoritaires"
+          ],
+          "reponse": 2,
+          "explication": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Diploïde / haploïde",
+      "verso": "2n = diploïde ; n = haploïde (gamètes)"
+    },
+    {
+      "recto": "Réplication de l'ADN",
+      "verso": "duplication semi-conservative (un brin ancien + un brin neuf)"
+    },
+    {
+      "recto": "ADN vs ARN",
+      "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Diploïde / haploïde",
+      "verso": "2n = diploïde ; n = haploïde (gamètes)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réplication de l'ADN",
+      "verso": "duplication semi-conservative (un brin ancien + un brin neuf)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "ADN vs ARN",
+      "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u012",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Expression de l'information génétique (2/3)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Expression de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nombre de codons",
+          "verso": "4³ = 64 codons",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codon d'initiation",
+          "verso": "AUG (méthionine)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codons-stop",
+          "verso": "UAA, UAG, UGA : arrêtent la traduction",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombre de codons ?",
+          "options": [
+            "disjonction des allèles (pureté des gamètes)",
+            "4³ = 64 codons",
+            "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+            "uniformité des hybrides de la F1"
+          ],
+          "reponse": 1,
+          "explication": "4³ = 64 codons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codon d'initiation ?",
+          "options": [
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "formation des grains de pollen dans l'anthère",
+            "environ 9 mois ; se termine par l'accouchement",
+            "AUG (méthionine)"
+          ],
+          "reponse": 3,
+          "explication": "AUG (méthionine)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codons-stop ?",
+          "options": [
+            "membrane plasmique, cytoplasme, noyau",
+            "ensemble classé des chromosomes d'une cellule",
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "glande mixte ; îlots de Langerhans (cellules α et β)"
+          ],
+          "reponse": 2,
+          "explication": "UAA, UAG, UGA : arrêtent la traduction"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nombre de codons",
+      "verso": "4³ = 64 codons"
+    },
+    {
+      "recto": "Codon d'initiation",
+      "verso": "AUG (méthionine)"
+    },
+    {
+      "recto": "Codons-stop",
+      "verso": "UAA, UAG, UGA : arrêtent la traduction"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nombre de codons",
+      "verso": "4³ = 64 codons",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codon d'initiation",
+      "verso": "AUG (méthionine)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Codons-stop",
+      "verso": "UAA, UAG, UGA : arrêtent la traduction",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

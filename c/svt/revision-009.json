@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r009",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r009-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Chloroplaste ?",
+          "options": [
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "équationnelle (conserve n)",
+            "ovaire + style + stigmate",
+            "phosphate + sucre (désoxyribose) + base azotée"
+          ],
+          "reponse": 0,
+          "explication": "réalise la photosynthèse (cellule végétale uniquement)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Gène ?",
+          "options": [
+            "donneur : O ; receveur : AB",
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "XX (femme) et XY (homme)",
+            "3/4 dominant, 1/4 récessif (3 : 1)"
+          ],
+          "reponse": 1,
+          "explication": "portion d'ADN responsable d'un caractère héréditaire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nucléotide ?",
+          "options": [
+            "échange de segments entre chromosomes homologues (prophase I)",
+            "phosphate + sucre (désoxyribose) + base azotée",
+            "uniformité des hybrides de la F1",
+            "génotype = allèles ; phénotype = caractère observé"
+          ],
+          "reponse": 1,
+          "explication": "phosphate + sucre (désoxyribose) + base azotée"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

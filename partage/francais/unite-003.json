@@ -1,0 +1,110 @@
+{
+  "id": "francais-u003",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Généralités sur la littérature (3/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Généralités sur la littérature",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u003-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un registre littéraire ?",
+          "reponseAttendue": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez la définition du registre lyrique.",
+          "reponseAttendue": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je ».",
+          "modeReponse": "auto_evaluation",
+          "explication": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je »."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez la définition du registre épique.",
+          "reponseAttendue": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
+        }
+      ]
+    },
+    {
+      "id": "francais-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un registre littéraire ?",
+          "options": [
+            "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset.",
+            "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je ».",
+            "L'ensemble des œuvres littéraires en français produites par des auteurs africains.",
+            "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+          ],
+          "reponse": 3,
+          "explication": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Donnez la définition du registre lyrique. ?",
+          "options": [
+            "Le contenu : les idées, les thèmes, le message de l'auteur.",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+            "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat",
+            "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je »."
+          ],
+          "reponse": 3,
+          "explication": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je »."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Donnez la définition du registre épique. ?",
+          "options": [
+            "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas.",
+            "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole.",
+            "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnel",
+            "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
+          ],
+          "reponse": 3,
+          "explication": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce qu'un registre littéraire ?",
+      "verso": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+    },
+    {
+      "recto": "Donnez la définition du registre lyrique.",
+      "verso": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je »."
+    },
+    {
+      "recto": "Donnez la définition du registre épique.",
+      "verso": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
+    }
+  ]
+}

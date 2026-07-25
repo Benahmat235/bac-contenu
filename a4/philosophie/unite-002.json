@@ -1,0 +1,148 @@
+{
+  "id": "philosophie-u002",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Conscience et inconscient",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Conscience et inconscient",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u002-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "La conscience est la connaissance ______ que le sujet a de ses propres états et de ses actes.",
+          "reponseAttendue": "immédiate",
+          "modeReponse": "auto_evaluation",
+          "explication": "immédiate"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Définis l'inconscient (au sens psychanalytique).",
+          "reponseAttendue": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "« Je pense, donc je ______ » (Descartes).",
+          "reponseAttendue": "suis",
+          "modeReponse": "auto_evaluation",
+          "explication": "suis"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le moi n'est pas maître dans sa propre maison. » ?",
+          "reponseAttendue": "Sigmund Freud",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sigmund Freud"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le « Je pense » doit pouvoir accompagner toutes mes représentations. » ?",
+          "reponseAttendue": "Emmanuel Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "Emmanuel Kant"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La conscience est la connaissance ______ que le sujet a de ses propres états et de ses actes. ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "immédiate",
+            "Emmanuel Kant",
+            "Louis XIV"
+          ],
+          "reponse": 1,
+          "explication": "immédiate"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définis l'inconscient (au sens psychanalytique). ?",
+          "options": [
+            "Jean-Paul Sartre",
+            "solipsisme",
+            "Hegel",
+            "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous."
+          ],
+          "reponse": 3,
+          "explication": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous."
+        },
+        {
+          "type": "choix_unique",
+          "question": "« Je pense, donc je ______ » (Descartes). ?",
+          "options": [
+            "Blaise Pascal",
+            "suis",
+            "Blaise Pascal",
+            "Kant"
+          ],
+          "reponse": 1,
+          "explication": "suis"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "La conscience est la connaissance ______ que le sujet a de ses propres états et de ses actes.",
+      "verso": "immédiate"
+    },
+    {
+      "recto": "Définis l'inconscient (au sens psychanalytique).",
+      "verso": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous."
+    },
+    {
+      "recto": "« Je pense, donc je ______ » (Descartes).",
+      "verso": "suis"
+    },
+    {
+      "recto": "Qui a dit : « Le moi n'est pas maître dans sa propre maison. » ?",
+      "verso": "Sigmund Freud"
+    },
+    {
+      "recto": "Qui a dit : « Le « Je pense » doit pouvoir accompagner toutes mes représentations. » ?",
+      "verso": "Emmanuel Kant"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La conscience et l'inconscient (cours Terminale)",
+      "url": "https://youtu.be/OUoRDUWbORQ",
+      "type": "video",
+      "chaine": "Monsieur Jeff MINTSA",
+      "auteur": "Monsieur Jeff MINTSA"
+    },
+    {
+      "titre": "Conscience et inconscient - Terminale",
+      "url": "https://youtu.be/pkeQzlskbwI",
+      "type": "video",
+      "chaine": "L'Antiseche",
+      "auteur": "L'Antiseche"
+    }
+  ]
+}

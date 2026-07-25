@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u008",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Transmission de l'information génétique (3/3)",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Transmission de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u008-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u008-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Diploïde / haploïde",
+          "verso": "2n = diploïde ; n = haploïde (gamètes)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réplication de l'ADN",
+          "verso": "duplication semi-conservative (un brin ancien + un brin neuf)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "ADN vs ARN",
+          "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u008-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Diploïde / haploïde ?",
+          "options": [
+            "membrane plasmique, cytoplasme, noyau",
+            "2n = diploïde ; n = haploïde (gamètes)",
+            "formation des grains de pollen dans l'anthère",
+            "double hélice (Watson et Crick)"
+          ],
+          "reponse": 1,
+          "explication": "2n = diploïde ; n = haploïde (gamètes)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réplication de l'ADN ?",
+          "options": [
+            "AUG (méthionine)",
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+            "androcée = étamines (mâle) ; gynécée = carpelles (femelle)"
+          ],
+          "reponse": 1,
+          "explication": "duplication semi-conservative (un brin ancien + un brin neuf)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "ADN vs ARN ?",
+          "options": [
+            "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+            "donneur : O ; receveur : AB",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "unité structurale et fonctionnelle de tout être vivant"
+          ],
+          "reponse": 0,
+          "explication": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Diploïde / haploïde",
+      "verso": "2n = diploïde ; n = haploïde (gamètes)"
+    },
+    {
+      "recto": "Réplication de l'ADN",
+      "verso": "duplication semi-conservative (un brin ancien + un brin neuf)"
+    },
+    {
+      "recto": "ADN vs ARN",
+      "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Diploïde / haploïde",
+      "verso": "2n = diploïde ; n = haploïde (gamètes)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réplication de l'ADN",
+      "verso": "duplication semi-conservative (un brin ancien + un brin neuf)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "ADN vs ARN",
+      "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

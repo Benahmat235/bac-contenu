@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-c-r030",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 30,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-r030-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-r030-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Réciproque d'une rotation ?",
+          "options": [
+            "S = (nb de termes)×(1er + dernier)/2",
+            "AB=|zB−zA|",
+            "xⁿ⁺¹/(n+1) + c",
+            "r(O ; θ)⁻¹ = r(O ; −θ)"
+          ],
+          "reponse": 3,
+          "explication": "r(O ; θ)⁻¹ = r(O ; −θ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vecteurs colinéaires ?",
+          "options": [
+            "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f",
+            "z' = e^{iθ}·z (|a| = 1)",
+            "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+            "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0"
+          ],
+          "reponse": 3,
+          "explication": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Écriture d'une similitude indirecte ?",
+          "options": [
+            "ln(aⁿ) = n·ln a",
+            "E(X)=ΣxᵢP(X=xᵢ)",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]"
+          ],
+          "reponse": 2,
+          "explication": "z'=a z̄+b, avec a∈ℂ*"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

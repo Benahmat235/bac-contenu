@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u032",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Dérivations et étude de fonctions (3/3)",
+  "ordre": 32,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dérivations et étude de fonctions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u032-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u032-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dérivée de √u",
+          "verso": "(√u)' = u'/(2√u)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'une composée",
+          "verso": "(g∘f)'(x) = f'(x)·g'(f(x))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation de la tangente en x₀",
+          "verso": "y = f'(x₀)(x − x₀) + f(x₀)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u032-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u032-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de √u ?",
+          "options": [
+            "(√u)' = u'/(2√u)",
+            "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f",
+            "lim(x→0) sin(x)/x = 1",
+            "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1"
+          ],
+          "reponse": 0,
+          "explication": "(√u)' = u'/(2√u)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une composée ?",
+          "options": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "Résoudre z'=z",
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+          ],
+          "reponse": 2,
+          "explication": "(g∘f)'(x) = f'(x)·g'(f(x))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Équation de la tangente en x₀ ?",
+          "options": [
+            "AB=|zB−zA|",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "(cos x)' = −sin x ; (sin x)' = cos x"
+          ],
+          "reponse": 1,
+          "explication": "y = f'(x₀)(x − x₀) + f(x₀)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dérivée de √u",
+      "verso": "(√u)' = u'/(2√u)"
+    },
+    {
+      "recto": "Dérivée d'une composée",
+      "verso": "(g∘f)'(x) = f'(x)·g'(f(x))"
+    },
+    {
+      "recto": "Équation de la tangente en x₀",
+      "verso": "y = f'(x₀)(x − x₀) + f(x₀)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dérivée de √u",
+      "verso": "(√u)' = u'/(2√u)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée d'une composée",
+      "verso": "(g∘f)'(x) = f'(x)·g'(f(x))",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Équation de la tangente en x₀",
+      "verso": "y = f'(x₀)(x − x₀) + f(x₀)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "svt-c-e040",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Le monohybridisme — Exercices",
+  "ordre": 40,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le monohybridisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-c-e040-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e040-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Déterminer le génotype d'un individu dominant par test-cross :",
+          "etapes": [
+            "Croiser l'individu dominant avec un double récessif (a//a)",
+            "Observer la descendance",
+            "Si 100 % dominants ⇒ parent homozygote A//A",
+            "Si 50 % dominants / 50 % récessifs ⇒ parent hétérozygote A//a"
+          ],
+          "ordreCorrect": [
+            "Croiser l'individu dominant avec un double récessif (a//a)",
+            "Observer la descendance",
+            "Si 100 % dominants ⇒ parent homozygote A//A",
+            "Si 50 % dominants / 50 % récessifs ⇒ parent hétérozygote A//a"
+          ],
+          "explication": "La descendance révèle le génotype."
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e040-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-e040-c",
+      "activites": [
+        {
+          "id": "svt-c-mo-ex01",
+          "enonce": "Qu'est-ce que le monohybridisme ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "C'est l'étude de la transmission d'un seul caractère (un seul couple d'allèles)."
+          ],
+          "reponseFinale": "L'étude de la transmission d'un seul caractère",
+          "competenceId": "svt-c-mo-mono"
+        },
+        {
+          "id": "svt-c-mo-ex02",
+          "enonce": "Qu'est-ce qu'une lignée (race) pure ?",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Une lignée pure est homozygote : ses individus donnent une descendance identique à eux-mêmes."
+          ],
+          "reponseFinale": "Une lignée homozygote à descendance identique",
+          "competenceId": "svt-c-mo-mono"
+        },
+        {
+          "id": "svt-c-mo-ex03",
+          "enonce": "Énoncer la 1re loi de Mendel.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Le croisement de deux races pures donne une génération F1 uniforme (individus tous semblables) : loi d'uniformité des hybrides."
+          ],
+          "reponseFinale": "Loi d'uniformité de la F1",
+          "competenceId": "svt-c-mo-loi"
+        },
+        {
+          "id": "svt-c-mo-ex04",
+          "enonce": "Énoncer la 2e loi de Mendel.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Loi de disjonction (pureté des gamètes) : les deux allèles se séparent lors de la formation des gamètes et se retrouvent en F2."
+          ],
+          "reponseFinale": "Loi de disjonction (ségrégation des allèles)",
+          "competenceId": "svt-c-mo-loi"
+        },
+        {
+          "id": "svt-c-mo-ex05",
+          "enonce": "Définir : gène, allèle.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "Gène : portion d'ADN gouvernant un caractère. Allèle : une des versions possibles d'un gène."
+          ],
+          "reponseFinale": "Gène = déterminant d'un caractère ; allèle = version d'un gène",
+          "competenceId": "svt-c-mo-mono"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-e040-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "svt-c-e040-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "F1 × F1 (dominance parfaite) donne en F2 :",
+          "options": [
+            "100 % dominants",
+            "3/4 dominants, 1/4 récessifs",
+            "50/50",
+            "1/4 : 2/4 : 1/4"
+          ],
+          "reponse": 1,
+          "explication": "Rapport 3 : 1."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "svt-c-mo-ex01",
+      "enonce": "Qu'est-ce que le monohybridisme ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "C'est l'étude de la transmission d'un seul caractère (un seul couple d'allèles)."
+      ],
+      "reponseFinale": "L'étude de la transmission d'un seul caractère",
+      "competenceId": "svt-c-mo-mono"
+    },
+    {
+      "id": "svt-c-mo-ex02",
+      "enonce": "Qu'est-ce qu'une lignée (race) pure ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Une lignée pure est homozygote : ses individus donnent une descendance identique à eux-mêmes."
+      ],
+      "reponseFinale": "Une lignée homozygote à descendance identique",
+      "competenceId": "svt-c-mo-mono"
+    },
+    {
+      "id": "svt-c-mo-ex03",
+      "enonce": "Énoncer la 1re loi de Mendel.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le croisement de deux races pures donne une génération F1 uniforme (individus tous semblables) : loi d'uniformité des hybrides."
+      ],
+      "reponseFinale": "Loi d'uniformité de la F1",
+      "competenceId": "svt-c-mo-loi"
+    },
+    {
+      "id": "svt-c-mo-ex04",
+      "enonce": "Énoncer la 2e loi de Mendel.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Loi de disjonction (pureté des gamètes) : les deux allèles se séparent lors de la formation des gamètes et se retrouvent en F2."
+      ],
+      "reponseFinale": "Loi de disjonction (ségrégation des allèles)",
+      "competenceId": "svt-c-mo-loi"
+    },
+    {
+      "id": "svt-c-mo-ex05",
+      "enonce": "Définir : gène, allèle.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Gène : portion d'ADN gouvernant un caractère. Allèle : une des versions possibles d'un gène."
+      ],
+      "reponseFinale": "Gène = déterminant d'un caractère ; allèle = version d'un gène",
+      "competenceId": "svt-c-mo-mono"
+    },
+    {
+      "id": "svt-c-mo-ex06",
+      "enonce": "Différence entre homozygote et hétérozygote ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Homozygote : deux allèles identiques (A//A). Hétérozygote : deux allèles différents (A//a)."
+      ],
+      "reponseFinale": "Homozygote = allèles identiques ; hétérozygote = allèles différents",
+      "competenceId": "svt-c-mo-mono"
+    },
+    {
+      "id": "svt-c-mo-ex07",
+      "enonce": "Différence entre génotype et phénotype ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Génotype : constitution allélique (ex. A//a). Phénotype : caractère observable (ex. [A])."
+      ],
+      "reponseFinale": "Génotype = allèles ; phénotype = caractère observé",
+      "competenceId": "svt-c-mo-mono"
+    },
+    {
+      "id": "svt-c-mo-ex08",
+      "enonce": "En dominance parfaite, on croise deux races pures. Quel est le phénotype de la F1 ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "F1 hétérozygote (A//a) exprime le seul allèle dominant.",
+        "Tous les individus F1 ont le phénotype dominant."
+      ],
+      "reponseFinale": "F1 uniforme, de phénotype dominant",
+      "competenceId": "svt-c-mo-loi"
+    },
+    {
+      "id": "svt-c-mo-ex09",
+      "enonce": "On croise les hybrides F1 entre eux (A//a × A//a). Quelles proportions phénotypiques en F2 (dominance parfaite) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Échiquier : 1 A//A + 2 A//a + 1 a//a.",
+        "Phénotypes : 3 dominants pour 1 récessif."
+      ],
+      "reponseFinale": "3/4 dominant et 1/4 récessif (3 : 1)",
+      "competenceId": "svt-c-mo-f2"
+    },
+    {
+      "id": "svt-c-mo-ex10",
+      "enonce": "Quelles sont les proportions génotypiques de la F2 (A//a × A//a) ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "1 A//A : 2 A//a : 1 a//a."
+      ],
+      "reponseFinale": "1/4 A//A, 2/4 A//a, 1/4 a//a (1 : 2 : 1)",
+      "competenceId": "svt-c-mo-f2"
+    },
+    {
+      "id": "svt-c-mo-ex11",
+      "enonce": "À quoi sert le croisement-test (test-cross ou backcross) ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "On croise l'individu de phénotype dominant avec un double récessif (a//a) pour connaître son génotype."
+      ],
+      "reponseFinale": "À déterminer le génotype d'un individu dominant",
+      "competenceId": "svt-c-mo-testcross"
+    },
+    {
+      "id": "svt-c-mo-ex12",
+      "enonce": "Un individu dominant croisé avec un récessif donne 50 % dominants et 50 % récessifs. Quel est son génotype ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Une descendance 50/50 avec a//a montre que le parent testé était hétérozygote (A//a)."
+      ],
+      "reponseFinale": "Hétérozygote (A//a)",
+      "competenceId": "svt-c-mo-testcross"
+    },
+    {
+      "id": "svt-c-mo-ex13",
+      "enonce": "Un individu dominant croisé avec un récessif donne 100 % de dominants. Quel est son génotype ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Aucune descendance récessive ⇒ le parent était homozygote (A//A)."
+      ],
+      "reponseFinale": "Homozygote (A//A)",
+      "competenceId": "svt-c-mo-testcross"
+    },
+    {
+      "id": "svt-c-mo-ex14",
+      "enonce": "En dominance intermédiaire, F1 = fleurs roses (parents rouges et blancs). Proportions en F2 ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "Ni dominance : R//B est rose.",
+        "F2 : 1/4 rouge (R//R), 2/4 rose (R//B), 1/4 blanc (B//B)."
+      ],
+      "reponseFinale": "1/4 rouge, 2/4 rose, 1/4 blanc",
+      "competenceId": "svt-c-mo-codominance"
+    },
+    {
+      "id": "svt-c-mo-ex15",
+      "enonce": "Dans le cas d'un gène létal à l'état homozygote dominant, la F2 (A//a × A//a) donne quelles proportions viables ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "A//A meurt (létal).",
+        "Restent 2 A//a (dominants) et 1 a//a (récessif) : 2/3 dominants, 1/3 récessifs."
+      ],
+      "reponseFinale": "2/3 dominants et 1/3 récessifs",
+      "competenceId": "svt-c-mo-codominance"
+    },
+    {
+      "id": "svt-c-mo-ex16",
+      "enonce": "Combien de types de gamètes produit un individu hétérozygote A//a ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Il produit 2 types : A et a, en proportions égales."
+      ],
+      "reponseFinale": "2 types de gamètes (A et a)",
+      "competenceId": "svt-c-mo-mono"
+    }
+  ],
+  "estExercices": true
+}

@@ -1,0 +1,143 @@
+{
+  "id": "chimie-c-u023",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Constante d'acidité et classification (1/2)",
+  "ordre": 23,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Constante d'acidité et classification",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u023-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u023-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Constante d'acidité",
+          "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pKa",
+          "verso": "pKa = −log Ka",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ka à partir du pKa",
+          "verso": "Ka = 10^(−pKa)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u023-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u023-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Constante d'acidité ?",
+          "options": [
+            "alcool 2aire → cétone",
+            "pH < 7 : [H₃O⁺] > [OH⁻]",
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]"
+          ],
+          "reponse": 3,
+          "explication": "Ka = [A⁻]·[H₃O⁺]/[AH]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pKa ?",
+          "options": [
+            "acide + base forte → carboxylate + eau",
+            "pKa = −log Ka",
+            "−CHO (carbonyle en bout de chaîne)",
+            "pH = pKa + log([base]/[acide])"
+          ],
+          "reponse": 1,
+          "explication": "pKa = −log Ka"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ka à partir du pKa ?",
+          "options": [
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "pH = ½·(pKa − log C)",
+            "Ka = 10^(−pKa)",
+            "visualise les conformations autour d'une liaison C–C"
+          ],
+          "reponse": 2,
+          "explication": "Ka = 10^(−pKa)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]"
+    },
+    {
+      "recto": "pKa",
+      "verso": "pKa = −log Ka"
+    },
+    {
+      "recto": "Ka à partir du pKa",
+      "verso": "Ka = 10^(−pKa)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Constante d'acidité",
+      "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "pKa",
+      "verso": "pKa = −log Ka",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Ka à partir du pKa",
+      "verso": "Ka = 10^(−pKa)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Constante d'acidité : Ka et pKa (Terminale)",
+      "url": "https://youtu.be/Qe6VFTmTMIQ",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Constante d'acidité d'un couple acide/base",
+      "url": "https://youtu.be/YmjLYRuFoFg",
+      "type": "video",
+      "chaine": "Super Prof",
+      "auteur": "Super Prof"
+    }
+  ]
+}

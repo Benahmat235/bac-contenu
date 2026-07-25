@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u003",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Limites et continuité (3/3)",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Limites et continuité",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u003-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Asymptote oblique",
+          "verso": "y = ax + b si lim [f(x) − (ax+b)] = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limite trigonométrique de référence",
+          "verso": "lim(x→0) sin(x)/x = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Continuité",
+          "verso": "f est continue en a si lim(x→a) f(x) = f(a)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Asymptote oblique ?",
+          "options": [
+            "u'·eᵘ",
+            "A(n,p)=n!/(n−p)!",
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0"
+          ],
+          "reponse": 3,
+          "explication": "y = ax + b si lim [f(x) − (ax+b)] = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limite trigonométrique de référence ?",
+          "options": [
+            "lim(x→0) sin(x)/x = 1",
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "eⁱᶿ=cosθ+i sinθ",
+            "lim(x→+∞) (ln x)/x = 0"
+          ],
+          "reponse": 0,
+          "explication": "lim(x→0) sin(x)/x = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Continuité ?",
+          "options": [
+            "f est continue en a si lim(x→a) f(x) = f(a)",
+            "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "E(X)=ΣxᵢP(X=xᵢ)"
+          ],
+          "reponse": 0,
+          "explication": "f est continue en a si lim(x→a) f(x) = f(a)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Asymptote oblique",
+      "verso": "y = ax + b si lim [f(x) − (ax+b)] = 0"
+    },
+    {
+      "recto": "Limite trigonométrique de référence",
+      "verso": "lim(x→0) sin(x)/x = 1"
+    },
+    {
+      "recto": "Continuité",
+      "verso": "f est continue en a si lim(x→a) f(x) = f(a)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Asymptote oblique",
+      "verso": "y = ax + b si lim [f(x) − (ax+b)] = 0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Limite trigonométrique de référence",
+      "verso": "lim(x→0) sin(x)/x = 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Continuité",
+      "verso": "f est continue en a si lim(x→a) f(x) = f(a)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

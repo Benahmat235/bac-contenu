@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r050",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 50,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r050-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r050-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Hormones ovariennes ?",
+          "options": [
+            "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+            "assure les échanges entre mère et fœtus",
+            "dû à la répartition au hasard des chromosomes (métaphase I)",
+            "réalise la photosynthèse (cellule végétale uniquement)"
+          ],
+          "reponse": 0,
+          "explication": "œstrogènes (phase folliculaire) et progestérone (corps jaune)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Chromosomes sexuels ?",
+          "options": [
+            "équationnelle (conserve n)",
+            "apporte les acides aminés et porte l'anticodon",
+            "XX (femme) et XY (homme)",
+            "assure les échanges entre mère et fœtus"
+          ],
+          "reponse": 2,
+          "explication": "XX (femme) et XY (homme)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Nombre de gamètes ?",
+          "options": [
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "croisement avec le double récessif pour révéler le génotype",
+            "2^n types de gamètes (n = nombre de paires)",
+            "3/4 dominant, 1/4 récessif (3 : 1)"
+          ],
+          "reponse": 2,
+          "explication": "2^n types de gamètes (n = nombre de paires)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

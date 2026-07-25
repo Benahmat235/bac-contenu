@@ -1,0 +1,342 @@
+{
+  "id": "mathematiques-d-e025",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Suites numériques — Exercices",
+  "ordre": 25,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Suites numériques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-d-e025-methode",
+      "titre": "La méthode (sens de variation)",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-e025-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Étudier le sens de variation d'une suite (uₙ) :",
+          "etapes": [
+            "Calculer uₙ₊₁ − uₙ (ou le rapport uₙ₊₁/uₙ si termes positifs)",
+            "Étudier le signe du résultat",
+            "Conclure : croissante, décroissante ou constante"
+          ],
+          "ordreCorrect": [
+            "Calculer uₙ₊₁ − uₙ (ou le rapport uₙ₊₁/uₙ si termes positifs)",
+            "Étudier le signe du résultat",
+            "Conclure : croissante, décroissante ou constante"
+          ],
+          "explication": "Le signe de uₙ₊₁ − uₙ donne le sens de variation."
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-e025-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-e025-c",
+      "activites": [
+        {
+          "id": "math-d-suite-ex01",
+          "enonce": "Suite arithmétique u₀ = 3, raison r = 2. Calculer u₁₀.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "uₙ = u₀ + nr",
+            "u₁₀ = 3 + 10×2 = 23"
+          ],
+          "reponseFinale": "u₁₀ = 23",
+          "competenceId": "math-d-c-arith"
+        },
+        {
+          "id": "math-d-suite-ex02",
+          "enonce": "Suite arithmétique u₀ = 5, r = −3. Calculer u₈.",
+          "difficulte": "facile",
+          "etapesCorrection": [
+            "u₈ = 5 + 8×(−3) = 5 − 24"
+          ],
+          "reponseFinale": "u₈ = −19",
+          "competenceId": "math-d-c-arith"
+        },
+        {
+          "id": "math-d-suite-ex03",
+          "enonce": "Suite arithmétique u₀ = 1, r = 4. Calculer la somme S = u₀ + … + u₁₀ (11 termes).",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "S = (nombre de termes)×(premier + dernier)/2",
+            "u₁₀ = 1 + 40 = 41",
+            "S = 11×(1+41)/2 = 11×21"
+          ],
+          "reponseFinale": "S = 231",
+          "competenceId": "math-d-c-arith"
+        },
+        {
+          "id": "math-d-suite-ex04",
+          "enonce": "Suite arithmétique : u₃ = 7 et u₇ = 19. Trouver la raison r.",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "u₇ − u₃ = (7−3)r = 4r",
+            "19 − 7 = 12 = 4r",
+            "r = 3"
+          ],
+          "reponseFinale": "r = 3",
+          "competenceId": "math-d-c-arith"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-e025-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "mathematiques-d-e025-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Somme S = 1 + 2 + 4 + ... + 32 (suite géométrique, 6 termes, q=2) :",
+          "options": [
+            "31",
+            "63",
+            "64",
+            "127"
+          ],
+          "reponse": 1,
+          "explication": "S = (1−2⁶)/(1−2) = 63."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "math-d-suite-ex01",
+      "enonce": "Suite arithmétique u₀ = 3, raison r = 2. Calculer u₁₀.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "uₙ = u₀ + nr",
+        "u₁₀ = 3 + 10×2 = 23"
+      ],
+      "reponseFinale": "u₁₀ = 23",
+      "competenceId": "math-d-c-arith"
+    },
+    {
+      "id": "math-d-suite-ex02",
+      "enonce": "Suite arithmétique u₀ = 5, r = −3. Calculer u₈.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u₈ = 5 + 8×(−3) = 5 − 24"
+      ],
+      "reponseFinale": "u₈ = −19",
+      "competenceId": "math-d-c-arith"
+    },
+    {
+      "id": "math-d-suite-ex03",
+      "enonce": "Suite arithmétique u₀ = 1, r = 4. Calculer la somme S = u₀ + … + u₁₀ (11 termes).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "S = (nombre de termes)×(premier + dernier)/2",
+        "u₁₀ = 1 + 40 = 41",
+        "S = 11×(1+41)/2 = 11×21"
+      ],
+      "reponseFinale": "S = 231",
+      "competenceId": "math-d-c-arith"
+    },
+    {
+      "id": "math-d-suite-ex04",
+      "enonce": "Suite arithmétique : u₃ = 7 et u₇ = 19. Trouver la raison r.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "u₇ − u₃ = (7−3)r = 4r",
+        "19 − 7 = 12 = 4r",
+        "r = 3"
+      ],
+      "reponseFinale": "r = 3",
+      "competenceId": "math-d-c-arith"
+    },
+    {
+      "id": "math-d-suite-ex05",
+      "enonce": "Suite géométrique u₀ = 2, raison q = 3. Calculer u₄.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "uₙ = u₀·qⁿ",
+        "u₄ = 2×3⁴ = 2×81"
+      ],
+      "reponseFinale": "u₄ = 162",
+      "competenceId": "math-d-c-geo"
+    },
+    {
+      "id": "math-d-suite-ex06",
+      "enonce": "Suite géométrique u₀ = 5, q = 1/2. Calculer u₃.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "u₃ = 5×(1/2)³ = 5/8"
+      ],
+      "reponseFinale": "u₃ = 5/8",
+      "competenceId": "math-d-c-geo"
+    },
+    {
+      "id": "math-d-suite-ex07",
+      "enonce": "Suite géométrique u₀ = 1, q = 2. Calculer S = u₀+…+u₅ (6 termes).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+        "S = (1 − 2⁶)/(1 − 2) = (1 − 64)/(−1)"
+      ],
+      "reponseFinale": "S = 63",
+      "competenceId": "math-d-c-geo"
+    },
+    {
+      "id": "math-d-suite-ex08",
+      "enonce": "Suite géométrique u₀ = 3, q = 1/3. La suite converge-t-elle ? Vers quoi ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "|q| = 1/3 < 1 → la suite converge",
+        "uₙ = 3(1/3)ⁿ → 0"
+      ],
+      "reponseFinale": "converge vers 0",
+      "competenceId": "math-d-c-conv"
+    },
+    {
+      "id": "math-d-suite-ex09",
+      "enonce": "Étudier le sens de variation de uₙ = 2n + 1.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "uₙ₊₁ − uₙ = 2(n+1)+1 − (2n+1) = 2 > 0",
+        "La suite est croissante"
+      ],
+      "reponseFinale": "croissante",
+      "competenceId": "math-d-c-variation"
+    },
+    {
+      "id": "math-d-suite-ex10",
+      "enonce": "Étudier le sens de variation de uₙ = 1/(n+1), n ∈ ℕ.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "uₙ₊₁ − uₙ = 1/(n+2) − 1/(n+1) < 0",
+        "La suite est décroissante"
+      ],
+      "reponseFinale": "décroissante",
+      "competenceId": "math-d-c-variation"
+    },
+    {
+      "id": "math-d-suite-ex11",
+      "enonce": "Étudier le sens de variation de la suite géométrique uₙ = 2ⁿ.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "uₙ₊₁/uₙ = 2 > 1 et termes positifs",
+        "La suite est croissante"
+      ],
+      "reponseFinale": "croissante",
+      "competenceId": "math-d-c-variation"
+    },
+    {
+      "id": "math-d-suite-ex12",
+      "enonce": "Calculer lim(n→+∞) (3n + 2)/(n − 1).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "rapport des termes dominants 3n/n = 3",
+        "lim = 3"
+      ],
+      "reponseFinale": "3",
+      "competenceId": "math-d-c-limsuite"
+    },
+    {
+      "id": "math-d-suite-ex13",
+      "enonce": "Calculer lim(n→+∞) 1/n².",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "1/n² → 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-d-c-limsuite"
+    },
+    {
+      "id": "math-d-suite-ex14",
+      "enonce": "Suite géométrique de raison q = 1/2 : calculer lim(n→+∞) (1/2)ⁿ.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "|q|<1 → limite 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-d-c-limsuite"
+    },
+    {
+      "id": "math-d-suite-ex15",
+      "enonce": "Suite géométrique de raison q = 3 : la suite uₙ = 3ⁿ est-elle convergente ?",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "|q| = 3 > 1 → divergente vers +∞"
+      ],
+      "reponseFinale": "divergente (→ +∞)",
+      "competenceId": "math-d-c-conv"
+    },
+    {
+      "id": "math-d-suite-ex16",
+      "enonce": "Calculer la limite de uₙ = (2n² − 1)/(n² + 3).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "2n²/n² = 2",
+        "lim = 2"
+      ],
+      "reponseFinale": "2",
+      "competenceId": "math-d-c-limsuite"
+    },
+    {
+      "id": "math-d-suite-ex17",
+      "enonce": "Suite arithmétique u₀ = 10, r = −2 : à partir de quel rang uₙ < 0 ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "uₙ = 10 − 2n < 0",
+        "10 < 2n → n > 5",
+        "donc à partir de n = 6"
+      ],
+      "reponseFinale": "n ≥ 6",
+      "competenceId": "math-d-c-arith"
+    },
+    {
+      "id": "math-d-suite-ex18",
+      "enonce": "Suite arithmétique u₀ = 2, r = 5. Calculer u₂₀.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "u₂₀ = 2 + 20×5 = 102"
+      ],
+      "reponseFinale": "u₂₀ = 102",
+      "competenceId": "math-d-c-arith"
+    },
+    {
+      "id": "math-d-suite-ex19",
+      "enonce": "Suite géométrique u₀ = 4, q = 1/2 : calculer la limite de uₙ.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "|q| = 1/2 < 1 → converge",
+        "uₙ = 4(1/2)ⁿ → 0"
+      ],
+      "reponseFinale": "0",
+      "competenceId": "math-d-c-conv"
+    },
+    {
+      "id": "math-d-suite-ex20",
+      "enonce": "Calculer lim(n→+∞) (n² + 1)/(2n² − n).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "n²/2n² = 1/2",
+        "lim = 1/2"
+      ],
+      "reponseFinale": "1/2",
+      "competenceId": "math-d-c-limsuite"
+    }
+  ],
+  "estExercices": true
+}

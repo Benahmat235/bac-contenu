@@ -1,0 +1,110 @@
+{
+  "id": "francais-u002",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Généralités sur la littérature (2/3)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Généralités sur la littérature",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u002-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le fond d'un texte littéraire ?",
+          "reponseAttendue": "Le contenu : les idées, les thèmes, le message de l'auteur.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le contenu : les idées, les thèmes, le message de l'auteur."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la forme d'un texte littéraire ?",
+          "reponseAttendue": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme.",
+          "modeReponse": "auto_evaluation",
+          "explication": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un thème littéraire ?",
+          "reponseAttendue": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…)."
+        }
+      ]
+    },
+    {
+      "id": "francais-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le fond d'un texte littéraire ?",
+          "options": [
+            "Un bilan du développement, une réponse à la problématique et une ouverture.",
+            "Introduction, développement (thèse, antithèse, synthèse), conclusion.",
+            "Transformer le sujet en une question à laquelle le développement répondra.",
+            "Le contenu : les idées, les thèmes, le message de l'auteur."
+          ],
+          "reponse": 3,
+          "explication": "Le contenu : les idées, les thèmes, le message de l'auteur."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la forme d'un texte littéraire ?",
+          "options": [
+            "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu.",
+            "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple.",
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+          ],
+          "reponse": 3,
+          "explication": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un thème littéraire ?",
+          "options": [
+            "Chinua Achebe (Things Fall Apart), Mongo Beti (Le pauvre Christ de Bomba), Ousmane Sembène (Les bouts de bois de Dieu).",
+            "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…).",
+            "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde.",
+            "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
+          ],
+          "reponse": 1,
+          "explication": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que le fond d'un texte littéraire ?",
+      "verso": "Le contenu : les idées, les thèmes, le message de l'auteur."
+    },
+    {
+      "recto": "Qu'est-ce que la forme d'un texte littéraire ?",
+      "verso": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+    },
+    {
+      "recto": "Qu'est-ce qu'un thème littéraire ?",
+      "verso": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…)."
+    }
+  ]
+}

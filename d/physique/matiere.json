@@ -8,92 +8,220 @@
   "description": "Mécanique, champs, oscillations et électricité : formules, exercices corrigés et quiz.",
   "unites": [
     {
-      "id": "phy-d-cin",
-      "titre": "Cinématique",
+      "id": "physique-d-u001",
+      "titre": "Cinématique (1/2)",
       "ordre": 1,
-      "fichier": "d/physique/unite-01.json",
+      "fichier": "d/physique/unite-001.json",
       "prerequis": []
     },
     {
-      "id": "phy-d-champ",
-      "titre": "Champs et interactions",
+      "id": "physique-d-u002",
+      "titre": "Cinématique (2/2)",
       "ordre": 2,
-      "fichier": "d/physique/unite-02.json",
+      "fichier": "d/physique/unite-002.json",
       "prerequis": []
     },
     {
-      "id": "phy-d-grav",
-      "titre": "Interaction gravitationnelle et satellites",
+      "id": "physique-d-e003",
+      "titre": "Cinématique — Exercices",
       "ordre": 3,
-      "fichier": "d/physique/unite-03.json",
-      "prerequis": [
-        "phy-d-champ"
-      ]
+      "fichier": "d/physique/exercices-003.json",
+      "prerequis": [],
+      "estExercices": true
     },
     {
-      "id": "physique-d-rev01",
-      "titre": "Révision : leçons 1 à 3",
+      "id": "physique-d-u004",
+      "titre": "Champs et interactions (1/2)",
       "ordre": 4,
-      "fichier": "d/physique/revision-01.json",
-      "prerequis": [],
-      "estRevision": true
+      "fichier": "d/physique/unite-004.json",
+      "prerequis": []
     },
     {
-      "id": "phy-d-dyn",
-      "titre": "Mouvement d'une particule soumise à une force constante",
+      "id": "physique-d-r005",
+      "titre": "Révision",
       "ordre": 5,
-      "fichier": "d/physique/unite-04.json",
-      "prerequis": [
-        "phy-d-cin"
-      ]
+      "fichier": "d/physique/revision-005.json",
+      "prerequis": [],
+      "estRevision": true
     },
     {
-      "id": "phy-d-osc",
-      "titre": "Les oscillations mécaniques",
+      "id": "physique-d-u006",
+      "titre": "Champs et interactions (2/2)",
       "ordre": 6,
-      "fichier": "d/physique/unite-05.json",
+      "fichier": "d/physique/unite-006.json",
       "prerequis": []
     },
     {
-      "id": "phy-d-em",
-      "titre": "Électromagnétisme",
+      "id": "physique-d-e007",
+      "titre": "Champs et interactions — Exercices",
       "ordre": 7,
-      "fichier": "d/physique/unite-06.json",
-      "prerequis": [
-        "phy-d-champ"
-      ]
-    },
-    {
-      "id": "physique-d-rev02",
-      "titre": "Révision : leçons 4 à 6",
-      "ordre": 8,
-      "fichier": "d/physique/revision-02.json",
+      "fichier": "d/physique/exercices-007.json",
       "prerequis": [],
-      "estRevision": true
+      "estExercices": true
     },
     {
-      "id": "phy-d-lc",
-      "titre": "Les circuits oscillants",
-      "ordre": 9,
-      "fichier": "d/physique/unite-07.json",
+      "id": "physique-d-u008",
+      "titre": "Interaction gravitationnelle et satellites (1/2)",
+      "ordre": 8,
+      "fichier": "d/physique/unite-008.json",
       "prerequis": []
     },
     {
-      "id": "phy-d-rlc",
-      "titre": "Circuits RLC en régime sinusoïdal forcé",
-      "ordre": 10,
-      "fichier": "d/physique/unite-08.json",
-      "prerequis": [
-        "phy-d-lc"
-      ]
+      "id": "physique-d-u009",
+      "titre": "Interaction gravitationnelle et satellites (2/2)",
+      "ordre": 9,
+      "fichier": "d/physique/unite-009.json",
+      "prerequis": []
     },
     {
-      "id": "physique-d-rev03",
-      "titre": "Révision finale",
-      "ordre": 11,
-      "fichier": "d/physique/revision-03.json",
+      "id": "physique-d-r010",
+      "titre": "Révision",
+      "ordre": 10,
+      "fichier": "d/physique/revision-010.json",
       "prerequis": [],
       "estRevision": true
+    },
+    {
+      "id": "physique-d-e011",
+      "titre": "Interaction gravitationnelle et satellites — Exercices",
+      "ordre": 11,
+      "fichier": "d/physique/exercices-011.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "physique-d-u012",
+      "titre": "Mouvement d'une particule soumise à une force constante (1/2)",
+      "ordre": 12,
+      "fichier": "d/physique/unite-012.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-u013",
+      "titre": "Mouvement d'une particule soumise à une force constante (2/2)",
+      "ordre": 13,
+      "fichier": "d/physique/unite-013.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-e014",
+      "titre": "Mouvement d'une particule soumise à une force constante — Exercices",
+      "ordre": 14,
+      "fichier": "d/physique/exercices-014.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "physique-d-u015",
+      "titre": "Les oscillations mécaniques (1/2)",
+      "ordre": 15,
+      "fichier": "d/physique/unite-015.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-r016",
+      "titre": "Révision",
+      "ordre": 16,
+      "fichier": "d/physique/revision-016.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "physique-d-u017",
+      "titre": "Les oscillations mécaniques (2/2)",
+      "ordre": 17,
+      "fichier": "d/physique/unite-017.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-e018",
+      "titre": "Les oscillations mécaniques — Exercices",
+      "ordre": 18,
+      "fichier": "d/physique/exercices-018.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "physique-d-u019",
+      "titre": "Électromagnétisme (1/2)",
+      "ordre": 19,
+      "fichier": "d/physique/unite-019.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-u020",
+      "titre": "Électromagnétisme (2/2)",
+      "ordre": 20,
+      "fichier": "d/physique/unite-020.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-r021",
+      "titre": "Révision",
+      "ordre": 21,
+      "fichier": "d/physique/revision-021.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "physique-d-e022",
+      "titre": "Électromagnétisme — Exercices",
+      "ordre": 22,
+      "fichier": "d/physique/exercices-022.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "physique-d-u023",
+      "titre": "Les circuits oscillants (1/2)",
+      "ordre": 23,
+      "fichier": "d/physique/unite-023.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-u024",
+      "titre": "Les circuits oscillants (2/2)",
+      "ordre": 24,
+      "fichier": "d/physique/unite-024.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-e025",
+      "titre": "Les circuits oscillants — Exercices",
+      "ordre": 25,
+      "fichier": "d/physique/exercices-025.json",
+      "prerequis": [],
+      "estExercices": true
+    },
+    {
+      "id": "physique-d-u026",
+      "titre": "Circuits RLC en régime sinusoïdal forcé (1/2)",
+      "ordre": 26,
+      "fichier": "d/physique/unite-026.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-r027",
+      "titre": "Révision",
+      "ordre": 27,
+      "fichier": "d/physique/revision-027.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "physique-d-u028",
+      "titre": "Circuits RLC en régime sinusoïdal forcé (2/2)",
+      "ordre": 28,
+      "fichier": "d/physique/unite-028.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-d-e029",
+      "titre": "Circuits RLC en régime sinusoïdal forcé — Exercices",
+      "ordre": 29,
+      "fichier": "d/physique/exercices-029.json",
+      "prerequis": [],
+      "estExercices": true
     }
   ]
 }

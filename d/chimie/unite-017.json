@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u017",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Les réactions acido-basiques (2/2)",
+  "ordre": 17,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les réactions acido-basiques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u017-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u017-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Relation à l'équivalence",
+          "verso": "Ca·Va = Cb·Vb",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pH à l'équivalence (fort/fort)",
+          "verso": "pH = 7",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pH à l'équivalence (faible/forte)",
+          "verso": "pH > 7",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u017-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u017-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Relation à l'équivalence ?",
+          "options": [
+            "alcool 1aire → aldéhyde → acide carboxylique",
+            "C = 10^(pH−14)",
+            "Ca·Va = Cb·Vb",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)"
+          ],
+          "reponse": 2,
+          "explication": "Ca·Va = Cb·Vb"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pH à l'équivalence (fort/fort) ?",
+          "options": [
+            "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+            "pKa = −log Ka",
+            "pH = 7",
+            "forme acide si pH < pKa ; forme basique si pH > pKa"
+          ],
+          "reponse": 2,
+          "explication": "pH = 7"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pH à l'équivalence (faible/forte) ?",
+          "options": [
+            "alcool 1aire → aldéhyde → acide carboxylique",
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+            "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+            "pH > 7"
+          ],
+          "reponse": 3,
+          "explication": "pH > 7"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Relation à l'équivalence",
+      "verso": "Ca·Va = Cb·Vb"
+    },
+    {
+      "recto": "pH à l'équivalence (fort/fort)",
+      "verso": "pH = 7"
+    },
+    {
+      "recto": "pH à l'équivalence (faible/forte)",
+      "verso": "pH > 7"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Relation à l'équivalence",
+      "verso": "Ca·Va = Cb·Vb",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "pH à l'équivalence (fort/fort)",
+      "verso": "pH = 7",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "pH à l'équivalence (faible/forte)",
+      "verso": "pH > 7",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

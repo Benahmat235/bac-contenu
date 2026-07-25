@@ -1,0 +1,127 @@
+{
+  "id": "physique-d-u020",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Électromagnétisme (2/2)",
+  "ordre": 20,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Électromagnétisme",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u020-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u020-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Force de Laplace",
+          "verso": "F = B·I·l·sin(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force de Lorentz",
+          "verso": "F = |q|·v·B·sin(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Unité du flux",
+          "verso": "le weber (Wb)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u020-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u020-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Force de Laplace ?",
+          "options": [
+            "ΣF = m·a",
+            "F = B·I·l·sin(α)",
+            "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
+            "le weber (Wb)"
+          ],
+          "reponse": 1,
+          "explication": "F = B·I·l·sin(α)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force de Lorentz ?",
+          "options": [
+            "v = v₀ + a·t",
+            "F = G·M·m/d²",
+            "F = |q|·v·B·sin(α)",
+            "F = G·M·m/r² = m·v²/r"
+          ],
+          "reponse": 2,
+          "explication": "F = |q|·v·B·sin(α)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Unité du flux ?",
+          "options": [
+            "v = √(G·M/r)",
+            "le weber (Wb)",
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+            "U = Z·I"
+          ],
+          "reponse": 1,
+          "explication": "le weber (Wb)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Force de Laplace",
+      "verso": "F = B·I·l·sin(α)"
+    },
+    {
+      "recto": "Force de Lorentz",
+      "verso": "F = |q|·v·B·sin(α)"
+    },
+    {
+      "recto": "Unité du flux",
+      "verso": "le weber (Wb)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Force de Laplace",
+      "verso": "F = B·I·l·sin(α)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Force de Lorentz",
+      "verso": "F = |q|·v·B·sin(α)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Unité du flux",
+      "verso": "le weber (Wb)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

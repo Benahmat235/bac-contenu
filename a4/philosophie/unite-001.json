@@ -1,0 +1,126 @@
+{
+  "id": "philosophie-u001",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Qu'est-ce que la philosophie ?",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Qu'est-ce que la philosophie ?",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u001-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ .",
+          "reponseAttendue": "sagesse",
+          "modeReponse": "auto_evaluation",
+          "explication": "sagesse"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+          "reponseAttendue": "Aristote",
+          "modeReponse": "auto_evaluation",
+          "explication": "Aristote"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « On n'apprend pas la philosophie, on apprend à philosopher. » ?",
+          "reponseAttendue": "Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "Kant"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ . ?",
+          "options": [
+            "sémiologie",
+            "Jean-Jacques Rousseau",
+            "sagesse",
+            "Blaise Pascal"
+          ],
+          "reponse": 2,
+          "explication": "sagesse"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+          "options": [
+            "Max Weber",
+            "Aristote",
+            "Alain",
+            "Blaise Pascal"
+          ],
+          "reponse": 1,
+          "explication": "Aristote"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « On n'apprend pas la philosophie, on apprend à philosopher. » ?",
+          "options": [
+            "Jean-Paul Sartre",
+            "Hegel",
+            "Kant",
+            "Max Weber"
+          ],
+          "reponse": 2,
+          "explication": "Kant"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ .",
+      "verso": "sagesse"
+    },
+    {
+      "recto": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+      "verso": "Aristote"
+    },
+    {
+      "recto": "Qui a dit : « On n'apprend pas la philosophie, on apprend à philosopher. » ?",
+      "verso": "Kant"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Introduction à la philosophie (Tle A, C, D)",
+      "url": "https://youtu.be/fV9WExq-0OY",
+      "type": "video",
+      "chaine": "Collège Saint Joseph",
+      "auteur": "Collège Saint Joseph"
+    },
+    {
+      "titre": "La réflexion philosophique (cours)",
+      "url": "https://youtu.be/zyS-pSuUTZg",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
+  ]
+}

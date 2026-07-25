@@ -1,0 +1,137 @@
+{
+  "id": "histoire-u010",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La guerre froide (1947-1991) (1/4)",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La guerre froide (1947-1991)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u010-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u010-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la guerre froide ?",
+          "reponseAttendue": "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Plan Marshall ?",
+          "reponseAttendue": "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence soviétique.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence soviétique."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quel plan soviétique contredit le Plan Marshall ?",
+          "reponseAttendue": "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Expliquez coexistence pacifique et équilibre de terreur.",
+          "reponseAttendue": "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs possèdent des armes nucléaires.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs possèdent des armes nucléaires."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u010-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la guerre froide ?",
+          "options": [
+            "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des crimin",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com"
+          ],
+          "reponse": 3,
+          "explication": "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le Plan Marshall ?",
+          "options": [
+            "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence sov"
+          ],
+          "reponse": 3,
+          "explication": "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence soviétique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel plan soviétique contredit le Plan Marshall ?",
+          "options": [
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM.",
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopér"
+          ],
+          "reponse": 2,
+          "explication": "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que la guerre froide ?",
+      "verso": "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS)."
+    },
+    {
+      "recto": "Qu'est-ce que le Plan Marshall ?",
+      "verso": "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence soviétique."
+    },
+    {
+      "recto": "Quel plan soviétique contredit le Plan Marshall ?",
+      "verso": "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM."
+    },
+    {
+      "recto": "Expliquez coexistence pacifique et équilibre de terreur.",
+      "verso": "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs possèdent des armes nucléaires."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La guerre froide (1947-1991)",
+      "url": "https://youtu.be/CqXan9UeNss",
+      "type": "video",
+      "chaine": "Anthony Rizzo",
+      "auteur": "Anthony Rizzo"
+    },
+    {
+      "titre": "Bipolarisation et crises de la guerre froide (Terminale)",
+      "url": "https://youtu.be/iNFcDuHMZlw",
+      "type": "video",
+      "chaine": "Le Labo d'Histoire-Géo",
+      "auteur": "Le Labo d'Histoire-Géo"
+    }
+  ]
+}

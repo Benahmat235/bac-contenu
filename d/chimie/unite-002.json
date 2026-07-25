@@ -1,0 +1,127 @@
+{
+  "id": "chimie-d-u002",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Solutions aqueuses et pH (2/2)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Solutions aqueuses et pH",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-d-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Solution acide",
+          "verso": "pH < 7 : [H₃O⁺] > [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution basique",
+          "verso": "pH > 7 : [H₃O⁺] < [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution neutre",
+          "verso": "pH = 7 : [H₃O⁺] = [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Solution acide ?",
+          "options": [
+            "pH < 7 : [H₃O⁺] > [OH⁻]",
+            "C = 10^(−pH)",
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "réduisent la liqueur de Fehling / le réactif de Tollens"
+          ],
+          "reponse": 0,
+          "explication": "pH < 7 : [H₃O⁺] > [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution basique ?",
+          "options": [
+            "−CO−NH− (liaison amide)",
+            "pH > 7 : [H₃O⁺] < [OH⁻]",
+            "visualise les conformations autour d'une liaison C–C",
+            "forme acide si pH < pKa ; forme basique si pH > pKa"
+          ],
+          "reponse": 1,
+          "explication": "pH > 7 : [H₃O⁺] < [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution neutre ?",
+          "options": [
+            "C lié à 4 groupes tous différents (noté C*)",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "amine + H⁺ → R−NH₃⁺"
+          ],
+          "reponse": 1,
+          "explication": "pH = 7 : [H₃O⁺] = [OH⁻]"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Solution acide",
+      "verso": "pH < 7 : [H₃O⁺] > [OH⁻]"
+    },
+    {
+      "recto": "Solution basique",
+      "verso": "pH > 7 : [H₃O⁺] < [OH⁻]"
+    },
+    {
+      "recto": "Solution neutre",
+      "verso": "pH = 7 : [H₃O⁺] = [OH⁻]"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Solution acide",
+      "verso": "pH < 7 : [H₃O⁺] > [OH⁻]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Solution basique",
+      "verso": "pH > 7 : [H₃O⁺] < [OH⁻]",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Solution neutre",
+      "verso": "pH = 7 : [H₃O⁺] = [OH⁻]",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

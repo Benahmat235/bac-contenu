@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-c-u056",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Les intégrales (2/3)",
+  "ordre": 56,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les intégrales",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u056-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u056-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Primitive logarithmique",
+          "verso": "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive exponentielle composée",
+          "verso": "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Intégration par parties",
+          "verso": "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u056-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u056-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Primitive logarithmique ?",
+          "options": [
+            "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+            "Si a≠1, ω=b/(1−a)",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ u'(x)/u(x) dx = ln|u(x)| + C"
+          ],
+          "reponse": 3,
+          "explication": "∫ u'(x)/u(x) dx = ln|u(x)| + C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Primitive exponentielle composée ?",
+          "options": [
+            "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+            "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "r(O ; θ)⁻¹ = r(O ; −θ)"
+          ],
+          "reponse": 1,
+          "explication": "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Intégration par parties ?",
+          "options": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "u'/u",
+            "|a+ib|=√(a²+b²)",
+            "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'"
+          ],
+          "reponse": 3,
+          "explication": "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Primitive logarithmique",
+      "verso": "∫ u'(x)/u(x) dx = ln|u(x)| + C"
+    },
+    {
+      "recto": "Primitive exponentielle composée",
+      "verso": "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C"
+    },
+    {
+      "recto": "Intégration par parties",
+      "verso": "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Primitive logarithmique",
+      "verso": "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Primitive exponentielle composée",
+      "verso": "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Intégration par parties",
+      "verso": "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

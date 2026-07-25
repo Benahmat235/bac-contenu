@@ -1,0 +1,137 @@
+{
+  "id": "philosophie-u011",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "La justice et le droit",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La justice et le droit",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u011-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Ne pouvant faire que ce qui est juste fût fort, on a fait que ce qui est fort fût juste. » ?",
+          "reponseAttendue": "Blaise Pascal",
+          "modeReponse": "auto_evaluation",
+          "explication": "Blaise Pascal"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le droit est l'ensemble des conditions qui permettent à la liberté de chacun de s'accorder avec la liberté de tous. » ?",
+          "reponseAttendue": "Emmanuel Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "Emmanuel Kant"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « La justice est une charité conforme à la sagesse. » ?",
+          "reponseAttendue": "Leibniz",
+          "modeReponse": "auto_evaluation",
+          "explication": "Leibniz"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le plus fort n'est jamais assez fort pour être toujours le maître, s'il ne transforme sa force en droit et l'obéissance en devoir. » ?",
+          "reponseAttendue": "Jean-Jacques Rousseau",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Jacques Rousseau"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ne pouvant faire que ce qui est juste fût fort, on a fait que ce qui est fort fût juste. » ?",
+          "options": [
+            "Protagoras",
+            "Blaise Pascal",
+            "Emmanuel Kant",
+            "Thomas Hobbes"
+          ],
+          "reponse": 1,
+          "explication": "Blaise Pascal"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le droit est l'ensemble des conditions qui permettent à la liberté de chacun de s'accorder avec la liberté de tous. » ?",
+          "options": [
+            "Leibniz",
+            "Emmanuel Kant",
+            "Jean Rostand",
+            "sémiologie"
+          ],
+          "reponse": 1,
+          "explication": "Emmanuel Kant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « La justice est une charité conforme à la sagesse. » ?",
+          "options": [
+            "variable",
+            "Emmanuel Kant",
+            "Thomas Hobbes",
+            "Leibniz"
+          ],
+          "reponse": 3,
+          "explication": "Leibniz"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « Ne pouvant faire que ce qui est juste fût fort, on a fait que ce qui est fort fût juste. » ?",
+      "verso": "Blaise Pascal"
+    },
+    {
+      "recto": "Qui a dit : « Le droit est l'ensemble des conditions qui permettent à la liberté de chacun de s'accorder avec la liberté de tous. » ?",
+      "verso": "Emmanuel Kant"
+    },
+    {
+      "recto": "Qui a dit : « La justice est une charité conforme à la sagesse. » ?",
+      "verso": "Leibniz"
+    },
+    {
+      "recto": "Qui a dit : « Le plus fort n'est jamais assez fort pour être toujours le maître, s'il ne transforme sa force en droit et l'obéissance en devoir. » ?",
+      "verso": "Jean-Jacques Rousseau"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La justice et le droit - Terminale",
+      "url": "https://youtu.be/ZK3hojwmDYU",
+      "type": "video",
+      "chaine": "Boîte à Philo",
+      "auteur": "Boîte à Philo"
+    },
+    {
+      "titre": "La justice - Terminale",
+      "url": "https://youtu.be/bQyHJlLk4ds",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
+  ]
+}

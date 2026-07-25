@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-d-u022",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Suites numériques (2/3)",
+  "ordre": 22,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Suites numériques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u022-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u022-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Somme d'une suite géométrique (q≠1)",
+          "verso": "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Convergence d'une suite géométrique",
+          "verso": "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Sens de variation",
+          "verso": "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u022-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u022-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Somme d'une suite géométrique (q≠1) ?",
+          "options": [
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+            "k=|a| et α≡arg(a) [2π]",
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "n!=n(n−1)…2×1 et 0!=1"
+          ],
+          "reponse": 0,
+          "explication": "S = u₀·(1 − qⁿ⁺¹)/(1 − q)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Convergence d'une suite géométrique ?",
+          "options": [
+            "si lim f = l (réel) en ±∞, alors y = l",
+            "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+          ],
+          "reponse": 1,
+          "explication": "converge (vers 0) si |q| < 1 ; diverge si |q| > 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Sens de variation ?",
+          "options": [
+            "celle du rapport des termes de plus haut degré",
+            "n·xⁿ⁻¹",
+            "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)",
+            "u'·eᵘ"
+          ],
+          "reponse": 2,
+          "explication": "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Somme d'une suite géométrique (q≠1)",
+      "verso": "S = u₀·(1 − qⁿ⁺¹)/(1 − q)"
+    },
+    {
+      "recto": "Convergence d'une suite géométrique",
+      "verso": "converge (vers 0) si |q| < 1 ; diverge si |q| > 1"
+    },
+    {
+      "recto": "Sens de variation",
+      "verso": "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Somme d'une suite géométrique (q≠1)",
+      "verso": "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Convergence d'une suite géométrique",
+      "verso": "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Sens de variation",
+      "verso": "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

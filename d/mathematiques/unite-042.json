@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-d-u042",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Dénombrement, probabilités et variables aléatoires (2/3)",
+  "ordre": 42,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Dénombrement, probabilités et variables aléatoires",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u042-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u042-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Équiprobabilité",
+          "verso": "P(A)=Card(A)/Card(Ω)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réunion",
+          "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Probabilité conditionnelle",
+          "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Indépendance",
+          "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u042-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u042-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Équiprobabilité ?",
+          "options": [
+            "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+            "P(A)=Card(A)/Card(Ω)",
+            "eᵘ + c"
+          ],
+          "reponse": 2,
+          "explication": "P(A)=Card(A)/Card(Ω)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réunion ?",
+          "options": [
+            "uₙ = u₀·qⁿ",
+            "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
+            "z'=a z̄+b, avec a∈ℂ*",
+            "P(A∪B)=P(A)+P(B)−P(A∩B)"
+          ],
+          "reponse": 3,
+          "explication": "P(A∪B)=P(A)+P(B)−P(A∩B)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Probabilité conditionnelle ?",
+          "options": [
+            "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "ln(ab) = ln a + ln b"
+          ],
+          "reponse": 0,
+          "explication": "P(B|A)=P(A∩B)/P(A), si P(A)>0"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Équiprobabilité",
+      "verso": "P(A)=Card(A)/Card(Ω)"
+    },
+    {
+      "recto": "Réunion",
+      "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)"
+    },
+    {
+      "recto": "Probabilité conditionnelle",
+      "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0"
+    },
+    {
+      "recto": "Indépendance",
+      "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Équiprobabilité",
+      "verso": "P(A)=Card(A)/Card(Ω)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réunion",
+      "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Probabilité conditionnelle",
+      "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Indépendance",
+      "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

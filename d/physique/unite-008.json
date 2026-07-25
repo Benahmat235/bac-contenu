@@ -1,0 +1,159 @@
+{
+  "id": "physique-d-u008",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Interaction gravitationnelle et satellites (1/2)",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Interaction gravitationnelle et satellites",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u008-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u008-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Période d'un satellite (orbite circulaire)",
+          "verso": "T = 2π·√(r³/(G·M))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vitesse orbitale",
+          "verso": "v = √(G·M/r)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Champ de pesanteur à l'altitude h",
+          "verso": "g_h = G·M/(R+h)²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "3ᵉ loi de Kepler",
+          "verso": "T²/r³ = 4π²/(G·M) = constante",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u008-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Période d'un satellite (orbite circulaire) ?",
+          "options": [
+            "T = 2π·√(r³/(G·M))",
+            "E = ½·L·i²",
+            "le weber (Wb)",
+            "T = 2π·√(m/k)"
+          ],
+          "reponse": 0,
+          "explication": "T = 2π·√(r³/(G·M))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse orbitale ?",
+          "options": [
+            "v = √(G·M/r)",
+            "Ec = ½·m·v²",
+            "F = B·I·l·sin(α)",
+            "P = m·g"
+          ],
+          "reponse": 0,
+          "explication": "v = √(G·M/r)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Champ de pesanteur à l'altitude h ?",
+          "options": [
+            "g_h = G·M/(R+h)²",
+            "F = q·E",
+            "x(t) = X_m·cos(ωt + φ)",
+            "F = G·M·m/d²"
+          ],
+          "reponse": 0,
+          "explication": "g_h = G·M/(R+h)²"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Période d'un satellite (orbite circulaire)",
+      "verso": "T = 2π·√(r³/(G·M))"
+    },
+    {
+      "recto": "Vitesse orbitale",
+      "verso": "v = √(G·M/r)"
+    },
+    {
+      "recto": "Champ de pesanteur à l'altitude h",
+      "verso": "g_h = G·M/(R+h)²"
+    },
+    {
+      "recto": "3ᵉ loi de Kepler",
+      "verso": "T²/r³ = 4π²/(G·M) = constante"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Période d'un satellite (orbite circulaire)",
+      "verso": "T = 2π·√(r³/(G·M))",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Vitesse orbitale",
+      "verso": "v = √(G·M/r)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Champ de pesanteur à l'altitude h",
+      "verso": "g_h = G·M/(R+h)²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "3ᵉ loi de Kepler",
+      "verso": "T²/r³ = 4π²/(G·M) = constante",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Mouvement dans un champ de gravitation : Kepler, satellites",
+      "url": "https://youtu.be/ZWGpNvEQaxg",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Interaction gravitationnelle et lois de Kepler (Tle C)",
+      "url": "https://youtu.be/VQKPwvDJKV8",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
+  ]
+}

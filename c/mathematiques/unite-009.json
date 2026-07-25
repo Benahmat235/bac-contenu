@@ -1,0 +1,143 @@
+{
+  "id": "mathematiques-c-u009",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Isométries du plan et applications affines (1/3)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Isométries du plan et applications affines",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-c-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-c-u009-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Translation (écriture complexe)",
+          "verso": "z' = z + b (b = affixe du vecteur)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rotation de centre O",
+          "verso": "z' = e^{iθ}·z (|a| = 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Homothétie de centre O",
+          "verso": "z' = k·z (k réel non nul = rapport)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-c-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translation (écriture complexe) ?",
+          "options": [
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "eᵘ + c",
+            "z' = z + b (b = affixe du vecteur)",
+            "a divise b s'il existe k entier tel que b = k·a"
+          ],
+          "reponse": 2,
+          "explication": "z' = z + b (b = affixe du vecteur)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rotation de centre O ?",
+          "options": [
+            "z' = e^{iθ}·z (|a| = 1)",
+            "nᵖ suites ordonnées de longueur p",
+            "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+            "(g∘f)'(x) = f'(x)·g'(f(x))"
+          ],
+          "reponse": 0,
+          "explication": "z' = e^{iθ}·z (|a| = 1)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Homothétie de centre O ?",
+          "options": [
+            "z'−ω=keⁱᵅ(z−ω)",
+            "1/z=z̄/|z|²",
+            "lim(x→+∞) (ln x)/x = 0",
+            "z' = k·z (k réel non nul = rapport)"
+          ],
+          "reponse": 3,
+          "explication": "z' = k·z (k réel non nul = rapport)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translation (écriture complexe)",
+      "verso": "z' = z + b (b = affixe du vecteur)"
+    },
+    {
+      "recto": "Rotation de centre O",
+      "verso": "z' = e^{iθ}·z (|a| = 1)"
+    },
+    {
+      "recto": "Homothétie de centre O",
+      "verso": "z' = k·z (k réel non nul = rapport)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Translation (écriture complexe)",
+      "verso": "z' = z + b (b = affixe du vecteur)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rotation de centre O",
+      "verso": "z' = e^{iθ}·z (|a| = 1)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Homothétie de centre O",
+      "verso": "z' = k·z (k réel non nul = rapport)",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Transformations ponctuelles et isométries (cours)",
+      "url": "https://youtu.be/v0G9bD1Krmg",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Les isométries : l'essentiel du cours",
+      "url": "https://youtu.be/GLv3u2UvcGI",
+      "type": "video",
+      "chaine": "Beta Educa",
+      "auteur": "Beta Educa"
+    }
+  ]
+}

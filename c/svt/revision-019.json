@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r019",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r019-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Méiose ?",
+          "options": [
+            "sécrétion de testostérone (cellules de Leydig)",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "unité fonctionnelle du système nerveux",
+            "production des spermatozoïdes (spermatogenèse)"
+          ],
+          "reponse": 1,
+          "explication": "double division : 1 cellule 2n → 4 cellules haploïdes n"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Noyau ?",
+          "options": [
+            "environ 9 mois ; se termine par l'accouchement",
+            "gène porté par un chromosome sexuel (souvent X)",
+            "stockage du glucose en glycogène (foie, muscles)",
+            "contient l'information génétique (ADN)"
+          ],
+          "reponse": 3,
+          "explication": "contient l'information génétique (ADN)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Crossing-over ?",
+          "options": [
+            "universel et dégénéré",
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "échange de segments entre chromosomes homologues (prophase I)",
+            "4³ = 64 codons"
+          ],
+          "reponse": 2,
+          "explication": "échange de segments entre chromosomes homologues (prophase I)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

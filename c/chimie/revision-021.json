@@ -1,0 +1,67 @@
+{
+  "id": "chimie-c-r021",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 21,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-r021-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-r021-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Groupe ester ?",
+          "options": [
+            "durée pour consommer la moitié du réactif limitant",
+            "−COO− (−CO−O−)",
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "se dissocie totalement dans l'eau"
+          ],
+          "reponse": 1,
+          "explication": "−COO− (−CO−O−)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de fonction ?",
+          "options": [
+            "AH / A⁻ (l'acide cède un proton H⁺)",
+            "pH = 14 + log C ([OH⁻] = C)",
+            "même formule brute, fonctions différentes",
+            "Ka = 10^(−pKa)"
+          ],
+          "reponse": 2,
+          "explication": "même formule brute, fonctions différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réaction avec une base ?",
+          "options": [
+            "dissociation partielle dans l'eau",
+            "acide + base forte → carboxylate + eau",
+            "diffèrent par la disposition de la chaîne carbonée",
+            "ester + base → carboxylate (savon) + alcool (totale)"
+          ],
+          "reponse": 1,
+          "explication": "acide + base forte → carboxylate + eau"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

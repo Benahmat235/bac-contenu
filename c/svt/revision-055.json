@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r055",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 55,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r055-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r055-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Appareil de Golgi ?",
+          "options": [
+            "maturation et sécrétion des substances",
+            "dû à la répartition au hasard des chromosomes (métaphase I)",
+            "universel et dégénéré",
+            "ovaire + style + stigmate"
+          ],
+          "reponse": 0,
+          "explication": "maturation et sécrétion des substances"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Allèles ABO ?",
+          "options": [
+            "maintiennent constant le nombre de chromosomes de l'espèce",
+            "parentaux majoritaires + recombinés minoritaires",
+            "synthèse de la protéine dans le cytoplasme, sur les ribosomes",
+            "A et B codominants, dominent O (récessif)"
+          ],
+          "reponse": 3,
+          "explication": "A et B codominants, dominent O (récessif)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Segmentation ?",
+          "options": [
+            "premières divisions du zygote",
+            "échange de segments entre chromosomes homologues (prophase I)",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur"
+          ],
+          "reponse": 0,
+          "explication": "premières divisions du zygote"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

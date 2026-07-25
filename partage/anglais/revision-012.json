@@ -1,0 +1,67 @@
+{
+  "id": "anglais-r012",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r012-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'énergie renouvelable' ?",
+          "options": [
+            "to pass an exam",
+            "renewable energy",
+            "human rights",
+            "prevention"
+          ],
+          "reponse": 1,
+          "explication": "renewable energy"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'chômage' ?",
+          "options": [
+            "On the one hand… on the other hand…",
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
+            "to pass an exam",
+            "unemployment"
+          ],
+          "reponse": 3,
+          "explication": "unemployment"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'développement durable' ?",
+          "options": [
+            "The first sentence of a paragraph that states its main idea.",
+            "He said (that) he was happy.",
+            "sustainable development",
+            "gone, seen, written, taken"
+          ],
+          "reponse": 2,
+          "explication": "sustainable development"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

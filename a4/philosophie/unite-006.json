@@ -1,0 +1,103 @@
+{
+  "id": "philosophie-u006",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Nature, culture et civilisation",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Nature, culture et civilisation",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u006-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme naît bon, c'est la société qui le déprave. » ?",
+          "reponseAttendue": "Jean-Jacques Rousseau",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Jacques Rousseau"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "reponseAttendue": "Thomas Hobbes",
+          "modeReponse": "auto_evaluation",
+          "explication": "Thomas Hobbes"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme naît bon, c'est la société qui le déprave. » ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Aristote",
+            "Karl Marx",
+            "Jean-Paul Sartre"
+          ],
+          "reponse": 0,
+          "explication": "Jean-Jacques Rousseau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "options": [
+            "Thomas Hobbes",
+            "Blaise Pascal",
+            "Leibniz",
+            "Emmanuel Kant"
+          ],
+          "reponse": 0,
+          "explication": "Thomas Hobbes"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « L'homme naît bon, c'est la société qui le déprave. » ?",
+      "verso": "Jean-Jacques Rousseau"
+    },
+    {
+      "recto": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+      "verso": "Thomas Hobbes"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Nature et culture (cours)",
+      "url": "https://youtu.be/b-1L8RYJfzw",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Nature et culture - niveau Terminale C",
+      "url": "https://youtu.be/rEyTV6LyzRw",
+      "type": "video",
+      "chaine": "EàDTV CONGO",
+      "auteur": "EàDTV CONGO"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u033",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "De la fécondation à la naissance (3/3)",
+  "ordre": 33,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "De la fécondation à la naissance",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u033-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u033-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Progestérone",
+          "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Durée de grossesse",
+          "verso": "environ 9 mois ; se termine par l'accouchement",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Contraception hormonale",
+          "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u033-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u033-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Progestérone ?",
+          "options": [
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "gène porté par un chromosome sexuel (souvent X)",
+            "4³ = 64 codons",
+            "donneur : O ; receveur : AB"
+          ],
+          "reponse": 0,
+          "explication": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Durée de grossesse ?",
+          "options": [
+            "environ 9 mois ; se termine par l'accouchement",
+            "plantes à fleurs (reproduction dans la fleur)",
+            "siège de la synthèse des protéines",
+            "organe régulateur du glucose (stockage/déstockage)"
+          ],
+          "reponse": 0,
+          "explication": "environ 9 mois ; se termine par l'accouchement"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Contraception hormonale ?",
+          "options": [
+            "échange de segments entre chromosomes homologues (prophase I)",
+            "une des versions possibles d'un gène",
+            "dû au crossing-over",
+            "la pilule bloque l'ovulation (inhibition FSH/LH)"
+          ],
+          "reponse": 3,
+          "explication": "la pilule bloque l'ovulation (inhibition FSH/LH)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Progestérone",
+      "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines"
+    },
+    {
+      "recto": "Durée de grossesse",
+      "verso": "environ 9 mois ; se termine par l'accouchement"
+    },
+    {
+      "recto": "Contraception hormonale",
+      "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Progestérone",
+      "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Durée de grossesse",
+      "verso": "environ 9 mois ; se termine par l'accouchement",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Contraception hormonale",
+      "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

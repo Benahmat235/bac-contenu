@@ -1,0 +1,121 @@
+{
+  "id": "francais-u015",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Méthodologie : la dissertation (1/2)",
+  "ordre": 15,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Méthodologie : la dissertation",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u015-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u015-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une dissertation littéraire ?",
+          "reponseAttendue": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les parties d'une dissertation ?",
+          "reponseAttendue": "Introduction, développement (thèse, antithèse, synthèse), conclusion.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Introduction, développement (thèse, antithèse, synthèse), conclusion."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que doit contenir l'introduction d'une dissertation ?",
+          "reponseAttendue": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que doit contenir la conclusion d'une dissertation ?",
+          "reponseAttendue": "Un bilan du développement, une réponse à la problématique et une ouverture.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un bilan du développement, une réponse à la problématique et une ouverture."
+        }
+      ]
+    },
+    {
+      "id": "francais-u015-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u015-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'une dissertation littéraire ?",
+          "options": [
+            "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal.",
+            "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple.",
+            "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle.",
+            "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+          ],
+          "reponse": 3,
+          "explication": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les parties d'une dissertation ?",
+          "options": [
+            "Introduction, développement (thèse, antithèse, synthèse), conclusion.",
+            "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas).",
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
+            "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole."
+          ],
+          "reponse": 0,
+          "explication": "Introduction, développement (thèse, antithèse, synthèse), conclusion."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que doit contenir l'introduction d'une dissertation ?",
+          "options": [
+            "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais).",
+            "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola.",
+            "Une accroche, la présentation du sujet, la problématique et l'annonce du plan.",
+            "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnel"
+          ],
+          "reponse": 2,
+          "explication": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce qu'une dissertation littéraire ?",
+      "verso": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+    },
+    {
+      "recto": "Quelles sont les parties d'une dissertation ?",
+      "verso": "Introduction, développement (thèse, antithèse, synthèse), conclusion."
+    },
+    {
+      "recto": "Que doit contenir l'introduction d'une dissertation ?",
+      "verso": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+    },
+    {
+      "recto": "Que doit contenir la conclusion d'une dissertation ?",
+      "verso": "Un bilan du développement, une réponse à la problématique et une ouverture."
+    }
+  ]
+}

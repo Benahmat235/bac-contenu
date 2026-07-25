@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u007",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Transmission de l'information génétique (2/3)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Transmission de l'information génétique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u007-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Structure de l'ADN",
+          "verso": "double hélice (Watson et Crick)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gène",
+          "verso": "portion d'ADN responsable d'un caractère héréditaire",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Caryotype",
+          "verso": "ensemble classé des chromosomes d'une cellule",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Structure de l'ADN ?",
+          "options": [
+            "unité structurale et fonctionnelle de tout être vivant",
+            "double hélice (Watson et Crick)",
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "hyaloplasme (fluide) + organites (partie solide)"
+          ],
+          "reponse": 1,
+          "explication": "double hélice (Watson et Crick)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Gène ?",
+          "options": [
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "formation du sac embryonnaire dans l'ovule",
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+            "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+          ],
+          "reponse": 0,
+          "explication": "portion d'ADN responsable d'un caractère héréditaire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Caryotype ?",
+          "options": [
+            "ensemble classé des chromosomes d'une cellule",
+            "apporte les acides aminés et porte l'anticodon",
+            "2^n types de gamètes (n = nombre de paires)",
+            "disjonction des allèles (pureté des gamètes)"
+          ],
+          "reponse": 0,
+          "explication": "ensemble classé des chromosomes d'une cellule"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Structure de l'ADN",
+      "verso": "double hélice (Watson et Crick)"
+    },
+    {
+      "recto": "Gène",
+      "verso": "portion d'ADN responsable d'un caractère héréditaire"
+    },
+    {
+      "recto": "Caryotype",
+      "verso": "ensemble classé des chromosomes d'une cellule"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Structure de l'ADN",
+      "verso": "double hélice (Watson et Crick)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Gène",
+      "verso": "portion d'ADN responsable d'un caractère héréditaire",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Caryotype",
+      "verso": "ensemble classé des chromosomes d'une cellule",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

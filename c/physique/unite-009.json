@@ -1,0 +1,143 @@
+{
+  "id": "physique-c-u009",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "La relation fondamentale de la dynamique (2/2)",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La relation fondamentale de la dynamique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u009-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u009-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Théorème de l'énergie cinétique",
+          "verso": "ΔEc = ΣW(forces)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Projectile : équations horaires",
+          "verso": "x = v₀·t ; y = ½·g·t²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Poids d'un corps",
+          "verso": "P = m·g",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération (force constante)",
+          "verso": "a = F/m (constante)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u009-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Théorème de l'énergie cinétique ?",
+          "options": [
+            "Ec = ½·m·v²",
+            "X = Lω − 1/(Cω)",
+            "ΔEc = ΣW(forces)",
+            "x = v₀·t ; y = ½·g·t²"
+          ],
+          "reponse": 2,
+          "explication": "ΔEc = ΣW(forces)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Projectile : équations horaires ?",
+          "options": [
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "x = v₀·t ; y = ½·g·t²",
+            "f₀ = 1/(2π·√(L·C))",
+            "λ₀ = h·c/W₀"
+          ],
+          "reponse": 1,
+          "explication": "x = v₀·t ; y = ½·g·t²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Poids d'un corps ?",
+          "options": [
+            "P = m·g",
+            "f₀ = 1/(2π·√(L·C))",
+            "h = 6,63×10⁻³⁴ J·s",
+            "A(t) = A₀·e^(−λt)"
+          ],
+          "reponse": 0,
+          "explication": "P = m·g"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Théorème de l'énergie cinétique",
+      "verso": "ΔEc = ΣW(forces)"
+    },
+    {
+      "recto": "Projectile : équations horaires",
+      "verso": "x = v₀·t ; y = ½·g·t²"
+    },
+    {
+      "recto": "Poids d'un corps",
+      "verso": "P = m·g"
+    },
+    {
+      "recto": "Accélération (force constante)",
+      "verso": "a = F/m (constante)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Théorème de l'énergie cinétique",
+      "verso": "ΔEc = ΣW(forces)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Projectile : équations horaires",
+      "verso": "x = v₀·t ; y = ½·g·t²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Poids d'un corps",
+      "verso": "P = m·g",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération (force constante)",
+      "verso": "a = F/m (constante)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

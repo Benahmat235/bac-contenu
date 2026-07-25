@@ -1,0 +1,67 @@
+{
+  "id": "physique-d-r027",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 27,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-r027-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-r027-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "f.é.m. d'une barre en mouvement ?",
+          "options": [
+            "x(t) = X_m·cos(ωt + φ)",
+            "période T = 24 h, au-dessus de l'équateur",
+            "g_h = G·M/(R+h)²",
+            "e = B·l·v"
+          ],
+          "reponse": 3,
+          "explication": "e = B·l·v"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Impédance d'un RLC série ?",
+          "options": [
+            "U = Z·I",
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+            "E = ½·C·u²"
+          ],
+          "reponse": 1,
+          "explication": "Z = √(R² + (Lω − 1/(Cω))²)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Relation sans le temps ?",
+          "options": [
+            "ω₀ = 1/√(L·C)",
+            "v² − v₀² = 2·a·(x − x₀)",
+            "v = R·ω",
+            "ΣF = m·a"
+          ],
+          "reponse": 1,
+          "explication": "v² − v₀² = 2·a·(x − x₀)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

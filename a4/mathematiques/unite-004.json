@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-a4-u004",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Étude de fonction : limites, dérivées et tangentes (1/3)",
+  "ordre": 4,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Étude de fonction : limites, dérivées et tangentes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u004-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u004-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dérivée de xⁿ",
+          "verso": "(xⁿ)' = n·xⁿ⁻¹",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'une somme",
+          "verso": "(u + v)' = u' + v'",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'un produit",
+          "verso": "(u·v)' = u'v + uv'",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'un quotient",
+          "verso": "(u/v)' = (u'v − uv') / v²",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u004-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u004-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de xⁿ ?",
+          "options": [
+            "p(Ā) = 1 − p(A)",
+            "(xⁿ)' = n·xⁿ⁻¹",
+            "(u + v)' = u' + v'",
+            "P(x) = a(x − x₁)(x − x₂)"
+          ],
+          "reponse": 1,
+          "explication": "(xⁿ)' = n·xⁿ⁻¹"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une somme ?",
+          "options": [
+            "Δ = b² − 4ac",
+            "p(A) = Card(A)/Card(Ω)",
+            "(u + v)' = u' + v'",
+            "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a."
+          ],
+          "reponse": 2,
+          "explication": "(u + v)' = u' + v'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'un produit ?",
+          "options": [
+            "(u/v)' = (u'v − uv') / v²",
+            "(u + v)' = u' + v'",
+            "(u·v)' = u'v + uv'",
+            "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a."
+          ],
+          "reponse": 2,
+          "explication": "(u·v)' = u'v + uv'"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dérivée de xⁿ",
+      "verso": "(xⁿ)' = n·xⁿ⁻¹"
+    },
+    {
+      "recto": "Dérivée d'une somme",
+      "verso": "(u + v)' = u' + v'"
+    },
+    {
+      "recto": "Dérivée d'un produit",
+      "verso": "(u·v)' = u'v + uv'"
+    },
+    {
+      "recto": "Dérivée d'un quotient",
+      "verso": "(u/v)' = (u'v − uv') / v²"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dérivée de xⁿ",
+      "verso": "(xⁿ)' = n·xⁿ⁻¹",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée d'une somme",
+      "verso": "(u + v)' = u' + v'",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée d'un produit",
+      "verso": "(u·v)' = u'v + uv'",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée d'un quotient",
+      "verso": "(u/v)' = (u'v − uv') / v²",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La dérivation - Terminale",
+      "url": "https://youtu.be/XAgdHblbajE",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Notion de limite d'une fonction - Terminale",
+      "url": "https://youtu.be/YPwJyYDsmxM",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
+}

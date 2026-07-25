@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r029",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r029-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'un produit ?",
+          "options": [
+            "(uv)' = u'v + uv'",
+            "C(n,p)=n!/(p!(n−p)!)",
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "aˣ = e^(x·ln a)"
+          ],
+          "reponse": 0,
+          "explication": "(uv)' = u'v + uv'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une puissance ?",
+          "options": [
+            "z'=a z̄+b, avec a∈ℂ*",
+            "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+            "factoriser, ou multiplier par l'expression conjuguée",
+            "(uⁿ)' = n·u'·uⁿ⁻¹"
+          ],
+          "reponse": 3,
+          "explication": "(uⁿ)' = n·u'·uⁿ⁻¹"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Somme d'une suite géométrique (q≠1) ?",
+          "options": [
+            "A(n,p)=n!/(n−p)!",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "deux suites adjacentes convergent vers la même limite",
+            "S = u₀·(1 − qⁿ⁺¹)/(1 − q)"
+          ],
+          "reponse": 3,
+          "explication": "S = u₀·(1 − qⁿ⁺¹)/(1 − q)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

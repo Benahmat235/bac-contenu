@@ -1,0 +1,67 @@
+{
+  "id": "histoire-r008",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-r008-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "histoire-r008-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
+          "options": [
+            "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS.",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétique",
+            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/194"
+          ],
+          "reponse": 3,
+          "explication": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que signifie 'droit de véto' ?",
+          "options": [
+            "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
+            "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer",
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,",
+            "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
+          ],
+          "reponse": 1,
+          "explication": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "options": [
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et ",
+            "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+          ],
+          "reponse": 0,
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

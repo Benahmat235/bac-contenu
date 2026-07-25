@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-a4-r010",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-r010-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-r010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de xⁿ ?",
+          "options": [
+            "p(A∪B) = p(A) + p(B) − p(A∩B)",
+            "(xⁿ)' = n·xⁿ⁻¹",
+            "Card(A∪B) = CardA + CardB − Card(A∩B)",
+            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+          ],
+          "reponse": 1,
+          "explication": "(xⁿ)' = n·xⁿ⁻¹"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une somme ?",
+          "options": [
+            "(xⁿ)' = n·xⁿ⁻¹",
+            "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
+            "(u + v)' = u' + v'",
+            "celle du rapport des termes de plus haut degré"
+          ],
+          "reponse": 2,
+          "explication": "(u + v)' = u' + v'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Signe du trinôme P(x) selon Δ ?",
+          "options": [
+            "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a.",
+            "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
+            "n!",
+            "(u·v)' = u'v + uv'"
+          ],
+          "reponse": 0,
+          "explication": "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

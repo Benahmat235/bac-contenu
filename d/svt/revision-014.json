@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r014",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 14,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r014-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r014-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Structure de l'ADN ?",
+          "options": [
+            "double hélice (Watson et Crick)",
+            "cellules β ; hypoglycémiante (fait baisser la glycémie)",
+            "A et B codominants, dominent O (récessif)",
+            "formation des grains de pollen dans l'anthère"
+          ],
+          "reponse": 0,
+          "explication": "double hélice (Watson et Crick)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Propriétés du code ?",
+          "options": [
+            "gène porté par un chromosome sexuel (souvent X)",
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+            "universel et dégénéré",
+            "donneur : O ; receveur : AB"
+          ],
+          "reponse": 2,
+          "explication": "universel et dégénéré"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Support de l'information génétique ?",
+          "options": [
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "étranglements réguliers de la gaine de myéline",
+            "l'ADN (acide désoxyribonucléique)"
+          ],
+          "reponse": 3,
+          "explication": "l'ADN (acide désoxyribonucléique)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

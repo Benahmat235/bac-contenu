@@ -1,0 +1,110 @@
+{
+  "id": "histoire-u017",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La décolonisation de l'Afrique (2/3)",
+  "ordre": 17,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La décolonisation de l'Afrique",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u017-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u017-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Quelles étaient les résolutions de la conférence de Bandung ?",
+          "reponseAttendue": "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi les USA et l'URSS sont-ils anticolonialistes ?",
+          "reponseAttendue": "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme.",
+          "modeReponse": "auto_evaluation",
+          "explication": "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi De Gaulle refuse d'associer les Africains à Brazzaville ?",
+          "reponseAttendue": "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u017-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u017-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelles étaient les résolutions de la conférence de Bandung ?",
+          "options": [
+            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour int",
+            "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des ",
+            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et ",
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com"
+          ],
+          "reponse": 2,
+          "explication": "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pourquoi les USA et l'URSS sont-ils anticolonialistes ?",
+          "options": [
+            "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme",
+            "Internes : intellectuels, religieux, syndicats, étudiants. Externes : rôle anti-colonialiste des USA/URSS, ONU, conféren",
+            "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis"
+          ],
+          "reponse": 0,
+          "explication": "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pourquoi De Gaulle refuse d'associer les Africains à Brazzaville ?",
+          "options": [
+            "Conférence de l'Union, Commission, Conseil Exécutif, Parlement Panafricain, Conseil Économique Social et Culturel.",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent.",
+            "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
+          ],
+          "reponse": 3,
+          "explication": "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quelles étaient les résolutions de la conférence de Bandung ?",
+      "verso": "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples."
+    },
+    {
+      "recto": "Pourquoi les USA et l'URSS sont-ils anticolonialistes ?",
+      "verso": "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme."
+    },
+    {
+      "recto": "Pourquoi De Gaulle refuse d'associer les Africains à Brazzaville ?",
+      "verso": "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
+    }
+  ]
+}

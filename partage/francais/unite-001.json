@@ -1,0 +1,137 @@
+{
+  "id": "francais-u001",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Généralités sur la littérature (1/3)",
+  "ordre": 1,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Généralités sur la littérature",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u001-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u001-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la littérature ?",
+          "reponseAttendue": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique.",
+          "modeReponse": "auto_evaluation",
+          "explication": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelle est la différence entre littérature orale et littérature écrite ?",
+          "reponseAttendue": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un texte littéraire ?",
+          "reponseAttendue": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les 4 grands genres littéraires ?",
+          "reponseAttendue": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif)."
+        }
+      ]
+    },
+    {
+      "id": "francais-u001-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u001-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la littérature ?",
+          "options": [
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme.",
+            "Introduction, développement (thèse, antithèse, synthèse), conclusion.",
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
+          ],
+          "reponse": 3,
+          "explication": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle est la différence entre littérature orale et littérature écrite ?",
+          "options": [
+            "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas).",
+            "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif).",
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
+            "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
+          ],
+          "reponse": 3,
+          "explication": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un texte littéraire ?",
+          "options": [
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+            "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde.",
+            "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger.",
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
+          ],
+          "reponse": 1,
+          "explication": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que la littérature ?",
+      "verso": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
+    },
+    {
+      "recto": "Quelle est la différence entre littérature orale et littérature écrite ?",
+      "verso": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un texte littéraire ?",
+      "verso": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde."
+    },
+    {
+      "recto": "Quels sont les 4 grands genres littéraires ?",
+      "verso": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif)."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La littérature et ses généralités (Terminale)",
+      "url": "https://youtu.be/R9FlaGIg4D8",
+      "type": "video",
+      "chaine": "E-Repetiteur",
+      "auteur": "E-Repetiteur"
+    },
+    {
+      "titre": "Analyser un texte littéraire : le fond et la forme",
+      "url": "https://youtu.be/zFh7fys3QCU",
+      "type": "video",
+      "chaine": "Madame D",
+      "auteur": "Madame D"
+    }
+  ]
+}

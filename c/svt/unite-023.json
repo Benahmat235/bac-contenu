@@ -1,0 +1,127 @@
+{
+  "id": "svt-c-u023",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Reproduction sexuée des spermaphytes (3/3)",
+  "ordre": 23,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Reproduction sexuée des spermaphytes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u023-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u023-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Double fécondation",
+          "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Devenir après fécondation",
+          "verso": "ovule → graine ; ovaire → fruit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Germination",
+          "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u023-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u023-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Double fécondation ?",
+          "options": [
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+            "formation des grains de pollen dans l'anthère",
+            "de nature électrique le long de la fibre",
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)"
+          ],
+          "reponse": 3,
+          "explication": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Devenir après fécondation ?",
+          "options": [
+            "sécrétion de testostérone (cellules de Leydig)",
+            "ovule → graine ; ovaire → fruit",
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "étranglements réguliers de la gaine de myéline"
+          ],
+          "reponse": 1,
+          "explication": "ovule → graine ; ovaire → fruit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Germination ?",
+          "options": [
+            "contient l'information génétique (ADN)",
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+            "l'ADN (acide désoxyribonucléique)"
+          ],
+          "reponse": 1,
+          "explication": "graine → plantule ; nécessite eau, dioxygène et chaleur"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Double fécondation",
+      "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)"
+    },
+    {
+      "recto": "Devenir après fécondation",
+      "verso": "ovule → graine ; ovaire → fruit"
+    },
+    {
+      "recto": "Germination",
+      "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Double fécondation",
+      "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Devenir après fécondation",
+      "verso": "ovule → graine ; ovaire → fruit",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Germination",
+      "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

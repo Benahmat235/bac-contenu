@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u006",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Alcools, polyalcools, aldéhydes et cétones (2/2)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Alcools, polyalcools, aldéhydes et cétones",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u006-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Oxydation alcool secondaire",
+          "verso": "alcool 2aire → cétone",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Alcool tertiaire",
+          "verso": "non oxydable par oxydation ménagée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Test des aldéhydes",
+          "verso": "réduisent la liqueur de Fehling / le réactif de Tollens",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Oxydation alcool secondaire ?",
+          "options": [
+            "alcool 2aire → cétone",
+            "carboxyle −COOH",
+            "pH = pKa + log([base]/[acide])",
+            "Ka = [A⁻]·[H₃O⁺]/[AH]"
+          ],
+          "reponse": 0,
+          "explication": "alcool 2aire → cétone"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Alcool tertiaire ?",
+          "options": [
+            "non oxydable par oxydation ménagée",
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "pKa = −log Ka",
+            "réduisent la liqueur de Fehling / le réactif de Tollens"
+          ],
+          "reponse": 0,
+          "explication": "non oxydable par oxydation ménagée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Test des aldéhydes ?",
+          "options": [
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "durée pour consommer la moitié du réactif limitant",
+            "température et concentration des réactifs",
+            "même formule brute, formules développées différentes"
+          ],
+          "reponse": 0,
+          "explication": "réduisent la liqueur de Fehling / le réactif de Tollens"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Oxydation alcool secondaire",
+      "verso": "alcool 2aire → cétone"
+    },
+    {
+      "recto": "Alcool tertiaire",
+      "verso": "non oxydable par oxydation ménagée"
+    },
+    {
+      "recto": "Test des aldéhydes",
+      "verso": "réduisent la liqueur de Fehling / le réactif de Tollens"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Oxydation alcool secondaire",
+      "verso": "alcool 2aire → cétone",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Alcool tertiaire",
+      "verso": "non oxydable par oxydation ménagée",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Test des aldéhydes",
+      "verso": "réduisent la liqueur de Fehling / le réactif de Tollens",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

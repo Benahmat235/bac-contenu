@@ -1,0 +1,126 @@
+{
+  "id": "philosophie-u003",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Le langage",
+  "ordre": 3,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Le langage",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u003-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u003-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "La langue est étudiée par la linguistique ; le langage, lui, est étudié par la ______ (science des signes).",
+          "reponseAttendue": "sémiologie",
+          "modeReponse": "auto_evaluation",
+          "explication": "sémiologie"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Vouloir penser sans les mots, c'est une tentative insensée. » ?",
+          "reponseAttendue": "Hegel",
+          "modeReponse": "auto_evaluation",
+          "explication": "Hegel"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Ce n'est ni la faim, ni la soif, mais l'amour, la haine, la pitié, la colère qui ont arraché les premières voix. » ?",
+          "reponseAttendue": "Jean-Jacques Rousseau",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Jacques Rousseau"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u003-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u003-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La langue est étudiée par la linguistique ; le langage, lui, est étudié par la ______ (science des signes). ?",
+          "options": [
+            "Max Weber",
+            "Leibniz",
+            "sémiologie",
+            "Karl Marx"
+          ],
+          "reponse": 2,
+          "explication": "sémiologie"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Vouloir penser sans les mots, c'est une tentative insensée. » ?",
+          "options": [
+            "Jean Jaurès",
+            "Jean-Jacques Rousseau",
+            "Hegel",
+            "Leibniz"
+          ],
+          "reponse": 2,
+          "explication": "Hegel"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce n'est ni la faim, ni la soif, mais l'amour, la haine, la pitié, la colère qui ont arraché les premières voix. » ?",
+          "options": [
+            "Emmanuel Kant",
+            "Blaise Pascal",
+            "Karl Marx",
+            "Jean-Jacques Rousseau"
+          ],
+          "reponse": 3,
+          "explication": "Jean-Jacques Rousseau"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "La langue est étudiée par la linguistique ; le langage, lui, est étudié par la ______ (science des signes).",
+      "verso": "sémiologie"
+    },
+    {
+      "recto": "Qui a dit : « Vouloir penser sans les mots, c'est une tentative insensée. » ?",
+      "verso": "Hegel"
+    },
+    {
+      "recto": "Qui a dit : « Ce n'est ni la faim, ni la soif, mais l'amour, la haine, la pitié, la colère qui ont arraché les premières voix. » ?",
+      "verso": "Jean-Jacques Rousseau"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Le langage (cours de philosophie)",
+      "url": "https://youtu.be/C27ac1opVWk",
+      "type": "video",
+      "chaine": "Coursitout",
+      "auteur": "Coursitout"
+    },
+    {
+      "titre": "Le langage - Terminale",
+      "url": "https://youtu.be/mX8gL0vmh3Y",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
+  ]
+}

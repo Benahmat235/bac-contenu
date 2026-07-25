@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-a4-u011",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Probabilité : dénombrement et calcul des probabilités (2/3)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Probabilité : dénombrement et calcul des probabilités",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u011-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Combinaison (tirage simultané, sans ordre)",
+          "verso": "Cⁿₚ = n!/((n−p)!·p!)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Cardinal d'une réunion",
+          "verso": "Card(A∪B) = CardA + CardB − Card(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Probabilité d'un événement (équiprobabilité)",
+          "verso": "p(A) = Card(A)/Card(Ω)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Combinaison (tirage simultané, sans ordre) ?",
+          "options": [
+            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
+            "n!",
+            "Cⁿₚ = n!/((n−p)!·p!)"
+          ],
+          "reponse": 3,
+          "explication": "Cⁿₚ = n!/((n−p)!·p!)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cardinal d'une réunion ?",
+          "options": [
+            "nᵖ",
+            "Aucune racine réelle : S = ∅",
+            "Card(A∪B) = CardA + CardB − Card(A∩B)",
+            "celle de son monôme de plus haut degré"
+          ],
+          "reponse": 2,
+          "explication": "Card(A∪B) = CardA + CardB − Card(A∩B)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Probabilité d'un événement (équiprobabilité) ?",
+          "options": [
+            "Aⁿₚ = n!/(n−p)!",
+            "p(Ā) = 1 − p(A)",
+            "Aucune racine réelle : S = ∅",
+            "p(A) = Card(A)/Card(Ω)"
+          ],
+          "reponse": 3,
+          "explication": "p(A) = Card(A)/Card(Ω)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Combinaison (tirage simultané, sans ordre)",
+      "verso": "Cⁿₚ = n!/((n−p)!·p!)"
+    },
+    {
+      "recto": "Cardinal d'une réunion",
+      "verso": "Card(A∪B) = CardA + CardB − Card(A∩B)"
+    },
+    {
+      "recto": "Probabilité d'un événement (équiprobabilité)",
+      "verso": "p(A) = Card(A)/Card(Ω)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Combinaison (tirage simultané, sans ordre)",
+      "verso": "Cⁿₚ = n!/((n−p)!·p!)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Cardinal d'une réunion",
+      "verso": "Card(A∪B) = CardA + CardB − Card(A∩B)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Probabilité d'un événement (équiprobabilité)",
+      "verso": "p(A) = Card(A)/Card(Ω)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": "physique-d-e011",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Interaction gravitationnelle et satellites — Exercices",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Interaction gravitationnelle et satellites",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-d-e011-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e011-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Calculer la période d'un satellite :",
+          "etapes": [
+            "Identifier le rayon r de l'orbite",
+            "Écrire T = 2π√(r³/(GM))",
+            "Calculer r³ puis r³/(GM)",
+            "Prendre la racine et multiplier par 2π"
+          ],
+          "ordreCorrect": [
+            "Identifier le rayon r de l'orbite",
+            "Écrire T = 2π√(r³/(GM))",
+            "Calculer r³ puis r³/(GM)",
+            "Prendre la racine et multiplier par 2π"
+          ],
+          "explication": "On applique la 3ᵉ loi de Kepler."
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e011-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-e011-c",
+      "activites": [
+        {
+          "id": "phy-d-grav-ex01",
+          "enonce": "Satellite terrestre en orbite circulaire de rayon r = 7e+06 m. Calculer la période T (G·M = 4e+14).",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "T = 2π·√(r³/(G·M))",
+            "r³ = 3.43e+20"
+          ],
+          "reponseFinale": "T ≈ 5.82e+03 s",
+          "competenceId": "phy-d-grav-c-periode"
+        },
+        {
+          "id": "phy-d-grav-ex02",
+          "enonce": "Satellite terrestre en orbite circulaire de rayon r = 4.2e+07 m. Calculer la période T (G·M = 4e+14).",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "T = 2π·√(r³/(G·M))",
+            "r³ = 7.41e+22"
+          ],
+          "reponseFinale": "T ≈ 8.55e+04 s",
+          "competenceId": "phy-d-grav-c-periode"
+        },
+        {
+          "id": "phy-d-grav-ex03",
+          "enonce": "Satellite terrestre en orbite circulaire de rayon r = 8e+06 m. Calculer la période T (G·M = 4e+14).",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "T = 2π·√(r³/(G·M))",
+            "r³ = 5.12e+20"
+          ],
+          "reponseFinale": "T ≈ 7.11e+03 s",
+          "competenceId": "phy-d-grav-c-periode"
+        },
+        {
+          "id": "phy-d-grav-ex04",
+          "enonce": "Satellite terrestre en orbite circulaire de rayon r = 2e+07 m. Calculer la période T (G·M = 4e+14).",
+          "difficulte": "difficile",
+          "etapesCorrection": [
+            "T = 2π·√(r³/(G·M))",
+            "r³ = 8e+21"
+          ],
+          "reponseFinale": "T ≈ 2.81e+04 s",
+          "competenceId": "phy-d-grav-c-periode"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-e011-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "physique-d-e011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Un satellite géostationnaire a une période de :",
+          "options": [
+            "1 h",
+            "12 h",
+            "24 h",
+            "1 an"
+          ],
+          "reponse": 2,
+          "explication": "Il suit la rotation de la Terre."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "phy-d-grav-ex01",
+      "enonce": "Satellite terrestre en orbite circulaire de rayon r = 7e+06 m. Calculer la période T (G·M = 4e+14).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T = 2π·√(r³/(G·M))",
+        "r³ = 3.43e+20"
+      ],
+      "reponseFinale": "T ≈ 5.82e+03 s",
+      "competenceId": "phy-d-grav-c-periode"
+    },
+    {
+      "id": "phy-d-grav-ex02",
+      "enonce": "Satellite terrestre en orbite circulaire de rayon r = 4.2e+07 m. Calculer la période T (G·M = 4e+14).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T = 2π·√(r³/(G·M))",
+        "r³ = 7.41e+22"
+      ],
+      "reponseFinale": "T ≈ 8.55e+04 s",
+      "competenceId": "phy-d-grav-c-periode"
+    },
+    {
+      "id": "phy-d-grav-ex03",
+      "enonce": "Satellite terrestre en orbite circulaire de rayon r = 8e+06 m. Calculer la période T (G·M = 4e+14).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T = 2π·√(r³/(G·M))",
+        "r³ = 5.12e+20"
+      ],
+      "reponseFinale": "T ≈ 7.11e+03 s",
+      "competenceId": "phy-d-grav-c-periode"
+    },
+    {
+      "id": "phy-d-grav-ex04",
+      "enonce": "Satellite terrestre en orbite circulaire de rayon r = 2e+07 m. Calculer la période T (G·M = 4e+14).",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T = 2π·√(r³/(G·M))",
+        "r³ = 8e+21"
+      ],
+      "reponseFinale": "T ≈ 2.81e+04 s",
+      "competenceId": "phy-d-grav-c-periode"
+    },
+    {
+      "id": "phy-d-grav-ex05",
+      "enonce": "Vitesse d'un satellite en orbite circulaire de rayon r = 7e+06 m.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(G·M/r)",
+        "v = √(4e+14/7e+06)"
+      ],
+      "reponseFinale": "v ≈ 7.56e+03 m/s",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex06",
+      "enonce": "Vitesse d'un satellite en orbite circulaire de rayon r = 4.2e+07 m.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(G·M/r)",
+        "v = √(4e+14/4.2e+07)"
+      ],
+      "reponseFinale": "v ≈ 3.09e+03 m/s",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex07",
+      "enonce": "Vitesse d'un satellite en orbite circulaire de rayon r = 8e+06 m.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(G·M/r)",
+        "v = √(4e+14/8e+06)"
+      ],
+      "reponseFinale": "v ≈ 7.07e+03 m/s",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex08",
+      "enonce": "Champ de pesanteur à l'altitude h = 4e+05 m (R = 6,4e6 m). Calculer g_h = GM/(R+h)².",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g_h = G·M/(R+h)²",
+        "R+h = 6.8e+06 m"
+      ],
+      "reponseFinale": "g_h ≈ 8.65 m/s²",
+      "competenceId": "phy-d-grav-c-champ-h"
+    },
+    {
+      "id": "phy-d-grav-ex09",
+      "enonce": "Champ de pesanteur à l'altitude h = 3.6e+07 m (R = 6,4e6 m). Calculer g_h = GM/(R+h)².",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g_h = G·M/(R+h)²",
+        "R+h = 4.24e+07 m"
+      ],
+      "reponseFinale": "g_h ≈ 0.22 m/s²",
+      "competenceId": "phy-d-grav-c-champ-h"
+    },
+    {
+      "id": "phy-d-grav-ex10",
+      "enonce": "Champ de pesanteur à l'altitude h = 8e+05 m (R = 6,4e6 m). Calculer g_h = GM/(R+h)².",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "g_h = G·M/(R+h)²",
+        "R+h = 7.2e+06 m"
+      ],
+      "reponseFinale": "g_h ≈ 7.72 m/s²",
+      "competenceId": "phy-d-grav-c-champ-h"
+    },
+    {
+      "id": "phy-d-grav-ex11",
+      "enonce": "Un satellite géostationnaire a une période de :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Il tourne avec la Terre",
+        "T = 24 h (86 400 s)"
+      ],
+      "reponseFinale": "24 heures (86 400 s)",
+      "competenceId": "phy-d-grav-c-geo"
+    },
+    {
+      "id": "phy-d-grav-ex12",
+      "enonce": "3ᵉ loi de Kepler : pour tous les satellites d'un même astre, la quantité T²/r³ est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "T²/r³ = 4π²/(G·M) = constante"
+      ],
+      "reponseFinale": "constante",
+      "competenceId": "phy-d-grav-c-kepler"
+    },
+    {
+      "id": "phy-d-grav-ex13",
+      "enonce": "Vérifier la 3ᵉ loi de Kepler : r = 7e+06 m, T = 5.8e+03 s. Calculer T²/r³.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T²/r³ doit être constant pour un même astre",
+        "= 5.8e+03²/7e+06³"
+      ],
+      "reponseFinale": "T²/r³ ≈ 9.81e-14 s²/m³",
+      "competenceId": "phy-d-grav-c-kepler"
+    },
+    {
+      "id": "phy-d-grav-ex14",
+      "enonce": "Vérifier la 3ᵉ loi de Kepler : r = 4.2e+07 m, T = 8.64e+04 s. Calculer T²/r³.",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T²/r³ doit être constant pour un même astre",
+        "= 8.64e+04²/4.2e+07³"
+      ],
+      "reponseFinale": "T²/r³ ≈ 1.01e-13 s²/m³",
+      "competenceId": "phy-d-grav-c-kepler"
+    },
+    {
+      "id": "phy-d-grav-ex15",
+      "enonce": "La vitesse d'un satellite en orbite basse dépend-elle de sa masse ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(GM/r) : la masse du satellite n'apparaît pas"
+      ],
+      "reponseFinale": "Non",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex16",
+      "enonce": "Plus un satellite est haut (r grand), plus sa vitesse est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(GM/r) diminue quand r augmente"
+      ],
+      "reponseFinale": "faible",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex17",
+      "enonce": "La force qui maintient un satellite en orbite est :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "la force de gravitation (centripète)"
+      ],
+      "reponseFinale": "la force de gravitation",
+      "competenceId": "phy-d-grav-c-periode"
+    },
+    {
+      "id": "phy-d-grav-ex18",
+      "enonce": "Un satellite géostationnaire est situé au-dessus de :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Il reste fixe au-dessus d'un point de l'équateur"
+      ],
+      "reponseFinale": "l'équateur",
+      "competenceId": "phy-d-grav-c-geo"
+    },
+    {
+      "id": "phy-d-grav-ex19",
+      "enonce": "Satellite : r = 1.5e+07 m. Vitesse orbitale ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(G·M/r)"
+      ],
+      "reponseFinale": "v ≈ 5.17e+03 m/s",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex20",
+      "enonce": "Satellite : r = 3e+07 m. Vitesse orbitale ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "v = √(G·M/r)"
+      ],
+      "reponseFinale": "v ≈ 3.65e+03 m/s",
+      "competenceId": "phy-d-grav-c-vitesse"
+    },
+    {
+      "id": "phy-d-grav-ex21",
+      "enonce": "Satellite : r = 1e+07 m. Période orbitale ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T = 2π√(r³/(G·M))"
+      ],
+      "reponseFinale": "T ≈ 9.93e+03 s",
+      "competenceId": "phy-d-grav-c-periode"
+    },
+    {
+      "id": "phy-d-grav-ex22",
+      "enonce": "Satellite : r = 2.5e+07 m. Période orbitale ?",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "T = 2π√(r³/(G·M))"
+      ],
+      "reponseFinale": "T ≈ 3.93e+04 s",
+      "competenceId": "phy-d-grav-c-periode"
+    }
+  ],
+  "estExercices": true
+}

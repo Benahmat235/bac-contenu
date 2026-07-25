@@ -1,0 +1,67 @@
+{
+  "id": "philosophie-r012",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Révision",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-r012-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-r012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Marx distingue le capital constant (machines) et le capital ______ , qui sert à payer les salaires. ?",
+          "options": [
+            "sémiologie",
+            "suis",
+            "variable",
+            "Protagoras"
+          ],
+          "reponse": 2,
+          "explication": "variable"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le moi n'est pas maître dans sa propre maison. » ?",
+          "options": [
+            "sagesse",
+            "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous.",
+            "Sigmund Freud",
+            "Jean-Paul Sartre"
+          ],
+          "reponse": 2,
+          "explication": "Sigmund Freud"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "options": [
+            "solipsisme",
+            "Thomas Hobbes",
+            "Jean-Jacques Rousseau",
+            "Karl Marx"
+          ],
+          "reponse": 1,
+          "explication": "Thomas Hobbes"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

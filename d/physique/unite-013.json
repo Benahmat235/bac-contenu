@@ -1,0 +1,143 @@
+{
+  "id": "physique-d-u013",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Mouvement d'une particule soumise à une force constante (2/2)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Mouvement d'une particule soumise à une force constante",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-d-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-d-u013-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Théorème de l'énergie cinétique",
+          "verso": "ΔEc = ΣW(forces)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Projectile : équations horaires",
+          "verso": "x = v₀·t ; y = ½·g·t²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Poids d'un corps",
+          "verso": "P = m·g",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération (force constante)",
+          "verso": "a = F/m (constante)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-d-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Théorème de l'énergie cinétique ?",
+          "options": [
+            "v = R·ω",
+            "F = B·I·l·sin(α)",
+            "E = ½·L·i²",
+            "ΔEc = ΣW(forces)"
+          ],
+          "reponse": 3,
+          "explication": "ΔEc = ΣW(forces)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Projectile : équations horaires ?",
+          "options": [
+            "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+            "F = |q|·v·B·sin(α)",
+            "x = v₀·t ; y = ½·g·t²",
+            "F = G·M·m/d²"
+          ],
+          "reponse": 2,
+          "explication": "x = v₀·t ; y = ½·g·t²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Poids d'un corps ?",
+          "options": [
+            "g_h = G·M/(R+h)²",
+            "période T = 24 h, au-dessus de l'équateur",
+            "E = ½·L·i²",
+            "P = m·g"
+          ],
+          "reponse": 3,
+          "explication": "P = m·g"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Théorème de l'énergie cinétique",
+      "verso": "ΔEc = ΣW(forces)"
+    },
+    {
+      "recto": "Projectile : équations horaires",
+      "verso": "x = v₀·t ; y = ½·g·t²"
+    },
+    {
+      "recto": "Poids d'un corps",
+      "verso": "P = m·g"
+    },
+    {
+      "recto": "Accélération (force constante)",
+      "verso": "a = F/m (constante)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Théorème de l'énergie cinétique",
+      "verso": "ΔEc = ΣW(forces)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Projectile : équations horaires",
+      "verso": "x = v₀·t ; y = ½·g·t²",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Poids d'un corps",
+      "verso": "P = m·g",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Accélération (force constante)",
+      "verso": "a = F/m (constante)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

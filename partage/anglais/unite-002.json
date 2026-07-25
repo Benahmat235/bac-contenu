@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u002",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Vocabulary: Education & Society (2/3)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Vocabulary: Education & Society",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u002-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'analphabétisme'",
+          "reponseAttendue": "illiteracy",
+          "modeReponse": "auto_evaluation",
+          "explication": "illiteracy"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'taux de scolarisation'",
+          "reponseAttendue": "enrollment rate / schooling rate",
+          "modeReponse": "auto_evaluation",
+          "explication": "enrollment rate / schooling rate"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'pauvreté'",
+          "reponseAttendue": "poverty",
+          "modeReponse": "auto_evaluation",
+          "explication": "poverty"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'analphabétisme' ?",
+          "options": [
+            "Furthermore, moreover, in addition, besides.",
+            "For general truths. Ex: 'If you heat water, it boils.'",
+            "illiteracy",
+            "life expectancy"
+          ],
+          "reponse": 2,
+          "explication": "illiteracy"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'taux de scolarisation' ?",
+          "options": [
+            "human rights",
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "In conclusion, to sum up, all in all, finally.",
+            "enrollment rate / schooling rate"
+          ],
+          "reponse": 3,
+          "explication": "enrollment rate / schooling rate"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'pauvreté' ?",
+          "options": [
+            "On the one hand… on the other hand…",
+            "unemployment",
+            "poverty",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 2,
+          "explication": "poverty"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'analphabétisme'",
+      "verso": "illiteracy"
+    },
+    {
+      "recto": "Translate: 'taux de scolarisation'",
+      "verso": "enrollment rate / schooling rate"
+    },
+    {
+      "recto": "Translate: 'pauvreté'",
+      "verso": "poverty"
+    }
+  ]
+}

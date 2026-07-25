@@ -1,0 +1,137 @@
+{
+  "id": "anglais-u005",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Vocabulary: Environment & Health (1/3)",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Vocabulary: Environment & Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u005-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u005-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'changement climatique'",
+          "reponseAttendue": "climate change",
+          "modeReponse": "auto_evaluation",
+          "explication": "climate change"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'déforestation'",
+          "reponseAttendue": "deforestation",
+          "modeReponse": "auto_evaluation",
+          "explication": "deforestation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'sécheresse'",
+          "reponseAttendue": "drought",
+          "modeReponse": "auto_evaluation",
+          "explication": "drought"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'pollution de l'eau'",
+          "reponseAttendue": "water pollution",
+          "modeReponse": "auto_evaluation",
+          "explication": "water pollution"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u005-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'changement climatique' ?",
+          "options": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "baccalaureate / high school diploma",
+            "The first sentence of a paragraph that states its main idea.",
+            "climate change"
+          ],
+          "reponse": 3,
+          "explication": "climate change"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'déforestation' ?",
+          "options": [
+            "She said (that) she would come.",
+            "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
+            "deforestation",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 2,
+          "explication": "deforestation"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'sécheresse' ?",
+          "options": [
+            "drought",
+            "enrollment rate / schooling rate",
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          ],
+          "reponse": 0,
+          "explication": "drought"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'changement climatique'",
+      "verso": "climate change"
+    },
+    {
+      "recto": "Translate: 'déforestation'",
+      "verso": "deforestation"
+    },
+    {
+      "recto": "Translate: 'sécheresse'",
+      "verso": "drought"
+    },
+    {
+      "recto": "Translate: 'pollution de l'eau'",
+      "verso": "water pollution"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Learn ALL English tenses (under 30 minutes)",
+      "url": "https://youtu.be/Ljjiw9mC_Cg",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "How to learn ALL 12 tenses",
+      "url": "https://youtu.be/mScixcyubUY",
+      "type": "video",
+      "chaine": "engVid · Rebecca",
+      "auteur": "engVid · Rebecca"
+    }
+  ]
+}

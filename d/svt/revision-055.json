@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r055",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 55,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r055-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r055-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Expression d'un gène ?",
+          "options": [
+            "Turner 44A+X (45) ; Klinefelter 44A+XXY (47)",
+            "transmission de deux caractères (deux couples d'allèles)",
+            "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+            "calice (sépales) et corolle (pétales)"
+          ],
+          "reponse": 2,
+          "explication": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Progestérone ?",
+          "options": [
+            "développement des caractères sexuels secondaires masculins",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "ovule → graine ; ovaire → fruit",
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote"
+          ],
+          "reponse": 1,
+          "explication": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Transcription ?",
+          "options": [
+            "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+            "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "étranglements réguliers de la gaine de myéline"
+          ],
+          "reponse": 0,
+          "explication": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

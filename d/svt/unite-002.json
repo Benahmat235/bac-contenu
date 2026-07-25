@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u002",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Organisation de la cellule (2/3)",
+  "ordre": 2,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Organisation de la cellule",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u002-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u002-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Mitochondrie",
+          "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Chloroplaste",
+          "verso": "réalise la photosynthèse (cellule végétale uniquement)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ribosomes",
+          "verso": "siège de la synthèse des protéines",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u002-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u002-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Mitochondrie ?",
+          "options": [
+            "XX (femme) et XY (homme)",
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles"
+          ],
+          "reponse": 2,
+          "explication": "siège de la respiration cellulaire, produit l'énergie (ATP)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Chloroplaste ?",
+          "options": [
+            "équationnelle (conserve n)",
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "l'ampoule de la trompe"
+          ],
+          "reponse": 1,
+          "explication": "réalise la photosynthèse (cellule végétale uniquement)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "production des spermatozoïdes (spermatogenèse)",
+            "échange de segments entre chromosomes homologues (prophase I)",
+            "produit des gamètes recombinés (minoritaires)",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 3,
+          "explication": "siège de la synthèse des protéines"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Mitochondrie",
+      "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)"
+    },
+    {
+      "recto": "Chloroplaste",
+      "verso": "réalise la photosynthèse (cellule végétale uniquement)"
+    },
+    {
+      "recto": "Ribosomes",
+      "verso": "siège de la synthèse des protéines"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Mitochondrie",
+      "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Chloroplaste",
+      "verso": "réalise la photosynthèse (cellule végétale uniquement)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Ribosomes",
+      "verso": "siège de la synthèse des protéines",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

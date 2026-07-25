@@ -1,0 +1,143 @@
+{
+  "id": "svt-c-u022",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Reproduction sexuée des spermaphytes (2/3)",
+  "ordre": 22,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Reproduction sexuée des spermaphytes",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-u022-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-c-u022-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Microsporogenèse",
+          "verso": "formation des grains de pollen dans l'anthère",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Macrosporogenèse",
+          "verso": "formation du sac embryonnaire dans l'ovule",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Carpelle",
+          "verso": "ovaire + style + stigmate",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pollinisation",
+          "verso": "transport du pollen vers le stigmate (anémophile/entomophile)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-c-u022-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-u022-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Microsporogenèse ?",
+          "options": [
+            "unité fonctionnelle du système nerveux",
+            "transport du pollen vers le stigmate (anémophile/entomophile)",
+            "formation des grains de pollen dans l'anthère",
+            "étamines (androcée) et carpelles (gynécée)"
+          ],
+          "reponse": 2,
+          "explication": "formation des grains de pollen dans l'anthère"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Macrosporogenèse ?",
+          "options": [
+            "FSH et LH ; le pic de LH déclenche l'ovulation",
+            "organe régulateur du glucose (stockage/déstockage)",
+            "formation du sac embryonnaire dans l'ovule",
+            "ovule → graine ; ovaire → fruit"
+          ],
+          "reponse": 2,
+          "explication": "formation du sac embryonnaire dans l'ovule"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Carpelle ?",
+          "options": [
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "organe régulateur du glucose (stockage/déstockage)",
+            "transmission de deux caractères (deux couples d'allèles)",
+            "ovaire + style + stigmate"
+          ],
+          "reponse": 3,
+          "explication": "ovaire + style + stigmate"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Microsporogenèse",
+      "verso": "formation des grains de pollen dans l'anthère"
+    },
+    {
+      "recto": "Macrosporogenèse",
+      "verso": "formation du sac embryonnaire dans l'ovule"
+    },
+    {
+      "recto": "Carpelle",
+      "verso": "ovaire + style + stigmate"
+    },
+    {
+      "recto": "Pollinisation",
+      "verso": "transport du pollen vers le stigmate (anémophile/entomophile)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Microsporogenèse",
+      "verso": "formation des grains de pollen dans l'anthère",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Macrosporogenèse",
+      "verso": "formation du sac embryonnaire dans l'ovule",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Carpelle",
+      "verso": "ovaire + style + stigmate",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pollinisation",
+      "verso": "transport du pollen vers le stigmate (anémophile/entomophile)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

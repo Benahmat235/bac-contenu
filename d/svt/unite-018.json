@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u018",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Brassage génétique et méiose (3/3)",
+  "ordre": 18,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Brassage génétique et méiose",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u018-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u018-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Nombre de gamètes",
+          "verso": "2^n types de gamètes (n = nombre de paires)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fécondation",
+          "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rôle méiose + fécondation",
+          "verso": "maintiennent constant le nombre de chromosomes de l'espèce",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u018-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u018-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombre de gamètes ?",
+          "options": [
+            "2^n types de gamètes (n = nombre de paires)",
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "donneur : O ; receveur : AB",
+            "fusion spermatozoïde + ovule → zygote (2n)"
+          ],
+          "reponse": 0,
+          "explication": "2^n types de gamètes (n = nombre de paires)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fécondation ?",
+          "options": [
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+            "testicules (mâle) et ovaires (femelle)",
+            "production des spermatozoïdes (spermatogenèse)"
+          ],
+          "reponse": 1,
+          "explication": "fusion de 2 gamètes (n + n = 2n) donnant le zygote"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rôle méiose + fécondation ?",
+          "options": [
+            "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+            "maintiennent constant le nombre de chromosomes de l'espèce",
+            "parentaux majoritaires + recombinés minoritaires",
+            "maladie de l'hémoglobine : A//A sain, A//S porteur, S//S malade"
+          ],
+          "reponse": 1,
+          "explication": "maintiennent constant le nombre de chromosomes de l'espèce"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Nombre de gamètes",
+      "verso": "2^n types de gamètes (n = nombre de paires)"
+    },
+    {
+      "recto": "Fécondation",
+      "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote"
+    },
+    {
+      "recto": "Rôle méiose + fécondation",
+      "verso": "maintiennent constant le nombre de chromosomes de l'espèce"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Nombre de gamètes",
+      "verso": "2^n types de gamètes (n = nombre de paires)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fécondation",
+      "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Rôle méiose + fécondation",
+      "verso": "maintiennent constant le nombre de chromosomes de l'espèce",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

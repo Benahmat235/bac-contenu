@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r039",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 39,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r039-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r039-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "2e division de méiose ?",
+          "options": [
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "cellule différenciée qui ne se divise plus (perte irréparable)",
+            "équationnelle (conserve n)",
+            "ensemble classé des chromosomes d'une cellule"
+          ],
+          "reponse": 2,
+          "explication": "équationnelle (conserve n)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Carpelle ?",
+          "options": [
+            "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+            "moelle épinière + encéphale",
+            "développement des caractères sexuels secondaires masculins",
+            "ovaire + style + stigmate"
+          ],
+          "reponse": 3,
+          "explication": "ovaire + style + stigmate"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Expression d'un gène ?",
+          "options": [
+            "produire les ovules et sécréter les hormones ovariennes",
+            "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+            "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
+            "28 jours en moyenne ; ovulation vers le 14e jour"
+          ],
+          "reponse": 2,
+          "explication": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

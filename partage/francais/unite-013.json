@@ -1,0 +1,121 @@
+{
+  "id": "francais-u013",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "La littérature africaine et tchadienne (1/2)",
+  "ordre": 13,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La littérature africaine et tchadienne",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u013-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u013-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la littérature africaine francophone ?",
+          "reponseAttendue": "L'ensemble des œuvres littéraires en français produites par des auteurs africains.",
+          "modeReponse": "auto_evaluation",
+          "explication": "L'ensemble des œuvres littéraires en français produites par des auteurs africains."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les thèmes majeurs de la littérature africaine ?",
+          "reponseAttendue": "La colonisation, l'indépendance, la tradition vs la modernité, l'exil, la corruption, la condition de la femme.",
+          "modeReponse": "auto_evaluation",
+          "explication": "La colonisation, l'indépendance, la tradition vs la modernité, l'exil, la corruption, la condition de la femme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez des auteurs africains majeurs et leurs œuvres.",
+          "reponseAttendue": "Chinua Achebe (Things Fall Apart), Mongo Beti (Le pauvre Christ de Bomba), Ousmane Sembène (Les bouts de bois de Dieu).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Chinua Achebe (Things Fall Apart), Mongo Beti (Le pauvre Christ de Bomba), Ousmane Sembène (Les bouts de bois de Dieu)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez des auteurs tchadiens.",
+          "reponseAttendue": "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas)."
+        }
+      ]
+    },
+    {
+      "id": "francais-u013-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u013-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la littérature africaine francophone ?",
+          "options": [
+            "L'ensemble des œuvres littéraires en français produites par des auteurs africains.",
+            "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais).",
+            "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu.",
+            "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnel"
+          ],
+          "reponse": 0,
+          "explication": "L'ensemble des œuvres littéraires en français produites par des auteurs africains."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les thèmes majeurs de la littérature africaine ?",
+          "options": [
+            "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole.",
+            "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur.",
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
+            "La colonisation, l'indépendance, la tradition vs la modernité, l'exil, la corruption, la condition de la femme."
+          ],
+          "reponse": 3,
+          "explication": "La colonisation, l'indépendance, la tradition vs la modernité, l'exil, la corruption, la condition de la femme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez des auteurs africains majeurs et leurs œuvres. ?",
+          "options": [
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+            "L'ensemble des mots d'un texte qui se rapportent à un même thème (ex: champ lexical de la guerre : combat, armes, soldat",
+            "Chinua Achebe (Things Fall Apart), Mongo Beti (Le pauvre Christ de Bomba), Ousmane Sembène (Les bouts de bois de Dieu).",
+            "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange des deux)."
+          ],
+          "reponse": 2,
+          "explication": "Chinua Achebe (Things Fall Apart), Mongo Beti (Le pauvre Christ de Bomba), Ousmane Sembène (Les bouts de bois de Dieu)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que la littérature africaine francophone ?",
+      "verso": "L'ensemble des œuvres littéraires en français produites par des auteurs africains."
+    },
+    {
+      "recto": "Quels sont les thèmes majeurs de la littérature africaine ?",
+      "verso": "La colonisation, l'indépendance, la tradition vs la modernité, l'exil, la corruption, la condition de la femme."
+    },
+    {
+      "recto": "Citez des auteurs africains majeurs et leurs œuvres.",
+      "verso": "Chinua Achebe (Things Fall Apart), Mongo Beti (Le pauvre Christ de Bomba), Ousmane Sembène (Les bouts de bois de Dieu)."
+    },
+    {
+      "recto": "Citez des auteurs tchadiens.",
+      "verso": "Joseph Brahim Seid (Un enfant du Tchad), Baba Moustapha (Makarie aux épines), Koulsy Lamko (Tout bas, si bas)."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "histoire-u011",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La guerre froide (1947-1991) (2/4)",
+  "ordre": 11,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La guerre froide (1947-1991)",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u011-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u011-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Que signifie OTAN et Pacte de Varsovie ?",
+          "reponseAttendue": "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS).",
+          "modeReponse": "auto_evaluation",
+          "explication": "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles crises ont jalonné la période 1947-1962 ?",
+          "reponseAttendue": "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
+          "modeReponse": "auto_evaluation",
+          "explication": "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi la crise de Cuba fut la plus grave ?",
+          "reponseAttendue": "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que signifie 'Rideau de fer' et qui en est l'auteur ?",
+          "reponseAttendue": "Division de l'Europe en deux blocs. Auteur : Winston Churchill, pour avertir les Américains du danger communiste.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Division de l'Europe en deux blocs. Auteur : Winston Churchill, pour avertir les Américains du danger communiste."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u011-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u011-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Que signifie OTAN et Pacte de Varsovie ?",
+          "options": [
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas",
+            "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS)."
+          ],
+          "reponse": 3,
+          "explication": "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles crises ont jalonné la période 1947-1962 ?",
+          "options": [
+            "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
+            "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie).",
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
+            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/194"
+          ],
+          "reponse": 0,
+          "explication": "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pourquoi la crise de Cuba fut la plus grave ?",
+          "options": [
+            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favor",
+            "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre.",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+          ],
+          "reponse": 3,
+          "explication": "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Que signifie OTAN et Pacte de Varsovie ?",
+      "verso": "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS)."
+    },
+    {
+      "recto": "Quelles crises ont jalonné la période 1947-1962 ?",
+      "verso": "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62)."
+    },
+    {
+      "recto": "Pourquoi la crise de Cuba fut la plus grave ?",
+      "verso": "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
+    },
+    {
+      "recto": "Que signifie 'Rideau de fer' et qui en est l'auteur ?",
+      "verso": "Division de l'Europe en deux blocs. Auteur : Winston Churchill, pour avertir les Américains du danger communiste."
+    }
+  ]
+}

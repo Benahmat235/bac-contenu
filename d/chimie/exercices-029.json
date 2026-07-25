@@ -1,0 +1,325 @@
+{
+  "id": "chimie-d-e029",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Amines et amides — Exercices",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Amines et amides",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-d-e029-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-e029-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Classer une amine :",
+          "etapes": [
+            "Repérer l'atome d'azote",
+            "Compter le nombre de carbones liés à N",
+            "1 → primaire ; 2 → secondaire ; 3 → tertiaire",
+            "Conclure"
+          ],
+          "ordreCorrect": [
+            "Repérer l'atome d'azote",
+            "Compter le nombre de carbones liés à N",
+            "1 → primaire ; 2 → secondaire ; 3 → tertiaire",
+            "Conclure"
+          ],
+          "explication": "On compte les carbones liés à l'azote."
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-e029-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chimie-d-e029-c",
+      "activites": [
+        {
+          "id": "chi-d-am-ex01",
+          "enonce": "Le groupe caractéristique d'une amine primaire est :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Amine primaire : −NH₂."
+          ],
+          "reponseFinale": "−NH₂",
+          "competenceId": "chi-d-am-c-amine"
+        },
+        {
+          "id": "chi-d-am-ex02",
+          "enonce": "Une amine en solution aqueuse est :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Les amines sont basiques (captent H⁺)."
+          ],
+          "reponseFinale": "basique",
+          "competenceId": "chi-d-am-c-amine"
+        },
+        {
+          "id": "chi-d-am-ex03",
+          "enonce": "Le groupe caractéristique d'un amide est :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Fonction amide −CO−NH−."
+          ],
+          "reponseFinale": "−CO−NH−",
+          "competenceId": "chi-d-am-c-amine"
+        },
+        {
+          "id": "chi-d-am-ex04",
+          "enonce": "Une amine secondaire porte l'azote lié à :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Amine secondaire : N lié à 2 C."
+          ],
+          "reponseFinale": "2 carbones",
+          "competenceId": "chi-d-am-c-amine"
+        }
+      ]
+    },
+    {
+      "id": "chimie-d-e029-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chimie-d-e029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La liaison entre acides aminés (protéines) est une liaison :",
+          "options": [
+            "ester",
+            "amide (peptidique)",
+            "hydrogène",
+            "ionique"
+          ],
+          "reponse": 1,
+          "explication": "Liaison amide/peptidique."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-d-am-ex01",
+      "enonce": "Le groupe caractéristique d'une amine primaire est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Amine primaire : −NH₂."
+      ],
+      "reponseFinale": "−NH₂",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex02",
+      "enonce": "Une amine en solution aqueuse est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les amines sont basiques (captent H⁺)."
+      ],
+      "reponseFinale": "basique",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex03",
+      "enonce": "Le groupe caractéristique d'un amide est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Fonction amide −CO−NH−."
+      ],
+      "reponseFinale": "−CO−NH−",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex04",
+      "enonce": "Une amine secondaire porte l'azote lié à :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Amine secondaire : N lié à 2 C."
+      ],
+      "reponseFinale": "2 carbones",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex05",
+      "enonce": "La réaction acide carboxylique + amine peut donner :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Formation d'un amide (+ eau)."
+      ],
+      "reponseFinale": "un amide",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex06",
+      "enonce": "Le nom de CH₃−NH₂ est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Méthanamine."
+      ],
+      "reponseFinale": "méthanamine (méthylamine)",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex07",
+      "enonce": "Une amine est un dérivé de :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Amine = dérivé de NH₃."
+      ],
+      "reponseFinale": "l'ammoniac NH₃",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex08",
+      "enonce": "L'atome responsable du caractère basique d'une amine est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le doublet non liant de l'azote."
+      ],
+      "reponseFinale": "l'azote (doublet libre)",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex09",
+      "enonce": "Classe l'amine (CH₃)₂NH.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'azote est lié à 2 carbones",
+        "amine secondaire"
+      ],
+      "reponseFinale": "amine secondaire",
+      "competenceId": "chi-d-am-c-classe"
+    },
+    {
+      "id": "chi-d-am-ex10",
+      "enonce": "Classe l'amine (CH₃)₃N.",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'azote est lié à 3 carbones",
+        "amine tertiaire"
+      ],
+      "reponseFinale": "amine tertiaire",
+      "competenceId": "chi-d-am-c-classe"
+    },
+    {
+      "id": "chi-d-am-ex11",
+      "enonce": "Classe l'amine CH₃−CH₂−NH₂.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Azote lié à 1 carbone",
+        "amine primaire"
+      ],
+      "reponseFinale": "amine primaire",
+      "competenceId": "chi-d-am-c-classe"
+    },
+    {
+      "id": "chi-d-am-ex12",
+      "enonce": "Pourquoi une amine est-elle basique ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'azote possède un doublet non liant qui capte un proton H⁺"
+      ],
+      "reponseFinale": "doublet non liant de l'azote",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex13",
+      "enonce": "Produit de la réaction d'un acide carboxylique avec une amine :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "un amide (+ eau)"
+      ],
+      "reponseFinale": "un amide",
+      "competenceId": "chi-d-am-c-amide"
+    },
+    {
+      "id": "chi-d-am-ex14",
+      "enonce": "La liaison peptidique entre acides aminés est une liaison :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "amide (−CO−NH−)"
+      ],
+      "reponseFinale": "amide",
+      "competenceId": "chi-d-am-c-amide"
+    },
+    {
+      "id": "chi-d-am-ex15",
+      "enonce": "Nom de l'amine C₂H₅−NH₂ :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "éthanamine (éthylamine)"
+      ],
+      "reponseFinale": "éthanamine",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex16",
+      "enonce": "Une amine réagit avec un acide fort pour donner :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "un ion ammonium (sel)"
+      ],
+      "reponseFinale": "un ion ammonium",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex17",
+      "enonce": "L'amide dérive de l'acide carboxylique par remplacement de −OH par :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "−NH₂ (ou −NHR)"
+      ],
+      "reponseFinale": "−NH₂",
+      "competenceId": "chi-d-am-c-amide"
+    },
+    {
+      "id": "chi-d-am-ex18",
+      "enonce": "Nom de l'amine (CH₃)₃N :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "triméthylamine"
+      ],
+      "reponseFinale": "triméthylamine",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex19",
+      "enonce": "L'aniline (C₆H₅−NH₂) est une amine :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "aromatique primaire"
+      ],
+      "reponseFinale": "aromatique (primaire)",
+      "competenceId": "chi-d-am-c-amine"
+    },
+    {
+      "id": "chi-d-am-ex20",
+      "enonce": "Une amine réagit avec l'eau pour donner un milieu :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "basique (capte H⁺)"
+      ],
+      "reponseFinale": "basique",
+      "competenceId": "chi-d-am-c-amine"
+    }
+  ],
+  "estExercices": true
+}

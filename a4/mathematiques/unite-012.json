@@ -1,0 +1,127 @@
+{
+  "id": "mathematiques-a4-u012",
+  "matiere": "mathematiques-a4",
+  "type": "scientifique",
+  "titre": "Probabilité : dénombrement et calcul des probabilités (3/3)",
+  "ordre": 12,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Probabilité : dénombrement et calcul des probabilités",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-a4-u012-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-a4-u012-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Événement contraire",
+          "verso": "p(Ā) = 1 − p(A)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réunion de deux événements",
+          "verso": "p(A∪B) = p(A) + p(B) − p(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Événements incompatibles",
+          "verso": "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-a4-u012-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-a4-u012-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Événement contraire ?",
+          "options": [
+            "(u/v)' = (u'v − uv') / v²",
+            "Cⁿₚ = n!/((n−p)!·p!)",
+            "p(Ā) = 1 − p(A)",
+            "(xⁿ)' = n·xⁿ⁻¹"
+          ],
+          "reponse": 2,
+          "explication": "p(Ā) = 1 − p(A)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réunion de deux événements ?",
+          "options": [
+            "(ln x)' = 1/x",
+            "(u + v)' = u' + v'",
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "p(A∪B) = p(A) + p(B) − p(A∩B)"
+          ],
+          "reponse": 3,
+          "explication": "p(A∪B) = p(A) + p(B) − p(A∩B)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Événements incompatibles ?",
+          "options": [
+            "(u + v)' = u' + v'",
+            "Δ' = b'² − ac",
+            "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
+            "nᵖ"
+          ],
+          "reponse": 2,
+          "explication": "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Événement contraire",
+      "verso": "p(Ā) = 1 − p(A)"
+    },
+    {
+      "recto": "Réunion de deux événements",
+      "verso": "p(A∪B) = p(A) + p(B) − p(A∩B)"
+    },
+    {
+      "recto": "Événements incompatibles",
+      "verso": "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Événement contraire",
+      "verso": "p(Ā) = 1 − p(A)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Réunion de deux événements",
+      "verso": "p(A∪B) = p(A) + p(B) − p(A∩B)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Événements incompatibles",
+      "verso": "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

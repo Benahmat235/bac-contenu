@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u006",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Vocabulary: Environment & Health (2/3)",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Vocabulary: Environment & Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u006-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u006-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'énergie renouvelable'",
+          "reponseAttendue": "renewable energy",
+          "modeReponse": "auto_evaluation",
+          "explication": "renewable energy"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'maladie contagieuse'",
+          "reponseAttendue": "contagious / infectious disease",
+          "modeReponse": "auto_evaluation",
+          "explication": "contagious / infectious disease"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'espérance de vie'",
+          "reponseAttendue": "life expectancy",
+          "modeReponse": "auto_evaluation",
+          "explication": "life expectancy"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u006-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u006-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'énergie renouvelable' ?",
+          "options": [
+            "renewable energy",
+            "On the one hand… on the other hand…",
+            "unemployment",
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          ],
+          "reponse": 0,
+          "explication": "renewable energy"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'maladie contagieuse' ?",
+          "options": [
+            "The first sentence of a paragraph that states its main idea.",
+            "contagious / infectious disease",
+            "water pollution",
+            "Furthermore, moreover, in addition, besides."
+          ],
+          "reponse": 1,
+          "explication": "contagious / infectious disease"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'espérance de vie' ?",
+          "options": [
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "life expectancy",
+            "poverty",
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+          ],
+          "reponse": 1,
+          "explication": "life expectancy"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'énergie renouvelable'",
+      "verso": "renewable energy"
+    },
+    {
+      "recto": "Translate: 'maladie contagieuse'",
+      "verso": "contagious / infectious disease"
+    },
+    {
+      "recto": "Translate: 'espérance de vie'",
+      "verso": "life expectancy"
+    }
+  ]
+}

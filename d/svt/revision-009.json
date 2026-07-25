@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r009",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 9,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r009-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r009-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique",
+            "membrane plasmique, cytoplasme, noyau",
+            "donneur : O ; receveur : AB",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 3,
+          "explication": "siège de la synthèse des protéines"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Gène ?",
+          "options": [
+            "production des spermatozoïdes (spermatogenèse)",
+            "portion d'ADN responsable d'un caractère héréditaire",
+            "croisement avec le double récessif pour révéler le génotype",
+            "3 chromosomes 21 (47 chromosomes) par non-disjonction méiotique"
+          ],
+          "reponse": 1,
+          "explication": "portion d'ADN responsable d'un caractère héréditaire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Support de l'information génétique ?",
+          "options": [
+            "libération de glucose à partir du glycogène (foie)",
+            "l'ADN (acide désoxyribonucléique)",
+            "génotype = allèles ; phénotype = caractère observé",
+            "environ 9 mois ; se termine par l'accouchement"
+          ],
+          "reponse": 1,
+          "explication": "l'ADN (acide désoxyribonucléique)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

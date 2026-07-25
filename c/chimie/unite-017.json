@@ -1,0 +1,127 @@
+{
+  "id": "chimie-c-u017",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Acide fort – base forte (2/2)",
+  "ordre": 17,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Acide fort – base forte",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "chimie-c-u017-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-u017-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Concentration d'une base forte",
+          "verso": "C = 10^(pH−14)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acide fort",
+          "verso": "se dissocie totalement dans l'eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Base forte",
+          "verso": "capte totalement des protons (ex. NaOH)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-u017-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-u017-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'une base forte ?",
+          "options": [
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "diffèrent par la position d'un groupe",
+            "C = 10^(pH−14)",
+            "alcool 2aire → cétone"
+          ],
+          "reponse": 2,
+          "explication": "C = 10^(pH−14)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Acide fort ?",
+          "options": [
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "non oxydable par oxydation ménagée",
+            "se dissocie totalement dans l'eau",
+            "Ka = 10^(−pKa)"
+          ],
+          "reponse": 2,
+          "explication": "se dissocie totalement dans l'eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Base forte ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "pH = ½·(pKa − log C)",
+            "capte totalement des protons (ex. NaOH)",
+            "diffèrent par la disposition de la chaîne carbonée"
+          ],
+          "reponse": 2,
+          "explication": "capte totalement des protons (ex. NaOH)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Concentration d'une base forte",
+      "verso": "C = 10^(pH−14)"
+    },
+    {
+      "recto": "Acide fort",
+      "verso": "se dissocie totalement dans l'eau"
+    },
+    {
+      "recto": "Base forte",
+      "verso": "capte totalement des protons (ex. NaOH)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Concentration d'une base forte",
+      "verso": "C = 10^(pH−14)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Acide fort",
+      "verso": "se dissocie totalement dans l'eau",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Base forte",
+      "verso": "capte totalement des protons (ex. NaOH)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}

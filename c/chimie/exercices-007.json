@@ -1,0 +1,325 @@
+{
+  "id": "chimie-c-e007",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Alcools, polyalcools, aldéhydes et cétones — Exercices",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Alcools, polyalcools, aldéhydes et cétones",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-c-e007-methode",
+      "titre": "La méthode",
+      "categorie": "methode",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-e007-c",
+      "activites": [
+        {
+          "type": "resolution_ordonnee",
+          "enonce": "Classer un alcool (primaire/secondaire/tertiaire) :",
+          "etapes": [
+            "Repérer le carbone portant le groupe −OH",
+            "Compter les carbones liés à ce carbone",
+            "1 → primaire ; 2 → secondaire ; 3 → tertiaire",
+            "Conclure"
+          ],
+          "ordreCorrect": [
+            "Repérer le carbone portant le groupe −OH",
+            "Compter les carbones liés à ce carbone",
+            "1 → primaire ; 2 → secondaire ; 3 → tertiaire",
+            "Conclure"
+          ],
+          "explication": "On compte les carbones voisins du C−OH."
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-e007-exercices",
+      "titre": "Exercices corrigés",
+      "categorie": "exercices",
+      "seuilReussite": 80,
+      "competenceId": "chimie-c-e007-c",
+      "activites": [
+        {
+          "id": "chi-c-al-ex01",
+          "enonce": "Quel est le groupe caractéristique des alcools ?",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Les alcools portent le groupe hydroxyle −OH."
+          ],
+          "reponseFinale": "−OH (hydroxyle)",
+          "competenceId": "chi-c-al-c-fonction"
+        },
+        {
+          "id": "chi-c-al-ex02",
+          "enonce": "Un alcool primaire s'oxyde ménagement en :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Primaire → aldéhyde → acide carboxylique."
+          ],
+          "reponseFinale": "aldéhyde puis acide carboxylique",
+          "competenceId": "chi-c-al-c-fonction"
+        },
+        {
+          "id": "chi-c-al-ex03",
+          "enonce": "Un alcool secondaire s'oxyde en :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Secondaire → cétone."
+          ],
+          "reponseFinale": "cétone",
+          "competenceId": "chi-c-al-c-fonction"
+        },
+        {
+          "id": "chi-c-al-ex04",
+          "enonce": "Un alcool tertiaire :",
+          "difficulte": "moyen",
+          "etapesCorrection": [
+            "Tertiaire : pas d'oxydation ménagée."
+          ],
+          "reponseFinale": "ne s'oxyde pas facilement",
+          "competenceId": "chi-c-al-c-fonction"
+        }
+      ]
+    },
+    {
+      "id": "chimie-c-e007-defi",
+      "titre": "Défi de maîtrise",
+      "categorie": "defi",
+      "seuilReussite": 90,
+      "competenceId": "chimie-c-e007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "L'oxydation ménagée complète de l'éthanol donne :",
+          "options": [
+            "éthanal",
+            "acide éthanoïque",
+            "propanone",
+            "éthane"
+          ],
+          "reponse": 1,
+          "explication": "Jusqu'à l'acide éthanoïque."
+        }
+      ],
+      "estDefi": true
+    }
+  ],
+  "banqueExercices": [
+    {
+      "id": "chi-c-al-ex01",
+      "enonce": "Quel est le groupe caractéristique des alcools ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Les alcools portent le groupe hydroxyle −OH."
+      ],
+      "reponseFinale": "−OH (hydroxyle)",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex02",
+      "enonce": "Un alcool primaire s'oxyde ménagement en :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Primaire → aldéhyde → acide carboxylique."
+      ],
+      "reponseFinale": "aldéhyde puis acide carboxylique",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex03",
+      "enonce": "Un alcool secondaire s'oxyde en :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Secondaire → cétone."
+      ],
+      "reponseFinale": "cétone",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex04",
+      "enonce": "Un alcool tertiaire :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Tertiaire : pas d'oxydation ménagée."
+      ],
+      "reponseFinale": "ne s'oxyde pas facilement",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex05",
+      "enonce": "Le groupe caractéristique d'un aldéhyde est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Aldéhyde : −CHO (en bout de chaîne)."
+      ],
+      "reponseFinale": "−CHO",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex06",
+      "enonce": "Le groupe caractéristique d'une cétone est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Cétone : carbonyle entre deux carbones."
+      ],
+      "reponseFinale": "R−CO−R'",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex07",
+      "enonce": "La liqueur de Fehling permet de reconnaître :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "L'aldéhyde réduit la liqueur de Fehling (test)."
+      ],
+      "reponseFinale": "les aldéhydes",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex08",
+      "enonce": "Le nom de CH₃−CH₂−OH est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Éthanol (alcool en C₂)."
+      ],
+      "reponseFinale": "éthanol",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex09",
+      "enonce": "Le nom de CH₃−CHO est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Éthanal (aldéhyde en C₂)."
+      ],
+      "reponseFinale": "éthanal",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex10",
+      "enonce": "Le nom de CH₃−CO−CH₃ est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Propanone (acétone)."
+      ],
+      "reponseFinale": "propanone (acétone)",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex11",
+      "enonce": "La formule générale d'un alcool saturé est :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "CₙH₂ₙ₊₁OH."
+      ],
+      "reponseFinale": "CₙH₂ₙ₊₁OH",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex12",
+      "enonce": "Une cétone donne-t-elle un test positif au réactif de Tollens ?",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Non : seules les aldéhydes réduisent Tollens."
+      ],
+      "reponseFinale": "non",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex13",
+      "enonce": "Classe l'alcool CH₃−CHOH−CH₃ (propan-2-ol).",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "Le C portant −OH est lié à 2 autres carbones",
+        "c'est un alcool secondaire"
+      ],
+      "reponseFinale": "alcool secondaire",
+      "competenceId": "chi-c-al-c-classe"
+    },
+    {
+      "id": "chi-c-al-ex14",
+      "enonce": "Classe l'alcool CH₃−CH₂−CH₂−OH.",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "Le C portant −OH est lié à 1 seul carbone",
+        "alcool primaire"
+      ],
+      "reponseFinale": "alcool primaire",
+      "competenceId": "chi-c-al-c-classe"
+    },
+    {
+      "id": "chi-c-al-ex15",
+      "enonce": "Produit de l'oxydation ménagée complète de l'éthanol :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "éthanol → éthanal → acide éthanoïque"
+      ],
+      "reponseFinale": "acide éthanoïque",
+      "competenceId": "chi-c-al-c-oxydation"
+    },
+    {
+      "id": "chi-c-al-ex16",
+      "enonce": "Produit de l'oxydation ménagée du propan-2-ol :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "alcool secondaire → cétone",
+        "propanone"
+      ],
+      "reponseFinale": "propanone",
+      "competenceId": "chi-c-al-c-oxydation"
+    },
+    {
+      "id": "chi-c-al-ex17",
+      "enonce": "Le passage alcool primaire → aldéhyde est une :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "oxydation ménagée"
+      ],
+      "reponseFinale": "oxydation",
+      "competenceId": "chi-c-al-c-oxydation"
+    },
+    {
+      "id": "chi-c-al-ex18",
+      "enonce": "Nom de l'alcool CH₃OH :",
+      "difficulte": "facile",
+      "etapesCorrection": [
+        "méthanol"
+      ],
+      "reponseFinale": "méthanol",
+      "competenceId": "chi-c-al-c-fonction"
+    },
+    {
+      "id": "chi-c-al-ex19",
+      "enonce": "La déshydratation d'un alcool donne :",
+      "difficulte": "difficile",
+      "etapesCorrection": [
+        "un alcène (élimination d'eau)"
+      ],
+      "reponseFinale": "un alcène",
+      "competenceId": "chi-c-al-c-oxydation"
+    },
+    {
+      "id": "chi-c-al-ex20",
+      "enonce": "Un aldéhyde et une cétone ont tous deux le groupe :",
+      "difficulte": "moyen",
+      "etapesCorrection": [
+        "carbonyle C=O"
+      ],
+      "reponseFinale": "carbonyle (C=O)",
+      "competenceId": "chi-c-al-c-fonction"
+    }
+  ],
+  "estExercices": true
+}

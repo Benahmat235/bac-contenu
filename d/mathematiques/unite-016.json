@@ -1,0 +1,159 @@
+{
+  "id": "mathematiques-d-u016",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Fonctions exponentielles et fonctions puissances (1/3)",
+  "ordre": 16,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Fonctions exponentielles et fonctions puissances",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-u016-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "mathematiques-d-u016-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Dérivée de eˣ",
+          "verso": "eˣ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de eᵘ",
+          "verso": "u'·eᵘ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit d'exponentielles",
+          "verso": "eᵃ·eᵇ = eᵃ⁺ᵇ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Quotient d'exponentielles",
+          "verso": "eᵃ/eᵇ = eᵃ⁻ᵇ",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "mathematiques-d-u016-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-u016-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de eˣ ?",
+          "options": [
+            "uₙ = u₀ + n·r",
+            "P(A∪B)=P(A)+P(B)−P(A∩B)",
+            "eˣ",
+            "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0"
+          ],
+          "reponse": 2,
+          "explication": "eˣ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de eᵘ ?",
+          "options": [
+            "A(n,p)=n!/(n−p)!",
+            "lim(x→+∞) (ln x)/x = 0",
+            "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+            "u'·eᵘ"
+          ],
+          "reponse": 3,
+          "explication": "u'·eᵘ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit d'exponentielles ?",
+          "options": [
+            "uₙ = u₀ + n·r",
+            "f est continue en a si lim(x→a) f(x) = f(a)",
+            "eᵃ·eᵇ = eᵃ⁺ᵇ",
+            "factoriser, ou multiplier par l'expression conjuguée"
+          ],
+          "reponse": 2,
+          "explication": "eᵃ·eᵇ = eᵃ⁺ᵇ"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Dérivée de eˣ",
+      "verso": "eˣ"
+    },
+    {
+      "recto": "Dérivée de eᵘ",
+      "verso": "u'·eᵘ"
+    },
+    {
+      "recto": "Produit d'exponentielles",
+      "verso": "eᵃ·eᵇ = eᵃ⁺ᵇ"
+    },
+    {
+      "recto": "Quotient d'exponentielles",
+      "verso": "eᵃ/eᵇ = eᵃ⁻ᵇ"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Dérivée de eˣ",
+      "verso": "eˣ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Dérivée de eᵘ",
+      "verso": "u'·eᵘ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Produit d'exponentielles",
+      "verso": "eᵃ·eᵇ = eᵃ⁺ᵇ",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Quotient d'exponentielles",
+      "verso": "eᵃ/eᵇ = eᵃ⁻ᵇ",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Fonction exponentielle - Terminale",
+      "url": "https://youtu.be/sCcy4IQKits",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Dérivées des fonctions exponentielles",
+      "url": "https://youtu.be/OtRensLKpHs",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    }
+  ]
+}

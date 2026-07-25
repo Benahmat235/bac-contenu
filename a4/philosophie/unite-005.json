@@ -1,0 +1,137 @@
+{
+  "id": "philosophie-u005",
+  "matiere": "philosophie",
+  "type": "litteraire",
+  "titre": "Autrui",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Autrui",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-u005-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philosophie-u005-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "La conception de Descartes, enfermée dans le seul « je », est qualifiée de ______ (du latin solus + ipse : seul soi-même).",
+          "reponseAttendue": "solipsisme",
+          "modeReponse": "auto_evaluation",
+          "explication": "solipsisme"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Autrui est le médiateur indispensable entre moi et moi-même. » ?",
+          "reponseAttendue": "Jean-Paul Sartre",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Paul Sartre"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'enfer, c'est les autres. » ?",
+          "reponseAttendue": "Jean-Paul Sartre",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jean-Paul Sartre"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Agis de telle sorte que tu traites l'humanité, en toi et chez autrui, toujours comme une fin et jamais seulement comme un moyen. » ?",
+          "reponseAttendue": "Emmanuel Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "Emmanuel Kant"
+        }
+      ]
+    },
+    {
+      "id": "philosophie-u005-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-u005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "La conception de Descartes, enfermée dans le seul « je », est qualifiée de ______ (du latin solus + ipse : seul soi-même). ?",
+          "options": [
+            "Hegel",
+            "solipsisme",
+            "Jean Rostand",
+            "Aristote"
+          ],
+          "reponse": 1,
+          "explication": "solipsisme"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Autrui est le médiateur indispensable entre moi et moi-même. » ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Jean-Paul Sartre",
+            "suis",
+            "Thomas Hobbes"
+          ],
+          "reponse": 1,
+          "explication": "Jean-Paul Sartre"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'enfer, c'est les autres. » ?",
+          "options": [
+            "Leibniz",
+            "Jean-Paul Sartre",
+            "Kant",
+            "Emmanuel Kant"
+          ],
+          "reponse": 1,
+          "explication": "Jean-Paul Sartre"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "La conception de Descartes, enfermée dans le seul « je », est qualifiée de ______ (du latin solus + ipse : seul soi-même).",
+      "verso": "solipsisme"
+    },
+    {
+      "recto": "Qui a dit : « Autrui est le médiateur indispensable entre moi et moi-même. » ?",
+      "verso": "Jean-Paul Sartre"
+    },
+    {
+      "recto": "Qui a dit : « L'enfer, c'est les autres. » ?",
+      "verso": "Jean-Paul Sartre"
+    },
+    {
+      "recto": "Qui a dit : « Agis de telle sorte que tu traites l'humanité, en toi et chez autrui, toujours comme une fin et jamais seulement comme un moyen. » ?",
+      "verso": "Emmanuel Kant"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Autrui (Terminale C-D et Première A4)",
+      "url": "https://youtu.be/83sSGcC7ALs",
+      "type": "video",
+      "chaine": "Ecole Virtuelle Africaine",
+      "auteur": "Ecole Virtuelle Africaine"
+    },
+    {
+      "titre": "Autrui - Terminale",
+      "url": "https://youtu.be/ZUkqthdG9zY",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
+  ]
+}

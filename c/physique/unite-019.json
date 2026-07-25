@@ -1,0 +1,159 @@
+{
+  "id": "physique-c-u019",
+  "matiere": "physique-c",
+  "type": "scientifique",
+  "titre": "Les oscillations électriques (1/2)",
+  "ordre": 19,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les oscillations électriques",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "physique-c-u019-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "physique-c-u019-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Période propre d'un circuit LC",
+          "verso": "T₀ = 2π·√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fréquence propre",
+          "verso": "f₀ = 1/(2π·√(L·C))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation propre",
+          "verso": "ω₀ = 1/√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie d'une bobine",
+          "verso": "E = ½·L·i²",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "physique-c-u019-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "physique-c-u019-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Période propre d'un circuit LC ?",
+          "options": [
+            "e = −L·(di/dt)",
+            "A(t) = A₀·e^(−λt)",
+            "T₀ = 2π·√(L·C)",
+            "1 eV = 1,6×10⁻¹⁹ J"
+          ],
+          "reponse": 2,
+          "explication": "T₀ = 2π·√(L·C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fréquence propre ?",
+          "options": [
+            "P = m·g",
+            "g_h = G·M/(R+h)²",
+            "v² − v₀² = 2·a·(x − x₀)",
+            "f₀ = 1/(2π·√(L·C))"
+          ],
+          "reponse": 3,
+          "explication": "f₀ = 1/(2π·√(L·C))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation propre ?",
+          "options": [
+            "Ep = m·g·h",
+            "Z = √(R² + (Lω − 1/(Cω))²)",
+            "E = ½·C·u²",
+            "ω₀ = 1/√(L·C)"
+          ],
+          "reponse": 3,
+          "explication": "ω₀ = 1/√(L·C)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Période propre d'un circuit LC",
+      "verso": "T₀ = 2π·√(L·C)"
+    },
+    {
+      "recto": "Fréquence propre",
+      "verso": "f₀ = 1/(2π·√(L·C))"
+    },
+    {
+      "recto": "Pulsation propre",
+      "verso": "ω₀ = 1/√(L·C)"
+    },
+    {
+      "recto": "Énergie d'une bobine",
+      "verso": "E = ½·L·i²"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Période propre d'un circuit LC",
+      "verso": "T₀ = 2π·√(L·C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Fréquence propre",
+      "verso": "f₀ = 1/(2π·√(L·C))",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Pulsation propre",
+      "verso": "ω₀ = 1/√(L·C)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Énergie d'une bobine",
+      "verso": "E = ½·L·i²",
+      "modeReponse": "auto_evaluation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Dipôle RLC : oscillations électriques libres (synthèse TS/PC)",
+      "url": "https://youtu.be/IrYer_OXWkI",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Oscillations électriques libres et forcées (cours)",
+      "url": "https://youtu.be/KWuiAaiqukE",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u018",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Passive Voice & Reported Speech (3/3)",
+  "ordre": 18,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Passive Voice & Reported Speech",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u018-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u018-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Direct: 'Don't go!' → Reported:",
+          "reponseAttendue": "She told me not to go.",
+          "modeReponse": "auto_evaluation",
+          "explication": "She told me not to go."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is 'say' vs 'tell' in reported speech?",
+          "reponseAttendue": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
+          "modeReponse": "auto_evaluation",
+          "explication": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Change to passive: 'People speak French in Chad.'",
+          "reponseAttendue": "'French is spoken in Chad.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "'French is spoken in Chad.'"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u018-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u018-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Direct: 'Don't go!' → Reported: ?",
+          "options": [
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+            "She told me not to go.",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          ],
+          "reponse": 1,
+          "explication": "She told me not to go."
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is 'say' vs 'tell' in reported speech?",
+          "options": [
+            "to fail an exam",
+            "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
+            "She told me not to go.",
+            "human rights"
+          ],
+          "reponse": 1,
+          "explication": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Change to passive: 'People speak French in Chad.' ?",
+          "options": [
+            "prevention",
+            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+            "He asked if/whether I had seen it.",
+            "'French is spoken in Chad.'"
+          ],
+          "reponse": 3,
+          "explication": "'French is spoken in Chad.'"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Direct: 'Don't go!' → Reported:",
+      "verso": "She told me not to go."
+    },
+    {
+      "recto": "What is 'say' vs 'tell' in reported speech?",
+      "verso": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+    },
+    {
+      "recto": "Change to passive: 'People speak French in Chad.'",
+      "verso": "'French is spoken in Chad.'"
+    }
+  ]
+}

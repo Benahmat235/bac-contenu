@@ -1,0 +1,110 @@
+{
+  "id": "francais-u007",
+  "matiere": "francais",
+  "type": "litteraire",
+  "titre": "Les mouvements littéraires (3/3)",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Les mouvements littéraires",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "francais-u007-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "francais-u007-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Surréalisme (XXe siècle) ?",
+          "reponseAttendue": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la Négritude ?",
+          "reponseAttendue": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 3 auteurs de la Négritude et une œuvre.",
+          "reponseAttendue": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
+        }
+      ]
+    },
+    {
+      "id": "francais-u007-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "francais-u007-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le Surréalisme (XXe siècle) ?",
+          "options": [
+            "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine.",
+            "1) Lire et comprendre le texte. 2) Repérer les procédés (figures, rythme). 3) Organiser en axes. 4) Rédiger.",
+            "Reformuler un texte en plus court tout en gardant les idées essentielles, dans l'ordre et sans ajouter d'idées personnel",
+            "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+          ],
+          "reponse": 3,
+          "explication": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la Négritude ?",
+          "options": [
+            "Le griot est le gardien de la mémoire collective : il transmet l'histoire, la généalogie et les valeurs par la parole.",
+            "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas.",
+            "Un exercice qui analyse un texte littéraire en montrant comment la forme sert le fond (le style au service du sens).",
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
+          ],
+          "reponse": 1,
+          "explication": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 3 auteurs de la Négritude et une œuvre. ?",
+          "options": [
+            "La tradition orale (contes, mythes, proverbes, épopées) qui nourrit et influence la littérature écrite africaine.",
+            "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme.",
+            "Le contenu : les idées, les thèmes, le message de l'auteur.",
+            "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
+          ],
+          "reponse": 3,
+          "explication": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que le Surréalisme (XXe siècle) ?",
+      "verso": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+    },
+    {
+      "recto": "Qu'est-ce que la Négritude ?",
+      "verso": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas."
+    },
+    {
+      "recto": "Citez 3 auteurs de la Négritude et une œuvre.",
+      "verso": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
+    }
+  ]
+}

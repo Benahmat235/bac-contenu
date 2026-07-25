@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r014",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 14,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r014-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r014-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Les 3 parties d'une cellule ?",
+          "options": [
+            "membrane plasmique, cytoplasme, noyau",
+            "apporte les acides aminés et porte l'anticodon",
+            "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
+            "environ 9 mois ; se termine par l'accouchement"
+          ],
+          "reponse": 0,
+          "explication": "membrane plasmique, cytoplasme, noyau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Cytoplasme ?",
+          "options": [
+            "A : A//A ou A//O ; B : B//B ou B//O ; AB : A//B ; O : O//O",
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "ovaire + style + stigmate",
+            "hyaloplasme (fluide) + organites (partie solide)"
+          ],
+          "reponse": 3,
+          "explication": "hyaloplasme (fluide) + organites (partie solide)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codon ?",
+          "options": [
+            "double hélice (Watson et Crick)",
+            "ovaire + style + stigmate",
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "maintiennent constant le nombre de chromosomes de l'espèce"
+          ],
+          "reponse": 2,
+          "explication": "séquence de 3 nucléotides de l'ARNm codant un acide aminé"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

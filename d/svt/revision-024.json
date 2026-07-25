@@ -1,0 +1,67 @@
+{
+  "id": "svt-d-r024",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 24,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-r024-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-r024-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Épissage ?",
+          "options": [
+            "cellules β ; hypoglycémiante (fait baisser la glycémie)",
+            "élimine les introns et réunit les exons",
+            "hyaloplasme (fluide) + organites (partie solide)",
+            "une des versions possibles d'un gène"
+          ],
+          "reponse": 1,
+          "explication": "élimine les introns et réunit les exons"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Spermaphytes (Phanérogames) ?",
+          "options": [
+            "unité fonctionnelle du système nerveux",
+            "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+            "implantation de l'embryon dans l'endomètre utérin",
+            "plantes à fleurs (reproduction dans la fleur)"
+          ],
+          "reponse": 3,
+          "explication": "plantes à fleurs (reproduction dans la fleur)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "1re division de méiose ?",
+          "options": [
+            "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+            "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+            "double division : 1 cellule 2n → 4 cellules haploïdes n",
+            "réductionnelle (2n → n)"
+          ],
+          "reponse": 3,
+          "explication": "réductionnelle (2n → n)"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

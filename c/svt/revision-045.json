@@ -1,0 +1,67 @@
+{
+  "id": "svt-c-r045",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 45,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-c-r045-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-r045-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "1re loi de Mendel ?",
+          "options": [
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "uniformité des hybrides de la F1",
+            "une des versions possibles d'un gène",
+            "siège de la synthèse des protéines"
+          ],
+          "reponse": 1,
+          "explication": "uniformité des hybrides de la F1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rôle de la testostérone ?",
+          "options": [
+            "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+            "assure les échanges entre mère et fœtus",
+            "ensemble classé des chromosomes d'une cellule",
+            "développement des caractères sexuels secondaires masculins"
+          ],
+          "reponse": 3,
+          "explication": "développement des caractères sexuels secondaires masculins"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Codons-stop ?",
+          "options": [
+            "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
+            "endocrine → sang ; exocrine → canal excréteur"
+          ],
+          "reponse": 1,
+          "explication": "UAA, UAG, UGA : arrêtent la traduction"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

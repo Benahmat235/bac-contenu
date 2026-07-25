@@ -1,0 +1,67 @@
+{
+  "id": "mathematiques-d-r044",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision",
+  "ordre": 44,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "mathematiques-d-r044-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-r044-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Module ?",
+          "options": [
+            "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'",
+            "aˣ = e^(x·ln a)",
+            "n·xⁿ⁻¹",
+            "|a+ib|=√(a²+b²)"
+          ],
+          "reponse": 3,
+          "explication": "|a+ib|=√(a²+b²)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'une puissance ?",
+          "options": [
+            "(u/v)' = (u'v − uv')/v²",
+            "ln(aⁿ) = n·ln a",
+            "y = ax + b si lim [f(x) − (ax+b)] = 0",
+            "∞ − ∞, ∞/∞, 0/0, 0 × ∞"
+          ],
+          "reponse": 1,
+          "explication": "ln(aⁿ) = n·ln a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limites du logarithme ?",
+          "options": [
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "P(B|A)=P(A∩B)/P(A), si P(A)>0"
+          ],
+          "reponse": 1,
+          "explication": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

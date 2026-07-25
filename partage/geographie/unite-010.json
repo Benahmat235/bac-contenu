@@ -1,0 +1,130 @@
+{
+  "id": "geographie-u010",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "L'énergie, l'industrie et le pétrole au Tchad (1/2)",
+  "ordre": 10,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "L'énergie, l'industrie et le pétrole au Tchad",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "geographie-u010-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "geographie-u010-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Sources d'énergie utilisées au Tchad ?",
+          "reponseAttendue": "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez 5 industries alimentaires du Tchad.",
+          "reponseAttendue": "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone.",
+          "modeReponse": "auto_evaluation",
+          "explication": "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les retombées du pétrole tchadien ?",
+          "reponseAttendue": "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Difficultés de l'industrie au Tchad ?",
+          "reponseAttendue": "Manque de capitaux, de techniciens, concurrence étrangère, manque de débouchés, coût élevé de l'électricité.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Manque de capitaux, de techniciens, concurrence étrangère, manque de débouchés, coût élevé de l'électricité."
+        }
+      ]
+    },
+    {
+      "id": "geographie-u010-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u010-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Sources d'énergie utilisées au Tchad ?",
+          "options": [
+            "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas).",
+            "Changement climatique (baisse des eaux), techniques destructrices, manque de matériel moderne.",
+            "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao).",
+            "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
+          ],
+          "reponse": 0,
+          "explication": "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Donnez 5 industries alimentaires du Tchad. ?",
+          "options": [
+            "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien).",
+            "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone.",
+            "Renouvelable : ne s'épuise pas (soleil, vent). Non renouvelable : stocks limités (pétrole, gaz).",
+            "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, "
+          ],
+          "reponse": 1,
+          "explication": "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les retombées du pétrole tchadien ?",
+          "options": [
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
+            "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
+            "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime humide)."
+          ],
+          "reponse": 2,
+          "explication": "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Sources d'énergie utilisées au Tchad ?",
+      "verso": "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas)."
+    },
+    {
+      "recto": "Donnez 5 industries alimentaires du Tchad.",
+      "verso": "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone."
+    },
+    {
+      "recto": "Quelles sont les retombées du pétrole tchadien ?",
+      "verso": "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral."
+    },
+    {
+      "recto": "Difficultés de l'industrie au Tchad ?",
+      "verso": "Manque de capitaux, de techniciens, concurrence étrangère, manque de débouchés, coût élevé de l'électricité."
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Le Tchad, du coton au pétrole (documentaire)",
+      "url": "https://youtu.be/715Hl8j8BoE",
+      "type": "video",
+      "chaine": "Djénéba EUDARIC",
+      "auteur": "Djénéba EUDARIC"
+    }
+  ]
+}

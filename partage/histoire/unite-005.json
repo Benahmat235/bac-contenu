@@ -1,0 +1,121 @@
+{
+  "id": "histoire-u005",
+  "matiere": "histoire",
+  "type": "litteraire",
+  "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan (4/5)",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "histoire-u005-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "histoire-u005-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le procès de Tokyo ?",
+          "reponseAttendue": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "À la conférence de Potsdam de 1945, quel sort réservé à l'Allemagne ?",
+          "reponseAttendue": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la bombe A et qui la détient en premier ?",
+          "reponseAttendue": "Bombe atomique. USA depuis 1945, URSS depuis 1949.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Bombe atomique. USA depuis 1945, URSS depuis 1949."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Parlez de la conférence de Bretton Woods de 1944.",
+          "reponseAttendue": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence."
+        }
+      ]
+    },
+    {
+      "id": "histoire-u005-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u005-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le procès de Tokyo ?",
+          "options": [
+            "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS.",
+            "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des ",
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,",
+            "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua."
+          ],
+          "reponse": 3,
+          "explication": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua."
+        },
+        {
+          "type": "choix_unique",
+          "question": "À la conférence de Potsdam de 1945, quel sort réservé à l'Allemagne ?",
+          "options": [
+            "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre.",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie).",
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,"
+          ],
+          "reponse": 0,
+          "explication": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la bombe A et qui la détient en premier ?",
+          "options": [
+            "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Bombe atomique. USA depuis 1945, URSS depuis 1949.",
+            "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs poss"
+          ],
+          "reponse": 2,
+          "explication": "Bombe atomique. USA depuis 1945, URSS depuis 1949."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce que le procès de Tokyo ?",
+      "verso": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua."
+    },
+    {
+      "recto": "À la conférence de Potsdam de 1945, quel sort réservé à l'Allemagne ?",
+      "verso": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre."
+    },
+    {
+      "recto": "Qu'est-ce que la bombe A et qui la détient en premier ?",
+      "verso": "Bombe atomique. USA depuis 1945, URSS depuis 1949."
+    },
+    {
+      "recto": "Parlez de la conférence de Bretton Woods de 1944.",
+      "verso": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence."
+    }
+  ]
+}

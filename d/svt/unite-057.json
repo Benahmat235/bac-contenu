@@ -1,0 +1,127 @@
+{
+  "id": "svt-d-u057",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "La communication hormonale (3/3)",
+  "ordre": 57,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "La communication hormonale",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "svt-d-u057-memo",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "svt-d-u057-c",
+      "activites": [
+        {
+          "type": "formule",
+          "recto": "Glycogénogenèse",
+          "verso": "stockage du glucose en glycogène (foie, muscles)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glycogénolyse",
+          "verso": "libération de glucose à partir du glycogène (foie)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Foie",
+          "verso": "organe régulateur du glucose (stockage/déstockage)",
+          "modeReponse": "auto_evaluation"
+        }
+      ]
+    },
+    {
+      "id": "svt-d-u057-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-u057-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Glycogénogenèse ?",
+          "options": [
+            "UAA, UAG, UGA : arrêtent la traduction",
+            "stockage du glucose en glycogène (foie, muscles)",
+            "contient l'information génétique (ADN)",
+            "membrane plasmique, cytoplasme, noyau"
+          ],
+          "reponse": 1,
+          "explication": "stockage du glucose en glycogène (foie, muscles)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Glycogénolyse ?",
+          "options": [
+            "libération de glucose à partir du glycogène (foie)",
+            "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+            "Rh+ (dominant) / Rh− (récessif)",
+            "synthèse de la protéine dans le cytoplasme, sur les ribosomes"
+          ],
+          "reponse": 0,
+          "explication": "libération de glucose à partir du glycogène (foie)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Foie ?",
+          "options": [
+            "étamines (androcée) et carpelles (gynécée)",
+            "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+            "organe régulateur du glucose (stockage/déstockage)",
+            "apporte les acides aminés et porte l'anticodon"
+          ],
+          "reponse": 2,
+          "explication": "organe régulateur du glucose (stockage/déstockage)"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Glycogénogenèse",
+      "verso": "stockage du glucose en glycogène (foie, muscles)"
+    },
+    {
+      "recto": "Glycogénolyse",
+      "verso": "libération de glucose à partir du glycogène (foie)"
+    },
+    {
+      "recto": "Foie",
+      "verso": "organe régulateur du glucose (stockage/déstockage)"
+    }
+  ],
+  "formulaire": [
+    {
+      "type": "formule",
+      "recto": "Glycogénogenèse",
+      "verso": "stockage du glucose en glycogène (foie, muscles)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Glycogénolyse",
+      "verso": "libération de glucose à partir du glycogène (foie)",
+      "modeReponse": "auto_evaluation"
+    },
+    {
+      "type": "formule",
+      "recto": "Foie",
+      "verso": "organe régulateur du glucose (stockage/déstockage)",
+      "modeReponse": "auto_evaluation"
+    }
+  ]
+}
