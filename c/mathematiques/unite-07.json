@@ -3,7 +3,7 @@
   "matiere": "mathematiques-c",
   "type": "scientifique",
   "titre": "Dérivations et étude de fonctions",
-  "ordre": 7,
+  "ordre": 9,
   "source": {
     "document": "Mathématique TC",
     "chapitre": "Chapitre 7 : Dérivations et étude de fonctions",
@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "math-c-u2-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-derivee",
       "activites": [
         {
           "type": "formule",
-          "recto": "Dérivée d'un quotient (u/v)' ?",
-          "verso": "(u'v − uv')/v²",
+          "recto": "Dérivée de xⁿ",
+          "verso": "n·xⁿ⁻¹",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Dérivée d'une composée (uⁿ)' ?",
-          "verso": "n·u'·uⁿ⁻¹",
+          "recto": "Dérivée de 1/x",
+          "verso": "−1/x²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de √x",
+          "verso": "1/(2√x)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivées de cos x et sin x",
+          "verso": "(cos x)' = −sin x ; (sin x)' = cos x",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'un produit",
+          "verso": "(uv)' = u'v + uv'",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'un quotient",
+          "verso": "(u/v)' = (u'v − uv')/v²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'une puissance",
+          "verso": "(uⁿ)' = n·u'·uⁿ⁻¹",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de √u",
+          "verso": "(√u)' = u'/(2√u)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée d'une composée",
+          "verso": "(g∘f)'(x) = f'(x)·g'(f(x))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation de la tangente en x₀",
+          "verso": "y = f'(x₀)(x − x₀) + f(x₀)",
           "modeReponse": "auto_evaluation"
         }
       ]

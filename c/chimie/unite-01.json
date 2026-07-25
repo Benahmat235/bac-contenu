@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "chi-c-st-st-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-c-st-c-isomerie",
       "activites": [
         {
           "type": "formule",
-          "recto": "Carbone asymétrique ?",
-          "verso": "C lié à 4 groupes tous différents",
+          "recto": "Isomères",
+          "verso": "même formule brute, formules développées différentes",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Énantiomères ?",
-          "verso": "images miroir non superposables",
+          "recto": "Isomérie de chaîne",
+          "verso": "diffèrent par la disposition de la chaîne carbonée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de position",
+          "verso": "diffèrent par la position d'un groupe",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de fonction",
+          "verso": "même formule brute, fonctions différentes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Carbone asymétrique",
+          "verso": "C lié à 4 groupes tous différents (noté C*)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énantiomères",
+          "verso": "images miroir non superposables (molécule chirale)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Représentation de Newman",
+          "verso": "visualise les conformations autour d'une liaison C–C",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -2,17 +2,109 @@
   "id": "mathematiques-d",
   "titre": "Mathématiques",
   "type": "scientifique",
-  "seriesConcernees": ["d"],
+  "seriesConcernees": [
+    "d"
+  ],
   "description": "Analyse, nombres complexes, similitudes et probabilités : formules à mémoriser, exercices corrigés et quiz.",
   "unites": [
-    { "id": "math-d-u1", "titre": "Limites et continuité", "ordre": 1, "fichier": "d/mathematiques/unite-01.json", "prerequis": [] },
-    { "id": "math-d-u2", "titre": "Dérivations et étude de fonctions", "ordre": 2, "fichier": "d/mathematiques/unite-02.json", "prerequis": ["math-d-u1"] },
-    { "id": "math-d-u3", "titre": "Primitives et fonction logarithme népérien", "ordre": 3, "fichier": "d/mathematiques/unite-03.json", "prerequis": ["math-d-u2"] },
-    { "id": "math-d-u4", "titre": "Fonctions exponentielles et fonctions puissances", "ordre": 4, "fichier": "d/mathematiques/unite-04.json", "prerequis": ["math-d-u3"] },
-    { "id": "math-d-u5", "titre": "Suites numériques", "ordre": 5, "fichier": "d/mathematiques/unite-05.json", "prerequis": ["math-d-u1"] },
-    { "id": "math-d-u6", "titre": "Les intégrales", "ordre": 6, "fichier": "d/mathematiques/unite-06.json", "prerequis": ["math-d-u3"] },
-    { "id": "math-d-u7", "titre": "Nombres complexes", "ordre": 7, "fichier": "d/mathematiques/unite-07.json", "prerequis": [] },
-    { "id": "math-d-u8", "titre": "Similitudes directes et indirectes", "ordre": 8, "fichier": "d/mathematiques/unite-08.json", "prerequis": ["math-d-u7"] },
-    { "id": "math-d-u9", "titre": "Dénombrement, probabilités et variables aléatoires", "ordre": 9, "fichier": "d/mathematiques/unite-09.json", "prerequis": [] }
+    {
+      "id": "math-d-u1",
+      "titre": "Limites et continuité",
+      "ordre": 1,
+      "fichier": "d/mathematiques/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "math-d-u2",
+      "titre": "Dérivations et étude de fonctions",
+      "ordre": 2,
+      "fichier": "d/mathematiques/unite-02.json",
+      "prerequis": [
+        "math-d-u1"
+      ]
+    },
+    {
+      "id": "math-d-u3",
+      "titre": "Primitives et fonction logarithme népérien",
+      "ordre": 3,
+      "fichier": "d/mathematiques/unite-03.json",
+      "prerequis": [
+        "math-d-u2"
+      ]
+    },
+    {
+      "id": "mathematiques-d-rev01",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "d/mathematiques/revision-01.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "math-d-u4",
+      "titre": "Fonctions exponentielles et fonctions puissances",
+      "ordre": 5,
+      "fichier": "d/mathematiques/unite-04.json",
+      "prerequis": [
+        "math-d-u3"
+      ]
+    },
+    {
+      "id": "math-d-u5",
+      "titre": "Suites numériques",
+      "ordre": 6,
+      "fichier": "d/mathematiques/unite-05.json",
+      "prerequis": [
+        "math-d-u1"
+      ]
+    },
+    {
+      "id": "math-d-u6",
+      "titre": "Les intégrales",
+      "ordre": 7,
+      "fichier": "d/mathematiques/unite-06.json",
+      "prerequis": [
+        "math-d-u3"
+      ]
+    },
+    {
+      "id": "mathematiques-d-rev02",
+      "titre": "Révision : leçons 4 à 6",
+      "ordre": 8,
+      "fichier": "d/mathematiques/revision-02.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "math-d-u7",
+      "titre": "Nombres complexes",
+      "ordre": 9,
+      "fichier": "d/mathematiques/unite-07.json",
+      "prerequis": []
+    },
+    {
+      "id": "math-d-u8",
+      "titre": "Similitudes directes et indirectes",
+      "ordre": 10,
+      "fichier": "d/mathematiques/unite-08.json",
+      "prerequis": [
+        "math-d-u7"
+      ]
+    },
+    {
+      "id": "math-d-u9",
+      "titre": "Dénombrement, probabilités et variables aléatoires",
+      "ordre": 11,
+      "fichier": "d/mathematiques/unite-09.json",
+      "prerequis": []
+    },
+    {
+      "id": "mathematiques-d-rev03",
+      "titre": "Révision : leçons 7 à 9",
+      "ordre": 12,
+      "fichier": "d/mathematiques/revision-03.json",
+      "prerequis": [],
+      "estRevision": true
+    }
   ]
 }

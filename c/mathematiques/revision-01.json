@@ -1,0 +1,177 @@
+{
+  "id": "mathematiques-c-rev01",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision : leçons 1 à 3",
+  "ordre": 4,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-c-rev01-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-rev01-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Milieu d'un segment ?",
+          "options": [
+            "I = ((xA+xB)/2 ; (yA+yB)/2)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "I = ((xA+xB)/2 ; (yA+yB)/2)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réciproque d'une rotation ?",
+          "options": [
+            "r(O ; θ)⁻¹ = r(O ; −θ)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "r(O ; θ)⁻¹ = r(O ; −θ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit scalaire (norme et angle) ?",
+          "options": [
+            "u·v = ‖u‖·‖v‖·cos(θ)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "u·v = ‖u‖·‖v‖·cos(θ)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Lien PGCD–PPCM ?",
+          "options": [
+            "PGCD(a;b) × PPCM(a;b) = a × b",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "PGCD(a;b) × PPCM(a;b) = a × b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Congruence modulo n ?",
+          "options": [
+            "a ≡ b [n] si a − b est un multiple de n",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "a ≡ b [n] si a − b est un multiple de n"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Homothétie de centre O ?",
+          "options": [
+            "z' = k·z (k réel non nul = rapport)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "z' = k·z (k réel non nul = rapport)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Symétries d'axes sécants en O ?",
+          "options": [
+            "composée = rotation de centre O",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "composée = rotation de centre O"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Divisibilité dans ℤ ?",
+          "options": [
+            "a divise b s'il existe k entier tel que b = k·a",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "a divise b s'il existe k entier tel que b = k·a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Algorithme d'Euclide ?",
+          "options": [
+            "PGCD(a;b) = dernier reste non nul des divisions successives",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "PGCD(a;b) = dernier reste non nul des divisions successives"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Critère de divisibilité par 3 et 9 ?",
+          "options": [
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "la somme des chiffres est divisible par 3 (ou 9)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème de Bézout ?",
+          "options": [
+            "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vecteurs colinéaires ?",
+          "options": [
+            "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

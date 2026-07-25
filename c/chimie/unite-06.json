@@ -3,7 +3,7 @@
   "matiere": "chimie-c",
   "type": "scientifique",
   "titre": "Acide faible – base faible",
-  "ordre": 6,
+  "ordre": 7,
   "source": {
     "document": "Chimie TC",
     "chapitre": "Chapitre 6 : Acide faible – base faible",
@@ -57,21 +57,45 @@
   "etapes": [
     {
       "id": "chi-c-afa-afa-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-c-afa-c-afaible",
       "activites": [
         {
           "type": "formule",
-          "recto": "pH d'un acide faible ?",
-          "verso": "pH = ½(pKa − log C)",
+          "recto": "pH d'un acide faible",
+          "verso": "pH = ½·(pKa − log C)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Relation de Henderson ?",
+          "recto": "Relation de Henderson-Hasselbalch",
           "verso": "pH = pKa + log([base]/[acide])",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution tampon",
+          "verso": "pH ≈ pKa quand [base] = [acide]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acide faible",
+          "verso": "dissociation partielle dans l'eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force et pKa",
+          "verso": "acide d'autant plus fort que le pKa est petit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante d'acidité",
+          "verso": "Ka = [A⁻][H₃O⁺]/[AH]",
           "modeReponse": "auto_evaluation"
         }
       ]

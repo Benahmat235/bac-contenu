@@ -1,0 +1,177 @@
+{
+  "id": "mathematiques-d-rev01",
+  "matiere": "mathematiques-d",
+  "type": "scientifique",
+  "titre": "Révision : leçons 1 à 3",
+  "ordre": 4,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-d-rev01-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-d-rev01-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une composée ?",
+          "options": [
+            "(g∘f)'(x) = f'(x)·g'(f(x))",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "(g∘f)'(x) = f'(x)·g'(f(x))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'un quotient ?",
+          "options": [
+            "(u/v)' = (u'v − uv')/v²",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "(u/v)' = (u'v − uv')/v²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote oblique ?",
+          "options": [
+            "y = ax + b si lim [f(x) − (ax+b)] = 0",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "y = ax + b si lim [f(x) − (ax+b)] = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un quotient ?",
+          "options": [
+            "ln(a/b) = ln a − ln b",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ln(a/b) = ln a − ln b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Limites du logarithme ?",
+          "options": [
+            "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivées de cos x et sin x ?",
+          "options": [
+            "(cos x)' = −sin x ; (sin x)' = cos x",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "(cos x)' = −sin x ; (sin x)' = cos x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Asymptote verticale ?",
+          "options": [
+            "si lim f = ±∞ en x₀, alors x = x₀",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "si lim f = ±∞ en x₀, alors x = x₀"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Lever une indétermination ?",
+          "options": [
+            "factoriser, ou multiplier par l'expression conjuguée",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "factoriser, ou multiplier par l'expression conjuguée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de ln x ?",
+          "options": [
+            "1/x",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "1/x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'un produit ?",
+          "options": [
+            "ln(ab) = ln a + ln b",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ln(ab) = ln a + ln b"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de 1/x ?",
+          "options": [
+            "−1/x²",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "−1/x²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Primitive de xⁿ (n≠−1) ?",
+          "options": [
+            "xⁿ⁺¹/(n+1) + c",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "xⁿ⁺¹/(n+1) + c"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

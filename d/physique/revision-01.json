@@ -1,0 +1,177 @@
+{
+  "id": "physique-d-rev01",
+  "matiere": "physique-d",
+  "type": "scientifique",
+  "titre": "Révision : leçons 1 à 3",
+  "ordre": 4,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "physique-d-rev01-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "physique-d-rev01-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "3ᵉ loi de Kepler ?",
+          "options": [
+            "T²/r³ = 4π²/(G·M) = constante",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "T²/r³ = 4π²/(G·M) = constante"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Accélération normale ?",
+          "options": [
+            "aₙ = v²/R = ω²·R",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "aₙ = v²/R = ω²·R"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pulsation et période ?",
+          "options": [
+            "ω = 2π/T = 2π·N",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ω = 2π/T = 2π·N"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force de Lorentz ?",
+          "options": [
+            "F = |q|·v·B·sin(α)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "F = |q|·v·B·sin(α)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse linéaire (circulaire) ?",
+          "options": [
+            "v = R·ω",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "v = R·ω"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse orbitale ?",
+          "options": [
+            "v = √(G·M/r)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "v = √(G·M/r)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Période d'un satellite (orbite circulaire) ?",
+          "options": [
+            "T = 2π·√(r³/(G·M))",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "T = 2π·√(r³/(G·M))"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse en MRUV ?",
+          "options": [
+            "v = v₀ + a·t",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "v = v₀ + a·t"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Force électrique ?",
+          "options": [
+            "F = q·E",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "F = q·E"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Champ de pesanteur à l'altitude h ?",
+          "options": [
+            "g_h = G·M/(R+h)²",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "g_h = G·M/(R+h)²"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Accélération ?",
+          "options": [
+            "a = Δv/Δt",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "a = Δv/Δt"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante de gravitation ?",
+          "options": [
+            "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "G = 6,67×10⁻¹¹ N·m²·kg⁻²"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

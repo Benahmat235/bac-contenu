@@ -57,21 +57,45 @@
   "etapes": [
     {
       "id": "chi-c-ac-ac-e1",
-      "titre": "Mémoriser les fonctions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-c-ac-c-acidecarb",
       "activites": [
         {
           "type": "formule",
-          "recto": "Groupe des acides carboxyliques ?",
-          "verso": "−COOH",
+          "recto": "Groupe acide carboxylique",
+          "verso": "carboxyle −COOH",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Estérification ?",
-          "verso": "acide + alcool ⇌ ester + eau",
+          "recto": "Estérification",
+          "verso": "acide + alcool ⇌ ester + eau (lente et limitée)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Saponification",
+          "verso": "ester + base → carboxylate (savon) + alcool (totale)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Groupe ester",
+          "verso": "−COO− (−CO−O−)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acidité",
+          "verso": "les acides carboxyliques sont des acides faibles (pKa ≈ 4-5)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réaction avec une base",
+          "verso": "acide + base forte → carboxylate + eau",
           "modeReponse": "auto_evaluation"
         }
       ]

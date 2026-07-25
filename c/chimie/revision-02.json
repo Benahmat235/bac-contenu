@@ -1,0 +1,177 @@
+{
+  "id": "chimie-c-rev02",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Révision : leçons 4 à 6",
+  "ordre": 8,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-c-rev02-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-rev02-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Constante d'acidité ?",
+          "options": [
+            "Ka = [A⁻][H₃O⁺]/[AH]",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "Ka = [A⁻][H₃O⁺]/[AH]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'un acide fort ?",
+          "options": [
+            "C = 10^(−pH)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "C = 10^(−pH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pH d'un acide faible ?",
+          "options": [
+            "pH = ½·(pKa − log C)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH = ½·(pKa − log C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Saponification ?",
+          "options": [
+            "ester + base → carboxylate (savon) + alcool (totale)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ester + base → carboxylate (savon) + alcool (totale)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomères ?",
+          "options": [
+            "même formule brute, formules développées différentes",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "même formule brute, formules développées différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des alcools ?",
+          "options": [
+            "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe ester ?",
+          "options": [
+            "−COO− (−CO−O−)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "−COO− (−CO−O−)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Concentration en ions H₃O⁺ ?",
+          "options": [
+            "[H₃O⁺] = 10^(−pH)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "[H₃O⁺] = 10^(−pH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de fonction ?",
+          "options": [
+            "même formule brute, fonctions différentes",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "même formule brute, fonctions différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des cétones ?",
+          "options": [
+            "R−CO−R' (carbonyle entre deux carbones)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "R−CO−R' (carbonyle entre deux carbones)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Test des aldéhydes ?",
+          "options": [
+            "réduisent la liqueur de Fehling / le réactif de Tollens",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "réduisent la liqueur de Fehling / le réactif de Tollens"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Énantiomères ?",
+          "options": [
+            "images miroir non superposables (molécule chirale)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "images miroir non superposables (molécule chirale)"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

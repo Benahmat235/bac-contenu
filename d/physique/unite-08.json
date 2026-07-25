@@ -3,7 +3,7 @@
   "matiere": "physique-d",
   "type": "scientifique",
   "titre": "Circuits RLC en régime sinusoïdal forcé",
-  "ordre": 8,
+  "ordre": 10,
   "source": {
     "document": "Physique TD",
     "chapitre": "Chapitre 8 : RLC en régime sinusoïdal forcé",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-d-rlc-rlc-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-d-rlc-c-impedance",
       "activites": [
         {
           "type": "formule",
-          "recto": "Impédance d'un RLC série ?",
+          "recto": "Impédance d'un RLC série",
           "verso": "Z = √(R² + (Lω − 1/(Cω))²)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Fréquence de résonance ?",
-          "verso": "f₀ = 1/(2π√(L·C))",
+          "recto": "Loi d'Ohm en régime forcé",
+          "verso": "U = Z·I",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation de résonance",
+          "verso": "ω₀ = 1/√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fréquence de résonance",
+          "verso": "f₀ = 1/(2π·√(L·C))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "À la résonance",
+          "verso": "Z = R (minimale), circuit résistif",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Puissance moyenne",
+          "verso": "P = R·I² = U·I·cos(φ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réactance",
+          "verso": "X = Lω − 1/(Cω)",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "chi-c-al-al-e1",
-      "titre": "Mémoriser les fonctions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-c-al-c-fonction",
       "activites": [
         {
           "type": "formule",
-          "recto": "Groupe des alcools ?",
-          "verso": "−OH (hydroxyle)",
+          "recto": "Groupe des alcools",
+          "verso": "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Oxydation d'un alcool primaire ?",
-          "verso": "aldéhyde puis acide carboxylique",
+          "recto": "Groupe des aldéhydes",
+          "verso": "−CHO (carbonyle en bout de chaîne)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Groupe des cétones",
+          "verso": "R−CO−R' (carbonyle entre deux carbones)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Oxydation alcool primaire",
+          "verso": "alcool 1aire → aldéhyde → acide carboxylique",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Oxydation alcool secondaire",
+          "verso": "alcool 2aire → cétone",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Alcool tertiaire",
+          "verso": "non oxydable par oxydation ménagée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Test des aldéhydes",
+          "verso": "réduisent la liqueur de Fehling / le réactif de Tollens",
           "modeReponse": "auto_evaluation"
         }
       ]

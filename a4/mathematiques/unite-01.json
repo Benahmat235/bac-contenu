@@ -72,35 +72,66 @@
   "etapes": [
     {
       "id": "math-a4-u1-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-a4-c-discriminant",
       "activites": [
         {
-          "type": "formule",
-          "recto": "Quelle est la formule du discriminant Δ ?",
+          "id": "math-a4-f1",
+          "recto": "Forme générale d'un trinôme du second degré",
+          "verso": "P(x) = ax² + bx + c, avec a ≠ 0",
+          "competenceId": "math-a4-c-trinome",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "id": "math-a4-f2",
+          "recto": "Discriminant d'un trinôme ax² + bx + c",
           "verso": "Δ = b² − 4ac",
-          "modeReponse": "auto_evaluation",
-          "explication": "Le discriminant détermine le nombre de racines du trinôme."
+          "competenceId": "math-a4-c-discriminant",
+          "modeReponse": "auto_evaluation"
         },
         {
-          "type": "texte_a_completer",
-          "phrase": "Si Δ > 0, les deux racines sont x₁ = (−b − √Δ)/2a et x₂ = (−b + ___)/2a.",
-          "reponse": "√Δ",
-          "toleranceMots": [
-            "√δ",
-            "racine de delta",
-            "racine de Δ"
-          ],
-          "explication": "Les deux racines ne diffèrent que par le signe devant √Δ."
+          "id": "math-a4-f3",
+          "recto": "Racines si Δ > 0",
+          "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+          "competenceId": "math-a4-c-racines",
+          "modeReponse": "auto_evaluation"
         },
         {
-          "type": "formule",
-          "recto": "Si Δ = 0, quelle est la racine double ?",
+          "id": "math-a4-f4",
+          "recto": "Racine si Δ = 0 (racine double)",
           "verso": "x₀ = −b / 2a",
-          "modeReponse": "auto_evaluation",
-          "explication": "Une seule racine, dite « double »."
+          "competenceId": "math-a4-c-racines",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "id": "math-a4-f5",
+          "recto": "Nombre de racines si Δ < 0",
+          "verso": "Aucune racine réelle : S = ∅",
+          "competenceId": "math-a4-c-racines",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "id": "math-a4-f6",
+          "recto": "Forme factorisée d'un trinôme (Δ > 0)",
+          "verso": "P(x) = a(x − x₁)(x − x₂)",
+          "competenceId": "math-a4-c-factorisation",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "id": "math-a4-f7",
+          "recto": "Signe du trinôme P(x) selon Δ",
+          "verso": "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a.",
+          "competenceId": "math-a4-c-signe",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "id": "math-a4-f8",
+          "recto": "Discriminant réduit (quand b est pair, b' = b/2)",
+          "verso": "Δ' = b'² − ac",
+          "competenceId": "math-a4-c-discriminant",
+          "modeReponse": "auto_evaluation"
         }
       ]
     },

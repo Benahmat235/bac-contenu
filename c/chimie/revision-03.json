@@ -1,0 +1,177 @@
+{
+  "id": "chimie-c-rev03",
+  "matiere": "chimie-c",
+  "type": "scientifique",
+  "titre": "Révision finale",
+  "ordre": 11,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-c-rev03-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-c-rev03-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'un acide fort ?",
+          "options": [
+            "C = 10^(−pH)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "C = 10^(−pH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomères ?",
+          "options": [
+            "même formule brute, formules développées différentes",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "même formule brute, formules développées différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Temps de demi-réaction t½ ?",
+          "options": [
+            "durée pour consommer la moitié du réactif limitant",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "durée pour consommer la moitié du réactif limitant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Catalyseur ?",
+          "options": [
+            "accélère la réaction sans être consommé ni modifier l'état final",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "accélère la réaction sans être consommé ni modifier l'état final"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Saponification ?",
+          "options": [
+            "ester + base → carboxylate (savon) + alcool (totale)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ester + base → carboxylate (savon) + alcool (totale)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Base forte ?",
+          "options": [
+            "capte totalement des protons (ex. NaOH)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "capte totalement des protons (ex. NaOH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Oxydation alcool secondaire ?",
+          "options": [
+            "alcool 2aire → cétone",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "alcool 2aire → cétone"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Vitesse volumique de disparition ?",
+          "options": [
+            "v = −d[A]/dt",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "v = −d[A]/dt"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Représentation de Newman ?",
+          "options": [
+            "visualise les conformations autour d'une liaison C–C",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "visualise les conformations autour d'une liaison C–C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pKa ?",
+          "options": [
+            "pKa = −log Ka",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pKa = −log Ka"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réaction avec une base ?",
+          "options": [
+            "acide + base forte → carboxylate + eau",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "acide + base forte → carboxylate + eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

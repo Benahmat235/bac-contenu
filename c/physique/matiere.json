@@ -2,17 +2,105 @@
   "id": "physique-c",
   "titre": "Physique",
   "type": "scientifique",
-  "seriesConcernees": ["c"],
+  "seriesConcernees": [
+    "c"
+  ],
   "description": "Mécanique, champs, électricité, physique quantique et nucléaire : formules, exercices corrigés et quiz.",
   "unites": [
-    { "id": "phy-c-cin", "titre": "Cinématique", "ordre": 1, "fichier": "c/physique/unite-01.json", "prerequis": [] },
-    { "id": "phy-c-champ", "titre": "Les champs et interactions universelles", "ordre": 2, "fichier": "c/physique/unite-02.json", "prerequis": [] },
-    { "id": "phy-c-dyn", "titre": "La relation fondamentale de la dynamique", "ordre": 3, "fichier": "c/physique/unite-03.json", "prerequis": ["phy-c-cin"] },
-    { "id": "phy-c-newton", "titre": "Application des lois de Newton", "ordre": 4, "fichier": "c/physique/unite-04.json", "prerequis": ["phy-c-dyn"] },
-    { "id": "phy-c-lc", "titre": "Auto-induction et circuits oscillants", "ordre": 5, "fichier": "c/physique/unite-05.json", "prerequis": [] },
-    { "id": "phy-c-osce", "titre": "Les oscillations électriques", "ordre": 6, "fichier": "c/physique/unite-06.json", "prerequis": ["phy-c-lc"] },
-    { "id": "phy-c-rlc", "titre": "Circuits RLC en régime forcé", "ordre": 7, "fichier": "c/physique/unite-07.json", "prerequis": ["phy-c-osce"] },
-    { "id": "phy-c-photo", "titre": "Effet photoélectrique", "ordre": 8, "fichier": "c/physique/unite-08.json", "prerequis": [] },
-    { "id": "phy-c-radio", "titre": "Décroissance radioactive", "ordre": 9, "fichier": "c/physique/unite-09.json", "prerequis": [] }
+    {
+      "id": "phy-c-cin",
+      "titre": "Cinématique",
+      "ordre": 1,
+      "fichier": "c/physique/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "phy-c-champ",
+      "titre": "Les champs et interactions universelles",
+      "ordre": 2,
+      "fichier": "c/physique/unite-02.json",
+      "prerequis": []
+    },
+    {
+      "id": "phy-c-dyn",
+      "titre": "La relation fondamentale de la dynamique",
+      "ordre": 3,
+      "fichier": "c/physique/unite-03.json",
+      "prerequis": [
+        "phy-c-cin"
+      ]
+    },
+    {
+      "id": "physique-c-rev01",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "c/physique/revision-01.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "phy-c-newton",
+      "titre": "Application des lois de Newton",
+      "ordre": 5,
+      "fichier": "c/physique/unite-04.json",
+      "prerequis": [
+        "phy-c-dyn"
+      ]
+    },
+    {
+      "id": "phy-c-lc",
+      "titre": "Auto-induction et circuits oscillants",
+      "ordre": 6,
+      "fichier": "c/physique/unite-05.json",
+      "prerequis": []
+    },
+    {
+      "id": "phy-c-osce",
+      "titre": "Les oscillations électriques",
+      "ordre": 7,
+      "fichier": "c/physique/unite-06.json",
+      "prerequis": [
+        "phy-c-lc"
+      ]
+    },
+    {
+      "id": "physique-c-rev02",
+      "titre": "Révision : leçons 4 à 6",
+      "ordre": 8,
+      "fichier": "c/physique/revision-02.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "phy-c-rlc",
+      "titre": "Circuits RLC en régime forcé",
+      "ordre": 9,
+      "fichier": "c/physique/unite-07.json",
+      "prerequis": [
+        "phy-c-osce"
+      ]
+    },
+    {
+      "id": "phy-c-photo",
+      "titre": "Effet photoélectrique",
+      "ordre": 10,
+      "fichier": "c/physique/unite-08.json",
+      "prerequis": []
+    },
+    {
+      "id": "phy-c-radio",
+      "titre": "Décroissance radioactive",
+      "ordre": 11,
+      "fichier": "c/physique/unite-09.json",
+      "prerequis": []
+    },
+    {
+      "id": "physique-c-rev03",
+      "titre": "Révision : leçons 7 à 9",
+      "ordre": 12,
+      "fichier": "c/physique/revision-03.json",
+      "prerequis": [],
+      "estRevision": true
+    }
   ]
 }

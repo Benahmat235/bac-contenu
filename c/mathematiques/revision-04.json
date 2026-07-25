@@ -1,0 +1,177 @@
+{
+  "id": "mathematiques-c-rev04",
+  "matiere": "mathematiques-c",
+  "type": "scientifique",
+  "titre": "Révision : leçons 10 à 12",
+  "ordre": 16,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "mathematiques-c-rev04-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "mathematiques-c-rev04-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Critère de divisibilité par 3 et 9 ?",
+          "options": [
+            "la somme des chiffres est divisible par 3 (ou 9)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "la somme des chiffres est divisible par 3 (ou 9)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Théorème de Gauss ?",
+          "options": [
+            "si a divise bc et PGCD(a;b) = 1, alors a divise c",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "si a divise bc et PGCD(a;b) = 1, alors a divise c"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Logarithme d'une puissance ?",
+          "options": [
+            "ln(aⁿ) = n·ln a",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ln(aⁿ) = n·ln a"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivées de cos x et sin x ?",
+          "options": [
+            "(cos x)' = −sin x ; (sin x)' = cos x",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "(cos x)' = −sin x ; (sin x)' = cos x"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée d'une puissance ?",
+          "options": [
+            "(uⁿ)' = n·u'·uⁿ⁻¹",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "(uⁿ)' = n·u'·uⁿ⁻¹"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Parité sur un intervalle symétrique ?",
+          "options": [
+            "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Intégrale par une primitive F de f ?",
+          "options": [
+            "∫ₐᵇ f(x) dx = F(b) − F(a)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Équation de la tangente en x₀ ?",
+          "options": [
+            "y = f'(x₀)(x − x₀) + f(x₀)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "y = f'(x₀)(x − x₀) + f(x₀)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Homothétie de centre O ?",
+          "options": [
+            "z' = k·z (k réel non nul = rapport)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "z' = k·z (k réel non nul = rapport)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Dérivée de √u ?",
+          "options": [
+            "(√u)' = u'/(2√u)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "(√u)' = u'/(2√u)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Produit scalaire (coordonnées) ?",
+          "options": [
+            "u·v = xᵤxᵥ + yᵤyᵥ",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "u·v = xᵤxᵥ + yᵤyᵥ"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Suites adjacentes ?",
+          "options": [
+            "deux suites adjacentes convergent vers la même limite",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "deux suites adjacentes convergent vers la même limite"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

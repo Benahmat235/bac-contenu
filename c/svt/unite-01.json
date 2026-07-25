@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "svt-c-cell-cell-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-c-cell-cell",
       "activites": [
         {
           "type": "formule",
-          "recto": "Unité du vivant ?",
-          "verso": "la cellule",
+          "recto": "Cellule",
+          "verso": "unité structurale et fonctionnelle de tout être vivant",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Rôle de la mitochondrie ?",
-          "verso": "respiration cellulaire / production d'énergie (ATP)",
+          "recto": "Les 3 parties d'une cellule",
+          "verso": "membrane plasmique, cytoplasme, noyau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Noyau",
+          "verso": "contient l'information génétique (ADN)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Cytoplasme",
+          "verso": "hyaloplasme (fluide) + organites (partie solide)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Mitochondrie",
+          "verso": "siège de la respiration cellulaire, produit l'énergie (ATP)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Chloroplaste",
+          "verso": "réalise la photosynthèse (cellule végétale uniquement)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ribosomes",
+          "verso": "siège de la synthèse des protéines",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Appareil de Golgi",
+          "verso": "maturation et sécrétion des substances",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réticulum endoplasmique",
+          "verso": "synthèse et transport des substances",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Cellule végétale vs animale",
+          "verso": "la végétale a paroi cellulosique, chloroplastes et grande vacuole",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "svt-c-ig-ig-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-c-ig-adn",
       "activites": [
         {
           "type": "formule",
-          "recto": "Complémentarité des bases ?",
+          "recto": "Support de l'information génétique",
+          "verso": "l'ADN (acide désoxyribonucléique)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nucléotide",
+          "verso": "phosphate + sucre (désoxyribose) + base azotée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Bases de l'ADN",
+          "verso": "A, T, G, C",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Complémentarité des bases",
           "verso": "A–T et G–C",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Gène ?",
-          "verso": "portion d'ADN responsable d'un caractère",
+          "recto": "Structure de l'ADN",
+          "verso": "double hélice (Watson et Crick)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gène",
+          "verso": "portion d'ADN responsable d'un caractère héréditaire",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Caryotype",
+          "verso": "ensemble classé des chromosomes d'une cellule",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Diploïde / haploïde",
+          "verso": "2n = diploïde ; n = haploïde (gamètes)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réplication de l'ADN",
+          "verso": "duplication semi-conservative (un brin ancien + un brin neuf)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "ADN vs ARN",
+          "verso": "ADN : double brin, désoxyribose, T — ARN : simple brin, ribose, U",
           "modeReponse": "auto_evaluation"
         }
       ]

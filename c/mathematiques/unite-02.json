@@ -69,21 +69,57 @@
   "etapes": [
     {
       "id": "math-c-vect-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-prodscalaire",
       "activites": [
         {
           "type": "formule",
-          "recto": "Produit scalaire en coordonnées ?",
+          "recto": "Produit scalaire (coordonnées)",
           "verso": "u·v = xᵤxᵥ + yᵤyᵥ",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Coordonnées du barycentre ?",
-          "verso": "G = (Σαᵢxᵢ/Σαᵢ ; Σαᵢyᵢ/Σαᵢ)",
+          "recto": "Norme d'un vecteur",
+          "verso": "‖u‖ = √(x² + y²)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vecteurs orthogonaux",
+          "verso": "u ⊥ v ⟺ u·v = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vecteurs colinéaires",
+          "verso": "u et v colinéaires ⟺ xᵤyᵥ − yᵤxᵥ = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Milieu d'un segment",
+          "verso": "I = ((xA+xB)/2 ; (yA+yB)/2)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Barycentre de n points pondérés",
+          "verso": "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation d'un plan (vecteur normal n)",
+          "verso": "n·(M − A) = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit scalaire (norme et angle)",
+          "verso": "u·v = ‖u‖·‖v‖·cos(θ)",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -3,7 +3,7 @@
   "matiere": "mathematiques-c",
   "type": "scientifique",
   "titre": "Dénombrement et probabilités",
-  "ordre": 10,
+  "ordre": 13,
   "source": {
     "document": "Mathématique TC",
     "chapitre": "Chapitre 10 : Dénombrement et probabilités",
@@ -93,27 +93,81 @@
   "etapes": [
     {
       "id": "math-c-u9-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-probabilites",
       "activites": [
         {
           "type": "formule",
-          "recto": "Arrangement sans répétition de p éléments parmi n ?",
+          "recto": "Factorielle",
+          "verso": "n!=n(n−1)…2×1 et 0!=1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Arrangement avec répétition",
+          "verso": "nᵖ suites ordonnées de longueur p",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Arrangement sans répétition",
           "verso": "A(n,p)=n!/(n−p)!",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Probabilité conditionnelle P(B|A) ?",
-          "verso": "P(A∩B)/P(A)",
+          "recto": "Combinaison",
+          "verso": "C(n,p)=n!/(p!(n−p)!)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Probabilité binomiale de k succès ?",
-          "verso": "C(n,k)pᵏ(1−p)ⁿ⁻ᵏ",
+          "recto": "Équiprobabilité",
+          "verso": "P(A)=Card(A)/Card(Ω)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réunion",
+          "verso": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Probabilité conditionnelle",
+          "verso": "P(B|A)=P(A∩B)/P(A), si P(A)>0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Indépendance",
+          "verso": "A et B indépendants ⇔ P(A∩B)=P(A)P(B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Loi binomiale et moments",
+          "verso": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ ; E(X)=np ; V(X)=np(1−p)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Espérance d'une variable discrète",
+          "verso": "E(X)=ΣxᵢP(X=xᵢ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Variance et écart-type",
+          "verso": "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction de répartition",
+          "verso": "F(x)=P(X≤x)",
           "modeReponse": "auto_evaluation"
         }
       ]

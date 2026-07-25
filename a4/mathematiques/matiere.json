@@ -29,6 +29,14 @@
       "ordre": 3,
       "fichier": "a4/mathematiques/unite-03.json",
       "prerequis": []
+    },
+    {
+      "id": "mathematiques-a4-rev01",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "a4/mathematiques/revision-01.json",
+      "prerequis": [],
+      "estRevision": true
     }
   ]
 }

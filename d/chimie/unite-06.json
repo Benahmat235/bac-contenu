@@ -3,7 +3,7 @@
   "matiere": "chimie-d",
   "type": "scientifique",
   "titre": "Notion de stéréochimie",
-  "ordre": 6,
+  "ordre": 7,
   "source": {
     "document": "Chimie TD",
     "chapitre": "Chapitre 6 : Notion de stéréochimie",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "chi-d-st-st-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-d-st-c-isomerie",
       "activites": [
         {
           "type": "formule",
-          "recto": "Carbone asymétrique ?",
-          "verso": "C lié à 4 groupes tous différents",
+          "recto": "Isomères",
+          "verso": "même formule brute, formules développées différentes",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Énantiomères ?",
-          "verso": "images miroir non superposables",
+          "recto": "Isomérie de chaîne",
+          "verso": "diffèrent par la disposition de la chaîne carbonée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de position",
+          "verso": "diffèrent par la position d'un groupe",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isomérie de fonction",
+          "verso": "même formule brute, fonctions différentes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Carbone asymétrique",
+          "verso": "C lié à 4 groupes tous différents (noté C*)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énantiomères",
+          "verso": "images miroir non superposables (molécule chirale)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Représentation de Newman",
+          "verso": "visualise les conformations autour d'une liaison C–C",
           "modeReponse": "auto_evaluation"
         }
       ]
