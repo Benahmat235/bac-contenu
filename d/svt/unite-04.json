@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 4 : Le brassage de l'information génétique et le cycle de développement",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -399,6 +399,22 @@
       ],
       "reponseFinale": "La constance du caryotype (nombre de chromosomes)",
       "competenceId": "svt-d-br-fecondation"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Méiose et brassages génétiques (révisions BAC)",
+      "url": "https://youtu.be/2CQKsUzT4uw",
+      "type": "video",
+      "chaine": "Tania Louis",
+      "auteur": "Tania Louis"
+    },
+    {
+      "titre": "Méiose et diversité génétique - SVT Terminale",
+      "url": "https://youtu.be/hzbfhYSBOa0",
+      "type": "video",
+      "chaine": "NOVELCLASS",
+      "auteur": "NOVELCLASS"
     }
   ]
 }

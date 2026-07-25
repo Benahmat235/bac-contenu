@@ -21,22 +21,40 @@
         {
           "type": "choix_unique",
           "question": "Quand se termine la Deuxième Guerre mondiale ?",
-          "options": ["Le 8 mai 1945", "Le 2 septembre 1945", "Le 11 novembre 1918", "En 1947"],
+          "options": [
+            "Le 8 mai 1945",
+            "Le 2 septembre 1945",
+            "Le 11 novembre 1918",
+            "En 1947"
+          ],
           "reponse": 1,
           "explication": "La guerre se termine le 2 septembre 1945, après la capitulation de l'Allemagne puis du Japon."
         },
         {
           "type": "choix_unique",
           "question": "Quelle puissance apparaît en 1945 comme la première puissance économique mondiale ?",
-          "options": ["Le Royaume-Uni", "La France", "Les États-Unis", "L'Allemagne"],
+          "options": [
+            "Le Royaume-Uni",
+            "La France",
+            "Les États-Unis",
+            "L'Allemagne"
+          ],
           "reponse": 2,
           "explication": "Épargnés sur leur sol, les États-Unis sortent renforcés et deviennent la première puissance économique."
         },
         {
           "type": "choix_multiple",
           "question": "Quelles sont les deux superpuissances qui émergent en 1945 ?",
-          "options": ["Les États-Unis", "L'URSS", "Le Royaume-Uni", "La Chine"],
-          "reponses": [0, 1],
+          "options": [
+            "Les États-Unis",
+            "L'URSS",
+            "Le Royaume-Uni",
+            "La Chine"
+          ],
+          "reponses": [
+            0,
+            1
+          ],
           "explication": "En 1945, les États-Unis et l'URSS s'imposent comme les deux superpuissances, tandis que l'Europe décline."
         }
       ]
@@ -51,7 +69,12 @@
         {
           "type": "choix_unique",
           "question": "À combien estime-t-on le nombre total de morts de la guerre ?",
-          "options": ["Environ 10 millions", "Environ 50 millions", "Environ 100 millions", "Environ 5 millions"],
+          "options": [
+            "Environ 10 millions",
+            "Environ 50 millions",
+            "Environ 100 millions",
+            "Environ 5 millions"
+          ],
           "reponse": 1,
           "explication": "On estime environ 50 millions de morts, soit 6 à 7 fois plus que la Première Guerre mondiale."
         },
@@ -59,10 +82,22 @@
           "type": "association",
           "consigne": "Associe chaque pays au nombre approximatif de ses morts.",
           "paires": [
-            { "gauche": "URSS", "droite": "environ 20 millions" },
-            { "gauche": "Allemagne", "droite": "environ 7 millions" },
-            { "gauche": "France", "droite": "environ 600 000" },
-            { "gauche": "États-Unis", "droite": "environ 300 000" }
+            {
+              "gauche": "URSS",
+              "droite": "environ 20 millions"
+            },
+            {
+              "gauche": "Allemagne",
+              "droite": "environ 7 millions"
+            },
+            {
+              "gauche": "France",
+              "droite": "environ 600 000"
+            },
+            {
+              "gauche": "États-Unis",
+              "droite": "environ 300 000"
+            }
           ],
           "explication": "L'URSS enregistre le bilan le plus lourd de tous les pays belligérants."
         },
@@ -70,7 +105,11 @@
           "type": "texte_a_completer",
           "phrase": "Le pays qui enregistre le bilan humain le plus lourd est l' ___ .",
           "reponse": "URSS",
-          "toleranceMots": ["urss", "union soviétique", "union sovietique"],
+          "toleranceMots": [
+            "urss",
+            "union soviétique",
+            "union sovietique"
+          ],
           "explication": "Avec environ 20 millions de morts, l'URSS est le pays le plus touché."
         }
       ]
@@ -85,22 +124,39 @@
         {
           "type": "choix_unique",
           "question": "À combien est estimé le coût économique de la guerre ?",
-          "options": ["110 milliards de dollars", "1100 milliards de dollars", "50 milliards de dollars", "11 000 milliards de dollars"],
+          "options": [
+            "110 milliards de dollars",
+            "1100 milliards de dollars",
+            "50 milliards de dollars",
+            "11 000 milliards de dollars"
+          ],
           "reponse": 1,
           "explication": "Le coût économique est estimé à environ 1100 milliards de dollars US."
         },
         {
           "type": "choix_multiple",
           "question": "Quelles infrastructures ont surtout été détruites par les bombardements ?",
-          "options": ["Hôpitaux et dispensaires", "Écoles et universités", "Ponts, routes et rails", "Champs agricoles isolés"],
-          "reponses": [0, 1, 2],
+          "options": [
+            "Hôpitaux et dispensaires",
+            "Écoles et universités",
+            "Ponts, routes et rails",
+            "Champs agricoles isolés"
+          ],
+          "reponses": [
+            0,
+            1,
+            2
+          ],
           "explication": "Les bombardements ont visé les villes : infrastructures sanitaires, éducatives et économiques."
         },
         {
           "type": "rappel_actif",
           "question": "Quelles sont les deux régions du monde les plus touchées matériellement ?",
           "reponseAttendue": "L'Europe et le Japon",
-          "toleranceMots": ["europe", "japon"],
+          "toleranceMots": [
+            "europe",
+            "japon"
+          ],
           "explication": "L'Europe et le Japon subissent les destructions les plus lourdes en raison des bombardements."
         }
       ]
@@ -116,8 +172,18 @@
         {
           "type": "classement",
           "consigne": "Classe ces éléments du plus grand au plus petit nombre de morts.",
-          "elements": ["URSS", "Allemagne", "France", "États-Unis"],
-          "ordreCorrect": ["URSS", "Allemagne", "France", "États-Unis"],
+          "elements": [
+            "URSS",
+            "Allemagne",
+            "France",
+            "États-Unis"
+          ],
+          "ordreCorrect": [
+            "URSS",
+            "Allemagne",
+            "France",
+            "États-Unis"
+          ],
           "explication": "URSS (~20 M) > Allemagne (~7 M) > France (~600 000) > États-Unis (~300 000)."
         },
         {
@@ -145,6 +211,22 @@
           "explication": "Plusieurs facteurs se combinent : durée, ampleur mondiale, bombardements, répression dans les camps, sous-alimentation."
         }
       ]
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La fin de la 2de Guerre mondiale et le nouvel ordre mondial (Tle)",
+      "url": "https://youtu.be/J2V-BK-4nh4",
+      "type": "video",
+      "chaine": "Lelivrescolaire.fr",
+      "auteur": "Lelivrescolaire.fr"
+    },
+    {
+      "titre": "Le bilan de la Seconde Guerre mondiale",
+      "url": "https://youtu.be/7g7p4oq9bow",
+      "type": "video",
+      "chaine": "Yannick Rub",
+      "auteur": "Yannick Rub"
     }
   ]
 }

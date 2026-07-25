@@ -198,5 +198,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Le travail (cours)",
+      "url": "https://youtu.be/BhWO-Bidx2Y",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "La technique (cours de philosophie)",
+      "url": "https://youtu.be/E_3srTOVm3k",
+      "type": "video",
+      "chaine": "Coursitout",
+      "auteur": "Coursitout"
+    }
   ]
 }

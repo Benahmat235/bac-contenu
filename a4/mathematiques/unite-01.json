@@ -681,5 +681,21 @@
     "afficherCorrectionApresEchec": true,
     "formatReponse": "S = {…}",
     "consigne": "L'élève cherche la réponse. En cas d'échec, l'application affiche la réponse finale (ex. x² − x − 6 = 0 → S = {−2 ; 3}) puis la correction étape par étape."
-  }
+  },
+  "videos": [
+    {
+      "titre": "Équations du second degré",
+      "url": "https://youtu.be/tc9wvbYuZts",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    },
+    {
+      "titre": "Résoudre une inéquation avec le signe d'un trinôme",
+      "url": "https://youtu.be/AEL4qKKNvp8",
+      "type": "video",
+      "chaine": "Yvan Monka",
+      "auteur": "Yvan Monka"
+    }
+  ]
 }

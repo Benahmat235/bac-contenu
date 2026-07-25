@@ -539,5 +539,21 @@
       "reponseFinale": "Similitude indirecte de rapport √5 ; point fixe d'affixe (−9+3i)/4",
       "competenceId": "math-c-c-similitude-indirecte"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Similitudes planes directes : résumé de cours (Terminale)",
+      "url": "https://youtu.be/4ZOUim8A2Uo",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Similitudes planes directes (résumé)",
+      "url": "https://youtu.be/a_JbVE92Ss8",
+      "type": "video",
+      "chaine": "Monsieur DIAGNE",
+      "auteur": "Monsieur DIAGNE"
+    }
   ]
 }

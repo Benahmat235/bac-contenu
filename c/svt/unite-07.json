@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 7 : De la fécondation à la naissance",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -397,6 +397,22 @@
       ],
       "reponseFinale": "2n (diploïde)",
       "competenceId": "svt-c-fn-fec"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "La fécondation et la grossesse",
+      "url": "https://youtu.be/lIMVeTBgWhM",
+      "type": "video",
+      "chaine": "Labo SVT",
+      "auteur": "Labo SVT"
+    },
+    {
+      "titre": "La fécondation (animation 3D)",
+      "url": "https://youtu.be/n5HEZZra-7o",
+      "type": "video",
+      "chaine": "Dr. Pauline Moyart",
+      "auteur": "Dr. Pauline Moyart"
     }
   ]
 }

@@ -457,5 +457,21 @@
       "reponseFinale": "a = 5 m/s²",
       "competenceId": "phy-c-dyn-c-newton"
     }
+  ],
+  "videos": [
+    {
+      "titre": "2e loi de Newton (Terminale)",
+      "url": "https://youtu.be/YebURH6uD_Q",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Les 3 lois de Newton (cours de lycée)",
+      "url": "https://youtu.be/dhVXGV_j6Sw",
+      "type": "video",
+      "chaine": "Les génies des sciences",
+      "auteur": "Les génies des sciences"
+    }
   ]
 }

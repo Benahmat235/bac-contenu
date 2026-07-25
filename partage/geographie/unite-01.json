@@ -114,5 +114,14 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Relief, climat, sol et végétation (géographie Terminale)",
+      "url": "https://youtu.be/zfzHbH1l1YI",
+      "type": "video",
+      "chaine": "Collège Saint Joseph",
+      "auteur": "Collège Saint Joseph"
+    }
   ]
 }

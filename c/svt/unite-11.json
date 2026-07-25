@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 11 : La communication nerveuse",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -403,6 +403,22 @@
       ],
       "reponseFinale": "Récepteur → voie sensitive → centre → voie motrice → effecteur",
       "competenceId": "svt-c-ne-message"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Fonctionnement du tissu nerveux : conduction et synapses (TS)",
+      "url": "https://youtu.be/QPutke4U93A",
+      "type": "video",
+      "chaine": "Elite Science",
+      "auteur": "Elite Science"
+    },
+    {
+      "titre": "Le potentiel d'action et la transmission synaptique",
+      "url": "https://youtu.be/20hXrKt8I-c",
+      "type": "video",
+      "chaine": "e-SVT M POURCHER",
+      "auteur": "e-SVT M POURCHER"
     }
   ]
 }

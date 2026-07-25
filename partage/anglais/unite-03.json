@@ -133,5 +133,28 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "The conditionals (0, 1, 2 & 3)",
+      "url": "https://youtu.be/vXp0ETWXbWo",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "Reported speech (indirect speech)",
+      "url": "https://youtu.be/eplQBhE0-Hg",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "Passive voice : step by step",
+      "url": "https://youtu.be/N7uvEllP5Jg",
+      "type": "video",
+      "chaine": "Arnel's Everyday English",
+      "auteur": "Arnel's Everyday English"
+    }
   ]
 }

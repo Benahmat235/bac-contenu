@@ -266,5 +266,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "La guerre froide (1947-1991)",
+      "url": "https://youtu.be/CqXan9UeNss",
+      "type": "video",
+      "chaine": "Anthony Rizzo",
+      "auteur": "Anthony Rizzo"
+    },
+    {
+      "titre": "Bipolarisation et crises de la guerre froide (Terminale)",
+      "url": "https://youtu.be/iNFcDuHMZlw",
+      "type": "video",
+      "chaine": "Le Labo d'Histoire-Géo",
+      "auteur": "Le Labo d'Histoire-Géo"
+    }
   ]
 }

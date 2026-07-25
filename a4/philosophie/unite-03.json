@@ -206,5 +206,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Autrui (Terminale C-D et Première A4)",
+      "url": "https://youtu.be/83sSGcC7ALs",
+      "type": "video",
+      "chaine": "Ecole Virtuelle Africaine",
+      "auteur": "Ecole Virtuelle Africaine"
+    },
+    {
+      "titre": "Autrui - Terminale",
+      "url": "https://youtu.be/ZUkqthdG9zY",
+      "type": "video",
+      "chaine": "Les Bons Profs",
+      "auteur": "Les Bons Profs"
+    }
   ]
 }

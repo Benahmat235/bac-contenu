@@ -419,5 +419,21 @@
       "reponseFinale": "H₂O / OH⁻",
       "competenceId": "chi-d-rab-c-reaction"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Réaction acido-basique et dosage (résumé de cours)",
+      "url": "https://youtu.be/_7wWUbz6cIY",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Réaction acide-base : écrire l'équation (méthode)",
+      "url": "https://youtu.be/rzx8NnQZHww",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    }
   ]
 }

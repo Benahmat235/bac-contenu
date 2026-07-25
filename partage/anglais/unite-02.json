@@ -141,5 +141,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Learn ALL English tenses (under 30 minutes)",
+      "url": "https://youtu.be/Ljjiw9mC_Cg",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "How to learn ALL 12 tenses",
+      "url": "https://youtu.be/mScixcyubUY",
+      "type": "video",
+      "chaine": "engVid · Rebecca",
+      "auteur": "engVid · Rebecca"
+    }
   ]
 }

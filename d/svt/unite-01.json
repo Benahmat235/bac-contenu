@@ -7,9 +7,9 @@
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 1 : Organisation générale de la cellule",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
   },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
@@ -419,6 +419,22 @@
       ],
       "reponseFinale": "La mitochondrie (noyau, ribosomes...)",
       "competenceId": "svt-d-cell-animveg"
+    }
+  ],
+  "videos": [
+    {
+      "titre": "Organisation et structure de la cellule (cours)",
+      "url": "https://youtu.be/qPjUIuJc8NA",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Tout savoir sur la cellule en 6 minutes",
+      "url": "https://youtu.be/jSRMqO0e908",
+      "type": "video",
+      "chaine": "Sciences Nat'",
+      "auteur": "Sciences Nat'"
     }
   ]
 }

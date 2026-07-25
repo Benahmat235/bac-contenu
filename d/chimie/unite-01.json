@@ -466,5 +466,21 @@
       "reponseFinale": "pH ≈ 5.1",
       "competenceId": "chi-d-ph-c-ph"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Comment calculer le pH ? (Terminale)",
+      "url": "https://youtu.be/oJuDr-e0Dmw",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    },
+    {
+      "titre": "Solution aqueuse et notion de pH : acide, basique, neutre",
+      "url": "https://youtu.be/YqKlmA1qLoc",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    }
   ]
 }

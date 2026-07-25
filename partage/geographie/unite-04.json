@@ -123,5 +123,14 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Le Tchad, du coton au pétrole (documentaire)",
+      "url": "https://youtu.be/715Hl8j8BoE",
+      "type": "video",
+      "chaine": "Djénéba EUDARIC",
+      "auteur": "Djénéba EUDARIC"
+    }
   ]
 }

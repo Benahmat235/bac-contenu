@@ -186,5 +186,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Nature et culture (cours)",
+      "url": "https://youtu.be/b-1L8RYJfzw",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    },
+    {
+      "titre": "Nature et culture - niveau Terminale C",
+      "url": "https://youtu.be/rEyTV6LyzRw",
+      "type": "video",
+      "chaine": "EàDTV CONGO",
+      "auteur": "EàDTV CONGO"
+    }
   ]
 }

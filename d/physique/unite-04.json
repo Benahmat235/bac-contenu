@@ -457,5 +457,21 @@
       "reponseFinale": "a = 5 m/s²",
       "competenceId": "phy-d-dyn-c-newton"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Mouvement d'un projectile dans un champ de pesanteur",
+      "url": "https://youtu.be/GWp7BF6pndc",
+      "type": "video",
+      "chaine": "Éducation Plus",
+      "auteur": "Éducation Plus"
+    },
+    {
+      "titre": "Mouvement dans un champ de pesanteur uniforme : cours complet",
+      "url": "https://youtu.be/TQ-h9CzOECo",
+      "type": "video",
+      "chaine": "Paul Olivier",
+      "auteur": "Paul Olivier"
+    }
   ]
 }

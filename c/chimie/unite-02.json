@@ -417,5 +417,21 @@
       "reponseFinale": "carbonyle (C=O)",
       "competenceId": "chi-c-al-c-fonction"
     }
+  ],
+  "videos": [
+    {
+      "titre": "Aldéhydes et cétones : résumé de cours",
+      "url": "https://youtu.be/5bBgvTWOl8M",
+      "type": "video",
+      "chaine": "Le savant ACHI",
+      "auteur": "Le savant ACHI"
+    },
+    {
+      "titre": "Les alcools",
+      "url": "https://youtu.be/na3-f3SXmqQ",
+      "type": "video",
+      "chaine": "Académie de Sciences",
+      "auteur": "Académie de Sciences"
+    }
   ]
 }

@@ -203,5 +203,21 @@
       ],
       "estDefi": true
     }
+  ],
+  "videos": [
+    {
+      "titre": "Le devoir (cours de philosophie)",
+      "url": "https://youtu.be/LpR2zZPR3OY",
+      "type": "video",
+      "chaine": "Coursitout",
+      "auteur": "Coursitout"
+    },
+    {
+      "titre": "La morale (fiche de révisions)",
+      "url": "https://youtu.be/CLhP8Xi3TEY",
+      "type": "video",
+      "chaine": "digiSchool Lycée",
+      "auteur": "digiSchool Lycée"
+    }
   ]
 }
