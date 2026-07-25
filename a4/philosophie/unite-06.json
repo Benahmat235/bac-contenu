@@ -2,7 +2,7 @@
   "id": "philo-u6",
   "matiere": "philosophie",
   "titre": "Les grandes doctrines morales",
-  "ordre": 7,
+  "ordre": 9,
   "source": {
     "document": "Philosophie TA4",
     "chapitre": "Chapitre 7 : Les grandes doctrines morales",
@@ -11,6 +11,43 @@
     "dateValidation": null
   },
   "etapes": [
+    {
+      "id": "philo-u6-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philo-u6-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Agis toujours de telle sorte que la maxime de ton action puisse être érigée en loi universelle. » ?",
+          "reponseAttendue": "Emmanuel Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "Kant fonde la morale sur la raison et l'universalité de la maxime."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme est la mesure de toute chose. » ?",
+          "reponseAttendue": "Protagoras",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le sophiste Protagoras : les jugements moraux sont subjectifs, propres à chacun."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Tous les hommes recherchent le bonheur, même ceux qui vont se pendre. » ?",
+          "reponseAttendue": "Blaise Pascal",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pascal : le désir de bonheur est universel, mais la notion de bonheur reste vague."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le surmoi est l'héritier du complexe d'Œdipe. » ?",
+          "reponseAttendue": "Sigmund Freud",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pour Freud, la conscience morale (surmoi) dérive de l'intériorisation des interdits parentaux."
+        }
+      ]
+    },
     {
       "id": "philo-u6-e1",
       "titre": "Les définitions des mots-clés",
@@ -218,6 +255,24 @@
       "type": "video",
       "chaine": "digiSchool Lycée",
       "auteur": "digiSchool Lycée"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « Agis toujours de telle sorte que la maxime de ton action puisse être érigée en loi universelle. » ?",
+      "verso": "Emmanuel Kant"
+    },
+    {
+      "recto": "Qui a dit : « L'homme est la mesure de toute chose. » ?",
+      "verso": "Protagoras"
+    },
+    {
+      "recto": "Qui a dit : « Tous les hommes recherchent le bonheur, même ceux qui vont se pendre. » ?",
+      "verso": "Blaise Pascal"
+    },
+    {
+      "recto": "Qui a dit : « Le surmoi est l'héritier du complexe d'Œdipe. » ?",
+      "verso": "Sigmund Freud"
     }
   ]
 }

@@ -75,27 +75,63 @@
   "etapes": [
     {
       "id": "math-a4-u3-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-a4-c-combinaison",
       "activites": [
         {
           "type": "formule",
-          "recto": "Formule d'un arrangement Aⁿₚ ?",
+          "recto": "p-liste (tirage successif AVEC remise)",
+          "verso": "nᵖ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Arrangement (successif SANS remise, avec ordre)",
           "verso": "Aⁿₚ = n!/(n−p)!",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Formule d'une combinaison Cⁿₚ ?",
+          "recto": "Permutation de n éléments",
+          "verso": "n!",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Combinaison (tirage simultané, sans ordre)",
           "verso": "Cⁿₚ = n!/((n−p)!·p!)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Probabilité en équiprobabilité ?",
+          "recto": "Cardinal d'une réunion",
+          "verso": "Card(A∪B) = CardA + CardB − Card(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Probabilité d'un événement (équiprobabilité)",
           "verso": "p(A) = Card(A)/Card(Ω)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Événement contraire",
+          "verso": "p(Ā) = 1 − p(A)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réunion de deux événements",
+          "verso": "p(A∪B) = p(A) + p(B) − p(A∩B)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Événements incompatibles",
+          "verso": "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
           "modeReponse": "auto_evaluation"
         }
       ]

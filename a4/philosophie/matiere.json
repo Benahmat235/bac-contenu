@@ -32,9 +32,17 @@
       ]
     },
     {
+      "id": "philosophie-rev01",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "a4/philosophie/revision-01.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
       "id": "philo-u3",
       "titre": "Autrui",
-      "ordre": 4,
+      "ordre": 5,
       "fichier": "a4/philosophie/unite-03.json",
       "prerequis": [
         "philo-u1"
@@ -43,7 +51,7 @@
     {
       "id": "philo-u4",
       "titre": "Nature, culture et civilisation",
-      "ordre": 5,
+      "ordre": 6,
       "fichier": "a4/philosophie/unite-04.json",
       "prerequis": [
         "philo-u1"
@@ -52,16 +60,24 @@
     {
       "id": "philo-u5",
       "titre": "Le travail, la technique et la question sociale",
-      "ordre": 6,
+      "ordre": 7,
       "fichier": "a4/philosophie/unite-05.json",
       "prerequis": [
         "philo-u4"
       ]
     },
     {
+      "id": "philosophie-rev02",
+      "titre": "Révision : leçons 4 à 6",
+      "ordre": 8,
+      "fichier": "a4/philosophie/revision-02.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
       "id": "philo-u6",
       "titre": "Les grandes doctrines morales",
-      "ordre": 7,
+      "ordre": 9,
       "fichier": "a4/philosophie/unite-06.json",
       "prerequis": [
         "philo-u5"
@@ -70,7 +86,7 @@
     {
       "id": "philo-u7",
       "titre": "L'État, le pouvoir et les doctrines politiques",
-      "ordre": 8,
+      "ordre": 10,
       "fichier": "a4/philosophie/unite-07.json",
       "prerequis": [
         "philo-u6"
@@ -79,20 +95,36 @@
     {
       "id": "philo-u8",
       "titre": "La justice et le droit",
-      "ordre": 9,
+      "ordre": 11,
       "fichier": "a4/philosophie/unite-08.json",
       "prerequis": [
         "philo-u7"
       ]
     },
     {
+      "id": "philosophie-rev03",
+      "titre": "Révision : leçons 7 à 9",
+      "ordre": 12,
+      "fichier": "a4/philosophie/revision-03.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
       "id": "philo-u9",
       "titre": "La liberté",
-      "ordre": 10,
+      "ordre": 13,
       "fichier": "a4/philosophie/unite-09.json",
       "prerequis": [
         "philo-u7"
       ]
+    },
+    {
+      "id": "philosophie-rev04",
+      "titre": "Révision finale",
+      "ordre": 14,
+      "fichier": "a4/philosophie/revision-04.json",
+      "prerequis": [],
+      "estRevision": true
     }
   ]
 }

@@ -3,7 +3,7 @@
   "matiere": "mathematiques-d",
   "type": "scientifique",
   "titre": "Intégrales",
-  "ordre": 6,
+  "ordre": 7,
   "source": {
     "document": "Mathématique TD",
     "chapitre": "Chapitre 6 : Les intégrales",
@@ -81,27 +81,69 @@
   "etapes": [
     {
       "id": "math-d-u6-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-d-c-integrale",
       "activites": [
         {
           "type": "formule",
-          "recto": "Comment calculer ∫ₐᵇ f à partir d'une primitive F ?",
-          "verso": "F(b) − F(a)",
+          "recto": "Intégrale par une primitive F de f",
+          "verso": "∫ₐᵇ f(x) dx = F(b) − F(a)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Formule d'intégration par parties ?",
+          "recto": "Relation de Chasles",
+          "verso": "∫ₐᶜ f = ∫ₐᵇ f + ∫ᵦᶜ f",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Linéarité",
+          "verso": "∫ₐᵇ(αf + βg) = α∫ₐᵇf + β∫ₐᵇg",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive d'une puissance",
+          "verso": "∫ u'(x)u(x)ⁿ dx = u(x)ⁿ⁺¹/(n+1) + C, n ≠ −1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive logarithmique",
+          "verso": "∫ u'(x)/u(x) dx = ln|u(x)| + C",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive exponentielle composée",
+          "verso": "∫ u'(x)eᵘ⁽ˣ⁾ dx = eᵘ⁽ˣ⁾ + C",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Intégration par parties",
           "verso": "∫ₐᵇ u'v = [uv]ₐᵇ − ∫ₐᵇ uv'",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Intégrale d'une fonction impaire sur [−a,a] ?",
-          "verso": "0",
+          "recto": "Changement affine u = αx + β, avec α≠0",
+          "verso": "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Parité sur un intervalle symétrique",
+          "verso": "f paire : ∫₋ₐᵃf = 2∫₀ᵃf ; f impaire : ∫₋ₐᵃf = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Inégalité de la moyenne",
+          "verso": "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
           "modeReponse": "auto_evaluation"
         }
       ]

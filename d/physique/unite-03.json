@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-d-grav-grav-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-d-grav-c-periode",
       "activites": [
         {
           "type": "formule",
-          "recto": "Période d'un satellite ?",
+          "recto": "Période d'un satellite (orbite circulaire)",
           "verso": "T = 2π·√(r³/(G·M))",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Vitesse orbitale ?",
+          "recto": "Vitesse orbitale",
           "verso": "v = √(G·M/r)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Champ de pesanteur à l'altitude h",
+          "verso": "g_h = G·M/(R+h)²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "3ᵉ loi de Kepler",
+          "verso": "T²/r³ = 4π²/(G·M) = constante",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Satellite géostationnaire",
+          "verso": "période T = 24 h, au-dessus de l'équateur",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force centripète (gravitation)",
+          "verso": "F = G·M·m/r² = m·v²/r",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante de gravitation",
+          "verso": "G = 6,67×10⁻¹¹ SI",
           "modeReponse": "auto_evaluation"
         }
       ]

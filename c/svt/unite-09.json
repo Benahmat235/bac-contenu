@@ -3,7 +3,7 @@
   "matiere": "svt-c",
   "type": "scientifique",
   "titre": "Le dihybridisme",
-  "ordre": 9,
+  "ordre": 11,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 9 : Le dihybridisme",
@@ -69,21 +69,57 @@
   "etapes": [
     {
       "id": "svt-c-di-di-e1",
-      "titre": "Mémoriser les lois",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-c-di-loi3",
       "activites": [
         {
           "type": "formule",
-          "recto": "3e loi de Mendel ?",
-          "verso": "ségrégation indépendante des caractères",
+          "recto": "Dihybridisme",
+          "verso": "transmission de deux caractères (deux couples d'allèles)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "F2 dihybride (indépendants) ?",
+          "recto": "3e loi de Mendel",
+          "verso": "ségrégation indépendante des caractères (gènes indépendants)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "F2 dihybride (gènes indépendants)",
           "verso": "9 : 3 : 3 : 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gamètes du double hétérozygote (indépendants)",
+          "verso": "4 types : AB, Ab, aB, ab",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gènes liés (linkage)",
+          "verso": "portés par le même chromosome, transmis ensemble",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Crossing-over",
+          "verso": "produit des gamètes recombinés (minoritaires)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Test-cross dihybride (indépendants)",
+          "verso": "4 phénotypes équiprobables (1 : 1 : 1 : 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Signature du linkage partiel",
+          "verso": "parentaux majoritaires + recombinés minoritaires",
           "modeReponse": "auto_evaluation"
         }
       ]

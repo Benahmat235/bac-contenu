@@ -3,7 +3,7 @@
   "matiere": "physique-d",
   "type": "scientifique",
   "titre": "Les circuits oscillants",
-  "ordre": 7,
+  "ordre": 9,
   "source": {
     "document": "Physique TD",
     "chapitre": "Chapitre 7 : Les circuits oscillants",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-d-lc-lc-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-d-lc-c-lc",
       "activites": [
         {
           "type": "formule",
-          "recto": "Période propre d'un circuit LC ?",
+          "recto": "Période propre d'un circuit LC",
           "verso": "T₀ = 2π·√(L·C)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Énergie d'une bobine ?",
+          "recto": "Fréquence propre",
+          "verso": "f₀ = 1/(2π·√(L·C))",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation propre",
+          "verso": "ω₀ = 1/√(L·C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie d'une bobine",
           "verso": "E = ½·L·i²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie d'un condensateur",
+          "verso": "E = ½·C·u²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Tension d'auto-induction",
+          "verso": "e = −L·(di/dt)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Charge d'un condensateur",
+          "verso": "q = C·u",
           "modeReponse": "auto_evaluation"
         }
       ]

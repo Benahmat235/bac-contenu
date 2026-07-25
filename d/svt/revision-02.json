@@ -1,0 +1,177 @@
+{
+  "id": "svt-d-rev02",
+  "matiere": "svt-d",
+  "type": "scientifique",
+  "titre": "Révision : leçons 4 à 6",
+  "ordre": 8,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-d-rev02-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-d-rev02-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "ARN de transfert (ARNt) ?",
+          "options": [
+            "apporte les acides aminés et porte l'anticodon",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "apporte les acides aminés et porte l'anticodon"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Noyau ?",
+          "options": [
+            "contient l'information génétique (ADN)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "contient l'information génétique (ADN)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Les 3 parties d'une cellule ?",
+          "options": [
+            "membrane plasmique, cytoplasme, noyau",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "membrane plasmique, cytoplasme, noyau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Chloroplaste ?",
+          "options": [
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "réalise la photosynthèse (cellule végétale uniquement)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Complémentarité des bases ?",
+          "options": [
+            "A–T et G–C",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "A–T et G–C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Structure de l'ADN ?",
+          "options": [
+            "double hélice (Watson et Crick)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "double hélice (Watson et Crick)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "2e division de méiose ?",
+          "options": [
+            "équationnelle (conserve n)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "équationnelle (conserve n)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Rôle méiose + fécondation ?",
+          "options": [
+            "maintiennent constant le nombre de chromosomes de l'espèce",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "maintiennent constant le nombre de chromosomes de l'espèce"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Hormones ovariennes ?",
+          "options": [
+            "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "œstrogènes (phase folliculaire) et progestérone (corps jaune)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Brassage interchromosomique ?",
+          "options": [
+            "dû à la répartition au hasard des chromosomes (métaphase I)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "dû à la répartition au hasard des chromosomes (métaphase I)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Bases de l'ADN ?",
+          "options": [
+            "A, T, G, C",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "A, T, G, C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Carpelle ?",
+          "options": [
+            "ovaire + style + stigmate",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ovaire + style + stigmate"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

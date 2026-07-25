@@ -3,7 +3,7 @@
   "matiere": "chimie-d",
   "type": "scientifique",
   "titre": "Amines et amides",
-  "ordre": 8,
+  "ordre": 10,
   "source": {
     "document": "Chimie TD",
     "chapitre": "Chapitre 8 : Amines et amides",
@@ -57,21 +57,45 @@
   "etapes": [
     {
       "id": "chi-d-am-am-e1",
-      "titre": "Mémoriser les fonctions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-d-am-c-amine",
       "activites": [
         {
           "type": "formule",
-          "recto": "Groupe d'une amine primaire ?",
-          "verso": "−NH₂",
+          "recto": "Groupe des amines",
+          "verso": "amine primaire −NH₂ (dérivé de NH₃)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Groupe d'un amide ?",
-          "verso": "−CO−NH−",
+          "recto": "Caractère des amines",
+          "verso": "basiques (doublet non liant de l'azote)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Classe des amines",
+          "verso": "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Groupe des amides",
+          "verso": "−CO−NH− (liaison amide)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Formation d'un amide",
+          "verso": "acide carboxylique + amine → amide + eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Ion ammonium",
+          "verso": "amine + H⁺ → R−NH₃⁺",
           "modeReponse": "auto_evaluation"
         }
       ]

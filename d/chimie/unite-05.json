@@ -3,7 +3,7 @@
   "matiere": "chimie-d",
   "type": "scientifique",
   "titre": "Les réactions acido-basiques",
-  "ordre": 5,
+  "ordre": 6,
   "source": {
     "document": "Chimie TD",
     "chapitre": "Chapitre 5 : Les réactions acido-basiques",
@@ -57,21 +57,45 @@
   "etapes": [
     {
       "id": "chi-d-rab-rab-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-d-rab-c-dosage",
       "activites": [
         {
           "type": "formule",
-          "recto": "Relation à l'équivalence ?",
+          "recto": "Acide (Brønsted)",
+          "verso": "espèce qui cède un proton H⁺",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Base (Brønsted)",
+          "verso": "espèce qui capte un proton H⁺",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réaction acide fort / base forte",
+          "verso": "H₃O⁺ + OH⁻ → 2 H₂O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation à l'équivalence",
           "verso": "Ca·Va = Cb·Vb",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Acide selon Brønsted ?",
-          "verso": "espèce qui cède un proton H⁺",
+          "recto": "pH à l'équivalence (fort/fort)",
+          "verso": "pH = 7",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pH à l'équivalence (faible/forte)",
+          "verso": "pH > 7",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -3,7 +3,7 @@
   "matiere": "svt-d",
   "type": "scientifique",
   "titre": "Reproduction sexuée des spermaphytes",
-  "ordre": 5,
+  "ordre": 6,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 5 : La reproduction sexuée chez les spermaphytes",
@@ -87,21 +87,75 @@
   "etapes": [
     {
       "id": "svt-d-sp-sp-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-d-sp-fleur",
       "activites": [
         {
           "type": "formule",
-          "recto": "Pièces fertiles de la fleur ?",
+          "recto": "Spermaphytes (Phanérogames)",
+          "verso": "plantes à fleurs (reproduction dans la fleur)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pièces fertiles de la fleur",
           "verso": "étamines (androcée) et carpelles (gynécée)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Double fécondation ?",
-          "verso": "œuf principal 2n + œuf accessoire 3n (albumen)",
+          "recto": "Pièces stériles de la fleur",
+          "verso": "calice (sépales) et corolle (pétales)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Androcée / Gynécée",
+          "verso": "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Microsporogenèse",
+          "verso": "formation des grains de pollen dans l'anthère",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Macrosporogenèse",
+          "verso": "formation du sac embryonnaire dans l'ovule",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Carpelle",
+          "verso": "ovaire + style + stigmate",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pollinisation",
+          "verso": "transport du pollen vers le stigmate (anémophile/entomophile)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Double fécondation",
+          "verso": "œuf principal 2n (embryon) + œuf accessoire 3n (albumen)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Devenir après fécondation",
+          "verso": "ovule → graine ; ovaire → fruit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Germination",
+          "verso": "graine → plantule ; nécessite eau, dioxygène et chaleur",
           "modeReponse": "auto_evaluation"
         }
       ]

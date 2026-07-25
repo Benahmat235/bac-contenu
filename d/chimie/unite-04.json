@@ -3,7 +3,7 @@
   "matiere": "chimie-d",
   "type": "scientifique",
   "titre": "Constante d'acidité d'un couple",
-  "ordre": 4,
+  "ordre": 5,
   "source": {
     "document": "Chimie TD",
     "chapitre": "Chapitre 4 : Constante d'acidité d'un couple",
@@ -57,21 +57,45 @@
   "etapes": [
     {
       "id": "chi-d-ka2-ka-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-d-ka2-c-pka",
       "activites": [
         {
           "type": "formule",
-          "recto": "Définition du pKa ?",
+          "recto": "Constante d'acidité",
+          "verso": "Ka = [A⁻]·[H₃O⁺]/[AH]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "pKa",
           "verso": "pKa = −log Ka",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Constante d'acidité ?",
-          "verso": "Ka = [A⁻][H₃O⁺]/[AH]",
+          "recto": "Ka à partir du pKa",
+          "verso": "Ka = 10^(−pKa)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acide le plus fort",
+          "verso": "celui dont le pKa est le plus petit",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Domaine de prédominance",
+          "verso": "forme acide si pH < pKa ; forme basique si pH > pKa",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Couple acide/base",
+          "verso": "AH / A⁻ (l'acide cède un proton H⁺)",
           "modeReponse": "auto_evaluation"
         }
       ]

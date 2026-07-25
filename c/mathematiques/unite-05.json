@@ -3,7 +3,7 @@
   "matiere": "mathematiques-c",
   "type": "scientifique",
   "titre": "Similitudes",
-  "ordre": 5,
+  "ordre": 6,
   "source": {
     "document": "Mathématique TC",
     "chapitre": "Chapitre 5 : Similitudes",
@@ -81,27 +81,69 @@
   "etapes": [
     {
       "id": "math-c-u8-e1",
-      "titre": "Mémoriser les écritures complexes",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-similitude",
       "activites": [
         {
           "type": "formule",
-          "recto": "Écriture complexe d'une similitude directe ?",
-          "verso": "z'=az+b, a≠0",
+          "recto": "Écriture d'une similitude directe",
+          "verso": "z'=az+b, avec a∈ℂ*",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Centre si z'=az+b et a≠1 ?",
-          "verso": "ω=b/(1−a)",
+          "recto": "Rapport et angle d'une similitude directe",
+          "verso": "k=|a| et α≡arg(a) [2π]",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Écriture complexe d'une similitude indirecte ?",
-          "verso": "z'=a z̄+b, a≠0",
+          "recto": "Centre d'une similitude directe non translation",
+          "verso": "Si a≠1, ω=b/(1−a)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Forme réduite directe",
+          "verso": "z'−ω=keⁱᵅ(z−ω)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Similitude directe déterminée par A↦A' et B↦B'",
+          "verso": "a=(zB'−zA')/(zB−zA), puis b=zA'−azA",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Composée de deux similitudes directes",
+          "verso": "Les rapports se multiplient et les angles s'additionnent",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réciproque d'une similitude directe",
+          "verso": "Rapport 1/k et angle −α",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Écriture d'une similitude indirecte",
+          "verso": "z'=a z̄+b, avec a∈ℂ*",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rapport d'une similitude indirecte",
+          "verso": "k=|a|",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Point fixe",
+          "verso": "Résoudre z'=z",
           "modeReponse": "auto_evaluation"
         }
       ]

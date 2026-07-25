@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "svt-c-ex-ex-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-c-ex-code",
       "activites": [
         {
           "type": "formule",
-          "recto": "Codon ?",
-          "verso": "3 nucléotides de l'ARNm codant un acide aminé",
+          "recto": "Expression d'un gène",
+          "verso": "transcription (ADN→ARNm) puis traduction (ARNm→protéine)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Codon d'initiation ?",
-          "verso": "AUG",
+          "recto": "Transcription",
+          "verso": "synthèse de l'ARNm à partir de l'ADN, dans le noyau (ARN polymérase)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Traduction",
+          "verso": "synthèse de la protéine dans le cytoplasme, sur les ribosomes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codon",
+          "verso": "séquence de 3 nucléotides de l'ARNm codant un acide aminé",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nombre de codons",
+          "verso": "4³ = 64 codons",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codon d'initiation",
+          "verso": "AUG (méthionine)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Codons-stop",
+          "verso": "UAA, UAG, UGA : arrêtent la traduction",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "ARN de transfert (ARNt)",
+          "verso": "apporte les acides aminés et porte l'anticodon",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Épissage",
+          "verso": "élimine les introns et réunit les exons",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Propriétés du code",
+          "verso": "universel et dégénéré",
           "modeReponse": "auto_evaluation"
         }
       ]

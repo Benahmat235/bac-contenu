@@ -81,27 +81,69 @@
   "etapes": [
     {
       "id": "math-d-u3-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-d-c-ln-prop",
       "activites": [
         {
           "type": "formule",
-          "recto": "ln(ab) = ?",
-          "verso": "ln a + ln b",
+          "recto": "Primitive de xⁿ (n≠−1)",
+          "verso": "xⁿ⁺¹/(n+1) + c",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Dérivée de ln u ?",
+          "recto": "Primitive de u'/u",
+          "verso": "ln|u| + c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de ln x",
+          "verso": "1/x",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de ln u",
           "verso": "u'/u",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Primitive de u'/u ?",
-          "verso": "ln|u| + c",
+          "recto": "Logarithme d'un produit",
+          "verso": "ln(ab) = ln a + ln b",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Logarithme d'un quotient",
+          "verso": "ln(a/b) = ln a − ln b",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Logarithme d'une puissance",
+          "verso": "ln(aⁿ) = n·ln a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Valeurs remarquables",
+          "verso": "ln 1 = 0 ; ln e = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limites du logarithme",
+          "verso": "lim(x→+∞) ln x = +∞ ; lim(x→0⁺) ln x = −∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croissance comparée",
+          "verso": "lim(x→+∞) (ln x)/x = 0",
           "modeReponse": "auto_evaluation"
         }
       ]

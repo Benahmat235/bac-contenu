@@ -33,9 +33,17 @@
       ]
     },
     {
+      "id": "svt-c-rev01",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "c/svt/revision-01.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
       "id": "svt-c-br",
       "titre": "Brassage génétique et méiose",
-      "ordre": 4,
+      "ordre": 5,
       "fichier": "c/svt/unite-04.json",
       "prerequis": [
         "svt-c-ex"
@@ -44,7 +52,7 @@
     {
       "id": "svt-c-sp",
       "titre": "Reproduction sexuée des spermaphytes",
-      "ordre": 5,
+      "ordre": 6,
       "fichier": "c/svt/unite-05.json",
       "prerequis": [
         "svt-c-br"
@@ -53,16 +61,24 @@
     {
       "id": "svt-c-rh",
       "titre": "La reproduction humaine",
-      "ordre": 6,
+      "ordre": 7,
       "fichier": "c/svt/unite-06.json",
       "prerequis": [
         "svt-c-sp"
       ]
     },
     {
+      "id": "svt-c-rev02",
+      "titre": "Révision : leçons 4 à 6",
+      "ordre": 8,
+      "fichier": "c/svt/revision-02.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
       "id": "svt-c-fn",
       "titre": "De la fécondation à la naissance",
-      "ordre": 7,
+      "ordre": 9,
       "fichier": "c/svt/unite-07.json",
       "prerequis": [
         "svt-c-rh"
@@ -71,7 +87,7 @@
     {
       "id": "svt-c-mo",
       "titre": "Le monohybridisme",
-      "ordre": 8,
+      "ordre": 10,
       "fichier": "c/svt/unite-08.json",
       "prerequis": [
         "svt-c-fn"
@@ -80,16 +96,24 @@
     {
       "id": "svt-c-di",
       "titre": "Le dihybridisme",
-      "ordre": 9,
+      "ordre": 11,
       "fichier": "c/svt/unite-09.json",
       "prerequis": [
         "svt-c-mo"
       ]
     },
     {
+      "id": "svt-c-rev03",
+      "titre": "Révision : leçons 7 à 9",
+      "ordre": 12,
+      "fichier": "c/svt/revision-03.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
       "id": "svt-c-he",
       "titre": "L'hérédité humaine",
-      "ordre": 10,
+      "ordre": 13,
       "fichier": "c/svt/unite-10.json",
       "prerequis": [
         "svt-c-di"
@@ -98,7 +122,7 @@
     {
       "id": "svt-c-ne",
       "titre": "La communication nerveuse",
-      "ordre": 11,
+      "ordre": 14,
       "fichier": "c/svt/unite-11.json",
       "prerequis": [
         "svt-c-he"
@@ -107,11 +131,19 @@
     {
       "id": "svt-c-ho",
       "titre": "La communication hormonale",
-      "ordre": 12,
+      "ordre": 15,
       "fichier": "c/svt/unite-12.json",
       "prerequis": [
         "svt-c-ne"
       ]
+    },
+    {
+      "id": "svt-c-rev04",
+      "titre": "Révision : leçons 10 à 12",
+      "ordre": 16,
+      "fichier": "c/svt/revision-04.json",
+      "prerequis": [],
+      "estRevision": true
     }
   ]
 }

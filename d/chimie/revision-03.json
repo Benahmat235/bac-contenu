@@ -1,0 +1,177 @@
+{
+  "id": "chimie-d-rev03",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Révision finale",
+  "ordre": 11,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-d-rev03-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-rev03-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de fonction ?",
+          "options": [
+            "même formule brute, fonctions différentes",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "même formule brute, fonctions différentes"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Acide le plus fort ?",
+          "options": [
+            "celui dont le pKa est le plus petit",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "celui dont le pKa est le plus petit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Classe des amines ?",
+          "options": [
+            "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Représentation de Newman ?",
+          "options": [
+            "visualise les conformations autour d'une liaison C–C",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "visualise les conformations autour d'une liaison C–C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réaction acide fort / base forte ?",
+          "options": [
+            "H₃O⁺ + OH⁻ → 2 H₂O",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "H₃O⁺ + OH⁻ → 2 H₂O"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Groupe des amides ?",
+          "options": [
+            "−CO−NH− (liaison amide)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "−CO−NH− (liaison amide)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Acide (Brønsted) ?",
+          "options": [
+            "espèce qui cède un proton H⁺",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "espèce qui cède un proton H⁺"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pKa ?",
+          "options": [
+            "pKa = −log Ka",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pKa = −log Ka"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pH d'une base forte ?",
+          "options": [
+            "pH = 14 + log C ([OH⁻] = C)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH = 14 + log C ([OH⁻] = C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomérie de chaîne ?",
+          "options": [
+            "diffèrent par la disposition de la chaîne carbonée",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "diffèrent par la disposition de la chaîne carbonée"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Isomères ?",
+          "options": [
+            "même formule brute, formules développées différentes",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "même formule brute, formules développées différentes"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

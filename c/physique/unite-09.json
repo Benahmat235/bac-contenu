@@ -3,7 +3,7 @@
   "matiere": "physique-c",
   "type": "scientifique",
   "titre": "Décroissance radioactive",
-  "ordre": 9,
+  "ordre": 11,
   "source": {
     "document": "Physique TC",
     "chapitre": "Chapitre 9 : Décroissance radioactive",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-c-radio-radio-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-c-radio-c-loi",
       "activites": [
         {
           "type": "formule",
-          "recto": "Loi de décroissance radioactive ?",
+          "recto": "Loi de décroissance",
           "verso": "N(t) = N₀·e^(−λt)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Relation λ et demi-vie ?",
+          "recto": "Constante radioactive et demi-vie",
           "verso": "λ = ln2 / T½",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Après n demi-vies",
+          "verso": "N = N₀ / 2ⁿ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Activité",
+          "verso": "A = λ·N",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Unité d'activité",
+          "verso": "le becquerel : 1 Bq = 1 désintégration/s",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nombre de demi-vies",
+          "verso": "n = t / T½",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Décroissance de l'activité",
+          "verso": "A(t) = A₀·e^(−λt)",
           "modeReponse": "auto_evaluation"
         }
       ]

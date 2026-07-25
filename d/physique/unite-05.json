@@ -3,7 +3,7 @@
   "matiere": "physique-d",
   "type": "scientifique",
   "titre": "Les oscillations mécaniques",
-  "ordre": 5,
+  "ordre": 6,
   "source": {
     "document": "Physique TD",
     "chapitre": "Chapitre 5 : Oscillations mécaniques",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-d-osc-osc-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-d-osc-c-ressort",
       "activites": [
         {
           "type": "formule",
-          "recto": "Période d'un pendule élastique ?",
+          "recto": "Période d'un pendule élastique",
           "verso": "T = 2π·√(m/k)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Période d'un pendule simple ?",
+          "recto": "Pulsation propre (ressort)",
+          "verso": "ω₀ = √(k/m)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Période d'un pendule simple",
           "verso": "T = 2π·√(L/g)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fréquence",
+          "verso": "N = 1/T",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation",
+          "verso": "ω = 2π/T = 2π·N",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Équation horaire",
+          "verso": "x(t) = X_m·cos(ωt + φ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie mécanique (ressort)",
+          "verso": "E = ½·k·X_m²",
           "modeReponse": "auto_evaluation"
         }
       ]

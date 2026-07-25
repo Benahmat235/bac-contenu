@@ -3,7 +3,7 @@
   "matiere": "svt-d",
   "type": "scientifique",
   "titre": "La communication hormonale",
-  "ordre": 12,
+  "ordre": 15,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 12 : La communication hormonale",
@@ -75,21 +75,63 @@
   "etapes": [
     {
       "id": "svt-d-ho-ho-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-d-ho-regulation",
       "activites": [
         {
           "type": "formule",
-          "recto": "Action de l'insuline ?",
-          "verso": "hypoglycémiante (fait baisser la glycémie)",
+          "recto": "Hormone",
+          "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Action du glucagon ?",
-          "verso": "hyperglycémiant (fait monter la glycémie)",
+          "recto": "Glande endocrine / exocrine",
+          "verso": "endocrine → sang ; exocrine → canal excréteur",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glycémie",
+          "verso": "taux de glucose sanguin ≈ 1 g/L",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pancréas",
+          "verso": "glande mixte ; îlots de Langerhans (cellules α et β)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Insuline",
+          "verso": "cellules β ; hypoglycémiante (fait baisser la glycémie)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glucagon",
+          "verso": "cellules α ; hyperglycémiant (fait monter la glycémie)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glycogénogenèse",
+          "verso": "stockage du glucose en glycogène (foie, muscles)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Glycogénolyse",
+          "verso": "libération de glucose à partir du glycogène (foie)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Foie",
+          "verso": "organe régulateur du glucose (stockage/déstockage)",
           "modeReponse": "auto_evaluation"
         }
       ]

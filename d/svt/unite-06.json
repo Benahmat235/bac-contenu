@@ -3,7 +3,7 @@
   "matiere": "svt-d",
   "type": "scientifique",
   "titre": "La reproduction humaine",
-  "ordre": 6,
+  "ordre": 7,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 6 : La reproduction humaine",
@@ -75,21 +75,63 @@
   "etapes": [
     {
       "id": "svt-d-rh-rh-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-d-rh-hormones",
       "activites": [
         {
           "type": "formule",
-          "recto": "Hormones ovariennes ?",
-          "verso": "œstrogènes et progestérone",
+          "recto": "Gonades",
+          "verso": "testicules (mâle) et ovaires (femelle)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Qui déclenche l'ovulation ?",
-          "verso": "le pic de LH (hypophyse)",
+          "recto": "Fonction exocrine du testicule",
+          "verso": "production des spermatozoïdes (spermatogenèse)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction endocrine du testicule",
+          "verso": "sécrétion de testostérone (cellules de Leydig)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rôle de la testostérone",
+          "verso": "développement des caractères sexuels secondaires masculins",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonctions de l'ovaire",
+          "verso": "produire les ovules et sécréter les hormones ovariennes",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Durée du cycle sexuel",
+          "verso": "28 jours en moyenne ; ovulation vers le 14e jour",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hormones ovariennes",
+          "verso": "œstrogènes (phase folliculaire) et progestérone (corps jaune)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hormones hypophysaires",
+          "verso": "FSH et LH ; le pic de LH déclenche l'ovulation",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Hormone",
+          "verso": "substance d'une glande endocrine, véhiculée par le sang, agit sur des cellules cibles",
           "modeReponse": "auto_evaluation"
         }
       ]

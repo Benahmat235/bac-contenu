@@ -1,141 +1,210 @@
 {
-  "id": "en-u1",
+  "id": "en-u01",
   "matiere": "anglais",
-  "titre": "Vocabulary: key themes",
+  "titre": "Vocabulary: Education & Society",
   "ordre": 1,
   "source": {
-    "document": "Anglais TA4 C D",
-    "chapitre": "Themes: Democracy, Development, Education...",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Vocabulary: Education & Society",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Memorize the question and answer. If you forget, the answer is revealed."
   },
   "etapes": [
     {
-      "id": "en-u1-e1",
-      "titre": "Democracy: key words",
-      "categorie": "definitions",
+      "id": "en-u01-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "en-c-voc-democracy",
+      "competenceId": "en-u01-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "The word « democracy » comes from two Greek words: dêmos and kratein. What do they mean?",
-          "options": [
-            "'law' and 'order'",
-            "'people' and 'to govern'",
-            "'king' and 'power'",
-            "'city' and 'vote'"
-          ],
-          "reponse": 1,
-          "explication": "Dêmos = people, kratein = to govern. Democracy = government by the people."
+          "type": "rappel_actif",
+          "question": "Translate: 'baccalauréat'",
+          "reponseAttendue": "baccalaureate / high school diploma",
+          "modeReponse": "auto_evaluation",
+          "explication": "baccalaureate / high school diploma"
         },
         {
-          "type": "association",
-          "consigne": "Match each English election word with its French meaning.",
-          "paires": [
-            {
-              "gauche": "Polling station",
-              "droite": "bureau de vote"
-            },
-            {
-              "gauche": "A voting booth",
-              "droite": "un isoloir"
-            },
-            {
-              "gauche": "By secret ballot",
-              "droite": "à bulletin secret"
-            },
-            {
-              "gauche": "Indelible ink",
-              "droite": "encre indélébile"
-            }
-          ],
-          "explication": "Vocabulary of elections and voting."
+          "type": "rappel_actif",
+          "question": "Translate: 'réussir un examen'",
+          "reponseAttendue": "to pass an exam",
+          "modeReponse": "auto_evaluation",
+          "explication": "to pass an exam"
         },
         {
-          "type": "association",
-          "consigne": "Match each word with its French meaning.",
-          "paires": [
-            {
-              "gauche": "Bribes",
-              "droite": "pots-de-vin"
-            },
-            {
-              "gauche": "Manifesto",
-              "droite": "programme (politique)"
-            },
-            {
-              "gauche": "Campaign rally",
-              "droite": "meeting politique"
-            },
-            {
-              "gauche": "Election monitors",
-              "droite": "observateurs électoraux"
-            }
-          ],
-          "explication": "Vocabulary of political campaigns."
+          "type": "rappel_actif",
+          "question": "Translate: 'échouer à un examen'",
+          "reponseAttendue": "to fail an exam",
+          "modeReponse": "auto_evaluation",
+          "explication": "to fail an exam"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'bourse d'études'",
+          "reponseAttendue": "scholarship",
+          "modeReponse": "auto_evaluation",
+          "explication": "scholarship"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'analphabétisme'",
+          "reponseAttendue": "illiteracy",
+          "modeReponse": "auto_evaluation",
+          "explication": "illiteracy"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'taux de scolarisation'",
+          "reponseAttendue": "enrollment rate / schooling rate",
+          "modeReponse": "auto_evaluation",
+          "explication": "enrollment rate / schooling rate"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'pauvreté'",
+          "reponseAttendue": "poverty",
+          "modeReponse": "auto_evaluation",
+          "explication": "poverty"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'développement durable'",
+          "reponseAttendue": "sustainable development",
+          "modeReponse": "auto_evaluation",
+          "explication": "sustainable development"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'chômage'",
+          "reponseAttendue": "unemployment",
+          "modeReponse": "auto_evaluation",
+          "explication": "unemployment"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'droits de l'homme'",
+          "reponseAttendue": "human rights",
+          "modeReponse": "auto_evaluation",
+          "explication": "human rights"
         }
       ]
     },
     {
-      "id": "en-u1-e2",
-      "titre": "Development & Education",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "en-c-voc-dev-edu",
-      "activites": [
-        {
-          "type": "association",
-          "consigne": "Match each theme with a key idea.",
-          "paires": [
-            {
-              "gauche": "Development",
-              "droite": "economic and social progress of a country"
-            },
-            {
-              "gauche": "Education",
-              "droite": "teaching and learning to build knowledge"
-            },
-            {
-              "gauche": "Democracy",
-              "droite": "government where the people are sovereign"
-            }
-          ],
-          "explication": "The course is organised around themes (Democracy, Development, Education...)."
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "A person who has the right to vote in an election is called a ___ .",
-          "reponse": "voter",
-          "toleranceMots": [
-            "voter"
-          ],
-          "explication": "A voter is someone entitled to cast a vote."
-        }
-      ]
-    },
-    {
-      "id": "en-u1-defi",
-      "titre": "Mastery challenge",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "en-c-voc-synthese",
+      "id": "en-u01-quiz",
+      "titre": "Quick Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "en-u01-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Which sentence uses the vocabulary correctly?",
+          "question": "Translate: 'baccalauréat'",
           "options": [
-            "He cast his vote by secret ballot at the polling station.",
-            "He voted the manifesto in the booth ink.",
-            "The bribe monitored the election booth.",
-            "The rally counted the indelible voter."
+            "baccalaureate / high school diploma",
+            "Wrong A",
+            "Wrong B",
+            "None"
           ],
           "reponse": 0,
-          "explication": "Correct use of election vocabulary."
+          "explication": "baccalaureate / high school diploma"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'réussir un examen'",
+          "options": [
+            "to pass an exam",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "to pass an exam"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'échouer à un examen'",
+          "options": [
+            "to fail an exam",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "to fail an exam"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'bourse d'études'",
+          "options": [
+            "scholarship",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "scholarship"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'analphabétisme'",
+          "options": [
+            "illiteracy",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "illiteracy"
         }
-      ],
-      "estDefi": true
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'baccalauréat'",
+      "verso": "baccalaureate / high school diploma"
+    },
+    {
+      "recto": "Translate: 'réussir un examen'",
+      "verso": "to pass an exam"
+    },
+    {
+      "recto": "Translate: 'échouer à un examen'",
+      "verso": "to fail an exam"
+    },
+    {
+      "recto": "Translate: 'bourse d'études'",
+      "verso": "scholarship"
+    },
+    {
+      "recto": "Translate: 'analphabétisme'",
+      "verso": "illiteracy"
+    },
+    {
+      "recto": "Translate: 'taux de scolarisation'",
+      "verso": "enrollment rate / schooling rate"
+    },
+    {
+      "recto": "Translate: 'pauvreté'",
+      "verso": "poverty"
+    },
+    {
+      "recto": "Translate: 'développement durable'",
+      "verso": "sustainable development"
+    },
+    {
+      "recto": "Translate: 'chômage'",
+      "verso": "unemployment"
+    },
+    {
+      "recto": "Translate: 'droits de l'homme'",
+      "verso": "human rights"
     }
   ],
   "videos": [

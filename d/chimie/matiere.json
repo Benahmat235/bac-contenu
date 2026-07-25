@@ -2,16 +2,102 @@
   "id": "chimie-d",
   "titre": "Chimie",
   "type": "scientifique",
-  "seriesConcernees": ["d"],
+  "seriesConcernees": [
+    "d"
+  ],
   "description": "Chimie acido-basique et chimie organique : formules, pH calculés, exercices corrigés et quiz.",
   "unites": [
-    { "id": "chi-d-ph", "titre": "Solutions aqueuses et pH", "ordre": 1, "fichier": "d/chimie/unite-01.json", "prerequis": [] },
-    { "id": "chi-d-af", "titre": "Acides forts – bases fortes", "ordre": 2, "fichier": "d/chimie/unite-02.json", "prerequis": ["chi-d-ph"] },
-    { "id": "chi-d-ka", "titre": "Couple acide/base", "ordre": 3, "fichier": "d/chimie/unite-03.json", "prerequis": ["chi-d-ph"] },
-    { "id": "chi-d-ka2", "titre": "Constante d'acidité d'un couple", "ordre": 4, "fichier": "d/chimie/unite-04.json", "prerequis": ["chi-d-ka"] },
-    { "id": "chi-d-rab", "titre": "Les réactions acido-basiques", "ordre": 5, "fichier": "d/chimie/unite-05.json", "prerequis": ["chi-d-af"] },
-    { "id": "chi-d-st", "titre": "Notion de stéréochimie", "ordre": 6, "fichier": "d/chimie/unite-06.json", "prerequis": [] },
-    { "id": "chi-d-al", "titre": "La fonction alcool et ses dérivés", "ordre": 7, "fichier": "d/chimie/unite-07.json", "prerequis": ["chi-d-st"] },
-    { "id": "chi-d-am", "titre": "Amines et amides", "ordre": 8, "fichier": "d/chimie/unite-08.json", "prerequis": ["chi-d-st"] }
+    {
+      "id": "chi-d-ph",
+      "titre": "Solutions aqueuses et pH",
+      "ordre": 1,
+      "fichier": "d/chimie/unite-01.json",
+      "prerequis": []
+    },
+    {
+      "id": "chi-d-af",
+      "titre": "Acides forts – bases fortes",
+      "ordre": 2,
+      "fichier": "d/chimie/unite-02.json",
+      "prerequis": [
+        "chi-d-ph"
+      ]
+    },
+    {
+      "id": "chi-d-ka",
+      "titre": "Couple acide/base",
+      "ordre": 3,
+      "fichier": "d/chimie/unite-03.json",
+      "prerequis": [
+        "chi-d-ph"
+      ]
+    },
+    {
+      "id": "chimie-d-rev01",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "d/chimie/revision-01.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "chi-d-ka2",
+      "titre": "Constante d'acidité d'un couple",
+      "ordre": 5,
+      "fichier": "d/chimie/unite-04.json",
+      "prerequis": [
+        "chi-d-ka"
+      ]
+    },
+    {
+      "id": "chi-d-rab",
+      "titre": "Les réactions acido-basiques",
+      "ordre": 6,
+      "fichier": "d/chimie/unite-05.json",
+      "prerequis": [
+        "chi-d-af"
+      ]
+    },
+    {
+      "id": "chi-d-st",
+      "titre": "Notion de stéréochimie",
+      "ordre": 7,
+      "fichier": "d/chimie/unite-06.json",
+      "prerequis": []
+    },
+    {
+      "id": "chimie-d-rev02",
+      "titre": "Révision : leçons 4 à 6",
+      "ordre": 8,
+      "fichier": "d/chimie/revision-02.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "chi-d-al",
+      "titre": "La fonction alcool et ses dérivés",
+      "ordre": 9,
+      "fichier": "d/chimie/unite-07.json",
+      "prerequis": [
+        "chi-d-st"
+      ]
+    },
+    {
+      "id": "chi-d-am",
+      "titre": "Amines et amides",
+      "ordre": 10,
+      "fichier": "d/chimie/unite-08.json",
+      "prerequis": [
+        "chi-d-st"
+      ]
+    },
+    {
+      "id": "chimie-d-rev03",
+      "titre": "Révision finale",
+      "ordre": 11,
+      "fichier": "d/chimie/revision-03.json",
+      "prerequis": [],
+      "estRevision": true
+    }
   ]
 }

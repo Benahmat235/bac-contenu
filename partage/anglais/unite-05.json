@@ -1,0 +1,188 @@
+{
+  "id": "en-u05",
+  "matiere": "anglais",
+  "titre": "English Tenses: Future & Conditionals",
+  "ordre": 5,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "English Tenses: Future & Conditionals",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Memorize the question and answer. If you forget, the answer is revealed."
+  },
+  "etapes": [
+    {
+      "id": "en-u05-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "en-u05-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "When do we use 'will + verb'?",
+          "reponseAttendue": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "When do we use 'going to + verb'?",
+          "reponseAttendue": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Zero Conditional? (If + present, present)",
+          "reponseAttendue": "For general truths. Ex: 'If you heat water, it boils.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the First Conditional? (If + present, will + verb)",
+          "reponseAttendue": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Second Conditional? (If + past, would + verb)",
+          "reponseAttendue": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Third Conditional? (If + past perfect, would have + pp)",
+          "reponseAttendue": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Difference between 'will' and 'going to'?",
+          "reponseAttendue": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based.",
+          "modeReponse": "auto_evaluation",
+          "explication": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Future Continuous?",
+          "reponseAttendue": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+        }
+      ]
+    },
+    {
+      "id": "en-u05-quiz",
+      "titre": "Quick Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "en-u05-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use 'will + verb'?",
+          "options": [
+            "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use 'going to + verb'?",
+          "options": [
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to stud",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Zero Conditional? (If + present, present)",
+          "options": [
+            "For general truths. Ex: 'If you heat water, it boils.'",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the First Conditional? (If + present, will + verb)",
+          "options": [
+            "For real/possible future situations. Ex: 'If I pass the bac, I will go to univer",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Second Conditional? (If + past, would + verb)",
+          "options": [
+            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "When do we use 'will + verb'?",
+      "verso": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+    },
+    {
+      "recto": "When do we use 'going to + verb'?",
+      "verso": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+    },
+    {
+      "recto": "What is the Zero Conditional? (If + present, present)",
+      "verso": "For general truths. Ex: 'If you heat water, it boils.'"
+    },
+    {
+      "recto": "What is the First Conditional? (If + present, will + verb)",
+      "verso": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+    },
+    {
+      "recto": "What is the Second Conditional? (If + past, would + verb)",
+      "verso": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+    },
+    {
+      "recto": "What is the Third Conditional? (If + past perfect, would have + pp)",
+      "verso": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+    },
+    {
+      "recto": "Difference between 'will' and 'going to'?",
+      "verso": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+    },
+    {
+      "recto": "What is the Future Continuous?",
+      "verso": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+    }
+  ]
+}

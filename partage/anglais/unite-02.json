@@ -1,145 +1,210 @@
 {
-  "id": "en-u2",
+  "id": "en-u02",
   "matiere": "anglais",
-  "titre": "English tenses",
+  "titre": "Vocabulary: Environment & Health",
   "ordre": 2,
   "source": {
-    "document": "Anglais TA4 C D",
-    "chapitre": "Grammar: present, past, perfect, future tenses",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Vocabulary: Environment & Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Memorize the question and answer. If you forget, the answer is revealed."
   },
   "etapes": [
     {
-      "id": "en-u2-e1",
-      "titre": "Present tenses",
-      "categorie": "definitions",
+      "id": "en-u02-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "en-c-present",
+      "competenceId": "en-u02-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Which sentence expresses a habit (present simple)?",
-          "options": [
-            "She is reading now.",
-            "She reads every morning.",
-            "She has read the book.",
-            "She will read tomorrow."
-          ],
-          "reponse": 1,
-          "explication": "The present simple expresses habits and general truths; the present continuous expresses actions happening now."
+          "type": "rappel_actif",
+          "question": "Translate: 'changement climatique'",
+          "reponseAttendue": "climate change",
+          "modeReponse": "auto_evaluation",
+          "explication": "climate change"
         },
         {
-          "type": "texte_a_completer",
-          "phrase": "Complete (present continuous): « Look! The children ___ (play) football right now. »",
-          "reponse": "are playing",
-          "toleranceMots": [
-            "are playing"
-          ],
-          "explication": "Present continuous = be + verb-ing, for an action happening now."
+          "type": "rappel_actif",
+          "question": "Translate: 'déforestation'",
+          "reponseAttendue": "deforestation",
+          "modeReponse": "auto_evaluation",
+          "explication": "deforestation"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'sécheresse'",
+          "reponseAttendue": "drought",
+          "modeReponse": "auto_evaluation",
+          "explication": "drought"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'pollution de l'eau'",
+          "reponseAttendue": "water pollution",
+          "modeReponse": "auto_evaluation",
+          "explication": "water pollution"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'énergie renouvelable'",
+          "reponseAttendue": "renewable energy",
+          "modeReponse": "auto_evaluation",
+          "explication": "renewable energy"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'maladie contagieuse'",
+          "reponseAttendue": "contagious / infectious disease",
+          "modeReponse": "auto_evaluation",
+          "explication": "contagious / infectious disease"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'espérance de vie'",
+          "reponseAttendue": "life expectancy",
+          "modeReponse": "auto_evaluation",
+          "explication": "life expectancy"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'système de santé'",
+          "reponseAttendue": "healthcare system",
+          "modeReponse": "auto_evaluation",
+          "explication": "healthcare system"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'prévention'",
+          "reponseAttendue": "prevention",
+          "modeReponse": "auto_evaluation",
+          "explication": "prevention"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'assainissement'",
+          "reponseAttendue": "sanitation",
+          "modeReponse": "auto_evaluation",
+          "explication": "sanitation"
         }
       ]
     },
     {
-      "id": "en-u2-e2",
-      "titre": "Past tenses",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "en-c-past",
+      "id": "en-u02-quiz",
+      "titre": "Quick Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "en-u02-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Which sentence is in the past simple?",
+          "question": "Translate: 'changement climatique'",
           "options": [
-            "He was playing when I arrived.",
-            "He plays football.",
-            "He played football yesterday.",
-            "He has played football."
-          ],
-          "reponse": 2,
-          "explication": "Past simple = finished action at a definite past time (yesterday)."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Choose the past continuous: an action in progress in the past.",
-          "options": [
-            "I watched TV.",
-            "I was watching TV when the phone rang.",
-            "I have watched TV.",
-            "I watch TV."
-          ],
-          "reponse": 1,
-          "explication": "Past continuous = was/were + verb-ing, for an action in progress in the past."
-        }
-      ]
-    },
-    {
-      "id": "en-u2-e3",
-      "titre": "Perfect & future",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "en-c-perfect-future",
-      "activites": [
-        {
-          "type": "choix_unique",
-          "question": "Which sentence is in the present perfect?",
-          "options": [
-            "I have already finished my homework.",
-            "I finished my homework yesterday.",
-            "I finish my homework.",
-            "I will finish my homework."
+            "climate change",
+            "Wrong A",
+            "Wrong B",
+            "None"
           ],
           "reponse": 0,
-          "explication": "Present perfect = have/has + past participle; links a past action to the present."
+          "explication": "climate change"
         },
         {
-          "type": "association",
-          "consigne": "Match each future form with its use.",
-          "paires": [
-            {
-              "gauche": "will + verb",
-              "droite": "a spontaneous decision or prediction"
-            },
-            {
-              "gauche": "be going to + verb",
-              "droite": "an intention or plan"
-            },
-            {
-              "gauche": "present continuous",
-              "droite": "a fixed arrangement in the near future"
-            }
+          "type": "choix_unique",
+          "question": "Translate: 'déforestation'",
+          "options": [
+            "deforestation",
+            "Wrong A",
+            "Wrong B",
+            "None"
           ],
-          "explication": "English expresses the future in several ways."
+          "reponse": 0,
+          "explication": "deforestation"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'sécheresse'",
+          "options": [
+            "drought",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "drought"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'pollution de l'eau'",
+          "options": [
+            "water pollution",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "water pollution"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'énergie renouvelable'",
+          "options": [
+            "renewable energy",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "renewable energy"
         }
       ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Translate: 'changement climatique'",
+      "verso": "climate change"
     },
     {
-      "id": "en-u2-defi",
-      "titre": "Mastery challenge",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "en-c-tenses-synthese",
-      "activites": [
-        {
-          "type": "classement",
-          "consigne": "Put these sentences in order from past to future.",
-          "elements": [
-            "I had finished before he came. (past perfect)",
-            "I finished yesterday. (past simple)",
-            "I have just finished. (present perfect)",
-            "I will finish tomorrow. (future)"
-          ],
-          "ordreCorrect": [
-            "I had finished before he came. (past perfect)",
-            "I finished yesterday. (past simple)",
-            "I have just finished. (present perfect)",
-            "I will finish tomorrow. (future)"
-          ],
-          "explication": "Timeline: past perfect < past simple < present perfect < future."
-        }
-      ],
-      "estDefi": true
+      "recto": "Translate: 'déforestation'",
+      "verso": "deforestation"
+    },
+    {
+      "recto": "Translate: 'sécheresse'",
+      "verso": "drought"
+    },
+    {
+      "recto": "Translate: 'pollution de l'eau'",
+      "verso": "water pollution"
+    },
+    {
+      "recto": "Translate: 'énergie renouvelable'",
+      "verso": "renewable energy"
+    },
+    {
+      "recto": "Translate: 'maladie contagieuse'",
+      "verso": "contagious / infectious disease"
+    },
+    {
+      "recto": "Translate: 'espérance de vie'",
+      "verso": "life expectancy"
+    },
+    {
+      "recto": "Translate: 'système de santé'",
+      "verso": "healthcare system"
+    },
+    {
+      "recto": "Translate: 'prévention'",
+      "verso": "prevention"
+    },
+    {
+      "recto": "Translate: 'assainissement'",
+      "verso": "sanitation"
     }
   ],
   "videos": [

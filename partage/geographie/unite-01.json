@@ -185,5 +185,14 @@
       "recto": "Quelles sont les masses d'air qui commandent le climat du Tchad ?",
       "verso": "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime humide)."
     }
+  ],
+  "videos": [
+    {
+      "titre": "Relief, climat, sol et végétation (géographie Terminale)",
+      "url": "https://youtu.be/zfzHbH1l1YI",
+      "type": "video",
+      "chaine": "Collège Saint Joseph",
+      "auteur": "Collège Saint Joseph"
+    }
   ]
 }

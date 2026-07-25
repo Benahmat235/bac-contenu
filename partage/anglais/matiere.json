@@ -6,30 +6,65 @@
     "c",
     "d"
   ],
-  "description": "English: thematic vocabulary and grammar.",
+  "description": "English vocabulary, tenses, passive voice, reported speech, conditionals, and essay writing for the baccalaureate.",
   "unites": [
     {
-      "id": "en-u1",
-      "titre": "Vocabulary: key themes",
+      "id": "en-u01",
+      "titre": "Vocabulary: Education & Society",
       "ordre": 1,
       "fichier": "partage/anglais/unite-01.json",
       "prerequis": []
     },
     {
-      "id": "en-u2",
-      "titre": "English tenses",
+      "id": "en-u02",
+      "titre": "Vocabulary: Environment & Health",
       "ordre": 2,
       "fichier": "partage/anglais/unite-02.json",
       "prerequis": []
     },
     {
-      "id": "en-u3",
-      "titre": "Passive, reported speech & conditionals",
+      "id": "en-u03",
+      "titre": "English Tenses: Present & Past",
       "ordre": 3,
       "fichier": "partage/anglais/unite-03.json",
-      "prerequis": [
-        "en-u2"
-      ]
+      "prerequis": []
+    },
+    {
+      "id": "en-rev04",
+      "titre": "Revision: lessons 1 to 3",
+      "ordre": 4,
+      "fichier": "partage/anglais/revision-04.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "en-u05",
+      "titre": "English Tenses: Future & Conditionals",
+      "ordre": 5,
+      "fichier": "partage/anglais/unite-05.json",
+      "prerequis": []
+    },
+    {
+      "id": "en-u06",
+      "titre": "Passive Voice & Reported Speech",
+      "ordre": 6,
+      "fichier": "partage/anglais/unite-06.json",
+      "prerequis": []
+    },
+    {
+      "id": "en-u07",
+      "titre": "Essay Writing & Useful Expressions",
+      "ordre": 7,
+      "fichier": "partage/anglais/unite-07.json",
+      "prerequis": []
+    },
+    {
+      "id": "en-rev08",
+      "titre": "Revision: lessons 4 to 6",
+      "ordre": 8,
+      "fichier": "partage/anglais/revision-08.json",
+      "prerequis": [],
+      "estRevision": true
     }
   ]
 }
