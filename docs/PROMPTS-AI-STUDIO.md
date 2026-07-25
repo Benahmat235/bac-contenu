@@ -1,203 +1,189 @@
-# Prompts pour Google AI Studio — Construire l'application
+# Prompts Google AI Studio — Kabro Edu (Android natif Java/Kotlin)
 
-Ces prompts sont **prêts à coller** dans Google AI Studio (onglet **Build** / création
-d'application). Objectif : générer une **web app mobile-first (PWA installable,
-hors-ligne)** en React + TypeScript, qui lit le contenu JSON depuis GitHub.
+Prompts **prêts à coller** dans Google AI Studio (onglet **Build**).
+Cible : **application Android native** en Kotlin + Java, Jetpack Compose.
 
-> **Comment procéder**
-> 1. Ouvrez Google AI Studio → **Build** (créer une app).
-> 2. Collez d'abord le **PROMPT MAÎTRE** (§1) et générez.
-> 3. Affinez ensuite fonctionnalité par fonctionnalité avec les **prompts d'itération** (§2).
-> 4. Utilisez le **prompt d'intégration des données** (§3) pour brancher le contenu réel.
->
-> Remarque : AI Studio produit une **app web**. Pour un rendu « mobile », on vise une
-> **PWA installable et hors-ligne**. La même logique/contenu pourra être réutilisée
-> plus tard pour une app native (ex. Flutter/React Native).
+> **Ordre d'utilisation**
+> 1. **PROMPT 1** (§1) → génère le frontend avec données de démonstration.
+> 2. **PROMPT 2** (§2) → peaufine le design façon Duolingo.
+> 3. **Prompts d'itération** (§4) → une fonctionnalité à la fois.
+> 4. **PROMPT 3** (§3) → branche le contenu réel GitHub.
+> 5. Voir `PROMPT-CORRECTION-CHARGEMENT.md` en cas de bug « 0/0 Unités ».
 
 ---
 
-## 1. PROMPT MAÎTRE (génération initiale)
+## 1. PROMPT 1 — Démarrage du frontend
 
 ```
-Crée une application web mobile-first (PWA installable et fonctionnelle hors-ligne)
-nommée « Bac Tchad », en React + TypeScript + Tailwind CSS. C'est une app d'aide à la
-préparation du baccalauréat tchadien, en français, pour les séries A4 (littéraire),
-C et D (scientifiques). Style d'apprentissage : progression par étapes façon Duolingo
-+ mémorisation par répétition espacée façon Anki.
+Crée une application Android native nommée « Kabro Edu », en Kotlin (principal) et Java,
+avec Jetpack Compose pour l'UI. C'est une app d'aide à la préparation du baccalauréat
+tchadien, 100 % en français, pour les séries A4 (littéraire), C et D (scientifiques). Style
+d'apprentissage inspiré de Duolingo (parcours par étapes) et d'Anki (mémorisation espacée).
 
-CONTRAINTES ABSOLUES :
-- 100 % gratuite, AUCUNE publicité, AUCUNE collecte de données, AUCUN compte utilisateur.
-- Toute la progression est stockée LOCALEMENT (localStorage/IndexedDB).
-- Contenu chargé depuis GitHub (JSON en lecture seule) et mis en cache pour l'hors-ligne.
-- App légère et rapide (cibler des téléphones modestes et des connexions lentes).
+STACK TECHNIQUE :
+- Langages : Kotlin (principal) + Java (utilitaires si besoin).
+- UI : Jetpack Compose + Material 3.
+- Architecture : MVVM (ViewModel + StateFlow/LiveData).
+- Navigation : Navigation Compose (BottomNavigation 5 onglets).
+- Stockage local : Room (progression, cache, intervalles de révision) + DataStore (préférences).
+- Réseau (plus tard) : Retrofit + OkHttp + Gson.
+- Pas de backend, pas de Firebase, pas de collecte de données.
 
-SOURCE DU CONTENU (à lire au démarrage) :
-- baseUrl = "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/"
-- Point d'entrée = baseUrl + "manifest.json"
-- manifest.json contient : contentVersion (nombre), matieresPartagees (objet),
-  et series[] (chaque série a id "a4"|"c"|"d", titre, et matieres[]).
-- Une matière est soit { "ref": "<clef de matieresPartagees>" }, soit une matière propre
-  avec { id, titre, type, version, chemin, fichiers[] }.
-- Chaque matière a un fichier "<chemin>/matiere.json" listant unites[] :
-  { id, titre, ordre, fichier, prerequis[] }.
-- Chaque unité "<fichier>" est un JSON : { id, matiere, type, titre, ordre, source,
-  reglesExercice, formulaire?, etapes[], banqueExercices?, videos? }.
+Pour cette première version, construis UNIQUEMENT le FRONTEND avec des DONNÉES DE
+DÉMONSTRATION codées en dur (DemoData.kt). Objectif : interface belle, fluide, navigable.
 
-NAVIGATION (barre d'onglets en bas) : Accueil · Matières · Réviser · Progression · Paramètres.
-- Onboarding au 1er lancement : bienvenue + choix de la série + téléchargement du contenu.
-- Accueil : objectif du jour, streak (jours consécutifs), bouton « Continuer » (dernier
-  chapitre), bloc « À réviser aujourd'hui » (répétition espacée).
-- Matières : liste des matières de la série choisie, avec progression ; en ouvrant une
-  matière, afficher ses unités ordonnées sous forme d'un « chemin » (style Duolingo),
-  avec verrouillage tant que les prérequis ne sont pas validés.
-- Unité : liste des étapes ; si l'unité a un champ "videos", afficher une section
-  « Vidéos d'explication » (liens ouvrant YouTube dans un nouvel onglet, avec titre,
-  chaîne/auteur) ; si l'unité a un "formulaire", proposer un deck de formules à réviser.
-- Lecteur d'étape : présenter les activités UNE PAR UNE, plein écran, avec validation
-  et feedback immédiat, puis un écran de résultats (score, XP gagné).
+IDENTITÉ VISUELLE — Kabro Edu :
+- Bleu profond #002664 (Primary), jaune #FECB00 (accents/récompenses), rouge #C60C30 (streak/alertes).
+- Fond clair, cartes arrondies (RoundedCornerShape(16.dp)), boutons larges (48dp min),
+  typographie Material 3 lisible, contrastes élevés.
 
-RÈGLE DE CORRECTION (importante) : quand l'élève échoue à un exercice, l'app doit
-D'ABORD révéler la « réponse finale » (reponseFinale) puis afficher la correction pas à
-pas (etapesCorrection). Cf. le champ reglesExercice de chaque unité.
+NAVIGATION : NavigationBar avec 5 onglets —
+Accueil · Matières · Réviser · Progression · Paramètres.
 
-TYPES D'ACTIVITÉS À GÉRER (chaque étape a "categorie" et "activites[]") :
-- "choix_unique" : { question, options[], reponse (index), explication } → QCM 1 bonne réponse.
-- "choix_multiple" : { question, options[], reponses[] (indices), explication }.
-- "association" : { consigne, paires[{gauche,droite}], explication } → relier les paires.
-- "classement" : { consigne, elements[], ordreCorrect[], explication } → remettre dans l'ordre.
-- "texte_a_completer" : { phrase (avec "___"), reponse, toleranceMots, explication }.
-- "rappel_actif" : { question, reponseAttendue, modeReponse, explication } → flashcard :
-  révéler la réponse puis auto-évaluation (À revoir / Difficile / Correct / Facile).
-- "reponse_courte" : { question, reponsesAcceptees[], explication }.
-- "citation" : { mode:"attribuer", citation, options[], reponse (index), oeuvre, explication }.
-- "formule" : { recto, verso, modeReponse:"auto_evaluation", explication } → flashcard.
-- "exercice_corrige" (et objets de banqueExercices) : { enonce, difficulte,
-  etapesCorrection[], reponseFinale } → l'élève cherche, puis on révèle la réponse et la correction.
-- "resolution_ordonnee" : { enonce, etapes[], ordreCorrect[], explication } → remettre dans l'ordre.
+ÉCRANS (données factices réalistes en français) :
+1. Onboarding (1er lancement, vérifié via DataStore) : bienvenue « Kabro Edu » + message
+   « Gratuit · Sans publicité · Sans collecte de données », puis choix de la série
+   (3 grandes cartes : A4, C, D), mémorisé dans DataStore.
+2. Accueil : streak (flamme + jours), anneau de progression de l'objectif du jour
+   (CircularProgressIndicator), bouton « Continuer », carte « À réviser aujourd'hui ».
+3. Matières (LazyColumn) : matières de la série + barre de progression (ex. série D : Maths,
+   Physique, Chimie, SVT, Histoire, Géographie, Français, Anglais).
+4. Parcours d'une matière : chapitres en « chemin » vertical façon Duolingo (jalons ronds
+   dessinés au Canvas, reliés par un trait), chapitre courant mis en avant, verrouillés
+   grisés avec cadenas, pastille de progression par chapitre.
+5. Détail d'un chapitre : liste des étapes (Mémorisation · Quiz · Méthode · Exercices · Défi),
+   section « Vidéos d'explication » (items titre + chaîne, ouvre YouTube via Intent),
+   bouton « Démarrer ».
+6. Lecteur d'activité (plein écran, sans BottomNav) : LinearProgressIndicator en haut, une
+   activité à la fois, exemple de QCM (choix unique) et de flashcard (recto/verso + 4 boutons
+   d'auto-évaluation : À revoir / Difficile / Correct / Facile), feedback immédiat +
+   explication, puis écran de résultats (score %, XP gagné).
+7. Réviser : « À réviser aujourd'hui » + révision par matière.
+8. Progression : streak, XP total, cartes maîtrisées, barres par matière.
+9. Paramètres : changer de série, apparence (thème clair/sombre, taille de police),
+   objectif quotidien, page « À propos » (gratuit, sans pub, sans collecte de données).
 
-RÉPÉTITION ESPACÉE : toute carte de mémorisation vue (formule, rappel_actif, citation,
-et les définitions) entre dans une file de révision gérée par un algorithme type SM-2 /
-Leitner. L'auto-évaluation met à jour l'intervalle et la prochaine échéance. L'onglet
-« Réviser » et le bloc « À réviser aujourd'hui » regroupent les cartes dues.
+PACKAGES : com.kabroedu.app → ui.screens, ui.components (ActivityCard, ProgressRing,
+ChapterNode, FlashCard…), ui.theme, data.model, data.repository, data.local (Room),
+data.demo (DemoData.kt), viewmodel (un ViewModel par feature).
 
-GAMIFICATION LÉGÈRE : XP par activité réussie, streak quotidien, objectif quotidien
-paramétrable, déblocage progressif des unités.
+QUALITÉ : MVVM propre, composables réutilisables avec @Preview, code commenté en français.
+AUCUNE publicité, AUCUN formulaire de collecte de données, AUCUN SDK de tracking.
+```
 
-HORS-LIGNE & MISES À JOUR : mettre en cache le manifest et les JSON téléchargés ;
-au lancement, si en ligne, comparer contentVersion (global) et version (par matière)
-au cache et ne retélécharger que ce qui a changé. Fonctionner entièrement sans réseau
-une fois le contenu téléchargé (service worker + IndexedDB).
 
-QUALITÉ : code TypeScript propre et modulaire (composant par type d'activité),
-typage des données du manifest et des unités, gestion des états vides et des erreurs
-réseau, interface sobre et lisible, thème clair par défaut. Fournir des données de
-démonstration si le réseau est indisponible pendant le développement.
+
+---
+
+## 2. PROMPT 2 — Peaufinage du design (façon Duolingo)
+
+```
+Améliore le design de Kabro Edu façon Duolingo avec Jetpack Compose :
+- Animations légères (animateColorAsState, AnimatedVisibility, animateFloatAsState) sur les
+  bonnes/mauvaises réponses et les gains d'XP.
+- Un emoji mascotte sympathique sur l'Accueil qui encourage l'élève.
+- Le « chemin » des chapitres dessiné au Canvas (drawCircle + drawLine) : jalons ronds
+  reliés, étape en cours animée (effet pulse via InfiniteTransition + scale), cadenas sur
+  les verrouillés.
+- Cartes de matière avec couleur/emoji distinct par matière (Maths, Chimie, SVT, Physique…).
+- LinearProgressIndicator fluide (animateFloatAsState) dans le lecteur.
+- Écran de résultats festif : confettis discrets (particules animées au Canvas).
+Conserve la palette (#002664, #FECB00, #C60C30), Material 3, rendu épuré et lisible.
 ```
 
 ---
 
-## 2. Prompts d'itération (à envoyer un par un, après le prompt maître)
+## 3. PROMPT 3 — Brancher le contenu réel GitHub
 
-### 2.1 Écran d'accueil & onboarding
 ```
-Améliore l'onboarding : un écran de bienvenue expliquant que l'app est gratuite, sans
-publicité et sans collecte de données, puis un choix de série (A4, C, D) avec de grandes
-cartes, puis un écran de téléchargement du contenu avec barre de progression. Mémorise la
-série choisie en local. Sur l'Accueil, affiche : le streak (jours consécutifs), un objectif
-quotidien (nombre d'activités), un bouton « Continuer » qui reprend le dernier chapitre, et
-un bloc « À réviser aujourd'hui » indiquant le nombre de cartes dues.
-```
-
-### 2.2 Parcours de matière façon Duolingo
-```
-Transforme la liste des unités d'une matière en un « chemin » vertical façon Duolingo :
-des jalons reliés, l'unité courante mise en avant, les unités verrouillées grisées tant
-que leurs prerequis ne sont pas validés, et une pastille de progression par unité
-(pourcentage d'étapes réussies). Au clic sur une unité ouverte, aller au détail de l'unité.
-```
-
-### 2.3 Lecteur d'activités + règle de correction
-```
-Implémente un lecteur d'activités plein écran qui enchaîne les activités d'une étape une
-par une, avec barre de progression en haut. Pour chaque type, un composant dédié. Feedback
-immédiat (correct/incorrect + explication). RÈGLE IMPORTANTE : pour les exercices
-(exercice_corrige et banqueExercices), l'élève tente d'abord ; en cas d'échec, révéler la
-reponseFinale puis dérouler etapesCorrection étape par étape. À la fin de l'étape, afficher
-un écran de résultats (score en %, XP gagné, seuilReussite atteint ou non).
-```
-
-### 2.4 Répétition espacée (Anki)
-```
-Ajoute un moteur de répétition espacée (algorithme SM-2 simplifié). Chaque carte
-(formule, rappel_actif, citation, et définitions) a un état local { facilite, intervalle,
-prochaineRevision }. Après révélation, l'élève s'auto-évalue via 4 boutons
-(À revoir / Difficile / Correct / Facile) qui ajustent l'intervalle. L'onglet « Réviser »
-propose : « À réviser aujourd'hui » (toutes matières), et la révision par matière.
-Persiste tout en local.
-```
-
-### 2.5 Vidéos d'explication
-```
-Dans le détail d'une unité, si le champ "videos" existe, affiche une section « Vidéos
-d'explication » : pour chaque vidéo, un item cliquable avec le titre, la chaîne/auteur, et
-une icône type (vidéo ou playlist). Le clic ouvre l'URL YouTube dans un nouvel onglet.
-Gère proprement l'absence de vidéos.
-```
-
-### 2.6 Révision par catégorie (v2)
-```
-Exploite le champ "categorie" des étapes (definitions, citations, these, antithese,
-exemples, methode). Dans l'onglet Réviser, ajoute des filtres permettant de réviser
-uniquement une catégorie (ex. « seulement les citations » en philosophie, « seulement les
-formules » en sciences).
-```
-
-### 2.7 Hors-ligne & PWA
-```
-Rends l'app installable (PWA) et pleinement fonctionnelle hors-ligne : service worker qui
-met en cache l'app et les JSON de contenu, stockage du contenu en IndexedDB, écran
-« Gérer le contenu » dans les Paramètres (vérifier les mises à jour, retélécharger, taille
-du cache, vider le cache). Au lancement en ligne, comparer contentVersion et les versions
-de matières au cache et ne mettre à jour que le nécessaire.
-```
-
-### 2.8 Progression & paramètres
-```
-Onglet Progression : streak, XP total, nombre de cartes maîtrisées, progression par
-matière (barres). Onglet Paramètres : changer de série, gérer le contenu, objectif
-quotidien et rappels (notifications locales), thème clair/sombre, taille de police, et
-page « À propos » (gratuit, sans pub, sans collecte de données + crédits des chaînes vidéo).
+Branche Kabro Edu sur le contenu réel. Écris un module Kotlin (com.kabroedu.app.data.remote) :
+1. Service Retrofit ContentApi : GET("manifest.json") → ManifestDto ; GET("{path}") → JSON brut.
+2. Data classes : ManifestDto, MatiereDto, UniteDto, EtapeDto, ActiviteDto (sealed class sur
+   le champ "type"), VideoRefDto.
+3. ContentRepository :
+   - baseUrl = "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/"
+   - Charge le manifest ; pour la série choisie, résout chaque matière (si "ref" → matieresPartagees).
+   - Charge chaque matiere.json puis chaque unité via son champ "fichier" (préfixé par baseUrl).
+   - Stocke tout dans Room (entité ContentCache : path, json, version).
+   - Ne retélécharge que si contentVersion (global) ou version (matière) a augmenté.
+   - Hors-ligne : fallback sur le cache Room.
+4. Gestion des erreurs réseau (réessai + repli sur cache).
+5. Expose les données au ViewModel via Flow.
 ```
 
 ---
 
-## 3. Prompt d'intégration des données réelles (GitHub)
+## 4. Prompts d'itération (un par un, après le PROMPT 1)
 
+### 4.1 Onboarding & accueil
 ```
-Branche l'app sur le contenu réel. Écris un module de données TypeScript qui :
-1. Récupère le manifest : GET "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/manifest.json".
-2. Pour la série choisie, résout chaque matière : si "ref", va la chercher dans
-   manifest.matieresPartagees ; sinon utilise la matière propre.
-3. Pour chaque matière, charge son "matiere.json" (chemin + "matiere.json") et ses unités
-   via le champ "fichier" de chaque unité (préfixé par baseUrl).
-4. Définit des types TypeScript pour Manifest, Matiere, Unite, Etape, Activite (union
-   discriminée sur "type"), et VideoRef { titre, url, type, chaine, auteur }.
-5. Met en cache manifest + JSON en IndexedDB avec leur version ; au prochain lancement,
-   ne retélécharge que si contentVersion (ou version de matière) a augmenté.
-Gère les erreurs réseau (réessai + fallback sur le cache).
+Améliore l'onboarding Android : écran de bienvenue « Kabro Edu » (gratuit, sans pub, sans
+collecte de données), choix de série (A4/C/D) en grandes cartes Material 3, puis écran de
+téléchargement avec CircularProgressIndicator. Mémorise la série dans DataStore. Accueil :
+streak (flamme + jours), objectif quotidien (anneau), bouton « Continuer », Card
+« À réviser aujourd'hui ».
+```
+
+### 4.2 Parcours Duolingo
+```
+Transforme la liste des unités en un « chemin » vertical façon Duolingo : LazyColumn +
+composable ChapterNode dessinant un jalon rond (Canvas drawCircle) relié au suivant par un
+trait. Unité courante mise en avant (scale + couleur primaire), verrouillées grisées avec
+Icons.Default.Lock, pastille de progression. Les unités de révision (estRevision=true)
+ont une icône distincte. Au clic → détail de l'unité.
+```
+
+### 4.3 Lecteur d'activités + règle de correction
+```
+Implémente un lecteur d'activités plein écran qui enchaîne les activités une par une
+(LinearProgressIndicator en haut, un composable par type). Feedback immédiat (couleur +
+explication). RÈGLE : pour les exercices (banqueExercices), l'élève tente d'abord ; en cas
+d'échec, afficher reponseFinale en grand puis dérouler etapesCorrection pas à pas
+(expand/collapse). Fin d'étape : écran de résultats (score %, XP, seuilReussite, « Continuer »).
+```
+
+### 4.4 Répétition espacée (Anki / SM-2)
+```
+Ajoute un moteur de répétition espacée (SM-2 simplifié) avec Room. Entité CardState { cardId,
+ease, interval, repetitions, nextReview }. Après révélation, 4 boutons (À revoir=0 /
+Difficile=1 / Correct=2 / Facile=3) ajustent ease et interval. Onglet Réviser :
+« À réviser aujourd'hui » (toutes matières) + révision par matière. Affiche le nombre de
+cartes dues sur l'Accueil. Carte « maîtrisée » quand interval >= 21 jours.
+(Le code complet est fourni dans docs/code-kotlin/.)
+```
+
+### 4.5 Vidéos d'explication
+```
+Dans le détail d'une unité, si "videos" existe, affiche une section « Vidéos d'explication » :
+chaque item Material 3 avec titre + chaîne (auteur) + icône (vidéo/playlist). Au clic, ouvre
+l'URL via Intent (ACTION_VIEW, Uri.parse(url)). Masque la section s'il n'y a pas de vidéo.
+```
+
+### 4.6 Hors-ligne & cache
+```
+Rends Kabro Edu fonctionnelle hors-ligne : télécharge manifest + JSON (Retrofit), stocke en
+Room. Si hors-ligne, charge depuis Room. Si en ligne, compare contentVersion et versions de
+matières et ne retélécharge que le nécessaire. WorkManager pour une vérification quotidienne.
+Indicateur « Contenu à jour » / « Mise à jour disponible » dans les Paramètres.
+```
+
+### 4.7 Progression & paramètres
+```
+Onglet Progression : streak (réinitialisé si un jour manqué), XP total, cartes maîtrisées,
+barres par matière. Paramètres : changer de série, gérer le contenu, objectif quotidien
+(slider 5-30), thème clair/sombre, taille de police, page « À propos » (gratuit/sans pub/
+sans collecte + crédits des chaînes vidéo).
 ```
 
 ---
 
-## 4. Conseils d'utilisation d'AI Studio
+## 5. Conseils d'utilisation
 
-- Générez d'abord le squelette avec le **prompt maître**, testez la navigation, puis
-  ajoutez les fonctionnalités **une à une** (2.1 → 2.8) pour garder des générations stables.
-- Après chaque itération, demandez explicitement : « corrige les erreurs TypeScript et
-  vérifie que l'app se lance ».
-- Si une génération casse quelque chose, revenez à l'étape précédente et reformulez plus
-  précisément (une seule fonctionnalité à la fois).
-- Pour le contenu réel, n'utilisez le **prompt §3** qu'une fois l'interface stable.
-- Publiez la PWA (hébergement statique gratuit : GitHub Pages, Netlify, Vercel) — cohérent
-  avec l'objectif « gratuit, sans serveur, sans collecte ».
-```
+- Générez le squelette avec le **PROMPT 1**, testez dans l'émulateur, puis ajoutez les
+  fonctionnalités **une à une** (§4) pour garder un projet stable.
+- Après chaque itération : « corrige les erreurs de compilation et vérifie que l'app se
+  lance sur l'émulateur Android ».
+- Si une génération casse quelque chose, revenez en arrière et reformulez (une seule
+  fonctionnalité à la fois).
+- N'utilisez le **PROMPT 3** (contenu réel) qu'une fois l'interface stable.
+- Publiez l'APK/AAB signé sur le Play Store, ou en APK direct (sideload).
