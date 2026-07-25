@@ -2,7 +2,7 @@
   "id": "philo-u4",
   "matiere": "philosophie",
   "titre": "Nature, culture et civilisation",
-  "ordre": 5,
+  "ordre": 6,
   "source": {
     "document": "Philosophie TA4",
     "chapitre": "Chapitre 5 : Nature, culture et civilisation",
@@ -11,6 +11,29 @@
     "dateValidation": null
   },
   "etapes": [
+    {
+      "id": "philo-u4-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philo-u4-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme naît bon, c'est la société qui le déprave. » ?",
+          "reponseAttendue": "Jean-Jacques Rousseau",
+          "modeReponse": "auto_evaluation",
+          "explication": "Rousseau : l'état de nature est bon ; c'est la société (culture) qui corrompt l'homme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "reponseAttendue": "Thomas Hobbes",
+          "modeReponse": "auto_evaluation",
+          "explication": "Hobbes : à l'état de nature, l'homme est dangereux pour l'homme, d'où la nécessité d'un pacte."
+        }
+      ]
+    },
     {
       "id": "philo-u4-e1",
       "titre": "Les définitions des mots-clés",
@@ -201,6 +224,16 @@
       "type": "video",
       "chaine": "EàDTV CONGO",
       "auteur": "EàDTV CONGO"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « L'homme naît bon, c'est la société qui le déprave. » ?",
+      "verso": "Jean-Jacques Rousseau"
+    },
+    {
+      "recto": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+      "verso": "Thomas Hobbes"
     }
   ]
 }

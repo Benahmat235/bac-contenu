@@ -75,21 +75,63 @@
   "etapes": [
     {
       "id": "math-c-isom-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-rotation",
       "activites": [
         {
           "type": "formule",
-          "recto": "Écriture complexe d'une rotation de centre O ?",
-          "verso": "z' = e^{iθ}·z",
+          "recto": "Translation (écriture complexe)",
+          "verso": "z' = z + b (b = affixe du vecteur)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Composée de deux translations ?",
+          "recto": "Rotation de centre O",
+          "verso": "z' = e^{iθ}·z (|a| = 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Homothétie de centre O",
+          "verso": "z' = k·z (k réel non nul = rapport)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Symétrie centrale",
+          "verso": "z' = −z + b, centre d'affixe b/2",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Composée de deux translations",
           "verso": "t_v ∘ t_u = t_{u+v}",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Symétries d'axes parallèles",
+          "verso": "composée = translation",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Symétries d'axes sécants en O",
+          "verso": "composée = rotation de centre O",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Réciproque d'une rotation",
+          "verso": "r(O ; θ)⁻¹ = r(O ; −θ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Isométrie",
+          "verso": "transformation qui conserve les distances",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -1,0 +1,162 @@
+{
+  "id": "philosophie-rev01",
+  "matiere": "philosophie",
+  "titre": "Révision : leçons 1 à 3",
+  "ordre": 4,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-rev01-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-rev01-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce n'est ni la faim, ni la soif, mais l'amour, la haine, la pitié, la colère qui ont arraché les premières voix. » ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Jean-Jacques Rousseau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+          "options": [
+            "Aristote",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Aristote"
+        },
+        {
+          "type": "choix_unique",
+          "question": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ .",
+          "options": [
+            "sagesse",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "sagesse"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définis l'inconscient (au sens psychanalytique).",
+          "options": [
+            "Ensemble des désirs et représentations refoulés, hors de la conscience mais agis",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Vouloir penser sans les mots, c'est une tentative insensée. » ?",
+          "options": [
+            "Hegel",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Hegel"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le moi n'est pas maître dans sa propre maison. » ?",
+          "options": [
+            "Sigmund Freud",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Sigmund Freud"
+        },
+        {
+          "type": "choix_unique",
+          "question": "« Je pense, donc je ______ » (Descartes).",
+          "options": [
+            "suis",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "suis"
+        },
+        {
+          "type": "choix_unique",
+          "question": "La langue est étudiée par la linguistique ; le langage, lui, est étudié par la ______ (science des signes).",
+          "options": [
+            "sémiologie",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "sémiologie"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « On n'apprend pas la philosophie, on apprend à philosopher. » ?",
+          "options": [
+            "Kant",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Kant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "La conscience est la connaissance ______ que le sujet a de ses propres états et de ses actes.",
+          "options": [
+            "immédiate",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "immédiate"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le « Je pense » doit pouvoir accompagner toutes mes représentations. » ?",
+          "options": [
+            "Emmanuel Kant",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Emmanuel Kant"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

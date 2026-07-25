@@ -3,7 +3,7 @@
   "matiere": "svt-c",
   "type": "scientifique",
   "titre": "Le monohybridisme",
-  "ordre": 8,
+  "ordre": 10,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 8 : Le monohybridisme",
@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "svt-c-mo-mo-e1",
-      "titre": "Mémoriser les lois",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-c-mo-loi",
       "activites": [
         {
           "type": "formule",
-          "recto": "1re loi de Mendel ?",
-          "verso": "uniformité de la F1",
+          "recto": "Monohybridisme",
+          "verso": "transmission d'un seul caractère (un couple d'allèles)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "F2 en dominance parfaite ?",
-          "verso": "3/4 dominant, 1/4 récessif",
+          "recto": "Lignée (race) pure",
+          "verso": "individu homozygote à descendance identique",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Allèle",
+          "verso": "une des versions possibles d'un gène",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Homozygote / hétérozygote",
+          "verso": "A//A (identiques) / A//a (différents)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Génotype / phénotype",
+          "verso": "génotype = allèles ; phénotype = caractère observé",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "1re loi de Mendel",
+          "verso": "uniformité des hybrides de la F1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "2e loi de Mendel",
+          "verso": "disjonction des allèles (pureté des gamètes)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "F2 en dominance parfaite",
+          "verso": "3/4 dominant, 1/4 récessif (3 : 1)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "F2 en dominance intermédiaire",
+          "verso": "1/4 : 2/4 : 1/4",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croisement-test (backcross)",
+          "verso": "croisement avec le double récessif pour révéler le génotype",
           "modeReponse": "auto_evaluation"
         }
       ]

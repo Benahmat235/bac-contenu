@@ -12,6 +12,36 @@
   },
   "etapes": [
     {
+      "id": "philo-intro-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philo-intro-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ .",
+          "reponseAttendue": "sagesse",
+          "modeReponse": "auto_evaluation",
+          "explication": "Philosophie = amour de la sagesse, recherche permanente du savoir."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+          "reponseAttendue": "Aristote",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pour Aristote, l'étonnement est à l'origine de la philosophie."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « On n'apprend pas la philosophie, on apprend à philosopher. » ?",
+          "reponseAttendue": "Kant",
+          "modeReponse": "auto_evaluation",
+          "explication": "La philosophie est une activité qu'on exerce, non un savoir qu'on reçoit tout fait."
+        }
+      ]
+    },
+    {
       "id": "philo-intro-e1",
       "titre": "Les définitions des mots-clés",
       "categorie": "definitions",
@@ -235,6 +265,20 @@
       "type": "video",
       "chaine": "Ecoles Au Senegal",
       "auteur": "Ecoles Au Senegal"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ .",
+      "verso": "sagesse"
+    },
+    {
+      "recto": "Qui a dit : « Ce fut l'étonnement qui poussa les premiers penseurs aux spéculations philosophiques. » ?",
+      "verso": "Aristote"
+    },
+    {
+      "recto": "Qui a dit : « On n'apprend pas la philosophie, on apprend à philosopher. » ?",
+      "verso": "Kant"
     }
   ]
 }

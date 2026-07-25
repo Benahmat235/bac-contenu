@@ -1,0 +1,177 @@
+{
+  "id": "svt-c-rev02",
+  "matiere": "svt-c",
+  "type": "scientifique",
+  "titre": "Révision : leçons 4 à 6",
+  "ordre": 8,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "svt-c-rev02-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "svt-c-rev02-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Nombre de gamètes ?",
+          "options": [
+            "2^n types de gamètes (n = nombre de paires)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "2^n types de gamètes (n = nombre de paires)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Bases de l'ADN ?",
+          "options": [
+            "A, T, G, C",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "A, T, G, C"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Carpelle ?",
+          "options": [
+            "ovaire + style + stigmate",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "ovaire + style + stigmate"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Mitochondrie ?",
+          "options": [
+            "siège de la respiration cellulaire, produit l'énergie (ATP)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "siège de la respiration cellulaire, produit l'énergie (ATP)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Noyau ?",
+          "options": [
+            "contient l'information génétique (ADN)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "contient l'information génétique (ADN)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Androcée / Gynécée ?",
+          "options": [
+            "androcée = étamines (mâle) ; gynécée = carpelles (femelle)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "androcée = étamines (mâle) ; gynécée = carpelles (femelle)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Structure de l'ADN ?",
+          "options": [
+            "double hélice (Watson et Crick)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "double hélice (Watson et Crick)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Germination ?",
+          "options": [
+            "graine → plantule ; nécessite eau, dioxygène et chaleur",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "graine → plantule ; nécessite eau, dioxygène et chaleur"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Réplication de l'ADN ?",
+          "options": [
+            "duplication semi-conservative (un brin ancien + un brin neuf)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "duplication semi-conservative (un brin ancien + un brin neuf)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Chloroplaste ?",
+          "options": [
+            "réalise la photosynthèse (cellule végétale uniquement)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "réalise la photosynthèse (cellule végétale uniquement)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Fonction endocrine du testicule ?",
+          "options": [
+            "sécrétion de testostérone (cellules de Leydig)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "sécrétion de testostérone (cellules de Leydig)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ribosomes ?",
+          "options": [
+            "siège de la synthèse des protéines",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "siège de la synthèse des protéines"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

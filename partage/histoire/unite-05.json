@@ -207,5 +207,21 @@
       "recto": "Dates de décolonisation de l'Afrique blanche française ?",
       "verso": "Tunisie : 20 mars 1956. Maroc : 7 juillet 1956. Algérie : 3 juillet 1962."
     }
+  ],
+  "videos": [
+    {
+      "titre": "Les causes de la décolonisation de l'Afrique (Terminale)",
+      "url": "https://youtu.be/KGPKiNBeHjc",
+      "type": "video",
+      "chaine": "Faso e-Education",
+      "auteur": "Faso e-Education"
+    },
+    {
+      "titre": "Les formes de la décolonisation (cours)",
+      "url": "https://youtu.be/GS_Fxp8i2HE",
+      "type": "video",
+      "chaine": "Ecoles Au Senegal",
+      "auteur": "Ecoles Au Senegal"
+    }
   ]
 }

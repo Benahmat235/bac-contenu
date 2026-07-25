@@ -3,7 +3,7 @@
   "matiere": "svt-d",
   "type": "scientifique",
   "titre": "Brassage génétique et méiose",
-  "ordre": 4,
+  "ordre": 5,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 4 : Le brassage de l'information génétique et le cycle de développement",
@@ -75,21 +75,63 @@
   "etapes": [
     {
       "id": "svt-d-br-br-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-d-br-meiose",
       "activites": [
         {
           "type": "formule",
-          "recto": "Résultat de la méiose ?",
-          "verso": "1 cellule 2n → 4 cellules n",
+          "recto": "Méiose",
+          "verso": "double division : 1 cellule 2n → 4 cellules haploïdes n",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Crossing-over ?",
-          "verso": "échange de segments entre chromosomes homologues",
+          "recto": "1re division de méiose",
+          "verso": "réductionnelle (2n → n)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "2e division de méiose",
+          "verso": "équationnelle (conserve n)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Crossing-over",
+          "verso": "échange de segments entre chromosomes homologues (prophase I)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Brassage intrachromosomique",
+          "verso": "dû au crossing-over",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Brassage interchromosomique",
+          "verso": "dû à la répartition au hasard des chromosomes (métaphase I)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nombre de gamètes",
+          "verso": "2^n types de gamètes (n = nombre de paires)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fécondation",
+          "verso": "fusion de 2 gamètes (n + n = 2n) donnant le zygote",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Rôle méiose + fécondation",
+          "verso": "maintiennent constant le nombre de chromosomes de l'espèce",
           "modeReponse": "auto_evaluation"
         }
       ]

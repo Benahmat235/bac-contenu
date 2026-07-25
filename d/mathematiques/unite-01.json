@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "math-d-u1-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-d-c-lim-poly",
       "activites": [
         {
           "type": "formule",
-          "recto": "Comment calculer la limite d'un polynôme en ±∞ ?",
-          "verso": "limite de son monôme de plus haut degré",
+          "recto": "Limite d'un polynôme en ±∞",
+          "verso": "celle de son monôme de plus haut degré",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Quelles sont les 4 formes indéterminées ?",
+          "recto": "Limite d'une fonction rationnelle en ±∞",
+          "verso": "celle du rapport des termes de plus haut degré",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Les 4 formes indéterminées",
           "verso": "∞ − ∞, ∞/∞, 0/0, 0 × ∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Lever une indétermination",
+          "verso": "factoriser, ou multiplier par l'expression conjuguée",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Théorème des gendarmes",
+          "verso": "si g ≤ f ≤ h et lim g = lim h = l, alors lim f = l",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Asymptote horizontale",
+          "verso": "si lim f = l (réel) en ±∞, alors y = l",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Asymptote verticale",
+          "verso": "si lim f = ±∞ en x₀, alors x = x₀",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Asymptote oblique",
+          "verso": "y = ax + b si lim [f(x) − (ax+b)] = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limite trigonométrique de référence",
+          "verso": "lim(x→0) sin(x)/x = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Continuité",
+          "verso": "f est continue en a si lim(x→a) f(x) = f(a)",
           "modeReponse": "auto_evaluation"
         }
       ]

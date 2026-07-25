@@ -3,7 +3,7 @@
   "matiere": "svt-d",
   "type": "scientifique",
   "titre": "De la fécondation à la naissance",
-  "ordre": 7,
+  "ordre": 9,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 7 : De la fécondation à la naissance",
@@ -75,21 +75,63 @@
   "etapes": [
     {
       "id": "svt-d-fn-fn-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-d-fn-grossesse",
       "activites": [
         {
           "type": "formule",
-          "recto": "Rôle du placenta ?",
-          "verso": "échanges entre la mère et le fœtus",
+          "recto": "Lieu de la fécondation",
+          "verso": "l'ampoule de la trompe",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Hormone des tests de grossesse ?",
-          "verso": "l'HCG",
+          "recto": "Fécondation",
+          "verso": "fusion spermatozoïde + ovule → zygote (2n)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Segmentation",
+          "verso": "premières divisions du zygote",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nidation",
+          "verso": "implantation de l'embryon dans l'endomètre utérin",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Placenta",
+          "verso": "assure les échanges entre mère et fœtus",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "HCG",
+          "verso": "hormone de début de grossesse, détectée par les tests, maintient le corps jaune",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Progestérone",
+          "verso": "hormone de grossesse : maintient l'endomètre et inhibe les contractions utérines",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Durée de grossesse",
+          "verso": "environ 9 mois ; se termine par l'accouchement",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Contraception hormonale",
+          "verso": "la pilule bloque l'ovulation (inhibition FSH/LH)",
           "modeReponse": "auto_evaluation"
         }
       ]

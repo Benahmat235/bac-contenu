@@ -69,21 +69,57 @@
   "etapes": [
     {
       "id": "phy-c-champ-ch-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-c-champ-c-gravitation",
       "activites": [
         {
           "type": "formule",
-          "recto": "Force de Laplace ?",
+          "recto": "Champ dans un condensateur plan",
+          "verso": "E = U/d",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force électrique",
+          "verso": "F = q·E",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force de Laplace",
           "verso": "F = B·I·l·sin(α)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Loi de gravitation ?",
+          "recto": "Force de Lorentz",
+          "verso": "F = |q|·v·B·sin(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Loi de gravitation universelle",
           "verso": "F = G·M·m/d²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Champ de pesanteur",
+          "verso": "g = G·M/R²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Champ de gravitation en altitude h",
+          "verso": "g_h = G·M/(R+h)²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Constante de gravitation",
+          "verso": "G = 6,67×10⁻¹¹ N·m²·kg⁻²",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -3,7 +3,7 @@
   "matiere": "physique-d",
   "type": "scientifique",
   "titre": "Électromagnétisme",
-  "ordre": 6,
+  "ordre": 7,
   "source": {
     "document": "Physique TD",
     "chapitre": "Chapitre 6 : Électromagnétisme",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-d-em-em-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-d-em-c-faraday",
       "activites": [
         {
           "type": "formule",
-          "recto": "Flux magnétique ?",
+          "recto": "Flux magnétique",
           "verso": "Φ = B·S·cos(α)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Loi de Faraday ?",
-          "verso": "e = −dΦ/dt",
+          "recto": "Loi de Faraday",
+          "verso": "e = −dΦ/dt (|e| = |ΔΦ/Δt|)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "f.é.m. d'une barre en mouvement",
+          "verso": "e = B·l·v",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Loi de Lenz",
+          "verso": "le courant induit s'oppose à la variation de flux",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force de Laplace",
+          "verso": "F = B·I·l·sin(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Force de Lorentz",
+          "verso": "F = |q|·v·B·sin(α)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Unité du flux",
+          "verso": "le weber (Wb)",
           "modeReponse": "auto_evaluation"
         }
       ]

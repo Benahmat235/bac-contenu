@@ -3,7 +3,7 @@
   "matiere": "chimie-c",
   "type": "scientifique",
   "titre": "Solution aqueuse",
-  "ordre": 4,
+  "ordre": 5,
   "source": {
     "document": "Chimie TC",
     "chapitre": "Chapitre 4 : Solution aqueuse",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "chi-c-ph-ph-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-c-ph-c-ph",
       "activites": [
         {
           "type": "formule",
-          "recto": "Définition du pH ?",
+          "recto": "Définition du pH",
           "verso": "pH = −log[H₃O⁺]",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Relation pH + pOH ?",
-          "verso": "pH + pOH = 14",
+          "recto": "Concentration en ions H₃O⁺",
+          "verso": "[H₃O⁺] = 10^(−pH)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit ionique de l'eau",
+          "verso": "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation pH – pOH",
+          "verso": "pH + pOH = 14 (25 °C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution acide",
+          "verso": "pH < 7 : [H₃O⁺] > [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution basique",
+          "verso": "pH > 7 : [H₃O⁺] < [OH⁻]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Solution neutre",
+          "verso": "pH = 7 : [H₃O⁺] = [OH⁻]",
           "modeReponse": "auto_evaluation"
         }
       ]

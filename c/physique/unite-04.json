@@ -3,7 +3,7 @@
   "matiere": "physique-c",
   "type": "scientifique",
   "titre": "Application des lois de Newton",
-  "ordre": 4,
+  "ordre": 5,
   "source": {
     "document": "Physique TC",
     "chapitre": "Chapitre 4 : Application des lois de Newton",
@@ -69,21 +69,57 @@
   "etapes": [
     {
       "id": "phy-c-newton-dyn-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-c-newton-c-newton",
       "activites": [
         {
           "type": "formule",
-          "recto": "2ᵉ loi de Newton ?",
+          "recto": "2ᵉ loi de Newton",
           "verso": "ΣF = m·a",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Énergie cinétique ?",
+          "recto": "1ère loi (inertie)",
+          "verso": "ΣF = 0 ⇒ mouvement rectiligne uniforme",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique",
           "verso": "Ec = ½·m·v²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie potentielle de pesanteur",
+          "verso": "Ep = m·g·h",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Théorème de l'énergie cinétique",
+          "verso": "ΔEc = ΣW(forces)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Projectile : équations horaires",
+          "verso": "x = v₀·t ; y = ½·g·t²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Poids d'un corps",
+          "verso": "P = m·g",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération (force constante)",
+          "verso": "a = F/m (constante)",
           "modeReponse": "auto_evaluation"
         }
       ]

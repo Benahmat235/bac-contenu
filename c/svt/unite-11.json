@@ -3,7 +3,7 @@
   "matiere": "svt-c",
   "type": "scientifique",
   "titre": "La communication nerveuse",
-  "ordre": 11,
+  "ordre": 14,
   "source": {
     "document": "SVT TC-D",
     "chapitre": "Chapitre 11 : La communication nerveuse",
@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "svt-c-ne-ne-e1",
-      "titre": "Mémoriser les définitions",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "svt-c-ne-neurone",
       "activites": [
         {
           "type": "formule",
-          "recto": "Unité du système nerveux ?",
-          "verso": "le neurone",
+          "recto": "Système nerveux central",
+          "verso": "moelle épinière + encéphale",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Rôle de la myéline ?",
-          "verso": "isolant qui accélère la conduction",
+          "recto": "Système nerveux périphérique",
+          "verso": "nerfs + ganglions",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Neurone",
+          "verso": "unité fonctionnelle du système nerveux",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Parties du neurone",
+          "verso": "corps cellulaire + dendrites + axone",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Le neurone",
+          "verso": "cellule différenciée qui ne se divise plus (perte irréparable)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Gaine de myéline",
+          "verso": "isolant électrique qui accélère la conduction",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nœuds de Ranvier",
+          "verso": "étranglements réguliers de la gaine de myéline",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Synapse",
+          "verso": "zone de contact entre deux neurones",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Transmission synaptique",
+          "verso": "libération d'un neurotransmetteur (médiateur chimique)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Message nerveux",
+          "verso": "de nature électrique le long de la fibre",
           "modeReponse": "auto_evaluation"
         }
       ]

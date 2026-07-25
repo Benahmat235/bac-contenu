@@ -3,7 +3,7 @@
   "matiere": "physique-c",
   "type": "scientifique",
   "titre": "Effet photoélectrique",
-  "ordre": 8,
+  "ordre": 10,
   "source": {
     "document": "Physique TC",
     "chapitre": "Chapitre 8 : Effet photoélectrique",
@@ -63,21 +63,51 @@
   "etapes": [
     {
       "id": "phy-c-photo-photo-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-c-photo-c-photon",
       "activites": [
         {
           "type": "formule",
-          "recto": "Énergie d'un photon ?",
+          "recto": "Énergie d'un photon",
           "verso": "E = h·ν = h·c/λ",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Relation d'Einstein (photoélectrique) ?",
+          "recto": "Constante de Planck",
+          "verso": "h = 6,63×10⁻³⁴ J·s",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Condition d'émission (seuil)",
+          "verso": "ν ≥ ν₀ (ou λ ≤ λ₀)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Travail d'extraction",
+          "verso": "W₀ = h·ν₀",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Énergie cinétique max (Einstein)",
           "verso": "Ec = h·ν − W₀",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Longueur d'onde seuil",
+          "verso": "λ₀ = h·c/W₀",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Électron-volt",
+          "verso": "1 eV = 1,6×10⁻¹⁹ J",
           "modeReponse": "auto_evaluation"
         }
       ]

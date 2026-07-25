@@ -3,7 +3,7 @@
   "matiere": "mathematiques-d",
   "type": "scientifique",
   "titre": "Fonctions exponentielles et fonctions puissances",
-  "ordre": 4,
+  "ordre": 5,
   "source": {
     "document": "Mathématique TD",
     "chapitre": "Chapitre 4 : Exponentielles et puissances",
@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "math-d-u4-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-d-c-exp-deriv",
       "activites": [
         {
           "type": "formule",
-          "recto": "Dérivée de eᵘ ?",
+          "recto": "Dérivée de eˣ",
+          "verso": "eˣ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Dérivée de eᵘ",
           "verso": "u'·eᵘ",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "eᵃ·eᵇ = ?",
-          "verso": "eᵃ⁺ᵇ",
+          "recto": "Produit d'exponentielles",
+          "verso": "eᵃ·eᵇ = eᵃ⁺ᵇ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Quotient d'exponentielles",
+          "verso": "eᵃ/eᵇ = eᵃ⁻ᵇ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "exp et ln réciproques",
+          "verso": "ln(eˣ) = x et e^(ln x) = x",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Valeur remarquable",
+          "verso": "e⁰ = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Limites de l'exponentielle",
+          "verso": "lim(x→+∞) eˣ = +∞ ; lim(x→−∞) eˣ = 0",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Croissance comparée",
+          "verso": "lim(x→+∞) eˣ/x = +∞",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Primitive de u'eᵘ",
+          "verso": "eᵘ + c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Fonction puissance / base a",
+          "verso": "aˣ = e^(x·ln a)",
           "modeReponse": "auto_evaluation"
         }
       ]

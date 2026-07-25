@@ -81,21 +81,69 @@
   "etapes": [
     {
       "id": "math-c-arith-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-pgcd",
       "activites": [
         {
           "type": "formule",
-          "recto": "Relation entre PGCD et PPCM ?",
+          "recto": "Divisibilité dans ℤ",
+          "verso": "a divise b s'il existe k entier tel que b = k·a",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Congruence modulo n",
+          "verso": "a ≡ b [n] si a − b est un multiple de n",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Algorithme d'Euclide",
+          "verso": "PGCD(a;b) = dernier reste non nul des divisions successives",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Lien PGCD–PPCM",
           "verso": "PGCD(a;b) × PPCM(a;b) = a × b",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Théorème de Bézout ?",
-          "verso": "a,b premiers entre eux ⟺ ∃ u,v : au + bv = 1",
+          "recto": "Nombres premiers entre eux",
+          "verso": "a et b premiers entre eux ⟺ PGCD(a;b) = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Théorème de Bézout",
+          "verso": "a et b premiers entre eux ⟺ il existe u, v tels que au + bv = 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Théorème de Gauss",
+          "verso": "si a divise bc et PGCD(a;b) = 1, alors a divise c",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Critère de divisibilité par 3 et 9",
+          "verso": "la somme des chiffres est divisible par 3 (ou 9)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Critère de divisibilité par 11",
+          "verso": "la différence alternée des chiffres est divisible par 11",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Nombre premier",
+          "verso": "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
           "modeReponse": "auto_evaluation"
         }
       ]

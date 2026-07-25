@@ -3,7 +3,7 @@
   "matiere": "mathematiques-c",
   "type": "scientifique",
   "titre": "Suites numériques",
-  "ordre": 11,
+  "ordre": 14,
   "source": {
     "document": "Mathématique TC",
     "chapitre": "Chapitre 11 : Suites numériques",
@@ -75,21 +75,63 @@
   "etapes": [
     {
       "id": "math-c-u5-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-c-c-arith",
       "activites": [
         {
           "type": "formule",
-          "recto": "Terme général d'une suite arithmétique ?",
+          "recto": "Terme d'une suite arithmétique",
           "verso": "uₙ = u₀ + n·r",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Terme général d'une suite géométrique ?",
+          "recto": "Somme d'une suite arithmétique",
+          "verso": "S = (nb de termes)×(1er + dernier)/2",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Terme d'une suite géométrique",
           "verso": "uₙ = u₀·qⁿ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Somme d'une suite géométrique (q≠1)",
+          "verso": "S = u₀·(1 − qⁿ⁺¹)/(1 − q)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Convergence d'une suite géométrique",
+          "verso": "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Sens de variation",
+          "verso": "étudier le signe de uₙ₊₁ − uₙ (ou uₙ₊₁/uₙ vs 1 si termes > 0)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Suite croissante / décroissante",
+          "verso": "uₙ₊₁ ≥ uₙ (croissante) ; uₙ₊₁ ≤ uₙ (décroissante)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Suite monotone bornée",
+          "verso": "toute suite croissante majorée (ou décroissante minorée) converge",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Suites adjacentes",
+          "verso": "deux suites adjacentes convergent vers la même limite",
           "modeReponse": "auto_evaluation"
         }
       ]

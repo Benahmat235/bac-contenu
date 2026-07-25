@@ -57,21 +57,45 @@
   "etapes": [
     {
       "id": "chi-d-af-af-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "chi-d-af-c-af",
       "activites": [
         {
           "type": "formule",
-          "recto": "pH d'un acide fort ?",
-          "verso": "pH = −log C",
+          "recto": "pH d'un acide fort",
+          "verso": "pH = −log C (dissociation totale, [H₃O⁺] = C)",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "pH d'une base forte ?",
-          "verso": "pH = 14 + log C",
+          "recto": "pH d'une base forte",
+          "verso": "pH = 14 + log C ([OH⁻] = C)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Concentration d'un acide fort",
+          "verso": "C = 10^(−pH)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Concentration d'une base forte",
+          "verso": "C = 10^(pH−14)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Acide fort",
+          "verso": "se dissocie totalement dans l'eau",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Base forte",
+          "verso": "capte totalement des protons (ex. NaOH)",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -6,32 +6,65 @@
     "c",
     "d"
   ],
-  "description": "Littérature : mouvements, genres, auteurs et notions.",
+  "description": "Littérature française et africaine, mouvements littéraires, genres, méthodologie (dissertation, commentaire, résumé).",
   "unites": [
     {
-      "id": "fr-u1",
+      "id": "fr-u01",
       "titre": "Généralités sur la littérature",
       "ordre": 1,
       "fichier": "partage/francais/unite-01.json",
       "prerequis": []
     },
     {
-      "id": "fr-u2",
+      "id": "fr-u02",
       "titre": "Les mouvements littéraires",
       "ordre": 2,
       "fichier": "partage/francais/unite-02.json",
-      "prerequis": [
-        "fr-u1"
-      ]
+      "prerequis": []
     },
     {
-      "id": "fr-u3",
-      "titre": "Les genres littéraires",
+      "id": "fr-u03",
+      "titre": "Les genres littéraires en détail",
       "ordre": 3,
       "fichier": "partage/francais/unite-03.json",
-      "prerequis": [
-        "fr-u1"
-      ]
+      "prerequis": []
+    },
+    {
+      "id": "fr-rev04",
+      "titre": "Révision : leçons 1 à 3",
+      "ordre": 4,
+      "fichier": "partage/francais/revision-04.json",
+      "prerequis": [],
+      "estRevision": true
+    },
+    {
+      "id": "fr-u05",
+      "titre": "La littérature africaine et tchadienne",
+      "ordre": 5,
+      "fichier": "partage/francais/unite-05.json",
+      "prerequis": []
+    },
+    {
+      "id": "fr-u06",
+      "titre": "Méthodologie : la dissertation",
+      "ordre": 6,
+      "fichier": "partage/francais/unite-06.json",
+      "prerequis": []
+    },
+    {
+      "id": "fr-u07",
+      "titre": "Méthodologie : le commentaire composé et le résumé",
+      "ordre": 7,
+      "fichier": "partage/francais/unite-07.json",
+      "prerequis": []
+    },
+    {
+      "id": "fr-rev08",
+      "titre": "Révision : leçons 4 à 6",
+      "ordre": 8,
+      "fichier": "partage/francais/revision-08.json",
+      "prerequis": [],
+      "estRevision": true
     }
   ]
 }

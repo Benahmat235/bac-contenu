@@ -1,0 +1,174 @@
+{
+  "id": "en-rev08",
+  "matiere": "anglais",
+  "titre": "Revision: lessons 4 to 6",
+  "ordre": 8,
+  "source": {
+    "document": "Revision",
+    "chapitre": "Revision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Revision quiz on previous lessons."
+  },
+  "etapes": [
+    {
+      "id": "en-rev08-rev",
+      "titre": "Revision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "en-rev08-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Past Continuous?",
+          "options": [
+            "For actions in progress at a specific past time, or background actions. Ex: 'I w",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'échouer à un examen'",
+          "options": [
+            "to fail an exam",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "to fail an exam"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'réussir un examen'",
+          "options": [
+            "to pass an exam",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "to pass an exam"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'taux de scolarisation'",
+          "options": [
+            "enrollment rate / schooling rate",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "enrollment rate / schooling rate"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'pollution de l'eau'",
+          "options": [
+            "water pollution",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "water pollution"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'énergie renouvelable'",
+          "options": [
+            "renewable energy",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "renewable energy"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Zero Conditional? (If + present, present)",
+          "options": [
+            "For general truths. Ex: 'If you heat water, it boils.'",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "How do we form the Passive Voice?",
+          "options": [
+            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was writ",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is a 'topic sentence'?",
+          "options": [
+            "The first sentence of a paragraph that states its main idea.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "The first sentence of a paragraph that states its main idea."
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Third Conditional? (If + past perfect, would have + pp)",
+          "options": [
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'sécheresse'",
+          "options": [
+            "drought",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "drought"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Direct: 'Don't go!' → Reported:",
+          "options": [
+            "She told me not to go.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "She told me not to go."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

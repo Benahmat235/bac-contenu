@@ -2,7 +2,7 @@
   "id": "philo-u7",
   "matiere": "philosophie",
   "titre": "L'État, le pouvoir et les doctrines politiques",
-  "ordre": 8,
+  "ordre": 10,
   "source": {
     "document": "Philosophie TA4",
     "chapitre": "Chapitre 8 : L'État, le pouvoir et les grandes doctrines politiques",
@@ -11,6 +11,43 @@
     "dateValidation": null
   },
   "etapes": [
+    {
+      "id": "philo-u7-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philo-u7-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'État est le monopole de la violence physique légitime. » ?",
+          "reponseAttendue": "Max Weber",
+          "modeReponse": "auto_evaluation",
+          "explication": "Max Weber définit l'État par le monopole de la violence légitime."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+          "reponseAttendue": "Thomas Hobbes",
+          "modeReponse": "auto_evaluation",
+          "explication": "Hobbes justifie ainsi le pouvoir fort du Léviathan pour sortir de la guerre de tous contre tous."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'obéissance à la loi qu'on s'est prescrite est liberté. » ?",
+          "reponseAttendue": "Jean-Jacques Rousseau",
+          "modeReponse": "auto_evaluation",
+          "explication": "Rousseau : obéir à la loi qu'on a soi-même voulue, c'est être libre."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'État, c'est moi. » ?",
+          "reponseAttendue": "Louis XIV",
+          "modeReponse": "auto_evaluation",
+          "explication": "Formule attribuée à Louis XIV, symbole de l'absolutisme."
+        }
+      ]
+    },
     {
       "id": "philo-u7-e1",
       "titre": "Les définitions des mots-clés",
@@ -274,6 +311,24 @@
       "type": "video",
       "chaine": "PREPA BAC",
       "auteur": "PREPA BAC"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « L'État est le monopole de la violence physique légitime. » ?",
+      "verso": "Max Weber"
+    },
+    {
+      "recto": "Qui a dit : « L'homme est un loup pour l'homme. » ?",
+      "verso": "Thomas Hobbes"
+    },
+    {
+      "recto": "Qui a dit : « L'obéissance à la loi qu'on s'est prescrite est liberté. » ?",
+      "verso": "Jean-Jacques Rousseau"
+    },
+    {
+      "recto": "Qui a dit : « L'État, c'est moi. » ?",
+      "verso": "Louis XIV"
     }
   ]
 }

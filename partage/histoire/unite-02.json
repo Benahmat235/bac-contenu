@@ -185,5 +185,21 @@
       "recto": "Pourquoi le Conseil de sécurité est l'organe le plus sensible ?",
       "verso": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent."
     }
+  ],
+  "videos": [
+    {
+      "titre": "L'ONU : naissance et objectifs (Terminale BAC)",
+      "url": "https://youtu.be/I_fr60E9QOs",
+      "type": "video",
+      "chaine": "Réussir BAC and BEPC",
+      "auteur": "Réussir BAC and BEPC"
+    },
+    {
+      "titre": "Leçon Terminale : l'ONU",
+      "url": "https://youtu.be/sQpaavq626o",
+      "type": "video",
+      "chaine": "Ndiaye-Histoire",
+      "auteur": "Ndiaye-Histoire"
+    }
   ]
 }

@@ -1,0 +1,177 @@
+{
+  "id": "chimie-d-rev01",
+  "matiere": "chimie-d",
+  "type": "scientifique",
+  "titre": "Révision : leçons 1 à 3",
+  "ordre": 4,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "formulaire": [],
+  "etapes": [
+    {
+      "id": "chimie-d-rev01-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "chimie-d-rev01-c-rev",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Domaine de prédominance ?",
+          "options": [
+            "forme acide si pH < pKa ; forme basique si pH > pKa",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "forme acide si pH < pKa ; forme basique si pH > pKa"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pH d'un acide fort ?",
+          "options": [
+            "pH = −log C (dissociation totale, [H₃O⁺] = C)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH = −log C (dissociation totale, [H₃O⁺] = C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Concentration d'une base forte ?",
+          "options": [
+            "C = 10^(pH−14)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "C = 10^(pH−14)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Concentration en ions H₃O⁺ ?",
+          "options": [
+            "[H₃O⁺] = 10^(−pH)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "[H₃O⁺] = 10^(−pH)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Relation pH – pOH ?",
+          "options": [
+            "pH + pOH = 14 (25 °C)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH + pOH = 14 (25 °C)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Constante d'acidité ?",
+          "options": [
+            "Ka = [A⁻]·[H₃O⁺]/[AH]",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "Ka = [A⁻]·[H₃O⁺]/[AH]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définition du pH ?",
+          "options": [
+            "pH = −log[H₃O⁺]",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH = −log[H₃O⁺]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution basique ?",
+          "options": [
+            "pH > 7 : [H₃O⁺] < [OH⁻]",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH > 7 : [H₃O⁺] < [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution neutre ?",
+          "options": [
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH = 7 : [H₃O⁺] = [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Solution acide ?",
+          "options": [
+            "pH < 7 : [H₃O⁺] > [OH⁻]",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pH < 7 : [H₃O⁺] > [OH⁻]"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Ka à partir du pKa ?",
+          "options": [
+            "Ka = 10^(−pKa)",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "Ka = 10^(−pKa)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "pKa ?",
+          "options": [
+            "pKa = −log Ka",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune de ces réponses"
+          ],
+          "reponse": 0,
+          "explication": "pKa = −log Ka"
+        }
+      ]
+    }
+  ],
+  "banqueExercices": [],
+  "estRevision": true
+}

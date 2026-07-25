@@ -69,21 +69,57 @@
   "etapes": [
     {
       "id": "phy-d-cin-cin-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "phy-d-cin-c-mruv",
       "activites": [
         {
           "type": "formule",
-          "recto": "Vitesse en MRUV ?",
+          "recto": "Vitesse en MRUV",
           "verso": "v = v₀ + a·t",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Accélération normale (circulaire) ?",
-          "verso": "aₙ = ω²·R",
+          "recto": "Position en MRUV",
+          "verso": "x = x₀ + v₀·t + ½·a·t²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Mouvement rectiligne uniforme (MRU)",
+          "verso": "x = v·t (a = 0)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Relation sans le temps",
+          "verso": "v² − v₀² = 2·a·(x − x₀)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Pulsation et période",
+          "verso": "ω = 2π/T = 2π·N",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Vitesse linéaire (circulaire)",
+          "verso": "v = R·ω",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération normale",
+          "verso": "aₙ = v²/R = ω²·R",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Accélération",
+          "verso": "a = Δv/Δt",
           "modeReponse": "auto_evaluation"
         }
       ]

@@ -3,7 +3,7 @@
   "matiere": "mathematiques-d",
   "type": "scientifique",
   "titre": "Nombres complexes",
-  "ordre": 7,
+  "ordre": 9,
   "source": {
     "document": "Mathématique TD",
     "chapitre": "Chapitre 7 : Nombres complexes",
@@ -87,27 +87,75 @@
   "etapes": [
     {
       "id": "math-d-u7-e1",
-      "titre": "Mémoriser les formules",
+      "titre": "Mémoriser le cours",
       "categorie": "formulaire",
       "seuilReussite": 80,
       "competenceId": "math-d-c-complexes",
       "activites": [
         {
           "type": "formule",
-          "recto": "Module de a+ib ?",
-          "verso": "√(a²+b²)",
+          "recto": "Forme algébrique",
+          "verso": "z=a+ib, Re(z)=a, Im(z)=b et i²=−1",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Inverse de z≠0 ?",
+          "recto": "Conjugué",
+          "verso": "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Module",
+          "verso": "|a+ib|=√(a²+b²)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Inverse d'un complexe non nul",
           "verso": "1/z=z̄/|z|²",
           "modeReponse": "auto_evaluation"
         },
         {
           "type": "formule",
-          "recto": "Racines n-ièmes de reⁱᶿ ?",
+          "recto": "Forme trigonométrique",
+          "verso": "z=r(cosθ+i sinθ), r=|z|>0 et θ=arg(z)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Produit en forme polaire",
+          "verso": "|zz'|=|z||z'| et arg(zz')≡arg z+arg z' [2π]",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Formule de Moivre",
+          "verso": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Formule d'Euler",
+          "verso": "eⁱᶿ=cosθ+i sinθ",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Racines n-ièmes de reⁱᶿ",
           "verso": "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Distance dans le plan complexe",
+          "verso": "AB=|zB−zA|",
+          "modeReponse": "auto_evaluation"
+        },
+        {
+          "type": "formule",
+          "recto": "Affixe d'un barycentre",
+          "verso": "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0",
           "modeReponse": "auto_evaluation"
         }
       ]

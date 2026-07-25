@@ -1,138 +1,210 @@
 {
-  "id": "fr-u3",
+  "id": "fr-u03",
   "matiere": "francais",
-  "titre": "Les genres littéraires",
+  "titre": "Les genres littéraires en détail",
   "ordre": 3,
   "source": {
-    "document": "Français TA4",
-    "chapitre": "Les genres littéraires",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Français Terminale Tchad",
+    "chapitre": "Les genres littéraires en détail",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Mémorise la question avec sa réponse. En cas d'oubli, la réponse est révélée."
   },
   "etapes": [
     {
-      "id": "fr-u3-e1",
-      "titre": "Les trois grands genres",
-      "categorie": "definitions",
+      "id": "fr-u03-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "fr-c-genres-def",
+      "competenceId": "fr-u03-c",
       "activites": [
         {
-          "type": "association",
-          "consigne": "Associe chaque genre littéraire à sa définition.",
-          "paires": [
-            {
-              "gauche": "La poésie",
-              "droite": "expression rythmée et harmonieuse des sentiments (vers)"
-            },
-            {
-              "gauche": "Le roman",
-              "droite": "récit de fiction assez long, personnages dans un temps et un espace"
-            },
-            {
-              "gauche": "Le théâtre",
-              "droite": "œuvre destinée à être jouée par des acteurs devant un public"
-            }
+          "type": "rappel_actif",
+          "question": "Quels sont les sous-genres du roman ?",
+          "reponseAttendue": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une nouvelle ?",
+          "reponseAttendue": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les types de poésie ?",
+          "reponseAttendue": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un sonnet ?",
+          "reponseAttendue": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les genres du théâtre ?",
+          "reponseAttendue": "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange des deux).",
+          "modeReponse": "auto_evaluation",
+          "explication": "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange des deux)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la règle des trois unités au théâtre classique ?",
+          "reponseAttendue": "Unité de temps (24h), unité de lieu (un seul décor), unité d'action (une seule intrigue principale).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Unité de temps (24h), unité de lieu (un seul décor), unité d'action (une seule intrigue principale)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un essai ?",
+          "reponseAttendue": "Texte en prose où l'auteur expose et argumente ses réflexions sur un sujet (politique, moral, social).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Texte en prose où l'auteur expose et argumente ses réflexions sur un sujet (politique, moral, social)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une autobiographie ?",
+          "reponseAttendue": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un conte ?",
+          "reponseAttendue": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 3 figures de style avec leur définition.",
+          "reponseAttendue": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal."
+        }
+      ]
+    },
+    {
+      "id": "fr-u03-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "fr-u03-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les sous-genres du roman ?",
+          "options": [
+            "Roman d'aventures, roman historique, roman policier, roman autobiographique, rom",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "explication": "Les trois grands genres : poésie, roman, théâtre."
+          "reponse": 0,
+          "explication": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle."
         },
         {
           "type": "choix_unique",
-          "question": "Lequel de ces genres n'est PAS régi par des lois de versification précises ?",
+          "question": "Qu'est-ce qu'une nouvelle ?",
           "options": [
-            "La poésie lyrique",
-            "Le roman",
-            "La poésie épique",
-            "La poésie dramatique"
+            "Un récit court, centré sur un seul événement, avec peu de personnages et une chu",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "reponse": 1,
-          "explication": "Le roman, contrairement à la poésie, n'est pas régi par des règles formelles précises."
-        }
-      ]
-    },
-    {
-      "id": "fr-u3-e2",
-      "titre": "Les genres dramatiques",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "fr-c-genres-drama",
-      "activites": [
-        {
-          "type": "association",
-          "consigne": "Associe chaque genre dramatique à sa définition.",
-          "paires": [
-            {
-              "gauche": "La tragédie",
-              "droite": "personnages nobles dans des situations conflictuelles"
-            },
-            {
-              "gauche": "La comédie",
-              "droite": "décrit les mœurs pour provoquer le rire"
-            }
-          ],
-          "explication": "La tragédie est grave et héroïque ; la comédie fait rire (ironie, humour, parodie, caricature)."
+          "reponse": 0,
+          "explication": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
         },
         {
           "type": "choix_unique",
-          "question": "Au théâtre, un personnage qui aide le héros dans sa quête est un…",
+          "question": "Quels sont les types de poésie ?",
           "options": [
-            "opposant",
-            "adjuvant",
-            "narrateur",
-            "spectateur"
+            "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (n",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "reponse": 1,
-          "explication": "L'adjuvant aide le héros ; l'opposant lui fait obstacle."
-        }
-      ]
-    },
-    {
-      "id": "fr-u3-e3",
-      "titre": "Les formes du roman",
-      "categorie": "exemples",
-      "seuilReussite": 80,
-      "competenceId": "fr-c-genres-roman",
-      "activites": [
-        {
-          "type": "choix_multiple",
-          "question": "Parmi ces formes, lesquelles sont des types de roman ?",
-          "options": [
-            "Le roman policier",
-            "Le roman épistolaire",
-            "Le roman historique",
-            "La tragédie"
-          ],
-          "reponses": [
-            0,
-            1,
-            2
-          ],
-          "explication": "La tragédie est un genre dramatique, pas un type de roman."
-        }
-      ]
-    },
-    {
-      "id": "fr-u3-defi",
-      "titre": "Défi de maîtrise",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "fr-c-genres-synthese",
-      "activites": [
+          "reponse": 0,
+          "explication": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement)."
+        },
         {
           "type": "choix_unique",
-          "question": "Quelle affirmation est correcte ?",
+          "question": "Qu'est-ce qu'un sonnet ?",
           "options": [
-            "Le théâtre se lit uniquement, sans acteurs",
-            "Le théâtre requiert la présence d'acteurs jouant devant un public",
-            "La poésie est un genre dramatique",
-            "Le roman est toujours en vers"
+            "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA A",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "reponse": 1,
-          "explication": "Le théâtre est un spectacle joué par des acteurs devant un public."
+          "reponse": 0,
+          "explication": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les genres du théâtre ?",
+          "options": [
+            "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange d",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange des deux)."
         }
-      ],
-      "estDefi": true
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Quels sont les sous-genres du roman ?",
+      "verso": "Roman d'aventures, roman historique, roman policier, roman autobiographique, roman social, nouvelle."
+    },
+    {
+      "recto": "Qu'est-ce qu'une nouvelle ?",
+      "verso": "Un récit court, centré sur un seul événement, avec peu de personnages et une chute (fin inattendue)."
+    },
+    {
+      "recto": "Quels sont les types de poésie ?",
+      "verso": "Poésie lyrique (sentiments), épique (héros), engagée (politique), descriptive (nature), didactique (enseignement)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un sonnet ?",
+      "verso": "Poème de 14 vers : 2 quatrains + 2 tercets, avec un schéma de rimes fixe (ABBA ABBA CCD EDE ou varié)."
+    },
+    {
+      "recto": "Quels sont les genres du théâtre ?",
+      "verso": "La comédie (fait rire, dénonce), la tragédie (destin, mort), le drame (mélange des deux)."
+    },
+    {
+      "recto": "Qu'est-ce que la règle des trois unités au théâtre classique ?",
+      "verso": "Unité de temps (24h), unité de lieu (un seul décor), unité d'action (une seule intrigue principale)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un essai ?",
+      "verso": "Texte en prose où l'auteur expose et argumente ses réflexions sur un sujet (politique, moral, social)."
+    },
+    {
+      "recto": "Qu'est-ce qu'une autobiographie ?",
+      "verso": "Récit où l'auteur raconte sa propre vie (auteur = narrateur = personnage)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un conte ?",
+      "verso": "Récit court, souvent merveilleux, à visée morale ou divertissante. Commence par 'Il était une fois…'."
+    },
+    {
+      "recto": "Citez 3 figures de style avec leur définition.",
+      "verso": "Métaphore : comparaison implicite. Hyperbole : exagération. Personnification : attribuer des qualités humaines à un objet/animal."
     }
   ],
   "videos": [
