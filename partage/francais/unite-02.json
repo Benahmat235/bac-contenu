@@ -12,6 +12,43 @@
   },
   "etapes": [
     {
+      "id": "fr-u2-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "fr-u2-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « La négritude est la simple reconnaissance du fait d'être noir, et l'acceptation de ce fait, de notre destin de noir, de notre histoire et de notre culture. » ?",
+          "reponseAttendue": "Aimé Césaire",
+          "modeReponse": "auto_evaluation",
+          "explication": "Césaire, à qui revient la paternité du mot, définit ainsi la négritude."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le tigre ne proclame pas sa tigritude, mais il bondit sur sa proie et la dévore. » ?",
+          "reponseAttendue": "Wole Soyinka",
+          "modeReponse": "auto_evaluation",
+          "explication": "Soyinka reproche à la négritude son caractère idéaliste et passéiste."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'existence précède l'essence. » ?",
+          "reponseAttendue": "Jean-Paul Sartre",
+          "modeReponse": "auto_evaluation",
+          "explication": "Formule clé de l'existentialisme athée : l'homme n'a pas de nature préétablie, il se forge lui-même."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Nous autres civilisations, nous savons maintenant que nous sommes mortelles. » ?",
+          "reponseAttendue": "Paul Valéry",
+          "modeReponse": "auto_evaluation",
+          "explication": "Valéry exprime l'inquiétude de l'Europe après la Première Guerre mondiale."
+        }
+      ]
+    },
+    {
       "id": "fr-u2-e1",
       "titre": "Les définitions des mouvements",
       "categorie": "definitions",
@@ -220,6 +257,24 @@
       "type": "video",
       "chaine": "Hugo Ndiaye",
       "auteur": "Hugo Ndiaye"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « La négritude est la simple reconnaissance du fait d'être noir, et l'acceptation de ce fait, de notre destin de noir, de notre histoire et de notre culture. » ?",
+      "verso": "Aimé Césaire"
+    },
+    {
+      "recto": "Qui a dit : « Le tigre ne proclame pas sa tigritude, mais il bondit sur sa proie et la dévore. » ?",
+      "verso": "Wole Soyinka"
+    },
+    {
+      "recto": "Qui a dit : « L'existence précède l'essence. » ?",
+      "verso": "Jean-Paul Sartre"
+    },
+    {
+      "recto": "Qui a dit : « Nous autres civilisations, nous savons maintenant que nous sommes mortelles. » ?",
+      "verso": "Paul Valéry"
     }
   ]
 }

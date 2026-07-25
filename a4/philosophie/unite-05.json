@@ -2,7 +2,7 @@
   "id": "philo-u5",
   "matiere": "philosophie",
   "titre": "Le travail, la technique et la question sociale",
-  "ordre": 6,
+  "ordre": 7,
   "source": {
     "document": "Philosophie TA4",
     "chapitre": "Chapitre 6 : Le travail, la technique et la question sociale",
@@ -11,6 +11,43 @@
     "dateValidation": null
   },
   "etapes": [
+    {
+      "id": "philo-u5-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philo-u5-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Marx distingue le capital constant (machines) et le capital ______ , qui sert à payer les salaires.",
+          "reponseAttendue": "variable",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le capital variable paie la force de travail et produit la plus-value."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Ce qui distingue l'architecte le plus maladroit de l'abeille la plus habile, c'est que l'architecte porte d'abord la maison dans sa tête. » ?",
+          "reponseAttendue": "Karl Marx",
+          "modeReponse": "auto_evaluation",
+          "explication": "Marx : le travail humain est une transformation intelligente et anticipée de la nature."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « La science a fait de nous des dieux avant que nous méritions d'être des hommes. » ?",
+          "reponseAttendue": "Jean Rostand",
+          "modeReponse": "auto_evaluation",
+          "explication": "Rostand alerte : la puissance technique dépasse la sagesse humaine."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le capitalisme porte en lui la guerre comme la nuée porte l'orage. » ?",
+          "reponseAttendue": "Jean Jaurès",
+          "modeReponse": "auto_evaluation",
+          "explication": "Jaurès lie le capitalisme à la recherche de débouchés et donc à la guerre."
+        }
+      ]
+    },
     {
       "id": "philo-u5-e1",
       "titre": "Les définitions des mots-clés",
@@ -213,6 +250,24 @@
       "type": "video",
       "chaine": "Coursitout",
       "auteur": "Coursitout"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Marx distingue le capital constant (machines) et le capital ______ , qui sert à payer les salaires.",
+      "verso": "variable"
+    },
+    {
+      "recto": "Qui a dit : « Ce qui distingue l'architecte le plus maladroit de l'abeille la plus habile, c'est que l'architecte porte d'abord la maison dans sa tête. » ?",
+      "verso": "Karl Marx"
+    },
+    {
+      "recto": "Qui a dit : « La science a fait de nous des dieux avant que nous méritions d'être des hommes. » ?",
+      "verso": "Jean Rostand"
+    },
+    {
+      "recto": "Qui a dit : « Le capitalisme porte en lui la guerre comme la nuée porte l'orage. » ?",
+      "verso": "Jean Jaurès"
     }
   ]
 }

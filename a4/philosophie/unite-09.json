@@ -2,7 +2,7 @@
   "id": "philo-u9",
   "matiere": "philosophie",
   "titre": "La liberté",
-  "ordre": 10,
+  "ordre": 13,
   "source": {
     "document": "Philosophie TA4",
     "chapitre": "Chapitre 10 : La liberté",
@@ -11,6 +11,36 @@
     "dateValidation": null
   },
   "etapes": [
+    {
+      "id": "philo-u9-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "philo-u9-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « L'homme n'est rien d'autre que ce qu'il se fait. » ?",
+          "reponseAttendue": "Jean-Paul Sartre",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sartre : l'existence précède l'essence ; l'homme se construit par ses choix."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Il n'y a de pensée que dans un homme libre. » ?",
+          "reponseAttendue": "Alain",
+          "modeReponse": "auto_evaluation",
+          "explication": "Alain : penser par soi-même suppose d'être libre, de résister à l'opinion dominante."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qui a dit : « Le domaine où la liberté a toujours été connue est le domaine de la politique. » ?",
+          "reponseAttendue": "Hannah Arendt",
+          "modeReponse": "auto_evaluation",
+          "explication": "Arendt : la liberté n'a de sens que dans la vie sociale et politique."
+        }
+      ]
+    },
     {
       "id": "philo-u9-e1",
       "titre": "Les définitions et les faux-amis",
@@ -211,6 +241,20 @@
       "type": "video",
       "chaine": "Apprendre la philosophie",
       "auteur": "Apprendre la philosophie"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qui a dit : « L'homme n'est rien d'autre que ce qu'il se fait. » ?",
+      "verso": "Jean-Paul Sartre"
+    },
+    {
+      "recto": "Qui a dit : « Il n'y a de pensée que dans un homme libre. » ?",
+      "verso": "Alain"
+    },
+    {
+      "recto": "Qui a dit : « Le domaine où la liberté a toujours été connue est le domaine de la politique. » ?",
+      "verso": "Hannah Arendt"
     }
   ]
 }

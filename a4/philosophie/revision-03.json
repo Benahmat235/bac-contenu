@@ -1,0 +1,174 @@
+{
+  "id": "philosophie-rev03",
+  "matiere": "philosophie",
+  "titre": "Révision : leçons 7 à 9",
+  "ordre": 12,
+  "source": {
+    "document": "Révision",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision."
+  },
+  "etapes": [
+    {
+      "id": "philosophie-rev03-rev",
+      "titre": "Révision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "philosophie-rev03-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Agis de telle sorte que tu traites l'humanité, en toi et chez autrui, toujours comme une fin et jamais seulement comme un moyen. » ?",
+          "options": [
+            "Emmanuel Kant",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Emmanuel Kant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'État, c'est moi. » ?",
+          "options": [
+            "Louis XIV",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Louis XIV"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce qui distingue l'architecte le plus maladroit de l'abeille la plus habile, c'est que l'architecte porte d'abord la maison dans sa tête. » ?",
+          "options": [
+            "Karl Marx",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Karl Marx"
+        },
+        {
+          "type": "choix_unique",
+          "question": "La langue est étudiée par la linguistique ; le langage, lui, est étudié par la ______ (science des signes).",
+          "options": [
+            "sémiologie",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "sémiologie"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'État est le monopole de la violence physique légitime. » ?",
+          "options": [
+            "Max Weber",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Max Weber"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'obéissance à la loi qu'on s'est prescrite est liberté. » ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Jean-Jacques Rousseau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "« Philosophie » vient des mots grecs philein (aimer) et sophia : elle signifie l'amour de la ______ .",
+          "options": [
+            "sagesse",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "sagesse"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Le surmoi est l'héritier du complexe d'Œdipe. » ?",
+          "options": [
+            "Sigmund Freud",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Sigmund Freud"
+        },
+        {
+          "type": "choix_unique",
+          "question": "« Je pense, donc je ______ » (Descartes).",
+          "options": [
+            "suis",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "suis"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'homme est la mesure de toute chose. » ?",
+          "options": [
+            "Protagoras",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Protagoras"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « L'enfer, c'est les autres. » ?",
+          "options": [
+            "Jean-Paul Sartre",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Jean-Paul Sartre"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qui a dit : « Ce n'est ni la faim, ni la soif, mais l'amour, la haine, la pitié, la colère qui ont arraché les premières voix. » ?",
+          "options": [
+            "Jean-Jacques Rousseau",
+            "Réponse incorrecte",
+            "Autre réponse",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Jean-Jacques Rousseau"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

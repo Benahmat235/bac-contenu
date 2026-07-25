@@ -12,6 +12,29 @@
   },
   "etapes": [
     {
+      "id": "en-u3-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "en-u3-c-memo",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Transform to passive: « Shakespeare wrote this play » → « This play ______ written by Shakespeare. »",
+          "reponseAttendue": "was",
+          "modeReponse": "auto_evaluation",
+          "explication": "Past passive = was/were + past participle."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Report: « I will call you », he said → He said he ______ call me.",
+          "reponseAttendue": "would",
+          "modeReponse": "auto_evaluation",
+          "explication": "« will » becomes « would » in reported speech."
+        }
+      ]
+    },
+    {
       "id": "en-u3-e1",
       "titre": "The passive voice",
       "categorie": "definitions",
@@ -155,6 +178,16 @@
       "type": "video",
       "chaine": "Arnel's Everyday English",
       "auteur": "Arnel's Everyday English"
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Transform to passive: « Shakespeare wrote this play » → « This play ______ written by Shakespeare. »",
+      "verso": "was"
+    },
+    {
+      "recto": "Report: « I will call you », he said → He said he ______ call me.",
+      "verso": "would"
     }
   ]
 }
