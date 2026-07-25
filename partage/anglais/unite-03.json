@@ -1,193 +1,210 @@
 {
-  "id": "en-u3",
+  "id": "en-u03",
   "matiere": "anglais",
-  "titre": "Passive, reported speech & conditionals",
+  "titre": "English Tenses: Present & Past",
   "ordre": 3,
   "source": {
-    "document": "Anglais TA4 C D",
-    "chapitre": "Grammar: passive voice, reported speech, conditionals",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Memorize the question and answer. If you forget, the answer is revealed."
   },
   "etapes": [
     {
-      "id": "en-u3-memo",
-      "titre": "Mémoriser le cours",
+      "id": "en-u03-memo",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "en-u3-c-memo",
+      "competenceId": "en-u03-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Transform to passive: « Shakespeare wrote this play » → « This play ______ written by Shakespeare. »",
-          "reponseAttendue": "was",
+          "question": "When do we use the Present Simple?",
+          "reponseAttendue": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
           "modeReponse": "auto_evaluation",
-          "explication": "Past passive = was/were + past participle."
+          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
         },
         {
           "type": "rappel_actif",
-          "question": "Report: « I will call you », he said → He said he ______ call me.",
-          "reponseAttendue": "would",
+          "question": "When do we use the Present Continuous?",
+          "reponseAttendue": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
           "modeReponse": "auto_evaluation",
-          "explication": "« will » becomes « would » in reported speech."
-        }
-      ]
-    },
-    {
-      "id": "en-u3-e1",
-      "titre": "The passive voice",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "en-c-passive",
-      "activites": [
-        {
-          "type": "choix_unique",
-          "question": "What is the passive form of « They build houses »?",
-          "options": [
-            "Houses build them.",
-            "Houses are built.",
-            "Houses were building.",
-            "Houses have build."
-          ],
-          "reponse": 1,
-          "explication": "Passive = be + past participle: « Houses are built »."
+          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
         },
         {
-          "type": "texte_a_completer",
-          "phrase": "Transform to passive: « Shakespeare wrote this play » → « This play ___ written by Shakespeare. »",
-          "reponse": "was",
-          "toleranceMots": [
-            "was"
-          ],
-          "explication": "Past passive = was/were + past participle."
-        }
-      ]
-    },
-    {
-      "id": "en-u3-e2",
-      "titre": "Reported speech",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "en-c-reported",
-      "activites": [
-        {
-          "type": "choix_unique",
-          "question": "Report this: « I am tired », she said.",
-          "options": [
-            "She said she is tired.",
-            "She said she was tired.",
-            "She says she was tired.",
-            "She said I am tired."
-          ],
-          "reponse": 1,
-          "explication": "In reported speech, the present becomes the past: « am » → « was »."
+          "type": "rappel_actif",
+          "question": "When do we use the Past Simple?",
+          "reponseAttendue": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
         },
         {
-          "type": "texte_a_completer",
-          "phrase": "Report: « I will call you », he said → He said he ___ call me.",
-          "reponse": "would",
-          "toleranceMots": [
-            "would"
-          ],
-          "explication": "« will » becomes « would » in reported speech."
-        }
-      ]
-    },
-    {
-      "id": "en-u3-e3",
-      "titre": "Conditionals",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "en-c-conditionals",
-      "activites": [
-        {
-          "type": "association",
-          "consigne": "Match each conditional type with its meaning.",
-          "paires": [
-            {
-              "gauche": "If + present, will + verb",
-              "droite": "a real, likely condition (type 1)"
-            },
-            {
-              "gauche": "If + past, would + verb",
-              "droite": "an unreal / improbable condition (type 2)"
-            },
-            {
-              "gauche": "If + past perfect, would have + participle",
-              "droite": "an unreal past condition (type 3)"
-            }
-          ],
-          "explication": "The three conditionals express different degrees of probability."
+          "type": "rappel_actif",
+          "question": "When do we use the Present Perfect?",
+          "reponseAttendue": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
         },
         {
-          "type": "choix_unique",
-          "question": "Complete: « If it rains, we ___ stay at home. » (type 1)",
-          "options": [
-            "would",
-            "will",
-            "would have",
-            "stayed"
-          ],
-          "reponse": 1,
-          "explication": "Type 1: if + present, will + base verb (real condition)."
+          "type": "rappel_actif",
+          "question": "What is the structure of Past Simple (regular)?",
+          "reponseAttendue": "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the structure of Present Perfect?",
+          "reponseAttendue": "Subject + have/has + past participle. Ex: 'They have studied all night.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+          "reponseAttendue": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+          "modeReponse": "auto_evaluation",
+          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "When do we use the Past Continuous?",
+          "reponseAttendue": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give the past participle of: go, see, write, take",
+          "reponseAttendue": "gone, seen, written, taken",
+          "modeReponse": "auto_evaluation",
+          "explication": "gone, seen, written, taken"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give the past participle of: be, have, do, make",
+          "reponseAttendue": "been, had, done, made",
+          "modeReponse": "auto_evaluation",
+          "explication": "been, had, done, made"
         }
       ]
     },
     {
-      "id": "en-u3-defi",
-      "titre": "Mastery challenge",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "en-c-grammar-synthese",
+      "id": "en-u03-quiz",
+      "titre": "Quick Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "en-u03-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Which sentence is correct?",
+          "question": "When do we use the Present Simple?",
           "options": [
-            "The book was written by a Chadian author.",
-            "The book is wrote by a Chadian author.",
-            "The book has wrote by a Chadian author.",
-            "The book writes by a Chadian author."
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 1",
+            "Wrong A",
+            "Wrong B",
+            "None"
           ],
           "reponse": 0,
-          "explication": "Correct passive: be + past participle (written)."
+          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Present Continuous?",
+          "options": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She i",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Past Simple?",
+          "options": [
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena la",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Present Perfect?",
+          "options": [
+            "For past actions with a present result, or experiences (no specific time). Ex: '",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of Past Simple (regular)?",
+          "options": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
         }
-      ],
-      "estDefi": true
-    }
-  ],
-  "videos": [
-    {
-      "titre": "The conditionals (0, 1, 2 & 3)",
-      "url": "https://youtu.be/vXp0ETWXbWo",
-      "type": "video",
-      "chaine": "English with Lucy",
-      "auteur": "English with Lucy"
-    },
-    {
-      "titre": "Reported speech (indirect speech)",
-      "url": "https://youtu.be/eplQBhE0-Hg",
-      "type": "video",
-      "chaine": "English with Lucy",
-      "auteur": "English with Lucy"
-    },
-    {
-      "titre": "Passive voice : step by step",
-      "url": "https://youtu.be/N7uvEllP5Jg",
-      "type": "video",
-      "chaine": "Arnel's Everyday English",
-      "auteur": "Arnel's Everyday English"
+      ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Transform to passive: « Shakespeare wrote this play » → « This play ______ written by Shakespeare. »",
-      "verso": "was"
+      "recto": "When do we use the Present Simple?",
+      "verso": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
     },
     {
-      "recto": "Report: « I will call you », he said → He said he ______ call me.",
-      "verso": "would"
+      "recto": "When do we use the Present Continuous?",
+      "verso": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+    },
+    {
+      "recto": "When do we use the Past Simple?",
+      "verso": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+    },
+    {
+      "recto": "When do we use the Present Perfect?",
+      "verso": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+    },
+    {
+      "recto": "What is the structure of Past Simple (regular)?",
+      "verso": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+    },
+    {
+      "recto": "What is the structure of Present Perfect?",
+      "verso": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+    },
+    {
+      "recto": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+      "verso": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+    },
+    {
+      "recto": "When do we use the Past Continuous?",
+      "verso": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+    },
+    {
+      "recto": "Give the past participle of: go, see, write, take",
+      "verso": "gone, seen, written, taken"
+    },
+    {
+      "recto": "Give the past participle of: be, have, do, make",
+      "verso": "been, had, done, made"
     }
   ]
 }

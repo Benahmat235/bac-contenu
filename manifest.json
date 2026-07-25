@@ -1,5 +1,5 @@
 {
-  "contentVersion": 17,
+  "contentVersion": 18,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -9,23 +9,33 @@
     "anglais": {
       "id": "anglais",
       "titre": "Anglais",
-      "version": 4,
+      "version": 5,
       "chemin": "partage/anglais/",
       "fichiers": [
         "partage/anglais/unite-01.json",
         "partage/anglais/unite-02.json",
-        "partage/anglais/unite-03.json"
+        "partage/anglais/unite-03.json",
+        "partage/anglais/revision-04.json",
+        "partage/anglais/unite-05.json",
+        "partage/anglais/unite-06.json",
+        "partage/anglais/unite-07.json",
+        "partage/anglais/revision-08.json"
       ]
     },
     "francais": {
       "id": "francais",
       "titre": "Français",
-      "version": 4,
+      "version": 5,
       "chemin": "partage/francais/",
       "fichiers": [
         "partage/francais/unite-01.json",
         "partage/francais/unite-02.json",
-        "partage/francais/unite-03.json"
+        "partage/francais/unite-03.json",
+        "partage/francais/revision-04.json",
+        "partage/francais/unite-05.json",
+        "partage/francais/unite-06.json",
+        "partage/francais/unite-07.json",
+        "partage/francais/revision-08.json"
       ]
     },
     "histoire": {

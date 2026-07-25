@@ -1,280 +1,210 @@
 {
-  "id": "fr-u2",
+  "id": "fr-u02",
   "matiere": "francais",
   "titre": "Les mouvements littéraires",
   "ordre": 2,
   "source": {
-    "document": "Français TA4",
-    "chapitre": "Négritude, surréalisme, existentialisme, absurde",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Français Terminale Tchad",
+    "chapitre": "Les mouvements littéraires",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Mémorise la question avec sa réponse. En cas d'oubli, la réponse est révélée."
   },
   "etapes": [
     {
-      "id": "fr-u2-memo",
+      "id": "fr-u02-memo",
       "titre": "Mémoriser le cours",
       "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "fr-u2-c-memo",
+      "competenceId": "fr-u02-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Qui a dit : « La négritude est la simple reconnaissance du fait d'être noir, et l'acceptation de ce fait, de notre destin de noir, de notre histoire et de notre culture. » ?",
-          "reponseAttendue": "Aimé Césaire",
+          "question": "Qu'est-ce qu'un mouvement littéraire ?",
+          "reponseAttendue": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs.",
           "modeReponse": "auto_evaluation",
-          "explication": "Césaire, à qui revient la paternité du mot, définit ainsi la négritude."
+          "explication": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
         },
         {
           "type": "rappel_actif",
-          "question": "Qui a dit : « Le tigre ne proclame pas sa tigritude, mais il bondit sur sa proie et la dévore. » ?",
-          "reponseAttendue": "Wole Soyinka",
+          "question": "Qu'est-ce que l'Humanisme (XVIe siècle) ?",
+          "reponseAttendue": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne.",
           "modeReponse": "auto_evaluation",
-          "explication": "Soyinka reproche à la négritude son caractère idéaliste et passéiste."
+          "explication": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
         },
         {
           "type": "rappel_actif",
-          "question": "Qui a dit : « L'existence précède l'essence. » ?",
-          "reponseAttendue": "Jean-Paul Sartre",
+          "question": "Qu'est-ce que le Classicisme (XVIIe siècle) ?",
+          "reponseAttendue": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine.",
           "modeReponse": "auto_evaluation",
-          "explication": "Formule clé de l'existentialisme athée : l'homme n'a pas de nature préétablie, il se forge lui-même."
+          "explication": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
         },
         {
           "type": "rappel_actif",
-          "question": "Qui a dit : « Nous autres civilisations, nous savons maintenant que nous sommes mortelles. » ?",
-          "reponseAttendue": "Paul Valéry",
+          "question": "Qu'est-ce que les Lumières (XVIIIe siècle) ?",
+          "reponseAttendue": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu.",
           "modeReponse": "auto_evaluation",
-          "explication": "Valéry exprime l'inquiétude de l'Europe après la Première Guerre mondiale."
+          "explication": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Romantisme (XIXe siècle) ?",
+          "reponseAttendue": "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Réalisme (XIXe siècle) ?",
+          "reponseAttendue": "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Naturalisme ?",
+          "reponseAttendue": "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le Surréalisme (XXe siècle) ?",
+          "reponseAttendue": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la Négritude ?",
+          "reponseAttendue": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Citez 3 auteurs de la Négritude et une œuvre.",
+          "reponseAttendue": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
         }
       ]
     },
     {
-      "id": "fr-u2-e1",
-      "titre": "Les définitions des mouvements",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "fr-c-mouvements-def",
+      "id": "fr-u02-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "fr-u02-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Qui a forgé le mot « négritude » et dans quelle œuvre ?",
+          "question": "Qu'est-ce qu'un mouvement littéraire ?",
           "options": [
-            "Senghor, dans Chants d'ombre",
-            "Césaire, dans Cahier d'un retour au pays natal (1939)",
-            "Breton, dans le Manifeste",
-            "Sartre, dans L'Être et le Néant"
+            "Un courant de pensée partagé par des auteurs d'une même époque, avec des princip",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "reponse": 1,
-          "explication": "La négritude est un néologisme d'Aimé Césaire, employé pour la première fois en 1939."
+          "reponse": 0,
+          "explication": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
         },
         {
           "type": "choix_unique",
-          "question": "Sur quoi se fonde le surréalisme ?",
+          "question": "Qu'est-ce que l'Humanisme (XVIe siècle) ?",
           "options": [
-            "la raison et la logique",
-            "l'inconscient et l'automatisme",
-            "la tradition classique",
-            "la science"
-          ],
-          "reponse": 1,
-          "explication": "Le surréalisme (André Breton) se fonde sur l'inconscient et l'automatisme psychique."
-        },
-        {
-          "type": "association",
-          "consigne": "Associe chaque mouvement à sa figure principale.",
-          "paires": [
-            {
-              "gauche": "Négritude",
-              "droite": "Aimé Césaire"
-            },
-            {
-              "gauche": "Surréalisme",
-              "droite": "André Breton"
-            },
-            {
-              "gauche": "Existentialisme athée",
-              "droite": "Jean-Paul Sartre"
-            },
-            {
-              "gauche": "Absurde",
-              "droite": "Albert Camus"
-            }
-          ],
-          "explication": "Chaque mouvement est porté par un auteur emblématique."
-        }
-      ]
-    },
-    {
-      "id": "fr-u2-e2",
-      "titre": "Les citations",
-      "categorie": "citations",
-      "seuilReussite": 80,
-      "competenceId": "fr-c-mouvements-cit",
-      "activites": [
-        {
-          "type": "citation",
-          "mode": "attribuer",
-          "citation": "La négritude est la simple reconnaissance du fait d'être noir, et l'acceptation de ce fait, de notre destin de noir, de notre histoire et de notre culture.",
-          "options": [
-            "Aimé Césaire",
-            "Senghor",
-            "Alioune Diop",
-            "Wole Soyinka"
+            "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
           "reponse": 0,
-          "oeuvre": "",
-          "explication": "Césaire, à qui revient la paternité du mot, définit ainsi la négritude."
-        },
-        {
-          "type": "citation",
-          "mode": "attribuer",
-          "citation": "Le tigre ne proclame pas sa tigritude, mais il bondit sur sa proie et la dévore.",
-          "options": [
-            "Wole Soyinka",
-            "Césaire",
-            "Senghor",
-            "Breton"
-          ],
-          "reponse": 0,
-          "oeuvre": "critique de la négritude",
-          "explication": "Soyinka reproche à la négritude son caractère idéaliste et passéiste."
-        },
-        {
-          "type": "citation",
-          "mode": "attribuer",
-          "citation": "L'existence précède l'essence.",
-          "options": [
-            "Jean-Paul Sartre",
-            "Camus",
-            "Gabriel Marcel",
-            "Breton"
-          ],
-          "reponse": 0,
-          "oeuvre": "L'existentialisme est un humanisme",
-          "explication": "Formule clé de l'existentialisme athée : l'homme n'a pas de nature préétablie, il se forge lui-même."
-        },
-        {
-          "type": "citation",
-          "mode": "attribuer",
-          "citation": "Nous autres civilisations, nous savons maintenant que nous sommes mortelles.",
-          "options": [
-            "Paul Valéry",
-            "Sartre",
-            "Camus",
-            "Senghor"
-          ],
-          "reponse": 0,
-          "oeuvre": "",
-          "explication": "Valéry exprime l'inquiétude de l'Europe après la Première Guerre mondiale."
-        }
-      ]
-    },
-    {
-      "id": "fr-u2-e3",
-      "titre": "L'existentialisme et l'absurde",
-      "categorie": "these",
-      "seuilReussite": 80,
-      "competenceId": "fr-c-mouvements-idees",
-      "activites": [
-        {
-          "type": "association",
-          "consigne": "Associe chaque notion existentialiste à sa citation (Sartre).",
-          "paires": [
-            {
-              "gauche": "La liberté",
-              "droite": "« l'homme est condamné à être libre »"
-            },
-            {
-              "gauche": "La responsabilité",
-              "droite": "« l'homme est responsable de ce qu'il est »"
-            },
-            {
-              "gauche": "L'existence",
-              "droite": "« l'existence précède l'essence »"
-            }
-          ],
-          "explication": "Sartre fonde une philosophie de l'engagement et de la liberté."
+          "explication": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
         },
         {
           "type": "choix_unique",
-          "question": "Selon Camus, face à l'absurdité de la vie, quelle attitude faut-il adopter ?",
+          "question": "Qu'est-ce que le Classicisme (XVIIe siècle) ?",
           "options": [
-            "la résignation (suicide du quotidien)",
-            "le suicide physique",
-            "la révolte et l'espoir (suicide philosophique)",
-            "l'indifférence"
+            "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteu",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "reponse": 2,
-          "explication": "Camus prône la révolte : vivre le plus intensément possible en luttant contre le désespoir."
+          "reponse": 0,
+          "explication": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que les Lumières (XVIIIe siècle) ?",
+          "options": [
+            "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Aute",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le Romantisme (XIXe siècle) ?",
+          "options": [
+            "Expression des sentiments, de la passion, de la nature, refus des règles classiq",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset."
         }
       ]
-    },
-    {
-      "id": "fr-u2-defi",
-      "titre": "Défi de maîtrise",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "fr-c-mouvements-synthese",
-      "activites": [
-        {
-          "type": "association",
-          "consigne": "Associe chaque mouvement à son idée centrale.",
-          "paires": [
-            {
-              "gauche": "Négritude",
-              "droite": "réhabiliter la dignité et la culture noires"
-            },
-            {
-              "gauche": "Surréalisme",
-              "droite": "libérer la pensée du contrôle de la raison"
-            },
-            {
-              "gauche": "Existentialisme",
-              "droite": "l'homme se crée par ses choix"
-            },
-            {
-              "gauche": "Absurde",
-              "droite": "la vie n'a pas de sens donné, d'où la révolte"
-            }
-          ],
-          "explication": "Chaque mouvement répond à une crise historique par une vision de l'homme."
-        }
-      ],
-      "estDefi": true
-    }
-  ],
-  "videos": [
-    {
-      "titre": "Tour d'horizon des mouvements littéraires",
-      "url": "https://youtu.be/UmC59d_CXH4",
-      "type": "video",
-      "chaine": "Un Cours de 5 Minutes",
-      "auteur": "Un Cours de 5 Minutes"
-    },
-    {
-      "titre": "Les courants littéraires (humanisme, romantisme, réalisme...)",
-      "url": "https://youtu.be/pSmlalCi6UQ",
-      "type": "video",
-      "chaine": "Hugo Ndiaye",
-      "auteur": "Hugo Ndiaye"
     }
   ],
   "flashcards": [
     {
-      "recto": "Qui a dit : « La négritude est la simple reconnaissance du fait d'être noir, et l'acceptation de ce fait, de notre destin de noir, de notre histoire et de notre culture. » ?",
-      "verso": "Aimé Césaire"
+      "recto": "Qu'est-ce qu'un mouvement littéraire ?",
+      "verso": "Un courant de pensée partagé par des auteurs d'une même époque, avec des principes esthétiques communs."
     },
     {
-      "recto": "Qui a dit : « Le tigre ne proclame pas sa tigritude, mais il bondit sur sa proie et la dévore. » ?",
-      "verso": "Wole Soyinka"
+      "recto": "Qu'est-ce que l'Humanisme (XVIe siècle) ?",
+      "verso": "Mouvement qui place l'Homme au centre et prône le savoir, la raison, l'éducation. Auteurs : Rabelais, Montaigne."
     },
     {
-      "recto": "Qui a dit : « L'existence précède l'essence. » ?",
-      "verso": "Jean-Paul Sartre"
+      "recto": "Qu'est-ce que le Classicisme (XVIIe siècle) ?",
+      "verso": "Recherche de l'ordre, de la clarté, de la mesure et du respect des règles. Auteurs : Molière, Racine, La Fontaine."
     },
     {
-      "recto": "Qui a dit : « Nous autres civilisations, nous savons maintenant que nous sommes mortelles. » ?",
-      "verso": "Paul Valéry"
+      "recto": "Qu'est-ce que les Lumières (XVIIIe siècle) ?",
+      "verso": "Mouvement de la raison, du progrès et de la liberté contre l'obscurantisme. Auteurs : Voltaire, Rousseau, Montesquieu."
+    },
+    {
+      "recto": "Qu'est-ce que le Romantisme (XIXe siècle) ?",
+      "verso": "Expression des sentiments, de la passion, de la nature, refus des règles classiques. Auteurs : Hugo, Lamartine, Musset."
+    },
+    {
+      "recto": "Qu'est-ce que le Réalisme (XIXe siècle) ?",
+      "verso": "Représentation fidèle de la réalité sociale. Auteurs : Balzac, Flaubert, Stendhal."
+    },
+    {
+      "recto": "Qu'est-ce que le Naturalisme ?",
+      "verso": "Prolongement du réalisme, approche scientifique des comportements humains. Auteur principal : Zola."
+    },
+    {
+      "recto": "Qu'est-ce que le Surréalisme (XXe siècle) ?",
+      "verso": "Libération de l'inconscient, rêve, écriture automatique. Auteurs : Breton, Éluard, Aragon."
+    },
+    {
+      "recto": "Qu'est-ce que la Négritude ?",
+      "verso": "Mouvement littéraire africain revendiquant les valeurs culturelles noires. Auteurs : Senghor, Césaire, Damas."
+    },
+    {
+      "recto": "Citez 3 auteurs de la Négritude et une œuvre.",
+      "verso": "Senghor (Chants d'ombre), Césaire (Cahier d'un retour au pays natal), Damas (Pigments)."
     }
   ]
 }

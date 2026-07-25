@@ -1,140 +1,210 @@
 {
-  "id": "fr-u1",
+  "id": "fr-u01",
   "matiere": "francais",
   "titre": "Généralités sur la littérature",
   "ordre": 1,
   "source": {
-    "document": "Français TA4",
+    "document": "Programme Français Terminale Tchad",
     "chapitre": "Généralités sur la littérature",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Mémorise la question avec sa réponse. En cas d'oubli, la réponse est révélée."
   },
   "etapes": [
     {
-      "id": "fr-u1-e1",
-      "titre": "Les définitions des mots-clés",
-      "categorie": "definitions",
+      "id": "fr-u01-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "fr-c-generalites-def",
+      "competenceId": "fr-u01-c",
       "activites": [
         {
-          "type": "texte_a_completer",
-          "phrase": "Le mot « littérature » vient du latin litera, qui signifie ___ .",
-          "reponse": "écriture",
-          "toleranceMots": [
-            "écriture",
-            "ecriture"
-          ],
-          "explication": "Littérature < litera (écriture) : l'ensemble des œuvres écrites ou orales à finalité esthétique."
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la littérature ?",
+          "reponseAttendue": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique.",
+          "modeReponse": "auto_evaluation",
+          "explication": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
         },
         {
-          "type": "choix_unique",
-          "question": "Quelle formule résume le rapport entre littérature et société ?",
-          "options": [
-            "La littérature est indépendante de la société",
-            "Toute littérature est le reflet d'une société",
-            "La littérature n'a pas d'histoire",
-            "La société imite la littérature"
-          ],
-          "reponse": 1,
-          "explication": "« Toute littérature est le reflet d'une société » et « à chaque époque correspond une littérature »."
+          "type": "rappel_actif",
+          "question": "Quelle est la différence entre littérature orale et littérature écrite ?",
+          "reponseAttendue": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
         },
         {
-          "type": "choix_unique",
-          "question": "Qu'est-ce que la littérature négro-africaine ?",
-          "options": [
-            "La littérature de l'Europe",
-            "L'ensemble des productions littéraires et artistiques des Noirs d'Afrique et de la diaspora",
-            "Un genre théâtral",
-            "Un journal colonial"
-          ],
-          "reponse": 1,
-          "explication": "Elle exprime les valeurs culturelles des Africains et le cri du peuple noir opprimé."
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un texte littéraire ?",
+          "reponseAttendue": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quels sont les 4 grands genres littéraires ?",
+          "reponseAttendue": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le fond d'un texte littéraire ?",
+          "reponseAttendue": "Le contenu : les idées, les thèmes, le message de l'auteur.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le contenu : les idées, les thèmes, le message de l'auteur."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la forme d'un texte littéraire ?",
+          "reponseAttendue": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme.",
+          "modeReponse": "auto_evaluation",
+          "explication": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un thème littéraire ?",
+          "reponseAttendue": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un registre littéraire ?",
+          "reponseAttendue": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez la définition du registre lyrique.",
+          "reponseAttendue": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je ».",
+          "modeReponse": "auto_evaluation",
+          "explication": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je »."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Donnez la définition du registre épique.",
+          "reponseAttendue": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
         }
       ]
     },
     {
-      "id": "fr-u1-e2",
-      "titre": "Les repères historiques",
-      "categorie": "dates",
-      "seuilReussite": 80,
-      "competenceId": "fr-c-generalites-reperes",
+      "id": "fr-u01-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "fr-u01-c",
       "activites": [
         {
-          "type": "association",
-          "consigne": "Associe chaque étape de la littérature négro-africaine à sa date.",
-          "paires": [
-            {
-              "gauche": "Âme noire de W. Du Bois",
-              "droite": "1903"
-            },
-            {
-              "gauche": "Revue Légitime Défense",
-              "droite": "1932"
-            },
-            {
-              "gauche": "Journal L'Étudiant noir",
-              "droite": "1934"
-            },
-            {
-              "gauche": "Cahier d'un retour au pays natal (Césaire)",
-              "droite": "1939"
-            }
+          "type": "choix_unique",
+          "question": "Qu'est-ce que la littérature ?",
+          "options": [
+            "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthé",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "explication": "Ces jalons marquent la naissance de la littérature nègre d'expression française."
+          "reponse": 0,
+          "explication": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
         },
         {
           "type": "choix_unique",
-          "question": "Qui animait le journal L'Étudiant noir (1934) ?",
+          "question": "Quelle est la différence entre littérature orale et littérature écrite ?",
           "options": [
-            "Victor Hugo, Zola, Balzac",
-            "Césaire, Senghor et Léon-Gontran Damas",
-            "Breton, Sartre, Camus",
-            "Du Bois seul"
+            "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
           ],
-          "reponse": 1,
-          "explication": "Césaire, Senghor et Damas y rassemblent les étudiants noirs autour d'une même idéologie."
+          "reponse": 0,
+          "explication": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'un texte littéraire ?",
+          "options": [
+            "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émo",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les 4 grands genres littéraires ?",
+          "options": [
+            "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (ar",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le fond d'un texte littéraire ?",
+          "options": [
+            "Le contenu : les idées, les thèmes, le message de l'auteur.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Le contenu : les idées, les thèmes, le message de l'auteur."
         }
       ]
-    },
-    {
-      "id": "fr-u1-defi",
-      "titre": "Défi de maîtrise",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "fr-c-generalites-synthese",
-      "activites": [
-        {
-          "type": "reponse_courte",
-          "question": "Cite un genre littéraire.",
-          "reponsesAcceptees": [
-            "le roman",
-            "le théâtre",
-            "la poésie",
-            "le conte",
-            "la nouvelle"
-          ],
-          "explication": "Les principaux genres : la poésie, le roman et le théâtre."
-        }
-      ],
-      "estDefi": true
     }
   ],
-  "videos": [
+  "flashcards": [
     {
-      "titre": "La littérature et ses généralités (Terminale)",
-      "url": "https://youtu.be/R9FlaGIg4D8",
-      "type": "video",
-      "chaine": "E-Repetiteur",
-      "auteur": "E-Repetiteur"
+      "recto": "Qu'est-ce que la littérature ?",
+      "verso": "L'ensemble des œuvres écrites ou orales auxquelles on reconnaît une valeur esthétique."
     },
     {
-      "titre": "Analyser un texte littéraire : le fond et la forme",
-      "url": "https://youtu.be/zFh7fys3QCU",
-      "type": "video",
-      "chaine": "Madame D",
-      "auteur": "Madame D"
+      "recto": "Quelle est la différence entre littérature orale et littérature écrite ?",
+      "verso": "Orale : transmise par la parole (contes, proverbes, épopées). Écrite : fixée par l'écriture (romans, poèmes, essais)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un texte littéraire ?",
+      "verso": "Un texte qui utilise le langage de façon esthétique pour exprimer des idées, émotions ou une vision du monde."
+    },
+    {
+      "recto": "Quels sont les 4 grands genres littéraires ?",
+      "verso": "Le roman (narratif), la poésie (lyrique), le théâtre (dramatique) et l'essai (argumentatif)."
+    },
+    {
+      "recto": "Qu'est-ce que le fond d'un texte littéraire ?",
+      "verso": "Le contenu : les idées, les thèmes, le message de l'auteur."
+    },
+    {
+      "recto": "Qu'est-ce que la forme d'un texte littéraire ?",
+      "verso": "La manière d'écrire : style, figures de style, structure, vocabulaire, rythme."
+    },
+    {
+      "recto": "Qu'est-ce qu'un thème littéraire ?",
+      "verso": "Un sujet principal traité dans une œuvre (amour, mort, liberté, justice, nature…)."
+    },
+    {
+      "recto": "Qu'est-ce qu'un registre littéraire ?",
+      "verso": "Le ton d'un texte : comique, tragique, lyrique, épique, pathétique, satirique, didactique."
+    },
+    {
+      "recto": "Donnez la définition du registre lyrique.",
+      "verso": "Expression des sentiments personnels (amour, nostalgie, joie, souffrance). Utilise le « je »."
+    },
+    {
+      "recto": "Donnez la définition du registre épique.",
+      "verso": "Récit d'exploits héroïques, amplification, combats, exagération. Fait vibrer le lecteur."
     }
   ]
 }

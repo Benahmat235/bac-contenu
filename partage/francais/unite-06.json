@@ -1,0 +1,188 @@
+{
+  "id": "fr-u06",
+  "matiere": "francais",
+  "titre": "Méthodologie : la dissertation",
+  "ordre": 6,
+  "source": {
+    "document": "Programme Français Terminale Tchad",
+    "chapitre": "Méthodologie : la dissertation",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Mémorise la question avec sa réponse. En cas d'oubli, la réponse est révélée."
+  },
+  "etapes": [
+    {
+      "id": "fr-u06-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "fr-u06-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'une dissertation littéraire ?",
+          "reponseAttendue": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les parties d'une dissertation ?",
+          "reponseAttendue": "Introduction, développement (thèse, antithèse, synthèse), conclusion.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Introduction, développement (thèse, antithèse, synthèse), conclusion."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que doit contenir l'introduction d'une dissertation ?",
+          "reponseAttendue": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que doit contenir la conclusion d'une dissertation ?",
+          "reponseAttendue": "Un bilan du développement, une réponse à la problématique et une ouverture.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Un bilan du développement, une réponse à la problématique et une ouverture."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le plan dialectique ?",
+          "reponseAttendue": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un argument ?",
+          "reponseAttendue": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce qu'un exemple littéraire ?",
+          "reponseAttendue": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Comment formuler une problématique ?",
+          "reponseAttendue": "Transformer le sujet en une question à laquelle le développement répondra.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Transformer le sujet en une question à laquelle le développement répondra."
+        }
+      ]
+    },
+    {
+      "id": "fr-u06-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "fr-u06-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce qu'une dissertation littéraire ?",
+          "options": [
+            "Un exercice argumenté et structuré qui répond à une question posée sur un sujet ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les parties d'une dissertation ?",
+          "options": [
+            "Introduction, développement (thèse, antithèse, synthèse), conclusion.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Introduction, développement (thèse, antithèse, synthèse), conclusion."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que doit contenir l'introduction d'une dissertation ?",
+          "options": [
+            "Une accroche, la présentation du sujet, la problématique et l'annonce du plan.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que doit contenir la conclusion d'une dissertation ?",
+          "options": [
+            "Un bilan du développement, une réponse à la problématique et une ouverture.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Un bilan du développement, une réponse à la problématique et une ouverture."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Qu'est-ce que le plan dialectique ?",
+          "options": [
+            "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Aucune"
+          ],
+          "reponse": 0,
+          "explication": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Qu'est-ce qu'une dissertation littéraire ?",
+      "verso": "Un exercice argumenté et structuré qui répond à une question posée sur un sujet littéraire."
+    },
+    {
+      "recto": "Quelles sont les parties d'une dissertation ?",
+      "verso": "Introduction, développement (thèse, antithèse, synthèse), conclusion."
+    },
+    {
+      "recto": "Que doit contenir l'introduction d'une dissertation ?",
+      "verso": "Une accroche, la présentation du sujet, la problématique et l'annonce du plan."
+    },
+    {
+      "recto": "Que doit contenir la conclusion d'une dissertation ?",
+      "verso": "Un bilan du développement, une réponse à la problématique et une ouverture."
+    },
+    {
+      "recto": "Qu'est-ce que le plan dialectique ?",
+      "verso": "Thèse (oui) → Antithèse (non) → Synthèse (dépassement). Le plan le plus courant."
+    },
+    {
+      "recto": "Qu'est-ce qu'un argument ?",
+      "verso": "Une raison avancée pour soutenir une thèse. Il doit être illustré par un exemple."
+    },
+    {
+      "recto": "Qu'est-ce qu'un exemple littéraire ?",
+      "verso": "Une référence précise à une œuvre, un auteur ou un passage qui illustre l'argument."
+    },
+    {
+      "recto": "Comment formuler une problématique ?",
+      "verso": "Transformer le sujet en une question à laquelle le développement répondra."
+    }
+  ]
+}

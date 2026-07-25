@@ -1,0 +1,210 @@
+{
+  "id": "en-u07",
+  "matiere": "anglais",
+  "titre": "Essay Writing & Useful Expressions",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Essay Writing & Useful Expressions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Memorize the question and answer. If you forget, the answer is revealed."
+  },
+  "etapes": [
+    {
+      "id": "en-u07-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "en-u07-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "What is the structure of an English essay?",
+          "reponseAttendue": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for adding ideas.",
+          "reponseAttendue": "Furthermore, moreover, in addition, besides.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Furthermore, moreover, in addition, besides."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for contrast.",
+          "reponseAttendue": "However, nevertheless, on the other hand, whereas.",
+          "modeReponse": "auto_evaluation",
+          "explication": "However, nevertheless, on the other hand, whereas."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for cause/consequence.",
+          "reponseAttendue": "Because, therefore, as a result, consequently, due to.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Because, therefore, as a result, consequently, due to."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Give 3 connectors for conclusion.",
+          "reponseAttendue": "In conclusion, to sum up, all in all, finally.",
+          "modeReponse": "auto_evaluation",
+          "explication": "In conclusion, to sum up, all in all, finally."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "How do you express your opinion in English?",
+          "reponseAttendue": "In my opinion, I believe that, From my point of view, It seems to me that.",
+          "modeReponse": "auto_evaluation",
+          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "How do you introduce an example?",
+          "reponseAttendue": "For instance, for example, such as, to illustrate.",
+          "modeReponse": "auto_evaluation",
+          "explication": "For instance, for example, such as, to illustrate."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is a 'topic sentence'?",
+          "reponseAttendue": "The first sentence of a paragraph that states its main idea.",
+          "modeReponse": "auto_evaluation",
+          "explication": "The first sentence of a paragraph that states its main idea."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
+          "reponseAttendue": "In conclusion, I believe that education is the key to development.",
+          "modeReponse": "auto_evaluation",
+          "explication": "In conclusion, I believe that education is the key to development."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Translate: 'D'une part… d'autre part…'",
+          "reponseAttendue": "On the one hand… on the other hand…",
+          "modeReponse": "auto_evaluation",
+          "explication": "On the one hand… on the other hand…"
+        }
+      ]
+    },
+    {
+      "id": "en-u07-quiz",
+      "titre": "Quick Quiz",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "en-u07-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of an English essay?",
+          "options": [
+            "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclus",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for adding ideas.",
+          "options": [
+            "Furthermore, moreover, in addition, besides.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "Furthermore, moreover, in addition, besides."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for contrast.",
+          "options": [
+            "However, nevertheless, on the other hand, whereas.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "However, nevertheless, on the other hand, whereas."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for cause/consequence.",
+          "options": [
+            "Because, therefore, as a result, consequently, due to.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "Because, therefore, as a result, consequently, due to."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for conclusion.",
+          "options": [
+            "In conclusion, to sum up, all in all, finally.",
+            "Wrong A",
+            "Wrong B",
+            "None"
+          ],
+          "reponse": 0,
+          "explication": "In conclusion, to sum up, all in all, finally."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "What is the structure of an English essay?",
+      "verso": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+    },
+    {
+      "recto": "Give 3 connectors for adding ideas.",
+      "verso": "Furthermore, moreover, in addition, besides."
+    },
+    {
+      "recto": "Give 3 connectors for contrast.",
+      "verso": "However, nevertheless, on the other hand, whereas."
+    },
+    {
+      "recto": "Give 3 connectors for cause/consequence.",
+      "verso": "Because, therefore, as a result, consequently, due to."
+    },
+    {
+      "recto": "Give 3 connectors for conclusion.",
+      "verso": "In conclusion, to sum up, all in all, finally."
+    },
+    {
+      "recto": "How do you express your opinion in English?",
+      "verso": "In my opinion, I believe that, From my point of view, It seems to me that."
+    },
+    {
+      "recto": "How do you introduce an example?",
+      "verso": "For instance, for example, such as, to illustrate."
+    },
+    {
+      "recto": "What is a 'topic sentence'?",
+      "verso": "The first sentence of a paragraph that states its main idea."
+    },
+    {
+      "recto": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
+      "verso": "In conclusion, I believe that education is the key to development."
+    },
+    {
+      "recto": "Translate: 'D'une part… d'autre part…'",
+      "verso": "On the one hand… on the other hand…"
+    }
+  ]
+}
