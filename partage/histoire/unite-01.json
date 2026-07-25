@@ -1,232 +1,321 @@
 {
-  "id": "hist-u1",
+  "id": "histoire-u01",
   "matiere": "histoire",
-  "titre": "Le monde en 1945 : bilan de la guerre",
+  "type": "litteraire",
+  "titre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
   "ordre": 1,
   "source": {
-    "document": "Histoire TA4 C D",
-    "pages": "2-6",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Histoire-Géo Tchad",
+    "chapitre": "La Seconde Guerre mondiale : causes, déroulement et bilan",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève mémorise la question avec sa réponse (flashcard). En cas d'oubli, la réponse est révélée."
   },
   "etapes": [
     {
-      "id": "hist-u1-e1",
-      "titre": "La fin de la guerre",
-      "objectif": "Situer la fin de la Deuxième Guerre mondiale.",
+      "id": "histoire-u01-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
       "seuilReussite": 80,
-      "competenceId": "hist-c-1945-contexte",
+      "competenceId": "histoire-u01-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Quand se termine la Deuxième Guerre mondiale ?",
-          "options": [
-            "Le 8 mai 1945",
-            "Le 2 septembre 1945",
-            "Le 11 novembre 1918",
-            "En 1947"
-          ],
-          "reponse": 1,
-          "explication": "La guerre se termine le 2 septembre 1945, après la capitulation de l'Allemagne puis du Japon."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Quelle puissance apparaît en 1945 comme la première puissance économique mondiale ?",
-          "options": [
-            "Le Royaume-Uni",
-            "La France",
-            "Les États-Unis",
-            "L'Allemagne"
-          ],
-          "reponse": 2,
-          "explication": "Épargnés sur leur sol, les États-Unis sortent renforcés et deviennent la première puissance économique."
-        },
-        {
-          "type": "choix_multiple",
-          "question": "Quelles sont les deux superpuissances qui émergent en 1945 ?",
-          "options": [
-            "Les États-Unis",
-            "L'URSS",
-            "Le Royaume-Uni",
-            "La Chine"
-          ],
-          "reponses": [
-            0,
-            1
-          ],
-          "explication": "En 1945, les États-Unis et l'URSS s'imposent comme les deux superpuissances, tandis que l'Europe décline."
-        }
-      ]
-    },
-    {
-      "id": "hist-u1-e2",
-      "titre": "Le bilan humain",
-      "objectif": "Retenir l'ampleur des pertes humaines.",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-bilan-humain",
-      "activites": [
-        {
-          "type": "choix_unique",
-          "question": "À combien estime-t-on le nombre total de morts de la guerre ?",
-          "options": [
-            "Environ 10 millions",
-            "Environ 50 millions",
-            "Environ 100 millions",
-            "Environ 5 millions"
-          ],
-          "reponse": 1,
-          "explication": "On estime environ 50 millions de morts, soit 6 à 7 fois plus que la Première Guerre mondiale."
-        },
-        {
-          "type": "association",
-          "consigne": "Associe chaque pays au nombre approximatif de ses morts.",
-          "paires": [
-            {
-              "gauche": "URSS",
-              "droite": "environ 20 millions"
-            },
-            {
-              "gauche": "Allemagne",
-              "droite": "environ 7 millions"
-            },
-            {
-              "gauche": "France",
-              "droite": "environ 600 000"
-            },
-            {
-              "gauche": "États-Unis",
-              "droite": "environ 300 000"
-            }
-          ],
-          "explication": "L'URSS enregistre le bilan le plus lourd de tous les pays belligérants."
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Le pays qui enregistre le bilan humain le plus lourd est l' ___ .",
-          "reponse": "URSS",
-          "toleranceMots": [
-            "urss",
-            "union soviétique",
-            "union sovietique"
-          ],
-          "explication": "Avec environ 20 millions de morts, l'URSS est le pays le plus touché."
-        }
-      ]
-    },
-    {
-      "id": "hist-u1-e3",
-      "titre": "Le bilan matériel et économique",
-      "objectif": "Comprendre l'ampleur des destructions et leur coût.",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-bilan-materiel",
-      "activites": [
-        {
-          "type": "choix_unique",
-          "question": "À combien est estimé le coût économique de la guerre ?",
-          "options": [
-            "110 milliards de dollars",
-            "1100 milliards de dollars",
-            "50 milliards de dollars",
-            "11 000 milliards de dollars"
-          ],
-          "reponse": 1,
-          "explication": "Le coût économique est estimé à environ 1100 milliards de dollars US."
-        },
-        {
-          "type": "choix_multiple",
-          "question": "Quelles infrastructures ont surtout été détruites par les bombardements ?",
-          "options": [
-            "Hôpitaux et dispensaires",
-            "Écoles et universités",
-            "Ponts, routes et rails",
-            "Champs agricoles isolés"
-          ],
-          "reponses": [
-            0,
-            1,
-            2
-          ],
-          "explication": "Les bombardements ont visé les villes : infrastructures sanitaires, éducatives et économiques."
+          "type": "rappel_actif",
+          "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+          "reponseAttendue": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939.",
+          "modeReponse": "auto_evaluation",
+          "explication": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
         },
         {
           "type": "rappel_actif",
-          "question": "Quelles sont les deux régions du monde les plus touchées matériellement ?",
-          "reponseAttendue": "L'Europe et le Japon",
-          "toleranceMots": [
-            "europe",
-            "japon"
-          ],
-          "explication": "L'Europe et le Japon subissent les destructions les plus lourdes en raison des bombardements."
+          "question": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
+          "reponseAttendue": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "reponseAttendue": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les phases de la seconde guerre mondiale ?",
+          "reponseAttendue": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés.",
+          "modeReponse": "auto_evaluation",
+          "explication": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+          "reponseAttendue": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que signifie crime contre l'humanité et crime de guerre ?",
+          "reponseAttendue": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
+          "reponseAttendue": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg.",
+          "modeReponse": "auto_evaluation",
+          "explication": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Que vous rappelle Pearl Harbour, Auschwitz et camp de concentration ?",
+          "reponseAttendue": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "En quoi la participation de l'Afrique noire française à la 2GM lui a été bénéfique ?",
+          "reponseAttendue": "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octroyée.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octroyée."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "En quoi le traité de Versailles est une cause de la 2GM ?",
+          "reponseAttendue": "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale de la 2GM.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale de la 2GM."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "En quoi la crise économique de 1929 est une cause de la 2GM ?",
+          "reponseAttendue": "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le procès de Nuremberg ?",
+          "reponseAttendue": "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que le procès de Tokyo ?",
+          "reponseAttendue": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "À la conférence de Potsdam de 1945, quel sort réservé à l'Allemagne ?",
+          "reponseAttendue": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Qu'est-ce que la bombe A et qui la détient en premier ?",
+          "reponseAttendue": "Bombe atomique. USA depuis 1945, URSS depuis 1949.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Bombe atomique. USA depuis 1945, URSS depuis 1949."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Parlez de la conférence de Bretton Woods de 1944.",
+          "reponseAttendue": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les principales conférences de paix pendant la 2GM ?",
+          "reponseAttendue": "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (1945).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (1945)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Quelles sont les 3 grandes conférences de fin de 2GM ?",
+          "reponseAttendue": "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avril - 26 juin 1945).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avril - 26 juin 1945)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Expliquez le système des 3 'D' à Potsdam.",
+          "reponseAttendue": "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Grandes décisions de la conférence de Yalta ?",
+          "reponseAttendue": "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des criminels, création de l'ONU.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des criminels, création de l'ONU."
         }
       ]
     },
     {
-      "id": "hist-u1-defi",
-      "titre": "Défi de maîtrise",
-      "objectif": "Vérifier la maîtrise globale de l'unité.",
-      "seuilReussite": 90,
-      "estDefi": true,
-      "competenceId": "hist-c-1945-synthese",
+      "id": "histoire-u01-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-u01-c",
       "activites": [
         {
-          "type": "classement",
-          "consigne": "Classe ces éléments du plus grand au plus petit nombre de morts.",
-          "elements": [
-            "URSS",
-            "Allemagne",
-            "France",
-            "États-Unis"
+          "type": "choix_unique",
+          "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+          "options": [
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise éc",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "ordreCorrect": [
-            "URSS",
-            "Allemagne",
-            "France",
-            "États-Unis"
-          ],
-          "explication": "URSS (~20 M) > Allemagne (~7 M) > France (~600 000) > États-Unis (~300 000)."
+          "reponse": 0,
+          "explication": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
         },
         {
           "type": "choix_unique",
-          "question": "Quelle conséquence majeure la guerre a-t-elle sur l'Europe ?",
+          "question": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
           "options": [
-            "Elle renforce sa domination coloniale",
-            "Elle perd son pouvoir colonial et décline",
-            "Elle devient la première puissance économique",
-            "Elle reste neutre dans le monde bipolaire"
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : m",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "reponse": 1,
-          "explication": "L'Europe est ruinée, perd son pouvoir colonial et voit sa domination contestée."
+          "reponse": 0,
+          "explication": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
         },
         {
-          "type": "reponse_courte",
-          "question": "Cite un facteur qui explique le lourd bilan humain de la guerre.",
-          "reponsesAcceptees": [
-            "la durée du conflit",
-            "le caractère planétaire",
-            "l'intensité des bombardements",
-            "les camps de concentration",
-            "la sous-alimentation"
+          "type": "choix_unique",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "options": [
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'All",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "explication": "Plusieurs facteurs se combinent : durée, ampleur mondiale, bombardements, répression dans les camps, sous-alimentation."
+          "reponse": 0,
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les phases de la seconde guerre mondiale ?",
+          "options": [
+            "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de fro",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+          "options": [
+            "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 déce",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
         }
       ]
     }
   ],
-  "videos": [
+  "flashcards": [
     {
-      "titre": "La fin de la 2de Guerre mondiale et le nouvel ordre mondial (Tle)",
-      "url": "https://youtu.be/J2V-BK-4nh4",
-      "type": "video",
-      "chaine": "Lelivrescolaire.fr",
-      "auteur": "Lelivrescolaire.fr"
+      "recto": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+      "verso": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
     },
     {
-      "titre": "Le bilan de la Seconde Guerre mondiale",
-      "url": "https://youtu.be/7g7p4oq9bow",
-      "type": "video",
-      "chaine": "Yannick Rub",
-      "auteur": "Yannick Rub"
+      "recto": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
+      "verso": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
+    },
+    {
+      "recto": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+      "verso": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+    },
+    {
+      "recto": "Quelles sont les phases de la seconde guerre mondiale ?",
+      "verso": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés."
+    },
+    {
+      "recto": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+      "verso": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+    },
+    {
+      "recto": "Que signifie crime contre l'humanité et crime de guerre ?",
+      "verso": "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols)."
+    },
+    {
+      "recto": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
+      "verso": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+    },
+    {
+      "recto": "Que vous rappelle Pearl Harbour, Auschwitz et camp de concentration ?",
+      "verso": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers."
+    },
+    {
+      "recto": "En quoi la participation de l'Afrique noire française à la 2GM lui a été bénéfique ?",
+      "verso": "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octroyée."
+    },
+    {
+      "recto": "En quoi le traité de Versailles est une cause de la 2GM ?",
+      "verso": "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale de la 2GM."
+    },
+    {
+      "recto": "En quoi la crise économique de 1929 est une cause de la 2GM ?",
+      "verso": "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre."
+    },
+    {
+      "recto": "Qu'est-ce que le procès de Nuremberg ?",
+      "verso": "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes."
+    },
+    {
+      "recto": "Qu'est-ce que le procès de Tokyo ?",
+      "verso": "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua."
+    },
+    {
+      "recto": "À la conférence de Potsdam de 1945, quel sort réservé à l'Allemagne ?",
+      "verso": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre."
+    },
+    {
+      "recto": "Qu'est-ce que la bombe A et qui la détient en premier ?",
+      "verso": "Bombe atomique. USA depuis 1945, URSS depuis 1949."
+    },
+    {
+      "recto": "Parlez de la conférence de Bretton Woods de 1944.",
+      "verso": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence."
+    },
+    {
+      "recto": "Quelles sont les principales conférences de paix pendant la 2GM ?",
+      "verso": "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (1945)."
+    },
+    {
+      "recto": "Quelles sont les 3 grandes conférences de fin de 2GM ?",
+      "verso": "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avril - 26 juin 1945)."
+    },
+    {
+      "recto": "Expliquez le système des 3 'D' à Potsdam.",
+      "verso": "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie)."
+    },
+    {
+      "recto": "Grandes décisions de la conférence de Yalta ?",
+      "verso": "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des criminels, création de l'ONU."
     }
   ]
 }

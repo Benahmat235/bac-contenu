@@ -1,0 +1,189 @@
+{
+  "id": "geographie-u07",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "Transport, commerce, tourisme et développement",
+  "ordre": 7,
+  "source": {
+    "document": "Programme Histoire-Géo Tchad",
+    "chapitre": "Transport, commerce, tourisme et développement",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève mémorise la question avec sa réponse (flashcard). En cas d'oubli, la réponse est révélée."
+  },
+  "etapes": [
+    {
+      "id": "geographie-u07-memo",
+      "titre": "Mémoriser le cours",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "geographie-u07-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "Importance du transport et des NTIC au Tchad ?",
+          "reponseAttendue": "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Avantages et inconvénients des télécommunications ?",
+          "reponseAttendue": "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Pourquoi la balance commerciale du Tchad est déficitaire ?",
+          "reponseAttendue": "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Les importations dépassent les exportations, aggravé par l'enclavement du pays."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Principaux produits d'exportation du Tchad ?",
+          "reponseAttendue": "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Potentialités touristiques du Tchad ?",
+          "reponseAttendue": "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao).",
+          "modeReponse": "auto_evaluation",
+          "explication": "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao)."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Difficultés du tourisme au Tchad ?",
+          "reponseAttendue": "Manque d'infrastructures, coût élevé des transports, insécurité, manque de promotion.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Manque d'infrastructures, coût élevé des transports, insécurité, manque de promotion."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Problèmes de développement du Tchad ?",
+          "reponseAttendue": "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Secteurs prioritaires développés grâce au pétrole ?",
+          "reponseAttendue": "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
+          "modeReponse": "auto_evaluation",
+          "explication": "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage."
+        }
+      ]
+    },
+    {
+      "id": "geographie-u07-quiz",
+      "titre": "Quiz rapide",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-u07-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Importance du transport et des NTIC au Tchad ?",
+          "options": [
+            "Rapprochement des populations, circulation des biens, échanges commerciaux, créa",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Avantages et inconvénients des télécommunications ?",
+          "options": [
+            "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercrim",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Pourquoi la balance commerciale du Tchad est déficitaire ?",
+          "options": [
+            "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Les importations dépassent les exportations, aggravé par l'enclavement du pays."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Principaux produits d'exportation du Tchad ?",
+          "options": [
+            "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Potentialités touristiques du Tchad ?",
+          "options": [
+            "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "Importance du transport et des NTIC au Tchad ?",
+      "verso": "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information."
+    },
+    {
+      "recto": "Avantages et inconvénients des télécommunications ?",
+      "verso": "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations."
+    },
+    {
+      "recto": "Pourquoi la balance commerciale du Tchad est déficitaire ?",
+      "verso": "Les importations dépassent les exportations, aggravé par l'enclavement du pays."
+    },
+    {
+      "recto": "Principaux produits d'exportation du Tchad ?",
+      "verso": "Pétrole, coton, gomme arabique, bétail sur pied, viande, peaux et cuirs."
+    },
+    {
+      "recto": "Potentialités touristiques du Tchad ?",
+      "verso": "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao)."
+    },
+    {
+      "recto": "Difficultés du tourisme au Tchad ?",
+      "verso": "Manque d'infrastructures, coût élevé des transports, insécurité, manque de promotion."
+    },
+    {
+      "recto": "Problèmes de développement du Tchad ?",
+      "verso": "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption."
+    },
+    {
+      "recto": "Secteurs prioritaires développés grâce au pétrole ?",
+      "verso": "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage."
+    }
+  ]
+}

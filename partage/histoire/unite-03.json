@@ -1,173 +1,211 @@
 {
-  "id": "hist-u3",
+  "id": "histoire-rev03",
   "matiere": "histoire",
-  "titre": "L'Organisation des Nations Unies (ONU)",
+  "type": "litteraire",
+  "titre": "Révision : leçons 1 et 2",
   "ordre": 3,
   "source": {
-    "document": "Histoire TA4 C D",
-    "chapitre": "L'Organisation des Nations-Unies et son rôle",
-    "statutValidation": "brouillon",
-    "valideePar": null,
-    "dateValidation": null
+    "document": "Programme Histoire-Géo Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
   },
   "etapes": [
     {
-      "id": "hist-u3-e1",
-      "titre": "Création et objectifs",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-onu-creation",
+      "id": "histoire-rev03-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "histoire-rev03-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Quand, où et dans quel contexte l'ONU a-t-elle été créée, et quel est son but ?",
-          "reponseAttendue": "L'ONU a été créée à la conférence de San Francisco (25 avril - 26 juin 1945) à la suite de l'échec de la SDN. Son but est d'assurer le maintien de la paix, de la stabilité et de la coopération internationale.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quels sont les objectifs de l'ONU ?",
-          "reponseAttendue": "Maintenir la paix, développer les relations amicales entre les nations, réaliser la coopération internationale, encourager le respect des droits de l'homme et être un centre d'harmonisation des efforts.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u3-e2",
-      "titre": "Les organes",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-onu-organes",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Quels sont les organes principaux de l'ONU ?",
-          "reponseAttendue": "L'Assemblée Générale, le Conseil de sécurité, le Secrétariat Général, le Conseil Économique et Social, le Conseil de tutelle et la Cour internationale de justice.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Citez six organes spécialisés de l'ONU.",
-          "reponseAttendue": "OMS (santé), HCR (réfugiés), UNESCO (éducation, science et culture), PNUD (développement), PAM (alimentation) et Unicef (enfance).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Pourquoi le Conseil de sécurité demeure-t-il l'organe le plus sensible de l'ONU ?",
-          "reponseAttendue": "Parce qu'il est chargé de la question de la paix et de la sécurité et que les décisions finales lui reviennent.",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u3-e3",
-      "titre": "Le fonctionnement",
-      "categorie": "definitions",
-      "seuilReussite": 80,
-      "competenceId": "hist-c-onu-fonctionnement",
-      "activites": [
-        {
-          "type": "rappel_actif",
-          "question": "Que signifie le « droit de véto » ?",
-          "reponseAttendue": "C'est une suprématie détenue par les cinq États membres permanents du Conseil de sécurité (USA, Russie, Grande-Bretagne, France, Chine) leur permettant de s'opposer à une décision.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Dites en quoi le droit de véto paralyse le bon fonctionnement de l'ONU.",
-          "reponseAttendue": "Les 5 États qui le détiennent l'utilisent souvent dans le sens de leurs propres intérêts et non dans l'intérêt commun, ce qui entrave le fonctionnement de l'institution.",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Citez trois domaines d'intervention de l'ONU.",
-          "reponseAttendue": "Le domaine éducatif et culturel (UNESCO), le domaine de la santé (OMS), le domaine de la paix et de la sécurité (Conseil de sécurité) et le domaine humanitaire (HCR).",
-          "modeReponse": "auto_evaluation"
-        },
-        {
-          "type": "rappel_actif",
-          "question": "Quels sont les moyens d'intervention de l'ONU ?",
-          "reponseAttendue": "Humanitaire (HCR, PAM), sécuritaire (casques bleus), sanitaire (OMS), culturel et éducatif (UNESCO).",
-          "modeReponse": "auto_evaluation"
-        }
-      ]
-    },
-    {
-      "id": "hist-u3-defi",
-      "titre": "Défi de maîtrise",
-      "categorie": "methode",
-      "seuilReussite": 90,
-      "competenceId": "hist-c-onu-synthese",
-      "activites": [
-        {
-          "type": "choix_multiple",
-          "question": "Parmi ces sigles, lesquels sont des organes spécialisés de l'ONU ?",
+          "type": "choix_unique",
+          "question": "Quand, où et dans quel contexte l'ONU a été créée ?",
           "options": [
-            "OMS",
-            "UNESCO",
-            "OTAN",
-            "HCR"
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : main",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "reponses": [
-            0,
-            1,
-            3
-          ],
-          "explication": "L'OTAN est une alliance militaire, pas un organe de l'ONU."
+          "reponse": 0,
+          "explication": "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
         },
         {
           "type": "choix_unique",
-          "question": "Quels pays disposent du droit de véto au Conseil de sécurité ?",
+          "question": "Quelles sont les phases de la seconde guerre mondiale ?",
           "options": [
-            "USA, Russie, Grande-Bretagne, France, Chine",
-            "USA, URSS, Allemagne, Japon, Chine",
-            "France, Allemagne, Italie, USA, Chine",
-            "USA, Russie, Inde, Brésil, France"
+            "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de fro",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
           "reponse": 0,
-          "explication": "Les 5 membres permanents : USA, Russie, Grande-Bretagne, France et Chine."
+          "explication": "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés."
         },
         {
-          "type": "association",
-          "consigne": "Associe chaque organe spécialisé à son domaine.",
-          "paires": [
-            {
-              "gauche": "OMS",
-              "droite": "santé"
-            },
-            {
-              "gauche": "UNESCO",
-              "droite": "éducation et culture"
-            },
-            {
-              "gauche": "HCR",
-              "droite": "réfugiés"
-            },
-            {
-              "gauche": "PAM",
-              "droite": "alimentation"
-            }
+          "type": "choix_unique",
+          "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+          "options": [
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise éc",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
           ],
-          "explication": "Chaque agence de l'ONU a un domaine précis."
+          "reponse": 0,
+          "explication": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que signifie 'droit de véto' ?",
+          "options": [
+            "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, Fra",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Suprématie des 5 membres permanents du Conseil de sécurité (USA, Russie, GB, France, Chine) leur permettant de s'opposer à une décision."
+        },
+        {
+          "type": "choix_unique",
+          "question": "En quoi la participation de l'Afrique noire française à la 2GM lui a été bénéfique ?",
+          "options": [
+            "Cultures coloniales développées, édifices construits, pensions accordées aux anc",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octroyée."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Que vous rappelle Pearl Harbour, Auschwitz et camp de concentration ?",
+          "options": [
+            "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermi",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Pearl Harbour : base navale US attaquée par le Japon. Auschwitz : camp d'extermination des juifs en Pologne. Camp de concentration : espaces nazis pour entasser et laisser mourir les prisonniers."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 6 organes spécialisés de l'ONU.",
+          "options": [
+            "OMS, HCR, UNESCO, PNUD, PAM, Unicef.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "OMS, HCR, UNESCO, PNUD, PAM, Unicef."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quand et pourquoi les USA sont-ils entrés dans la seconde guerre mondiale ?",
+          "options": [
+            "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 déce",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les objectifs de l'ONU ?",
+          "options": [
+            "Maintenir la paix, développer les relations amicales, réaliser la coopération in",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les 3 grandes conférences de fin de 2GM ?",
+          "options": [
+            "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avri",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avril - 26 juin 1945)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
+          "options": [
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'All",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
+        },
+        {
+          "type": "choix_unique",
+          "question": "À la conférence de Potsdam de 1945, quel sort réservé à l'Allemagne ?",
+          "options": [
+            "Désarmement total, dénazification, comparution des criminels nazis, réparations ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
+          "options": [
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : m",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez 3 domaines d'intervention de l'ONU.",
+          "options": [
+            "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité),",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Éducatif/culturel (UNESCO), santé (OMS), paix et sécurité (Conseil de Sécurité), humanitaire (HCR)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Parlez de la conférence de Bretton Woods de 1944.",
+          "options": [
+            "Conférence monétaire/financière aux USA pour un système international stable. Cr",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence."
         }
-      ],
-      "estDefi": true
+      ]
     }
   ],
-  "videos": [
-    {
-      "titre": "L'ONU : naissance et objectifs (Terminale BAC)",
-      "url": "https://youtu.be/I_fr60E9QOs",
-      "type": "video",
-      "chaine": "Réussir BAC and BEPC",
-      "auteur": "Réussir BAC and BEPC"
-    },
-    {
-      "titre": "Leçon Terminale : l'ONU",
-      "url": "https://youtu.be/sQpaavq626o",
-      "type": "video",
-      "chaine": "Ndiaye-Histoire",
-      "auteur": "Ndiaye-Histoire"
-    }
-  ]
+  "estRevision": true
 }

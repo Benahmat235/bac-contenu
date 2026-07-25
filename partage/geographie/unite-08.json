@@ -1,0 +1,211 @@
+{
+  "id": "geographie-rev08",
+  "matiere": "geographie",
+  "type": "litteraire",
+  "titre": "Révision finale",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Histoire-Géo Tchad",
+    "chapitre": "Révision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-24"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "Quiz de révision sur les leçons précédentes."
+  },
+  "etapes": [
+    {
+      "id": "geographie-rev08-rev",
+      "titre": "Révision des leçons précédentes",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "geographie-rev08-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les masses d'air qui commandent le climat du Tchad ?",
+          "options": [
+            "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime humide)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les principaux massifs montagneux du Tchad ?",
+          "options": [
+            "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quel élément majeur détermine la répartition des espèces élevées ?",
+          "options": [
+            "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelle stratégie pour protéger l'environnement au Tchad ?",
+          "options": [
+            "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Définir : climat, sol et végétation.",
+          "options": [
+            "Climat : conditions météo moyennes sur longue période. Sol : couche superficiell",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez les zones climatiques du Tchad.",
+          "options": [
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an.",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Expliquez le mécanisme de la mousson au Tchad.",
+          "options": [
+            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). L",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la saison des pluies."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez les principaux lacs du Tchad et leur région.",
+          "options": [
+            "Lac Tchad (Lac), Léré (Mayo-Kebbi Ouest), Fitri (Batha), Iro (Moyen-Chari), Fian",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Lac Tchad (Lac), Léré (Mayo-Kebbi Ouest), Fitri (Batha), Iro (Moyen-Chari), Fianga (Mayo-Kebbi Est), Ounianga (Ennedi)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les retombées du pétrole tchadien ?",
+          "options": [
+            "Hausse des salaires, construction d'infrastructures, création d'emplois, moderni",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Problèmes de développement du Tchad ?",
+          "options": [
+            "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerc",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quels sont les éléments du relief tchadien ?",
+          "options": [
+            "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, et ergs (dunes de sable)."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez les cours d'eau et lacs du Tchad.",
+          "options": [
+            "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Avantages et inconvénients des télécommunications ?",
+          "options": [
+            "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercrim",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Secteurs prioritaires développés grâce au pétrole ?",
+          "options": [
+            "Santé, éducation, infrastructures routières, logements sociaux, agriculture et é",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Citez deux causes de l'assèchement du lac Tchad.",
+          "options": [
+            "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de ",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture)."
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

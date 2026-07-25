@@ -1,9 +1,9 @@
 {
-  "id": "histoire-rev06",
+  "id": "histoire-rev08",
   "matiere": "histoire",
   "type": "litteraire",
-  "titre": "Révision : leçons 3 et 4",
-  "ordre": 6,
+  "titre": "Révision finale",
+  "ordre": 8,
   "source": {
     "document": "Programme Histoire-Géo Tchad",
     "chapitre": "Révision",
@@ -18,11 +18,11 @@
   },
   "etapes": [
     {
-      "id": "histoire-rev06-rev",
+      "id": "histoire-rev08-rev",
       "titre": "Révision des leçons précédentes",
       "categorie": "quiz",
       "seuilReussite": 70,
-      "competenceId": "histoire-rev06-c",
+      "competenceId": "histoire-rev08-c",
       "activites": [
         {
           "type": "choix_unique",
@@ -122,6 +122,18 @@
         },
         {
           "type": "choix_unique",
+          "question": "Quels sont les objectifs de l'UA ?",
+          "options": [
+            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souve",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favoriser la coopération internationale."
+        },
+        {
+          "type": "choix_unique",
           "question": "Que vous rappellent : 12 avril 1945, 6 et 9 août 1945, 2 sept. 1945, 20 nov. 1945 ?",
           "options": [
             "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. ",
@@ -131,6 +143,18 @@
           ],
           "reponse": 0,
           "explication": "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Quelles sont les étapes de la décolonisation en Afrique noire française ?",
+          "options": [
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Def",
+            "Réponse incorrecte A",
+            "Réponse incorrecte B",
+            "Réponse incorrecte C"
+          ],
+          "reponse": 0,
+          "explication": "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960)."
         },
         {
           "type": "choix_unique",
@@ -179,30 +203,6 @@
           ],
           "reponse": 0,
           "explication": "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Quelles sont les conséquences politiques de la seconde guerre mondiale ?",
-          "options": [
-            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'All",
-            "Réponse incorrecte A",
-            "Réponse incorrecte B",
-            "Réponse incorrecte C"
-          ],
-          "reponse": 0,
-          "explication": "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Raisons de la loi-cadre de 1956 ?",
-          "options": [
-            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, dé",
-            "Réponse incorrecte A",
-            "Réponse incorrecte B",
-            "Réponse incorrecte C"
-          ],
-          "reponse": 0,
-          "explication": "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU, conférence de Bandung."
         }
       ]
     }

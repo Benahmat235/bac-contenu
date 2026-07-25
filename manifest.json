@@ -1,5 +1,5 @@
 {
-  "contentVersion": 14,
+  "contentVersion": 15,
   "updatedAt": "2026-07-24",
   "minAppVersion": "1.0.0",
   "baseUrl": "https://raw.githubusercontent.com/Benahmat235/bac-contenu/main/",
@@ -31,7 +31,7 @@
     "histoire": {
       "id": "histoire",
       "titre": "Histoire",
-      "version": 3,
+      "version": 4,
       "chemin": "partage/histoire/",
       "fichiers": [
         "partage/histoire/unite-01.json",
@@ -39,20 +39,25 @@
         "partage/histoire/unite-03.json",
         "partage/histoire/unite-04.json",
         "partage/histoire/unite-05.json",
-        "partage/histoire/unite-06.json"
+        "partage/histoire/unite-06.json",
+        "partage/histoire/unite-07.json",
+        "partage/histoire/unite-08.json"
       ]
     },
     "geographie": {
       "id": "geographie",
       "titre": "Géographie",
-      "version": 3,
+      "version": 4,
       "chemin": "partage/geographie/",
       "fichiers": [
         "partage/geographie/unite-01.json",
         "partage/geographie/unite-02.json",
         "partage/geographie/unite-03.json",
         "partage/geographie/unite-04.json",
-        "partage/geographie/unite-05.json"
+        "partage/geographie/unite-05.json",
+        "partage/geographie/unite-06.json",
+        "partage/geographie/unite-07.json",
+        "partage/geographie/unite-08.json"
       ]
     }
   },
