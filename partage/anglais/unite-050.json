@@ -1,0 +1,137 @@
+{
+  "id": "anglais-u050",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essential Phrasal Verbs (2/4)",
+  "ordre": 50,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Essential Phrasal Verbs",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u050-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u050-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to carry out",
+          "reponseAttendue": "réaliser, mener\n« The students carried out an experiment. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "réaliser, mener\n« The students carried out an experiment. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to grow up",
+          "reponseAttendue": "grandir\n« I grew up in Abéché. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "grandir\n« I grew up in Abéché. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to take part in",
+          "reponseAttendue": "participer à\n« He took part in the debate. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "participer à\n« He took part in the debate. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to get up",
+          "reponseAttendue": "se lever\n« I get up at five o'clock. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "se lever\n« I get up at five o'clock. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u050-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u050-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "I ___ at five o'clock.",
+          "reponse": "get up",
+          "toleranceMots": 0,
+          "explication": "to get up = se lever"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u050-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u050-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to carry out » mean?",
+          "options": [
+            "hôpital",
+            "réaliser, mener",
+            "par exemple",
+            "suggérer"
+          ],
+          "reponse": 1,
+          "explication": "to carry out = réaliser, mener"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to grow up » mean?",
+          "options": [
+            "tard, en retard",
+            "pollution",
+            "leçon",
+            "grandir"
+          ],
+          "reponse": 3,
+          "explication": "to grow up = grandir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to take part in » mean?",
+          "options": [
+            "cependant",
+            "diplôme universitaire",
+            "gens, personnes",
+            "participer à"
+          ],
+          "reponse": 3,
+          "explication": "to take part in = participer à"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to carry out",
+      "verso": "réaliser, mener\n« The students carried out an experiment. »"
+    },
+    {
+      "recto": "to grow up",
+      "verso": "grandir\n« I grew up in Abéché. »"
+    },
+    {
+      "recto": "to take part in",
+      "verso": "participer à\n« He took part in the debate. »"
+    },
+    {
+      "recto": "to get up",
+      "verso": "se lever\n« I get up at five o'clock. »"
+    }
+  ]
+}

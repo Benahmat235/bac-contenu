@@ -2,11 +2,11 @@
   "id": "anglais-u009",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "English Tenses: Present & Past (1/3)",
+  "titre": "Core Nouns — People and Places (3/4)",
   "ordre": 9,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Present & Past",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Nouns — People and Places",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,126 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u009-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u009-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "When do we use the Present Simple?",
-          "reponseAttendue": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
+          "question": "family",
+          "reponseAttendue": "famille\n« My family supports my studies. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+          "explication": "famille\n« My family supports my studies. »"
         },
         {
           "type": "rappel_actif",
-          "question": "When do we use the Present Continuous?",
-          "reponseAttendue": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+          "question": "work",
+          "reponseAttendue": "travail\n« Finding work after school is not easy. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+          "explication": "travail\n« Finding work after school is not easy. »"
         },
         {
           "type": "rappel_actif",
-          "question": "When do we use the Past Simple?",
-          "reponseAttendue": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+          "question": "water",
+          "reponseAttendue": "eau\n« Clean water is essential for health. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          "explication": "eau\n« Clean water is essential for health. »"
         },
         {
           "type": "rappel_actif",
-          "question": "When do we use the Present Perfect?",
-          "reponseAttendue": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
+          "question": "money",
+          "reponseAttendue": "argent\n« He saves money to buy books. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+          "explication": "argent\n« He saves money to buy books. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u009-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u009-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "My ___ supports my studies.",
+          "reponse": "family",
+          "toleranceMots": 0,
+          "explication": "family = famille"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Finding ___ after school is not easy.",
+          "reponse": "work",
+          "toleranceMots": 0,
+          "explication": "work = travail"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Clean ___ is essential for health.",
+          "reponse": "water",
+          "toleranceMots": 0,
+          "explication": "water = eau"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "He saves ___ to buy books.",
+          "reponse": "money",
+          "toleranceMots": 0,
+          "explication": "money = argent"
         }
       ]
     },
     {
       "id": "anglais-u009-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u009-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "When do we use the Present Simple?",
+          "question": "What does « family » mean?",
           "options": [
-            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
-            "For instance, for example, such as, to illustrate.",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "She told me not to go."
+            "note",
+            "partager",
+            "famille",
+            "jamais"
           ],
-          "reponse": 0,
-          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+          "reponse": 2,
+          "explication": "family = famille"
         },
         {
           "type": "choix_unique",
-          "question": "When do we use the Present Continuous?",
+          "question": "What does « work » mean?",
           "options": [
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "prevention",
-            "renewable energy",
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+            "but, objectif",
+            "réviser",
+            "travail",
+            "se lever"
           ],
-          "reponse": 0,
-          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+          "reponse": 2,
+          "explication": "work = travail"
         },
         {
           "type": "choix_unique",
-          "question": "When do we use the Past Simple?",
+          "question": "What does « water » mean?",
           "options": [
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "baccalaureate / high school diploma",
-            "'The letter was written (by her).'",
-            "drought"
+            "manquer de",
+            "droits",
+            "eau",
+            "venir"
           ],
-          "reponse": 0,
-          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          "reponse": 2,
+          "explication": "water = eau"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "When do we use the Present Simple?",
-      "verso": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+      "recto": "family",
+      "verso": "famille\n« My family supports my studies. »"
     },
     {
-      "recto": "When do we use the Present Continuous?",
-      "verso": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+      "recto": "work",
+      "verso": "travail\n« Finding work after school is not easy. »"
     },
     {
-      "recto": "When do we use the Past Simple?",
-      "verso": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+      "recto": "water",
+      "verso": "eau\n« Clean water is essential for health. »"
     },
     {
-      "recto": "When do we use the Present Perfect?",
-      "verso": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
-    }
-  ],
-  "videos": [
-    {
-      "titre": "The conditionals (0, 1, 2 & 3)",
-      "url": "https://youtu.be/vXp0ETWXbWo",
-      "type": "video",
-      "chaine": "English with Lucy",
-      "auteur": "English with Lucy"
-    },
-    {
-      "titre": "Reported speech (indirect speech)",
-      "url": "https://youtu.be/eplQBhE0-Hg",
-      "type": "video",
-      "chaine": "English with Lucy",
-      "auteur": "English with Lucy"
-    },
-    {
-      "titre": "Passive voice : step by step",
-      "url": "https://youtu.be/N7uvEllP5Jg",
-      "type": "video",
-      "chaine": "Arnel's Everyday English",
-      "auteur": "Arnel's Everyday English"
+      "recto": "money",
+      "verso": "argent\n« He saves money to buy books. »"
     }
   ]
 }

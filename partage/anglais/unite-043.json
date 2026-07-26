@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u043",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Academic Verbs for the Exam (1/4)",
+  "ordre": 43,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Academic Verbs for the Exam",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u043-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u043-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to describe",
+          "reponseAttendue": "décrire\n« Describe the picture in five sentences. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "décrire\n« Describe the picture in five sentences. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to compare",
+          "reponseAttendue": "comparer\n« Compare the two texts carefully. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "comparer\n« Compare the two texts carefully. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to discuss",
+          "reponseAttendue": "discuter, débattre\n« Discuss the advantages of solar energy. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "discuter, débattre\n« Discuss the advantages of solar energy. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to justify",
+          "reponseAttendue": "justifier\n« Justify your answer with an example. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "justifier\n« Justify your answer with an example. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u043-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u043-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the picture in five sentences.",
+          "reponse": "Describe",
+          "toleranceMots": 0,
+          "explication": "to describe = décrire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the two texts carefully.",
+          "reponse": "Compare",
+          "toleranceMots": 0,
+          "explication": "to compare = comparer"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the advantages of solar energy.",
+          "reponse": "Discuss",
+          "toleranceMots": 0,
+          "explication": "to discuss = discuter, débattre"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ your answer with an example.",
+          "reponse": "Justify",
+          "toleranceMots": 0,
+          "explication": "to justify = justifier"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u043-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u043-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to describe » mean?",
+          "options": [
+            "avoir",
+            "décrire",
+            "maladie",
+            "en conséquence"
+          ],
+          "reponse": 1,
+          "explication": "to describe = décrire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to compare » mean?",
+          "options": [
+            "comparer",
+            "preuve",
+            "médicament",
+            "mauvais"
+          ],
+          "reponse": 0,
+          "explication": "to compare = comparer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to discuss » mean?",
+          "options": [
+            "rapidement",
+            "école",
+            "téléphone",
+            "discuter, débattre"
+          ],
+          "reponse": 3,
+          "explication": "to discuss = discuter, débattre"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to describe",
+      "verso": "décrire\n« Describe the picture in five sentences. »"
+    },
+    {
+      "recto": "to compare",
+      "verso": "comparer\n« Compare the two texts carefully. »"
+    },
+    {
+      "recto": "to discuss",
+      "verso": "discuter, débattre\n« Discuss the advantages of solar energy. »"
+    },
+    {
+      "recto": "to justify",
+      "verso": "justifier\n« Justify your answer with an example. »"
+    }
+  ]
+}

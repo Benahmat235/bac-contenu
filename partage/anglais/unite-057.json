@@ -1,0 +1,121 @@
+{
+  "id": "anglais-u057",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "English Tenses: Future & Conditionals (1/2)",
+  "ordre": 57,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Future & Conditionals",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u057-memorisation",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u057-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "When do we use 'will + verb'?",
+          "reponseAttendue": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "When do we use 'going to + verb'?",
+          "reponseAttendue": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Zero Conditional? (If + present, present)",
+          "reponseAttendue": "For general truths. Ex: 'If you heat water, it boils.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the First Conditional? (If + present, will + verb)",
+          "reponseAttendue": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u057-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u057-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use 'will + verb'?",
+          "options": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "human rights",
+            "drought",
+            "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+          ],
+          "reponse": 3,
+          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use 'going to + verb'?",
+          "options": [
+            "She said (that) she would come.",
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "In my opinion, I believe that, From my point of view, It seems to me that."
+          ],
+          "reponse": 1,
+          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Zero Conditional? (If + present, present) ?",
+          "options": [
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "For general truths. Ex: 'If you heat water, it boils.'"
+          ],
+          "reponse": 3,
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "When do we use 'will + verb'?",
+      "verso": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+    },
+    {
+      "recto": "When do we use 'going to + verb'?",
+      "verso": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+    },
+    {
+      "recto": "What is the Zero Conditional? (If + present, present)",
+      "verso": "For general truths. Ex: 'If you heat water, it boils.'"
+    },
+    {
+      "recto": "What is the First Conditional? (If + present, will + verb)",
+      "verso": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+    }
+  ]
+}

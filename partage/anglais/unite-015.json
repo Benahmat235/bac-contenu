@@ -2,11 +2,11 @@
   "id": "anglais-u015",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Passive Voice & Reported Speech (1/3)",
+  "titre": "Core Adjectives and Adverbs (4/4)",
   "ordre": 15,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Passive Voice & Reported Speech",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Adjectives and Adverbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,103 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u015-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u015-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "How do we form the Passive Voice?",
-          "reponseAttendue": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'",
+          "question": "often",
+          "reponseAttendue": "souvent\n« We often work in groups. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+          "explication": "souvent\n« We often work in groups. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Change to passive: 'They build houses.'",
-          "reponseAttendue": "'Houses are built (by them).'",
+          "question": "never",
+          "reponseAttendue": "jamais\n« She never gives up. »",
           "modeReponse": "auto_evaluation",
-          "explication": "'Houses are built (by them).'"
+          "explication": "jamais\n« She never gives up. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Change to passive: 'She wrote the letter.'",
-          "reponseAttendue": "'The letter was written (by her).'",
+          "question": "quickly",
+          "reponseAttendue": "rapidement\n« Read the text quickly, then answer. »",
           "modeReponse": "auto_evaluation",
-          "explication": "'The letter was written (by her).'"
+          "explication": "rapidement\n« Read the text quickly, then answer. »"
         },
         {
           "type": "rappel_actif",
-          "question": "What happens to tenses in Reported Speech?",
-          "reponseAttendue": "Tenses shift back: present→past, past→past perfect, will→would, can→could.",
+          "question": "carefully",
+          "reponseAttendue": "avec soin\n« Write your name carefully on the paper. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          "explication": "avec soin\n« Write your name carefully on the paper. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u015-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u015-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "We ___ work in groups.",
+          "reponse": "often",
+          "toleranceMots": 0,
+          "explication": "often = souvent"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She ___ gives up.",
+          "reponse": "never",
+          "toleranceMots": 0,
+          "explication": "never = jamais"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Read the text ___, then answer.",
+          "reponse": "quickly",
+          "toleranceMots": 0,
+          "explication": "quickly = rapidement"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Write your name ___ on the paper.",
+          "reponse": "carefully",
+          "toleranceMots": 0,
+          "explication": "carefully = avec soin"
         }
       ]
     },
     {
       "id": "anglais-u015-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u015-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "How do we form the Passive Voice?",
+          "question": "What does « often » mean?",
           "options": [
-            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'",
-            "The first sentence of a paragraph that states its main idea.",
-            "sanitation",
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
-          ],
-          "reponse": 0,
-          "explication": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Change to passive: 'They build houses.' ?",
-          "options": [
-            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'",
-            "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
-            "'Houses are built (by them).'",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+            "leçon",
+            "élever (un enfait)",
+            "souvent",
+            "fabriquer, faire"
           ],
           "reponse": 2,
-          "explication": "'Houses are built (by them).'"
+          "explication": "often = souvent"
         },
         {
           "type": "choix_unique",
-          "question": "Change to passive: 'She wrote the letter.' ?",
+          "question": "What does « never » mean?",
           "options": [
-            "'The letter was written (by her).'",
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "enrollment rate / schooling rate",
-            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+            "déchets",
+            "parce que",
+            "jamais",
+            "en conclusion"
           ],
-          "reponse": 0,
-          "explication": "'The letter was written (by her).'"
+          "reponse": 2,
+          "explication": "never = jamais"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « quickly » mean?",
+          "options": [
+            "connaissance, savoir",
+            "jeune",
+            "site web",
+            "rapidement"
+          ],
+          "reponse": 3,
+          "explication": "quickly = rapidement"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "How do we form the Passive Voice?",
-      "verso": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+      "recto": "often",
+      "verso": "souvent\n« We often work in groups. »"
     },
     {
-      "recto": "Change to passive: 'They build houses.'",
-      "verso": "'Houses are built (by them).'"
+      "recto": "never",
+      "verso": "jamais\n« She never gives up. »"
     },
     {
-      "recto": "Change to passive: 'She wrote the letter.'",
-      "verso": "'The letter was written (by her).'"
+      "recto": "quickly",
+      "verso": "rapidement\n« Read the text quickly, then answer. »"
     },
     {
-      "recto": "What happens to tenses in Reported Speech?",
-      "verso": "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+      "recto": "carefully",
+      "verso": "avec soin\n« Write your name carefully on the paper. »"
     }
   ]
 }

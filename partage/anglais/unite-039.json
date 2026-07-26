@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u039",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Technology and Media (2/4)",
+  "ordre": 39,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Technology and Media",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u039-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u039-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "news",
+          "reponseAttendue": "informations, nouvelles\n« I listen to the news every morning. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "informations, nouvelles\n« I listen to the news every morning. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "information",
+          "reponseAttendue": "information\n« Check the information before sharing it. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "information\n« Check the information before sharing it. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "message",
+          "reponseAttendue": "message\n« She sent me a message this morning. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "message\n« She sent me a message this morning. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "website",
+          "reponseAttendue": "site web\n« This website explains the lesson clearly. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "site web\n« This website explains the lesson clearly. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u039-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u039-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "I listen to the ___ every morning.",
+          "reponse": "news",
+          "toleranceMots": 0,
+          "explication": "news = informations, nouvelles"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Check the ___ before sharing it.",
+          "reponse": "information",
+          "toleranceMots": 0,
+          "explication": "information = information"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She sent me a ___ this morning.",
+          "reponse": "message",
+          "toleranceMots": 0,
+          "explication": "message = message"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This ___ explains the lesson clearly.",
+          "reponse": "website",
+          "toleranceMots": 0,
+          "explication": "website = site web"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u039-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u039-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « news » mean?",
+          "options": [
+            "tandis que",
+            "note",
+            "informations, nouvelles",
+            "aller"
+          ],
+          "reponse": 2,
+          "explication": "news = informations, nouvelles"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « information » mean?",
+          "options": [
+            "bourse d'études",
+            "grandir",
+            "penser",
+            "information"
+          ],
+          "reponse": 3,
+          "explication": "information = information"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « message » mean?",
+          "options": [
+            "tôt",
+            "message",
+            "fabriquer, faire",
+            "soutenir"
+          ],
+          "reponse": 1,
+          "explication": "message = message"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "news",
+      "verso": "informations, nouvelles\n« I listen to the news every morning. »"
+    },
+    {
+      "recto": "information",
+      "verso": "information\n« Check the information before sharing it. »"
+    },
+    {
+      "recto": "message",
+      "verso": "message\n« She sent me a message this morning. »"
+    },
+    {
+      "recto": "website",
+      "verso": "site web\n« This website explains the lesson clearly. »"
+    }
+  ]
+}

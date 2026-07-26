@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u026",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Education and Exams (4/4)",
+  "ordre": 26,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Education and Exams",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u026-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u026-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to answer",
+          "reponseAttendue": "répondre\n« Answer all the questions in order. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "répondre\n« Answer all the questions in order. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to memorize",
+          "reponseAttendue": "mémoriser\n« Try to memorize the key dates. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "mémoriser\n« Try to memorize the key dates. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "literacy",
+          "reponseAttendue": "alphabétisation\n« Literacy rates are rising in the region. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "alphabétisation\n« Literacy rates are rising in the region. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "degree",
+          "reponseAttendue": "diplôme universitaire\n« She wants a degree in engineering. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "diplôme universitaire\n« She wants a degree in engineering. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u026-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u026-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ all the questions in order.",
+          "reponse": "Answer",
+          "toleranceMots": 0,
+          "explication": "to answer = répondre"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Try to ___ the key dates.",
+          "reponse": "memorize",
+          "toleranceMots": 0,
+          "explication": "to memorize = mémoriser"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ rates are rising in the region.",
+          "reponse": "Literacy",
+          "toleranceMots": 0,
+          "explication": "literacy = alphabétisation"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She wants a ___ in engineering.",
+          "reponse": "degree",
+          "toleranceMots": 0,
+          "explication": "degree = diplôme universitaire"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u026-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u026-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to answer » mean?",
+          "options": [
+            "hôpital",
+            "important",
+            "examen",
+            "répondre"
+          ],
+          "reponse": 3,
+          "explication": "to answer = répondre"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to memorize » mean?",
+          "options": [
+            "dire",
+            "devoirs",
+            "savoir, connaître",
+            "mémoriser"
+          ],
+          "reponse": 3,
+          "explication": "to memorize = mémoriser"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « literacy » mean?",
+          "options": [
+            "alphabétisation",
+            "savoir, connaître",
+            "remplir",
+            "construire"
+          ],
+          "reponse": 0,
+          "explication": "literacy = alphabétisation"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to answer",
+      "verso": "répondre\n« Answer all the questions in order. »"
+    },
+    {
+      "recto": "to memorize",
+      "verso": "mémoriser\n« Try to memorize the key dates. »"
+    },
+    {
+      "recto": "literacy",
+      "verso": "alphabétisation\n« Literacy rates are rising in the region. »"
+    },
+    {
+      "recto": "degree",
+      "verso": "diplôme universitaire\n« She wants a degree in engineering. »"
+    }
+  ]
+}

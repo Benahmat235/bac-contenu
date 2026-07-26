@@ -2,11 +2,11 @@
   "id": "anglais-u003",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Vocabulary: Education & Society (3/3)",
+  "titre": "Core Verbs — Everyday Actions (3/4)",
   "ordre": 3,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Education & Society",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u003-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Translate: 'développement durable'",
-          "reponseAttendue": "sustainable development",
+          "question": "to see",
+          "reponseAttendue": "voir\n« Can you see the blackboard from here? »",
           "modeReponse": "auto_evaluation",
-          "explication": "sustainable development"
+          "explication": "voir\n« Can you see the blackboard from here? »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'chômage'",
-          "reponseAttendue": "unemployment",
+          "question": "to want",
+          "reponseAttendue": "vouloir\n« She wants to become a doctor. »",
           "modeReponse": "auto_evaluation",
-          "explication": "unemployment"
+          "explication": "vouloir\n« She wants to become a doctor. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'droits de l'homme'",
-          "reponseAttendue": "human rights",
+          "question": "to give",
+          "reponseAttendue": "donner\n« The teacher will give us the results tomorrow. »",
           "modeReponse": "auto_evaluation",
-          "explication": "human rights"
+          "explication": "donner\n« The teacher will give us the results tomorrow. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to take",
+          "reponseAttendue": "prendre\n« Take your time and read the question twice. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "prendre\n« Take your time and read the question twice. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u003-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u003-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Can you ___ the blackboard from here?",
+          "reponse": "see",
+          "toleranceMots": 0,
+          "explication": "to see = voir"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She ___s to become a doctor.",
+          "reponse": "want",
+          "toleranceMots": 0,
+          "explication": "to want = vouloir"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The teacher will ___ us the results tomorrow.",
+          "reponse": "give",
+          "toleranceMots": 0,
+          "explication": "to give = donner"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ your time and read the question twice.",
+          "reponse": "Take",
+          "toleranceMots": 0,
+          "explication": "to take = prendre"
         }
       ]
     },
     {
       "id": "anglais-u003-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'développement durable' ?",
+          "question": "What does « to see » mean?",
           "options": [
-            "sustainable development",
-            "In conclusion, I believe that education is the key to development.",
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
-            "prevention"
+            "donc, par conséquent",
+            "bien que",
+            "reporter",
+            "voir"
           ],
-          "reponse": 0,
-          "explication": "sustainable development"
+          "reponse": 3,
+          "explication": "to see = voir"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'chômage' ?",
+          "question": "What does « to want » mean?",
           "options": [
-            "unemployment",
-            "He asked if/whether I had seen it.",
-            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+            "vouloir",
+            "information",
+            "télécharger",
+            "définir"
           ],
           "reponse": 0,
-          "explication": "unemployment"
+          "explication": "to want = vouloir"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'droits de l'homme' ?",
+          "question": "What does « to give » mean?",
           "options": [
-            "He asked if/whether I had seen it.",
-            "human rights",
-            "The first sentence of a paragraph that states its main idea.",
-            "enrollment rate / schooling rate"
+            "santé",
+            "donner",
+            "selon",
+            "hôpital"
           ],
           "reponse": 1,
-          "explication": "human rights"
+          "explication": "to give = donner"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Translate: 'développement durable'",
-      "verso": "sustainable development"
+      "recto": "to see",
+      "verso": "voir\n« Can you see the blackboard from here? »"
     },
     {
-      "recto": "Translate: 'chômage'",
-      "verso": "unemployment"
+      "recto": "to want",
+      "verso": "vouloir\n« She wants to become a doctor. »"
     },
     {
-      "recto": "Translate: 'droits de l'homme'",
-      "verso": "human rights"
+      "recto": "to give",
+      "verso": "donner\n« The teacher will give us the results tomorrow. »"
+    },
+    {
+      "recto": "to take",
+      "verso": "prendre\n« Take your time and read the question twice. »"
     }
   ]
 }

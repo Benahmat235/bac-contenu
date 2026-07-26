@@ -1,0 +1,103 @@
+{
+  "id": "anglais-r048",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Revision",
+  "ordre": 48,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r048-rev",
+      "titre": "Revision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r048-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to succeed » mean?",
+          "options": [
+            "arbre",
+            "traiter de",
+            "réussir",
+            "hôpital"
+          ],
+          "reponse": 2,
+          "explication": "to succeed = réussir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to prevent » mean?",
+          "options": [
+            "village",
+            "partager",
+            "élever (un enfait)",
+            "prévenir, empêcher"
+          ],
+          "reponse": 3,
+          "explication": "to prevent = prévenir, empêcher"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to go » mean?",
+          "options": [
+            "selon",
+            "avoir besoin de",
+            "échouer",
+            "aller"
+          ],
+          "reponse": 3,
+          "explication": "to go = aller"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to memorize » mean?",
+          "options": [
+            "se connecter",
+            "développement",
+            "mémoriser",
+            "manquer de"
+          ],
+          "reponse": 2,
+          "explication": "to memorize = mémoriser"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « future » mean?",
+          "options": [
+            "arbre",
+            "avenir",
+            "médicament",
+            "développement"
+          ],
+          "reponse": 1,
+          "explication": "future = avenir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « that is why » mean?",
+          "options": [
+            "pollution",
+            "en plus de cela",
+            "c'est pourquoi",
+            "télécharger"
+          ],
+          "reponse": 2,
+          "explication": "that is why = c'est pourquoi"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

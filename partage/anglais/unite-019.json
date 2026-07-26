@@ -2,11 +2,11 @@
   "id": "anglais-u019",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Essay Writing & Useful Expressions (1/3)",
+  "titre": "Connectors — Linking Your Ideas (3/4)",
   "ordre": 19,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Essay Writing & Useful Expressions",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Connectors — Linking Your Ideas",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,103 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u019-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u019-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "What is the structure of an English essay?",
-          "reponseAttendue": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
+          "question": "first of all",
+          "reponseAttendue": "tout d'abord\n« First of all, read the whole question. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+          "explication": "tout d'abord\n« First of all, read the whole question. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Give 3 connectors for adding ideas.",
-          "reponseAttendue": "Furthermore, moreover, in addition, besides.",
+          "question": "finally",
+          "reponseAttendue": "enfin\n« Finally, check your spelling. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Furthermore, moreover, in addition, besides."
+          "explication": "enfin\n« Finally, check your spelling. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Give 3 connectors for contrast.",
-          "reponseAttendue": "However, nevertheless, on the other hand, whereas.",
+          "question": "in conclusion",
+          "reponseAttendue": "en conclusion\n« In conclusion, education is the key to development. »",
           "modeReponse": "auto_evaluation",
-          "explication": "However, nevertheless, on the other hand, whereas."
+          "explication": "en conclusion\n« In conclusion, education is the key to development. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Give 3 connectors for cause/consequence.",
-          "reponseAttendue": "Because, therefore, as a result, consequently, due to.",
+          "question": "as a result",
+          "reponseAttendue": "en conséquence\n« As a result, more girls attend school. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Because, therefore, as a result, consequently, due to."
+          "explication": "en conséquence\n« As a result, more girls attend school. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u019-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u019-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, read the whole question.",
+          "reponse": "First of all",
+          "toleranceMots": 0,
+          "explication": "first of all = tout d'abord"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, check your spelling.",
+          "reponse": "Finally",
+          "toleranceMots": 0,
+          "explication": "finally = enfin"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, education is the key to development.",
+          "reponse": "In conclusion",
+          "toleranceMots": 0,
+          "explication": "in conclusion = en conclusion"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, more girls attend school.",
+          "reponse": "As a result",
+          "toleranceMots": 0,
+          "explication": "as a result = en conséquence"
         }
       ]
     },
     {
       "id": "anglais-u019-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u019-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "What is the structure of an English essay?",
+          "question": "What does « first of all » mean?",
           "options": [
-            "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
-            "to pass an exam",
-            "illiteracy",
-            "healthcare system"
-          ],
-          "reponse": 0,
-          "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Give 3 connectors for adding ideas. ?",
-          "options": [
-            "Furthermore, moreover, in addition, besides.",
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "prevention",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
-          ],
-          "reponse": 0,
-          "explication": "Furthermore, moreover, in addition, besides."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Give 3 connectors for contrast. ?",
-          "options": [
-            "illiteracy",
-            "However, nevertheless, on the other hand, whereas.",
-            "unemployment",
-            "'French is spoken in Chad.'"
+            "vouloir",
+            "tout d'abord",
+            "discuter, débattre",
+            "pauvreté"
           ],
           "reponse": 1,
-          "explication": "However, nevertheless, on the other hand, whereas."
+          "explication": "first of all = tout d'abord"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « finally » mean?",
+          "options": [
+            "enfin",
+            "hôpital",
+            "échouer",
+            "vie"
+          ],
+          "reponse": 0,
+          "explication": "finally = enfin"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « in conclusion » mean?",
+          "options": [
+            "ordinateur",
+            "en conclusion",
+            "tard, en retard",
+            "chômage"
+          ],
+          "reponse": 1,
+          "explication": "in conclusion = en conclusion"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "What is the structure of an English essay?",
-      "verso": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+      "recto": "first of all",
+      "verso": "tout d'abord\n« First of all, read the whole question. »"
     },
     {
-      "recto": "Give 3 connectors for adding ideas.",
-      "verso": "Furthermore, moreover, in addition, besides."
+      "recto": "finally",
+      "verso": "enfin\n« Finally, check your spelling. »"
     },
     {
-      "recto": "Give 3 connectors for contrast.",
-      "verso": "However, nevertheless, on the other hand, whereas."
+      "recto": "in conclusion",
+      "verso": "en conclusion\n« In conclusion, education is the key to development. »"
     },
     {
-      "recto": "Give 3 connectors for cause/consequence.",
-      "verso": "Because, therefore, as a result, consequently, due to."
+      "recto": "as a result",
+      "verso": "en conséquence\n« As a result, more girls attend school. »"
     }
   ]
 }

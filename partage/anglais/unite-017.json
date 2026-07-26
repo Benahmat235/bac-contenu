@@ -2,11 +2,11 @@
   "id": "anglais-u017",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Passive Voice & Reported Speech (2/3)",
+  "titre": "Connectors — Linking Your Ideas (1/4)",
   "ordre": 17,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Passive Voice & Reported Speech",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Connectors — Linking Your Ideas",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u017-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Direct: 'I am happy.' → Reported:",
-          "reponseAttendue": "He said (that) he was happy.",
+          "question": "because",
+          "reponseAttendue": "parce que\n« I study hard because I want to succeed. »",
           "modeReponse": "auto_evaluation",
-          "explication": "He said (that) he was happy."
+          "explication": "parce que\n« I study hard because I want to succeed. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Direct: 'I will come.' → Reported:",
-          "reponseAttendue": "She said (that) she would come.",
+          "question": "however",
+          "reponseAttendue": "cependant\n« The task was hard; however, we finished it. »",
           "modeReponse": "auto_evaluation",
-          "explication": "She said (that) she would come."
+          "explication": "cependant\n« The task was hard; however, we finished it. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Direct: 'Did you see it?' → Reported:",
-          "reponseAttendue": "He asked if/whether I had seen it.",
+          "question": "therefore",
+          "reponseAttendue": "donc, par conséquent\n« He was absent; therefore he missed the lesson. »",
           "modeReponse": "auto_evaluation",
-          "explication": "He asked if/whether I had seen it."
+          "explication": "donc, par conséquent\n« He was absent; therefore he missed the lesson. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "although",
+          "reponseAttendue": "bien que\n« Although it was raining, we walked to school. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "bien que\n« Although it was raining, we walked to school. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u017-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u017-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "I study hard ___ I want to succeed.",
+          "reponse": "because",
+          "toleranceMots": 0,
+          "explication": "because = parce que"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The task was hard; ___, we finished it.",
+          "reponse": "however",
+          "toleranceMots": 0,
+          "explication": "however = cependant"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "He was absent; ___ he missed the lesson.",
+          "reponse": "therefore",
+          "toleranceMots": 0,
+          "explication": "therefore = donc, par conséquent"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ it was raining, we walked to school.",
+          "reponse": "Although",
+          "toleranceMots": 0,
+          "explication": "although = bien que"
         }
       ]
     },
     {
       "id": "anglais-u017-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Direct: 'I am happy.' → Reported: ?",
+          "question": "What does « because » mean?",
           "options": [
-            "He said (that) he was happy.",
-            "Because, therefore, as a result, consequently, due to.",
-            "renewable energy",
-            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
-          ],
-          "reponse": 0,
-          "explication": "He said (that) he was happy."
-        },
-        {
-          "type": "choix_unique",
-          "question": "Direct: 'I will come.' → Reported: ?",
-          "options": [
-            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
-            "For general truths. Ex: 'If you heat water, it boils.'",
-            "She said (that) she would come.",
-            "human rights"
+            "note",
+            "c'est pourquoi",
+            "parce que",
+            "pollution"
           ],
           "reponse": 2,
-          "explication": "She said (that) she would come."
+          "explication": "because = parce que"
         },
         {
           "type": "choix_unique",
-          "question": "Direct: 'Did you see it?' → Reported: ?",
+          "question": "What does « however » mean?",
           "options": [
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "He asked if/whether I had seen it.",
-            "unemployment",
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+            "pollution",
+            "facile",
+            "cependant",
+            "énergie"
           ],
-          "reponse": 1,
-          "explication": "He asked if/whether I had seen it."
+          "reponse": 2,
+          "explication": "however = cependant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « therefore » mean?",
+          "options": [
+            "s'occuper de",
+            "mémoriser",
+            "donc, par conséquent",
+            "avoir besoin de"
+          ],
+          "reponse": 2,
+          "explication": "therefore = donc, par conséquent"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Direct: 'I am happy.' → Reported:",
-      "verso": "He said (that) he was happy."
+      "recto": "because",
+      "verso": "parce que\n« I study hard because I want to succeed. »"
     },
     {
-      "recto": "Direct: 'I will come.' → Reported:",
-      "verso": "She said (that) she would come."
+      "recto": "however",
+      "verso": "cependant\n« The task was hard; however, we finished it. »"
     },
     {
-      "recto": "Direct: 'Did you see it?' → Reported:",
-      "verso": "He asked if/whether I had seen it."
+      "recto": "therefore",
+      "verso": "donc, par conséquent\n« He was absent; therefore he missed the lesson. »"
+    },
+    {
+      "recto": "although",
+      "verso": "bien que\n« Although it was raining, we walked to school. »"
     }
   ]
 }

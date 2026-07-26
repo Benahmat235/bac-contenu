@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u038",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Technology and Media (1/4)",
+  "ordre": 38,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Technology and Media",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u038-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u038-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "phone",
+          "reponseAttendue": "téléphone\n« Almost everyone has a mobile phone. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "téléphone\n« Almost everyone has a mobile phone. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "computer",
+          "reponseAttendue": "ordinateur\n« The school received ten computers. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "ordinateur\n« The school received ten computers. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "internet",
+          "reponseAttendue": "internet\n« The internet helps students find information. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "internet\n« The internet helps students find information. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "network",
+          "reponseAttendue": "réseau\n« The network is slow in the countryside. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "réseau\n« The network is slow in the countryside. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u038-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u038-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Almost everyone has a mobile ___.",
+          "reponse": "phone",
+          "toleranceMots": 0,
+          "explication": "phone = téléphone"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The school received ten ___s.",
+          "reponse": "computer",
+          "toleranceMots": 0,
+          "explication": "computer = ordinateur"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ helps students find information.",
+          "reponse": "internet",
+          "toleranceMots": 0,
+          "explication": "internet = internet"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ is slow in the countryside.",
+          "reponse": "network",
+          "toleranceMots": 0,
+          "explication": "network = réseau"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u038-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u038-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « phone » mean?",
+          "options": [
+            "suggérer",
+            "rendre, remettre",
+            "téléphone",
+            "nourriture"
+          ],
+          "reponse": 2,
+          "explication": "phone = téléphone"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « computer » mean?",
+          "options": [
+            "décrire",
+            "tard, en retard",
+            "ordinateur",
+            "énergie"
+          ],
+          "reponse": 2,
+          "explication": "computer = ordinateur"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « internet » mean?",
+          "options": [
+            "partager",
+            "élever (un enfait)",
+            "mémoriser",
+            "internet"
+          ],
+          "reponse": 3,
+          "explication": "internet = internet"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "phone",
+      "verso": "téléphone\n« Almost everyone has a mobile phone. »"
+    },
+    {
+      "recto": "computer",
+      "verso": "ordinateur\n« The school received ten computers. »"
+    },
+    {
+      "recto": "internet",
+      "verso": "internet\n« The internet helps students find information. »"
+    },
+    {
+      "recto": "network",
+      "verso": "réseau\n« The network is slow in the countryside. »"
+    }
+  ]
+}

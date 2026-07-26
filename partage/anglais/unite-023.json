@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u023",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Education and Exams (2/4)",
+  "ordre": 23,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Education and Exams",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u023-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u023-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "mark",
+          "reponseAttendue": "note\n« He got the best mark in the class. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "note\n« He got the best mark in the class. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "subject",
+          "reponseAttendue": "matière\n« My favourite subject is biology. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "matière\n« My favourite subject is biology. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "homework",
+          "reponseAttendue": "devoirs\n« The homework is due on Friday. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "devoirs\n« The homework is due on Friday. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "lesson",
+          "reponseAttendue": "leçon\n« This lesson explains the water cycle. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "leçon\n« This lesson explains the water cycle. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u023-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u023-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "He got the best ___ in the class.",
+          "reponse": "mark",
+          "toleranceMots": 0,
+          "explication": "mark = note"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "My favourite ___ is biology.",
+          "reponse": "subject",
+          "toleranceMots": 0,
+          "explication": "subject = matière"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ is due on Friday.",
+          "reponse": "homework",
+          "toleranceMots": 0,
+          "explication": "homework = devoirs"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This ___ explains the water cycle.",
+          "reponse": "lesson",
+          "toleranceMots": 0,
+          "explication": "lesson = leçon"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u023-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u023-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « mark » mean?",
+          "options": [
+            "parce que",
+            "note",
+            "commerce",
+            "d'autre part"
+          ],
+          "reponse": 1,
+          "explication": "mark = note"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « subject » mean?",
+          "options": [
+            "savoir, connaître",
+            "matière",
+            "remplir",
+            "nourriture"
+          ],
+          "reponse": 1,
+          "explication": "subject = matière"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « homework » mean?",
+          "options": [
+            "argent",
+            "devoirs",
+            "bon",
+            "mémoriser"
+          ],
+          "reponse": 1,
+          "explication": "homework = devoirs"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "mark",
+      "verso": "note\n« He got the best mark in the class. »"
+    },
+    {
+      "recto": "subject",
+      "verso": "matière\n« My favourite subject is biology. »"
+    },
+    {
+      "recto": "homework",
+      "verso": "devoirs\n« The homework is due on Friday. »"
+    },
+    {
+      "recto": "lesson",
+      "verso": "leçon\n« This lesson explains the water cycle. »"
+    }
+  ]
+}

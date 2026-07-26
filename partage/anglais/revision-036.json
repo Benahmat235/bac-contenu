@@ -1,0 +1,103 @@
+{
+  "id": "anglais-r036",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Revision",
+  "ordre": 36,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r036-rev",
+      "titre": "Revision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r036-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « pollution » mean?",
+          "options": [
+            "pollution",
+            "pluie",
+            "continuer",
+            "leçon"
+          ],
+          "reponse": 0,
+          "explication": "pollution = pollution"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « early » mean?",
+          "options": [
+            "difficile",
+            "voir",
+            "tôt",
+            "cependant"
+          ],
+          "reponse": 2,
+          "explication": "early = tôt"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « new » mean?",
+          "options": [
+            "nouveau",
+            "trouver",
+            "télécharger",
+            "diplôme universitaire"
+          ],
+          "reponse": 0,
+          "explication": "new = nouveau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to see » mean?",
+          "options": [
+            "comparer",
+            "pays",
+            "voir",
+            "en plus de cela"
+          ],
+          "reponse": 2,
+          "explication": "to see = voir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « water » mean?",
+          "options": [
+            "eau",
+            "rapidement",
+            "écran",
+            "en fait"
+          ],
+          "reponse": 0,
+          "explication": "water = eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to be » mean?",
+          "options": [
+            "être",
+            "définir",
+            "application",
+            "téléphone"
+          ],
+          "reponse": 0,
+          "explication": "to be = être"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

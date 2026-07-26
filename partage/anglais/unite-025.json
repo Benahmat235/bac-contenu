@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u025",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Education and Exams (3/4)",
+  "ordre": 25,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Education and Exams",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u025-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u025-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "knowledge",
+          "reponseAttendue": "connaissance, savoir\n« Knowledge is the best investment. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "connaissance, savoir\n« Knowledge is the best investment. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "scholarship",
+          "reponseAttendue": "bourse d'études\n« He won a scholarship to study medicine. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "bourse d'études\n« He won a scholarship to study medicine. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to attend",
+          "reponseAttendue": "assister à, fréquenter\n« All pupils must attend classes. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "assister à, fréquenter\n« All pupils must attend classes. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to explain",
+          "reponseAttendue": "expliquer\n« Can you explain this formula again? »",
+          "modeReponse": "auto_evaluation",
+          "explication": "expliquer\n« Can you explain this formula again? »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u025-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u025-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ is the best investment.",
+          "reponse": "Knowledge",
+          "toleranceMots": 0,
+          "explication": "knowledge = connaissance, savoir"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "He won a ___ to study medicine.",
+          "reponse": "scholarship",
+          "toleranceMots": 0,
+          "explication": "scholarship = bourse d'études"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "All pupils must ___ classes.",
+          "reponse": "attend",
+          "toleranceMots": 0,
+          "explication": "to attend = assister à, fréquenter"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Can you ___ this formula again?",
+          "reponse": "explain",
+          "toleranceMots": 0,
+          "explication": "to explain = expliquer"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u025-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u025-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « knowledge » mean?",
+          "options": [
+            "connaissance, savoir",
+            "soutenir",
+            "jour",
+            "énergie"
+          ],
+          "reponse": 0,
+          "explication": "knowledge = connaissance, savoir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « scholarship » mean?",
+          "options": [
+            "bourse d'études",
+            "désert",
+            "chômage",
+            "définir"
+          ],
+          "reponse": 0,
+          "explication": "scholarship = bourse d'études"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to attend » mean?",
+          "options": [
+            "assister à, fréquenter",
+            "protéger",
+            "paix",
+            "se concentrer sur"
+          ],
+          "reponse": 0,
+          "explication": "to attend = assister à, fréquenter"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "knowledge",
+      "verso": "connaissance, savoir\n« Knowledge is the best investment. »"
+    },
+    {
+      "recto": "scholarship",
+      "verso": "bourse d'études\n« He won a scholarship to study medicine. »"
+    },
+    {
+      "recto": "to attend",
+      "verso": "assister à, fréquenter\n« All pupils must attend classes. »"
+    },
+    {
+      "recto": "to explain",
+      "verso": "expliquer\n« Can you explain this formula again? »"
+    }
+  ]
+}

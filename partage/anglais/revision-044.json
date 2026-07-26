@@ -1,0 +1,103 @@
+{
+  "id": "anglais-r044",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Revision",
+  "ordre": 44,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r044-rev",
+      "titre": "Revision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r044-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « free » mean?",
+          "options": [
+            "gratuit",
+            "paix",
+            "suggérer",
+            "abandonner"
+          ],
+          "reponse": 0,
+          "explication": "free = gratuit"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « subject » mean?",
+          "options": [
+            "énergie",
+            "vie",
+            "pauvreté",
+            "matière"
+          ],
+          "reponse": 3,
+          "explication": "subject = matière"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « work » mean?",
+          "options": [
+            "vie",
+            "justifier",
+            "travail",
+            "prouver"
+          ],
+          "reponse": 2,
+          "explication": "work = travail"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « on the other hand » mean?",
+          "options": [
+            "devoirs",
+            "découvrir",
+            "traiter de",
+            "d'autre part"
+          ],
+          "reponse": 3,
+          "explication": "on the other hand = d'autre part"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « new » mean?",
+          "options": [
+            "discuter, débattre",
+            "réseau",
+            "nouveau",
+            "c'est pourquoi"
+          ],
+          "reponse": 2,
+          "explication": "new = nouveau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to succeed » mean?",
+          "options": [
+            "réussir (un examen)",
+            "allumer",
+            "s'occuper de",
+            "réussir"
+          ],
+          "reponse": 3,
+          "explication": "to succeed = réussir"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

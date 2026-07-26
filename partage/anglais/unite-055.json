@@ -1,0 +1,110 @@
+{
+  "id": "anglais-u055",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "English Tenses: Present & Past (2/3)",
+  "ordre": 55,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u055-memorisation",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u055-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "What is the structure of Past Simple (regular)?",
+          "reponseAttendue": "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the structure of Present Perfect?",
+          "reponseAttendue": "Subject + have/has + past participle. Ex: 'They have studied all night.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+          "reponseAttendue": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+          "modeReponse": "auto_evaluation",
+          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u055-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u055-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of Past Simple (regular)?",
+          "options": [
+            "For instance, for example, such as, to illustrate.",
+            "'French is spoken in Chad.'",
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "poverty"
+          ],
+          "reponse": 2,
+          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of Present Perfect?",
+          "options": [
+            "Subject + have/has + past participle. Ex: 'They have studied all night.'",
+            "drought",
+            "'French is spoken in Chad.'",
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          ],
+          "reponse": 0,
+          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+          "options": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "scholarship",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "unemployment"
+          ],
+          "reponse": 2,
+          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "What is the structure of Past Simple (regular)?",
+      "verso": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+    },
+    {
+      "recto": "What is the structure of Present Perfect?",
+      "verso": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+    },
+    {
+      "recto": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+      "verso": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+    }
+  ]
+}

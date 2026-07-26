@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u041",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Technology and Media (3/4)",
+  "ordre": 41,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Technology and Media",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u041-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u041-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "screen",
+          "reponseAttendue": "écran\n« Do not look at the screen for too long. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "écran\n« Do not look at the screen for too long. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "application",
+          "reponseAttendue": "application\n« This application teaches English for free. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "application\n« This application teaches English for free. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "battery",
+          "reponseAttendue": "batterie\n« My phone battery is almost empty. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "batterie\n« My phone battery is almost empty. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to download",
+          "reponseAttendue": "télécharger\n« You can download the lesson offline. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "télécharger\n« You can download the lesson offline. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u041-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u041-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Do not look at the ___ for too long.",
+          "reponse": "screen",
+          "toleranceMots": 0,
+          "explication": "screen = écran"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This ___ teaches English for free.",
+          "reponse": "application",
+          "toleranceMots": 0,
+          "explication": "application = application"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "My phone ___ is almost empty.",
+          "reponse": "battery",
+          "toleranceMots": 0,
+          "explication": "battery = batterie"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "You can ___ the lesson offline.",
+          "reponse": "download",
+          "toleranceMots": 0,
+          "explication": "to download = télécharger"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u041-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u041-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « screen » mean?",
+          "options": [
+            "gouvernement",
+            "manquer de",
+            "écran",
+            "réussir (un examen)"
+          ],
+          "reponse": 2,
+          "explication": "screen = écran"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « application » mean?",
+          "options": [
+            "citoyen",
+            "grand, vaste",
+            "application",
+            "résumer"
+          ],
+          "reponse": 2,
+          "explication": "application = application"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « battery » mean?",
+          "options": [
+            "en conclusion",
+            "fabriquer, faire",
+            "but, objectif",
+            "batterie"
+          ],
+          "reponse": 3,
+          "explication": "battery = batterie"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "screen",
+      "verso": "écran\n« Do not look at the screen for too long. »"
+    },
+    {
+      "recto": "application",
+      "verso": "application\n« This application teaches English for free. »"
+    },
+    {
+      "recto": "battery",
+      "verso": "batterie\n« My phone battery is almost empty. »"
+    },
+    {
+      "recto": "to download",
+      "verso": "télécharger\n« You can download the lesson offline. »"
+    }
+  ]
+}

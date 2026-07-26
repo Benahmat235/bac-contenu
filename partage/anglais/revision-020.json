@@ -2,11 +2,11 @@
   "id": "anglais-r020",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Révision",
+  "titre": "Revision",
   "ordre": 20,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Révision",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,46 +19,82 @@
   "etapes": [
     {
       "id": "anglais-r020-rev",
-      "titre": "Révision",
+      "titre": "Revision",
       "categorie": "revision",
       "seuilReussite": 70,
       "competenceId": "anglais-r020-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'énergie renouvelable' ?",
+          "question": "What does « late » mean?",
           "options": [
-            "prevention",
-            "human rights",
-            "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
-            "renewable energy"
+            "tard, en retard",
+            "en plus de cela",
+            "bien que",
+            "réussir"
+          ],
+          "reponse": 0,
+          "explication": "late = tard, en retard"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « moreover » mean?",
+          "options": [
+            "mauvais",
+            "de plus",
+            "bourse d'études",
+            "allumer"
+          ],
+          "reponse": 1,
+          "explication": "moreover = de plus"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to do » mean?",
+          "options": [
+            "examen",
+            "fabriquer, faire",
+            "information",
+            "faire"
           ],
           "reponse": 3,
-          "explication": "renewable energy"
+          "explication": "to do = faire"
         },
         {
           "type": "choix_unique",
-          "question": "What is the structure of Past Simple (regular)?",
+          "question": "What does « to need » mean?",
           "options": [
-            "baccalaureate / high school diploma",
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+            "bon",
+            "élever (un enfait)",
+            "avoir besoin de",
+            "aller"
           ],
           "reponse": 2,
-          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          "explication": "to need = avoir besoin de"
         },
         {
           "type": "choix_unique",
-          "question": "Give 3 connectors for adding ideas. ?",
+          "question": "What does « finally » mean?",
           "options": [
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "However, nevertheless, on the other hand, whereas.",
-            "Furthermore, moreover, in addition, besides.",
-            "been, had, done, made"
+            "petit",
+            "enfin",
+            "travail",
+            "discuter, débattre"
           ],
-          "reponse": 2,
-          "explication": "Furthermore, moreover, in addition, besides."
+          "reponse": 1,
+          "explication": "finally = enfin"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to come » mean?",
+          "options": [
+            "continuer",
+            "égalité",
+            "bon",
+            "venir"
+          ],
+          "reponse": 3,
+          "explication": "to come = venir"
         }
       ]
     }

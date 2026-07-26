@@ -2,11 +2,11 @@
   "id": "anglais-u006",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Vocabulary: Environment & Health (2/3)",
+  "titre": "Core Nouns — People and Places (1/4)",
   "ordre": 6,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Environment & Health",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Nouns — People and Places",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u006-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u006-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Translate: 'énergie renouvelable'",
-          "reponseAttendue": "renewable energy",
+          "question": "time",
+          "reponseAttendue": "temps\n« We do not have much time before the exam. »",
           "modeReponse": "auto_evaluation",
-          "explication": "renewable energy"
+          "explication": "temps\n« We do not have much time before the exam. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'maladie contagieuse'",
-          "reponseAttendue": "contagious / infectious disease",
+          "question": "year",
+          "reponseAttendue": "année\n« This year I will take the baccalaureate. »",
           "modeReponse": "auto_evaluation",
-          "explication": "contagious / infectious disease"
+          "explication": "année\n« This year I will take the baccalaureate. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'espérance de vie'",
-          "reponseAttendue": "life expectancy",
+          "question": "day",
+          "reponseAttendue": "jour\n« Every day I revise for two hours. »",
           "modeReponse": "auto_evaluation",
-          "explication": "life expectancy"
+          "explication": "jour\n« Every day I revise for two hours. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "people",
+          "reponseAttendue": "gens, personnes\n« Many people speak both French and Arabic in Chad. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "gens, personnes\n« Many people speak both French and Arabic in Chad. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u006-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u006-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "We do not have much ___ before the exam.",
+          "reponse": "time",
+          "toleranceMots": 0,
+          "explication": "time = temps"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This ___ I will take the baccalaureate.",
+          "reponse": "year",
+          "toleranceMots": 0,
+          "explication": "year = année"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Every ___ I revise for two hours.",
+          "reponse": "day",
+          "toleranceMots": 0,
+          "explication": "day = jour"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Many ___ speak both French and Arabic in Chad.",
+          "reponse": "people",
+          "toleranceMots": 0,
+          "explication": "people = gens, personnes"
         }
       ]
     },
     {
       "id": "anglais-u006-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u006-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'énergie renouvelable' ?",
+          "question": "What does « time » mean?",
           "options": [
-            "renewable energy",
-            "On the one hand… on the other hand…",
-            "unemployment",
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+            "temps",
+            "jamais",
+            "toujours",
+            "avenir"
           ],
           "reponse": 0,
-          "explication": "renewable energy"
+          "explication": "time = temps"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'maladie contagieuse' ?",
+          "question": "What does « year » mean?",
           "options": [
-            "The first sentence of a paragraph that states its main idea.",
-            "contagious / infectious disease",
-            "water pollution",
-            "Furthermore, moreover, in addition, besides."
+            "tôt",
+            "année",
+            "difficile",
+            "hôpital"
           ],
           "reponse": 1,
-          "explication": "contagious / infectious disease"
+          "explication": "year = année"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'espérance de vie' ?",
+          "question": "What does « day » mean?",
           "options": [
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "life expectancy",
-            "poverty",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+            "jour",
+            "alphabétisation",
+            "construire",
+            "être"
           ],
-          "reponse": 1,
-          "explication": "life expectancy"
+          "reponse": 0,
+          "explication": "day = jour"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Translate: 'énergie renouvelable'",
-      "verso": "renewable energy"
+      "recto": "time",
+      "verso": "temps\n« We do not have much time before the exam. »"
     },
     {
-      "recto": "Translate: 'maladie contagieuse'",
-      "verso": "contagious / infectious disease"
+      "recto": "year",
+      "verso": "année\n« This year I will take the baccalaureate. »"
     },
     {
-      "recto": "Translate: 'espérance de vie'",
-      "verso": "life expectancy"
+      "recto": "day",
+      "verso": "jour\n« Every day I revise for two hours. »"
+    },
+    {
+      "recto": "people",
+      "verso": "gens, personnes\n« Many people speak both French and Arabic in Chad. »"
     }
   ]
 }

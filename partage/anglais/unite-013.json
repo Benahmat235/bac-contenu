@@ -2,11 +2,11 @@
   "id": "anglais-u013",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "English Tenses: Future & Conditionals (1/2)",
+  "titre": "Core Adjectives and Adverbs (2/4)",
   "ordre": 13,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Future & Conditionals",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Adjectives and Adverbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,103 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u013-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u013-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "When do we use 'will + verb'?",
-          "reponseAttendue": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'",
+          "question": "easy",
+          "reponseAttendue": "facile\n« The first question was easy. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+          "explication": "facile\n« The first question was easy. »"
         },
         {
           "type": "rappel_actif",
-          "question": "When do we use 'going to + verb'?",
-          "reponseAttendue": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
+          "question": "young",
+          "reponseAttendue": "jeune\n« Many young people want to study abroad. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          "explication": "jeune\n« Many young people want to study abroad. »"
         },
         {
           "type": "rappel_actif",
-          "question": "What is the Zero Conditional? (If + present, present)",
-          "reponseAttendue": "For general truths. Ex: 'If you heat water, it boils.'",
+          "question": "large",
+          "reponseAttendue": "grand, vaste\n« Chad has a large territory. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+          "explication": "grand, vaste\n« Chad has a large territory. »"
         },
         {
           "type": "rappel_actif",
-          "question": "What is the First Conditional? (If + present, will + verb)",
-          "reponseAttendue": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
+          "question": "small",
+          "reponseAttendue": "petit\n« We live in a small house. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+          "explication": "petit\n« We live in a small house. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u013-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u013-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "The first question was ___.",
+          "reponse": "easy",
+          "toleranceMots": 0,
+          "explication": "easy = facile"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Many ___ people want to study abroad.",
+          "reponse": "young",
+          "toleranceMots": 0,
+          "explication": "young = jeune"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Chad has a ___ territory.",
+          "reponse": "large",
+          "toleranceMots": 0,
+          "explication": "large = grand, vaste"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "We live in a ___ house.",
+          "reponse": "small",
+          "toleranceMots": 0,
+          "explication": "small = petit"
         }
       ]
     },
     {
       "id": "anglais-u013-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u013-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "When do we use 'will + verb'?",
+          "question": "What does « easy » mean?",
           "options": [
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "human rights",
-            "drought",
-            "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+            "justifier",
+            "télécharger",
+            "village",
+            "facile"
           ],
           "reponse": 3,
-          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+          "explication": "easy = facile"
         },
         {
           "type": "choix_unique",
-          "question": "When do we use 'going to + verb'?",
+          "question": "What does « young » mean?",
           "options": [
-            "She said (that) she would come.",
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "In my opinion, I believe that, From my point of view, It seems to me that."
+            "important",
+            "bon",
+            "marché",
+            "jeune"
           ],
-          "reponse": 1,
-          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          "reponse": 3,
+          "explication": "young = jeune"
         },
         {
           "type": "choix_unique",
-          "question": "What is the Zero Conditional? (If + present, present) ?",
+          "question": "What does « large » mean?",
           "options": [
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "For general truths. Ex: 'If you heat water, it boils.'"
+            "devoirs",
+            "en fait",
+            "citoyen",
+            "grand, vaste"
           ],
           "reponse": 3,
-          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+          "explication": "large = grand, vaste"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "When do we use 'will + verb'?",
-      "verso": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+      "recto": "easy",
+      "verso": "facile\n« The first question was easy. »"
     },
     {
-      "recto": "When do we use 'going to + verb'?",
-      "verso": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+      "recto": "young",
+      "verso": "jeune\n« Many young people want to study abroad. »"
     },
     {
-      "recto": "What is the Zero Conditional? (If + present, present)",
-      "verso": "For general truths. Ex: 'If you heat water, it boils.'"
+      "recto": "large",
+      "verso": "grand, vaste\n« Chad has a large territory. »"
     },
     {
-      "recto": "What is the First Conditional? (If + present, will + verb)",
-      "verso": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+      "recto": "small",
+      "verso": "petit\n« We live in a small house. »"
     }
   ]
 }

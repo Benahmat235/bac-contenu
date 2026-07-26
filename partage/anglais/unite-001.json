@@ -2,11 +2,11 @@
   "id": "anglais-u001",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Vocabulary: Education & Society (1/3)",
+  "titre": "Core Verbs — Everyday Actions (1/4)",
   "ordre": 1,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Education & Society",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,119 +19,133 @@
   "etapes": [
     {
       "id": "anglais-u001-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Translate: 'baccalauréat'",
-          "reponseAttendue": "baccalaureate / high school diploma",
+          "question": "to be",
+          "reponseAttendue": "être\n« I am a student in N'Djamena. »",
           "modeReponse": "auto_evaluation",
-          "explication": "baccalaureate / high school diploma"
+          "explication": "être\n« I am a student in N'Djamena. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'réussir un examen'",
-          "reponseAttendue": "to pass an exam",
+          "question": "to have",
+          "reponseAttendue": "avoir\n« We have an exam next Monday. »",
           "modeReponse": "auto_evaluation",
-          "explication": "to pass an exam"
+          "explication": "avoir\n« We have an exam next Monday. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'échouer à un examen'",
-          "reponseAttendue": "to fail an exam",
+          "question": "to do",
+          "reponseAttendue": "faire\n« She does her homework every evening. »",
           "modeReponse": "auto_evaluation",
-          "explication": "to fail an exam"
+          "explication": "faire\n« She does her homework every evening. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'bourse d'études'",
-          "reponseAttendue": "scholarship",
+          "question": "to go",
+          "reponseAttendue": "aller\n« They go to school on foot. »",
           "modeReponse": "auto_evaluation",
-          "explication": "scholarship"
+          "explication": "aller\n« They go to school on foot. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u001-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u001-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "We ___ an exam next Monday.",
+          "reponse": "have",
+          "toleranceMots": 0,
+          "explication": "to have = avoir"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She ___es her homework every evening.",
+          "reponse": "do",
+          "toleranceMots": 0,
+          "explication": "to do = faire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "They ___ to school on foot.",
+          "reponse": "go",
+          "toleranceMots": 0,
+          "explication": "to go = aller"
         }
       ]
     },
     {
       "id": "anglais-u001-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'baccalauréat' ?",
+          "question": "What does « to be » mean?",
           "options": [
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
-            "baccalaureate / high school diploma",
-            "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+            "site web",
+            "être",
+            "paix",
+            "en fait"
           ],
           "reponse": 1,
-          "explication": "baccalaureate / high school diploma"
+          "explication": "to be = être"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'réussir un examen' ?",
+          "question": "What does « to have » mean?",
           "options": [
-            "water pollution",
-            "to pass an exam",
-            "life expectancy",
-            "sustainable development"
+            "remplir",
+            "avoir",
+            "expliquer",
+            "selon"
           ],
           "reponse": 1,
-          "explication": "to pass an exam"
+          "explication": "to have = avoir"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'échouer à un examen' ?",
+          "question": "What does « to do » mean?",
           "options": [
-            "baccalaureate / high school diploma",
-            "enrollment rate / schooling rate",
-            "to fail an exam",
-            "The first sentence of a paragraph that states its main idea."
+            "fabriquer, faire",
+            "répondre",
+            "tandis que",
+            "faire"
           ],
-          "reponse": 2,
-          "explication": "to fail an exam"
+          "reponse": 3,
+          "explication": "to do = faire"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Translate: 'baccalauréat'",
-      "verso": "baccalaureate / high school diploma"
+      "recto": "to be",
+      "verso": "être\n« I am a student in N'Djamena. »"
     },
     {
-      "recto": "Translate: 'réussir un examen'",
-      "verso": "to pass an exam"
+      "recto": "to have",
+      "verso": "avoir\n« We have an exam next Monday. »"
     },
     {
-      "recto": "Translate: 'échouer à un examen'",
-      "verso": "to fail an exam"
+      "recto": "to do",
+      "verso": "faire\n« She does her homework every evening. »"
     },
     {
-      "recto": "Translate: 'bourse d'études'",
-      "verso": "scholarship"
-    }
-  ],
-  "videos": [
-    {
-      "titre": "How to remember English vocabulary",
-      "url": "https://youtu.be/ZM6Sg4SN7kU",
-      "type": "video",
-      "chaine": "Bob the Canadian",
-      "auteur": "Bob the Canadian"
-    },
-    {
-      "titre": "The best way to improve your English vocabulary",
-      "url": "https://youtu.be/awIXN5LgWKY",
-      "type": "video",
-      "chaine": "EngFluent",
-      "auteur": "EngFluent"
+      "recto": "to go",
+      "verso": "aller\n« They go to school on foot. »"
     }
   ]
 }

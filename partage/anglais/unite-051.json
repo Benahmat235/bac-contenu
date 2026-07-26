@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u051",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essential Phrasal Verbs (3/4)",
+  "ordre": 51,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Essential Phrasal Verbs",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u051-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u051-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to go on",
+          "reponseAttendue": "continuer\n« Go on reading until the end. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "continuer\n« Go on reading until the end. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to turn on",
+          "reponseAttendue": "allumer\n« Turn on the light, please. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "allumer\n« Turn on the light, please. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to turn off",
+          "reponseAttendue": "éteindre\n« Turn off your phone during the exam. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "éteindre\n« Turn off your phone during the exam. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to fill in",
+          "reponseAttendue": "remplir\n« Fill in the form with your name. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "remplir\n« Fill in the form with your name. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u051-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u051-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ reading until the end.",
+          "reponse": "Go on",
+          "toleranceMots": 0,
+          "explication": "to go on = continuer"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the light, please.",
+          "reponse": "Turn on",
+          "toleranceMots": 0,
+          "explication": "to turn on = allumer"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ your phone during the exam.",
+          "reponse": "Turn off",
+          "toleranceMots": 0,
+          "explication": "to turn off = éteindre"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the form with your name.",
+          "reponse": "Fill in",
+          "toleranceMots": 0,
+          "explication": "to fill in = remplir"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u051-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u051-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to go on » mean?",
+          "options": [
+            "en plus de cela",
+            "continuer",
+            "avoir",
+            "réseau"
+          ],
+          "reponse": 1,
+          "explication": "to go on = continuer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to turn on » mean?",
+          "options": [
+            "continuer",
+            "allumer",
+            "prendre",
+            "d'autre part"
+          ],
+          "reponse": 1,
+          "explication": "to turn on = allumer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to turn off » mean?",
+          "options": [
+            "éteindre",
+            "se connecter",
+            "partager",
+            "enseignant"
+          ],
+          "reponse": 0,
+          "explication": "to turn off = éteindre"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to go on",
+      "verso": "continuer\n« Go on reading until the end. »"
+    },
+    {
+      "recto": "to turn on",
+      "verso": "allumer\n« Turn on the light, please. »"
+    },
+    {
+      "recto": "to turn off",
+      "verso": "éteindre\n« Turn off your phone during the exam. »"
+    },
+    {
+      "recto": "to fill in",
+      "verso": "remplir\n« Fill in the form with your name. »"
+    }
+  ]
+}

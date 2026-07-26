@@ -1,0 +1,137 @@
+{
+  "id": "anglais-u049",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essential Phrasal Verbs (1/4)",
+  "ordre": 49,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Essential Phrasal Verbs",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u049-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u049-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to look for",
+          "reponseAttendue": "chercher\n« I am looking for my English notebook. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "chercher\n« I am looking for my English notebook. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to look after",
+          "reponseAttendue": "s'occuper de\n« She looks after her younger brothers. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "s'occuper de\n« She looks after her younger brothers. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to give up",
+          "reponseAttendue": "abandonner\n« Never give up before the exam. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "abandonner\n« Never give up before the exam. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to find out",
+          "reponseAttendue": "découvrir\n« We found out the results yesterday. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "découvrir\n« We found out the results yesterday. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u049-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u049-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Never ___ before the exam.",
+          "reponse": "give up",
+          "toleranceMots": 0,
+          "explication": "to give up = abandonner"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u049-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u049-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to look for » mean?",
+          "options": [
+            "réussir",
+            "chercher",
+            "problème, question",
+            "rendre, remettre"
+          ],
+          "reponse": 1,
+          "explication": "to look for = chercher"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to look after » mean?",
+          "options": [
+            "s'occuper de",
+            "pollution",
+            "élève, étudiant",
+            "médicament"
+          ],
+          "reponse": 0,
+          "explication": "to look after = s'occuper de"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to give up » mean?",
+          "options": [
+            "améliorer",
+            "arbre",
+            "vouloir",
+            "abandonner"
+          ],
+          "reponse": 3,
+          "explication": "to give up = abandonner"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to look for",
+      "verso": "chercher\n« I am looking for my English notebook. »"
+    },
+    {
+      "recto": "to look after",
+      "verso": "s'occuper de\n« She looks after her younger brothers. »"
+    },
+    {
+      "recto": "to give up",
+      "verso": "abandonner\n« Never give up before the exam. »"
+    },
+    {
+      "recto": "to find out",
+      "verso": "découvrir\n« We found out the results yesterday. »"
+    }
+  ]
+}
