@@ -2,11 +2,11 @@
   "id": "anglais-u007",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Vocabulary: Environment & Health (3/3)",
+  "titre": "Core Nouns — People and Places (2/4)",
   "ordre": 7,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Environment & Health",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Nouns — People and Places",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u007-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Translate: 'système de santé'",
-          "reponseAttendue": "healthcare system",
+          "question": "country",
+          "reponseAttendue": "pays\n« Chad is a large country in Central Africa. »",
           "modeReponse": "auto_evaluation",
-          "explication": "healthcare system"
+          "explication": "pays\n« Chad is a large country in Central Africa. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'prévention'",
-          "reponseAttendue": "prevention",
+          "question": "school",
+          "reponseAttendue": "école\n« Our school is near the market. »",
           "modeReponse": "auto_evaluation",
-          "explication": "prevention"
+          "explication": "école\n« Our school is near the market. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'assainissement'",
-          "reponseAttendue": "sanitation",
+          "question": "student",
+          "reponseAttendue": "élève, étudiant\n« Every student must bring a pen. »",
           "modeReponse": "auto_evaluation",
-          "explication": "sanitation"
+          "explication": "élève, étudiant\n« Every student must bring a pen. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "teacher",
+          "reponseAttendue": "enseignant\n« The teacher explained the lesson clearly. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "enseignant\n« The teacher explained the lesson clearly. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u007-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u007-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Chad is a large ___ in Central Africa.",
+          "reponse": "country",
+          "toleranceMots": 0,
+          "explication": "country = pays"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Our ___ is near the market.",
+          "reponse": "school",
+          "toleranceMots": 0,
+          "explication": "school = école"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Every ___ must bring a pen.",
+          "reponse": "student",
+          "toleranceMots": 0,
+          "explication": "student = élève, étudiant"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ explained the lesson clearly.",
+          "reponse": "teacher",
+          "toleranceMots": 0,
+          "explication": "teacher = enseignant"
         }
       ]
     },
     {
       "id": "anglais-u007-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'système de santé' ?",
+          "question": "What does « country » mean?",
           "options": [
-            "healthcare system",
-            "In conclusion, I believe that education is the key to development.",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "sustainable development"
-          ],
-          "reponse": 0,
-          "explication": "healthcare system"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'prévention' ?",
-          "options": [
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "'The letter was written (by her).'",
-            "life expectancy",
-            "prevention"
-          ],
-          "reponse": 3,
-          "explication": "prevention"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'assainissement' ?",
-          "options": [
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
-            "sanitation",
-            "illiteracy",
-            "sustainable development"
+            "toujours",
+            "pays",
+            "réussir (un examen)",
+            "se lever"
           ],
           "reponse": 1,
-          "explication": "sanitation"
+          "explication": "country = pays"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « school » mean?",
+          "options": [
+            "leçon",
+            "en plus de cela",
+            "école",
+            "trouver"
+          ],
+          "reponse": 2,
+          "explication": "school = école"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « student » mean?",
+          "options": [
+            "donner",
+            "élève, étudiant",
+            "but, objectif",
+            "souligner, faire remarquer"
+          ],
+          "reponse": 1,
+          "explication": "student = élève, étudiant"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Translate: 'système de santé'",
-      "verso": "healthcare system"
+      "recto": "country",
+      "verso": "pays\n« Chad is a large country in Central Africa. »"
     },
     {
-      "recto": "Translate: 'prévention'",
-      "verso": "prevention"
+      "recto": "school",
+      "verso": "école\n« Our school is near the market. »"
     },
     {
-      "recto": "Translate: 'assainissement'",
-      "verso": "sanitation"
+      "recto": "student",
+      "verso": "élève, étudiant\n« Every student must bring a pen. »"
+    },
+    {
+      "recto": "teacher",
+      "verso": "enseignant\n« The teacher explained the lesson clearly. »"
     }
   ]
 }

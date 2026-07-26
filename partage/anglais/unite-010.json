@@ -2,11 +2,11 @@
   "id": "anglais-u010",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "English Tenses: Present & Past (2/3)",
+  "titre": "Core Nouns — People and Places (4/4)",
   "ordre": 10,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Present & Past",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Nouns — People and Places",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u010-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "What is the structure of Past Simple (regular)?",
-          "reponseAttendue": "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+          "question": "city",
+          "reponseAttendue": "ville\n« N'Djamena is the capital city of Chad. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          "explication": "ville\n« N'Djamena is the capital city of Chad. »"
         },
         {
           "type": "rappel_actif",
-          "question": "What is the structure of Present Perfect?",
-          "reponseAttendue": "Subject + have/has + past participle. Ex: 'They have studied all night.'",
+          "question": "village",
+          "reponseAttendue": "village\n« She grew up in a small village. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+          "explication": "village\n« She grew up in a small village. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-          "reponseAttendue": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+          "question": "life",
+          "reponseAttendue": "vie\n« Education can change your life. »",
           "modeReponse": "auto_evaluation",
-          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          "explication": "vie\n« Education can change your life. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "future",
+          "reponseAttendue": "avenir\n« I am preparing for my future. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "avenir\n« I am preparing for my future. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u010-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u010-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "N'Djamena is the capital ___ of Chad.",
+          "reponse": "city",
+          "toleranceMots": 0,
+          "explication": "city = ville"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She grew up in a small ___.",
+          "reponse": "village",
+          "toleranceMots": 0,
+          "explication": "village = village"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Education can change your ___.",
+          "reponse": "life",
+          "toleranceMots": 0,
+          "explication": "life = vie"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I am preparing for my ___.",
+          "reponse": "future",
+          "toleranceMots": 0,
+          "explication": "future = avenir"
         }
       ]
     },
     {
       "id": "anglais-u010-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "What is the structure of Past Simple (regular)?",
+          "question": "What does « city » mean?",
           "options": [
-            "For instance, for example, such as, to illustrate.",
-            "'French is spoken in Chad.'",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "poverty"
+            "grand, vaste",
+            "bon",
+            "ville",
+            "réussir (un examen)"
           ],
           "reponse": 2,
-          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          "explication": "city = ville"
         },
         {
           "type": "choix_unique",
-          "question": "What is the structure of Present Perfect?",
+          "question": "What does « village » mean?",
           "options": [
-            "Subject + have/has + past participle. Ex: 'They have studied all night.'",
-            "drought",
-            "'French is spoken in Chad.'",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+            "continuer",
+            "village",
+            "problème, question",
+            "marché"
           ],
-          "reponse": 0,
-          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+          "reponse": 1,
+          "explication": "village = village"
         },
         {
           "type": "choix_unique",
-          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+          "question": "What does « life » mean?",
           "options": [
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "scholarship",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "unemployment"
+            "partager",
+            "se connecter",
+            "vie",
+            "temps"
           ],
           "reponse": 2,
-          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          "explication": "life = vie"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "What is the structure of Past Simple (regular)?",
-      "verso": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+      "recto": "city",
+      "verso": "ville\n« N'Djamena is the capital city of Chad. »"
     },
     {
-      "recto": "What is the structure of Present Perfect?",
-      "verso": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+      "recto": "village",
+      "verso": "village\n« She grew up in a small village. »"
     },
     {
-      "recto": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-      "verso": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+      "recto": "life",
+      "verso": "vie\n« Education can change your life. »"
+    },
+    {
+      "recto": "future",
+      "verso": "avenir\n« I am preparing for my future. »"
     }
   ]
 }

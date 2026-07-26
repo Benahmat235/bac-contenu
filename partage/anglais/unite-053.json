@@ -1,0 +1,144 @@
+{
+  "id": "anglais-u053",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Essential Phrasal Verbs (4/4)",
+  "ordre": 53,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Essential Phrasal Verbs",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u053-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u053-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to hand in",
+          "reponseAttendue": "rendre, remettre\n« Hand in your paper before noon. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "rendre, remettre\n« Hand in your paper before noon. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to bring up",
+          "reponseAttendue": "élever (un enfait)\n« My grandmother brought me up. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "élever (un enfait)\n« My grandmother brought me up. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to run out of",
+          "reponseAttendue": "manquer de\n« We ran out of paper yesterday. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "manquer de\n« We ran out of paper yesterday. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to put off",
+          "reponseAttendue": "reporter\n« Do not put off your revision. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "reporter\n« Do not put off your revision. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u053-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u053-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ your paper before noon.",
+          "reponse": "Hand in",
+          "toleranceMots": 0,
+          "explication": "to hand in = rendre, remettre"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Do not ___ your revision.",
+          "reponse": "put off",
+          "toleranceMots": 0,
+          "explication": "to put off = reporter"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u053-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u053-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to hand in » mean?",
+          "options": [
+            "mémoriser",
+            "rendre, remettre",
+            "hôpital",
+            "donner"
+          ],
+          "reponse": 1,
+          "explication": "to hand in = rendre, remettre"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to bring up » mean?",
+          "options": [
+            "travailler",
+            "élever (un enfait)",
+            "tout d'abord",
+            "note"
+          ],
+          "reponse": 1,
+          "explication": "to bring up = élever (un enfait)"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to run out of » mean?",
+          "options": [
+            "manquer de",
+            "enseignant",
+            "jour",
+            "continuer"
+          ],
+          "reponse": 0,
+          "explication": "to run out of = manquer de"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to hand in",
+      "verso": "rendre, remettre\n« Hand in your paper before noon. »"
+    },
+    {
+      "recto": "to bring up",
+      "verso": "élever (un enfait)\n« My grandmother brought me up. »"
+    },
+    {
+      "recto": "to run out of",
+      "verso": "manquer de\n« We ran out of paper yesterday. »"
+    },
+    {
+      "recto": "to put off",
+      "verso": "reporter\n« Do not put off your revision. »"
+    }
+  ]
+}

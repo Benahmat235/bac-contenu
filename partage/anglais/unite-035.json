@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u035",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Environment and Health (3/4)",
+  "ordre": 35,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Environment and Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u035-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u035-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "health",
+          "reponseAttendue": "santé\n« Good health depends on clean water. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "santé\n« Good health depends on clean water. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "disease",
+          "reponseAttendue": "maladie\n« Malaria is a common disease here. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "maladie\n« Malaria is a common disease here. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "hospital",
+          "reponseAttendue": "hôpital\n« The nearest hospital is ten kilometres away. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "hôpital\n« The nearest hospital is ten kilometres away. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "medicine",
+          "reponseAttendue": "médicament\n« The doctor prescribed a strong medicine. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "médicament\n« The doctor prescribed a strong medicine. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u035-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u035-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Good ___ depends on clean water.",
+          "reponse": "health",
+          "toleranceMots": 0,
+          "explication": "health = santé"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Malaria is a common ___ here.",
+          "reponse": "disease",
+          "toleranceMots": 0,
+          "explication": "disease = maladie"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The nearest ___ is ten kilometres away.",
+          "reponse": "hospital",
+          "toleranceMots": 0,
+          "explication": "hospital = hôpital"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The doctor prescribed a strong ___.",
+          "reponse": "medicine",
+          "toleranceMots": 0,
+          "explication": "medicine = médicament"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u035-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u035-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « health » mean?",
+          "options": [
+            "réaliser, mener",
+            "internet",
+            "santé",
+            "savoir, connaître"
+          ],
+          "reponse": 2,
+          "explication": "health = santé"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « disease » mean?",
+          "options": [
+            "réussir (un examen)",
+            "pays",
+            "pluie",
+            "maladie"
+          ],
+          "reponse": 3,
+          "explication": "disease = maladie"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « hospital » mean?",
+          "options": [
+            "paix",
+            "hôpital",
+            "village",
+            "désert"
+          ],
+          "reponse": 1,
+          "explication": "hospital = hôpital"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "health",
+      "verso": "santé\n« Good health depends on clean water. »"
+    },
+    {
+      "recto": "disease",
+      "verso": "maladie\n« Malaria is a common disease here. »"
+    },
+    {
+      "recto": "hospital",
+      "verso": "hôpital\n« The nearest hospital is ten kilometres away. »"
+    },
+    {
+      "recto": "medicine",
+      "verso": "médicament\n« The doctor prescribed a strong medicine. »"
+    }
+  ]
+}

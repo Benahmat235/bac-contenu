@@ -1,0 +1,103 @@
+{
+  "id": "anglais-r028",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Revision",
+  "ordre": 28,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r028-rev",
+      "titre": "Revision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r028-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to know » mean?",
+          "options": [
+            "par exemple",
+            "vouloir",
+            "fabriquer, faire",
+            "savoir, connaître"
+          ],
+          "reponse": 3,
+          "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « although » mean?",
+          "options": [
+            "bien que",
+            "savoir, connaître",
+            "grand, vaste",
+            "se lever"
+          ],
+          "reponse": 0,
+          "explication": "although = bien que"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « young » mean?",
+          "options": [
+            "bourse d'études",
+            "environnement",
+            "jeune",
+            "analyser"
+          ],
+          "reponse": 2,
+          "explication": "young = jeune"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « however » mean?",
+          "options": [
+            "cependant",
+            "agriculteur",
+            "village",
+            "avenir"
+          ],
+          "reponse": 0,
+          "explication": "however = cependant"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to fail » mean?",
+          "options": [
+            "échouer",
+            "diplôme universitaire",
+            "réseau",
+            "pauvreté"
+          ],
+          "reponse": 0,
+          "explication": "to fail = échouer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « for example » mean?",
+          "options": [
+            "par exemple",
+            "réussir (un examen)",
+            "analyser",
+            "avec soin"
+          ],
+          "reponse": 0,
+          "explication": "for example = par exemple"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

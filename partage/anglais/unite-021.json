@@ -2,11 +2,11 @@
   "id": "anglais-u021",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Essay Writing & Useful Expressions (2/3)",
+  "titre": "Connectors — Linking Your Ideas (4/4)",
   "ordre": 21,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Essay Writing & Useful Expressions",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Connectors — Linking Your Ideas",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u021-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Give 3 connectors for conclusion.",
-          "reponseAttendue": "In conclusion, to sum up, all in all, finally.",
+          "question": "while",
+          "reponseAttendue": "tandis que\n« While some study science, others prefer literature. »",
           "modeReponse": "auto_evaluation",
-          "explication": "In conclusion, to sum up, all in all, finally."
+          "explication": "tandis que\n« While some study science, others prefer literature. »"
         },
         {
           "type": "rappel_actif",
-          "question": "How do you express your opinion in English?",
-          "reponseAttendue": "In my opinion, I believe that, From my point of view, It seems to me that.",
+          "question": "besides",
+          "reponseAttendue": "en plus de cela\n« Besides, the road is now paved. »",
           "modeReponse": "auto_evaluation",
-          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+          "explication": "en plus de cela\n« Besides, the road is now paved. »"
         },
         {
           "type": "rappel_actif",
-          "question": "How do you introduce an example?",
-          "reponseAttendue": "For instance, for example, such as, to illustrate.",
+          "question": "in fact",
+          "reponseAttendue": "en fait\n« In fact, the answer was very simple. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For instance, for example, such as, to illustrate."
+          "explication": "en fait\n« In fact, the answer was very simple. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "that is why",
+          "reponseAttendue": "c'est pourquoi\n« That is why we must protect the lake. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "c'est pourquoi\n« That is why we must protect the lake. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u021-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u021-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ some study science, others prefer literature.",
+          "reponse": "While",
+          "toleranceMots": 0,
+          "explication": "while = tandis que"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, the road is now paved.",
+          "reponse": "Besides",
+          "toleranceMots": 0,
+          "explication": "besides = en plus de cela"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, the answer was very simple.",
+          "reponse": "In fact",
+          "toleranceMots": 0,
+          "explication": "in fact = en fait"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ we must protect the lake.",
+          "reponse": "That is why",
+          "toleranceMots": 0,
+          "explication": "that is why = c'est pourquoi"
         }
       ]
     },
     {
       "id": "anglais-u021-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Give 3 connectors for conclusion. ?",
+          "question": "What does « while » mean?",
           "options": [
-            "deforestation",
-            "climate change",
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "In conclusion, to sum up, all in all, finally."
+            "agriculteur",
+            "enfin",
+            "améliorer",
+            "tandis que"
           ],
           "reponse": 3,
-          "explication": "In conclusion, to sum up, all in all, finally."
+          "explication": "while = tandis que"
         },
         {
           "type": "choix_unique",
-          "question": "How do you express your opinion in English?",
+          "question": "What does « besides » mean?",
           "options": [
-            "illiteracy",
-            "In conclusion, to sum up, all in all, finally.",
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "renewable energy"
+            "sécheresse",
+            "année",
+            "gens, personnes",
+            "en plus de cela"
           ],
-          "reponse": 2,
-          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+          "reponse": 3,
+          "explication": "besides = en plus de cela"
         },
         {
           "type": "choix_unique",
-          "question": "How do you introduce an example?",
+          "question": "What does « in fact » mean?",
           "options": [
-            "For instance, for example, such as, to illustrate.",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+            "abandonner",
+            "penser",
+            "tandis que",
+            "en fait"
           ],
-          "reponse": 0,
-          "explication": "For instance, for example, such as, to illustrate."
+          "reponse": 3,
+          "explication": "in fact = en fait"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Give 3 connectors for conclusion.",
-      "verso": "In conclusion, to sum up, all in all, finally."
+      "recto": "while",
+      "verso": "tandis que\n« While some study science, others prefer literature. »"
     },
     {
-      "recto": "How do you express your opinion in English?",
-      "verso": "In my opinion, I believe that, From my point of view, It seems to me that."
+      "recto": "besides",
+      "verso": "en plus de cela\n« Besides, the road is now paved. »"
     },
     {
-      "recto": "How do you introduce an example?",
-      "verso": "For instance, for example, such as, to illustrate."
+      "recto": "in fact",
+      "verso": "en fait\n« In fact, the answer was very simple. »"
+    },
+    {
+      "recto": "that is why",
+      "verso": "c'est pourquoi\n« That is why we must protect the lake. »"
     }
   ]
 }

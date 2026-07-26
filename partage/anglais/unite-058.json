@@ -1,0 +1,121 @@
+{
+  "id": "anglais-u058",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "English Tenses: Future & Conditionals (2/2)",
+  "ordre": 58,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Future & Conditionals",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u058-memorisation",
+      "titre": "Mémoriser",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u058-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "What is the Second Conditional? (If + past, would + verb)",
+          "reponseAttendue": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Third Conditional? (If + past perfect, would have + pp)",
+          "reponseAttendue": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "Difference between 'will' and 'going to'?",
+          "reponseAttendue": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based.",
+          "modeReponse": "auto_evaluation",
+          "explication": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+        },
+        {
+          "type": "rappel_actif",
+          "question": "What is the Future Continuous?",
+          "reponseAttendue": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+          "modeReponse": "auto_evaluation",
+          "explication": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u058-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u058-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is the Second Conditional? (If + past, would + verb) ?",
+          "options": [
+            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
+            "For instance, for example, such as, to illustrate.",
+            "Subject + have/has + past participle. Ex: 'They have studied all night.'",
+            "climate change"
+          ],
+          "reponse": 0,
+          "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Third Conditional? (If + past perfect, would have + pp) ?",
+          "options": [
+            "He asked if/whether I had seen it.",
+            "scholarship",
+            "He said (that) he was happy.",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+          ],
+          "reponse": 3,
+          "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Difference between 'will' and 'going to'?",
+          "options": [
+            "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based.",
+            "For general truths. Ex: 'If you heat water, it boils.'",
+            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          ],
+          "reponse": 0,
+          "explication": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "What is the Second Conditional? (If + past, would + verb)",
+      "verso": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+    },
+    {
+      "recto": "What is the Third Conditional? (If + past perfect, would have + pp)",
+      "verso": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+    },
+    {
+      "recto": "Difference between 'will' and 'going to'?",
+      "verso": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+    },
+    {
+      "recto": "What is the Future Continuous?",
+      "verso": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+    }
+  ]
+}

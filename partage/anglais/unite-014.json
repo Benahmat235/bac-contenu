@@ -2,11 +2,11 @@
   "id": "anglais-u014",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "English Tenses: Future & Conditionals (2/2)",
+  "titre": "Core Adjectives and Adverbs (3/4)",
   "ordre": 14,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Future & Conditionals",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Adjectives and Adverbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,103 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u014-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u014-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "What is the Second Conditional? (If + past, would + verb)",
-          "reponseAttendue": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
+          "question": "new",
+          "reponseAttendue": "nouveau\n« The school bought new tables. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+          "explication": "nouveau\n« The school bought new tables. »"
         },
         {
           "type": "rappel_actif",
-          "question": "What is the Third Conditional? (If + past perfect, would have + pp)",
-          "reponseAttendue": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+          "question": "early",
+          "reponseAttendue": "tôt\n« I wake up early to study. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+          "explication": "tôt\n« I wake up early to study. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Difference between 'will' and 'going to'?",
-          "reponseAttendue": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based.",
+          "question": "late",
+          "reponseAttendue": "tard, en retard\n« Do not arrive late for the exam. »",
           "modeReponse": "auto_evaluation",
-          "explication": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+          "explication": "tard, en retard\n« Do not arrive late for the exam. »"
         },
         {
           "type": "rappel_actif",
-          "question": "What is the Future Continuous?",
-          "reponseAttendue": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+          "question": "always",
+          "reponseAttendue": "toujours\n« He always answers politely. »",
           "modeReponse": "auto_evaluation",
-          "explication": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+          "explication": "toujours\n« He always answers politely. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u014-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u014-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "The school bought ___ tables.",
+          "reponse": "new",
+          "toleranceMots": 0,
+          "explication": "new = nouveau"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I wake up ___ to study.",
+          "reponse": "early",
+          "toleranceMots": 0,
+          "explication": "early = tôt"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Do not arrive ___ for the exam.",
+          "reponse": "late",
+          "toleranceMots": 0,
+          "explication": "late = tard, en retard"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "He ___ answers politely.",
+          "reponse": "always",
+          "toleranceMots": 0,
+          "explication": "always = toujours"
         }
       ]
     },
     {
       "id": "anglais-u014-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u014-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "What is the Second Conditional? (If + past, would + verb) ?",
+          "question": "What does « new » mean?",
           "options": [
-            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
-            "For instance, for example, such as, to illustrate.",
-            "Subject + have/has + past participle. Ex: 'They have studied all night.'",
-            "climate change"
+            "tôt",
+            "nouveau",
+            "environnement",
+            "cependant"
           ],
-          "reponse": 0,
-          "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+          "reponse": 1,
+          "explication": "new = nouveau"
         },
         {
           "type": "choix_unique",
-          "question": "What is the Third Conditional? (If + past perfect, would have + pp) ?",
+          "question": "What does « early » mean?",
           "options": [
-            "He asked if/whether I had seen it.",
-            "scholarship",
-            "He said (that) he was happy.",
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+            "mauvais",
+            "tôt",
+            "venir",
+            "famille"
           ],
-          "reponse": 3,
-          "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+          "reponse": 1,
+          "explication": "early = tôt"
         },
         {
           "type": "choix_unique",
-          "question": "Difference between 'will' and 'going to'?",
+          "question": "What does « late » mean?",
           "options": [
-            "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based.",
-            "For general truths. Ex: 'If you heat water, it boils.'",
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+            "médicament",
+            "rapidement",
+            "tard, en retard",
+            "justifier"
           ],
-          "reponse": 0,
-          "explication": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+          "reponse": 2,
+          "explication": "late = tard, en retard"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "What is the Second Conditional? (If + past, would + verb)",
-      "verso": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+      "recto": "new",
+      "verso": "nouveau\n« The school bought new tables. »"
     },
     {
-      "recto": "What is the Third Conditional? (If + past perfect, would have + pp)",
-      "verso": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+      "recto": "early",
+      "verso": "tôt\n« I wake up early to study. »"
     },
     {
-      "recto": "Difference between 'will' and 'going to'?",
-      "verso": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+      "recto": "late",
+      "verso": "tard, en retard\n« Do not arrive late for the exam. »"
     },
     {
-      "recto": "What is the Future Continuous?",
-      "verso": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+      "recto": "always",
+      "verso": "toujours\n« He always answers politely. »"
     }
   ]
 }

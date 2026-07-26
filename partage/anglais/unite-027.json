@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u027",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Society, Work and Development (1/4)",
+  "ordre": 27,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Society, Work and Development",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u027-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u027-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "poverty",
+          "reponseAttendue": "pauvreté\n« The government wants to reduce poverty. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "pauvreté\n« The government wants to reduce poverty. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "development",
+          "reponseAttendue": "développement\n« Roads are essential for development. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "développement\n« Roads are essential for development. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "unemployment",
+          "reponseAttendue": "chômage\n« Unemployment affects many young graduates. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "chômage\n« Unemployment affects many young graduates. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "job",
+          "reponseAttendue": "emploi\n« He is looking for a job in the city. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "emploi\n« He is looking for a job in the city. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u027-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u027-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "The government wants to reduce ___.",
+          "reponse": "poverty",
+          "toleranceMots": 0,
+          "explication": "poverty = pauvreté"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Roads are essential for ___.",
+          "reponse": "development",
+          "toleranceMots": 0,
+          "explication": "development = développement"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ affects many young graduates.",
+          "reponse": "Unemployment",
+          "toleranceMots": 0,
+          "explication": "unemployment = chômage"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "He is looking for a ___ in the city.",
+          "reponse": "job",
+          "toleranceMots": 0,
+          "explication": "job = emploi"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u027-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u027-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « poverty » mean?",
+          "options": [
+            "avoir",
+            "pauvreté",
+            "famille",
+            "assister à, fréquenter"
+          ],
+          "reponse": 1,
+          "explication": "poverty = pauvreté"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « development » mean?",
+          "options": [
+            "argent",
+            "donc, par conséquent",
+            "développement",
+            "fabriquer, faire"
+          ],
+          "reponse": 2,
+          "explication": "development = développement"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « unemployment » mean?",
+          "options": [
+            "découvrir",
+            "donner",
+            "chômage",
+            "vouloir"
+          ],
+          "reponse": 2,
+          "explication": "unemployment = chômage"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "poverty",
+      "verso": "pauvreté\n« The government wants to reduce poverty. »"
+    },
+    {
+      "recto": "development",
+      "verso": "développement\n« Roads are essential for development. »"
+    },
+    {
+      "recto": "unemployment",
+      "verso": "chômage\n« Unemployment affects many young graduates. »"
+    },
+    {
+      "recto": "job",
+      "verso": "emploi\n« He is looking for a job in the city. »"
+    }
+  ]
+}

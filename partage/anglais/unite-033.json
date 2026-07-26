@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u033",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Environment and Health (1/4)",
+  "ordre": 33,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Environment and Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u033-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u033-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "environment",
+          "reponseAttendue": "environnement\n« We must protect the environment. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "environnement\n« We must protect the environment. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "climate",
+          "reponseAttendue": "climat\n« The climate is very dry in the north. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "climat\n« The climate is very dry in the north. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "drought",
+          "reponseAttendue": "sécheresse\n« Drought destroyed part of the harvest. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "sécheresse\n« Drought destroyed part of the harvest. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "desert",
+          "reponseAttendue": "désert\n« The desert is expanding southwards. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "désert\n« The desert is expanding southwards. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u033-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u033-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "We must protect the ___.",
+          "reponse": "environment",
+          "toleranceMots": 0,
+          "explication": "environment = environnement"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ is very dry in the north.",
+          "reponse": "climate",
+          "toleranceMots": 0,
+          "explication": "climate = climat"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ destroyed part of the harvest.",
+          "reponse": "Drought",
+          "toleranceMots": 0,
+          "explication": "drought = sécheresse"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ is expanding southwards.",
+          "reponse": "desert",
+          "toleranceMots": 0,
+          "explication": "desert = désert"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u033-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u033-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « environment » mean?",
+          "options": [
+            "chômage",
+            "environnement",
+            "gratuit",
+            "pluie"
+          ],
+          "reponse": 1,
+          "explication": "environment = environnement"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « climate » mean?",
+          "options": [
+            "bien que",
+            "climat",
+            "rendre, remettre",
+            "prévenir, empêcher"
+          ],
+          "reponse": 1,
+          "explication": "climate = climat"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « drought » mean?",
+          "options": [
+            "être",
+            "développement",
+            "abandonner",
+            "sécheresse"
+          ],
+          "reponse": 3,
+          "explication": "drought = sécheresse"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "environment",
+      "verso": "environnement\n« We must protect the environment. »"
+    },
+    {
+      "recto": "climate",
+      "verso": "climat\n« The climate is very dry in the north. »"
+    },
+    {
+      "recto": "drought",
+      "verso": "sécheresse\n« Drought destroyed part of the harvest. »"
+    },
+    {
+      "recto": "desert",
+      "verso": "désert\n« The desert is expanding southwards. »"
+    }
+  ]
+}

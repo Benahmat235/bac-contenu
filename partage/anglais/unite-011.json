@@ -2,11 +2,11 @@
   "id": "anglais-u011",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "English Tenses: Present & Past (3/3)",
+  "titre": "Core Adjectives and Adverbs (1/4)",
   "ordre": 11,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Present & Past",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Adjectives and Adverbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u011-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "When do we use the Past Continuous?",
-          "reponseAttendue": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+          "question": "good",
+          "reponseAttendue": "bon\n« She got a good mark in mathematics. »",
           "modeReponse": "auto_evaluation",
-          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          "explication": "bon\n« She got a good mark in mathematics. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Give the past participle of: go, see, write, take",
-          "reponseAttendue": "gone, seen, written, taken",
+          "question": "bad",
+          "reponseAttendue": "mauvais\n« Bad weather delayed the harvest. »",
           "modeReponse": "auto_evaluation",
-          "explication": "gone, seen, written, taken"
+          "explication": "mauvais\n« Bad weather delayed the harvest. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Give the past participle of: be, have, do, make",
-          "reponseAttendue": "been, had, done, made",
+          "question": "important",
+          "reponseAttendue": "important\n« It is important to revise regularly. »",
           "modeReponse": "auto_evaluation",
-          "explication": "been, had, done, made"
+          "explication": "important\n« It is important to revise regularly. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "difficult",
+          "reponseAttendue": "difficile\n« This problem is difficult but not impossible. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "difficile\n« This problem is difficult but not impossible. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u011-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u011-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "She got a ___ mark in mathematics.",
+          "reponse": "good",
+          "toleranceMots": 0,
+          "explication": "good = bon"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ weather delayed the harvest.",
+          "reponse": "Bad",
+          "toleranceMots": 0,
+          "explication": "bad = mauvais"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "It is ___ to revise regularly.",
+          "reponse": "important",
+          "toleranceMots": 0,
+          "explication": "important = important"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This problem is ___ but not impossible.",
+          "reponse": "difficult",
+          "toleranceMots": 0,
+          "explication": "difficult = difficile"
         }
       ]
     },
     {
       "id": "anglais-u011-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "When do we use the Past Continuous?",
+          "question": "What does « good » mean?",
           "options": [
-            "renewable energy",
-            "gone, seen, written, taken",
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
-            "However, nevertheless, on the other hand, whereas."
-          ],
-          "reponse": 2,
-          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Give the past participle of: go, see, write, take ?",
-          "options": [
-            "prevention",
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "baccalaureate / high school diploma",
-            "gone, seen, written, taken"
+            "toujours",
+            "abandonner",
+            "commerce",
+            "bon"
           ],
           "reponse": 3,
-          "explication": "gone, seen, written, taken"
+          "explication": "good = bon"
         },
         {
           "type": "choix_unique",
-          "question": "Give the past participle of: be, have, do, make ?",
+          "question": "What does « bad » mean?",
           "options": [
-            "been, had, done, made",
-            "'The letter was written (by her).'",
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+            "nourriture",
+            "mauvais",
+            "comparer",
+            "prévenir, empêcher"
           ],
-          "reponse": 0,
-          "explication": "been, had, done, made"
+          "reponse": 1,
+          "explication": "bad = mauvais"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « important » mean?",
+          "options": [
+            "répondre",
+            "suggérer",
+            "important",
+            "savoir, connaître"
+          ],
+          "reponse": 2,
+          "explication": "important = important"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "When do we use the Past Continuous?",
-      "verso": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+      "recto": "good",
+      "verso": "bon\n« She got a good mark in mathematics. »"
     },
     {
-      "recto": "Give the past participle of: go, see, write, take",
-      "verso": "gone, seen, written, taken"
+      "recto": "bad",
+      "verso": "mauvais\n« Bad weather delayed the harvest. »"
     },
     {
-      "recto": "Give the past participle of: be, have, do, make",
-      "verso": "been, had, done, made"
+      "recto": "important",
+      "verso": "important\n« It is important to revise regularly. »"
+    },
+    {
+      "recto": "difficult",
+      "verso": "difficile\n« This problem is difficult but not impossible. »"
     }
   ]
 }

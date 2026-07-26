@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u029",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Society, Work and Development (2/4)",
+  "ordre": 29,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Society, Work and Development",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u029-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u029-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "farmer",
+          "reponseAttendue": "agriculteur\n« My uncle is a farmer near Sarh. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "agriculteur\n« My uncle is a farmer near Sarh. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "trade",
+          "reponseAttendue": "commerce\n« Trade between the two countries is growing. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "commerce\n« Trade between the two countries is growing. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "market",
+          "reponseAttendue": "marché\n« The market opens at six in the morning. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "marché\n« The market opens at six in the morning. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "government",
+          "reponseAttendue": "gouvernement\n« The government built a new hospital. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "gouvernement\n« The government built a new hospital. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u029-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u029-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "My uncle is a ___ near Sarh.",
+          "reponse": "farmer",
+          "toleranceMots": 0,
+          "explication": "farmer = agriculteur"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ between the two countries is growing.",
+          "reponse": "Trade",
+          "toleranceMots": 0,
+          "explication": "trade = commerce"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ opens at six in the morning.",
+          "reponse": "market",
+          "toleranceMots": 0,
+          "explication": "market = marché"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ built a new hospital.",
+          "reponse": "government",
+          "toleranceMots": 0,
+          "explication": "government = gouvernement"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u029-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u029-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « farmer » mean?",
+          "options": [
+            "télécharger",
+            "agriculteur",
+            "souligner, faire remarquer",
+            "internet"
+          ],
+          "reponse": 1,
+          "explication": "farmer = agriculteur"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « trade » mean?",
+          "options": [
+            "paix",
+            "discuter, débattre",
+            "en outre",
+            "commerce"
+          ],
+          "reponse": 3,
+          "explication": "trade = commerce"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « market » mean?",
+          "options": [
+            "marché",
+            "famille",
+            "gens, personnes",
+            "environnement"
+          ],
+          "reponse": 0,
+          "explication": "market = marché"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "farmer",
+      "verso": "agriculteur\n« My uncle is a farmer near Sarh. »"
+    },
+    {
+      "recto": "trade",
+      "verso": "commerce\n« Trade between the two countries is growing. »"
+    },
+    {
+      "recto": "market",
+      "verso": "marché\n« The market opens at six in the morning. »"
+    },
+    {
+      "recto": "government",
+      "verso": "gouvernement\n« The government built a new hospital. »"
+    }
+  ]
+}

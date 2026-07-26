@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u042",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Technology and Media (4/4)",
+  "ordre": 42,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Technology and Media",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u042-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u042-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to share",
+          "reponseAttendue": "partager\n« Share this application with your classmates. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "partager\n« Share this application with your classmates. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to connect",
+          "reponseAttendue": "se connecter\n« Connect to the internet once a week. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "se connecter\n« Connect to the internet once a week. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "free",
+          "reponseAttendue": "gratuit\n« This application is completely free. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "gratuit\n« This application is completely free. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "useful",
+          "reponseAttendue": "utile\n« Videos are useful for understanding grammar. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "utile\n« Videos are useful for understanding grammar. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u042-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u042-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ this application with your classmates.",
+          "reponse": "Share",
+          "toleranceMots": 0,
+          "explication": "to share = partager"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ to the internet once a week.",
+          "reponse": "Connect",
+          "toleranceMots": 0,
+          "explication": "to connect = se connecter"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This application is completely ___.",
+          "reponse": "free",
+          "toleranceMots": 0,
+          "explication": "free = gratuit"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Videos are ___ for understanding grammar.",
+          "reponse": "useful",
+          "toleranceMots": 0,
+          "explication": "useful = utile"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u042-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u042-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to share » mean?",
+          "options": [
+            "ordinateur",
+            "prévenir, empêcher",
+            "partager",
+            "hôpital"
+          ],
+          "reponse": 2,
+          "explication": "to share = partager"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to connect » mean?",
+          "options": [
+            "se connecter",
+            "déchets",
+            "tard, en retard",
+            "de plus"
+          ],
+          "reponse": 0,
+          "explication": "to connect = se connecter"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « free » mean?",
+          "options": [
+            "médicament",
+            "gratuit",
+            "but, objectif",
+            "internet"
+          ],
+          "reponse": 1,
+          "explication": "free = gratuit"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to share",
+      "verso": "partager\n« Share this application with your classmates. »"
+    },
+    {
+      "recto": "to connect",
+      "verso": "se connecter\n« Connect to the internet once a week. »"
+    },
+    {
+      "recto": "free",
+      "verso": "gratuit\n« This application is completely free. »"
+    },
+    {
+      "recto": "useful",
+      "verso": "utile\n« Videos are useful for understanding grammar. »"
+    }
+  ]
+}

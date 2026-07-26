@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u031",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Society, Work and Development (4/4)",
+  "ordre": 31,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Society, Work and Development",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u031-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u031-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to improve",
+          "reponseAttendue": "améliorer\n« We must improve access to clean water. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "améliorer\n« We must improve access to clean water. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to build",
+          "reponseAttendue": "construire\n« They will build a bridge over the river. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "construire\n« They will build a bridge over the river. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to support",
+          "reponseAttendue": "soutenir\n« My parents support my education. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "soutenir\n« My parents support my education. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to succeed",
+          "reponseAttendue": "réussir\n« Hard work helps you succeed. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "réussir\n« Hard work helps you succeed. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u031-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u031-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "We must ___ access to clean water.",
+          "reponse": "improve",
+          "toleranceMots": 0,
+          "explication": "to improve = améliorer"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "They will ___ a bridge over the river.",
+          "reponse": "build",
+          "toleranceMots": 0,
+          "explication": "to build = construire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "My parents ___ my education.",
+          "reponse": "support",
+          "toleranceMots": 0,
+          "explication": "to support = soutenir"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Hard work helps you ___.",
+          "reponse": "succeed",
+          "toleranceMots": 0,
+          "explication": "to succeed = réussir"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u031-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u031-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to improve » mean?",
+          "options": [
+            "améliorer",
+            "gratuit",
+            "manquer de",
+            "être"
+          ],
+          "reponse": 0,
+          "explication": "to improve = améliorer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to build » mean?",
+          "options": [
+            "pays",
+            "reporter",
+            "construire",
+            "vouloir"
+          ],
+          "reponse": 2,
+          "explication": "to build = construire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to support » mean?",
+          "options": [
+            "soutenir",
+            "en conclusion",
+            "trouver",
+            "venir"
+          ],
+          "reponse": 0,
+          "explication": "to support = soutenir"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to improve",
+      "verso": "améliorer\n« We must improve access to clean water. »"
+    },
+    {
+      "recto": "to build",
+      "verso": "construire\n« They will build a bridge over the river. »"
+    },
+    {
+      "recto": "to support",
+      "verso": "soutenir\n« My parents support my education. »"
+    },
+    {
+      "recto": "to succeed",
+      "verso": "réussir\n« Hard work helps you succeed. »"
+    }
+  ]
+}

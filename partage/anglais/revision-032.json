@@ -1,0 +1,103 @@
+{
+  "id": "anglais-r032",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Revision",
+  "ordre": 32,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-r032-rev",
+      "titre": "Revision",
+      "categorie": "revision",
+      "seuilReussite": 70,
+      "competenceId": "anglais-r032-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « unemployment » mean?",
+          "options": [
+            "chômage",
+            "vie",
+            "donner",
+            "batterie"
+          ],
+          "reponse": 0,
+          "explication": "unemployment = chômage"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to fail » mean?",
+          "options": [
+            "échouer",
+            "souligner, faire remarquer",
+            "protéger",
+            "remplir"
+          ],
+          "reponse": 0,
+          "explication": "to fail = échouer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « never » mean?",
+          "options": [
+            "traiter de",
+            "problème, question",
+            "jamais",
+            "facile"
+          ],
+          "reponse": 2,
+          "explication": "never = jamais"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to memorize » mean?",
+          "options": [
+            "téléphone",
+            "égalité",
+            "mémoriser",
+            "maladie"
+          ],
+          "reponse": 2,
+          "explication": "to memorize = mémoriser"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « scholarship » mean?",
+          "options": [
+            "vie",
+            "discuter, débattre",
+            "note",
+            "bourse d'études"
+          ],
+          "reponse": 3,
+          "explication": "scholarship = bourse d'études"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « equality » mean?",
+          "options": [
+            "construire",
+            "égalité",
+            "alphabétisation",
+            "note"
+          ],
+          "reponse": 1,
+          "explication": "equality = égalité"
+        }
+      ]
+    }
+  ],
+  "estRevision": true
+}

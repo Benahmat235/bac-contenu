@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u047",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Academic Verbs for the Exam (4/4)",
+  "ordre": 47,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Academic Verbs for the Exam",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u047-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u047-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "according to",
+          "reponseAttendue": "selon\n« According to the text, exports increased. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "selon\n« According to the text, exports increased. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "evidence",
+          "reponseAttendue": "preuve\n« There is clear evidence of climate change. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "preuve\n« There is clear evidence of climate change. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "issue",
+          "reponseAttendue": "problème, question\n« Water is a major issue in the Sahel. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "problème, question\n« Water is a major issue in the Sahel. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "purpose",
+          "reponseAttendue": "but, objectif\n« The purpose of this text is to inform. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "but, objectif\n« The purpose of this text is to inform. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u047-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u047-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the text, exports increased.",
+          "reponse": "According to",
+          "toleranceMots": 0,
+          "explication": "according to = selon"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "There is clear ___ of climate change.",
+          "reponse": "evidence",
+          "toleranceMots": 0,
+          "explication": "evidence = preuve"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Water is a major ___ in the Sahel.",
+          "reponse": "issue",
+          "toleranceMots": 0,
+          "explication": "issue = problème, question"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ of this text is to inform.",
+          "reponse": "purpose",
+          "toleranceMots": 0,
+          "explication": "purpose = but, objectif"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u047-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u047-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « according to » mean?",
+          "options": [
+            "reporter",
+            "allumer",
+            "petit",
+            "selon"
+          ],
+          "reponse": 3,
+          "explication": "according to = selon"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « evidence » mean?",
+          "options": [
+            "facile",
+            "avoir besoin de",
+            "participer à",
+            "preuve"
+          ],
+          "reponse": 3,
+          "explication": "evidence = preuve"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « issue » mean?",
+          "options": [
+            "soutenir",
+            "problème, question",
+            "discuter, débattre",
+            "élève, étudiant"
+          ],
+          "reponse": 1,
+          "explication": "issue = problème, question"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "according to",
+      "verso": "selon\n« According to the text, exports increased. »"
+    },
+    {
+      "recto": "evidence",
+      "verso": "preuve\n« There is clear evidence of climate change. »"
+    },
+    {
+      "recto": "issue",
+      "verso": "problème, question\n« Water is a major issue in the Sahel. »"
+    },
+    {
+      "recto": "purpose",
+      "verso": "but, objectif\n« The purpose of this text is to inform. »"
+    }
+  ]
+}

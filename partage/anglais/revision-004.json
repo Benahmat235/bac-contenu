@@ -2,11 +2,11 @@
   "id": "anglais-r004",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Révision",
+  "titre": "Revision",
   "ordre": 4,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Révision",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,46 +19,82 @@
   "etapes": [
     {
       "id": "anglais-r004-rev",
-      "titre": "Révision",
+      "titre": "Revision",
       "categorie": "revision",
       "seuilReussite": 70,
       "competenceId": "anglais-r004-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'développement durable' ?",
+          "question": "What does « to say » mean?",
           "options": [
-            "Because, therefore, as a result, consequently, due to.",
-            "prevention",
-            "sustainable development",
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
-          ],
-          "reponse": 2,
-          "explication": "sustainable development"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'droits de l'homme' ?",
-          "options": [
-            "He asked if/whether I had seen it.",
-            "In conclusion, I believe that education is the key to development.",
-            "human rights",
-            "water pollution"
-          ],
-          "reponse": 2,
-          "explication": "human rights"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'réussir un examen' ?",
-          "options": [
-            "to pass an exam",
-            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'",
-            "illiteracy",
-            "deforestation"
+            "dire",
+            "rapidement",
+            "décrire",
+            "climat"
           ],
           "reponse": 0,
-          "explication": "to pass an exam"
+          "explication": "to say = dire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to know » mean?",
+          "options": [
+            "élever (un enfait)",
+            "matière",
+            "savoir, connaître",
+            "avenir"
+          ],
+          "reponse": 2,
+          "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to take » mean?",
+          "options": [
+            "droits",
+            "voir",
+            "prendre",
+            "c'est pourquoi"
+          ],
+          "reponse": 2,
+          "explication": "to take = prendre"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to make » mean?",
+          "options": [
+            "fabriquer, faire",
+            "utile",
+            "petit",
+            "penser"
+          ],
+          "reponse": 0,
+          "explication": "to make = fabriquer, faire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to want » mean?",
+          "options": [
+            "continuer",
+            "avoir",
+            "c'est pourquoi",
+            "vouloir"
+          ],
+          "reponse": 3,
+          "explication": "to want = vouloir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to have » mean?",
+          "options": [
+            "avoir",
+            "de plus",
+            "devoirs",
+            "leçon"
+          ],
+          "reponse": 0,
+          "explication": "to have = avoir"
         }
       ]
     }

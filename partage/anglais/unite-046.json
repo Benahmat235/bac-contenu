@@ -1,0 +1,144 @@
+{
+  "id": "anglais-u046",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Academic Verbs for the Exam (3/4)",
+  "ordre": 46,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Academic Verbs for the Exam",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u046-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u046-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "to prove",
+          "reponseAttendue": "prouver\n« These figures prove that progress is real. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "prouver\n« These figures prove that progress is real. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to point out",
+          "reponseAttendue": "souligner, faire remarquer\n« The author points out a serious risk. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "souligner, faire remarquer\n« The author points out a serious risk. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to deal with",
+          "reponseAttendue": "traiter de\n« This text deals with rural migration. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "traiter de\n« This text deals with rural migration. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to focus on",
+          "reponseAttendue": "se concentrer sur\n« Focus on the main idea of the paragraph. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "se concentrer sur\n« Focus on the main idea of the paragraph. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u046-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u046-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "These figures ___ that progress is real.",
+          "reponse": "prove",
+          "toleranceMots": 0,
+          "explication": "to prove = prouver"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ the main idea of the paragraph.",
+          "reponse": "Focus on",
+          "toleranceMots": 0,
+          "explication": "to focus on = se concentrer sur"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u046-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u046-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « to prove » mean?",
+          "options": [
+            "prouver",
+            "climat",
+            "élève, étudiant",
+            "élever (un enfait)"
+          ],
+          "reponse": 0,
+          "explication": "to prove = prouver"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to point out » mean?",
+          "options": [
+            "marché",
+            "souligner, faire remarquer",
+            "protéger",
+            "parce que"
+          ],
+          "reponse": 1,
+          "explication": "to point out = souligner, faire remarquer"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to deal with » mean?",
+          "options": [
+            "preuve",
+            "but, objectif",
+            "traiter de",
+            "internet"
+          ],
+          "reponse": 2,
+          "explication": "to deal with = traiter de"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "to prove",
+      "verso": "prouver\n« These figures prove that progress is real. »"
+    },
+    {
+      "recto": "to point out",
+      "verso": "souligner, faire remarquer\n« The author points out a serious risk. »"
+    },
+    {
+      "recto": "to deal with",
+      "verso": "traiter de\n« This text deals with rural migration. »"
+    },
+    {
+      "recto": "to focus on",
+      "verso": "se concentrer sur\n« Focus on the main idea of the paragraph. »"
+    }
+  ]
+}

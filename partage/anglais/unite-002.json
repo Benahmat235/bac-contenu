@@ -2,11 +2,11 @@
   "id": "anglais-u002",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Vocabulary: Education & Society (2/3)",
+  "titre": "Core Verbs — Everyday Actions (2/4)",
   "ordre": 2,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Education & Society",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u002-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "Translate: 'analphabétisme'",
-          "reponseAttendue": "illiteracy",
+          "question": "to make",
+          "reponseAttendue": "fabriquer, faire\n« He wants to make a good impression. »",
           "modeReponse": "auto_evaluation",
-          "explication": "illiteracy"
+          "explication": "fabriquer, faire\n« He wants to make a good impression. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'taux de scolarisation'",
-          "reponseAttendue": "enrollment rate / schooling rate",
+          "question": "to say",
+          "reponseAttendue": "dire\n« Please say it again more slowly. »",
           "modeReponse": "auto_evaluation",
-          "explication": "enrollment rate / schooling rate"
+          "explication": "dire\n« Please say it again more slowly. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'pauvreté'",
-          "reponseAttendue": "poverty",
+          "question": "to know",
+          "reponseAttendue": "savoir, connaître\n« I know the answer to this question. »",
           "modeReponse": "auto_evaluation",
-          "explication": "poverty"
+          "explication": "savoir, connaître\n« I know the answer to this question. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to think",
+          "reponseAttendue": "penser\n« I think this exercise is difficult. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "penser\n« I think this exercise is difficult. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u002-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u002-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "He wants to ___ a good impression.",
+          "reponse": "make",
+          "toleranceMots": 0,
+          "explication": "to make = fabriquer, faire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Please ___ it again more slowly.",
+          "reponse": "say",
+          "toleranceMots": 0,
+          "explication": "to say = dire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I ___ the answer to this question.",
+          "reponse": "know",
+          "toleranceMots": 0,
+          "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I ___ this exercise is difficult.",
+          "reponse": "think",
+          "toleranceMots": 0,
+          "explication": "to think = penser"
         }
       ]
     },
     {
       "id": "anglais-u002-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'analphabétisme' ?",
+          "question": "What does « to make » mean?",
           "options": [
-            "Furthermore, moreover, in addition, besides.",
-            "For general truths. Ex: 'If you heat water, it boils.'",
-            "illiteracy",
-            "life expectancy"
+            "problème, question",
+            "fabriquer, faire",
+            "rapidement",
+            "connaissance, savoir"
           ],
-          "reponse": 2,
-          "explication": "illiteracy"
+          "reponse": 1,
+          "explication": "to make = fabriquer, faire"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'taux de scolarisation' ?",
+          "question": "What does « to say » mean?",
           "options": [
-            "human rights",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "In conclusion, to sum up, all in all, finally.",
-            "enrollment rate / schooling rate"
+            "connaissance, savoir",
+            "dire",
+            "leçon",
+            "remplir"
           ],
-          "reponse": 3,
-          "explication": "enrollment rate / schooling rate"
+          "reponse": 1,
+          "explication": "to say = dire"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'pauvreté' ?",
+          "question": "What does « to know » mean?",
           "options": [
-            "On the one hand… on the other hand…",
-            "unemployment",
-            "poverty",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+            "savoir, connaître",
+            "ordinateur",
+            "par exemple",
+            "chercher"
           ],
-          "reponse": 2,
-          "explication": "poverty"
+          "reponse": 0,
+          "explication": "to know = savoir, connaître"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "Translate: 'analphabétisme'",
-      "verso": "illiteracy"
+      "recto": "to make",
+      "verso": "fabriquer, faire\n« He wants to make a good impression. »"
     },
     {
-      "recto": "Translate: 'taux de scolarisation'",
-      "verso": "enrollment rate / schooling rate"
+      "recto": "to say",
+      "verso": "dire\n« Please say it again more slowly. »"
     },
     {
-      "recto": "Translate: 'pauvreté'",
-      "verso": "poverty"
+      "recto": "to know",
+      "verso": "savoir, connaître\n« I know the answer to this question. »"
+    },
+    {
+      "recto": "to think",
+      "verso": "penser\n« I think this exercise is difficult. »"
     }
   ]
 }

@@ -2,11 +2,11 @@
   "id": "anglais-r008",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Révision",
+  "titre": "Revision",
   "ordre": 8,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Révision",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,46 +19,82 @@
   "etapes": [
     {
       "id": "anglais-r008-rev",
-      "titre": "Révision",
+      "titre": "Revision",
       "categorie": "revision",
       "seuilReussite": 70,
       "competenceId": "anglais-r008-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'réussir un examen' ?",
+          "question": "What does « to find » mean?",
           "options": [
-            "water pollution",
-            "human rights",
-            "sustainable development",
-            "to pass an exam"
-          ],
-          "reponse": 3,
-          "explication": "to pass an exam"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'développement durable' ?",
-          "options": [
-            "been, had, done, made",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "sustainable development",
-            "climate change"
-          ],
-          "reponse": 2,
-          "explication": "sustainable development"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'bourse d'études' ?",
-          "options": [
-            "scholarship",
-            "sanitation",
-            "However, nevertheless, on the other hand, whereas.",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+            "trouver",
+            "en outre",
+            "ville",
+            "médicament"
           ],
           "reponse": 0,
-          "explication": "scholarship"
+          "explication": "to find = trouver"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to know » mean?",
+          "options": [
+            "jour",
+            "pauvreté",
+            "savoir, connaître",
+            "jamais"
+          ],
+          "reponse": 2,
+          "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « country » mean?",
+          "options": [
+            "pays",
+            "médicament",
+            "agriculteur",
+            "famille"
+          ],
+          "reponse": 0,
+          "explication": "country = pays"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « time » mean?",
+          "options": [
+            "emploi",
+            "reporter",
+            "temps",
+            "tout d'abord"
+          ],
+          "reponse": 2,
+          "explication": "time = temps"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to think » mean?",
+          "options": [
+            "penser",
+            "tôt",
+            "petit",
+            "bien que"
+          ],
+          "reponse": 0,
+          "explication": "to think = penser"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « year » mean?",
+          "options": [
+            "important",
+            "année",
+            "écran",
+            "résumer"
+          ],
+          "reponse": 1,
+          "explication": "year = année"
         }
       ]
     }

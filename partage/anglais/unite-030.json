@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u030",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Society, Work and Development (3/4)",
+  "ordre": 30,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Society, Work and Development",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u030-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u030-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "citizen",
+          "reponseAttendue": "citoyen\n« Every citizen has rights and duties. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "citoyen\n« Every citizen has rights and duties. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "rights",
+          "reponseAttendue": "droits\n« Human rights must be respected. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "droits\n« Human rights must be respected. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "peace",
+          "reponseAttendue": "paix\n« Peace allows children to go to school. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "paix\n« Peace allows children to go to school. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "equality",
+          "reponseAttendue": "égalité\n« Equality between boys and girls matters. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "égalité\n« Equality between boys and girls matters. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u030-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u030-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "Every ___ has rights and duties.",
+          "reponse": "citizen",
+          "toleranceMots": 0,
+          "explication": "citizen = citoyen"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Human ___ must be respected.",
+          "reponse": "rights",
+          "toleranceMots": 0,
+          "explication": "rights = droits"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ allows children to go to school.",
+          "reponse": "Peace",
+          "toleranceMots": 0,
+          "explication": "peace = paix"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ between boys and girls matters.",
+          "reponse": "Equality",
+          "toleranceMots": 0,
+          "explication": "equality = égalité"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u030-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u030-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « citizen » mean?",
+          "options": [
+            "faire",
+            "élève, étudiant",
+            "citoyen",
+            "souvent"
+          ],
+          "reponse": 2,
+          "explication": "citizen = citoyen"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « rights » mean?",
+          "options": [
+            "message",
+            "réussir (un examen)",
+            "voir",
+            "droits"
+          ],
+          "reponse": 3,
+          "explication": "rights = droits"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « peace » mean?",
+          "options": [
+            "paix",
+            "d'autre part",
+            "déchets",
+            "suggérer"
+          ],
+          "reponse": 0,
+          "explication": "peace = paix"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "citizen",
+      "verso": "citoyen\n« Every citizen has rights and duties. »"
+    },
+    {
+      "recto": "rights",
+      "verso": "droits\n« Human rights must be respected. »"
+    },
+    {
+      "recto": "peace",
+      "verso": "paix\n« Peace allows children to go to school. »"
+    },
+    {
+      "recto": "equality",
+      "verso": "égalité\n« Equality between boys and girls matters. »"
+    }
+  ]
+}

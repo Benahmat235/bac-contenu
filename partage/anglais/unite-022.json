@@ -2,11 +2,11 @@
   "id": "anglais-u022",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Essay Writing & Useful Expressions (3/3)",
+  "titre": "Education and Exams (1/4)",
   "ordre": 22,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Essay Writing & Useful Expressions",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Education and Exams",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,92 +19,140 @@
   "etapes": [
     {
       "id": "anglais-u022-memo",
-      "titre": "Mémoriser",
+      "titre": "Memorize",
       "categorie": "memorisation",
       "seuilReussite": 80,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
           "type": "rappel_actif",
-          "question": "What is a 'topic sentence'?",
-          "reponseAttendue": "The first sentence of a paragraph that states its main idea.",
+          "question": "to revise",
+          "reponseAttendue": "réviser\n« I revise my lessons every evening. »",
           "modeReponse": "auto_evaluation",
-          "explication": "The first sentence of a paragraph that states its main idea."
+          "explication": "réviser\n« I revise my lessons every evening. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
-          "reponseAttendue": "In conclusion, I believe that education is the key to development.",
+          "question": "to pass",
+          "reponseAttendue": "réussir (un examen)\n« She hopes to pass the baccalaureate. »",
           "modeReponse": "auto_evaluation",
-          "explication": "In conclusion, I believe that education is the key to development."
+          "explication": "réussir (un examen)\n« She hopes to pass the baccalaureate. »"
         },
         {
           "type": "rappel_actif",
-          "question": "Translate: 'D'une part… d'autre part…'",
-          "reponseAttendue": "On the one hand… on the other hand…",
+          "question": "to fail",
+          "reponseAttendue": "échouer\n« Nobody wants to fail an exam. »",
           "modeReponse": "auto_evaluation",
-          "explication": "On the one hand… on the other hand…"
+          "explication": "échouer\n« Nobody wants to fail an exam. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "exam",
+          "reponseAttendue": "examen\n« The exam lasts three hours. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "examen\n« The exam lasts three hours. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u022-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u022-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "I ___ my lessons every evening.",
+          "reponse": "revise",
+          "toleranceMots": 0,
+          "explication": "to revise = réviser"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She hopes to ___ the baccalaureate.",
+          "reponse": "pass",
+          "toleranceMots": 0,
+          "explication": "to pass = réussir (un examen)"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Nobody wants to ___ an exam.",
+          "reponse": "fail",
+          "toleranceMots": 0,
+          "explication": "to fail = échouer"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ lasts three hours.",
+          "reponse": "exam",
+          "toleranceMots": 0,
+          "explication": "exam = examen"
         }
       ]
     },
     {
       "id": "anglais-u022-quiz",
-      "titre": "Vérifier",
+      "titre": "Check",
       "categorie": "quiz",
       "seuilReussite": 70,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "What is a 'topic sentence'?",
+          "question": "What does « to revise » mean?",
           "options": [
-            "She told me not to go.",
-            "Furthermore, moreover, in addition, besides.",
-            "The first sentence of a paragraph that states its main idea.",
-            "human rights"
+            "déchets",
+            "pollution",
+            "réviser",
+            "batterie"
           ],
           "reponse": 2,
-          "explication": "The first sentence of a paragraph that states its main idea."
+          "explication": "to revise = réviser"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.' ?",
+          "question": "What does « to pass » mean?",
           "options": [
-            "In conclusion, I believe that education is the key to development.",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "He said (that) he was happy.",
-            "On the one hand… on the other hand…"
+            "réussir (un examen)",
+            "protéger",
+            "vouloir",
+            "gouvernement"
           ],
           "reponse": 0,
-          "explication": "In conclusion, I believe that education is the key to development."
+          "explication": "to pass = réussir (un examen)"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'D'une part… d'autre part…' ?",
+          "question": "What does « to fail » mean?",
           "options": [
-            "On the one hand… on the other hand…",
-            "baccalaureate / high school diploma",
-            "In conclusion, I believe that education is the key to development.",
-            "human rights"
+            "échouer",
+            "enseignant",
+            "tôt",
+            "découvrir"
           ],
           "reponse": 0,
-          "explication": "On the one hand… on the other hand…"
+          "explication": "to fail = échouer"
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "recto": "What is a 'topic sentence'?",
-      "verso": "The first sentence of a paragraph that states its main idea."
+      "recto": "to revise",
+      "verso": "réviser\n« I revise my lessons every evening. »"
     },
     {
-      "recto": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
-      "verso": "In conclusion, I believe that education is the key to development."
+      "recto": "to pass",
+      "verso": "réussir (un examen)\n« She hopes to pass the baccalaureate. »"
     },
     {
-      "recto": "Translate: 'D'une part… d'autre part…'",
-      "verso": "On the one hand… on the other hand…"
+      "recto": "to fail",
+      "verso": "échouer\n« Nobody wants to fail an exam. »"
+    },
+    {
+      "recto": "exam",
+      "verso": "examen\n« The exam lasts three hours. »"
     }
   ]
 }

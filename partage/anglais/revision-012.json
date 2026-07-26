@@ -2,11 +2,11 @@
   "id": "anglais-r012",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Révision",
+  "titre": "Revision",
   "ordre": 12,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Révision",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,46 +19,82 @@
   "etapes": [
     {
       "id": "anglais-r012-rev",
-      "titre": "Révision",
+      "titre": "Revision",
       "categorie": "revision",
       "seuilReussite": 70,
       "competenceId": "anglais-r012-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "Translate: 'énergie renouvelable' ?",
+          "question": "What does « money » mean?",
           "options": [
-            "to pass an exam",
-            "renewable energy",
-            "human rights",
-            "prevention"
-          ],
-          "reponse": 1,
-          "explication": "renewable energy"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'chômage' ?",
-          "options": [
-            "On the one hand… on the other hand…",
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
-            "to pass an exam",
-            "unemployment"
+            "chômage",
+            "petit",
+            "prouver",
+            "argent"
           ],
           "reponse": 3,
-          "explication": "unemployment"
+          "explication": "money = argent"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'développement durable' ?",
+          "question": "What does « country » mean?",
           "options": [
-            "The first sentence of a paragraph that states its main idea.",
-            "He said (that) he was happy.",
-            "sustainable development",
-            "gone, seen, written, taken"
+            "pays",
+            "échouer",
+            "citoyen",
+            "analyser"
           ],
-          "reponse": 2,
-          "explication": "sustainable development"
+          "reponse": 0,
+          "explication": "country = pays"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to say » mean?",
+          "options": [
+            "pays",
+            "citoyen",
+            "santé",
+            "dire"
+          ],
+          "reponse": 3,
+          "explication": "to say = dire"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to think » mean?",
+          "options": [
+            "maladie",
+            "penser",
+            "emploi",
+            "se lever"
+          ],
+          "reponse": 1,
+          "explication": "to think = penser"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « water » mean?",
+          "options": [
+            "eau",
+            "réaliser, mener",
+            "chercher",
+            "gratuit"
+          ],
+          "reponse": 0,
+          "explication": "water = eau"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to find » mean?",
+          "options": [
+            "trouver",
+            "leçon",
+            "téléphone",
+            "se connecter"
+          ],
+          "reponse": 0,
+          "explication": "to find = trouver"
         }
       ]
     }

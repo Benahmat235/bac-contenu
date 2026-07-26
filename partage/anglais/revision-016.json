@@ -2,11 +2,11 @@
   "id": "anglais-r016",
   "matiere": "anglais",
   "type": "litteraire",
-  "titre": "Révision",
+  "titre": "Revision",
   "ordre": 16,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Révision",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Revision",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -19,46 +19,82 @@
   "etapes": [
     {
       "id": "anglais-r016-rev",
-      "titre": "Révision",
+      "titre": "Revision",
       "categorie": "revision",
       "seuilReussite": 70,
       "competenceId": "anglais-r016-c",
       "activites": [
         {
           "type": "choix_unique",
-          "question": "When do we use 'going to + verb'?",
+          "question": "What does « to say » mean?",
           "options": [
-            "However, nevertheless, on the other hand, whereas.",
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+            "chômage",
+            "dire",
+            "jamais",
+            "internet"
           ],
           "reponse": 1,
-          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          "explication": "to say = dire"
         },
         {
           "type": "choix_unique",
-          "question": "Translate: 'analphabétisme' ?",
+          "question": "What does « village » mean?",
           "options": [
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "illiteracy",
-            "renewable energy",
-            "For instance, for example, such as, to illustrate."
-          ],
-          "reponse": 1,
-          "explication": "illiteracy"
-        },
-        {
-          "type": "choix_unique",
-          "question": "Translate: 'chômage' ?",
-          "options": [
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "unemployment",
-            "Furthermore, moreover, in addition, besides."
+            "continuer",
+            "construire",
+            "village",
+            "écran"
           ],
           "reponse": 2,
-          "explication": "unemployment"
+          "explication": "village = village"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to come » mean?",
+          "options": [
+            "venir",
+            "année",
+            "école",
+            "médicament"
+          ],
+          "reponse": 0,
+          "explication": "to come = venir"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « time » mean?",
+          "options": [
+            "réaliser, mener",
+            "temps",
+            "donc, par conséquent",
+            "avoir besoin de"
+          ],
+          "reponse": 1,
+          "explication": "time = temps"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to give » mean?",
+          "options": [
+            "comparer",
+            "donner",
+            "difficile",
+            "environnement"
+          ],
+          "reponse": 1,
+          "explication": "to give = donner"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to go » mean?",
+          "options": [
+            "marché",
+            "avoir",
+            "école",
+            "aller"
+          ],
+          "reponse": 3,
+          "explication": "to go = aller"
         }
       ]
     }

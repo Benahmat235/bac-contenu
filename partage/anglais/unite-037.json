@@ -1,0 +1,158 @@
+{
+  "id": "anglais-u037",
+  "matiere": "anglais",
+  "type": "litteraire",
+  "titre": "Environment and Health (4/4)",
+  "ordre": 37,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Environment and Health",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u037-memo",
+      "titre": "Memorize",
+      "categorie": "memorisation",
+      "seuilReussite": 80,
+      "competenceId": "anglais-u037-c",
+      "activites": [
+        {
+          "type": "rappel_actif",
+          "question": "food",
+          "reponseAttendue": "nourriture\n« Food prices rose last month. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "nourriture\n« Food prices rose last month. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "energy",
+          "reponseAttendue": "énergie\n« Solar energy is clean and abundant. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "énergie\n« Solar energy is clean and abundant. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to protect",
+          "reponseAttendue": "protéger\n« We must protect Lake Chad. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "protéger\n« We must protect Lake Chad. »"
+        },
+        {
+          "type": "rappel_actif",
+          "question": "to prevent",
+          "reponseAttendue": "prévenir, empêcher\n« Vaccines prevent many diseases. »",
+          "modeReponse": "auto_evaluation",
+          "explication": "prévenir, empêcher\n« Vaccines prevent many diseases. »"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u037-type",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u037-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ prices rose last month.",
+          "reponse": "Food",
+          "toleranceMots": 0,
+          "explication": "food = nourriture"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Solar ___ is clean and abundant.",
+          "reponse": "energy",
+          "toleranceMots": 0,
+          "explication": "energy = énergie"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "We must ___ Lake Chad.",
+          "reponse": "protect",
+          "toleranceMots": 0,
+          "explication": "to protect = protéger"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Vaccines ___ many diseases.",
+          "reponse": "prevent",
+          "toleranceMots": 0,
+          "explication": "to prevent = prévenir, empêcher"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u037-quiz",
+      "titre": "Check",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u037-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What does « food » mean?",
+          "options": [
+            "nourriture",
+            "élève, étudiant",
+            "réussir",
+            "fabriquer, faire"
+          ],
+          "reponse": 0,
+          "explication": "food = nourriture"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « energy » mean?",
+          "options": [
+            "par exemple",
+            "dire",
+            "agriculteur",
+            "énergie"
+          ],
+          "reponse": 3,
+          "explication": "energy = énergie"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What does « to protect » mean?",
+          "options": [
+            "déchets",
+            "traiter de",
+            "protéger",
+            "village"
+          ],
+          "reponse": 2,
+          "explication": "to protect = protéger"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "recto": "food",
+      "verso": "nourriture\n« Food prices rose last month. »"
+    },
+    {
+      "recto": "energy",
+      "verso": "énergie\n« Solar energy is clean and abundant. »"
+    },
+    {
+      "recto": "to protect",
+      "verso": "protéger\n« We must protect Lake Chad. »"
+    },
+    {
+      "recto": "to prevent",
+      "verso": "prévenir, empêcher\n« Vaccines prevent many diseases. »"
+    }
+  ]
+}
