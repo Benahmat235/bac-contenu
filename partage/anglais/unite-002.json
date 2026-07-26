@@ -1,7 +1,7 @@
 {
   "id": "anglais-u002",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Verbs — Everyday Actions (2/4)",
   "ordre": 2,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u002-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u002-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to make",
-          "reponseAttendue": "fabriquer, faire\n« He wants to make a good impression. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "fabriquer, faire\n« He wants to make a good impression. »"
+          "type": "mot_en_contexte",
+          "mot": "to make",
+          "traduction": "fabriquer, faire",
+          "phrase": "He wants to make a good impression.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to say",
-          "reponseAttendue": "dire\n« Please say it again more slowly. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "dire\n« Please say it again more slowly. »"
+          "type": "mot_en_contexte",
+          "mot": "to say",
+          "traduction": "dire",
+          "phrase": "Please say it again more slowly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to know",
-          "reponseAttendue": "savoir, connaître\n« I know the answer to this question. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "savoir, connaître\n« I know the answer to this question. »"
+          "type": "mot_en_contexte",
+          "mot": "to know",
+          "traduction": "savoir, connaître",
+          "phrase": "I know the answer to this question.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to think",
-          "reponseAttendue": "penser\n« I think this exercise is difficult. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "penser\n« I think this exercise is difficult. »"
+          "type": "mot_en_contexte",
+          "mot": "to think",
+          "traduction": "penser",
+          "phrase": "I think this exercise is difficult.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u002-type",
+      "id": "anglais-u002-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "He wants to ___ a good impression.",
           "reponse": "make",
           "toleranceMots": 0,
+          "indice": "fabriquer, faire",
           "explication": "to make = fabriquer, faire"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Please ___ it again more slowly.",
           "reponse": "say",
           "toleranceMots": 0,
+          "indice": "dire",
           "explication": "to say = dire"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "I ___ the answer to this question.",
           "reponse": "know",
           "toleranceMots": 0,
+          "indice": "savoir, connaître",
           "explication": "to know = savoir, connaître"
         },
         {
@@ -87,72 +97,114 @@
           "phrase": "I ___ this exercise is difficult.",
           "reponse": "think",
           "toleranceMots": 0,
+          "indice": "penser",
           "explication": "to think = penser"
         }
       ]
     },
     {
-      "id": "anglais-u002-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u002-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to make » mean?",
-          "options": [
-            "problème, question",
-            "fabriquer, faire",
-            "rapidement",
-            "connaissance, savoir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « fabriquer, faire »",
+          "reponsesAcceptees": [
+            "to make",
+            "make"
           ],
-          "reponse": 1,
           "explication": "to make = fabriquer, faire"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to say » mean?",
-          "options": [
-            "connaissance, savoir",
-            "dire",
-            "leçon",
-            "remplir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « dire »",
+          "reponsesAcceptees": [
+            "to say",
+            "say"
           ],
-          "reponse": 1,
           "explication": "to say = dire"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to know » mean?",
-          "options": [
-            "savoir, connaître",
-            "ordinateur",
-            "par exemple",
-            "chercher"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « savoir, connaître »",
+          "reponsesAcceptees": [
+            "to know",
+            "know"
           ],
-          "reponse": 0,
           "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « penser »",
+          "reponsesAcceptees": [
+            "to think",
+            "think"
+          ],
+          "explication": "to think = penser"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u002-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u002-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He wants to make a good impression.",
+          "mot": "to make",
+          "traduction": "fabriquer, faire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Please say it again more slowly.",
+          "mot": "to say",
+          "traduction": "dire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I know the answer to this question.",
+          "mot": "to know",
+          "traduction": "savoir, connaître",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I think this exercise is difficult.",
+          "mot": "to think",
+          "traduction": "penser",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to make",
-      "verso": "fabriquer, faire\n« He wants to make a good impression. »"
+      "mot": "to make",
+      "traduction": "fabriquer, faire",
+      "phrase": "He wants to make a good impression."
     },
     {
-      "recto": "to say",
-      "verso": "dire\n« Please say it again more slowly. »"
+      "mot": "to say",
+      "traduction": "dire",
+      "phrase": "Please say it again more slowly."
     },
     {
-      "recto": "to know",
-      "verso": "savoir, connaître\n« I know the answer to this question. »"
+      "mot": "to know",
+      "traduction": "savoir, connaître",
+      "phrase": "I know the answer to this question."
     },
     {
-      "recto": "to think",
-      "verso": "penser\n« I think this exercise is difficult. »"
+      "mot": "to think",
+      "traduction": "penser",
+      "phrase": "I think this exercise is difficult."
     }
   ]
 }

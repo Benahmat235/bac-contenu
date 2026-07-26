@@ -1,7 +1,7 @@
 {
   "id": "anglais-u050",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Essential Phrasal Verbs (2/4)",
   "ordre": 50,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u050-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u050-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u050-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to carry out",
-          "reponseAttendue": "réaliser, mener\n« The students carried out an experiment. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "réaliser, mener\n« The students carried out an experiment. »"
+          "type": "mot_en_contexte",
+          "mot": "to carry out",
+          "traduction": "réaliser, mener",
+          "phrase": "The students carried out an experiment.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to grow up",
-          "reponseAttendue": "grandir\n« I grew up in Abéché. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "grandir\n« I grew up in Abéché. »"
+          "type": "mot_en_contexte",
+          "mot": "to grow up",
+          "traduction": "grandir",
+          "phrase": "I grew up in Abéché.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to take part in",
-          "reponseAttendue": "participer à\n« He took part in the debate. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "participer à\n« He took part in the debate. »"
+          "type": "mot_en_contexte",
+          "mot": "to take part in",
+          "traduction": "participer à",
+          "phrase": "He took part in the debate.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to get up",
-          "reponseAttendue": "se lever\n« I get up at five o'clock. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "se lever\n« I get up at five o'clock. »"
+          "type": "mot_en_contexte",
+          "mot": "to get up",
+          "traduction": "se lever",
+          "phrase": "I get up at five o'clock.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u050-type",
+      "id": "anglais-u050-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u050-c",
       "activites": [
         {
@@ -66,72 +73,114 @@
           "phrase": "I ___ at five o'clock.",
           "reponse": "get up",
           "toleranceMots": 0,
+          "indice": "se lever",
           "explication": "to get up = se lever"
         }
       ]
     },
     {
-      "id": "anglais-u050-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u050-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u050-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to carry out » mean?",
-          "options": [
-            "hôpital",
-            "réaliser, mener",
-            "par exemple",
-            "suggérer"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « réaliser, mener »",
+          "reponsesAcceptees": [
+            "to carry out",
+            "carry out"
           ],
-          "reponse": 1,
           "explication": "to carry out = réaliser, mener"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to grow up » mean?",
-          "options": [
-            "tard, en retard",
-            "pollution",
-            "leçon",
-            "grandir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « grandir »",
+          "reponsesAcceptees": [
+            "to grow up",
+            "grow up"
           ],
-          "reponse": 3,
           "explication": "to grow up = grandir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to take part in » mean?",
-          "options": [
-            "cependant",
-            "diplôme universitaire",
-            "gens, personnes",
-            "participer à"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « participer à »",
+          "reponsesAcceptees": [
+            "to take part in",
+            "take part in"
           ],
-          "reponse": 3,
           "explication": "to take part in = participer à"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « se lever »",
+          "reponsesAcceptees": [
+            "to get up",
+            "get up"
+          ],
+          "explication": "to get up = se lever"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u050-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u050-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The students carried out an experiment.",
+          "mot": "to carry out",
+          "traduction": "réaliser, mener",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I grew up in Abéché.",
+          "mot": "to grow up",
+          "traduction": "grandir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He took part in the debate.",
+          "mot": "to take part in",
+          "traduction": "participer à",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I get up at five o'clock.",
+          "mot": "to get up",
+          "traduction": "se lever",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to carry out",
-      "verso": "réaliser, mener\n« The students carried out an experiment. »"
+      "mot": "to carry out",
+      "traduction": "réaliser, mener",
+      "phrase": "The students carried out an experiment."
     },
     {
-      "recto": "to grow up",
-      "verso": "grandir\n« I grew up in Abéché. »"
+      "mot": "to grow up",
+      "traduction": "grandir",
+      "phrase": "I grew up in Abéché."
     },
     {
-      "recto": "to take part in",
-      "verso": "participer à\n« He took part in the debate. »"
+      "mot": "to take part in",
+      "traduction": "participer à",
+      "phrase": "He took part in the debate."
     },
     {
-      "recto": "to get up",
-      "verso": "se lever\n« I get up at five o'clock. »"
+      "mot": "to get up",
+      "traduction": "se lever",
+      "phrase": "I get up at five o'clock."
     }
   ]
 }

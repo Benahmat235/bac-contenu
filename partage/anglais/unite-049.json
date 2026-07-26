@@ -1,7 +1,7 @@
 {
   "id": "anglais-u049",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Essential Phrasal Verbs (1/4)",
   "ordre": 49,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u049-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u049-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u049-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to look for",
-          "reponseAttendue": "chercher\n« I am looking for my English notebook. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "chercher\n« I am looking for my English notebook. »"
+          "type": "mot_en_contexte",
+          "mot": "to look for",
+          "traduction": "chercher",
+          "phrase": "I am looking for my English notebook.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to look after",
-          "reponseAttendue": "s'occuper de\n« She looks after her younger brothers. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "s'occuper de\n« She looks after her younger brothers. »"
+          "type": "mot_en_contexte",
+          "mot": "to look after",
+          "traduction": "s'occuper de",
+          "phrase": "She looks after her younger brothers.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to give up",
-          "reponseAttendue": "abandonner\n« Never give up before the exam. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "abandonner\n« Never give up before the exam. »"
+          "type": "mot_en_contexte",
+          "mot": "to give up",
+          "traduction": "abandonner",
+          "phrase": "Never give up before the exam.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to find out",
-          "reponseAttendue": "découvrir\n« We found out the results yesterday. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "découvrir\n« We found out the results yesterday. »"
+          "type": "mot_en_contexte",
+          "mot": "to find out",
+          "traduction": "découvrir",
+          "phrase": "We found out the results yesterday.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u049-type",
+      "id": "anglais-u049-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u049-c",
       "activites": [
         {
@@ -66,72 +73,114 @@
           "phrase": "Never ___ before the exam.",
           "reponse": "give up",
           "toleranceMots": 0,
+          "indice": "abandonner",
           "explication": "to give up = abandonner"
         }
       ]
     },
     {
-      "id": "anglais-u049-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u049-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u049-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to look for » mean?",
-          "options": [
-            "réussir",
-            "chercher",
-            "problème, question",
-            "rendre, remettre"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « chercher »",
+          "reponsesAcceptees": [
+            "to look for",
+            "look for"
           ],
-          "reponse": 1,
           "explication": "to look for = chercher"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to look after » mean?",
-          "options": [
-            "s'occuper de",
-            "pollution",
-            "élève, étudiant",
-            "médicament"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « s'occuper de »",
+          "reponsesAcceptees": [
+            "to look after",
+            "look after"
           ],
-          "reponse": 0,
           "explication": "to look after = s'occuper de"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to give up » mean?",
-          "options": [
-            "améliorer",
-            "arbre",
-            "vouloir",
-            "abandonner"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « abandonner »",
+          "reponsesAcceptees": [
+            "to give up",
+            "give up"
           ],
-          "reponse": 3,
           "explication": "to give up = abandonner"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « découvrir »",
+          "reponsesAcceptees": [
+            "to find out",
+            "find out"
+          ],
+          "explication": "to find out = découvrir"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u049-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u049-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I am looking for my English notebook.",
+          "mot": "to look for",
+          "traduction": "chercher",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She looks after her younger brothers.",
+          "mot": "to look after",
+          "traduction": "s'occuper de",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Never give up before the exam.",
+          "mot": "to give up",
+          "traduction": "abandonner",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We found out the results yesterday.",
+          "mot": "to find out",
+          "traduction": "découvrir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to look for",
-      "verso": "chercher\n« I am looking for my English notebook. »"
+      "mot": "to look for",
+      "traduction": "chercher",
+      "phrase": "I am looking for my English notebook."
     },
     {
-      "recto": "to look after",
-      "verso": "s'occuper de\n« She looks after her younger brothers. »"
+      "mot": "to look after",
+      "traduction": "s'occuper de",
+      "phrase": "She looks after her younger brothers."
     },
     {
-      "recto": "to give up",
-      "verso": "abandonner\n« Never give up before the exam. »"
+      "mot": "to give up",
+      "traduction": "abandonner",
+      "phrase": "Never give up before the exam."
     },
     {
-      "recto": "to find out",
-      "verso": "découvrir\n« We found out the results yesterday. »"
+      "mot": "to find out",
+      "traduction": "découvrir",
+      "phrase": "We found out the results yesterday."
     }
   ]
 }

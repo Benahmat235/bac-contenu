@@ -1,7 +1,7 @@
 {
   "id": "anglais-u057",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "English Tenses: Future & Conditionals (1/2)",
   "ordre": 57,
   "source": {
@@ -14,42 +14,47 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u057-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u057-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u057-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use 'will + verb'?",
-          "reponseAttendue": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+          ],
           "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use 'going to + verb'?",
-          "reponseAttendue": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          ],
           "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the Zero Conditional? (If + present, present)",
-          "reponseAttendue": "For general truths. Ex: 'If you heat water, it boils.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For general truths. Ex: 'If you heat water, it boils.'"
+          ],
           "explication": "For general truths. Ex: 'If you heat water, it boils.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the First Conditional? (If + present, will + verb)",
-          "reponseAttendue": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+          ],
           "explication": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
         }
       ]
@@ -100,22 +105,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "When do we use 'will + verb'?",
-      "verso": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
-    },
-    {
-      "recto": "When do we use 'going to + verb'?",
-      "verso": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
-    },
-    {
-      "recto": "What is the Zero Conditional? (If + present, present)",
-      "verso": "For general truths. Ex: 'If you heat water, it boils.'"
-    },
-    {
-      "recto": "What is the First Conditional? (If + present, will + verb)",
-      "verso": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

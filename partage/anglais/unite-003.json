@@ -1,7 +1,7 @@
 {
   "id": "anglais-u003",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Verbs — Everyday Actions (3/4)",
   "ordre": 3,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u003-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u003-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to see",
-          "reponseAttendue": "voir\n« Can you see the blackboard from here? »",
-          "modeReponse": "auto_evaluation",
-          "explication": "voir\n« Can you see the blackboard from here? »"
+          "type": "mot_en_contexte",
+          "mot": "to see",
+          "traduction": "voir",
+          "phrase": "Can you see the blackboard from here?",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to want",
-          "reponseAttendue": "vouloir\n« She wants to become a doctor. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "vouloir\n« She wants to become a doctor. »"
+          "type": "mot_en_contexte",
+          "mot": "to want",
+          "traduction": "vouloir",
+          "phrase": "She wants to become a doctor.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to give",
-          "reponseAttendue": "donner\n« The teacher will give us the results tomorrow. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "donner\n« The teacher will give us the results tomorrow. »"
+          "type": "mot_en_contexte",
+          "mot": "to give",
+          "traduction": "donner",
+          "phrase": "The teacher will give us the results tomorrow.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to take",
-          "reponseAttendue": "prendre\n« Take your time and read the question twice. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "prendre\n« Take your time and read the question twice. »"
+          "type": "mot_en_contexte",
+          "mot": "to take",
+          "traduction": "prendre",
+          "phrase": "Take your time and read the question twice.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u003-type",
+      "id": "anglais-u003-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "Can you ___ the blackboard from here?",
           "reponse": "see",
           "toleranceMots": 0,
+          "indice": "voir",
           "explication": "to see = voir"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "She ___s to become a doctor.",
           "reponse": "want",
           "toleranceMots": 0,
+          "indice": "vouloir",
           "explication": "to want = vouloir"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "The teacher will ___ us the results tomorrow.",
           "reponse": "give",
           "toleranceMots": 0,
+          "indice": "donner",
           "explication": "to give = donner"
         },
         {
@@ -87,72 +97,114 @@
           "phrase": "___ your time and read the question twice.",
           "reponse": "Take",
           "toleranceMots": 0,
+          "indice": "prendre",
           "explication": "to take = prendre"
         }
       ]
     },
     {
-      "id": "anglais-u003-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u003-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to see » mean?",
-          "options": [
-            "donc, par conséquent",
-            "bien que",
-            "reporter",
-            "voir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « voir »",
+          "reponsesAcceptees": [
+            "to see",
+            "see"
           ],
-          "reponse": 3,
           "explication": "to see = voir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to want » mean?",
-          "options": [
-            "vouloir",
-            "information",
-            "télécharger",
-            "définir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « vouloir »",
+          "reponsesAcceptees": [
+            "to want",
+            "want"
           ],
-          "reponse": 0,
           "explication": "to want = vouloir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to give » mean?",
-          "options": [
-            "santé",
-            "donner",
-            "selon",
-            "hôpital"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « donner »",
+          "reponsesAcceptees": [
+            "to give",
+            "give"
           ],
-          "reponse": 1,
           "explication": "to give = donner"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « prendre »",
+          "reponsesAcceptees": [
+            "to take",
+            "take"
+          ],
+          "explication": "to take = prendre"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u003-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u003-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Can you see the blackboard from here?",
+          "mot": "to see",
+          "traduction": "voir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She wants to become a doctor.",
+          "mot": "to want",
+          "traduction": "vouloir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The teacher will give us the results tomorrow.",
+          "mot": "to give",
+          "traduction": "donner",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Take your time and read the question twice.",
+          "mot": "to take",
+          "traduction": "prendre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to see",
-      "verso": "voir\n« Can you see the blackboard from here? »"
+      "mot": "to see",
+      "traduction": "voir",
+      "phrase": "Can you see the blackboard from here?"
     },
     {
-      "recto": "to want",
-      "verso": "vouloir\n« She wants to become a doctor. »"
+      "mot": "to want",
+      "traduction": "vouloir",
+      "phrase": "She wants to become a doctor."
     },
     {
-      "recto": "to give",
-      "verso": "donner\n« The teacher will give us the results tomorrow. »"
+      "mot": "to give",
+      "traduction": "donner",
+      "phrase": "The teacher will give us the results tomorrow."
     },
     {
-      "recto": "to take",
-      "verso": "prendre\n« Take your time and read the question twice. »"
+      "mot": "to take",
+      "traduction": "prendre",
+      "phrase": "Take your time and read the question twice."
     }
   ]
 }

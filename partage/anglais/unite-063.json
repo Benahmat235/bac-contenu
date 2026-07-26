@@ -1,7 +1,7 @@
 {
   "id": "anglais-u063",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Essay Writing & Useful Expressions (2/3)",
   "ordre": 63,
   "source": {
@@ -14,35 +14,39 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u063-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u063-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u063-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Give 3 connectors for conclusion.",
-          "reponseAttendue": "In conclusion, to sum up, all in all, finally.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "In conclusion, to sum up, all in all, finally."
+          ],
           "explication": "In conclusion, to sum up, all in all, finally."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "How do you express your opinion in English?",
-          "reponseAttendue": "In my opinion, I believe that, From my point of view, It seems to me that.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "In my opinion, I believe that, From my point of view, It seems to me that."
+          ],
           "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "How do you introduce an example?",
-          "reponseAttendue": "For instance, for example, such as, to illustrate.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For instance, for example, such as, to illustrate."
+          ],
           "explication": "For instance, for example, such as, to illustrate."
         }
       ]
@@ -93,18 +97,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "Give 3 connectors for conclusion.",
-      "verso": "In conclusion, to sum up, all in all, finally."
-    },
-    {
-      "recto": "How do you express your opinion in English?",
-      "verso": "In my opinion, I believe that, From my point of view, It seems to me that."
-    },
-    {
-      "recto": "How do you introduce an example?",
-      "verso": "For instance, for example, such as, to illustrate."
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "anglais-u035",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Environment and Health (3/4)",
   "ordre": 35,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u035-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u035-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u035-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "health",
-          "reponseAttendue": "santé\n« Good health depends on clean water. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "santé\n« Good health depends on clean water. »"
+          "type": "mot_en_contexte",
+          "mot": "health",
+          "traduction": "santé",
+          "phrase": "Good health depends on clean water.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "disease",
-          "reponseAttendue": "maladie\n« Malaria is a common disease here. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "maladie\n« Malaria is a common disease here. »"
+          "type": "mot_en_contexte",
+          "mot": "disease",
+          "traduction": "maladie",
+          "phrase": "Malaria is a common disease here.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "hospital",
-          "reponseAttendue": "hôpital\n« The nearest hospital is ten kilometres away. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "hôpital\n« The nearest hospital is ten kilometres away. »"
+          "type": "mot_en_contexte",
+          "mot": "hospital",
+          "traduction": "hôpital",
+          "phrase": "The nearest hospital is ten kilometres away.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "medicine",
-          "reponseAttendue": "médicament\n« The doctor prescribed a strong medicine. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "médicament\n« The doctor prescribed a strong medicine. »"
+          "type": "mot_en_contexte",
+          "mot": "medicine",
+          "traduction": "médicament",
+          "phrase": "The doctor prescribed a strong medicine.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u035-type",
+      "id": "anglais-u035-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u035-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "Good ___ depends on clean water.",
           "reponse": "health",
           "toleranceMots": 0,
+          "indice": "santé",
           "explication": "health = santé"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Malaria is a common ___ here.",
           "reponse": "disease",
           "toleranceMots": 0,
+          "indice": "maladie",
           "explication": "disease = maladie"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "The nearest ___ is ten kilometres away.",
           "reponse": "hospital",
           "toleranceMots": 0,
+          "indice": "hôpital",
           "explication": "hospital = hôpital"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "The doctor prescribed a strong ___.",
           "reponse": "medicine",
           "toleranceMots": 0,
+          "indice": "médicament",
           "explication": "medicine = médicament"
         }
       ]
     },
     {
-      "id": "anglais-u035-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u035-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u035-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « health » mean?",
-          "options": [
-            "réaliser, mener",
-            "internet",
-            "santé",
-            "savoir, connaître"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « santé »",
+          "reponsesAcceptees": [
+            "health"
           ],
-          "reponse": 2,
           "explication": "health = santé"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « disease » mean?",
-          "options": [
-            "réussir (un examen)",
-            "pays",
-            "pluie",
-            "maladie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « maladie »",
+          "reponsesAcceptees": [
+            "disease"
           ],
-          "reponse": 3,
           "explication": "disease = maladie"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « hospital » mean?",
-          "options": [
-            "paix",
-            "hôpital",
-            "village",
-            "désert"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « hôpital »",
+          "reponsesAcceptees": [
+            "hospital"
           ],
-          "reponse": 1,
           "explication": "hospital = hôpital"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « médicament »",
+          "reponsesAcceptees": [
+            "medicine"
+          ],
+          "explication": "medicine = médicament"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u035-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u035-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Good health depends on clean water.",
+          "mot": "health",
+          "traduction": "santé",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Malaria is a common disease here.",
+          "mot": "disease",
+          "traduction": "maladie",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The nearest hospital is ten kilometres away.",
+          "mot": "hospital",
+          "traduction": "hôpital",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The doctor prescribed a strong medicine.",
+          "mot": "medicine",
+          "traduction": "médicament",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "health",
-      "verso": "santé\n« Good health depends on clean water. »"
+      "mot": "health",
+      "traduction": "santé",
+      "phrase": "Good health depends on clean water."
     },
     {
-      "recto": "disease",
-      "verso": "maladie\n« Malaria is a common disease here. »"
+      "mot": "disease",
+      "traduction": "maladie",
+      "phrase": "Malaria is a common disease here."
     },
     {
-      "recto": "hospital",
-      "verso": "hôpital\n« The nearest hospital is ten kilometres away. »"
+      "mot": "hospital",
+      "traduction": "hôpital",
+      "phrase": "The nearest hospital is ten kilometres away."
     },
     {
-      "recto": "medicine",
-      "verso": "médicament\n« The doctor prescribed a strong medicine. »"
+      "mot": "medicine",
+      "traduction": "médicament",
+      "phrase": "The doctor prescribed a strong medicine."
     }
   ]
 }

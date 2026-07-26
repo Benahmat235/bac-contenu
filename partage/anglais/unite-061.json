@@ -1,7 +1,7 @@
 {
   "id": "anglais-u061",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Passive Voice & Reported Speech (3/3)",
   "ordre": 61,
   "source": {
@@ -14,35 +14,39 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u061-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u061-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u061-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Direct: 'Don't go!' → Reported:",
-          "reponseAttendue": "She told me not to go.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "She told me not to go."
+          ],
           "explication": "She told me not to go."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is 'say' vs 'tell' in reported speech?",
-          "reponseAttendue": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+          ],
           "explication": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Change to passive: 'People speak French in Chad.'",
-          "reponseAttendue": "'French is spoken in Chad.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "'French is spoken in Chad.'"
+          ],
           "explication": "'French is spoken in Chad.'"
         }
       ]
@@ -93,18 +97,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "Direct: 'Don't go!' → Reported:",
-      "verso": "She told me not to go."
-    },
-    {
-      "recto": "What is 'say' vs 'tell' in reported speech?",
-      "verso": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
-    },
-    {
-      "recto": "Change to passive: 'People speak French in Chad.'",
-      "verso": "'French is spoken in Chad.'"
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

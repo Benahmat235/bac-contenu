@@ -1,7 +1,7 @@
 {
   "id": "anglais-u011",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Adjectives and Adverbs (1/4)",
   "ordre": 11,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u011-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u011-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "good",
-          "reponseAttendue": "bon\n« She got a good mark in mathematics. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "bon\n« She got a good mark in mathematics. »"
+          "type": "mot_en_contexte",
+          "mot": "good",
+          "traduction": "bon",
+          "phrase": "She got a good mark in mathematics.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "bad",
-          "reponseAttendue": "mauvais\n« Bad weather delayed the harvest. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "mauvais\n« Bad weather delayed the harvest. »"
+          "type": "mot_en_contexte",
+          "mot": "bad",
+          "traduction": "mauvais",
+          "phrase": "Bad weather delayed the harvest.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "important",
-          "reponseAttendue": "important\n« It is important to revise regularly. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "important\n« It is important to revise regularly. »"
+          "type": "mot_en_contexte",
+          "mot": "important",
+          "traduction": "important",
+          "phrase": "It is important to revise regularly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "difficult",
-          "reponseAttendue": "difficile\n« This problem is difficult but not impossible. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "difficile\n« This problem is difficult but not impossible. »"
+          "type": "mot_en_contexte",
+          "mot": "difficult",
+          "traduction": "difficile",
+          "phrase": "This problem is difficult but not impossible.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u011-type",
+      "id": "anglais-u011-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "She got a ___ mark in mathematics.",
           "reponse": "good",
           "toleranceMots": 0,
+          "indice": "bon",
           "explication": "good = bon"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___ weather delayed the harvest.",
           "reponse": "Bad",
           "toleranceMots": 0,
+          "indice": "mauvais",
           "explication": "bad = mauvais"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "It is ___ to revise regularly.",
           "reponse": "important",
           "toleranceMots": 0,
+          "indice": "important",
           "explication": "important = important"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "This problem is ___ but not impossible.",
           "reponse": "difficult",
           "toleranceMots": 0,
+          "indice": "difficile",
           "explication": "difficult = difficile"
         }
       ]
     },
     {
-      "id": "anglais-u011-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u011-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « good » mean?",
-          "options": [
-            "toujours",
-            "abandonner",
-            "commerce",
-            "bon"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « bon »",
+          "reponsesAcceptees": [
+            "good"
           ],
-          "reponse": 3,
           "explication": "good = bon"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « bad » mean?",
-          "options": [
-            "nourriture",
-            "mauvais",
-            "comparer",
-            "prévenir, empêcher"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « mauvais »",
+          "reponsesAcceptees": [
+            "bad"
           ],
-          "reponse": 1,
           "explication": "bad = mauvais"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « important » mean?",
-          "options": [
-            "répondre",
-            "suggérer",
-            "important",
-            "savoir, connaître"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « important »",
+          "reponsesAcceptees": [
+            "important"
           ],
-          "reponse": 2,
           "explication": "important = important"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « difficile »",
+          "reponsesAcceptees": [
+            "difficult"
+          ],
+          "explication": "difficult = difficile"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u011-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u011-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She got a good mark in mathematics.",
+          "mot": "good",
+          "traduction": "bon",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Bad weather delayed the harvest.",
+          "mot": "bad",
+          "traduction": "mauvais",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "It is important to revise regularly.",
+          "mot": "important",
+          "traduction": "important",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This problem is difficult but not impossible.",
+          "mot": "difficult",
+          "traduction": "difficile",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "good",
-      "verso": "bon\n« She got a good mark in mathematics. »"
+      "mot": "good",
+      "traduction": "bon",
+      "phrase": "She got a good mark in mathematics."
     },
     {
-      "recto": "bad",
-      "verso": "mauvais\n« Bad weather delayed the harvest. »"
+      "mot": "bad",
+      "traduction": "mauvais",
+      "phrase": "Bad weather delayed the harvest."
     },
     {
-      "recto": "important",
-      "verso": "important\n« It is important to revise regularly. »"
+      "mot": "important",
+      "traduction": "important",
+      "phrase": "It is important to revise regularly."
     },
     {
-      "recto": "difficult",
-      "verso": "difficile\n« This problem is difficult but not impossible. »"
+      "mot": "difficult",
+      "traduction": "difficile",
+      "phrase": "This problem is difficult but not impossible."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "anglais-u055",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "English Tenses: Present & Past (2/3)",
   "ordre": 55,
   "source": {
@@ -14,35 +14,39 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u055-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u055-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u055-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the structure of Past Simple (regular)?",
-          "reponseAttendue": "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          ],
           "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the structure of Present Perfect?",
-          "reponseAttendue": "Subject + have/has + past participle. Ex: 'They have studied all night.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+          ],
           "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-          "reponseAttendue": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          ],
           "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
         }
       ]
@@ -93,18 +97,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "What is the structure of Past Simple (regular)?",
-      "verso": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
-    },
-    {
-      "recto": "What is the structure of Present Perfect?",
-      "verso": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
-    },
-    {
-      "recto": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-      "verso": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

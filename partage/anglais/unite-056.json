@@ -1,7 +1,7 @@
 {
   "id": "anglais-u056",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "English Tenses: Present & Past (3/3)",
   "ordre": 56,
   "source": {
@@ -14,35 +14,39 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u056-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u056-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u056-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use the Past Continuous?",
-          "reponseAttendue": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          ],
           "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Give the past participle of: go, see, write, take",
-          "reponseAttendue": "gone, seen, written, taken",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "gone, seen, written, taken"
+          ],
           "explication": "gone, seen, written, taken"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Give the past participle of: be, have, do, make",
-          "reponseAttendue": "been, had, done, made",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "been, had, done, made"
+          ],
           "explication": "been, had, done, made"
         }
       ]
@@ -93,18 +97,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "When do we use the Past Continuous?",
-      "verso": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
-    },
-    {
-      "recto": "Give the past participle of: go, see, write, take",
-      "verso": "gone, seen, written, taken"
-    },
-    {
-      "recto": "Give the past participle of: be, have, do, make",
-      "verso": "been, had, done, made"
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

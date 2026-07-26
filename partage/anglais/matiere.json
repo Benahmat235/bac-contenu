@@ -1,12 +1,15 @@
 {
   "id": "anglais",
   "titre": "Anglais",
+  "type": "langue",
   "seriesConcernees": [
     "a4",
     "c",
     "d"
   ],
-  "description": "Vocabulaire anglais à haute fréquence enseigné en contexte (traduction, phrase d'exemple, saisie active), puis grammaire essentielle pour le baccalauréat.",
+  "modeleApprentissage": "production",
+  "repetitionEspacee": false,
+  "description": "Anglais par la PRODUCTION : découvrir le mot en contexte, le taper, le dire à voix haute, puis le réutiliser. Cette matière n'utilise pas la mémorisation espacée.",
   "unites": [
     {
       "id": "anglais-u001",
@@ -30,12 +33,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r004",
-      "titre": "Revision",
+      "id": "anglais-c004",
+      "titre": "Recycling",
       "ordre": 4,
-      "fichier": "partage/anglais/revision-004.json",
+      "fichier": "partage/anglais/recyclage-004.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u005",
@@ -59,12 +62,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r008",
-      "titre": "Revision",
+      "id": "anglais-c008",
+      "titre": "Recycling",
       "ordre": 8,
-      "fichier": "partage/anglais/revision-008.json",
+      "fichier": "partage/anglais/recyclage-008.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u009",
@@ -88,12 +91,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r012",
-      "titre": "Revision",
+      "id": "anglais-c012",
+      "titre": "Recycling",
       "ordre": 12,
-      "fichier": "partage/anglais/revision-012.json",
+      "fichier": "partage/anglais/recyclage-012.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u013",
@@ -117,12 +120,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r016",
-      "titre": "Revision",
+      "id": "anglais-c016",
+      "titre": "Recycling",
       "ordre": 16,
-      "fichier": "partage/anglais/revision-016.json",
+      "fichier": "partage/anglais/recyclage-016.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u017",
@@ -146,12 +149,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r020",
-      "titre": "Revision",
+      "id": "anglais-c020",
+      "titre": "Recycling",
       "ordre": 20,
-      "fichier": "partage/anglais/revision-020.json",
+      "fichier": "partage/anglais/recyclage-020.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u021",
@@ -175,12 +178,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r024",
-      "titre": "Revision",
+      "id": "anglais-c024",
+      "titre": "Recycling",
       "ordre": 24,
-      "fichier": "partage/anglais/revision-024.json",
+      "fichier": "partage/anglais/recyclage-024.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u025",
@@ -204,12 +207,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r028",
-      "titre": "Revision",
+      "id": "anglais-c028",
+      "titre": "Recycling",
       "ordre": 28,
-      "fichier": "partage/anglais/revision-028.json",
+      "fichier": "partage/anglais/recyclage-028.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u029",
@@ -233,12 +236,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r032",
-      "titre": "Revision",
+      "id": "anglais-c032",
+      "titre": "Recycling",
       "ordre": 32,
-      "fichier": "partage/anglais/revision-032.json",
+      "fichier": "partage/anglais/recyclage-032.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u033",
@@ -262,12 +265,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r036",
-      "titre": "Revision",
+      "id": "anglais-c036",
+      "titre": "Recycling",
       "ordre": 36,
-      "fichier": "partage/anglais/revision-036.json",
+      "fichier": "partage/anglais/recyclage-036.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u037",
@@ -291,12 +294,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r040",
-      "titre": "Revision",
+      "id": "anglais-c040",
+      "titre": "Recycling",
       "ordre": 40,
-      "fichier": "partage/anglais/revision-040.json",
+      "fichier": "partage/anglais/recyclage-040.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u041",
@@ -320,12 +323,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r044",
-      "titre": "Revision",
+      "id": "anglais-c044",
+      "titre": "Recycling",
       "ordre": 44,
-      "fichier": "partage/anglais/revision-044.json",
+      "fichier": "partage/anglais/recyclage-044.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u045",
@@ -349,12 +352,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r048",
-      "titre": "Revision",
+      "id": "anglais-c048",
+      "titre": "Recycling",
       "ordre": 48,
-      "fichier": "partage/anglais/revision-048.json",
+      "fichier": "partage/anglais/recyclage-048.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u049",
@@ -378,12 +381,12 @@
       "prerequis": []
     },
     {
-      "id": "anglais-r052",
-      "titre": "Revision",
+      "id": "anglais-c052",
+      "titre": "Recycling",
       "ordre": 52,
-      "fichier": "partage/anglais/revision-052.json",
+      "fichier": "partage/anglais/recyclage-052.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u053",

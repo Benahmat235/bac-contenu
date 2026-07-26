@@ -1,7 +1,7 @@
 {
   "id": "anglais-u021",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Connectors — Linking Your Ideas (4/4)",
   "ordre": 21,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u021-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u021-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "while",
-          "reponseAttendue": "tandis que\n« While some study science, others prefer literature. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "tandis que\n« While some study science, others prefer literature. »"
+          "type": "mot_en_contexte",
+          "mot": "while",
+          "traduction": "tandis que",
+          "phrase": "While some study science, others prefer literature.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "besides",
-          "reponseAttendue": "en plus de cela\n« Besides, the road is now paved. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "en plus de cela\n« Besides, the road is now paved. »"
+          "type": "mot_en_contexte",
+          "mot": "besides",
+          "traduction": "en plus de cela",
+          "phrase": "Besides, the road is now paved.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "in fact",
-          "reponseAttendue": "en fait\n« In fact, the answer was very simple. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "en fait\n« In fact, the answer was very simple. »"
+          "type": "mot_en_contexte",
+          "mot": "in fact",
+          "traduction": "en fait",
+          "phrase": "In fact, the answer was very simple.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "that is why",
-          "reponseAttendue": "c'est pourquoi\n« That is why we must protect the lake. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "c'est pourquoi\n« That is why we must protect the lake. »"
+          "type": "mot_en_contexte",
+          "mot": "that is why",
+          "traduction": "c'est pourquoi",
+          "phrase": "That is why we must protect the lake.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u021-type",
+      "id": "anglais-u021-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ some study science, others prefer literature.",
           "reponse": "While",
           "toleranceMots": 0,
+          "indice": "tandis que",
           "explication": "while = tandis que"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___, the road is now paved.",
           "reponse": "Besides",
           "toleranceMots": 0,
+          "indice": "en plus de cela",
           "explication": "besides = en plus de cela"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___, the answer was very simple.",
           "reponse": "In fact",
           "toleranceMots": 0,
+          "indice": "en fait",
           "explication": "in fact = en fait"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "___ we must protect the lake.",
           "reponse": "That is why",
           "toleranceMots": 0,
+          "indice": "c'est pourquoi",
           "explication": "that is why = c'est pourquoi"
         }
       ]
     },
     {
-      "id": "anglais-u021-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u021-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « while » mean?",
-          "options": [
-            "agriculteur",
-            "enfin",
-            "améliorer",
-            "tandis que"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « tandis que »",
+          "reponsesAcceptees": [
+            "while"
           ],
-          "reponse": 3,
           "explication": "while = tandis que"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « besides » mean?",
-          "options": [
-            "sécheresse",
-            "année",
-            "gens, personnes",
-            "en plus de cela"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en plus de cela »",
+          "reponsesAcceptees": [
+            "besides"
           ],
-          "reponse": 3,
           "explication": "besides = en plus de cela"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « in fact » mean?",
-          "options": [
-            "abandonner",
-            "penser",
-            "tandis que",
-            "en fait"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en fait »",
+          "reponsesAcceptees": [
+            "in fact"
           ],
-          "reponse": 3,
           "explication": "in fact = en fait"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « c'est pourquoi »",
+          "reponsesAcceptees": [
+            "that is why"
+          ],
+          "explication": "that is why = c'est pourquoi"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u021-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u021-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "While some study science, others prefer literature.",
+          "mot": "while",
+          "traduction": "tandis que",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Besides, the road is now paved.",
+          "mot": "besides",
+          "traduction": "en plus de cela",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "In fact, the answer was very simple.",
+          "mot": "in fact",
+          "traduction": "en fait",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "That is why we must protect the lake.",
+          "mot": "that is why",
+          "traduction": "c'est pourquoi",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "while",
-      "verso": "tandis que\n« While some study science, others prefer literature. »"
+      "mot": "while",
+      "traduction": "tandis que",
+      "phrase": "While some study science, others prefer literature."
     },
     {
-      "recto": "besides",
-      "verso": "en plus de cela\n« Besides, the road is now paved. »"
+      "mot": "besides",
+      "traduction": "en plus de cela",
+      "phrase": "Besides, the road is now paved."
     },
     {
-      "recto": "in fact",
-      "verso": "en fait\n« In fact, the answer was very simple. »"
+      "mot": "in fact",
+      "traduction": "en fait",
+      "phrase": "In fact, the answer was very simple."
     },
     {
-      "recto": "that is why",
-      "verso": "c'est pourquoi\n« That is why we must protect the lake. »"
+      "mot": "that is why",
+      "traduction": "c'est pourquoi",
+      "phrase": "That is why we must protect the lake."
     }
   ]
 }

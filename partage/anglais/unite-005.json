@@ -1,7 +1,7 @@
 {
   "id": "anglais-u005",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Verbs — Everyday Actions (4/4)",
   "ordre": 5,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u005-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u005-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u005-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to come",
-          "reponseAttendue": "venir\n« My friends come from Moundou. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "venir\n« My friends come from Moundou. »"
+          "type": "mot_en_contexte",
+          "mot": "to come",
+          "traduction": "venir",
+          "phrase": "My friends come from Moundou.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to find",
-          "reponseAttendue": "trouver\n« I cannot find my notebook. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "trouver\n« I cannot find my notebook. »"
+          "type": "mot_en_contexte",
+          "mot": "to find",
+          "traduction": "trouver",
+          "phrase": "I cannot find my notebook.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to work",
-          "reponseAttendue": "travailler\n« My father works in a hospital. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "travailler\n« My father works in a hospital. »"
+          "type": "mot_en_contexte",
+          "mot": "to work",
+          "traduction": "travailler",
+          "phrase": "My father works in a hospital.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to need",
-          "reponseAttendue": "avoir besoin de\n« Students need water and electricity to study. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "avoir besoin de\n« Students need water and electricity to study. »"
+          "type": "mot_en_contexte",
+          "mot": "to need",
+          "traduction": "avoir besoin de",
+          "phrase": "Students need water and electricity to study.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u005-type",
+      "id": "anglais-u005-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u005-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "My friends ___ from Moundou.",
           "reponse": "come",
           "toleranceMots": 0,
+          "indice": "venir",
           "explication": "to come = venir"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "I cannot ___ my notebook.",
           "reponse": "find",
           "toleranceMots": 0,
+          "indice": "trouver",
           "explication": "to find = trouver"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "My father ___s in a hospital.",
           "reponse": "work",
           "toleranceMots": 0,
+          "indice": "travailler",
           "explication": "to work = travailler"
         },
         {
@@ -87,72 +97,114 @@
           "phrase": "Students ___ water and electricity to study.",
           "reponse": "need",
           "toleranceMots": 0,
+          "indice": "avoir besoin de",
           "explication": "to need = avoir besoin de"
         }
       ]
     },
     {
-      "id": "anglais-u005-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u005-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u005-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to come » mean?",
-          "options": [
-            "grandir",
-            "abandonner",
-            "donc, par conséquent",
-            "venir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « venir »",
+          "reponsesAcceptees": [
+            "to come",
+            "come"
           ],
-          "reponse": 3,
           "explication": "to come = venir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to find » mean?",
-          "options": [
-            "protéger",
-            "trouver",
-            "connaissance, savoir",
-            "preuve"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « trouver »",
+          "reponsesAcceptees": [
+            "to find",
+            "find"
           ],
-          "reponse": 1,
           "explication": "to find = trouver"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to work » mean?",
-          "options": [
-            "enseignant",
-            "bien que",
-            "travailler",
-            "travail"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « travailler »",
+          "reponsesAcceptees": [
+            "to work",
+            "work"
           ],
-          "reponse": 2,
           "explication": "to work = travailler"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avoir besoin de »",
+          "reponsesAcceptees": [
+            "to need",
+            "need"
+          ],
+          "explication": "to need = avoir besoin de"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u005-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u005-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My friends come from Moundou.",
+          "mot": "to come",
+          "traduction": "venir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I cannot find my notebook.",
+          "mot": "to find",
+          "traduction": "trouver",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My father works in a hospital.",
+          "mot": "to work",
+          "traduction": "travailler",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Students need water and electricity to study.",
+          "mot": "to need",
+          "traduction": "avoir besoin de",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to come",
-      "verso": "venir\n« My friends come from Moundou. »"
+      "mot": "to come",
+      "traduction": "venir",
+      "phrase": "My friends come from Moundou."
     },
     {
-      "recto": "to find",
-      "verso": "trouver\n« I cannot find my notebook. »"
+      "mot": "to find",
+      "traduction": "trouver",
+      "phrase": "I cannot find my notebook."
     },
     {
-      "recto": "to work",
-      "verso": "travailler\n« My father works in a hospital. »"
+      "mot": "to work",
+      "traduction": "travailler",
+      "phrase": "My father works in a hospital."
     },
     {
-      "recto": "to need",
-      "verso": "avoir besoin de\n« Students need water and electricity to study. »"
+      "mot": "to need",
+      "traduction": "avoir besoin de",
+      "phrase": "Students need water and electricity to study."
     }
   ]
 }

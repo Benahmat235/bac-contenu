@@ -1,7 +1,7 @@
 {
   "id": "anglais-u025",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Education and Exams (3/4)",
   "ordre": 25,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u025-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u025-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u025-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "knowledge",
-          "reponseAttendue": "connaissance, savoir\n« Knowledge is the best investment. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "connaissance, savoir\n« Knowledge is the best investment. »"
+          "type": "mot_en_contexte",
+          "mot": "knowledge",
+          "traduction": "connaissance, savoir",
+          "phrase": "Knowledge is the best investment.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "scholarship",
-          "reponseAttendue": "bourse d'études\n« He won a scholarship to study medicine. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "bourse d'études\n« He won a scholarship to study medicine. »"
+          "type": "mot_en_contexte",
+          "mot": "scholarship",
+          "traduction": "bourse d'études",
+          "phrase": "He won a scholarship to study medicine.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to attend",
-          "reponseAttendue": "assister à, fréquenter\n« All pupils must attend classes. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "assister à, fréquenter\n« All pupils must attend classes. »"
+          "type": "mot_en_contexte",
+          "mot": "to attend",
+          "traduction": "assister à, fréquenter",
+          "phrase": "All pupils must attend classes.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to explain",
-          "reponseAttendue": "expliquer\n« Can you explain this formula again? »",
-          "modeReponse": "auto_evaluation",
-          "explication": "expliquer\n« Can you explain this formula again? »"
+          "type": "mot_en_contexte",
+          "mot": "to explain",
+          "traduction": "expliquer",
+          "phrase": "Can you explain this formula again?",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u025-type",
+      "id": "anglais-u025-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u025-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ is the best investment.",
           "reponse": "Knowledge",
           "toleranceMots": 0,
+          "indice": "connaissance, savoir",
           "explication": "knowledge = connaissance, savoir"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "He won a ___ to study medicine.",
           "reponse": "scholarship",
           "toleranceMots": 0,
+          "indice": "bourse d'études",
           "explication": "scholarship = bourse d'études"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "All pupils must ___ classes.",
           "reponse": "attend",
           "toleranceMots": 0,
+          "indice": "assister à, fréquenter",
           "explication": "to attend = assister à, fréquenter"
         },
         {
@@ -87,72 +97,112 @@
           "phrase": "Can you ___ this formula again?",
           "reponse": "explain",
           "toleranceMots": 0,
+          "indice": "expliquer",
           "explication": "to explain = expliquer"
         }
       ]
     },
     {
-      "id": "anglais-u025-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u025-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u025-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « knowledge » mean?",
-          "options": [
-            "connaissance, savoir",
-            "soutenir",
-            "jour",
-            "énergie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « connaissance, savoir »",
+          "reponsesAcceptees": [
+            "knowledge"
           ],
-          "reponse": 0,
           "explication": "knowledge = connaissance, savoir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « scholarship » mean?",
-          "options": [
-            "bourse d'études",
-            "désert",
-            "chômage",
-            "définir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « bourse d'études »",
+          "reponsesAcceptees": [
+            "scholarship"
           ],
-          "reponse": 0,
           "explication": "scholarship = bourse d'études"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to attend » mean?",
-          "options": [
-            "assister à, fréquenter",
-            "protéger",
-            "paix",
-            "se concentrer sur"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « assister à, fréquenter »",
+          "reponsesAcceptees": [
+            "to attend",
+            "attend"
           ],
-          "reponse": 0,
           "explication": "to attend = assister à, fréquenter"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « expliquer »",
+          "reponsesAcceptees": [
+            "to explain",
+            "explain"
+          ],
+          "explication": "to explain = expliquer"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u025-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u025-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Knowledge is the best investment.",
+          "mot": "knowledge",
+          "traduction": "connaissance, savoir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He won a scholarship to study medicine.",
+          "mot": "scholarship",
+          "traduction": "bourse d'études",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "All pupils must attend classes.",
+          "mot": "to attend",
+          "traduction": "assister à, fréquenter",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Can you explain this formula again?",
+          "mot": "to explain",
+          "traduction": "expliquer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "knowledge",
-      "verso": "connaissance, savoir\n« Knowledge is the best investment. »"
+      "mot": "knowledge",
+      "traduction": "connaissance, savoir",
+      "phrase": "Knowledge is the best investment."
     },
     {
-      "recto": "scholarship",
-      "verso": "bourse d'études\n« He won a scholarship to study medicine. »"
+      "mot": "scholarship",
+      "traduction": "bourse d'études",
+      "phrase": "He won a scholarship to study medicine."
     },
     {
-      "recto": "to attend",
-      "verso": "assister à, fréquenter\n« All pupils must attend classes. »"
+      "mot": "to attend",
+      "traduction": "assister à, fréquenter",
+      "phrase": "All pupils must attend classes."
     },
     {
-      "recto": "to explain",
-      "verso": "expliquer\n« Can you explain this formula again? »"
+      "mot": "to explain",
+      "traduction": "expliquer",
+      "phrase": "Can you explain this formula again?"
     }
   ]
 }

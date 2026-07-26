@@ -1,7 +1,7 @@
 {
   "id": "anglais-u026",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Education and Exams (4/4)",
   "ordre": 26,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u026-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u026-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u026-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to answer",
-          "reponseAttendue": "répondre\n« Answer all the questions in order. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "répondre\n« Answer all the questions in order. »"
+          "type": "mot_en_contexte",
+          "mot": "to answer",
+          "traduction": "répondre",
+          "phrase": "Answer all the questions in order.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to memorize",
-          "reponseAttendue": "mémoriser\n« Try to memorize the key dates. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "mémoriser\n« Try to memorize the key dates. »"
+          "type": "mot_en_contexte",
+          "mot": "to memorize",
+          "traduction": "mémoriser",
+          "phrase": "Try to memorize the key dates.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "literacy",
-          "reponseAttendue": "alphabétisation\n« Literacy rates are rising in the region. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "alphabétisation\n« Literacy rates are rising in the region. »"
+          "type": "mot_en_contexte",
+          "mot": "literacy",
+          "traduction": "alphabétisation",
+          "phrase": "Literacy rates are rising in the region.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "degree",
-          "reponseAttendue": "diplôme universitaire\n« She wants a degree in engineering. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "diplôme universitaire\n« She wants a degree in engineering. »"
+          "type": "mot_en_contexte",
+          "mot": "degree",
+          "traduction": "diplôme universitaire",
+          "phrase": "She wants a degree in engineering.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u026-type",
+      "id": "anglais-u026-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u026-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ all the questions in order.",
           "reponse": "Answer",
           "toleranceMots": 0,
+          "indice": "répondre",
           "explication": "to answer = répondre"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Try to ___ the key dates.",
           "reponse": "memorize",
           "toleranceMots": 0,
+          "indice": "mémoriser",
           "explication": "to memorize = mémoriser"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___ rates are rising in the region.",
           "reponse": "Literacy",
           "toleranceMots": 0,
+          "indice": "alphabétisation",
           "explication": "literacy = alphabétisation"
         },
         {
@@ -87,72 +97,112 @@
           "phrase": "She wants a ___ in engineering.",
           "reponse": "degree",
           "toleranceMots": 0,
+          "indice": "diplôme universitaire",
           "explication": "degree = diplôme universitaire"
         }
       ]
     },
     {
-      "id": "anglais-u026-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u026-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u026-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to answer » mean?",
-          "options": [
-            "hôpital",
-            "important",
-            "examen",
-            "répondre"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « répondre »",
+          "reponsesAcceptees": [
+            "to answer",
+            "answer"
           ],
-          "reponse": 3,
           "explication": "to answer = répondre"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to memorize » mean?",
-          "options": [
-            "dire",
-            "devoirs",
-            "savoir, connaître",
-            "mémoriser"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « mémoriser »",
+          "reponsesAcceptees": [
+            "to memorize",
+            "memorize"
           ],
-          "reponse": 3,
           "explication": "to memorize = mémoriser"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « literacy » mean?",
-          "options": [
-            "alphabétisation",
-            "savoir, connaître",
-            "remplir",
-            "construire"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « alphabétisation »",
+          "reponsesAcceptees": [
+            "literacy"
           ],
-          "reponse": 0,
           "explication": "literacy = alphabétisation"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « diplôme universitaire »",
+          "reponsesAcceptees": [
+            "degree"
+          ],
+          "explication": "degree = diplôme universitaire"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u026-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u026-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Answer all the questions in order.",
+          "mot": "to answer",
+          "traduction": "répondre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Try to memorize the key dates.",
+          "mot": "to memorize",
+          "traduction": "mémoriser",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Literacy rates are rising in the region.",
+          "mot": "literacy",
+          "traduction": "alphabétisation",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She wants a degree in engineering.",
+          "mot": "degree",
+          "traduction": "diplôme universitaire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to answer",
-      "verso": "répondre\n« Answer all the questions in order. »"
+      "mot": "to answer",
+      "traduction": "répondre",
+      "phrase": "Answer all the questions in order."
     },
     {
-      "recto": "to memorize",
-      "verso": "mémoriser\n« Try to memorize the key dates. »"
+      "mot": "to memorize",
+      "traduction": "mémoriser",
+      "phrase": "Try to memorize the key dates."
     },
     {
-      "recto": "literacy",
-      "verso": "alphabétisation\n« Literacy rates are rising in the region. »"
+      "mot": "literacy",
+      "traduction": "alphabétisation",
+      "phrase": "Literacy rates are rising in the region."
     },
     {
-      "recto": "degree",
-      "verso": "diplôme universitaire\n« She wants a degree in engineering. »"
+      "mot": "degree",
+      "traduction": "diplôme universitaire",
+      "phrase": "She wants a degree in engineering."
     }
   ]
 }

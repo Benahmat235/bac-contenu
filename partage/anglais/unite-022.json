@@ -1,7 +1,7 @@
 {
   "id": "anglais-u022",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Education and Exams (1/4)",
   "ordre": 22,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u022-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u022-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to revise",
-          "reponseAttendue": "réviser\n« I revise my lessons every evening. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "réviser\n« I revise my lessons every evening. »"
+          "type": "mot_en_contexte",
+          "mot": "to revise",
+          "traduction": "réviser",
+          "phrase": "I revise my lessons every evening.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to pass",
-          "reponseAttendue": "réussir (un examen)\n« She hopes to pass the baccalaureate. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "réussir (un examen)\n« She hopes to pass the baccalaureate. »"
+          "type": "mot_en_contexte",
+          "mot": "to pass",
+          "traduction": "réussir (un examen)",
+          "phrase": "She hopes to pass the baccalaureate.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to fail",
-          "reponseAttendue": "échouer\n« Nobody wants to fail an exam. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "échouer\n« Nobody wants to fail an exam. »"
+          "type": "mot_en_contexte",
+          "mot": "to fail",
+          "traduction": "échouer",
+          "phrase": "Nobody wants to fail an exam.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "exam",
-          "reponseAttendue": "examen\n« The exam lasts three hours. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "examen\n« The exam lasts three hours. »"
+          "type": "mot_en_contexte",
+          "mot": "exam",
+          "traduction": "examen",
+          "phrase": "The exam lasts three hours.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u022-type",
+      "id": "anglais-u022-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "I ___ my lessons every evening.",
           "reponse": "revise",
           "toleranceMots": 0,
+          "indice": "réviser",
           "explication": "to revise = réviser"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "She hopes to ___ the baccalaureate.",
           "reponse": "pass",
           "toleranceMots": 0,
+          "indice": "réussir (un examen)",
           "explication": "to pass = réussir (un examen)"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Nobody wants to ___ an exam.",
           "reponse": "fail",
           "toleranceMots": 0,
+          "indice": "échouer",
           "explication": "to fail = échouer"
         },
         {
@@ -87,72 +97,113 @@
           "phrase": "The ___ lasts three hours.",
           "reponse": "exam",
           "toleranceMots": 0,
+          "indice": "examen",
           "explication": "exam = examen"
         }
       ]
     },
     {
-      "id": "anglais-u022-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u022-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to revise » mean?",
-          "options": [
-            "déchets",
-            "pollution",
-            "réviser",
-            "batterie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « réviser »",
+          "reponsesAcceptees": [
+            "to revise",
+            "revise"
           ],
-          "reponse": 2,
           "explication": "to revise = réviser"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to pass » mean?",
-          "options": [
-            "réussir (un examen)",
-            "protéger",
-            "vouloir",
-            "gouvernement"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « réussir (un examen) »",
+          "reponsesAcceptees": [
+            "to pass",
+            "pass"
           ],
-          "reponse": 0,
           "explication": "to pass = réussir (un examen)"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to fail » mean?",
-          "options": [
-            "échouer",
-            "enseignant",
-            "tôt",
-            "découvrir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « échouer »",
+          "reponsesAcceptees": [
+            "to fail",
+            "fail"
           ],
-          "reponse": 0,
           "explication": "to fail = échouer"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « examen »",
+          "reponsesAcceptees": [
+            "exam"
+          ],
+          "explication": "exam = examen"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u022-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u022-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I revise my lessons every evening.",
+          "mot": "to revise",
+          "traduction": "réviser",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She hopes to pass the baccalaureate.",
+          "mot": "to pass",
+          "traduction": "réussir (un examen)",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Nobody wants to fail an exam.",
+          "mot": "to fail",
+          "traduction": "échouer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The exam lasts three hours.",
+          "mot": "exam",
+          "traduction": "examen",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to revise",
-      "verso": "réviser\n« I revise my lessons every evening. »"
+      "mot": "to revise",
+      "traduction": "réviser",
+      "phrase": "I revise my lessons every evening."
     },
     {
-      "recto": "to pass",
-      "verso": "réussir (un examen)\n« She hopes to pass the baccalaureate. »"
+      "mot": "to pass",
+      "traduction": "réussir (un examen)",
+      "phrase": "She hopes to pass the baccalaureate."
     },
     {
-      "recto": "to fail",
-      "verso": "échouer\n« Nobody wants to fail an exam. »"
+      "mot": "to fail",
+      "traduction": "échouer",
+      "phrase": "Nobody wants to fail an exam."
     },
     {
-      "recto": "exam",
-      "verso": "examen\n« The exam lasts three hours. »"
+      "mot": "exam",
+      "traduction": "examen",
+      "phrase": "The exam lasts three hours."
     }
   ]
 }

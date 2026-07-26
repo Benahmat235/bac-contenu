@@ -1,7 +1,7 @@
 {
   "id": "anglais-u029",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Society, Work and Development (2/4)",
   "ordre": 29,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u029-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u029-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u029-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "farmer",
-          "reponseAttendue": "agriculteur\n« My uncle is a farmer near Sarh. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "agriculteur\n« My uncle is a farmer near Sarh. »"
+          "type": "mot_en_contexte",
+          "mot": "farmer",
+          "traduction": "agriculteur",
+          "phrase": "My uncle is a farmer near Sarh.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "trade",
-          "reponseAttendue": "commerce\n« Trade between the two countries is growing. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "commerce\n« Trade between the two countries is growing. »"
+          "type": "mot_en_contexte",
+          "mot": "trade",
+          "traduction": "commerce",
+          "phrase": "Trade between the two countries is growing.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "market",
-          "reponseAttendue": "marché\n« The market opens at six in the morning. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "marché\n« The market opens at six in the morning. »"
+          "type": "mot_en_contexte",
+          "mot": "market",
+          "traduction": "marché",
+          "phrase": "The market opens at six in the morning.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "government",
-          "reponseAttendue": "gouvernement\n« The government built a new hospital. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "gouvernement\n« The government built a new hospital. »"
+          "type": "mot_en_contexte",
+          "mot": "government",
+          "traduction": "gouvernement",
+          "phrase": "The government built a new hospital.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u029-type",
+      "id": "anglais-u029-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u029-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "My uncle is a ___ near Sarh.",
           "reponse": "farmer",
           "toleranceMots": 0,
+          "indice": "agriculteur",
           "explication": "farmer = agriculteur"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___ between the two countries is growing.",
           "reponse": "Trade",
           "toleranceMots": 0,
+          "indice": "commerce",
           "explication": "trade = commerce"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "The ___ opens at six in the morning.",
           "reponse": "market",
           "toleranceMots": 0,
+          "indice": "marché",
           "explication": "market = marché"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "The ___ built a new hospital.",
           "reponse": "government",
           "toleranceMots": 0,
+          "indice": "gouvernement",
           "explication": "government = gouvernement"
         }
       ]
     },
     {
-      "id": "anglais-u029-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u029-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u029-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « farmer » mean?",
-          "options": [
-            "télécharger",
-            "agriculteur",
-            "souligner, faire remarquer",
-            "internet"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « agriculteur »",
+          "reponsesAcceptees": [
+            "farmer"
           ],
-          "reponse": 1,
           "explication": "farmer = agriculteur"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « trade » mean?",
-          "options": [
-            "paix",
-            "discuter, débattre",
-            "en outre",
-            "commerce"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « commerce »",
+          "reponsesAcceptees": [
+            "trade"
           ],
-          "reponse": 3,
           "explication": "trade = commerce"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « market » mean?",
-          "options": [
-            "marché",
-            "famille",
-            "gens, personnes",
-            "environnement"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « marché »",
+          "reponsesAcceptees": [
+            "market"
           ],
-          "reponse": 0,
           "explication": "market = marché"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « gouvernement »",
+          "reponsesAcceptees": [
+            "government"
+          ],
+          "explication": "government = gouvernement"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u029-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u029-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My uncle is a farmer near Sarh.",
+          "mot": "farmer",
+          "traduction": "agriculteur",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Trade between the two countries is growing.",
+          "mot": "trade",
+          "traduction": "commerce",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The market opens at six in the morning.",
+          "mot": "market",
+          "traduction": "marché",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The government built a new hospital.",
+          "mot": "government",
+          "traduction": "gouvernement",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "farmer",
-      "verso": "agriculteur\n« My uncle is a farmer near Sarh. »"
+      "mot": "farmer",
+      "traduction": "agriculteur",
+      "phrase": "My uncle is a farmer near Sarh."
     },
     {
-      "recto": "trade",
-      "verso": "commerce\n« Trade between the two countries is growing. »"
+      "mot": "trade",
+      "traduction": "commerce",
+      "phrase": "Trade between the two countries is growing."
     },
     {
-      "recto": "market",
-      "verso": "marché\n« The market opens at six in the morning. »"
+      "mot": "market",
+      "traduction": "marché",
+      "phrase": "The market opens at six in the morning."
     },
     {
-      "recto": "government",
-      "verso": "gouvernement\n« The government built a new hospital. »"
+      "mot": "government",
+      "traduction": "gouvernement",
+      "phrase": "The government built a new hospital."
     }
   ]
 }
