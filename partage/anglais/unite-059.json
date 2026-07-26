@@ -1,0 +1,114 @@
+{
+  "id": "anglais-u059",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "Passive Voice & Reported Speech (1/3)",
+  "ordre": 59,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Passive Voice & Reported Speech",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u059-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u059-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "How do we form the Passive Voice?",
+          "reponsesAcceptees": [
+            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+          ],
+          "explication": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Change to passive: 'They build houses.'",
+          "reponsesAcceptees": [
+            "'Houses are built (by them).'"
+          ],
+          "explication": "'Houses are built (by them).'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Change to passive: 'She wrote the letter.'",
+          "reponsesAcceptees": [
+            "'The letter was written (by her).'"
+          ],
+          "explication": "'The letter was written (by her).'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "What happens to tenses in Reported Speech?",
+          "reponsesAcceptees": [
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "explication": "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u059-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u059-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "How do we form the Passive Voice?",
+          "options": [
+            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'",
+            "The first sentence of a paragraph that states its main idea.",
+            "sanitation",
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          ],
+          "reponse": 0,
+          "explication": "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Change to passive: 'They build houses.' ?",
+          "options": [
+            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'",
+            "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
+            "'Houses are built (by them).'",
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          ],
+          "reponse": 2,
+          "explication": "'Houses are built (by them).'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Change to passive: 'She wrote the letter.' ?",
+          "options": [
+            "'The letter was written (by her).'",
+            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+            "enrollment rate / schooling rate",
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+          ],
+          "reponse": 0,
+          "explication": "'The letter was written (by her).'"
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

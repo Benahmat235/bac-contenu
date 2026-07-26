@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u038",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Technology and Media (1/4)",
+  "ordre": 38,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Technology and Media",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,157 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u038-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u038-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "phone",
+          "traduction": "téléphone",
+          "phrase": "Almost everyone has a mobile phone.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "computer",
+          "traduction": "ordinateur",
+          "phrase": "The school received ten computers.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "internet",
+          "traduction": "internet",
+          "phrase": "The internet helps students find information.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "network",
+          "traduction": "réseau",
+          "phrase": "The network is slow in the countryside.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u038-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u038-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "Almost everyone has a mobile ___.",
+          "reponse": "phone",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "téléphone",
+          "explication": "phone = téléphone"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "The school received ten ___s.",
+          "reponse": "computer",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "ordinateur",
+          "explication": "computer = ordinateur"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "The ___ helps students find information.",
+          "reponse": "internet",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "internet",
+          "explication": "internet = internet"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "The ___ is slow in the countryside.",
+          "reponse": "network",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "réseau",
+          "explication": "network = réseau"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u038-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u038-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « téléphone »",
           "reponsesAcceptees": [
-            "time"
+            "phone"
           ],
-          "explication": "time = temps"
+          "explication": "phone = téléphone"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « ordinateur »",
           "reponsesAcceptees": [
-            "year"
+            "computer"
           ],
-          "explication": "year = année"
+          "explication": "computer = ordinateur"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « internet »",
           "reponsesAcceptees": [
-            "day"
+            "internet"
           ],
-          "explication": "day = jour"
+          "explication": "internet = internet"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « réseau »",
           "reponsesAcceptees": [
-            "people"
+            "network"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "network = réseau"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u038-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u038-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Almost everyone has a mobile phone.",
+          "mot": "phone",
+          "traduction": "téléphone",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "The school received ten computers.",
+          "mot": "computer",
+          "traduction": "ordinateur",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "The internet helps students find information.",
+          "mot": "internet",
+          "traduction": "internet",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "The network is slow in the countryside.",
+          "mot": "network",
+          "traduction": "réseau",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +183,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "phone",
+      "traduction": "téléphone",
+      "phrase": "Almost everyone has a mobile phone."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "computer",
+      "traduction": "ordinateur",
+      "phrase": "The school received ten computers."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "internet",
+      "traduction": "internet",
+      "phrase": "The internet helps students find information."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "network",
+      "traduction": "réseau",
+      "phrase": "The network is slow in the countryside."
     }
   ]
 }

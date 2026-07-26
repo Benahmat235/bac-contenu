@@ -1,0 +1,106 @@
+{
+  "id": "anglais-u055",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "English Tenses: Present & Past (2/3)",
+  "ordre": 55,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u055-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u055-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "What is the structure of Past Simple (regular)?",
+          "reponsesAcceptees": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          ],
+          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "What is the structure of Present Perfect?",
+          "reponsesAcceptees": [
+            "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+          ],
+          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+          "reponsesAcceptees": [
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          ],
+          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u055-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u055-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of Past Simple (regular)?",
+          "options": [
+            "For instance, for example, such as, to illustrate.",
+            "'French is spoken in Chad.'",
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "poverty"
+          ],
+          "reponse": 2,
+          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the structure of Present Perfect?",
+          "options": [
+            "Subject + have/has + past participle. Ex: 'They have studied all night.'",
+            "drought",
+            "'French is spoken in Chad.'",
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          ],
+          "reponse": 0,
+          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
+          "options": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "scholarship",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "unemployment"
+          ],
+          "reponse": 2,
+          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

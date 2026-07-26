@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u042",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Technology and Media (4/4)",
+  "ordre": 42,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Technology and Media",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,159 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u042-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u042-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "to share",
+          "traduction": "partager",
+          "phrase": "Share this application with your classmates.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "to connect",
+          "traduction": "se connecter",
+          "phrase": "Connect to the internet once a week.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "free",
+          "traduction": "gratuit",
+          "phrase": "This application is completely free.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "useful",
+          "traduction": "utile",
+          "phrase": "Videos are useful for understanding grammar.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u042-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u042-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "___ this application with your classmates.",
+          "reponse": "Share",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "partager",
+          "explication": "to share = partager"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "___ to the internet once a week.",
+          "reponse": "Connect",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "se connecter",
+          "explication": "to connect = se connecter"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "This application is completely ___.",
+          "reponse": "free",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "gratuit",
+          "explication": "free = gratuit"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "Videos are ___ for understanding grammar.",
+          "reponse": "useful",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "utile",
+          "explication": "useful = utile"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u042-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u042-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « partager »",
           "reponsesAcceptees": [
-            "time"
+            "to share",
+            "share"
           ],
-          "explication": "time = temps"
+          "explication": "to share = partager"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « se connecter »",
           "reponsesAcceptees": [
-            "year"
+            "to connect",
+            "connect"
           ],
-          "explication": "year = année"
+          "explication": "to connect = se connecter"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « gratuit »",
           "reponsesAcceptees": [
-            "day"
+            "free"
           ],
-          "explication": "day = jour"
+          "explication": "free = gratuit"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « utile »",
           "reponsesAcceptees": [
-            "people"
+            "useful"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "useful = utile"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u042-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u042-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Share this application with your classmates.",
+          "mot": "to share",
+          "traduction": "partager",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Connect to the internet once a week.",
+          "mot": "to connect",
+          "traduction": "se connecter",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "This application is completely free.",
+          "mot": "free",
+          "traduction": "gratuit",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "Videos are useful for understanding grammar.",
+          "mot": "useful",
+          "traduction": "utile",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +185,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "to share",
+      "traduction": "partager",
+      "phrase": "Share this application with your classmates."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "to connect",
+      "traduction": "se connecter",
+      "phrase": "Connect to the internet once a week."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "free",
+      "traduction": "gratuit",
+      "phrase": "This application is completely free."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "useful",
+      "traduction": "utile",
+      "phrase": "Videos are useful for understanding grammar."
     }
   ]
 }

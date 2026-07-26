@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u030",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Society, Work and Development (3/4)",
+  "ordre": 30,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Society, Work and Development",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,157 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u030-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u030-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "citizen",
+          "traduction": "citoyen",
+          "phrase": "Every citizen has rights and duties.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "rights",
+          "traduction": "droits",
+          "phrase": "Human rights must be respected.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "peace",
+          "traduction": "paix",
+          "phrase": "Peace allows children to go to school.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "equality",
+          "traduction": "égalité",
+          "phrase": "Equality between boys and girls matters.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u030-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u030-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "Every ___ has rights and duties.",
+          "reponse": "citizen",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "citoyen",
+          "explication": "citizen = citoyen"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "Human ___ must be respected.",
+          "reponse": "rights",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "droits",
+          "explication": "rights = droits"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "___ allows children to go to school.",
+          "reponse": "Peace",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "paix",
+          "explication": "peace = paix"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "___ between boys and girls matters.",
+          "reponse": "Equality",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "égalité",
+          "explication": "equality = égalité"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u030-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u030-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « citoyen »",
           "reponsesAcceptees": [
-            "time"
+            "citizen"
           ],
-          "explication": "time = temps"
+          "explication": "citizen = citoyen"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « droits »",
           "reponsesAcceptees": [
-            "year"
+            "rights"
           ],
-          "explication": "year = année"
+          "explication": "rights = droits"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « paix »",
           "reponsesAcceptees": [
-            "day"
+            "peace"
           ],
-          "explication": "day = jour"
+          "explication": "peace = paix"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « égalité »",
           "reponsesAcceptees": [
-            "people"
+            "equality"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "equality = égalité"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u030-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u030-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Every citizen has rights and duties.",
+          "mot": "citizen",
+          "traduction": "citoyen",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Human rights must be respected.",
+          "mot": "rights",
+          "traduction": "droits",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "Peace allows children to go to school.",
+          "mot": "peace",
+          "traduction": "paix",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "Equality between boys and girls matters.",
+          "mot": "equality",
+          "traduction": "égalité",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +183,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "citizen",
+      "traduction": "citoyen",
+      "phrase": "Every citizen has rights and duties."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "rights",
+      "traduction": "droits",
+      "phrase": "Human rights must be respected."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "peace",
+      "traduction": "paix",
+      "phrase": "Peace allows children to go to school."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "equality",
+      "traduction": "égalité",
+      "phrase": "Equality between boys and girls matters."
     }
   ]
 }

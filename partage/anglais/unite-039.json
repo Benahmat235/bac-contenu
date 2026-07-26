@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u039",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Technology and Media (2/4)",
+  "ordre": 39,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Technology and Media",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,157 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u039-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u039-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "news",
+          "traduction": "informations, nouvelles",
+          "phrase": "I listen to the news every morning.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "information",
+          "traduction": "information",
+          "phrase": "Check the information before sharing it.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "message",
+          "traduction": "message",
+          "phrase": "She sent me a message this morning.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "website",
+          "traduction": "site web",
+          "phrase": "This website explains the lesson clearly.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u039-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u039-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "I listen to the ___ every morning.",
+          "reponse": "news",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "informations, nouvelles",
+          "explication": "news = informations, nouvelles"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "Check the ___ before sharing it.",
+          "reponse": "information",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "information",
+          "explication": "information = information"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "She sent me a ___ this morning.",
+          "reponse": "message",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "message",
+          "explication": "message = message"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "This ___ explains the lesson clearly.",
+          "reponse": "website",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "site web",
+          "explication": "website = site web"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u039-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u039-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « informations, nouvelles »",
           "reponsesAcceptees": [
-            "time"
+            "news"
           ],
-          "explication": "time = temps"
+          "explication": "news = informations, nouvelles"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « information »",
           "reponsesAcceptees": [
-            "year"
+            "information"
           ],
-          "explication": "year = année"
+          "explication": "information = information"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « message »",
           "reponsesAcceptees": [
-            "day"
+            "message"
           ],
-          "explication": "day = jour"
+          "explication": "message = message"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « site web »",
           "reponsesAcceptees": [
-            "people"
+            "website"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "website = site web"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u039-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u039-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "I listen to the news every morning.",
+          "mot": "news",
+          "traduction": "informations, nouvelles",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Check the information before sharing it.",
+          "mot": "information",
+          "traduction": "information",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "She sent me a message this morning.",
+          "mot": "message",
+          "traduction": "message",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "This website explains the lesson clearly.",
+          "mot": "website",
+          "traduction": "site web",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +183,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "news",
+      "traduction": "informations, nouvelles",
+      "phrase": "I listen to the news every morning."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "information",
+      "traduction": "information",
+      "phrase": "Check the information before sharing it."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "message",
+      "traduction": "message",
+      "phrase": "She sent me a message this morning."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "website",
+      "traduction": "site web",
+      "phrase": "This website explains the lesson clearly."
     }
   ]
 }

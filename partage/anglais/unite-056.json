@@ -1,0 +1,106 @@
+{
+  "id": "anglais-u056",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "English Tenses: Present & Past (3/3)",
+  "ordre": 56,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u056-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u056-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "When do we use the Past Continuous?",
+          "reponsesAcceptees": [
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          ],
+          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Give the past participle of: go, see, write, take",
+          "reponsesAcceptees": [
+            "gone, seen, written, taken"
+          ],
+          "explication": "gone, seen, written, taken"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Give the past participle of: be, have, do, make",
+          "reponsesAcceptees": [
+            "been, had, done, made"
+          ],
+          "explication": "been, had, done, made"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u056-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u056-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Past Continuous?",
+          "options": [
+            "renewable energy",
+            "gone, seen, written, taken",
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+            "However, nevertheless, on the other hand, whereas."
+          ],
+          "reponse": 2,
+          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give the past participle of: go, see, write, take ?",
+          "options": [
+            "prevention",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "baccalaureate / high school diploma",
+            "gone, seen, written, taken"
+          ],
+          "reponse": 3,
+          "explication": "gone, seen, written, taken"
+        },
+        {
+          "type": "choix_unique",
+          "question": "Give the past participle of: be, have, do, make ?",
+          "options": [
+            "been, had, done, made",
+            "'The letter was written (by her).'",
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 0,
+          "explication": "been, had, done, made"
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

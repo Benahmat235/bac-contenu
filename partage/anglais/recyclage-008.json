@@ -1,0 +1,146 @@
+{
+  "id": "anglais-c008",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "Recycling",
+  "ordre": 8,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Recycling",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-c008-saisie",
+      "titre": "Type it again",
+      "categorie": "saisie",
+      "seuilReussite": 100,
+      "competenceId": "anglais-c008-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "He wants to ___ a good impression.",
+          "reponse": "make",
+          "toleranceMots": 0,
+          "indice": "fabriquer, faire",
+          "explication": "to make = fabriquer, faire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "They ___ to school on foot.",
+          "reponse": "go",
+          "toleranceMots": 0,
+          "indice": "aller",
+          "explication": "to go = aller"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Our ___ is near the market.",
+          "reponse": "school",
+          "toleranceMots": 0,
+          "indice": "école",
+          "explication": "school = école"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This ___ I will take the baccalaureate.",
+          "reponse": "year",
+          "toleranceMots": 0,
+          "indice": "année",
+          "explication": "year = année"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "She ___es her homework every evening.",
+          "reponse": "do",
+          "toleranceMots": 0,
+          "indice": "faire",
+          "explication": "to do = faire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Every ___ I revise for two hours.",
+          "reponse": "day",
+          "toleranceMots": 0,
+          "indice": "jour",
+          "explication": "day = jour"
+        }
+      ]
+    },
+    {
+      "id": "anglais-c008-production",
+      "titre": "Write it again",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-c008-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « fabriquer, faire »",
+          "reponsesAcceptees": [
+            "to make",
+            "make"
+          ],
+          "explication": "to make = fabriquer, faire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « aller »",
+          "reponsesAcceptees": [
+            "to go",
+            "go"
+          ],
+          "explication": "to go = aller"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « école »",
+          "reponsesAcceptees": [
+            "school"
+          ],
+          "explication": "school = école"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « année »",
+          "reponsesAcceptees": [
+            "year"
+          ],
+          "explication": "year = année"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « faire »",
+          "reponsesAcceptees": [
+            "to do",
+            "do"
+          ],
+          "explication": "to do = faire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « jour »",
+          "reponsesAcceptees": [
+            "day"
+          ],
+          "explication": "day = jour"
+        }
+      ]
+    }
+  ],
+  "estRecyclage": true
+}

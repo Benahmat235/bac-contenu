@@ -1,110 +1,206 @@
 {
   "id": "anglais-u017",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Passive Voice & Reported Speech (2/3)",
+  "type": "langue",
+  "titre": "Connectors — Linking Your Ideas (1/4)",
   "ordre": 17,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Passive Voice & Reported Speech",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Connectors — Linking Your Ideas",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u017-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u017-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Direct: 'I am happy.' → Reported:",
-          "reponseAttendue": "He said (that) he was happy.",
-          "modeReponse": "auto_evaluation",
-          "explication": "He said (that) he was happy."
+          "type": "mot_en_contexte",
+          "mot": "because",
+          "traduction": "parce que",
+          "phrase": "I study hard because I want to succeed.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Direct: 'I will come.' → Reported:",
-          "reponseAttendue": "She said (that) she would come.",
-          "modeReponse": "auto_evaluation",
-          "explication": "She said (that) she would come."
+          "type": "mot_en_contexte",
+          "mot": "however",
+          "traduction": "cependant",
+          "phrase": "The task was hard; however, we finished it.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Direct: 'Did you see it?' → Reported:",
-          "reponseAttendue": "He asked if/whether I had seen it.",
-          "modeReponse": "auto_evaluation",
-          "explication": "He asked if/whether I had seen it."
+          "type": "mot_en_contexte",
+          "mot": "therefore",
+          "traduction": "donc, par conséquent",
+          "phrase": "He was absent; therefore he missed the lesson.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "although",
+          "traduction": "bien que",
+          "phrase": "Although it was raining, we walked to school.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u017-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u017-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Direct: 'I am happy.' → Reported: ?",
-          "options": [
-            "He said (that) he was happy.",
-            "Because, therefore, as a result, consequently, due to.",
-            "renewable energy",
-            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
-          ],
-          "reponse": 0,
-          "explication": "He said (that) he was happy."
+          "type": "texte_a_completer",
+          "phrase": "I study hard ___ I want to succeed.",
+          "reponse": "because",
+          "toleranceMots": 0,
+          "indice": "parce que",
+          "explication": "because = parce que"
         },
         {
-          "type": "choix_unique",
-          "question": "Direct: 'I will come.' → Reported: ?",
-          "options": [
-            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
-            "For general truths. Ex: 'If you heat water, it boils.'",
-            "She said (that) she would come.",
-            "human rights"
-          ],
-          "reponse": 2,
-          "explication": "She said (that) she would come."
+          "type": "texte_a_completer",
+          "phrase": "The task was hard; ___, we finished it.",
+          "reponse": "however",
+          "toleranceMots": 0,
+          "indice": "cependant",
+          "explication": "however = cependant"
         },
         {
-          "type": "choix_unique",
-          "question": "Direct: 'Did you see it?' → Reported: ?",
-          "options": [
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "He asked if/whether I had seen it.",
-            "unemployment",
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          "type": "texte_a_completer",
+          "phrase": "He was absent; ___ he missed the lesson.",
+          "reponse": "therefore",
+          "toleranceMots": 0,
+          "indice": "donc, par conséquent",
+          "explication": "therefore = donc, par conséquent"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ it was raining, we walked to school.",
+          "reponse": "Although",
+          "toleranceMots": 0,
+          "indice": "bien que",
+          "explication": "although = bien que"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u017-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u017-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « parce que »",
+          "reponsesAcceptees": [
+            "because"
           ],
-          "reponse": 1,
-          "explication": "He asked if/whether I had seen it."
+          "explication": "because = parce que"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « cependant »",
+          "reponsesAcceptees": [
+            "however"
+          ],
+          "explication": "however = cependant"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « donc, par conséquent »",
+          "reponsesAcceptees": [
+            "therefore"
+          ],
+          "explication": "therefore = donc, par conséquent"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « bien que »",
+          "reponsesAcceptees": [
+            "although"
+          ],
+          "explication": "although = bien que"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u017-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u017-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I study hard because I want to succeed.",
+          "mot": "because",
+          "traduction": "parce que",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The task was hard; however, we finished it.",
+          "mot": "however",
+          "traduction": "cependant",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He was absent; therefore he missed the lesson.",
+          "mot": "therefore",
+          "traduction": "donc, par conséquent",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Although it was raining, we walked to school.",
+          "mot": "although",
+          "traduction": "bien que",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Direct: 'I am happy.' → Reported:",
-      "verso": "He said (that) he was happy."
+      "mot": "because",
+      "traduction": "parce que",
+      "phrase": "I study hard because I want to succeed."
     },
     {
-      "recto": "Direct: 'I will come.' → Reported:",
-      "verso": "She said (that) she would come."
+      "mot": "however",
+      "traduction": "cependant",
+      "phrase": "The task was hard; however, we finished it."
     },
     {
-      "recto": "Direct: 'Did you see it?' → Reported:",
-      "verso": "He asked if/whether I had seen it."
+      "mot": "therefore",
+      "traduction": "donc, par conséquent",
+      "phrase": "He was absent; therefore he missed the lesson."
+    },
+    {
+      "mot": "although",
+      "traduction": "bien que",
+      "phrase": "Although it was raining, we walked to school."
     }
   ]
 }

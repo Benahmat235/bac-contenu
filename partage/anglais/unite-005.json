@@ -1,137 +1,210 @@
 {
   "id": "anglais-u005",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Vocabulary: Environment & Health (1/3)",
+  "type": "langue",
+  "titre": "Core Verbs — Everyday Actions (4/4)",
   "ordre": 5,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Environment & Health",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u005-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u005-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u005-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'changement climatique'",
-          "reponseAttendue": "climate change",
-          "modeReponse": "auto_evaluation",
-          "explication": "climate change"
+          "type": "mot_en_contexte",
+          "mot": "to come",
+          "traduction": "venir",
+          "phrase": "My friends come from Moundou.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'déforestation'",
-          "reponseAttendue": "deforestation",
-          "modeReponse": "auto_evaluation",
-          "explication": "deforestation"
+          "type": "mot_en_contexte",
+          "mot": "to find",
+          "traduction": "trouver",
+          "phrase": "I cannot find my notebook.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'sécheresse'",
-          "reponseAttendue": "drought",
-          "modeReponse": "auto_evaluation",
-          "explication": "drought"
+          "type": "mot_en_contexte",
+          "mot": "to work",
+          "traduction": "travailler",
+          "phrase": "My father works in a hospital.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'pollution de l'eau'",
-          "reponseAttendue": "water pollution",
-          "modeReponse": "auto_evaluation",
-          "explication": "water pollution"
+          "type": "mot_en_contexte",
+          "mot": "to need",
+          "traduction": "avoir besoin de",
+          "phrase": "Students need water and electricity to study.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u005-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u005-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u005-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Translate: 'changement climatique' ?",
-          "options": [
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "baccalaureate / high school diploma",
-            "The first sentence of a paragraph that states its main idea.",
-            "climate change"
-          ],
-          "reponse": 3,
-          "explication": "climate change"
+          "type": "texte_a_completer",
+          "phrase": "My friends ___ from Moundou.",
+          "reponse": "come",
+          "toleranceMots": 0,
+          "indice": "venir",
+          "explication": "to come = venir"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'déforestation' ?",
-          "options": [
-            "She said (that) she would come.",
-            "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'",
-            "deforestation",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
-          ],
-          "reponse": 2,
-          "explication": "deforestation"
+          "type": "texte_a_completer",
+          "phrase": "I cannot ___ my notebook.",
+          "reponse": "find",
+          "toleranceMots": 0,
+          "indice": "trouver",
+          "explication": "to find = trouver"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'sécheresse' ?",
-          "options": [
-            "drought",
-            "enrollment rate / schooling rate",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          "type": "texte_a_completer",
+          "phrase": "My father ___s in a hospital.",
+          "reponse": "work",
+          "toleranceMots": 0,
+          "indice": "travailler",
+          "explication": "to work = travailler"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Students ___ water and electricity to study.",
+          "reponse": "need",
+          "toleranceMots": 0,
+          "indice": "avoir besoin de",
+          "explication": "to need = avoir besoin de"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u005-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u005-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « venir »",
+          "reponsesAcceptees": [
+            "to come",
+            "come"
           ],
-          "reponse": 0,
-          "explication": "drought"
+          "explication": "to come = venir"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « trouver »",
+          "reponsesAcceptees": [
+            "to find",
+            "find"
+          ],
+          "explication": "to find = trouver"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « travailler »",
+          "reponsesAcceptees": [
+            "to work",
+            "work"
+          ],
+          "explication": "to work = travailler"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avoir besoin de »",
+          "reponsesAcceptees": [
+            "to need",
+            "need"
+          ],
+          "explication": "to need = avoir besoin de"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u005-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u005-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My friends come from Moundou.",
+          "mot": "to come",
+          "traduction": "venir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I cannot find my notebook.",
+          "mot": "to find",
+          "traduction": "trouver",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My father works in a hospital.",
+          "mot": "to work",
+          "traduction": "travailler",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Students need water and electricity to study.",
+          "mot": "to need",
+          "traduction": "avoir besoin de",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Translate: 'changement climatique'",
-      "verso": "climate change"
+      "mot": "to come",
+      "traduction": "venir",
+      "phrase": "My friends come from Moundou."
     },
     {
-      "recto": "Translate: 'déforestation'",
-      "verso": "deforestation"
+      "mot": "to find",
+      "traduction": "trouver",
+      "phrase": "I cannot find my notebook."
     },
     {
-      "recto": "Translate: 'sécheresse'",
-      "verso": "drought"
+      "mot": "to work",
+      "traduction": "travailler",
+      "phrase": "My father works in a hospital."
     },
     {
-      "recto": "Translate: 'pollution de l'eau'",
-      "verso": "water pollution"
-    }
-  ],
-  "videos": [
-    {
-      "titre": "Learn ALL English tenses (under 30 minutes)",
-      "url": "https://youtu.be/Ljjiw9mC_Cg",
-      "type": "video",
-      "chaine": "English with Lucy",
-      "auteur": "English with Lucy"
-    },
-    {
-      "titre": "How to learn ALL 12 tenses",
-      "url": "https://youtu.be/mScixcyubUY",
-      "type": "video",
-      "chaine": "engVid · Rebecca",
-      "auteur": "engVid · Rebecca"
+      "mot": "to need",
+      "traduction": "avoir besoin de",
+      "phrase": "Students need water and electricity to study."
     }
   ]
 }

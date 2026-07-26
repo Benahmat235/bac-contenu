@@ -1,0 +1,137 @@
+{
+  "id": "anglais-u054",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "English Tenses: Present & Past (1/3)",
+  "ordre": 54,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Present & Past",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u054-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u054-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "When do we use the Present Simple?",
+          "reponsesAcceptees": [
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+          ],
+          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "When do we use the Present Continuous?",
+          "reponsesAcceptees": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+          ],
+          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "When do we use the Past Simple?",
+          "reponsesAcceptees": [
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          ],
+          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "When do we use the Present Perfect?",
+          "reponsesAcceptees": [
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+          ],
+          "explication": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u054-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u054-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Present Simple?",
+          "options": [
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
+            "For instance, for example, such as, to illustrate.",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "She told me not to go."
+          ],
+          "reponse": 0,
+          "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Present Continuous?",
+          "options": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
+            "prevention",
+            "renewable energy",
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+          ],
+          "reponse": 0,
+          "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use the Past Simple?",
+          "options": [
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+            "baccalaureate / high school diploma",
+            "'The letter was written (by her).'",
+            "drought"
+          ],
+          "reponse": 0,
+          "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "titre": "The conditionals (0, 1, 2 & 3)",
+      "url": "https://youtu.be/vXp0ETWXbWo",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "Reported speech (indirect speech)",
+      "url": "https://youtu.be/eplQBhE0-Hg",
+      "type": "video",
+      "chaine": "English with Lucy",
+      "auteur": "English with Lucy"
+    },
+    {
+      "titre": "Passive voice : step by step",
+      "url": "https://youtu.be/N7uvEllP5Jg",
+      "type": "video",
+      "chaine": "Arnel's Everyday English",
+      "auteur": "Arnel's Everyday English"
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

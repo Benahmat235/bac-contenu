@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u029",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Society, Work and Development (2/4)",
+  "ordre": 29,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Society, Work and Development",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,157 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u029-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u029-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "farmer",
+          "traduction": "agriculteur",
+          "phrase": "My uncle is a farmer near Sarh.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "trade",
+          "traduction": "commerce",
+          "phrase": "Trade between the two countries is growing.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "market",
+          "traduction": "marché",
+          "phrase": "The market opens at six in the morning.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "government",
+          "traduction": "gouvernement",
+          "phrase": "The government built a new hospital.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u029-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u029-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "My uncle is a ___ near Sarh.",
+          "reponse": "farmer",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "agriculteur",
+          "explication": "farmer = agriculteur"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "___ between the two countries is growing.",
+          "reponse": "Trade",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "commerce",
+          "explication": "trade = commerce"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "The ___ opens at six in the morning.",
+          "reponse": "market",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "marché",
+          "explication": "market = marché"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "The ___ built a new hospital.",
+          "reponse": "government",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "gouvernement",
+          "explication": "government = gouvernement"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u029-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u029-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « agriculteur »",
           "reponsesAcceptees": [
-            "time"
+            "farmer"
           ],
-          "explication": "time = temps"
+          "explication": "farmer = agriculteur"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « commerce »",
           "reponsesAcceptees": [
-            "year"
+            "trade"
           ],
-          "explication": "year = année"
+          "explication": "trade = commerce"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « marché »",
           "reponsesAcceptees": [
-            "day"
+            "market"
           ],
-          "explication": "day = jour"
+          "explication": "market = marché"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « gouvernement »",
           "reponsesAcceptees": [
-            "people"
+            "government"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "government = gouvernement"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u029-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u029-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "My uncle is a farmer near Sarh.",
+          "mot": "farmer",
+          "traduction": "agriculteur",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Trade between the two countries is growing.",
+          "mot": "trade",
+          "traduction": "commerce",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "The market opens at six in the morning.",
+          "mot": "market",
+          "traduction": "marché",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "The government built a new hospital.",
+          "mot": "government",
+          "traduction": "gouvernement",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +183,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "farmer",
+      "traduction": "agriculteur",
+      "phrase": "My uncle is a farmer near Sarh."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "trade",
+      "traduction": "commerce",
+      "phrase": "Trade between the two countries is growing."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "market",
+      "traduction": "marché",
+      "phrase": "The market opens at six in the morning."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "government",
+      "traduction": "gouvernement",
+      "phrase": "The government built a new hospital."
     }
   ]
 }

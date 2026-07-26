@@ -1,0 +1,106 @@
+{
+  "id": "anglais-u063",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "Essay Writing & Useful Expressions (2/3)",
+  "ordre": 63,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Essay Writing & Useful Expressions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u063-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u063-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Give 3 connectors for conclusion.",
+          "reponsesAcceptees": [
+            "In conclusion, to sum up, all in all, finally."
+          ],
+          "explication": "In conclusion, to sum up, all in all, finally."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "How do you express your opinion in English?",
+          "reponsesAcceptees": [
+            "In my opinion, I believe that, From my point of view, It seems to me that."
+          ],
+          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "How do you introduce an example?",
+          "reponsesAcceptees": [
+            "For instance, for example, such as, to illustrate."
+          ],
+          "explication": "For instance, for example, such as, to illustrate."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u063-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u063-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Give 3 connectors for conclusion. ?",
+          "options": [
+            "deforestation",
+            "climate change",
+            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
+            "In conclusion, to sum up, all in all, finally."
+          ],
+          "reponse": 3,
+          "explication": "In conclusion, to sum up, all in all, finally."
+        },
+        {
+          "type": "choix_unique",
+          "question": "How do you express your opinion in English?",
+          "options": [
+            "illiteracy",
+            "In conclusion, to sum up, all in all, finally.",
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "renewable energy"
+          ],
+          "reponse": 2,
+          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+        },
+        {
+          "type": "choix_unique",
+          "question": "How do you introduce an example?",
+          "options": [
+            "For instance, for example, such as, to illustrate.",
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
+            "In my opinion, I believe that, From my point of view, It seems to me that.",
+            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          ],
+          "reponse": 0,
+          "explication": "For instance, for example, such as, to illustrate."
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

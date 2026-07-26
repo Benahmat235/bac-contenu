@@ -1,110 +1,206 @@
 {
   "id": "anglais-u010",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "English Tenses: Present & Past (2/3)",
+  "type": "langue",
+  "titre": "Core Nouns — People and Places (4/4)",
   "ordre": 10,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Present & Past",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Nouns — People and Places",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u010-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u010-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "What is the structure of Past Simple (regular)?",
-          "reponseAttendue": "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-          "modeReponse": "auto_evaluation",
-          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          "type": "mot_en_contexte",
+          "mot": "city",
+          "traduction": "ville",
+          "phrase": "N'Djamena is the capital city of Chad.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "What is the structure of Present Perfect?",
-          "reponseAttendue": "Subject + have/has + past participle. Ex: 'They have studied all night.'",
-          "modeReponse": "auto_evaluation",
-          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+          "type": "mot_en_contexte",
+          "mot": "village",
+          "traduction": "village",
+          "phrase": "She grew up in a small village.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-          "reponseAttendue": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-          "modeReponse": "auto_evaluation",
-          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          "type": "mot_en_contexte",
+          "mot": "life",
+          "traduction": "vie",
+          "phrase": "Education can change your life.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "future",
+          "traduction": "avenir",
+          "phrase": "I am preparing for my future.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u010-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u010-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What is the structure of Past Simple (regular)?",
-          "options": [
-            "For instance, for example, such as, to illustrate.",
-            "'French is spoken in Chad.'",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "poverty"
-          ],
-          "reponse": 2,
-          "explication": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+          "type": "texte_a_completer",
+          "phrase": "N'Djamena is the capital ___ of Chad.",
+          "reponse": "city",
+          "toleranceMots": 0,
+          "indice": "ville",
+          "explication": "city = ville"
         },
         {
-          "type": "choix_unique",
-          "question": "What is the structure of Present Perfect?",
-          "options": [
-            "Subject + have/has + past participle. Ex: 'They have studied all night.'",
-            "drought",
-            "'French is spoken in Chad.'",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
-          ],
-          "reponse": 0,
-          "explication": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+          "type": "texte_a_completer",
+          "phrase": "She grew up in a small ___.",
+          "reponse": "village",
+          "toleranceMots": 0,
+          "indice": "village",
+          "explication": "village = village"
         },
         {
-          "type": "choix_unique",
-          "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-          "options": [
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "scholarship",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "unemployment"
+          "type": "texte_a_completer",
+          "phrase": "Education can change your ___.",
+          "reponse": "life",
+          "toleranceMots": 0,
+          "indice": "vie",
+          "explication": "life = vie"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I am preparing for my ___.",
+          "reponse": "future",
+          "toleranceMots": 0,
+          "indice": "avenir",
+          "explication": "future = avenir"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u010-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u010-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « ville »",
+          "reponsesAcceptees": [
+            "city"
           ],
-          "reponse": 2,
-          "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+          "explication": "city = ville"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « village »",
+          "reponsesAcceptees": [
+            "village"
+          ],
+          "explication": "village = village"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « vie »",
+          "reponsesAcceptees": [
+            "life"
+          ],
+          "explication": "life = vie"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avenir »",
+          "reponsesAcceptees": [
+            "future"
+          ],
+          "explication": "future = avenir"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u010-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u010-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "N'Djamena is the capital city of Chad.",
+          "mot": "city",
+          "traduction": "ville",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She grew up in a small village.",
+          "mot": "village",
+          "traduction": "village",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Education can change your life.",
+          "mot": "life",
+          "traduction": "vie",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I am preparing for my future.",
+          "mot": "future",
+          "traduction": "avenir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "What is the structure of Past Simple (regular)?",
-      "verso": "Subject + verb-ed. Ex: 'He worked hard yesterday.'"
+      "mot": "city",
+      "traduction": "ville",
+      "phrase": "N'Djamena is the capital city of Chad."
     },
     {
-      "recto": "What is the structure of Present Perfect?",
-      "verso": "Subject + have/has + past participle. Ex: 'They have studied all night.'"
+      "mot": "village",
+      "traduction": "village",
+      "phrase": "She grew up in a small village."
     },
     {
-      "recto": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
-      "verso": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
+      "mot": "life",
+      "traduction": "vie",
+      "phrase": "Education can change your life."
+    },
+    {
+      "mot": "future",
+      "traduction": "avenir",
+      "phrase": "I am preparing for my future."
     }
   ]
 }

@@ -1,110 +1,209 @@
 {
   "id": "anglais-u022",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Essay Writing & Useful Expressions (3/3)",
+  "type": "langue",
+  "titre": "Education and Exams (1/4)",
   "ordre": 22,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Essay Writing & Useful Expressions",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Education and Exams",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u022-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u022-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "What is a 'topic sentence'?",
-          "reponseAttendue": "The first sentence of a paragraph that states its main idea.",
-          "modeReponse": "auto_evaluation",
-          "explication": "The first sentence of a paragraph that states its main idea."
+          "type": "mot_en_contexte",
+          "mot": "to revise",
+          "traduction": "réviser",
+          "phrase": "I revise my lessons every evening.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
-          "reponseAttendue": "In conclusion, I believe that education is the key to development.",
-          "modeReponse": "auto_evaluation",
-          "explication": "In conclusion, I believe that education is the key to development."
+          "type": "mot_en_contexte",
+          "mot": "to pass",
+          "traduction": "réussir (un examen)",
+          "phrase": "She hopes to pass the baccalaureate.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'D'une part… d'autre part…'",
-          "reponseAttendue": "On the one hand… on the other hand…",
-          "modeReponse": "auto_evaluation",
-          "explication": "On the one hand… on the other hand…"
+          "type": "mot_en_contexte",
+          "mot": "to fail",
+          "traduction": "échouer",
+          "phrase": "Nobody wants to fail an exam.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "exam",
+          "traduction": "examen",
+          "phrase": "The exam lasts three hours.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u022-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u022-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u022-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What is a 'topic sentence'?",
-          "options": [
-            "She told me not to go.",
-            "Furthermore, moreover, in addition, besides.",
-            "The first sentence of a paragraph that states its main idea.",
-            "human rights"
-          ],
-          "reponse": 2,
-          "explication": "The first sentence of a paragraph that states its main idea."
+          "type": "texte_a_completer",
+          "phrase": "I ___ my lessons every evening.",
+          "reponse": "revise",
+          "toleranceMots": 0,
+          "indice": "réviser",
+          "explication": "to revise = réviser"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.' ?",
-          "options": [
-            "In conclusion, I believe that education is the key to development.",
-            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
-            "He said (that) he was happy.",
-            "On the one hand… on the other hand…"
-          ],
-          "reponse": 0,
-          "explication": "In conclusion, I believe that education is the key to development."
+          "type": "texte_a_completer",
+          "phrase": "She hopes to ___ the baccalaureate.",
+          "reponse": "pass",
+          "toleranceMots": 0,
+          "indice": "réussir (un examen)",
+          "explication": "to pass = réussir (un examen)"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'D'une part… d'autre part…' ?",
-          "options": [
-            "On the one hand… on the other hand…",
-            "baccalaureate / high school diploma",
-            "In conclusion, I believe that education is the key to development.",
-            "human rights"
+          "type": "texte_a_completer",
+          "phrase": "Nobody wants to ___ an exam.",
+          "reponse": "fail",
+          "toleranceMots": 0,
+          "indice": "échouer",
+          "explication": "to fail = échouer"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ lasts three hours.",
+          "reponse": "exam",
+          "toleranceMots": 0,
+          "indice": "examen",
+          "explication": "exam = examen"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u022-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u022-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « réviser »",
+          "reponsesAcceptees": [
+            "to revise",
+            "revise"
           ],
-          "reponse": 0,
-          "explication": "On the one hand… on the other hand…"
+          "explication": "to revise = réviser"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « réussir (un examen) »",
+          "reponsesAcceptees": [
+            "to pass",
+            "pass"
+          ],
+          "explication": "to pass = réussir (un examen)"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « échouer »",
+          "reponsesAcceptees": [
+            "to fail",
+            "fail"
+          ],
+          "explication": "to fail = échouer"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « examen »",
+          "reponsesAcceptees": [
+            "exam"
+          ],
+          "explication": "exam = examen"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u022-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u022-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I revise my lessons every evening.",
+          "mot": "to revise",
+          "traduction": "réviser",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She hopes to pass the baccalaureate.",
+          "mot": "to pass",
+          "traduction": "réussir (un examen)",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Nobody wants to fail an exam.",
+          "mot": "to fail",
+          "traduction": "échouer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The exam lasts three hours.",
+          "mot": "exam",
+          "traduction": "examen",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "What is a 'topic sentence'?",
-      "verso": "The first sentence of a paragraph that states its main idea."
+      "mot": "to revise",
+      "traduction": "réviser",
+      "phrase": "I revise my lessons every evening."
     },
     {
-      "recto": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
-      "verso": "In conclusion, I believe that education is the key to development."
+      "mot": "to pass",
+      "traduction": "réussir (un examen)",
+      "phrase": "She hopes to pass the baccalaureate."
     },
     {
-      "recto": "Translate: 'D'une part… d'autre part…'",
-      "verso": "On the one hand… on the other hand…"
+      "mot": "to fail",
+      "traduction": "échouer",
+      "phrase": "Nobody wants to fail an exam."
+    },
+    {
+      "mot": "exam",
+      "traduction": "examen",
+      "phrase": "The exam lasts three hours."
     }
   ]
 }

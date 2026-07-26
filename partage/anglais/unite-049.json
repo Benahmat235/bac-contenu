@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u009",
+  "id": "anglais-u049",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (3/4)",
-  "ordre": 9,
+  "titre": "Essential Phrasal Verbs (1/4)",
+  "ordre": 49,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Essential Phrasal Verbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,137 @@
   },
   "etapes": [
     {
-      "id": "anglais-u009-decouverte",
+      "id": "anglais-u049-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u049-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "family",
-          "traduction": "famille",
-          "phrase": "My family supports my studies.",
+          "mot": "to look for",
+          "traduction": "chercher",
+          "phrase": "I am looking for my English notebook.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "work",
-          "traduction": "travail",
-          "phrase": "Finding work after school is not easy.",
+          "mot": "to look after",
+          "traduction": "s'occuper de",
+          "phrase": "She looks after her younger brothers.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "water",
-          "traduction": "eau",
-          "phrase": "Clean water is essential for health.",
+          "mot": "to give up",
+          "traduction": "abandonner",
+          "phrase": "Never give up before the exam.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "money",
-          "traduction": "argent",
-          "phrase": "He saves money to buy books.",
+          "mot": "to find out",
+          "traduction": "découvrir",
+          "phrase": "We found out the results yesterday.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u009-saisie",
+      "id": "anglais-u049-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u049-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "My ___ supports my studies.",
-          "reponse": "family",
+          "phrase": "Never ___ before the exam.",
+          "reponse": "give up",
           "toleranceMots": 0,
-          "indice": "famille",
-          "explication": "family = famille"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Finding ___ after school is not easy.",
-          "reponse": "work",
-          "toleranceMots": 0,
-          "indice": "travail",
-          "explication": "work = travail"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Clean ___ is essential for health.",
-          "reponse": "water",
-          "toleranceMots": 0,
-          "indice": "eau",
-          "explication": "water = eau"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "He saves ___ to buy books.",
-          "reponse": "money",
-          "toleranceMots": 0,
-          "indice": "argent",
-          "explication": "money = argent"
+          "indice": "abandonner",
+          "explication": "to give up = abandonner"
         }
       ]
     },
     {
-      "id": "anglais-u009-production",
+      "id": "anglais-u049-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u049-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « famille »",
+          "question": "Écris en anglais : « chercher »",
           "reponsesAcceptees": [
-            "family"
+            "to look for",
+            "look for"
           ],
-          "explication": "family = famille"
+          "explication": "to look for = chercher"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « travail »",
+          "question": "Écris en anglais : « s'occuper de »",
           "reponsesAcceptees": [
-            "work"
+            "to look after",
+            "look after"
           ],
-          "explication": "work = travail"
+          "explication": "to look after = s'occuper de"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « eau »",
+          "question": "Écris en anglais : « abandonner »",
           "reponsesAcceptees": [
-            "water"
+            "to give up",
+            "give up"
           ],
-          "explication": "water = eau"
+          "explication": "to give up = abandonner"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « argent »",
+          "question": "Écris en anglais : « découvrir »",
           "reponsesAcceptees": [
-            "money"
+            "to find out",
+            "find out"
           ],
-          "explication": "money = argent"
+          "explication": "to find out = découvrir"
         }
       ]
     },
     {
-      "id": "anglais-u009-oral",
+      "id": "anglais-u049-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u049-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "My family supports my studies.",
-          "mot": "family",
-          "traduction": "famille",
+          "phrase": "I am looking for my English notebook.",
+          "mot": "to look for",
+          "traduction": "chercher",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Finding work after school is not easy.",
-          "mot": "work",
-          "traduction": "travail",
+          "phrase": "She looks after her younger brothers.",
+          "mot": "to look after",
+          "traduction": "s'occuper de",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Clean water is essential for health.",
-          "mot": "water",
-          "traduction": "eau",
+          "phrase": "Never give up before the exam.",
+          "mot": "to give up",
+          "traduction": "abandonner",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "He saves money to buy books.",
-          "mot": "money",
-          "traduction": "argent",
+          "phrase": "We found out the results yesterday.",
+          "mot": "to find out",
+          "traduction": "découvrir",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +163,24 @@
   ],
   "motsCles": [
     {
-      "mot": "family",
-      "traduction": "famille",
-      "phrase": "My family supports my studies."
+      "mot": "to look for",
+      "traduction": "chercher",
+      "phrase": "I am looking for my English notebook."
     },
     {
-      "mot": "work",
-      "traduction": "travail",
-      "phrase": "Finding work after school is not easy."
+      "mot": "to look after",
+      "traduction": "s'occuper de",
+      "phrase": "She looks after her younger brothers."
     },
     {
-      "mot": "water",
-      "traduction": "eau",
-      "phrase": "Clean water is essential for health."
+      "mot": "to give up",
+      "traduction": "abandonner",
+      "phrase": "Never give up before the exam."
     },
     {
-      "mot": "money",
-      "traduction": "argent",
-      "phrase": "He saves money to buy books."
+      "mot": "to find out",
+      "traduction": "découvrir",
+      "phrase": "We found out the results yesterday."
     }
   ]
 }

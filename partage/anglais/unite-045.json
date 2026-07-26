@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u045",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Academic Verbs for the Exam (2/4)",
+  "ordre": 45,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Academic Verbs for the Exam",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,161 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u045-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u045-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "to summarize",
+          "traduction": "résumer",
+          "phrase": "Summarize the passage in your own words.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "to define",
+          "traduction": "définir",
+          "phrase": "Define the word « development ».",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "to analyse",
+          "traduction": "analyser",
+          "phrase": "Analyse the causes of the drought.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "to suggest",
+          "traduction": "suggérer",
+          "phrase": "Suggest two solutions to this problem.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u045-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u045-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "___ the passage in your own words.",
+          "reponse": "Summarize",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "résumer",
+          "explication": "to summarize = résumer"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "___ the word « development ».",
+          "reponse": "Define",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "définir",
+          "explication": "to define = définir"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "___ the causes of the drought.",
+          "reponse": "Analyse",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "analyser",
+          "explication": "to analyse = analyser"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "___ two solutions to this problem.",
+          "reponse": "Suggest",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "suggérer",
+          "explication": "to suggest = suggérer"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u045-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u045-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « résumer »",
           "reponsesAcceptees": [
-            "time"
+            "to summarize",
+            "summarize"
           ],
-          "explication": "time = temps"
+          "explication": "to summarize = résumer"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « définir »",
           "reponsesAcceptees": [
-            "year"
+            "to define",
+            "define"
           ],
-          "explication": "year = année"
+          "explication": "to define = définir"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « analyser »",
           "reponsesAcceptees": [
-            "day"
+            "to analyse",
+            "analyse"
           ],
-          "explication": "day = jour"
+          "explication": "to analyse = analyser"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « suggérer »",
           "reponsesAcceptees": [
-            "people"
+            "to suggest",
+            "suggest"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "to suggest = suggérer"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u045-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u045-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Summarize the passage in your own words.",
+          "mot": "to summarize",
+          "traduction": "résumer",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Define the word « development ».",
+          "mot": "to define",
+          "traduction": "définir",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "Analyse the causes of the drought.",
+          "mot": "to analyse",
+          "traduction": "analyser",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "Suggest two solutions to this problem.",
+          "mot": "to suggest",
+          "traduction": "suggérer",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +187,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "to summarize",
+      "traduction": "résumer",
+      "phrase": "Summarize the passage in your own words."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "to define",
+      "traduction": "définir",
+      "phrase": "Define the word « development »."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "to analyse",
+      "traduction": "analyser",
+      "phrase": "Analyse the causes of the drought."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "to suggest",
+      "traduction": "suggérer",
+      "phrase": "Suggest two solutions to this problem."
     }
   ]
 }

@@ -1,0 +1,106 @@
+{
+  "id": "anglais-u064",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "Essay Writing & Useful Expressions (3/3)",
+  "ordre": 64,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Essay Writing & Useful Expressions",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u064-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u064-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "What is a 'topic sentence'?",
+          "reponsesAcceptees": [
+            "The first sentence of a paragraph that states its main idea."
+          ],
+          "explication": "The first sentence of a paragraph that states its main idea."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.'",
+          "reponsesAcceptees": [
+            "In conclusion, I believe that education is the key to development."
+          ],
+          "explication": "In conclusion, I believe that education is the key to development."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Translate: 'D'une part… d'autre part…'",
+          "reponsesAcceptees": [
+            "On the one hand… on the other hand…"
+          ],
+          "explication": "On the one hand… on the other hand…"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u064-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u064-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "What is a 'topic sentence'?",
+          "options": [
+            "She told me not to go.",
+            "Furthermore, moreover, in addition, besides.",
+            "The first sentence of a paragraph that states its main idea.",
+            "human rights"
+          ],
+          "reponse": 2,
+          "explication": "The first sentence of a paragraph that states its main idea."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'En conclusion, je pense que l'éducation est la clé du développement.' ?",
+          "options": [
+            "In conclusion, I believe that education is the key to development.",
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "He said (that) he was happy.",
+            "On the one hand… on the other hand…"
+          ],
+          "reponse": 0,
+          "explication": "In conclusion, I believe that education is the key to development."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Translate: 'D'une part… d'autre part…' ?",
+          "options": [
+            "On the one hand… on the other hand…",
+            "baccalaureate / high school diploma",
+            "In conclusion, I believe that education is the key to development.",
+            "human rights"
+          ],
+          "reponse": 0,
+          "explication": "On the one hand… on the other hand…"
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

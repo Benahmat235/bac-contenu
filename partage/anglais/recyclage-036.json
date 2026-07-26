@@ -1,0 +1,146 @@
+{
+  "id": "anglais-c036",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "Recycling",
+  "ordre": 36,
+  "source": {
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Recycling",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-c036-saisie",
+      "titre": "Type it again",
+      "categorie": "saisie",
+      "seuilReussite": 100,
+      "competenceId": "anglais-c036-c",
+      "activites": [
+        {
+          "type": "texte_a_completer",
+          "phrase": "They will ___ a bridge over the river.",
+          "reponse": "build",
+          "toleranceMots": 0,
+          "indice": "construire",
+          "explication": "to build = construire"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, education is the key to development.",
+          "reponse": "In conclusion",
+          "toleranceMots": 0,
+          "indice": "en conclusion",
+          "explication": "in conclusion = en conclusion"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "He got the best ___ in the class.",
+          "reponse": "mark",
+          "toleranceMots": 0,
+          "indice": "note",
+          "explication": "mark = note"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "Students ___ water and electricity to study.",
+          "reponse": "need",
+          "toleranceMots": 0,
+          "indice": "avoir besoin de",
+          "explication": "to need = avoir besoin de"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I study hard ___ I want to succeed.",
+          "reponse": "because",
+          "toleranceMots": 0,
+          "indice": "parce que",
+          "explication": "because = parce que"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The teacher will ___ us the results tomorrow.",
+          "reponse": "give",
+          "toleranceMots": 0,
+          "indice": "donner",
+          "explication": "to give = donner"
+        }
+      ]
+    },
+    {
+      "id": "anglais-c036-production",
+      "titre": "Write it again",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-c036-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « construire »",
+          "reponsesAcceptees": [
+            "to build",
+            "build"
+          ],
+          "explication": "to build = construire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en conclusion »",
+          "reponsesAcceptees": [
+            "in conclusion"
+          ],
+          "explication": "in conclusion = en conclusion"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « note »",
+          "reponsesAcceptees": [
+            "mark"
+          ],
+          "explication": "mark = note"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avoir besoin de »",
+          "reponsesAcceptees": [
+            "to need",
+            "need"
+          ],
+          "explication": "to need = avoir besoin de"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « parce que »",
+          "reponsesAcceptees": [
+            "because"
+          ],
+          "explication": "because = parce que"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « donner »",
+          "reponsesAcceptees": [
+            "to give",
+            "give"
+          ],
+          "explication": "to give = donner"
+        }
+      ]
+    }
+  ],
+  "estRecyclage": true
+}

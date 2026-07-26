@@ -1,110 +1,206 @@
 {
   "id": "anglais-u021",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Essay Writing & Useful Expressions (2/3)",
+  "type": "langue",
+  "titre": "Connectors — Linking Your Ideas (4/4)",
   "ordre": 21,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Essay Writing & Useful Expressions",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Connectors — Linking Your Ideas",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u021-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u021-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Give 3 connectors for conclusion.",
-          "reponseAttendue": "In conclusion, to sum up, all in all, finally.",
-          "modeReponse": "auto_evaluation",
-          "explication": "In conclusion, to sum up, all in all, finally."
+          "type": "mot_en_contexte",
+          "mot": "while",
+          "traduction": "tandis que",
+          "phrase": "While some study science, others prefer literature.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "How do you express your opinion in English?",
-          "reponseAttendue": "In my opinion, I believe that, From my point of view, It seems to me that.",
-          "modeReponse": "auto_evaluation",
-          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+          "type": "mot_en_contexte",
+          "mot": "besides",
+          "traduction": "en plus de cela",
+          "phrase": "Besides, the road is now paved.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "How do you introduce an example?",
-          "reponseAttendue": "For instance, for example, such as, to illustrate.",
-          "modeReponse": "auto_evaluation",
-          "explication": "For instance, for example, such as, to illustrate."
+          "type": "mot_en_contexte",
+          "mot": "in fact",
+          "traduction": "en fait",
+          "phrase": "In fact, the answer was very simple.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "that is why",
+          "traduction": "c'est pourquoi",
+          "phrase": "That is why we must protect the lake.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u021-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u021-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u021-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Give 3 connectors for conclusion. ?",
-          "options": [
-            "deforestation",
-            "climate change",
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "In conclusion, to sum up, all in all, finally."
-          ],
-          "reponse": 3,
-          "explication": "In conclusion, to sum up, all in all, finally."
+          "type": "texte_a_completer",
+          "phrase": "___ some study science, others prefer literature.",
+          "reponse": "While",
+          "toleranceMots": 0,
+          "indice": "tandis que",
+          "explication": "while = tandis que"
         },
         {
-          "type": "choix_unique",
-          "question": "How do you express your opinion in English?",
-          "options": [
-            "illiteracy",
-            "In conclusion, to sum up, all in all, finally.",
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "renewable energy"
-          ],
-          "reponse": 2,
-          "explication": "In my opinion, I believe that, From my point of view, It seems to me that."
+          "type": "texte_a_completer",
+          "phrase": "___, the road is now paved.",
+          "reponse": "Besides",
+          "toleranceMots": 0,
+          "indice": "en plus de cela",
+          "explication": "besides = en plus de cela"
         },
         {
-          "type": "choix_unique",
-          "question": "How do you introduce an example?",
-          "options": [
-            "For instance, for example, such as, to illustrate.",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          "type": "texte_a_completer",
+          "phrase": "___, the answer was very simple.",
+          "reponse": "In fact",
+          "toleranceMots": 0,
+          "indice": "en fait",
+          "explication": "in fact = en fait"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ we must protect the lake.",
+          "reponse": "That is why",
+          "toleranceMots": 0,
+          "indice": "c'est pourquoi",
+          "explication": "that is why = c'est pourquoi"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u021-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u021-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « tandis que »",
+          "reponsesAcceptees": [
+            "while"
           ],
-          "reponse": 0,
-          "explication": "For instance, for example, such as, to illustrate."
+          "explication": "while = tandis que"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en plus de cela »",
+          "reponsesAcceptees": [
+            "besides"
+          ],
+          "explication": "besides = en plus de cela"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en fait »",
+          "reponsesAcceptees": [
+            "in fact"
+          ],
+          "explication": "in fact = en fait"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « c'est pourquoi »",
+          "reponsesAcceptees": [
+            "that is why"
+          ],
+          "explication": "that is why = c'est pourquoi"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u021-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u021-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "While some study science, others prefer literature.",
+          "mot": "while",
+          "traduction": "tandis que",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Besides, the road is now paved.",
+          "mot": "besides",
+          "traduction": "en plus de cela",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "In fact, the answer was very simple.",
+          "mot": "in fact",
+          "traduction": "en fait",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "That is why we must protect the lake.",
+          "mot": "that is why",
+          "traduction": "c'est pourquoi",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Give 3 connectors for conclusion.",
-      "verso": "In conclusion, to sum up, all in all, finally."
+      "mot": "while",
+      "traduction": "tandis que",
+      "phrase": "While some study science, others prefer literature."
     },
     {
-      "recto": "How do you express your opinion in English?",
-      "verso": "In my opinion, I believe that, From my point of view, It seems to me that."
+      "mot": "besides",
+      "traduction": "en plus de cela",
+      "phrase": "Besides, the road is now paved."
     },
     {
-      "recto": "How do you introduce an example?",
-      "verso": "For instance, for example, such as, to illustrate."
+      "mot": "in fact",
+      "traduction": "en fait",
+      "phrase": "In fact, the answer was very simple."
+    },
+    {
+      "mot": "that is why",
+      "traduction": "c'est pourquoi",
+      "phrase": "That is why we must protect the lake."
     }
   ]
 }

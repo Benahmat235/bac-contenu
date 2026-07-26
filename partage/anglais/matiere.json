@@ -1,170 +1,475 @@
 {
   "id": "anglais",
   "titre": "Anglais",
+  "type": "langue",
   "seriesConcernees": [
     "a4",
     "c",
     "d"
   ],
-  "description": "English vocabulary, tenses, passive voice, reported speech, conditionals, and essay writing for the baccalaureate.",
+  "modeleApprentissage": "production",
+  "repetitionEspacee": false,
+  "description": "Anglais par la PRODUCTION : découvrir le mot en contexte, le taper, le dire à voix haute, puis le réutiliser. Cette matière n'utilise pas la mémorisation espacée.",
   "unites": [
     {
       "id": "anglais-u001",
-      "titre": "Vocabulary: Education & Society (1/3)",
+      "titre": "Core Verbs — Everyday Actions (1/4)",
       "ordre": 1,
       "fichier": "partage/anglais/unite-001.json",
       "prerequis": []
     },
     {
       "id": "anglais-u002",
-      "titre": "Vocabulary: Education & Society (2/3)",
+      "titre": "Core Verbs — Everyday Actions (2/4)",
       "ordre": 2,
       "fichier": "partage/anglais/unite-002.json",
       "prerequis": []
     },
     {
       "id": "anglais-u003",
-      "titre": "Vocabulary: Education & Society (3/3)",
+      "titre": "Core Verbs — Everyday Actions (3/4)",
       "ordre": 3,
       "fichier": "partage/anglais/unite-003.json",
       "prerequis": []
     },
     {
-      "id": "anglais-r004",
-      "titre": "Révision",
+      "id": "anglais-c004",
+      "titre": "Recycling",
       "ordre": 4,
-      "fichier": "partage/anglais/revision-004.json",
+      "fichier": "partage/anglais/recyclage-004.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u005",
-      "titre": "Vocabulary: Environment & Health (1/3)",
+      "titre": "Core Verbs — Everyday Actions (4/4)",
       "ordre": 5,
       "fichier": "partage/anglais/unite-005.json",
       "prerequis": []
     },
     {
       "id": "anglais-u006",
-      "titre": "Vocabulary: Environment & Health (2/3)",
+      "titre": "Core Nouns — People and Places (1/4)",
       "ordre": 6,
       "fichier": "partage/anglais/unite-006.json",
       "prerequis": []
     },
     {
       "id": "anglais-u007",
-      "titre": "Vocabulary: Environment & Health (3/3)",
+      "titre": "Core Nouns — People and Places (2/4)",
       "ordre": 7,
       "fichier": "partage/anglais/unite-007.json",
       "prerequis": []
     },
     {
-      "id": "anglais-r008",
-      "titre": "Révision",
+      "id": "anglais-c008",
+      "titre": "Recycling",
       "ordre": 8,
-      "fichier": "partage/anglais/revision-008.json",
+      "fichier": "partage/anglais/recyclage-008.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u009",
-      "titre": "English Tenses: Present & Past (1/3)",
+      "titre": "Core Nouns — People and Places (3/4)",
       "ordre": 9,
       "fichier": "partage/anglais/unite-009.json",
       "prerequis": []
     },
     {
       "id": "anglais-u010",
-      "titre": "English Tenses: Present & Past (2/3)",
+      "titre": "Core Nouns — People and Places (4/4)",
       "ordre": 10,
       "fichier": "partage/anglais/unite-010.json",
       "prerequis": []
     },
     {
       "id": "anglais-u011",
-      "titre": "English Tenses: Present & Past (3/3)",
+      "titre": "Core Adjectives and Adverbs (1/4)",
       "ordre": 11,
       "fichier": "partage/anglais/unite-011.json",
       "prerequis": []
     },
     {
-      "id": "anglais-r012",
-      "titre": "Révision",
+      "id": "anglais-c012",
+      "titre": "Recycling",
       "ordre": 12,
-      "fichier": "partage/anglais/revision-012.json",
+      "fichier": "partage/anglais/recyclage-012.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u013",
-      "titre": "English Tenses: Future & Conditionals (1/2)",
+      "titre": "Core Adjectives and Adverbs (2/4)",
       "ordre": 13,
       "fichier": "partage/anglais/unite-013.json",
       "prerequis": []
     },
     {
       "id": "anglais-u014",
-      "titre": "English Tenses: Future & Conditionals (2/2)",
+      "titre": "Core Adjectives and Adverbs (3/4)",
       "ordre": 14,
       "fichier": "partage/anglais/unite-014.json",
       "prerequis": []
     },
     {
       "id": "anglais-u015",
-      "titre": "Passive Voice & Reported Speech (1/3)",
+      "titre": "Core Adjectives and Adverbs (4/4)",
       "ordre": 15,
       "fichier": "partage/anglais/unite-015.json",
       "prerequis": []
     },
     {
-      "id": "anglais-r016",
-      "titre": "Révision",
+      "id": "anglais-c016",
+      "titre": "Recycling",
       "ordre": 16,
-      "fichier": "partage/anglais/revision-016.json",
+      "fichier": "partage/anglais/recyclage-016.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u017",
-      "titre": "Passive Voice & Reported Speech (2/3)",
+      "titre": "Connectors — Linking Your Ideas (1/4)",
       "ordre": 17,
       "fichier": "partage/anglais/unite-017.json",
       "prerequis": []
     },
     {
       "id": "anglais-u018",
-      "titre": "Passive Voice & Reported Speech (3/3)",
+      "titre": "Connectors — Linking Your Ideas (2/4)",
       "ordre": 18,
       "fichier": "partage/anglais/unite-018.json",
       "prerequis": []
     },
     {
       "id": "anglais-u019",
-      "titre": "Essay Writing & Useful Expressions (1/3)",
+      "titre": "Connectors — Linking Your Ideas (3/4)",
       "ordre": 19,
       "fichier": "partage/anglais/unite-019.json",
       "prerequis": []
     },
     {
-      "id": "anglais-r020",
-      "titre": "Révision",
+      "id": "anglais-c020",
+      "titre": "Recycling",
       "ordre": 20,
-      "fichier": "partage/anglais/revision-020.json",
+      "fichier": "partage/anglais/recyclage-020.json",
       "prerequis": [],
-      "estRevision": true
+      "estRecyclage": true
     },
     {
       "id": "anglais-u021",
-      "titre": "Essay Writing & Useful Expressions (2/3)",
+      "titre": "Connectors — Linking Your Ideas (4/4)",
       "ordre": 21,
       "fichier": "partage/anglais/unite-021.json",
       "prerequis": []
     },
     {
       "id": "anglais-u022",
-      "titre": "Essay Writing & Useful Expressions (3/3)",
+      "titre": "Education and Exams (1/4)",
       "ordre": 22,
       "fichier": "partage/anglais/unite-022.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u023",
+      "titre": "Education and Exams (2/4)",
+      "ordre": 23,
+      "fichier": "partage/anglais/unite-023.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c024",
+      "titre": "Recycling",
+      "ordre": 24,
+      "fichier": "partage/anglais/recyclage-024.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u025",
+      "titre": "Education and Exams (3/4)",
+      "ordre": 25,
+      "fichier": "partage/anglais/unite-025.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u026",
+      "titre": "Education and Exams (4/4)",
+      "ordre": 26,
+      "fichier": "partage/anglais/unite-026.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u027",
+      "titre": "Society, Work and Development (1/4)",
+      "ordre": 27,
+      "fichier": "partage/anglais/unite-027.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c028",
+      "titre": "Recycling",
+      "ordre": 28,
+      "fichier": "partage/anglais/recyclage-028.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u029",
+      "titre": "Society, Work and Development (2/4)",
+      "ordre": 29,
+      "fichier": "partage/anglais/unite-029.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u030",
+      "titre": "Society, Work and Development (3/4)",
+      "ordre": 30,
+      "fichier": "partage/anglais/unite-030.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u031",
+      "titre": "Society, Work and Development (4/4)",
+      "ordre": 31,
+      "fichier": "partage/anglais/unite-031.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c032",
+      "titre": "Recycling",
+      "ordre": 32,
+      "fichier": "partage/anglais/recyclage-032.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u033",
+      "titre": "Environment and Health (1/4)",
+      "ordre": 33,
+      "fichier": "partage/anglais/unite-033.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u034",
+      "titre": "Environment and Health (2/4)",
+      "ordre": 34,
+      "fichier": "partage/anglais/unite-034.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u035",
+      "titre": "Environment and Health (3/4)",
+      "ordre": 35,
+      "fichier": "partage/anglais/unite-035.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c036",
+      "titre": "Recycling",
+      "ordre": 36,
+      "fichier": "partage/anglais/recyclage-036.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u037",
+      "titre": "Environment and Health (4/4)",
+      "ordre": 37,
+      "fichier": "partage/anglais/unite-037.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u038",
+      "titre": "Technology and Media (1/4)",
+      "ordre": 38,
+      "fichier": "partage/anglais/unite-038.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u039",
+      "titre": "Technology and Media (2/4)",
+      "ordre": 39,
+      "fichier": "partage/anglais/unite-039.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c040",
+      "titre": "Recycling",
+      "ordre": 40,
+      "fichier": "partage/anglais/recyclage-040.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u041",
+      "titre": "Technology and Media (3/4)",
+      "ordre": 41,
+      "fichier": "partage/anglais/unite-041.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u042",
+      "titre": "Technology and Media (4/4)",
+      "ordre": 42,
+      "fichier": "partage/anglais/unite-042.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u043",
+      "titre": "Academic Verbs for the Exam (1/4)",
+      "ordre": 43,
+      "fichier": "partage/anglais/unite-043.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c044",
+      "titre": "Recycling",
+      "ordre": 44,
+      "fichier": "partage/anglais/recyclage-044.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u045",
+      "titre": "Academic Verbs for the Exam (2/4)",
+      "ordre": 45,
+      "fichier": "partage/anglais/unite-045.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u046",
+      "titre": "Academic Verbs for the Exam (3/4)",
+      "ordre": 46,
+      "fichier": "partage/anglais/unite-046.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u047",
+      "titre": "Academic Verbs for the Exam (4/4)",
+      "ordre": 47,
+      "fichier": "partage/anglais/unite-047.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c048",
+      "titre": "Recycling",
+      "ordre": 48,
+      "fichier": "partage/anglais/recyclage-048.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u049",
+      "titre": "Essential Phrasal Verbs (1/4)",
+      "ordre": 49,
+      "fichier": "partage/anglais/unite-049.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u050",
+      "titre": "Essential Phrasal Verbs (2/4)",
+      "ordre": 50,
+      "fichier": "partage/anglais/unite-050.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u051",
+      "titre": "Essential Phrasal Verbs (3/4)",
+      "ordre": 51,
+      "fichier": "partage/anglais/unite-051.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-c052",
+      "titre": "Recycling",
+      "ordre": 52,
+      "fichier": "partage/anglais/recyclage-052.json",
+      "prerequis": [],
+      "estRecyclage": true
+    },
+    {
+      "id": "anglais-u053",
+      "titre": "Essential Phrasal Verbs (4/4)",
+      "ordre": 53,
+      "fichier": "partage/anglais/unite-053.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u054",
+      "titre": "English Tenses: Present & Past (1/3)",
+      "ordre": 54,
+      "fichier": "partage/anglais/unite-054.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u055",
+      "titre": "English Tenses: Present & Past (2/3)",
+      "ordre": 55,
+      "fichier": "partage/anglais/unite-055.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u056",
+      "titre": "English Tenses: Present & Past (3/3)",
+      "ordre": 56,
+      "fichier": "partage/anglais/unite-056.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u057",
+      "titre": "English Tenses: Future & Conditionals (1/2)",
+      "ordre": 57,
+      "fichier": "partage/anglais/unite-057.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u058",
+      "titre": "English Tenses: Future & Conditionals (2/2)",
+      "ordre": 58,
+      "fichier": "partage/anglais/unite-058.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u059",
+      "titre": "Passive Voice & Reported Speech (1/3)",
+      "ordre": 59,
+      "fichier": "partage/anglais/unite-059.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u060",
+      "titre": "Passive Voice & Reported Speech (2/3)",
+      "ordre": 60,
+      "fichier": "partage/anglais/unite-060.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u061",
+      "titre": "Passive Voice & Reported Speech (3/3)",
+      "ordre": 61,
+      "fichier": "partage/anglais/unite-061.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u062",
+      "titre": "Essay Writing & Useful Expressions (1/3)",
+      "ordre": 62,
+      "fichier": "partage/anglais/unite-062.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u063",
+      "titre": "Essay Writing & Useful Expressions (2/3)",
+      "ordre": 63,
+      "fichier": "partage/anglais/unite-063.json",
+      "prerequis": []
+    },
+    {
+      "id": "anglais-u064",
+      "titre": "Essay Writing & Useful Expressions (3/3)",
+      "ordre": 64,
+      "fichier": "partage/anglais/unite-064.json",
       "prerequis": []
     }
   ]

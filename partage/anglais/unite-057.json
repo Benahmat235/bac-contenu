@@ -1,0 +1,114 @@
+{
+  "id": "anglais-u057",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "English Tenses: Future & Conditionals (1/2)",
+  "ordre": 57,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "English Tenses: Future & Conditionals",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u057-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u057-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "When do we use 'will + verb'?",
+          "reponsesAcceptees": [
+            "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+          ],
+          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "When do we use 'going to + verb'?",
+          "reponsesAcceptees": [
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          ],
+          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "What is the Zero Conditional? (If + present, present)",
+          "reponsesAcceptees": [
+            "For general truths. Ex: 'If you heat water, it boils.'"
+          ],
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "What is the First Conditional? (If + present, will + verb)",
+          "reponsesAcceptees": [
+            "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+          ],
+          "explication": "For real/possible future situations. Ex: 'If I pass the bac, I will go to university.'"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u057-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u057-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "When do we use 'will + verb'?",
+          "options": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "human rights",
+            "drought",
+            "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+          ],
+          "reponse": 3,
+          "explication": "For predictions, spontaneous decisions, promises. Ex: 'I will help you.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "When do we use 'going to + verb'?",
+          "options": [
+            "She said (that) she would come.",
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "In my opinion, I believe that, From my point of view, It seems to me that."
+          ],
+          "reponse": 1,
+          "explication": "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+        },
+        {
+          "type": "choix_unique",
+          "question": "What is the Zero Conditional? (If + present, present) ?",
+          "options": [
+            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
+            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
+            "For general truths. Ex: 'If you heat water, it boils.'"
+          ],
+          "reponse": 3,
+          "explication": "For general truths. Ex: 'If you heat water, it boils.'"
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

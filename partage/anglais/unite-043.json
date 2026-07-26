@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u043",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Academic Verbs for the Exam (1/4)",
+  "ordre": 43,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Academic Verbs for the Exam",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,161 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u043-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u043-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "to describe",
+          "traduction": "décrire",
+          "phrase": "Describe the picture in five sentences.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "to compare",
+          "traduction": "comparer",
+          "phrase": "Compare the two texts carefully.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "to discuss",
+          "traduction": "discuter, débattre",
+          "phrase": "Discuss the advantages of solar energy.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "to justify",
+          "traduction": "justifier",
+          "phrase": "Justify your answer with an example.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u043-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u043-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "___ the picture in five sentences.",
+          "reponse": "Describe",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "décrire",
+          "explication": "to describe = décrire"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "___ the two texts carefully.",
+          "reponse": "Compare",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "comparer",
+          "explication": "to compare = comparer"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "___ the advantages of solar energy.",
+          "reponse": "Discuss",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "discuter, débattre",
+          "explication": "to discuss = discuter, débattre"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "___ your answer with an example.",
+          "reponse": "Justify",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "justifier",
+          "explication": "to justify = justifier"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u043-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u043-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « décrire »",
           "reponsesAcceptees": [
-            "time"
+            "to describe",
+            "describe"
           ],
-          "explication": "time = temps"
+          "explication": "to describe = décrire"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « comparer »",
           "reponsesAcceptees": [
-            "year"
+            "to compare",
+            "compare"
           ],
-          "explication": "year = année"
+          "explication": "to compare = comparer"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « discuter, débattre »",
           "reponsesAcceptees": [
-            "day"
+            "to discuss",
+            "discuss"
           ],
-          "explication": "day = jour"
+          "explication": "to discuss = discuter, débattre"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « justifier »",
           "reponsesAcceptees": [
-            "people"
+            "to justify",
+            "justify"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "to justify = justifier"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u043-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u043-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Describe the picture in five sentences.",
+          "mot": "to describe",
+          "traduction": "décrire",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Compare the two texts carefully.",
+          "mot": "to compare",
+          "traduction": "comparer",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "Discuss the advantages of solar energy.",
+          "mot": "to discuss",
+          "traduction": "discuter, débattre",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "Justify your answer with an example.",
+          "mot": "to justify",
+          "traduction": "justifier",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +187,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "to describe",
+      "traduction": "décrire",
+      "phrase": "Describe the picture in five sentences."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "to compare",
+      "traduction": "comparer",
+      "phrase": "Compare the two texts carefully."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "to discuss",
+      "traduction": "discuter, débattre",
+      "phrase": "Discuss the advantages of solar energy."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "to justify",
+      "traduction": "justifier",
+      "phrase": "Justify your answer with an example."
     }
   ]
 }

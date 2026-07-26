@@ -1,0 +1,106 @@
+{
+  "id": "anglais-u060",
+  "matiere": "anglais",
+  "type": "langue",
+  "titre": "Passive Voice & Reported Speech (2/3)",
+  "ordre": 60,
+  "source": {
+    "document": "Programme Terminale Tchad",
+    "chapitre": "Passive Voice & Reported Speech",
+    "statutValidation": "valide",
+    "valideePar": "Benahmat235",
+    "dateValidation": "2026-07-25"
+  },
+  "reglesExercice": {
+    "reponseVisibleApresEchec": true,
+    "afficherCorrectionApresEchec": true,
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
+  },
+  "etapes": [
+    {
+      "id": "anglais-u060-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u060-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Direct: 'I am happy.' → Reported:",
+          "reponsesAcceptees": [
+            "He said (that) he was happy."
+          ],
+          "explication": "He said (that) he was happy."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Direct: 'I will come.' → Reported:",
+          "reponsesAcceptees": [
+            "She said (that) she would come."
+          ],
+          "explication": "She said (that) she would come."
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Direct: 'Did you see it?' → Reported:",
+          "reponsesAcceptees": [
+            "He asked if/whether I had seen it."
+          ],
+          "explication": "He asked if/whether I had seen it."
+        }
+      ]
+    },
+    {
+      "id": "anglais-u060-quiz",
+      "titre": "Vérifier",
+      "categorie": "quiz",
+      "seuilReussite": 70,
+      "competenceId": "anglais-u060-c",
+      "activites": [
+        {
+          "type": "choix_unique",
+          "question": "Direct: 'I am happy.' → Reported: ?",
+          "options": [
+            "He said (that) he was happy.",
+            "Because, therefore, as a result, consequently, due to.",
+            "renewable energy",
+            "Subject + be (conjugated) + past participle + (by agent). Ex: 'The book was written by Senghor.'"
+          ],
+          "reponse": 0,
+          "explication": "He said (that) he was happy."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Direct: 'I will come.' → Reported: ?",
+          "options": [
+            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
+            "For general truths. Ex: 'If you heat water, it boils.'",
+            "She said (that) she would come.",
+            "human rights"
+          ],
+          "reponse": 2,
+          "explication": "She said (that) she would come."
+        },
+        {
+          "type": "choix_unique",
+          "question": "Direct: 'Did you see it?' → Reported: ?",
+          "options": [
+            "Subject + verb-ed. Ex: 'He worked hard yesterday.'",
+            "He asked if/whether I had seen it.",
+            "unemployment",
+            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'"
+          ],
+          "reponse": 1,
+          "explication": "He asked if/whether I had seen it."
+        }
+      ]
+    }
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
+}

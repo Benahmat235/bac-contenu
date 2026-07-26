@@ -1,137 +1,202 @@
 {
   "id": "anglais-u001",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Vocabulary: Education & Society (1/3)",
+  "type": "langue",
+  "titre": "Core Verbs — Everyday Actions (1/4)",
   "ordre": 1,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Education & Society",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u001-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u001-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'baccalauréat'",
-          "reponseAttendue": "baccalaureate / high school diploma",
-          "modeReponse": "auto_evaluation",
-          "explication": "baccalaureate / high school diploma"
+          "type": "mot_en_contexte",
+          "mot": "to be",
+          "traduction": "être",
+          "phrase": "I am a student in N'Djamena.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'réussir un examen'",
-          "reponseAttendue": "to pass an exam",
-          "modeReponse": "auto_evaluation",
-          "explication": "to pass an exam"
+          "type": "mot_en_contexte",
+          "mot": "to have",
+          "traduction": "avoir",
+          "phrase": "We have an exam next Monday.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'échouer à un examen'",
-          "reponseAttendue": "to fail an exam",
-          "modeReponse": "auto_evaluation",
-          "explication": "to fail an exam"
+          "type": "mot_en_contexte",
+          "mot": "to do",
+          "traduction": "faire",
+          "phrase": "She does her homework every evening.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'bourse d'études'",
-          "reponseAttendue": "scholarship",
-          "modeReponse": "auto_evaluation",
-          "explication": "scholarship"
+          "type": "mot_en_contexte",
+          "mot": "to go",
+          "traduction": "aller",
+          "phrase": "They go to school on foot.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u001-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u001-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Translate: 'baccalauréat' ?",
-          "options": [
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
-            "baccalaureate / high school diploma",
-            "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."
-          ],
-          "reponse": 1,
-          "explication": "baccalaureate / high school diploma"
+          "type": "texte_a_completer",
+          "phrase": "We ___ an exam next Monday.",
+          "reponse": "have",
+          "toleranceMots": 0,
+          "indice": "avoir",
+          "explication": "to have = avoir"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'réussir un examen' ?",
-          "options": [
-            "water pollution",
-            "to pass an exam",
-            "life expectancy",
-            "sustainable development"
-          ],
-          "reponse": 1,
-          "explication": "to pass an exam"
+          "type": "texte_a_completer",
+          "phrase": "She ___es her homework every evening.",
+          "reponse": "do",
+          "toleranceMots": 0,
+          "indice": "faire",
+          "explication": "to do = faire"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'échouer à un examen' ?",
-          "options": [
-            "baccalaureate / high school diploma",
-            "enrollment rate / schooling rate",
-            "to fail an exam",
-            "The first sentence of a paragraph that states its main idea."
+          "type": "texte_a_completer",
+          "phrase": "They ___ to school on foot.",
+          "reponse": "go",
+          "toleranceMots": 0,
+          "indice": "aller",
+          "explication": "to go = aller"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u001-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u001-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « être »",
+          "reponsesAcceptees": [
+            "to be",
+            "be"
           ],
-          "reponse": 2,
-          "explication": "to fail an exam"
+          "explication": "to be = être"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avoir »",
+          "reponsesAcceptees": [
+            "to have",
+            "have"
+          ],
+          "explication": "to have = avoir"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « faire »",
+          "reponsesAcceptees": [
+            "to do",
+            "do"
+          ],
+          "explication": "to do = faire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « aller »",
+          "reponsesAcceptees": [
+            "to go",
+            "go"
+          ],
+          "explication": "to go = aller"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u001-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u001-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I am a student in N'Djamena.",
+          "mot": "to be",
+          "traduction": "être",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We have an exam next Monday.",
+          "mot": "to have",
+          "traduction": "avoir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She does her homework every evening.",
+          "mot": "to do",
+          "traduction": "faire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "They go to school on foot.",
+          "mot": "to go",
+          "traduction": "aller",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Translate: 'baccalauréat'",
-      "verso": "baccalaureate / high school diploma"
+      "mot": "to be",
+      "traduction": "être",
+      "phrase": "I am a student in N'Djamena."
     },
     {
-      "recto": "Translate: 'réussir un examen'",
-      "verso": "to pass an exam"
+      "mot": "to have",
+      "traduction": "avoir",
+      "phrase": "We have an exam next Monday."
     },
     {
-      "recto": "Translate: 'échouer à un examen'",
-      "verso": "to fail an exam"
+      "mot": "to do",
+      "traduction": "faire",
+      "phrase": "She does her homework every evening."
     },
     {
-      "recto": "Translate: 'bourse d'études'",
-      "verso": "scholarship"
-    }
-  ],
-  "videos": [
-    {
-      "titre": "How to remember English vocabulary",
-      "url": "https://youtu.be/ZM6Sg4SN7kU",
-      "type": "video",
-      "chaine": "Bob the Canadian",
-      "auteur": "Bob the Canadian"
-    },
-    {
-      "titre": "The best way to improve your English vocabulary",
-      "url": "https://youtu.be/awIXN5LgWKY",
-      "type": "video",
-      "chaine": "EngFluent",
-      "auteur": "EngFluent"
+      "mot": "to go",
+      "traduction": "aller",
+      "phrase": "They go to school on foot."
     }
   ]
 }

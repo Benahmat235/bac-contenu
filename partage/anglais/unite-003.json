@@ -1,110 +1,210 @@
 {
   "id": "anglais-u003",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Vocabulary: Education & Society (3/3)",
+  "type": "langue",
+  "titre": "Core Verbs — Everyday Actions (3/4)",
   "ordre": 3,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Education & Society",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u003-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u003-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'développement durable'",
-          "reponseAttendue": "sustainable development",
-          "modeReponse": "auto_evaluation",
-          "explication": "sustainable development"
+          "type": "mot_en_contexte",
+          "mot": "to see",
+          "traduction": "voir",
+          "phrase": "Can you see the blackboard from here?",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'chômage'",
-          "reponseAttendue": "unemployment",
-          "modeReponse": "auto_evaluation",
-          "explication": "unemployment"
+          "type": "mot_en_contexte",
+          "mot": "to want",
+          "traduction": "vouloir",
+          "phrase": "She wants to become a doctor.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'droits de l'homme'",
-          "reponseAttendue": "human rights",
-          "modeReponse": "auto_evaluation",
-          "explication": "human rights"
+          "type": "mot_en_contexte",
+          "mot": "to give",
+          "traduction": "donner",
+          "phrase": "The teacher will give us the results tomorrow.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "to take",
+          "traduction": "prendre",
+          "phrase": "Take your time and read the question twice.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u003-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u003-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u003-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Translate: 'développement durable' ?",
-          "options": [
-            "sustainable development",
-            "In conclusion, I believe that education is the key to development.",
-            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
-            "prevention"
-          ],
-          "reponse": 0,
-          "explication": "sustainable development"
+          "type": "texte_a_completer",
+          "phrase": "Can you ___ the blackboard from here?",
+          "reponse": "see",
+          "toleranceMots": 0,
+          "indice": "voir",
+          "explication": "to see = voir"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'chômage' ?",
-          "options": [
-            "unemployment",
-            "He asked if/whether I had seen it.",
-            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
-          ],
-          "reponse": 0,
-          "explication": "unemployment"
+          "type": "texte_a_completer",
+          "phrase": "She ___s to become a doctor.",
+          "reponse": "want",
+          "toleranceMots": 0,
+          "indice": "vouloir",
+          "explication": "to want = vouloir"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'droits de l'homme' ?",
-          "options": [
-            "He asked if/whether I had seen it.",
-            "human rights",
-            "The first sentence of a paragraph that states its main idea.",
-            "enrollment rate / schooling rate"
+          "type": "texte_a_completer",
+          "phrase": "The teacher will ___ us the results tomorrow.",
+          "reponse": "give",
+          "toleranceMots": 0,
+          "indice": "donner",
+          "explication": "to give = donner"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___ your time and read the question twice.",
+          "reponse": "Take",
+          "toleranceMots": 0,
+          "indice": "prendre",
+          "explication": "to take = prendre"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u003-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u003-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « voir »",
+          "reponsesAcceptees": [
+            "to see",
+            "see"
           ],
-          "reponse": 1,
-          "explication": "human rights"
+          "explication": "to see = voir"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « vouloir »",
+          "reponsesAcceptees": [
+            "to want",
+            "want"
+          ],
+          "explication": "to want = vouloir"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « donner »",
+          "reponsesAcceptees": [
+            "to give",
+            "give"
+          ],
+          "explication": "to give = donner"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « prendre »",
+          "reponsesAcceptees": [
+            "to take",
+            "take"
+          ],
+          "explication": "to take = prendre"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u003-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u003-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Can you see the blackboard from here?",
+          "mot": "to see",
+          "traduction": "voir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She wants to become a doctor.",
+          "mot": "to want",
+          "traduction": "vouloir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The teacher will give us the results tomorrow.",
+          "mot": "to give",
+          "traduction": "donner",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Take your time and read the question twice.",
+          "mot": "to take",
+          "traduction": "prendre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Translate: 'développement durable'",
-      "verso": "sustainable development"
+      "mot": "to see",
+      "traduction": "voir",
+      "phrase": "Can you see the blackboard from here?"
     },
     {
-      "recto": "Translate: 'chômage'",
-      "verso": "unemployment"
+      "mot": "to want",
+      "traduction": "vouloir",
+      "phrase": "She wants to become a doctor."
     },
     {
-      "recto": "Translate: 'droits de l'homme'",
-      "verso": "human rights"
+      "mot": "to give",
+      "traduction": "donner",
+      "phrase": "The teacher will give us the results tomorrow."
+    },
+    {
+      "mot": "to take",
+      "traduction": "prendre",
+      "phrase": "Take your time and read the question twice."
     }
   ]
 }

@@ -1,110 +1,206 @@
 {
   "id": "anglais-u011",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "English Tenses: Present & Past (3/3)",
+  "type": "langue",
+  "titre": "Core Adjectives and Adverbs (1/4)",
   "ordre": 11,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "English Tenses: Present & Past",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Adjectives and Adverbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u011-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u011-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "When do we use the Past Continuous?",
-          "reponseAttendue": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
-          "modeReponse": "auto_evaluation",
-          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          "type": "mot_en_contexte",
+          "mot": "good",
+          "traduction": "bon",
+          "phrase": "She got a good mark in mathematics.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Give the past participle of: go, see, write, take",
-          "reponseAttendue": "gone, seen, written, taken",
-          "modeReponse": "auto_evaluation",
-          "explication": "gone, seen, written, taken"
+          "type": "mot_en_contexte",
+          "mot": "bad",
+          "traduction": "mauvais",
+          "phrase": "Bad weather delayed the harvest.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Give the past participle of: be, have, do, make",
-          "reponseAttendue": "been, had, done, made",
-          "modeReponse": "auto_evaluation",
-          "explication": "been, had, done, made"
+          "type": "mot_en_contexte",
+          "mot": "important",
+          "traduction": "important",
+          "phrase": "It is important to revise regularly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "difficult",
+          "traduction": "difficile",
+          "phrase": "This problem is difficult but not impossible.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u011-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u011-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u011-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "When do we use the Past Continuous?",
-          "options": [
-            "renewable energy",
-            "gone, seen, written, taken",
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'",
-            "However, nevertheless, on the other hand, whereas."
-          ],
-          "reponse": 2,
-          "explication": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+          "type": "texte_a_completer",
+          "phrase": "She got a ___ mark in mathematics.",
+          "reponse": "good",
+          "toleranceMots": 0,
+          "indice": "bon",
+          "explication": "good = bon"
         },
         {
-          "type": "choix_unique",
-          "question": "Give the past participle of: go, see, write, take ?",
-          "options": [
-            "prevention",
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "baccalaureate / high school diploma",
-            "gone, seen, written, taken"
-          ],
-          "reponse": 3,
-          "explication": "gone, seen, written, taken"
+          "type": "texte_a_completer",
+          "phrase": "___ weather delayed the harvest.",
+          "reponse": "Bad",
+          "toleranceMots": 0,
+          "indice": "mauvais",
+          "explication": "bad = mauvais"
         },
         {
-          "type": "choix_unique",
-          "question": "Give the past participle of: be, have, do, make ?",
-          "options": [
-            "been, had, done, made",
-            "'The letter was written (by her).'",
-            "In my opinion, I believe that, From my point of view, It seems to me that.",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          "type": "texte_a_completer",
+          "phrase": "It is ___ to revise regularly.",
+          "reponse": "important",
+          "toleranceMots": 0,
+          "indice": "important",
+          "explication": "important = important"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "This problem is ___ but not impossible.",
+          "reponse": "difficult",
+          "toleranceMots": 0,
+          "indice": "difficile",
+          "explication": "difficult = difficile"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u011-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u011-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « bon »",
+          "reponsesAcceptees": [
+            "good"
           ],
-          "reponse": 0,
-          "explication": "been, had, done, made"
+          "explication": "good = bon"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « mauvais »",
+          "reponsesAcceptees": [
+            "bad"
+          ],
+          "explication": "bad = mauvais"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « important »",
+          "reponsesAcceptees": [
+            "important"
+          ],
+          "explication": "important = important"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « difficile »",
+          "reponsesAcceptees": [
+            "difficult"
+          ],
+          "explication": "difficult = difficile"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u011-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u011-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She got a good mark in mathematics.",
+          "mot": "good",
+          "traduction": "bon",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Bad weather delayed the harvest.",
+          "mot": "bad",
+          "traduction": "mauvais",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "It is important to revise regularly.",
+          "mot": "important",
+          "traduction": "important",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This problem is difficult but not impossible.",
+          "mot": "difficult",
+          "traduction": "difficile",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "When do we use the Past Continuous?",
-      "verso": "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
+      "mot": "good",
+      "traduction": "bon",
+      "phrase": "She got a good mark in mathematics."
     },
     {
-      "recto": "Give the past participle of: go, see, write, take",
-      "verso": "gone, seen, written, taken"
+      "mot": "bad",
+      "traduction": "mauvais",
+      "phrase": "Bad weather delayed the harvest."
     },
     {
-      "recto": "Give the past participle of: be, have, do, make",
-      "verso": "been, had, done, made"
+      "mot": "important",
+      "traduction": "important",
+      "phrase": "It is important to revise regularly."
+    },
+    {
+      "mot": "difficult",
+      "traduction": "difficile",
+      "phrase": "This problem is difficult but not impossible."
     }
   ]
 }

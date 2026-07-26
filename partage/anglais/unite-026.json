@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u026",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Education and Exams (4/4)",
+  "ordre": 26,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Education and Exams",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,159 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u026-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u026-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "to answer",
+          "traduction": "répondre",
+          "phrase": "Answer all the questions in order.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "to memorize",
+          "traduction": "mémoriser",
+          "phrase": "Try to memorize the key dates.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "literacy",
+          "traduction": "alphabétisation",
+          "phrase": "Literacy rates are rising in the region.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "degree",
+          "traduction": "diplôme universitaire",
+          "phrase": "She wants a degree in engineering.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u026-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u026-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "___ all the questions in order.",
+          "reponse": "Answer",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "répondre",
+          "explication": "to answer = répondre"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "Try to ___ the key dates.",
+          "reponse": "memorize",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "mémoriser",
+          "explication": "to memorize = mémoriser"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "___ rates are rising in the region.",
+          "reponse": "Literacy",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "alphabétisation",
+          "explication": "literacy = alphabétisation"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "She wants a ___ in engineering.",
+          "reponse": "degree",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "diplôme universitaire",
+          "explication": "degree = diplôme universitaire"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u026-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u026-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « répondre »",
           "reponsesAcceptees": [
-            "time"
+            "to answer",
+            "answer"
           ],
-          "explication": "time = temps"
+          "explication": "to answer = répondre"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « mémoriser »",
           "reponsesAcceptees": [
-            "year"
+            "to memorize",
+            "memorize"
           ],
-          "explication": "year = année"
+          "explication": "to memorize = mémoriser"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « alphabétisation »",
           "reponsesAcceptees": [
-            "day"
+            "literacy"
           ],
-          "explication": "day = jour"
+          "explication": "literacy = alphabétisation"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « diplôme universitaire »",
           "reponsesAcceptees": [
-            "people"
+            "degree"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "degree = diplôme universitaire"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u026-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u026-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Answer all the questions in order.",
+          "mot": "to answer",
+          "traduction": "répondre",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Try to memorize the key dates.",
+          "mot": "to memorize",
+          "traduction": "mémoriser",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "Literacy rates are rising in the region.",
+          "mot": "literacy",
+          "traduction": "alphabétisation",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "She wants a degree in engineering.",
+          "mot": "degree",
+          "traduction": "diplôme universitaire",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +185,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "to answer",
+      "traduction": "répondre",
+      "phrase": "Answer all the questions in order."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "to memorize",
+      "traduction": "mémoriser",
+      "phrase": "Try to memorize the key dates."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "literacy",
+      "traduction": "alphabétisation",
+      "phrase": "Literacy rates are rising in the region."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "degree",
+      "traduction": "diplôme universitaire",
+      "phrase": "She wants a degree in engineering."
     }
   ]
 }

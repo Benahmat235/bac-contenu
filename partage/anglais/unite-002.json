@@ -1,110 +1,210 @@
 {
   "id": "anglais-u002",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Vocabulary: Education & Society (2/3)",
+  "type": "langue",
+  "titre": "Core Verbs — Everyday Actions (2/4)",
   "ordre": 2,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Education & Society",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Verbs — Everyday Actions",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u002-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u002-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'analphabétisme'",
-          "reponseAttendue": "illiteracy",
-          "modeReponse": "auto_evaluation",
-          "explication": "illiteracy"
+          "type": "mot_en_contexte",
+          "mot": "to make",
+          "traduction": "fabriquer, faire",
+          "phrase": "He wants to make a good impression.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'taux de scolarisation'",
-          "reponseAttendue": "enrollment rate / schooling rate",
-          "modeReponse": "auto_evaluation",
-          "explication": "enrollment rate / schooling rate"
+          "type": "mot_en_contexte",
+          "mot": "to say",
+          "traduction": "dire",
+          "phrase": "Please say it again more slowly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'pauvreté'",
-          "reponseAttendue": "poverty",
-          "modeReponse": "auto_evaluation",
-          "explication": "poverty"
+          "type": "mot_en_contexte",
+          "mot": "to know",
+          "traduction": "savoir, connaître",
+          "phrase": "I know the answer to this question.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "to think",
+          "traduction": "penser",
+          "phrase": "I think this exercise is difficult.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u002-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u002-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u002-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Translate: 'analphabétisme' ?",
-          "options": [
-            "Furthermore, moreover, in addition, besides.",
-            "For general truths. Ex: 'If you heat water, it boils.'",
-            "illiteracy",
-            "life expectancy"
-          ],
-          "reponse": 2,
-          "explication": "illiteracy"
+          "type": "texte_a_completer",
+          "phrase": "He wants to ___ a good impression.",
+          "reponse": "make",
+          "toleranceMots": 0,
+          "indice": "fabriquer, faire",
+          "explication": "to make = fabriquer, faire"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'taux de scolarisation' ?",
-          "options": [
-            "human rights",
-            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "In conclusion, to sum up, all in all, finally.",
-            "enrollment rate / schooling rate"
-          ],
-          "reponse": 3,
-          "explication": "enrollment rate / schooling rate"
+          "type": "texte_a_completer",
+          "phrase": "Please ___ it again more slowly.",
+          "reponse": "say",
+          "toleranceMots": 0,
+          "indice": "dire",
+          "explication": "to say = dire"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'pauvreté' ?",
-          "options": [
-            "On the one hand… on the other hand…",
-            "unemployment",
-            "poverty",
-            "Tenses shift back: present→past, past→past perfect, will→would, can→could."
+          "type": "texte_a_completer",
+          "phrase": "I ___ the answer to this question.",
+          "reponse": "know",
+          "toleranceMots": 0,
+          "indice": "savoir, connaître",
+          "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "I ___ this exercise is difficult.",
+          "reponse": "think",
+          "toleranceMots": 0,
+          "indice": "penser",
+          "explication": "to think = penser"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u002-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u002-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « fabriquer, faire »",
+          "reponsesAcceptees": [
+            "to make",
+            "make"
           ],
-          "reponse": 2,
-          "explication": "poverty"
+          "explication": "to make = fabriquer, faire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « dire »",
+          "reponsesAcceptees": [
+            "to say",
+            "say"
+          ],
+          "explication": "to say = dire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « savoir, connaître »",
+          "reponsesAcceptees": [
+            "to know",
+            "know"
+          ],
+          "explication": "to know = savoir, connaître"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « penser »",
+          "reponsesAcceptees": [
+            "to think",
+            "think"
+          ],
+          "explication": "to think = penser"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u002-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u002-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He wants to make a good impression.",
+          "mot": "to make",
+          "traduction": "fabriquer, faire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Please say it again more slowly.",
+          "mot": "to say",
+          "traduction": "dire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I know the answer to this question.",
+          "mot": "to know",
+          "traduction": "savoir, connaître",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I think this exercise is difficult.",
+          "mot": "to think",
+          "traduction": "penser",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Translate: 'analphabétisme'",
-      "verso": "illiteracy"
+      "mot": "to make",
+      "traduction": "fabriquer, faire",
+      "phrase": "He wants to make a good impression."
     },
     {
-      "recto": "Translate: 'taux de scolarisation'",
-      "verso": "enrollment rate / schooling rate"
+      "mot": "to say",
+      "traduction": "dire",
+      "phrase": "Please say it again more slowly."
     },
     {
-      "recto": "Translate: 'pauvreté'",
-      "verso": "poverty"
+      "mot": "to know",
+      "traduction": "savoir, connaître",
+      "phrase": "I know the answer to this question."
+    },
+    {
+      "mot": "to think",
+      "traduction": "penser",
+      "phrase": "I think this exercise is difficult."
     }
   ]
 }

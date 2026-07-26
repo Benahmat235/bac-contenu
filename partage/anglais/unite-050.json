@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u009",
+  "id": "anglais-u050",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (3/4)",
-  "ordre": 9,
+  "titre": "Essential Phrasal Verbs (2/4)",
+  "ordre": 50,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Essential Phrasal Verbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,137 @@
   },
   "etapes": [
     {
-      "id": "anglais-u009-decouverte",
+      "id": "anglais-u050-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u050-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "family",
-          "traduction": "famille",
-          "phrase": "My family supports my studies.",
+          "mot": "to carry out",
+          "traduction": "réaliser, mener",
+          "phrase": "The students carried out an experiment.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "work",
-          "traduction": "travail",
-          "phrase": "Finding work after school is not easy.",
+          "mot": "to grow up",
+          "traduction": "grandir",
+          "phrase": "I grew up in Abéché.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "water",
-          "traduction": "eau",
-          "phrase": "Clean water is essential for health.",
+          "mot": "to take part in",
+          "traduction": "participer à",
+          "phrase": "He took part in the debate.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "money",
-          "traduction": "argent",
-          "phrase": "He saves money to buy books.",
+          "mot": "to get up",
+          "traduction": "se lever",
+          "phrase": "I get up at five o'clock.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u009-saisie",
+      "id": "anglais-u050-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u050-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "My ___ supports my studies.",
-          "reponse": "family",
+          "phrase": "I ___ at five o'clock.",
+          "reponse": "get up",
           "toleranceMots": 0,
-          "indice": "famille",
-          "explication": "family = famille"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Finding ___ after school is not easy.",
-          "reponse": "work",
-          "toleranceMots": 0,
-          "indice": "travail",
-          "explication": "work = travail"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Clean ___ is essential for health.",
-          "reponse": "water",
-          "toleranceMots": 0,
-          "indice": "eau",
-          "explication": "water = eau"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "He saves ___ to buy books.",
-          "reponse": "money",
-          "toleranceMots": 0,
-          "indice": "argent",
-          "explication": "money = argent"
+          "indice": "se lever",
+          "explication": "to get up = se lever"
         }
       ]
     },
     {
-      "id": "anglais-u009-production",
+      "id": "anglais-u050-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u050-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « famille »",
+          "question": "Écris en anglais : « réaliser, mener »",
           "reponsesAcceptees": [
-            "family"
+            "to carry out",
+            "carry out"
           ],
-          "explication": "family = famille"
+          "explication": "to carry out = réaliser, mener"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « travail »",
+          "question": "Écris en anglais : « grandir »",
           "reponsesAcceptees": [
-            "work"
+            "to grow up",
+            "grow up"
           ],
-          "explication": "work = travail"
+          "explication": "to grow up = grandir"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « eau »",
+          "question": "Écris en anglais : « participer à »",
           "reponsesAcceptees": [
-            "water"
+            "to take part in",
+            "take part in"
           ],
-          "explication": "water = eau"
+          "explication": "to take part in = participer à"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « argent »",
+          "question": "Écris en anglais : « se lever »",
           "reponsesAcceptees": [
-            "money"
+            "to get up",
+            "get up"
           ],
-          "explication": "money = argent"
+          "explication": "to get up = se lever"
         }
       ]
     },
     {
-      "id": "anglais-u009-oral",
+      "id": "anglais-u050-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u009-c",
+      "competenceId": "anglais-u050-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "My family supports my studies.",
-          "mot": "family",
-          "traduction": "famille",
+          "phrase": "The students carried out an experiment.",
+          "mot": "to carry out",
+          "traduction": "réaliser, mener",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Finding work after school is not easy.",
-          "mot": "work",
-          "traduction": "travail",
+          "phrase": "I grew up in Abéché.",
+          "mot": "to grow up",
+          "traduction": "grandir",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Clean water is essential for health.",
-          "mot": "water",
-          "traduction": "eau",
+          "phrase": "He took part in the debate.",
+          "mot": "to take part in",
+          "traduction": "participer à",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "He saves money to buy books.",
-          "mot": "money",
-          "traduction": "argent",
+          "phrase": "I get up at five o'clock.",
+          "mot": "to get up",
+          "traduction": "se lever",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +163,24 @@
   ],
   "motsCles": [
     {
-      "mot": "family",
-      "traduction": "famille",
-      "phrase": "My family supports my studies."
+      "mot": "to carry out",
+      "traduction": "réaliser, mener",
+      "phrase": "The students carried out an experiment."
     },
     {
-      "mot": "work",
-      "traduction": "travail",
-      "phrase": "Finding work after school is not easy."
+      "mot": "to grow up",
+      "traduction": "grandir",
+      "phrase": "I grew up in Abéché."
     },
     {
-      "mot": "water",
-      "traduction": "eau",
-      "phrase": "Clean water is essential for health."
+      "mot": "to take part in",
+      "traduction": "participer à",
+      "phrase": "He took part in the debate."
     },
     {
-      "mot": "money",
-      "traduction": "argent",
-      "phrase": "He saves money to buy books."
+      "mot": "to get up",
+      "traduction": "se lever",
+      "phrase": "I get up at five o'clock."
     }
   ]
 }

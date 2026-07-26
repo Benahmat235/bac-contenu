@@ -1,110 +1,206 @@
 {
   "id": "anglais-u007",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Vocabulary: Environment & Health (3/3)",
+  "type": "langue",
+  "titre": "Core Nouns — People and Places (2/4)",
   "ordre": 7,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Vocabulary: Environment & Health",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Core Nouns — People and Places",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u007-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u007-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'système de santé'",
-          "reponseAttendue": "healthcare system",
-          "modeReponse": "auto_evaluation",
-          "explication": "healthcare system"
+          "type": "mot_en_contexte",
+          "mot": "country",
+          "traduction": "pays",
+          "phrase": "Chad is a large country in Central Africa.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'prévention'",
-          "reponseAttendue": "prevention",
-          "modeReponse": "auto_evaluation",
-          "explication": "prevention"
+          "type": "mot_en_contexte",
+          "mot": "school",
+          "traduction": "école",
+          "phrase": "Our school is near the market.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Translate: 'assainissement'",
-          "reponseAttendue": "sanitation",
-          "modeReponse": "auto_evaluation",
-          "explication": "sanitation"
+          "type": "mot_en_contexte",
+          "mot": "student",
+          "traduction": "élève, étudiant",
+          "phrase": "Every student must bring a pen.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "teacher",
+          "traduction": "enseignant",
+          "phrase": "The teacher explained the lesson clearly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u007-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u007-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Translate: 'système de santé' ?",
-          "options": [
-            "healthcare system",
-            "In conclusion, I believe that education is the key to development.",
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "sustainable development"
-          ],
-          "reponse": 0,
-          "explication": "healthcare system"
+          "type": "texte_a_completer",
+          "phrase": "Chad is a large ___ in Central Africa.",
+          "reponse": "country",
+          "toleranceMots": 0,
+          "indice": "pays",
+          "explication": "country = pays"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'prévention' ?",
-          "options": [
-            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-            "'The letter was written (by her).'",
-            "life expectancy",
-            "prevention"
-          ],
-          "reponse": 3,
-          "explication": "prevention"
+          "type": "texte_a_completer",
+          "phrase": "Our ___ is near the market.",
+          "reponse": "school",
+          "toleranceMots": 0,
+          "indice": "école",
+          "explication": "school = école"
         },
         {
-          "type": "choix_unique",
-          "question": "Translate: 'assainissement' ?",
-          "options": [
-            "For planned intentions and predictions based on evidence. Ex: 'I'm going to study medicine.'",
-            "sanitation",
-            "illiteracy",
-            "sustainable development"
+          "type": "texte_a_completer",
+          "phrase": "Every ___ must bring a pen.",
+          "reponse": "student",
+          "toleranceMots": 0,
+          "indice": "élève, étudiant",
+          "explication": "student = élève, étudiant"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "The ___ explained the lesson clearly.",
+          "reponse": "teacher",
+          "toleranceMots": 0,
+          "indice": "enseignant",
+          "explication": "teacher = enseignant"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u007-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u007-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « pays »",
+          "reponsesAcceptees": [
+            "country"
           ],
-          "reponse": 1,
-          "explication": "sanitation"
+          "explication": "country = pays"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « école »",
+          "reponsesAcceptees": [
+            "school"
+          ],
+          "explication": "school = école"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « élève, étudiant »",
+          "reponsesAcceptees": [
+            "student"
+          ],
+          "explication": "student = élève, étudiant"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « enseignant »",
+          "reponsesAcceptees": [
+            "teacher"
+          ],
+          "explication": "teacher = enseignant"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u007-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u007-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Chad is a large country in Central Africa.",
+          "mot": "country",
+          "traduction": "pays",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Our school is near the market.",
+          "mot": "school",
+          "traduction": "école",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Every student must bring a pen.",
+          "mot": "student",
+          "traduction": "élève, étudiant",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The teacher explained the lesson clearly.",
+          "mot": "teacher",
+          "traduction": "enseignant",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Translate: 'système de santé'",
-      "verso": "healthcare system"
+      "mot": "country",
+      "traduction": "pays",
+      "phrase": "Chad is a large country in Central Africa."
     },
     {
-      "recto": "Translate: 'prévention'",
-      "verso": "prevention"
+      "mot": "school",
+      "traduction": "école",
+      "phrase": "Our school is near the market."
     },
     {
-      "recto": "Translate: 'assainissement'",
-      "verso": "sanitation"
+      "mot": "student",
+      "traduction": "élève, étudiant",
+      "phrase": "Every student must bring a pen."
+    },
+    {
+      "mot": "teacher",
+      "traduction": "enseignant",
+      "phrase": "The teacher explained the lesson clearly."
     }
   ]
 }

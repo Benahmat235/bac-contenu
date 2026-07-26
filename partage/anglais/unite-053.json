@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u053",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Essential Phrasal Verbs (4/4)",
+  "ordre": 53,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Essential Phrasal Verbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,145 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u053-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u053-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "to hand in",
+          "traduction": "rendre, remettre",
+          "phrase": "Hand in your paper before noon.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "to bring up",
+          "traduction": "élever (un enfait)",
+          "phrase": "My grandmother brought me up.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "to run out of",
+          "traduction": "manquer de",
+          "phrase": "We ran out of paper yesterday.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "to put off",
+          "traduction": "reporter",
+          "phrase": "Do not put off your revision.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u053-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u053-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "___ your paper before noon.",
+          "reponse": "Hand in",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "rendre, remettre",
+          "explication": "to hand in = rendre, remettre"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "Do not ___ your revision.",
+          "reponse": "put off",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
-          "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
-        },
-        {
-          "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
-          "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "reporter",
+          "explication": "to put off = reporter"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u053-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u053-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « rendre, remettre »",
           "reponsesAcceptees": [
-            "time"
+            "to hand in",
+            "hand in"
           ],
-          "explication": "time = temps"
+          "explication": "to hand in = rendre, remettre"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « élever (un enfait) »",
           "reponsesAcceptees": [
-            "year"
+            "to bring up",
+            "bring up"
           ],
-          "explication": "year = année"
+          "explication": "to bring up = élever (un enfait)"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « manquer de »",
           "reponsesAcceptees": [
-            "day"
+            "to run out of",
+            "run out of"
           ],
-          "explication": "day = jour"
+          "explication": "to run out of = manquer de"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « reporter »",
           "reponsesAcceptees": [
-            "people"
+            "to put off",
+            "put off"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "to put off = reporter"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u053-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u053-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Hand in your paper before noon.",
+          "mot": "to hand in",
+          "traduction": "rendre, remettre",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "My grandmother brought me up.",
+          "mot": "to bring up",
+          "traduction": "élever (un enfait)",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "We ran out of paper yesterday.",
+          "mot": "to run out of",
+          "traduction": "manquer de",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "Do not put off your revision.",
+          "mot": "to put off",
+          "traduction": "reporter",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +171,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "to hand in",
+      "traduction": "rendre, remettre",
+      "phrase": "Hand in your paper before noon."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "to bring up",
+      "traduction": "élever (un enfait)",
+      "phrase": "My grandmother brought me up."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "to run out of",
+      "traduction": "manquer de",
+      "phrase": "We ran out of paper yesterday."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "to put off",
+      "traduction": "reporter",
+      "phrase": "Do not put off your revision."
     }
   ]
 }

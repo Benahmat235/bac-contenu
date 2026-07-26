@@ -1,110 +1,206 @@
 {
   "id": "anglais-u018",
   "matiere": "anglais",
-  "type": "litteraire",
-  "titre": "Passive Voice & Reported Speech (3/3)",
+  "type": "langue",
+  "titre": "Connectors — Linking Your Ideas (2/4)",
   "ordre": 18,
   "source": {
-    "document": "Programme Terminale Tchad",
-    "chapitre": "Passive Voice & Reported Speech",
+    "document": "Programme Anglais Terminale Tchad",
+    "chapitre": "Connectors — Linking Your Ideas",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u018-memo",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u018-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u018-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "Direct: 'Don't go!' → Reported:",
-          "reponseAttendue": "She told me not to go.",
-          "modeReponse": "auto_evaluation",
-          "explication": "She told me not to go."
+          "type": "mot_en_contexte",
+          "mot": "moreover",
+          "traduction": "de plus",
+          "phrase": "Moreover, education reduces poverty.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "What is 'say' vs 'tell' in reported speech?",
-          "reponseAttendue": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
-          "modeReponse": "auto_evaluation",
-          "explication": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+          "type": "mot_en_contexte",
+          "mot": "for example",
+          "traduction": "par exemple",
+          "phrase": "Some crops, for example cotton, are exported.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "Change to passive: 'People speak French in Chad.'",
-          "reponseAttendue": "'French is spoken in Chad.'",
-          "modeReponse": "auto_evaluation",
-          "explication": "'French is spoken in Chad.'"
+          "type": "mot_en_contexte",
+          "mot": "in addition",
+          "traduction": "en outre",
+          "phrase": "In addition, the library opened last year.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
+        },
+        {
+          "type": "mot_en_contexte",
+          "mot": "on the other hand",
+          "traduction": "d'autre part",
+          "phrase": "On the other hand, some families cannot pay fees.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u018-quiz",
-      "titre": "Vérifier",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u018-saisie",
+      "titre": "Type it",
+      "categorie": "saisie",
+      "seuilReussite": 100,
       "competenceId": "anglais-u018-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "Direct: 'Don't go!' → Reported: ?",
-          "options": [
-            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-            "She told me not to go.",
-            "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "For actions in progress at a specific past time, or background actions. Ex: 'I was reading when he called.'"
-          ],
-          "reponse": 1,
-          "explication": "She told me not to go."
+          "type": "texte_a_completer",
+          "phrase": "___, education reduces poverty.",
+          "reponse": "Moreover",
+          "toleranceMots": 0,
+          "indice": "de plus",
+          "explication": "moreover = de plus"
         },
         {
-          "type": "choix_unique",
-          "question": "What is 'say' vs 'tell' in reported speech?",
-          "options": [
-            "to fail an exam",
-            "'Say' = without object (He said that…). 'Tell' = with object (He told me that…).",
-            "She told me not to go.",
-            "human rights"
-          ],
-          "reponse": 1,
-          "explication": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+          "type": "texte_a_completer",
+          "phrase": "Some crops, ___ cotton, are exported.",
+          "reponse": "for example",
+          "toleranceMots": 0,
+          "indice": "par exemple",
+          "explication": "for example = par exemple"
         },
         {
-          "type": "choix_unique",
-          "question": "Change to passive: 'People speak French in Chad.' ?",
-          "options": [
-            "prevention",
-            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-            "He asked if/whether I had seen it.",
-            "'French is spoken in Chad.'"
+          "type": "texte_a_completer",
+          "phrase": "___, the library opened last year.",
+          "reponse": "In addition",
+          "toleranceMots": 0,
+          "indice": "en outre",
+          "explication": "in addition = en outre"
+        },
+        {
+          "type": "texte_a_completer",
+          "phrase": "___, some families cannot pay fees.",
+          "reponse": "On the other hand",
+          "toleranceMots": 0,
+          "indice": "d'autre part",
+          "explication": "on the other hand = d'autre part"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u018-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
+      "competenceId": "anglais-u018-c",
+      "activites": [
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « de plus »",
+          "reponsesAcceptees": [
+            "moreover"
           ],
-          "reponse": 3,
-          "explication": "'French is spoken in Chad.'"
+          "explication": "moreover = de plus"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « par exemple »",
+          "reponsesAcceptees": [
+            "for example"
+          ],
+          "explication": "for example = par exemple"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en outre »",
+          "reponsesAcceptees": [
+            "in addition"
+          ],
+          "explication": "in addition = en outre"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « d'autre part »",
+          "reponsesAcceptees": [
+            "on the other hand"
+          ],
+          "explication": "on the other hand = d'autre part"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u018-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u018-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Moreover, education reduces poverty.",
+          "mot": "moreover",
+          "traduction": "de plus",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Some crops, for example cotton, are exported.",
+          "mot": "for example",
+          "traduction": "par exemple",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "In addition, the library opened last year.",
+          "mot": "in addition",
+          "traduction": "en outre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "On the other hand, some families cannot pay fees.",
+          "mot": "on the other hand",
+          "traduction": "d'autre part",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "Direct: 'Don't go!' → Reported:",
-      "verso": "She told me not to go."
+      "mot": "moreover",
+      "traduction": "de plus",
+      "phrase": "Moreover, education reduces poverty."
     },
     {
-      "recto": "What is 'say' vs 'tell' in reported speech?",
-      "verso": "'Say' = without object (He said that…). 'Tell' = with object (He told me that…)."
+      "mot": "for example",
+      "traduction": "par exemple",
+      "phrase": "Some crops, for example cotton, are exported."
     },
     {
-      "recto": "Change to passive: 'People speak French in Chad.'",
-      "verso": "'French is spoken in Chad.'"
+      "mot": "in addition",
+      "traduction": "en outre",
+      "phrase": "In addition, the library opened last year."
+    },
+    {
+      "mot": "on the other hand",
+      "traduction": "d'autre part",
+      "phrase": "On the other hand, some families cannot pay fees."
     }
   ]
 }

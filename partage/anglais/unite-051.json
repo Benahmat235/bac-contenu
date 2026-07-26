@@ -1,12 +1,12 @@
 {
-  "id": "anglais-u006",
+  "id": "anglais-u051",
   "matiere": "anglais",
   "type": "langue",
-  "titre": "Core Nouns — People and Places (1/4)",
-  "ordre": 6,
+  "titre": "Essential Phrasal Verbs (3/4)",
+  "ordre": 51,
   "source": {
     "document": "Programme Anglais Terminale Tchad",
-    "chapitre": "Core Nouns — People and Places",
+    "chapitre": "Essential Phrasal Verbs",
     "statutValidation": "valide",
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
@@ -25,157 +25,161 @@
   },
   "etapes": [
     {
-      "id": "anglais-u006-decouverte",
+      "id": "anglais-u051-decouverte",
       "titre": "Discover",
       "categorie": "decouverte",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u051-c",
       "activites": [
         {
           "type": "mot_en_contexte",
-          "mot": "time",
-          "traduction": "temps",
-          "phrase": "We do not have much time before the exam.",
+          "mot": "to go on",
+          "traduction": "continuer",
+          "phrase": "Go on reading until the end.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "year",
-          "traduction": "année",
-          "phrase": "This year I will take the baccalaureate.",
+          "mot": "to turn on",
+          "traduction": "allumer",
+          "phrase": "Turn on the light, please.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "day",
-          "traduction": "jour",
-          "phrase": "Every day I revise for two hours.",
+          "mot": "to turn off",
+          "traduction": "éteindre",
+          "phrase": "Turn off your phone during the exam.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
           "type": "mot_en_contexte",
-          "mot": "people",
-          "traduction": "gens, personnes",
-          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "to fill in",
+          "traduction": "remplir",
+          "phrase": "Fill in the form with your name.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-saisie",
+      "id": "anglais-u051-saisie",
       "titre": "Type it",
       "categorie": "saisie",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u051-c",
       "activites": [
         {
           "type": "texte_a_completer",
-          "phrase": "We do not have much ___ before the exam.",
-          "reponse": "time",
+          "phrase": "___ reading until the end.",
+          "reponse": "Go on",
           "toleranceMots": 0,
-          "indice": "temps",
-          "explication": "time = temps"
+          "indice": "continuer",
+          "explication": "to go on = continuer"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "This ___ I will take the baccalaureate.",
-          "reponse": "year",
+          "phrase": "___ the light, please.",
+          "reponse": "Turn on",
           "toleranceMots": 0,
-          "indice": "année",
-          "explication": "year = année"
+          "indice": "allumer",
+          "explication": "to turn on = allumer"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Every ___ I revise for two hours.",
-          "reponse": "day",
+          "phrase": "___ your phone during the exam.",
+          "reponse": "Turn off",
           "toleranceMots": 0,
-          "indice": "jour",
-          "explication": "day = jour"
+          "indice": "éteindre",
+          "explication": "to turn off = éteindre"
         },
         {
           "type": "texte_a_completer",
-          "phrase": "Many ___ speak both French and Arabic in Chad.",
-          "reponse": "people",
+          "phrase": "___ the form with your name.",
+          "reponse": "Fill in",
           "toleranceMots": 0,
-          "indice": "gens, personnes",
-          "explication": "people = gens, personnes"
+          "indice": "remplir",
+          "explication": "to fill in = remplir"
         }
       ]
     },
     {
-      "id": "anglais-u006-production",
+      "id": "anglais-u051-production",
       "titre": "Write it",
       "categorie": "production",
       "seuilReussite": 100,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u051-c",
       "activites": [
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « temps »",
+          "question": "Écris en anglais : « continuer »",
           "reponsesAcceptees": [
-            "time"
+            "to go on",
+            "go on"
           ],
-          "explication": "time = temps"
+          "explication": "to go on = continuer"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « année »",
+          "question": "Écris en anglais : « allumer »",
           "reponsesAcceptees": [
-            "year"
+            "to turn on",
+            "turn on"
           ],
-          "explication": "year = année"
+          "explication": "to turn on = allumer"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « jour »",
+          "question": "Écris en anglais : « éteindre »",
           "reponsesAcceptees": [
-            "day"
+            "to turn off",
+            "turn off"
           ],
-          "explication": "day = jour"
+          "explication": "to turn off = éteindre"
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « gens, personnes »",
+          "question": "Écris en anglais : « remplir »",
           "reponsesAcceptees": [
-            "people"
+            "to fill in",
+            "fill in"
           ],
-          "explication": "people = gens, personnes"
+          "explication": "to fill in = remplir"
         }
       ]
     },
     {
-      "id": "anglais-u006-oral",
+      "id": "anglais-u051-oral",
       "titre": "Say it out loud",
       "categorie": "oral",
       "seuilReussite": 0,
-      "competenceId": "anglais-u006-c",
+      "competenceId": "anglais-u051-c",
       "activites": [
         {
           "type": "lecture_voix_haute",
-          "phrase": "We do not have much time before the exam.",
-          "mot": "time",
-          "traduction": "temps",
+          "phrase": "Go on reading until the end.",
+          "mot": "to go on",
+          "traduction": "continuer",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "This year I will take the baccalaureate.",
-          "mot": "year",
-          "traduction": "année",
+          "phrase": "Turn on the light, please.",
+          "mot": "to turn on",
+          "traduction": "allumer",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Every day I revise for two hours.",
-          "mot": "day",
-          "traduction": "jour",
+          "phrase": "Turn off your phone during the exam.",
+          "mot": "to turn off",
+          "traduction": "éteindre",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
           "type": "lecture_voix_haute",
-          "phrase": "Many people speak both French and Arabic in Chad.",
-          "mot": "people",
-          "traduction": "gens, personnes",
+          "phrase": "Fill in the form with your name.",
+          "mot": "to fill in",
+          "traduction": "remplir",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
@@ -183,24 +187,24 @@
   ],
   "motsCles": [
     {
-      "mot": "time",
-      "traduction": "temps",
-      "phrase": "We do not have much time before the exam."
+      "mot": "to go on",
+      "traduction": "continuer",
+      "phrase": "Go on reading until the end."
     },
     {
-      "mot": "year",
-      "traduction": "année",
-      "phrase": "This year I will take the baccalaureate."
+      "mot": "to turn on",
+      "traduction": "allumer",
+      "phrase": "Turn on the light, please."
     },
     {
-      "mot": "day",
-      "traduction": "jour",
-      "phrase": "Every day I revise for two hours."
+      "mot": "to turn off",
+      "traduction": "éteindre",
+      "phrase": "Turn off your phone during the exam."
     },
     {
-      "mot": "people",
-      "traduction": "gens, personnes",
-      "phrase": "Many people speak both French and Arabic in Chad."
+      "mot": "to fill in",
+      "traduction": "remplir",
+      "phrase": "Fill in the form with your name."
     }
   ]
 }
