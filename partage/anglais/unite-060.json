@@ -1,7 +1,7 @@
 {
   "id": "anglais-u060",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Passive Voice & Reported Speech (2/3)",
   "ordre": 60,
   "source": {
@@ -14,35 +14,39 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u060-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u060-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u060-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Direct: 'I am happy.' → Reported:",
-          "reponseAttendue": "He said (that) he was happy.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "He said (that) he was happy."
+          ],
           "explication": "He said (that) he was happy."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Direct: 'I will come.' → Reported:",
-          "reponseAttendue": "She said (that) she would come.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "She said (that) she would come."
+          ],
           "explication": "She said (that) she would come."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Direct: 'Did you see it?' → Reported:",
-          "reponseAttendue": "He asked if/whether I had seen it.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "He asked if/whether I had seen it."
+          ],
           "explication": "He asked if/whether I had seen it."
         }
       ]
@@ -93,18 +97,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "Direct: 'I am happy.' → Reported:",
-      "verso": "He said (that) he was happy."
-    },
-    {
-      "recto": "Direct: 'I will come.' → Reported:",
-      "verso": "She said (that) she would come."
-    },
-    {
-      "recto": "Direct: 'Did you see it?' → Reported:",
-      "verso": "He asked if/whether I had seen it."
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "anglais-u037",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Environment and Health (4/4)",
   "ordre": 37,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u037-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u037-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u037-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "food",
-          "reponseAttendue": "nourriture\n« Food prices rose last month. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "nourriture\n« Food prices rose last month. »"
+          "type": "mot_en_contexte",
+          "mot": "food",
+          "traduction": "nourriture",
+          "phrase": "Food prices rose last month.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "energy",
-          "reponseAttendue": "énergie\n« Solar energy is clean and abundant. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "énergie\n« Solar energy is clean and abundant. »"
+          "type": "mot_en_contexte",
+          "mot": "energy",
+          "traduction": "énergie",
+          "phrase": "Solar energy is clean and abundant.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to protect",
-          "reponseAttendue": "protéger\n« We must protect Lake Chad. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "protéger\n« We must protect Lake Chad. »"
+          "type": "mot_en_contexte",
+          "mot": "to protect",
+          "traduction": "protéger",
+          "phrase": "We must protect Lake Chad.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to prevent",
-          "reponseAttendue": "prévenir, empêcher\n« Vaccines prevent many diseases. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "prévenir, empêcher\n« Vaccines prevent many diseases. »"
+          "type": "mot_en_contexte",
+          "mot": "to prevent",
+          "traduction": "prévenir, empêcher",
+          "phrase": "Vaccines prevent many diseases.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u037-type",
+      "id": "anglais-u037-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u037-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ prices rose last month.",
           "reponse": "Food",
           "toleranceMots": 0,
+          "indice": "nourriture",
           "explication": "food = nourriture"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Solar ___ is clean and abundant.",
           "reponse": "energy",
           "toleranceMots": 0,
+          "indice": "énergie",
           "explication": "energy = énergie"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "We must ___ Lake Chad.",
           "reponse": "protect",
           "toleranceMots": 0,
+          "indice": "protéger",
           "explication": "to protect = protéger"
         },
         {
@@ -87,72 +97,112 @@
           "phrase": "Vaccines ___ many diseases.",
           "reponse": "prevent",
           "toleranceMots": 0,
+          "indice": "prévenir, empêcher",
           "explication": "to prevent = prévenir, empêcher"
         }
       ]
     },
     {
-      "id": "anglais-u037-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u037-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u037-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « food » mean?",
-          "options": [
-            "nourriture",
-            "élève, étudiant",
-            "réussir",
-            "fabriquer, faire"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « nourriture »",
+          "reponsesAcceptees": [
+            "food"
           ],
-          "reponse": 0,
           "explication": "food = nourriture"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « energy » mean?",
-          "options": [
-            "par exemple",
-            "dire",
-            "agriculteur",
-            "énergie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « énergie »",
+          "reponsesAcceptees": [
+            "energy"
           ],
-          "reponse": 3,
           "explication": "energy = énergie"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to protect » mean?",
-          "options": [
-            "déchets",
-            "traiter de",
-            "protéger",
-            "village"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « protéger »",
+          "reponsesAcceptees": [
+            "to protect",
+            "protect"
           ],
-          "reponse": 2,
           "explication": "to protect = protéger"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « prévenir, empêcher »",
+          "reponsesAcceptees": [
+            "to prevent",
+            "prevent"
+          ],
+          "explication": "to prevent = prévenir, empêcher"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u037-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u037-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Food prices rose last month.",
+          "mot": "food",
+          "traduction": "nourriture",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Solar energy is clean and abundant.",
+          "mot": "energy",
+          "traduction": "énergie",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We must protect Lake Chad.",
+          "mot": "to protect",
+          "traduction": "protéger",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Vaccines prevent many diseases.",
+          "mot": "to prevent",
+          "traduction": "prévenir, empêcher",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "food",
-      "verso": "nourriture\n« Food prices rose last month. »"
+      "mot": "food",
+      "traduction": "nourriture",
+      "phrase": "Food prices rose last month."
     },
     {
-      "recto": "energy",
-      "verso": "énergie\n« Solar energy is clean and abundant. »"
+      "mot": "energy",
+      "traduction": "énergie",
+      "phrase": "Solar energy is clean and abundant."
     },
     {
-      "recto": "to protect",
-      "verso": "protéger\n« We must protect Lake Chad. »"
+      "mot": "to protect",
+      "traduction": "protéger",
+      "phrase": "We must protect Lake Chad."
     },
     {
-      "recto": "to prevent",
-      "verso": "prévenir, empêcher\n« Vaccines prevent many diseases. »"
+      "mot": "to prevent",
+      "traduction": "prévenir, empêcher",
+      "phrase": "Vaccines prevent many diseases."
     }
   ]
 }

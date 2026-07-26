@@ -1,7 +1,7 @@
 {
   "id": "anglais-u043",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Academic Verbs for the Exam (1/4)",
   "ordre": 43,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u043-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u043-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u043-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to describe",
-          "reponseAttendue": "décrire\n« Describe the picture in five sentences. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "décrire\n« Describe the picture in five sentences. »"
+          "type": "mot_en_contexte",
+          "mot": "to describe",
+          "traduction": "décrire",
+          "phrase": "Describe the picture in five sentences.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to compare",
-          "reponseAttendue": "comparer\n« Compare the two texts carefully. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "comparer\n« Compare the two texts carefully. »"
+          "type": "mot_en_contexte",
+          "mot": "to compare",
+          "traduction": "comparer",
+          "phrase": "Compare the two texts carefully.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to discuss",
-          "reponseAttendue": "discuter, débattre\n« Discuss the advantages of solar energy. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "discuter, débattre\n« Discuss the advantages of solar energy. »"
+          "type": "mot_en_contexte",
+          "mot": "to discuss",
+          "traduction": "discuter, débattre",
+          "phrase": "Discuss the advantages of solar energy.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to justify",
-          "reponseAttendue": "justifier\n« Justify your answer with an example. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "justifier\n« Justify your answer with an example. »"
+          "type": "mot_en_contexte",
+          "mot": "to justify",
+          "traduction": "justifier",
+          "phrase": "Justify your answer with an example.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u043-type",
+      "id": "anglais-u043-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u043-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ the picture in five sentences.",
           "reponse": "Describe",
           "toleranceMots": 0,
+          "indice": "décrire",
           "explication": "to describe = décrire"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___ the two texts carefully.",
           "reponse": "Compare",
           "toleranceMots": 0,
+          "indice": "comparer",
           "explication": "to compare = comparer"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___ the advantages of solar energy.",
           "reponse": "Discuss",
           "toleranceMots": 0,
+          "indice": "discuter, débattre",
           "explication": "to discuss = discuter, débattre"
         },
         {
@@ -87,72 +97,114 @@
           "phrase": "___ your answer with an example.",
           "reponse": "Justify",
           "toleranceMots": 0,
+          "indice": "justifier",
           "explication": "to justify = justifier"
         }
       ]
     },
     {
-      "id": "anglais-u043-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u043-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u043-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to describe » mean?",
-          "options": [
-            "avoir",
-            "décrire",
-            "maladie",
-            "en conséquence"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « décrire »",
+          "reponsesAcceptees": [
+            "to describe",
+            "describe"
           ],
-          "reponse": 1,
           "explication": "to describe = décrire"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to compare » mean?",
-          "options": [
-            "comparer",
-            "preuve",
-            "médicament",
-            "mauvais"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « comparer »",
+          "reponsesAcceptees": [
+            "to compare",
+            "compare"
           ],
-          "reponse": 0,
           "explication": "to compare = comparer"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to discuss » mean?",
-          "options": [
-            "rapidement",
-            "école",
-            "téléphone",
-            "discuter, débattre"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « discuter, débattre »",
+          "reponsesAcceptees": [
+            "to discuss",
+            "discuss"
           ],
-          "reponse": 3,
           "explication": "to discuss = discuter, débattre"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « justifier »",
+          "reponsesAcceptees": [
+            "to justify",
+            "justify"
+          ],
+          "explication": "to justify = justifier"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u043-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u043-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Describe the picture in five sentences.",
+          "mot": "to describe",
+          "traduction": "décrire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Compare the two texts carefully.",
+          "mot": "to compare",
+          "traduction": "comparer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Discuss the advantages of solar energy.",
+          "mot": "to discuss",
+          "traduction": "discuter, débattre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Justify your answer with an example.",
+          "mot": "to justify",
+          "traduction": "justifier",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to describe",
-      "verso": "décrire\n« Describe the picture in five sentences. »"
+      "mot": "to describe",
+      "traduction": "décrire",
+      "phrase": "Describe the picture in five sentences."
     },
     {
-      "recto": "to compare",
-      "verso": "comparer\n« Compare the two texts carefully. »"
+      "mot": "to compare",
+      "traduction": "comparer",
+      "phrase": "Compare the two texts carefully."
     },
     {
-      "recto": "to discuss",
-      "verso": "discuter, débattre\n« Discuss the advantages of solar energy. »"
+      "mot": "to discuss",
+      "traduction": "discuter, débattre",
+      "phrase": "Discuss the advantages of solar energy."
     },
     {
-      "recto": "to justify",
-      "verso": "justifier\n« Justify your answer with an example. »"
+      "mot": "to justify",
+      "traduction": "justifier",
+      "phrase": "Justify your answer with an example."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "anglais-u038",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Technology and Media (1/4)",
   "ordre": 38,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u038-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u038-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u038-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "phone",
-          "reponseAttendue": "téléphone\n« Almost everyone has a mobile phone. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "téléphone\n« Almost everyone has a mobile phone. »"
+          "type": "mot_en_contexte",
+          "mot": "phone",
+          "traduction": "téléphone",
+          "phrase": "Almost everyone has a mobile phone.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "computer",
-          "reponseAttendue": "ordinateur\n« The school received ten computers. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "ordinateur\n« The school received ten computers. »"
+          "type": "mot_en_contexte",
+          "mot": "computer",
+          "traduction": "ordinateur",
+          "phrase": "The school received ten computers.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "internet",
-          "reponseAttendue": "internet\n« The internet helps students find information. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "internet\n« The internet helps students find information. »"
+          "type": "mot_en_contexte",
+          "mot": "internet",
+          "traduction": "internet",
+          "phrase": "The internet helps students find information.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "network",
-          "reponseAttendue": "réseau\n« The network is slow in the countryside. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "réseau\n« The network is slow in the countryside. »"
+          "type": "mot_en_contexte",
+          "mot": "network",
+          "traduction": "réseau",
+          "phrase": "The network is slow in the countryside.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u038-type",
+      "id": "anglais-u038-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u038-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "Almost everyone has a mobile ___.",
           "reponse": "phone",
           "toleranceMots": 0,
+          "indice": "téléphone",
           "explication": "phone = téléphone"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "The school received ten ___s.",
           "reponse": "computer",
           "toleranceMots": 0,
+          "indice": "ordinateur",
           "explication": "computer = ordinateur"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "The ___ helps students find information.",
           "reponse": "internet",
           "toleranceMots": 0,
+          "indice": "internet",
           "explication": "internet = internet"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "The ___ is slow in the countryside.",
           "reponse": "network",
           "toleranceMots": 0,
+          "indice": "réseau",
           "explication": "network = réseau"
         }
       ]
     },
     {
-      "id": "anglais-u038-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u038-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u038-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « phone » mean?",
-          "options": [
-            "suggérer",
-            "rendre, remettre",
-            "téléphone",
-            "nourriture"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « téléphone »",
+          "reponsesAcceptees": [
+            "phone"
           ],
-          "reponse": 2,
           "explication": "phone = téléphone"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « computer » mean?",
-          "options": [
-            "décrire",
-            "tard, en retard",
-            "ordinateur",
-            "énergie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « ordinateur »",
+          "reponsesAcceptees": [
+            "computer"
           ],
-          "reponse": 2,
           "explication": "computer = ordinateur"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « internet » mean?",
-          "options": [
-            "partager",
-            "élever (un enfait)",
-            "mémoriser",
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « internet »",
+          "reponsesAcceptees": [
             "internet"
           ],
-          "reponse": 3,
           "explication": "internet = internet"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « réseau »",
+          "reponsesAcceptees": [
+            "network"
+          ],
+          "explication": "network = réseau"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u038-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u038-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Almost everyone has a mobile phone.",
+          "mot": "phone",
+          "traduction": "téléphone",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The school received ten computers.",
+          "mot": "computer",
+          "traduction": "ordinateur",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The internet helps students find information.",
+          "mot": "internet",
+          "traduction": "internet",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The network is slow in the countryside.",
+          "mot": "network",
+          "traduction": "réseau",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "phone",
-      "verso": "téléphone\n« Almost everyone has a mobile phone. »"
+      "mot": "phone",
+      "traduction": "téléphone",
+      "phrase": "Almost everyone has a mobile phone."
     },
     {
-      "recto": "computer",
-      "verso": "ordinateur\n« The school received ten computers. »"
+      "mot": "computer",
+      "traduction": "ordinateur",
+      "phrase": "The school received ten computers."
     },
     {
-      "recto": "internet",
-      "verso": "internet\n« The internet helps students find information. »"
+      "mot": "internet",
+      "traduction": "internet",
+      "phrase": "The internet helps students find information."
     },
     {
-      "recto": "network",
-      "verso": "réseau\n« The network is slow in the countryside. »"
+      "mot": "network",
+      "traduction": "réseau",
+      "phrase": "The network is slow in the countryside."
     }
   ]
 }

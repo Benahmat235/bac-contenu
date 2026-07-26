@@ -1,7 +1,7 @@
 {
   "id": "anglais-u027",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Society, Work and Development (1/4)",
   "ordre": 27,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u027-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u027-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u027-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "poverty",
-          "reponseAttendue": "pauvreté\n« The government wants to reduce poverty. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "pauvreté\n« The government wants to reduce poverty. »"
+          "type": "mot_en_contexte",
+          "mot": "poverty",
+          "traduction": "pauvreté",
+          "phrase": "The government wants to reduce poverty.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "development",
-          "reponseAttendue": "développement\n« Roads are essential for development. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "développement\n« Roads are essential for development. »"
+          "type": "mot_en_contexte",
+          "mot": "development",
+          "traduction": "développement",
+          "phrase": "Roads are essential for development.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "unemployment",
-          "reponseAttendue": "chômage\n« Unemployment affects many young graduates. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "chômage\n« Unemployment affects many young graduates. »"
+          "type": "mot_en_contexte",
+          "mot": "unemployment",
+          "traduction": "chômage",
+          "phrase": "Unemployment affects many young graduates.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "job",
-          "reponseAttendue": "emploi\n« He is looking for a job in the city. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "emploi\n« He is looking for a job in the city. »"
+          "type": "mot_en_contexte",
+          "mot": "job",
+          "traduction": "emploi",
+          "phrase": "He is looking for a job in the city.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u027-type",
+      "id": "anglais-u027-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u027-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "The government wants to reduce ___.",
           "reponse": "poverty",
           "toleranceMots": 0,
+          "indice": "pauvreté",
           "explication": "poverty = pauvreté"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Roads are essential for ___.",
           "reponse": "development",
           "toleranceMots": 0,
+          "indice": "développement",
           "explication": "development = développement"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___ affects many young graduates.",
           "reponse": "Unemployment",
           "toleranceMots": 0,
+          "indice": "chômage",
           "explication": "unemployment = chômage"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "He is looking for a ___ in the city.",
           "reponse": "job",
           "toleranceMots": 0,
+          "indice": "emploi",
           "explication": "job = emploi"
         }
       ]
     },
     {
-      "id": "anglais-u027-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u027-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u027-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « poverty » mean?",
-          "options": [
-            "avoir",
-            "pauvreté",
-            "famille",
-            "assister à, fréquenter"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « pauvreté »",
+          "reponsesAcceptees": [
+            "poverty"
           ],
-          "reponse": 1,
           "explication": "poverty = pauvreté"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « development » mean?",
-          "options": [
-            "argent",
-            "donc, par conséquent",
-            "développement",
-            "fabriquer, faire"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « développement »",
+          "reponsesAcceptees": [
+            "development"
           ],
-          "reponse": 2,
           "explication": "development = développement"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « unemployment » mean?",
-          "options": [
-            "découvrir",
-            "donner",
-            "chômage",
-            "vouloir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « chômage »",
+          "reponsesAcceptees": [
+            "unemployment"
           ],
-          "reponse": 2,
           "explication": "unemployment = chômage"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « emploi »",
+          "reponsesAcceptees": [
+            "job"
+          ],
+          "explication": "job = emploi"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u027-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u027-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The government wants to reduce poverty.",
+          "mot": "poverty",
+          "traduction": "pauvreté",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Roads are essential for development.",
+          "mot": "development",
+          "traduction": "développement",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Unemployment affects many young graduates.",
+          "mot": "unemployment",
+          "traduction": "chômage",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He is looking for a job in the city.",
+          "mot": "job",
+          "traduction": "emploi",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "poverty",
-      "verso": "pauvreté\n« The government wants to reduce poverty. »"
+      "mot": "poverty",
+      "traduction": "pauvreté",
+      "phrase": "The government wants to reduce poverty."
     },
     {
-      "recto": "development",
-      "verso": "développement\n« Roads are essential for development. »"
+      "mot": "development",
+      "traduction": "développement",
+      "phrase": "Roads are essential for development."
     },
     {
-      "recto": "unemployment",
-      "verso": "chômage\n« Unemployment affects many young graduates. »"
+      "mot": "unemployment",
+      "traduction": "chômage",
+      "phrase": "Unemployment affects many young graduates."
     },
     {
-      "recto": "job",
-      "verso": "emploi\n« He is looking for a job in the city. »"
+      "mot": "job",
+      "traduction": "emploi",
+      "phrase": "He is looking for a job in the city."
     }
   ]
 }

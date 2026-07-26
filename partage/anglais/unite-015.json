@@ -1,7 +1,7 @@
 {
   "id": "anglais-u015",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Adjectives and Adverbs (4/4)",
   "ordre": 15,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u015-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u015-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u015-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "often",
-          "reponseAttendue": "souvent\n« We often work in groups. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "souvent\n« We often work in groups. »"
+          "type": "mot_en_contexte",
+          "mot": "often",
+          "traduction": "souvent",
+          "phrase": "We often work in groups.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "never",
-          "reponseAttendue": "jamais\n« She never gives up. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "jamais\n« She never gives up. »"
+          "type": "mot_en_contexte",
+          "mot": "never",
+          "traduction": "jamais",
+          "phrase": "She never gives up.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "quickly",
-          "reponseAttendue": "rapidement\n« Read the text quickly, then answer. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "rapidement\n« Read the text quickly, then answer. »"
+          "type": "mot_en_contexte",
+          "mot": "quickly",
+          "traduction": "rapidement",
+          "phrase": "Read the text quickly, then answer.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "carefully",
-          "reponseAttendue": "avec soin\n« Write your name carefully on the paper. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "avec soin\n« Write your name carefully on the paper. »"
+          "type": "mot_en_contexte",
+          "mot": "carefully",
+          "traduction": "avec soin",
+          "phrase": "Write your name carefully on the paper.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u015-type",
+      "id": "anglais-u015-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u015-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "We ___ work in groups.",
           "reponse": "often",
           "toleranceMots": 0,
+          "indice": "souvent",
           "explication": "often = souvent"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "She ___ gives up.",
           "reponse": "never",
           "toleranceMots": 0,
+          "indice": "jamais",
           "explication": "never = jamais"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Read the text ___, then answer.",
           "reponse": "quickly",
           "toleranceMots": 0,
+          "indice": "rapidement",
           "explication": "quickly = rapidement"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "Write your name ___ on the paper.",
           "reponse": "carefully",
           "toleranceMots": 0,
+          "indice": "avec soin",
           "explication": "carefully = avec soin"
         }
       ]
     },
     {
-      "id": "anglais-u015-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u015-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u015-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « often » mean?",
-          "options": [
-            "leçon",
-            "élever (un enfait)",
-            "souvent",
-            "fabriquer, faire"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « souvent »",
+          "reponsesAcceptees": [
+            "often"
           ],
-          "reponse": 2,
           "explication": "often = souvent"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « never » mean?",
-          "options": [
-            "déchets",
-            "parce que",
-            "jamais",
-            "en conclusion"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « jamais »",
+          "reponsesAcceptees": [
+            "never"
           ],
-          "reponse": 2,
           "explication": "never = jamais"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « quickly » mean?",
-          "options": [
-            "connaissance, savoir",
-            "jeune",
-            "site web",
-            "rapidement"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « rapidement »",
+          "reponsesAcceptees": [
+            "quickly"
           ],
-          "reponse": 3,
           "explication": "quickly = rapidement"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avec soin »",
+          "reponsesAcceptees": [
+            "carefully"
+          ],
+          "explication": "carefully = avec soin"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u015-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u015-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We often work in groups.",
+          "mot": "often",
+          "traduction": "souvent",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She never gives up.",
+          "mot": "never",
+          "traduction": "jamais",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Read the text quickly, then answer.",
+          "mot": "quickly",
+          "traduction": "rapidement",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Write your name carefully on the paper.",
+          "mot": "carefully",
+          "traduction": "avec soin",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "often",
-      "verso": "souvent\n« We often work in groups. »"
+      "mot": "often",
+      "traduction": "souvent",
+      "phrase": "We often work in groups."
     },
     {
-      "recto": "never",
-      "verso": "jamais\n« She never gives up. »"
+      "mot": "never",
+      "traduction": "jamais",
+      "phrase": "She never gives up."
     },
     {
-      "recto": "quickly",
-      "verso": "rapidement\n« Read the text quickly, then answer. »"
+      "mot": "quickly",
+      "traduction": "rapidement",
+      "phrase": "Read the text quickly, then answer."
     },
     {
-      "recto": "carefully",
-      "verso": "avec soin\n« Write your name carefully on the paper. »"
+      "mot": "carefully",
+      "traduction": "avec soin",
+      "phrase": "Write your name carefully on the paper."
     }
   ]
 }

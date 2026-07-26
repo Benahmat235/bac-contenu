@@ -1,7 +1,7 @@
 {
   "id": "anglais-u053",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Essential Phrasal Verbs (4/4)",
   "ordre": 53,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u053-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u053-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u053-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to hand in",
-          "reponseAttendue": "rendre, remettre\n« Hand in your paper before noon. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "rendre, remettre\n« Hand in your paper before noon. »"
+          "type": "mot_en_contexte",
+          "mot": "to hand in",
+          "traduction": "rendre, remettre",
+          "phrase": "Hand in your paper before noon.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to bring up",
-          "reponseAttendue": "élever (un enfait)\n« My grandmother brought me up. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "élever (un enfait)\n« My grandmother brought me up. »"
+          "type": "mot_en_contexte",
+          "mot": "to bring up",
+          "traduction": "élever (un enfait)",
+          "phrase": "My grandmother brought me up.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to run out of",
-          "reponseAttendue": "manquer de\n« We ran out of paper yesterday. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "manquer de\n« We ran out of paper yesterday. »"
+          "type": "mot_en_contexte",
+          "mot": "to run out of",
+          "traduction": "manquer de",
+          "phrase": "We ran out of paper yesterday.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to put off",
-          "reponseAttendue": "reporter\n« Do not put off your revision. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "reporter\n« Do not put off your revision. »"
+          "type": "mot_en_contexte",
+          "mot": "to put off",
+          "traduction": "reporter",
+          "phrase": "Do not put off your revision.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u053-type",
+      "id": "anglais-u053-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u053-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ your paper before noon.",
           "reponse": "Hand in",
           "toleranceMots": 0,
+          "indice": "rendre, remettre",
           "explication": "to hand in = rendre, remettre"
         },
         {
@@ -73,72 +81,114 @@
           "phrase": "Do not ___ your revision.",
           "reponse": "put off",
           "toleranceMots": 0,
+          "indice": "reporter",
           "explication": "to put off = reporter"
         }
       ]
     },
     {
-      "id": "anglais-u053-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u053-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u053-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to hand in » mean?",
-          "options": [
-            "mémoriser",
-            "rendre, remettre",
-            "hôpital",
-            "donner"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « rendre, remettre »",
+          "reponsesAcceptees": [
+            "to hand in",
+            "hand in"
           ],
-          "reponse": 1,
           "explication": "to hand in = rendre, remettre"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to bring up » mean?",
-          "options": [
-            "travailler",
-            "élever (un enfait)",
-            "tout d'abord",
-            "note"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « élever (un enfait) »",
+          "reponsesAcceptees": [
+            "to bring up",
+            "bring up"
           ],
-          "reponse": 1,
           "explication": "to bring up = élever (un enfait)"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to run out of » mean?",
-          "options": [
-            "manquer de",
-            "enseignant",
-            "jour",
-            "continuer"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « manquer de »",
+          "reponsesAcceptees": [
+            "to run out of",
+            "run out of"
           ],
-          "reponse": 0,
           "explication": "to run out of = manquer de"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « reporter »",
+          "reponsesAcceptees": [
+            "to put off",
+            "put off"
+          ],
+          "explication": "to put off = reporter"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u053-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u053-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Hand in your paper before noon.",
+          "mot": "to hand in",
+          "traduction": "rendre, remettre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My grandmother brought me up.",
+          "mot": "to bring up",
+          "traduction": "élever (un enfait)",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We ran out of paper yesterday.",
+          "mot": "to run out of",
+          "traduction": "manquer de",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Do not put off your revision.",
+          "mot": "to put off",
+          "traduction": "reporter",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to hand in",
-      "verso": "rendre, remettre\n« Hand in your paper before noon. »"
+      "mot": "to hand in",
+      "traduction": "rendre, remettre",
+      "phrase": "Hand in your paper before noon."
     },
     {
-      "recto": "to bring up",
-      "verso": "élever (un enfait)\n« My grandmother brought me up. »"
+      "mot": "to bring up",
+      "traduction": "élever (un enfait)",
+      "phrase": "My grandmother brought me up."
     },
     {
-      "recto": "to run out of",
-      "verso": "manquer de\n« We ran out of paper yesterday. »"
+      "mot": "to run out of",
+      "traduction": "manquer de",
+      "phrase": "We ran out of paper yesterday."
     },
     {
-      "recto": "to put off",
-      "verso": "reporter\n« Do not put off your revision. »"
+      "mot": "to put off",
+      "traduction": "reporter",
+      "phrase": "Do not put off your revision."
     }
   ]
 }

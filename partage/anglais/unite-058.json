@@ -1,7 +1,7 @@
 {
   "id": "anglais-u058",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "English Tenses: Future & Conditionals (2/2)",
   "ordre": 58,
   "source": {
@@ -14,42 +14,47 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u058-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u058-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u058-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the Second Conditional? (If + past, would + verb)",
-          "reponseAttendue": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
+          ],
           "explication": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the Third Conditional? (If + past perfect, would have + pp)",
-          "reponseAttendue": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
+          ],
           "explication": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Difference between 'will' and 'going to'?",
-          "reponseAttendue": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
+          ],
           "explication": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the Future Continuous?",
-          "reponseAttendue": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
+          ],
           "explication": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
         }
       ]
@@ -100,22 +105,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "What is the Second Conditional? (If + past, would + verb)",
-      "verso": "For unreal/hypothetical present situations. Ex: 'If I had money, I would travel.'"
-    },
-    {
-      "recto": "What is the Third Conditional? (If + past perfect, would have + pp)",
-      "verso": "For unreal past situations (regrets). Ex: 'If I had studied, I would have passed.'"
-    },
-    {
-      "recto": "Difference between 'will' and 'going to'?",
-      "verso": "'Will' = spontaneous/uncertain. 'Going to' = already planned or evidence-based."
-    },
-    {
-      "recto": "What is the Future Continuous?",
-      "verso": "Will + be + verb-ing. For actions in progress at a future time. Ex: 'At 8pm, I will be studying.'"
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

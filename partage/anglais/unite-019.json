@@ -1,7 +1,7 @@
 {
   "id": "anglais-u019",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Connectors — Linking Your Ideas (3/4)",
   "ordre": 19,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u019-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u019-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u019-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "first of all",
-          "reponseAttendue": "tout d'abord\n« First of all, read the whole question. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "tout d'abord\n« First of all, read the whole question. »"
+          "type": "mot_en_contexte",
+          "mot": "first of all",
+          "traduction": "tout d'abord",
+          "phrase": "First of all, read the whole question.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "finally",
-          "reponseAttendue": "enfin\n« Finally, check your spelling. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "enfin\n« Finally, check your spelling. »"
+          "type": "mot_en_contexte",
+          "mot": "finally",
+          "traduction": "enfin",
+          "phrase": "Finally, check your spelling.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "in conclusion",
-          "reponseAttendue": "en conclusion\n« In conclusion, education is the key to development. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "en conclusion\n« In conclusion, education is the key to development. »"
+          "type": "mot_en_contexte",
+          "mot": "in conclusion",
+          "traduction": "en conclusion",
+          "phrase": "In conclusion, education is the key to development.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "as a result",
-          "reponseAttendue": "en conséquence\n« As a result, more girls attend school. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "en conséquence\n« As a result, more girls attend school. »"
+          "type": "mot_en_contexte",
+          "mot": "as a result",
+          "traduction": "en conséquence",
+          "phrase": "As a result, more girls attend school.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u019-type",
+      "id": "anglais-u019-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u019-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___, read the whole question.",
           "reponse": "First of all",
           "toleranceMots": 0,
+          "indice": "tout d'abord",
           "explication": "first of all = tout d'abord"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___, check your spelling.",
           "reponse": "Finally",
           "toleranceMots": 0,
+          "indice": "enfin",
           "explication": "finally = enfin"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___, education is the key to development.",
           "reponse": "In conclusion",
           "toleranceMots": 0,
+          "indice": "en conclusion",
           "explication": "in conclusion = en conclusion"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "___, more girls attend school.",
           "reponse": "As a result",
           "toleranceMots": 0,
+          "indice": "en conséquence",
           "explication": "as a result = en conséquence"
         }
       ]
     },
     {
-      "id": "anglais-u019-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u019-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u019-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « first of all » mean?",
-          "options": [
-            "vouloir",
-            "tout d'abord",
-            "discuter, débattre",
-            "pauvreté"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « tout d'abord »",
+          "reponsesAcceptees": [
+            "first of all"
           ],
-          "reponse": 1,
           "explication": "first of all = tout d'abord"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « finally » mean?",
-          "options": [
-            "enfin",
-            "hôpital",
-            "échouer",
-            "vie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « enfin »",
+          "reponsesAcceptees": [
+            "finally"
           ],
-          "reponse": 0,
           "explication": "finally = enfin"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « in conclusion » mean?",
-          "options": [
-            "ordinateur",
-            "en conclusion",
-            "tard, en retard",
-            "chômage"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en conclusion »",
+          "reponsesAcceptees": [
+            "in conclusion"
           ],
-          "reponse": 1,
           "explication": "in conclusion = en conclusion"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en conséquence »",
+          "reponsesAcceptees": [
+            "as a result"
+          ],
+          "explication": "as a result = en conséquence"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u019-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u019-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "First of all, read the whole question.",
+          "mot": "first of all",
+          "traduction": "tout d'abord",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Finally, check your spelling.",
+          "mot": "finally",
+          "traduction": "enfin",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "In conclusion, education is the key to development.",
+          "mot": "in conclusion",
+          "traduction": "en conclusion",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "As a result, more girls attend school.",
+          "mot": "as a result",
+          "traduction": "en conséquence",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "first of all",
-      "verso": "tout d'abord\n« First of all, read the whole question. »"
+      "mot": "first of all",
+      "traduction": "tout d'abord",
+      "phrase": "First of all, read the whole question."
     },
     {
-      "recto": "finally",
-      "verso": "enfin\n« Finally, check your spelling. »"
+      "mot": "finally",
+      "traduction": "enfin",
+      "phrase": "Finally, check your spelling."
     },
     {
-      "recto": "in conclusion",
-      "verso": "en conclusion\n« In conclusion, education is the key to development. »"
+      "mot": "in conclusion",
+      "traduction": "en conclusion",
+      "phrase": "In conclusion, education is the key to development."
     },
     {
-      "recto": "as a result",
-      "verso": "en conséquence\n« As a result, more girls attend school. »"
+      "mot": "as a result",
+      "traduction": "en conséquence",
+      "phrase": "As a result, more girls attend school."
     }
   ]
 }

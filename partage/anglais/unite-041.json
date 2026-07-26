@@ -1,7 +1,7 @@
 {
   "id": "anglais-u041",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Technology and Media (3/4)",
   "ordre": 41,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u041-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u041-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u041-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "screen",
-          "reponseAttendue": "écran\n« Do not look at the screen for too long. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "écran\n« Do not look at the screen for too long. »"
+          "type": "mot_en_contexte",
+          "mot": "screen",
+          "traduction": "écran",
+          "phrase": "Do not look at the screen for too long.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "application",
-          "reponseAttendue": "application\n« This application teaches English for free. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "application\n« This application teaches English for free. »"
+          "type": "mot_en_contexte",
+          "mot": "application",
+          "traduction": "application",
+          "phrase": "This application teaches English for free.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "battery",
-          "reponseAttendue": "batterie\n« My phone battery is almost empty. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "batterie\n« My phone battery is almost empty. »"
+          "type": "mot_en_contexte",
+          "mot": "battery",
+          "traduction": "batterie",
+          "phrase": "My phone battery is almost empty.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to download",
-          "reponseAttendue": "télécharger\n« You can download the lesson offline. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "télécharger\n« You can download the lesson offline. »"
+          "type": "mot_en_contexte",
+          "mot": "to download",
+          "traduction": "télécharger",
+          "phrase": "You can download the lesson offline.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u041-type",
+      "id": "anglais-u041-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u041-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "Do not look at the ___ for too long.",
           "reponse": "screen",
           "toleranceMots": 0,
+          "indice": "écran",
           "explication": "screen = écran"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "This ___ teaches English for free.",
           "reponse": "application",
           "toleranceMots": 0,
+          "indice": "application",
           "explication": "application = application"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "My phone ___ is almost empty.",
           "reponse": "battery",
           "toleranceMots": 0,
+          "indice": "batterie",
           "explication": "battery = batterie"
         },
         {
@@ -87,72 +97,111 @@
           "phrase": "You can ___ the lesson offline.",
           "reponse": "download",
           "toleranceMots": 0,
+          "indice": "télécharger",
           "explication": "to download = télécharger"
         }
       ]
     },
     {
-      "id": "anglais-u041-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u041-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u041-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « screen » mean?",
-          "options": [
-            "gouvernement",
-            "manquer de",
-            "écran",
-            "réussir (un examen)"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « écran »",
+          "reponsesAcceptees": [
+            "screen"
           ],
-          "reponse": 2,
           "explication": "screen = écran"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « application » mean?",
-          "options": [
-            "citoyen",
-            "grand, vaste",
-            "application",
-            "résumer"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « application »",
+          "reponsesAcceptees": [
+            "application"
           ],
-          "reponse": 2,
           "explication": "application = application"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « battery » mean?",
-          "options": [
-            "en conclusion",
-            "fabriquer, faire",
-            "but, objectif",
-            "batterie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « batterie »",
+          "reponsesAcceptees": [
+            "battery"
           ],
-          "reponse": 3,
           "explication": "battery = batterie"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « télécharger »",
+          "reponsesAcceptees": [
+            "to download",
+            "download"
+          ],
+          "explication": "to download = télécharger"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u041-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u041-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Do not look at the screen for too long.",
+          "mot": "screen",
+          "traduction": "écran",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This application teaches English for free.",
+          "mot": "application",
+          "traduction": "application",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My phone battery is almost empty.",
+          "mot": "battery",
+          "traduction": "batterie",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "You can download the lesson offline.",
+          "mot": "to download",
+          "traduction": "télécharger",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "screen",
-      "verso": "écran\n« Do not look at the screen for too long. »"
+      "mot": "screen",
+      "traduction": "écran",
+      "phrase": "Do not look at the screen for too long."
     },
     {
-      "recto": "application",
-      "verso": "application\n« This application teaches English for free. »"
+      "mot": "application",
+      "traduction": "application",
+      "phrase": "This application teaches English for free."
     },
     {
-      "recto": "battery",
-      "verso": "batterie\n« My phone battery is almost empty. »"
+      "mot": "battery",
+      "traduction": "batterie",
+      "phrase": "My phone battery is almost empty."
     },
     {
-      "recto": "to download",
-      "verso": "télécharger\n« You can download the lesson offline. »"
+      "mot": "to download",
+      "traduction": "télécharger",
+      "phrase": "You can download the lesson offline."
     }
   ]
 }

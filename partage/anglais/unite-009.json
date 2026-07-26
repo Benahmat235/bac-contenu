@@ -1,7 +1,7 @@
 {
   "id": "anglais-u009",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Nouns — People and Places (3/4)",
   "ordre": 9,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u009-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u009-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u009-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "family",
-          "reponseAttendue": "famille\n« My family supports my studies. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "famille\n« My family supports my studies. »"
+          "type": "mot_en_contexte",
+          "mot": "family",
+          "traduction": "famille",
+          "phrase": "My family supports my studies.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "work",
-          "reponseAttendue": "travail\n« Finding work after school is not easy. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "travail\n« Finding work after school is not easy. »"
+          "type": "mot_en_contexte",
+          "mot": "work",
+          "traduction": "travail",
+          "phrase": "Finding work after school is not easy.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "water",
-          "reponseAttendue": "eau\n« Clean water is essential for health. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "eau\n« Clean water is essential for health. »"
+          "type": "mot_en_contexte",
+          "mot": "water",
+          "traduction": "eau",
+          "phrase": "Clean water is essential for health.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "money",
-          "reponseAttendue": "argent\n« He saves money to buy books. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "argent\n« He saves money to buy books. »"
+          "type": "mot_en_contexte",
+          "mot": "money",
+          "traduction": "argent",
+          "phrase": "He saves money to buy books.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u009-type",
+      "id": "anglais-u009-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u009-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "My ___ supports my studies.",
           "reponse": "family",
           "toleranceMots": 0,
+          "indice": "famille",
           "explication": "family = famille"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Finding ___ after school is not easy.",
           "reponse": "work",
           "toleranceMots": 0,
+          "indice": "travail",
           "explication": "work = travail"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Clean ___ is essential for health.",
           "reponse": "water",
           "toleranceMots": 0,
+          "indice": "eau",
           "explication": "water = eau"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "He saves ___ to buy books.",
           "reponse": "money",
           "toleranceMots": 0,
+          "indice": "argent",
           "explication": "money = argent"
         }
       ]
     },
     {
-      "id": "anglais-u009-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u009-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u009-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « family » mean?",
-          "options": [
-            "note",
-            "partager",
-            "famille",
-            "jamais"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « famille »",
+          "reponsesAcceptees": [
+            "family"
           ],
-          "reponse": 2,
           "explication": "family = famille"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « work » mean?",
-          "options": [
-            "but, objectif",
-            "réviser",
-            "travail",
-            "se lever"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « travail »",
+          "reponsesAcceptees": [
+            "work"
           ],
-          "reponse": 2,
           "explication": "work = travail"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « water » mean?",
-          "options": [
-            "manquer de",
-            "droits",
-            "eau",
-            "venir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « eau »",
+          "reponsesAcceptees": [
+            "water"
           ],
-          "reponse": 2,
           "explication": "water = eau"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « argent »",
+          "reponsesAcceptees": [
+            "money"
+          ],
+          "explication": "money = argent"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u009-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u009-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My family supports my studies.",
+          "mot": "family",
+          "traduction": "famille",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Finding work after school is not easy.",
+          "mot": "work",
+          "traduction": "travail",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Clean water is essential for health.",
+          "mot": "water",
+          "traduction": "eau",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He saves money to buy books.",
+          "mot": "money",
+          "traduction": "argent",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "family",
-      "verso": "famille\n« My family supports my studies. »"
+      "mot": "family",
+      "traduction": "famille",
+      "phrase": "My family supports my studies."
     },
     {
-      "recto": "work",
-      "verso": "travail\n« Finding work after school is not easy. »"
+      "mot": "work",
+      "traduction": "travail",
+      "phrase": "Finding work after school is not easy."
     },
     {
-      "recto": "water",
-      "verso": "eau\n« Clean water is essential for health. »"
+      "mot": "water",
+      "traduction": "eau",
+      "phrase": "Clean water is essential for health."
     },
     {
-      "recto": "money",
-      "verso": "argent\n« He saves money to buy books. »"
+      "mot": "money",
+      "traduction": "argent",
+      "phrase": "He saves money to buy books."
     }
   ]
 }

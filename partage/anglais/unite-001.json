@@ -1,7 +1,7 @@
 {
   "id": "anglais-u001",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Verbs — Everyday Actions (1/4)",
   "ordre": 1,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u001-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u001-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to be",
-          "reponseAttendue": "être\n« I am a student in N'Djamena. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "être\n« I am a student in N'Djamena. »"
+          "type": "mot_en_contexte",
+          "mot": "to be",
+          "traduction": "être",
+          "phrase": "I am a student in N'Djamena.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to have",
-          "reponseAttendue": "avoir\n« We have an exam next Monday. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "avoir\n« We have an exam next Monday. »"
+          "type": "mot_en_contexte",
+          "mot": "to have",
+          "traduction": "avoir",
+          "phrase": "We have an exam next Monday.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to do",
-          "reponseAttendue": "faire\n« She does her homework every evening. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "faire\n« She does her homework every evening. »"
+          "type": "mot_en_contexte",
+          "mot": "to do",
+          "traduction": "faire",
+          "phrase": "She does her homework every evening.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to go",
-          "reponseAttendue": "aller\n« They go to school on foot. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "aller\n« They go to school on foot. »"
+          "type": "mot_en_contexte",
+          "mot": "to go",
+          "traduction": "aller",
+          "phrase": "They go to school on foot.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u001-type",
+      "id": "anglais-u001-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "We ___ an exam next Monday.",
           "reponse": "have",
           "toleranceMots": 0,
+          "indice": "avoir",
           "explication": "to have = avoir"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "She ___es her homework every evening.",
           "reponse": "do",
           "toleranceMots": 0,
+          "indice": "faire",
           "explication": "to do = faire"
         },
         {
@@ -80,72 +89,114 @@
           "phrase": "They ___ to school on foot.",
           "reponse": "go",
           "toleranceMots": 0,
+          "indice": "aller",
           "explication": "to go = aller"
         }
       ]
     },
     {
-      "id": "anglais-u001-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u001-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u001-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to be » mean?",
-          "options": [
-            "site web",
-            "être",
-            "paix",
-            "en fait"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « être »",
+          "reponsesAcceptees": [
+            "to be",
+            "be"
           ],
-          "reponse": 1,
           "explication": "to be = être"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to have » mean?",
-          "options": [
-            "remplir",
-            "avoir",
-            "expliquer",
-            "selon"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avoir »",
+          "reponsesAcceptees": [
+            "to have",
+            "have"
           ],
-          "reponse": 1,
           "explication": "to have = avoir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to do » mean?",
-          "options": [
-            "fabriquer, faire",
-            "répondre",
-            "tandis que",
-            "faire"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « faire »",
+          "reponsesAcceptees": [
+            "to do",
+            "do"
           ],
-          "reponse": 3,
           "explication": "to do = faire"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « aller »",
+          "reponsesAcceptees": [
+            "to go",
+            "go"
+          ],
+          "explication": "to go = aller"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u001-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u001-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I am a student in N'Djamena.",
+          "mot": "to be",
+          "traduction": "être",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We have an exam next Monday.",
+          "mot": "to have",
+          "traduction": "avoir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She does her homework every evening.",
+          "mot": "to do",
+          "traduction": "faire",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "They go to school on foot.",
+          "mot": "to go",
+          "traduction": "aller",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to be",
-      "verso": "être\n« I am a student in N'Djamena. »"
+      "mot": "to be",
+      "traduction": "être",
+      "phrase": "I am a student in N'Djamena."
     },
     {
-      "recto": "to have",
-      "verso": "avoir\n« We have an exam next Monday. »"
+      "mot": "to have",
+      "traduction": "avoir",
+      "phrase": "We have an exam next Monday."
     },
     {
-      "recto": "to do",
-      "verso": "faire\n« She does her homework every evening. »"
+      "mot": "to do",
+      "traduction": "faire",
+      "phrase": "She does her homework every evening."
     },
     {
-      "recto": "to go",
-      "verso": "aller\n« They go to school on foot. »"
+      "mot": "to go",
+      "traduction": "aller",
+      "phrase": "They go to school on foot."
     }
   ]
 }

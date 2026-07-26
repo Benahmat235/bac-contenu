@@ -1,7 +1,7 @@
 {
   "id": "anglais-u030",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Society, Work and Development (3/4)",
   "ordre": 30,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u030-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u030-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u030-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "citizen",
-          "reponseAttendue": "citoyen\n« Every citizen has rights and duties. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "citoyen\n« Every citizen has rights and duties. »"
+          "type": "mot_en_contexte",
+          "mot": "citizen",
+          "traduction": "citoyen",
+          "phrase": "Every citizen has rights and duties.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "rights",
-          "reponseAttendue": "droits\n« Human rights must be respected. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "droits\n« Human rights must be respected. »"
+          "type": "mot_en_contexte",
+          "mot": "rights",
+          "traduction": "droits",
+          "phrase": "Human rights must be respected.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "peace",
-          "reponseAttendue": "paix\n« Peace allows children to go to school. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "paix\n« Peace allows children to go to school. »"
+          "type": "mot_en_contexte",
+          "mot": "peace",
+          "traduction": "paix",
+          "phrase": "Peace allows children to go to school.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "equality",
-          "reponseAttendue": "égalité\n« Equality between boys and girls matters. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "égalité\n« Equality between boys and girls matters. »"
+          "type": "mot_en_contexte",
+          "mot": "equality",
+          "traduction": "égalité",
+          "phrase": "Equality between boys and girls matters.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u030-type",
+      "id": "anglais-u030-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u030-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "Every ___ has rights and duties.",
           "reponse": "citizen",
           "toleranceMots": 0,
+          "indice": "citoyen",
           "explication": "citizen = citoyen"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Human ___ must be respected.",
           "reponse": "rights",
           "toleranceMots": 0,
+          "indice": "droits",
           "explication": "rights = droits"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___ allows children to go to school.",
           "reponse": "Peace",
           "toleranceMots": 0,
+          "indice": "paix",
           "explication": "peace = paix"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "___ between boys and girls matters.",
           "reponse": "Equality",
           "toleranceMots": 0,
+          "indice": "égalité",
           "explication": "equality = égalité"
         }
       ]
     },
     {
-      "id": "anglais-u030-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u030-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u030-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « citizen » mean?",
-          "options": [
-            "faire",
-            "élève, étudiant",
-            "citoyen",
-            "souvent"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « citoyen »",
+          "reponsesAcceptees": [
+            "citizen"
           ],
-          "reponse": 2,
           "explication": "citizen = citoyen"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « rights » mean?",
-          "options": [
-            "message",
-            "réussir (un examen)",
-            "voir",
-            "droits"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « droits »",
+          "reponsesAcceptees": [
+            "rights"
           ],
-          "reponse": 3,
           "explication": "rights = droits"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « peace » mean?",
-          "options": [
-            "paix",
-            "d'autre part",
-            "déchets",
-            "suggérer"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « paix »",
+          "reponsesAcceptees": [
+            "peace"
           ],
-          "reponse": 0,
           "explication": "peace = paix"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « égalité »",
+          "reponsesAcceptees": [
+            "equality"
+          ],
+          "explication": "equality = égalité"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u030-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u030-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Every citizen has rights and duties.",
+          "mot": "citizen",
+          "traduction": "citoyen",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Human rights must be respected.",
+          "mot": "rights",
+          "traduction": "droits",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Peace allows children to go to school.",
+          "mot": "peace",
+          "traduction": "paix",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Equality between boys and girls matters.",
+          "mot": "equality",
+          "traduction": "égalité",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "citizen",
-      "verso": "citoyen\n« Every citizen has rights and duties. »"
+      "mot": "citizen",
+      "traduction": "citoyen",
+      "phrase": "Every citizen has rights and duties."
     },
     {
-      "recto": "rights",
-      "verso": "droits\n« Human rights must be respected. »"
+      "mot": "rights",
+      "traduction": "droits",
+      "phrase": "Human rights must be respected."
     },
     {
-      "recto": "peace",
-      "verso": "paix\n« Peace allows children to go to school. »"
+      "mot": "peace",
+      "traduction": "paix",
+      "phrase": "Peace allows children to go to school."
     },
     {
-      "recto": "equality",
-      "verso": "égalité\n« Equality between boys and girls matters. »"
+      "mot": "equality",
+      "traduction": "égalité",
+      "phrase": "Equality between boys and girls matters."
     }
   ]
 }

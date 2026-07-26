@@ -1,7 +1,7 @@
 {
   "id": "anglais-u047",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Academic Verbs for the Exam (4/4)",
   "ordre": 47,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u047-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u047-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u047-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "according to",
-          "reponseAttendue": "selon\n« According to the text, exports increased. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "selon\n« According to the text, exports increased. »"
+          "type": "mot_en_contexte",
+          "mot": "according to",
+          "traduction": "selon",
+          "phrase": "According to the text, exports increased.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "evidence",
-          "reponseAttendue": "preuve\n« There is clear evidence of climate change. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "preuve\n« There is clear evidence of climate change. »"
+          "type": "mot_en_contexte",
+          "mot": "evidence",
+          "traduction": "preuve",
+          "phrase": "There is clear evidence of climate change.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "issue",
-          "reponseAttendue": "problème, question\n« Water is a major issue in the Sahel. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "problème, question\n« Water is a major issue in the Sahel. »"
+          "type": "mot_en_contexte",
+          "mot": "issue",
+          "traduction": "problème, question",
+          "phrase": "Water is a major issue in the Sahel.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "purpose",
-          "reponseAttendue": "but, objectif\n« The purpose of this text is to inform. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "but, objectif\n« The purpose of this text is to inform. »"
+          "type": "mot_en_contexte",
+          "mot": "purpose",
+          "traduction": "but, objectif",
+          "phrase": "The purpose of this text is to inform.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u047-type",
+      "id": "anglais-u047-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u047-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ the text, exports increased.",
           "reponse": "According to",
           "toleranceMots": 0,
+          "indice": "selon",
           "explication": "according to = selon"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "There is clear ___ of climate change.",
           "reponse": "evidence",
           "toleranceMots": 0,
+          "indice": "preuve",
           "explication": "evidence = preuve"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Water is a major ___ in the Sahel.",
           "reponse": "issue",
           "toleranceMots": 0,
+          "indice": "problème, question",
           "explication": "issue = problème, question"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "The ___ of this text is to inform.",
           "reponse": "purpose",
           "toleranceMots": 0,
+          "indice": "but, objectif",
           "explication": "purpose = but, objectif"
         }
       ]
     },
     {
-      "id": "anglais-u047-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u047-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u047-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « according to » mean?",
-          "options": [
-            "reporter",
-            "allumer",
-            "petit",
-            "selon"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « selon »",
+          "reponsesAcceptees": [
+            "according to"
           ],
-          "reponse": 3,
           "explication": "according to = selon"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « evidence » mean?",
-          "options": [
-            "facile",
-            "avoir besoin de",
-            "participer à",
-            "preuve"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « preuve »",
+          "reponsesAcceptees": [
+            "evidence"
           ],
-          "reponse": 3,
           "explication": "evidence = preuve"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « issue » mean?",
-          "options": [
-            "soutenir",
-            "problème, question",
-            "discuter, débattre",
-            "élève, étudiant"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « problème, question »",
+          "reponsesAcceptees": [
+            "issue"
           ],
-          "reponse": 1,
           "explication": "issue = problème, question"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « but, objectif »",
+          "reponsesAcceptees": [
+            "purpose"
+          ],
+          "explication": "purpose = but, objectif"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u047-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u047-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "According to the text, exports increased.",
+          "mot": "according to",
+          "traduction": "selon",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "There is clear evidence of climate change.",
+          "mot": "evidence",
+          "traduction": "preuve",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Water is a major issue in the Sahel.",
+          "mot": "issue",
+          "traduction": "problème, question",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The purpose of this text is to inform.",
+          "mot": "purpose",
+          "traduction": "but, objectif",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "according to",
-      "verso": "selon\n« According to the text, exports increased. »"
+      "mot": "according to",
+      "traduction": "selon",
+      "phrase": "According to the text, exports increased."
     },
     {
-      "recto": "evidence",
-      "verso": "preuve\n« There is clear evidence of climate change. »"
+      "mot": "evidence",
+      "traduction": "preuve",
+      "phrase": "There is clear evidence of climate change."
     },
     {
-      "recto": "issue",
-      "verso": "problème, question\n« Water is a major issue in the Sahel. »"
+      "mot": "issue",
+      "traduction": "problème, question",
+      "phrase": "Water is a major issue in the Sahel."
     },
     {
-      "recto": "purpose",
-      "verso": "but, objectif\n« The purpose of this text is to inform. »"
+      "mot": "purpose",
+      "traduction": "but, objectif",
+      "phrase": "The purpose of this text is to inform."
     }
   ]
 }

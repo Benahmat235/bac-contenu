@@ -1,7 +1,7 @@
 {
   "id": "anglais-u033",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Environment and Health (1/4)",
   "ordre": 33,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u033-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u033-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u033-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "environment",
-          "reponseAttendue": "environnement\n« We must protect the environment. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "environnement\n« We must protect the environment. »"
+          "type": "mot_en_contexte",
+          "mot": "environment",
+          "traduction": "environnement",
+          "phrase": "We must protect the environment.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "climate",
-          "reponseAttendue": "climat\n« The climate is very dry in the north. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "climat\n« The climate is very dry in the north. »"
+          "type": "mot_en_contexte",
+          "mot": "climate",
+          "traduction": "climat",
+          "phrase": "The climate is very dry in the north.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "drought",
-          "reponseAttendue": "sécheresse\n« Drought destroyed part of the harvest. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "sécheresse\n« Drought destroyed part of the harvest. »"
+          "type": "mot_en_contexte",
+          "mot": "drought",
+          "traduction": "sécheresse",
+          "phrase": "Drought destroyed part of the harvest.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "desert",
-          "reponseAttendue": "désert\n« The desert is expanding southwards. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "désert\n« The desert is expanding southwards. »"
+          "type": "mot_en_contexte",
+          "mot": "desert",
+          "traduction": "désert",
+          "phrase": "The desert is expanding southwards.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u033-type",
+      "id": "anglais-u033-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u033-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "We must protect the ___.",
           "reponse": "environment",
           "toleranceMots": 0,
+          "indice": "environnement",
           "explication": "environment = environnement"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "The ___ is very dry in the north.",
           "reponse": "climate",
           "toleranceMots": 0,
+          "indice": "climat",
           "explication": "climate = climat"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___ destroyed part of the harvest.",
           "reponse": "Drought",
           "toleranceMots": 0,
+          "indice": "sécheresse",
           "explication": "drought = sécheresse"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "The ___ is expanding southwards.",
           "reponse": "desert",
           "toleranceMots": 0,
+          "indice": "désert",
           "explication": "desert = désert"
         }
       ]
     },
     {
-      "id": "anglais-u033-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u033-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u033-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « environment » mean?",
-          "options": [
-            "chômage",
-            "environnement",
-            "gratuit",
-            "pluie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « environnement »",
+          "reponsesAcceptees": [
+            "environment"
           ],
-          "reponse": 1,
           "explication": "environment = environnement"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « climate » mean?",
-          "options": [
-            "bien que",
-            "climat",
-            "rendre, remettre",
-            "prévenir, empêcher"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « climat »",
+          "reponsesAcceptees": [
+            "climate"
           ],
-          "reponse": 1,
           "explication": "climate = climat"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « drought » mean?",
-          "options": [
-            "être",
-            "développement",
-            "abandonner",
-            "sécheresse"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « sécheresse »",
+          "reponsesAcceptees": [
+            "drought"
           ],
-          "reponse": 3,
           "explication": "drought = sécheresse"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « désert »",
+          "reponsesAcceptees": [
+            "desert"
+          ],
+          "explication": "desert = désert"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u033-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u033-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We must protect the environment.",
+          "mot": "environment",
+          "traduction": "environnement",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The climate is very dry in the north.",
+          "mot": "climate",
+          "traduction": "climat",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Drought destroyed part of the harvest.",
+          "mot": "drought",
+          "traduction": "sécheresse",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The desert is expanding southwards.",
+          "mot": "desert",
+          "traduction": "désert",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "environment",
-      "verso": "environnement\n« We must protect the environment. »"
+      "mot": "environment",
+      "traduction": "environnement",
+      "phrase": "We must protect the environment."
     },
     {
-      "recto": "climate",
-      "verso": "climat\n« The climate is very dry in the north. »"
+      "mot": "climate",
+      "traduction": "climat",
+      "phrase": "The climate is very dry in the north."
     },
     {
-      "recto": "drought",
-      "verso": "sécheresse\n« Drought destroyed part of the harvest. »"
+      "mot": "drought",
+      "traduction": "sécheresse",
+      "phrase": "Drought destroyed part of the harvest."
     },
     {
-      "recto": "desert",
-      "verso": "désert\n« The desert is expanding southwards. »"
+      "mot": "desert",
+      "traduction": "désert",
+      "phrase": "The desert is expanding southwards."
     }
   ]
 }

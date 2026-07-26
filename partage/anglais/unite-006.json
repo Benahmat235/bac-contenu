@@ -1,7 +1,7 @@
 {
   "id": "anglais-u006",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Nouns — People and Places (1/4)",
   "ordre": 6,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u006-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u006-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u006-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "time",
-          "reponseAttendue": "temps\n« We do not have much time before the exam. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "temps\n« We do not have much time before the exam. »"
+          "type": "mot_en_contexte",
+          "mot": "time",
+          "traduction": "temps",
+          "phrase": "We do not have much time before the exam.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "year",
-          "reponseAttendue": "année\n« This year I will take the baccalaureate. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "année\n« This year I will take the baccalaureate. »"
+          "type": "mot_en_contexte",
+          "mot": "year",
+          "traduction": "année",
+          "phrase": "This year I will take the baccalaureate.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "day",
-          "reponseAttendue": "jour\n« Every day I revise for two hours. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "jour\n« Every day I revise for two hours. »"
+          "type": "mot_en_contexte",
+          "mot": "day",
+          "traduction": "jour",
+          "phrase": "Every day I revise for two hours.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "people",
-          "reponseAttendue": "gens, personnes\n« Many people speak both French and Arabic in Chad. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "gens, personnes\n« Many people speak both French and Arabic in Chad. »"
+          "type": "mot_en_contexte",
+          "mot": "people",
+          "traduction": "gens, personnes",
+          "phrase": "Many people speak both French and Arabic in Chad.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u006-type",
+      "id": "anglais-u006-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u006-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "We do not have much ___ before the exam.",
           "reponse": "time",
           "toleranceMots": 0,
+          "indice": "temps",
           "explication": "time = temps"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "This ___ I will take the baccalaureate.",
           "reponse": "year",
           "toleranceMots": 0,
+          "indice": "année",
           "explication": "year = année"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Every ___ I revise for two hours.",
           "reponse": "day",
           "toleranceMots": 0,
+          "indice": "jour",
           "explication": "day = jour"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "Many ___ speak both French and Arabic in Chad.",
           "reponse": "people",
           "toleranceMots": 0,
+          "indice": "gens, personnes",
           "explication": "people = gens, personnes"
         }
       ]
     },
     {
-      "id": "anglais-u006-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u006-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u006-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « time » mean?",
-          "options": [
-            "temps",
-            "jamais",
-            "toujours",
-            "avenir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « temps »",
+          "reponsesAcceptees": [
+            "time"
           ],
-          "reponse": 0,
           "explication": "time = temps"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « year » mean?",
-          "options": [
-            "tôt",
-            "année",
-            "difficile",
-            "hôpital"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « année »",
+          "reponsesAcceptees": [
+            "year"
           ],
-          "reponse": 1,
           "explication": "year = année"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « day » mean?",
-          "options": [
-            "jour",
-            "alphabétisation",
-            "construire",
-            "être"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « jour »",
+          "reponsesAcceptees": [
+            "day"
           ],
-          "reponse": 0,
           "explication": "day = jour"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « gens, personnes »",
+          "reponsesAcceptees": [
+            "people"
+          ],
+          "explication": "people = gens, personnes"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u006-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u006-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We do not have much time before the exam.",
+          "mot": "time",
+          "traduction": "temps",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This year I will take the baccalaureate.",
+          "mot": "year",
+          "traduction": "année",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Every day I revise for two hours.",
+          "mot": "day",
+          "traduction": "jour",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Many people speak both French and Arabic in Chad.",
+          "mot": "people",
+          "traduction": "gens, personnes",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "time",
-      "verso": "temps\n« We do not have much time before the exam. »"
+      "mot": "time",
+      "traduction": "temps",
+      "phrase": "We do not have much time before the exam."
     },
     {
-      "recto": "year",
-      "verso": "année\n« This year I will take the baccalaureate. »"
+      "mot": "year",
+      "traduction": "année",
+      "phrase": "This year I will take the baccalaureate."
     },
     {
-      "recto": "day",
-      "verso": "jour\n« Every day I revise for two hours. »"
+      "mot": "day",
+      "traduction": "jour",
+      "phrase": "Every day I revise for two hours."
     },
     {
-      "recto": "people",
-      "verso": "gens, personnes\n« Many people speak both French and Arabic in Chad. »"
+      "mot": "people",
+      "traduction": "gens, personnes",
+      "phrase": "Many people speak both French and Arabic in Chad."
     }
   ]
 }
