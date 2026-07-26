@@ -1,7 +1,7 @@
 {
   "id": "anglais-u062",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Essay Writing & Useful Expressions (1/3)",
   "ordre": 62,
   "source": {
@@ -14,42 +14,47 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u062-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u062-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u062-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "What is the structure of an English essay?",
-          "reponseAttendue": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion).",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
+          ],
           "explication": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Give 3 connectors for adding ideas.",
-          "reponseAttendue": "Furthermore, moreover, in addition, besides.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "Furthermore, moreover, in addition, besides."
+          ],
           "explication": "Furthermore, moreover, in addition, besides."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Give 3 connectors for contrast.",
-          "reponseAttendue": "However, nevertheless, on the other hand, whereas.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "However, nevertheless, on the other hand, whereas."
+          ],
           "explication": "However, nevertheless, on the other hand, whereas."
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "Give 3 connectors for cause/consequence.",
-          "reponseAttendue": "Because, therefore, as a result, consequently, due to.",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "Because, therefore, as a result, consequently, due to."
+          ],
           "explication": "Because, therefore, as a result, consequently, due to."
         }
       ]
@@ -100,22 +105,10 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "What is the structure of an English essay?",
-      "verso": "Introduction (hook + thesis), Body paragraphs (argument + example each), Conclusion (summary + opinion)."
-    },
-    {
-      "recto": "Give 3 connectors for adding ideas.",
-      "verso": "Furthermore, moreover, in addition, besides."
-    },
-    {
-      "recto": "Give 3 connectors for contrast.",
-      "verso": "However, nevertheless, on the other hand, whereas."
-    },
-    {
-      "recto": "Give 3 connectors for cause/consequence.",
-      "verso": "Because, therefore, as a result, consequently, due to."
-    }
-  ]
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }

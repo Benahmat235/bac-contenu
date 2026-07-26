@@ -1,7 +1,7 @@
 {
   "id": "anglais-u042",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Technology and Media (4/4)",
   "ordre": 42,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u042-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u042-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u042-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to share",
-          "reponseAttendue": "partager\n« Share this application with your classmates. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "partager\n« Share this application with your classmates. »"
+          "type": "mot_en_contexte",
+          "mot": "to share",
+          "traduction": "partager",
+          "phrase": "Share this application with your classmates.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to connect",
-          "reponseAttendue": "se connecter\n« Connect to the internet once a week. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "se connecter\n« Connect to the internet once a week. »"
+          "type": "mot_en_contexte",
+          "mot": "to connect",
+          "traduction": "se connecter",
+          "phrase": "Connect to the internet once a week.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "free",
-          "reponseAttendue": "gratuit\n« This application is completely free. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "gratuit\n« This application is completely free. »"
+          "type": "mot_en_contexte",
+          "mot": "free",
+          "traduction": "gratuit",
+          "phrase": "This application is completely free.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "useful",
-          "reponseAttendue": "utile\n« Videos are useful for understanding grammar. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "utile\n« Videos are useful for understanding grammar. »"
+          "type": "mot_en_contexte",
+          "mot": "useful",
+          "traduction": "utile",
+          "phrase": "Videos are useful for understanding grammar.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u042-type",
+      "id": "anglais-u042-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u042-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ this application with your classmates.",
           "reponse": "Share",
           "toleranceMots": 0,
+          "indice": "partager",
           "explication": "to share = partager"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___ to the internet once a week.",
           "reponse": "Connect",
           "toleranceMots": 0,
+          "indice": "se connecter",
           "explication": "to connect = se connecter"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "This application is completely ___.",
           "reponse": "free",
           "toleranceMots": 0,
+          "indice": "gratuit",
           "explication": "free = gratuit"
         },
         {
@@ -87,72 +97,112 @@
           "phrase": "Videos are ___ for understanding grammar.",
           "reponse": "useful",
           "toleranceMots": 0,
+          "indice": "utile",
           "explication": "useful = utile"
         }
       ]
     },
     {
-      "id": "anglais-u042-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u042-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u042-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to share » mean?",
-          "options": [
-            "ordinateur",
-            "prévenir, empêcher",
-            "partager",
-            "hôpital"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « partager »",
+          "reponsesAcceptees": [
+            "to share",
+            "share"
           ],
-          "reponse": 2,
           "explication": "to share = partager"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to connect » mean?",
-          "options": [
-            "se connecter",
-            "déchets",
-            "tard, en retard",
-            "de plus"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « se connecter »",
+          "reponsesAcceptees": [
+            "to connect",
+            "connect"
           ],
-          "reponse": 0,
           "explication": "to connect = se connecter"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « free » mean?",
-          "options": [
-            "médicament",
-            "gratuit",
-            "but, objectif",
-            "internet"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « gratuit »",
+          "reponsesAcceptees": [
+            "free"
           ],
-          "reponse": 1,
           "explication": "free = gratuit"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « utile »",
+          "reponsesAcceptees": [
+            "useful"
+          ],
+          "explication": "useful = utile"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u042-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u042-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Share this application with your classmates.",
+          "mot": "to share",
+          "traduction": "partager",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Connect to the internet once a week.",
+          "mot": "to connect",
+          "traduction": "se connecter",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This application is completely free.",
+          "mot": "free",
+          "traduction": "gratuit",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Videos are useful for understanding grammar.",
+          "mot": "useful",
+          "traduction": "utile",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to share",
-      "verso": "partager\n« Share this application with your classmates. »"
+      "mot": "to share",
+      "traduction": "partager",
+      "phrase": "Share this application with your classmates."
     },
     {
-      "recto": "to connect",
-      "verso": "se connecter\n« Connect to the internet once a week. »"
+      "mot": "to connect",
+      "traduction": "se connecter",
+      "phrase": "Connect to the internet once a week."
     },
     {
-      "recto": "free",
-      "verso": "gratuit\n« This application is completely free. »"
+      "mot": "free",
+      "traduction": "gratuit",
+      "phrase": "This application is completely free."
     },
     {
-      "recto": "useful",
-      "verso": "utile\n« Videos are useful for understanding grammar. »"
+      "mot": "useful",
+      "traduction": "utile",
+      "phrase": "Videos are useful for understanding grammar."
     }
   ]
 }

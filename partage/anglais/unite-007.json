@@ -1,7 +1,7 @@
 {
   "id": "anglais-u007",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Nouns — People and Places (2/4)",
   "ordre": 7,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u007-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u007-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "country",
-          "reponseAttendue": "pays\n« Chad is a large country in Central Africa. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "pays\n« Chad is a large country in Central Africa. »"
+          "type": "mot_en_contexte",
+          "mot": "country",
+          "traduction": "pays",
+          "phrase": "Chad is a large country in Central Africa.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "school",
-          "reponseAttendue": "école\n« Our school is near the market. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "école\n« Our school is near the market. »"
+          "type": "mot_en_contexte",
+          "mot": "school",
+          "traduction": "école",
+          "phrase": "Our school is near the market.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "student",
-          "reponseAttendue": "élève, étudiant\n« Every student must bring a pen. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "élève, étudiant\n« Every student must bring a pen. »"
+          "type": "mot_en_contexte",
+          "mot": "student",
+          "traduction": "élève, étudiant",
+          "phrase": "Every student must bring a pen.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "teacher",
-          "reponseAttendue": "enseignant\n« The teacher explained the lesson clearly. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "enseignant\n« The teacher explained the lesson clearly. »"
+          "type": "mot_en_contexte",
+          "mot": "teacher",
+          "traduction": "enseignant",
+          "phrase": "The teacher explained the lesson clearly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u007-type",
+      "id": "anglais-u007-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "Chad is a large ___ in Central Africa.",
           "reponse": "country",
           "toleranceMots": 0,
+          "indice": "pays",
           "explication": "country = pays"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Our ___ is near the market.",
           "reponse": "school",
           "toleranceMots": 0,
+          "indice": "école",
           "explication": "school = école"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Every ___ must bring a pen.",
           "reponse": "student",
           "toleranceMots": 0,
+          "indice": "élève, étudiant",
           "explication": "student = élève, étudiant"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "The ___ explained the lesson clearly.",
           "reponse": "teacher",
           "toleranceMots": 0,
+          "indice": "enseignant",
           "explication": "teacher = enseignant"
         }
       ]
     },
     {
-      "id": "anglais-u007-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u007-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u007-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « country » mean?",
-          "options": [
-            "toujours",
-            "pays",
-            "réussir (un examen)",
-            "se lever"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « pays »",
+          "reponsesAcceptees": [
+            "country"
           ],
-          "reponse": 1,
           "explication": "country = pays"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « school » mean?",
-          "options": [
-            "leçon",
-            "en plus de cela",
-            "école",
-            "trouver"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « école »",
+          "reponsesAcceptees": [
+            "school"
           ],
-          "reponse": 2,
           "explication": "school = école"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « student » mean?",
-          "options": [
-            "donner",
-            "élève, étudiant",
-            "but, objectif",
-            "souligner, faire remarquer"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « élève, étudiant »",
+          "reponsesAcceptees": [
+            "student"
           ],
-          "reponse": 1,
           "explication": "student = élève, étudiant"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « enseignant »",
+          "reponsesAcceptees": [
+            "teacher"
+          ],
+          "explication": "teacher = enseignant"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u007-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u007-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Chad is a large country in Central Africa.",
+          "mot": "country",
+          "traduction": "pays",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Our school is near the market.",
+          "mot": "school",
+          "traduction": "école",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Every student must bring a pen.",
+          "mot": "student",
+          "traduction": "élève, étudiant",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The teacher explained the lesson clearly.",
+          "mot": "teacher",
+          "traduction": "enseignant",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "country",
-      "verso": "pays\n« Chad is a large country in Central Africa. »"
+      "mot": "country",
+      "traduction": "pays",
+      "phrase": "Chad is a large country in Central Africa."
     },
     {
-      "recto": "school",
-      "verso": "école\n« Our school is near the market. »"
+      "mot": "school",
+      "traduction": "école",
+      "phrase": "Our school is near the market."
     },
     {
-      "recto": "student",
-      "verso": "élève, étudiant\n« Every student must bring a pen. »"
+      "mot": "student",
+      "traduction": "élève, étudiant",
+      "phrase": "Every student must bring a pen."
     },
     {
-      "recto": "teacher",
-      "verso": "enseignant\n« The teacher explained the lesson clearly. »"
+      "mot": "teacher",
+      "traduction": "enseignant",
+      "phrase": "The teacher explained the lesson clearly."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "anglais-u039",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Technology and Media (2/4)",
   "ordre": 39,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u039-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u039-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u039-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "news",
-          "reponseAttendue": "informations, nouvelles\n« I listen to the news every morning. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "informations, nouvelles\n« I listen to the news every morning. »"
+          "type": "mot_en_contexte",
+          "mot": "news",
+          "traduction": "informations, nouvelles",
+          "phrase": "I listen to the news every morning.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "information",
-          "reponseAttendue": "information\n« Check the information before sharing it. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "information\n« Check the information before sharing it. »"
+          "type": "mot_en_contexte",
+          "mot": "information",
+          "traduction": "information",
+          "phrase": "Check the information before sharing it.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "message",
-          "reponseAttendue": "message\n« She sent me a message this morning. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "message\n« She sent me a message this morning. »"
+          "type": "mot_en_contexte",
+          "mot": "message",
+          "traduction": "message",
+          "phrase": "She sent me a message this morning.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "website",
-          "reponseAttendue": "site web\n« This website explains the lesson clearly. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "site web\n« This website explains the lesson clearly. »"
+          "type": "mot_en_contexte",
+          "mot": "website",
+          "traduction": "site web",
+          "phrase": "This website explains the lesson clearly.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u039-type",
+      "id": "anglais-u039-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u039-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "I listen to the ___ every morning.",
           "reponse": "news",
           "toleranceMots": 0,
+          "indice": "informations, nouvelles",
           "explication": "news = informations, nouvelles"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Check the ___ before sharing it.",
           "reponse": "information",
           "toleranceMots": 0,
+          "indice": "information",
           "explication": "information = information"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "She sent me a ___ this morning.",
           "reponse": "message",
           "toleranceMots": 0,
+          "indice": "message",
           "explication": "message = message"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "This ___ explains the lesson clearly.",
           "reponse": "website",
           "toleranceMots": 0,
+          "indice": "site web",
           "explication": "website = site web"
         }
       ]
     },
     {
-      "id": "anglais-u039-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u039-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u039-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « news » mean?",
-          "options": [
-            "tandis que",
-            "note",
-            "informations, nouvelles",
-            "aller"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « informations, nouvelles »",
+          "reponsesAcceptees": [
+            "news"
           ],
-          "reponse": 2,
           "explication": "news = informations, nouvelles"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « information » mean?",
-          "options": [
-            "bourse d'études",
-            "grandir",
-            "penser",
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « information »",
+          "reponsesAcceptees": [
             "information"
           ],
-          "reponse": 3,
           "explication": "information = information"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « message » mean?",
-          "options": [
-            "tôt",
-            "message",
-            "fabriquer, faire",
-            "soutenir"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « message »",
+          "reponsesAcceptees": [
+            "message"
           ],
-          "reponse": 1,
           "explication": "message = message"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « site web »",
+          "reponsesAcceptees": [
+            "website"
+          ],
+          "explication": "website = site web"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u039-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u039-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I listen to the news every morning.",
+          "mot": "news",
+          "traduction": "informations, nouvelles",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Check the information before sharing it.",
+          "mot": "information",
+          "traduction": "information",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She sent me a message this morning.",
+          "mot": "message",
+          "traduction": "message",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This website explains the lesson clearly.",
+          "mot": "website",
+          "traduction": "site web",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "news",
-      "verso": "informations, nouvelles\n« I listen to the news every morning. »"
+      "mot": "news",
+      "traduction": "informations, nouvelles",
+      "phrase": "I listen to the news every morning."
     },
     {
-      "recto": "information",
-      "verso": "information\n« Check the information before sharing it. »"
+      "mot": "information",
+      "traduction": "information",
+      "phrase": "Check the information before sharing it."
     },
     {
-      "recto": "message",
-      "verso": "message\n« She sent me a message this morning. »"
+      "mot": "message",
+      "traduction": "message",
+      "phrase": "She sent me a message this morning."
     },
     {
-      "recto": "website",
-      "verso": "site web\n« This website explains the lesson clearly. »"
+      "mot": "website",
+      "traduction": "site web",
+      "phrase": "This website explains the lesson clearly."
     }
   ]
 }

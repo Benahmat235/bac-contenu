@@ -1,7 +1,7 @@
 {
   "id": "anglais-u014",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Adjectives and Adverbs (3/4)",
   "ordre": 14,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u014-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u014-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u014-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "new",
-          "reponseAttendue": "nouveau\n« The school bought new tables. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "nouveau\n« The school bought new tables. »"
+          "type": "mot_en_contexte",
+          "mot": "new",
+          "traduction": "nouveau",
+          "phrase": "The school bought new tables.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "early",
-          "reponseAttendue": "tôt\n« I wake up early to study. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "tôt\n« I wake up early to study. »"
+          "type": "mot_en_contexte",
+          "mot": "early",
+          "traduction": "tôt",
+          "phrase": "I wake up early to study.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "late",
-          "reponseAttendue": "tard, en retard\n« Do not arrive late for the exam. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "tard, en retard\n« Do not arrive late for the exam. »"
+          "type": "mot_en_contexte",
+          "mot": "late",
+          "traduction": "tard, en retard",
+          "phrase": "Do not arrive late for the exam.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "always",
-          "reponseAttendue": "toujours\n« He always answers politely. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "toujours\n« He always answers politely. »"
+          "type": "mot_en_contexte",
+          "mot": "always",
+          "traduction": "toujours",
+          "phrase": "He always answers politely.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u014-type",
+      "id": "anglais-u014-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u014-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "The school bought ___ tables.",
           "reponse": "new",
           "toleranceMots": 0,
+          "indice": "nouveau",
           "explication": "new = nouveau"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "I wake up ___ to study.",
           "reponse": "early",
           "toleranceMots": 0,
+          "indice": "tôt",
           "explication": "early = tôt"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Do not arrive ___ for the exam.",
           "reponse": "late",
           "toleranceMots": 0,
+          "indice": "tard, en retard",
           "explication": "late = tard, en retard"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "He ___ answers politely.",
           "reponse": "always",
           "toleranceMots": 0,
+          "indice": "toujours",
           "explication": "always = toujours"
         }
       ]
     },
     {
-      "id": "anglais-u014-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u014-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u014-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « new » mean?",
-          "options": [
-            "tôt",
-            "nouveau",
-            "environnement",
-            "cependant"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « nouveau »",
+          "reponsesAcceptees": [
+            "new"
           ],
-          "reponse": 1,
           "explication": "new = nouveau"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « early » mean?",
-          "options": [
-            "mauvais",
-            "tôt",
-            "venir",
-            "famille"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « tôt »",
+          "reponsesAcceptees": [
+            "early"
           ],
-          "reponse": 1,
           "explication": "early = tôt"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « late » mean?",
-          "options": [
-            "médicament",
-            "rapidement",
-            "tard, en retard",
-            "justifier"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « tard, en retard »",
+          "reponsesAcceptees": [
+            "late"
           ],
-          "reponse": 2,
           "explication": "late = tard, en retard"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « toujours »",
+          "reponsesAcceptees": [
+            "always"
+          ],
+          "explication": "always = toujours"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u014-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u014-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The school bought new tables.",
+          "mot": "new",
+          "traduction": "nouveau",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I wake up early to study.",
+          "mot": "early",
+          "traduction": "tôt",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Do not arrive late for the exam.",
+          "mot": "late",
+          "traduction": "tard, en retard",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He always answers politely.",
+          "mot": "always",
+          "traduction": "toujours",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "new",
-      "verso": "nouveau\n« The school bought new tables. »"
+      "mot": "new",
+      "traduction": "nouveau",
+      "phrase": "The school bought new tables."
     },
     {
-      "recto": "early",
-      "verso": "tôt\n« I wake up early to study. »"
+      "mot": "early",
+      "traduction": "tôt",
+      "phrase": "I wake up early to study."
     },
     {
-      "recto": "late",
-      "verso": "tard, en retard\n« Do not arrive late for the exam. »"
+      "mot": "late",
+      "traduction": "tard, en retard",
+      "phrase": "Do not arrive late for the exam."
     },
     {
-      "recto": "always",
-      "verso": "toujours\n« He always answers politely. »"
+      "mot": "always",
+      "traduction": "toujours",
+      "phrase": "He always answers politely."
     }
   ]
 }

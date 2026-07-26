@@ -1,7 +1,7 @@
 {
   "id": "anglais-u018",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Connectors — Linking Your Ideas (2/4)",
   "ordre": 18,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u018-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u018-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u018-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "moreover",
-          "reponseAttendue": "de plus\n« Moreover, education reduces poverty. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "de plus\n« Moreover, education reduces poverty. »"
+          "type": "mot_en_contexte",
+          "mot": "moreover",
+          "traduction": "de plus",
+          "phrase": "Moreover, education reduces poverty.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "for example",
-          "reponseAttendue": "par exemple\n« Some crops, for example cotton, are exported. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "par exemple\n« Some crops, for example cotton, are exported. »"
+          "type": "mot_en_contexte",
+          "mot": "for example",
+          "traduction": "par exemple",
+          "phrase": "Some crops, for example cotton, are exported.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "in addition",
-          "reponseAttendue": "en outre\n« In addition, the library opened last year. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "en outre\n« In addition, the library opened last year. »"
+          "type": "mot_en_contexte",
+          "mot": "in addition",
+          "traduction": "en outre",
+          "phrase": "In addition, the library opened last year.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "on the other hand",
-          "reponseAttendue": "d'autre part\n« On the other hand, some families cannot pay fees. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "d'autre part\n« On the other hand, some families cannot pay fees. »"
+          "type": "mot_en_contexte",
+          "mot": "on the other hand",
+          "traduction": "d'autre part",
+          "phrase": "On the other hand, some families cannot pay fees.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u018-type",
+      "id": "anglais-u018-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u018-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___, education reduces poverty.",
           "reponse": "Moreover",
           "toleranceMots": 0,
+          "indice": "de plus",
           "explication": "moreover = de plus"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Some crops, ___ cotton, are exported.",
           "reponse": "for example",
           "toleranceMots": 0,
+          "indice": "par exemple",
           "explication": "for example = par exemple"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___, the library opened last year.",
           "reponse": "In addition",
           "toleranceMots": 0,
+          "indice": "en outre",
           "explication": "in addition = en outre"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "___, some families cannot pay fees.",
           "reponse": "On the other hand",
           "toleranceMots": 0,
+          "indice": "d'autre part",
           "explication": "on the other hand = d'autre part"
         }
       ]
     },
     {
-      "id": "anglais-u018-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u018-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u018-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « moreover » mean?",
-          "options": [
-            "de plus",
-            "allumer",
-            "preuve",
-            "savoir, connaître"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « de plus »",
+          "reponsesAcceptees": [
+            "moreover"
           ],
-          "reponse": 0,
           "explication": "moreover = de plus"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « for example » mean?",
-          "options": [
-            "mauvais",
-            "par exemple",
-            "assister à, fréquenter",
-            "traiter de"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « par exemple »",
+          "reponsesAcceptees": [
+            "for example"
           ],
-          "reponse": 1,
           "explication": "for example = par exemple"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « in addition » mean?",
-          "options": [
-            "en outre",
-            "pluie",
-            "expliquer",
-            "faire"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « en outre »",
+          "reponsesAcceptees": [
+            "in addition"
           ],
-          "reponse": 0,
           "explication": "in addition = en outre"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « d'autre part »",
+          "reponsesAcceptees": [
+            "on the other hand"
+          ],
+          "explication": "on the other hand = d'autre part"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u018-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u018-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Moreover, education reduces poverty.",
+          "mot": "moreover",
+          "traduction": "de plus",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Some crops, for example cotton, are exported.",
+          "mot": "for example",
+          "traduction": "par exemple",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "In addition, the library opened last year.",
+          "mot": "in addition",
+          "traduction": "en outre",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "On the other hand, some families cannot pay fees.",
+          "mot": "on the other hand",
+          "traduction": "d'autre part",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "moreover",
-      "verso": "de plus\n« Moreover, education reduces poverty. »"
+      "mot": "moreover",
+      "traduction": "de plus",
+      "phrase": "Moreover, education reduces poverty."
     },
     {
-      "recto": "for example",
-      "verso": "par exemple\n« Some crops, for example cotton, are exported. »"
+      "mot": "for example",
+      "traduction": "par exemple",
+      "phrase": "Some crops, for example cotton, are exported."
     },
     {
-      "recto": "in addition",
-      "verso": "en outre\n« In addition, the library opened last year. »"
+      "mot": "in addition",
+      "traduction": "en outre",
+      "phrase": "In addition, the library opened last year."
     },
     {
-      "recto": "on the other hand",
-      "verso": "d'autre part\n« On the other hand, some families cannot pay fees. »"
+      "mot": "on the other hand",
+      "traduction": "d'autre part",
+      "phrase": "On the other hand, some families cannot pay fees."
     }
   ]
 }

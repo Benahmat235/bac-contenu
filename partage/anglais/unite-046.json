@@ -1,7 +1,7 @@
 {
   "id": "anglais-u046",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Academic Verbs for the Exam (3/4)",
   "ordre": 46,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u046-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u046-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u046-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to prove",
-          "reponseAttendue": "prouver\n« These figures prove that progress is real. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "prouver\n« These figures prove that progress is real. »"
+          "type": "mot_en_contexte",
+          "mot": "to prove",
+          "traduction": "prouver",
+          "phrase": "These figures prove that progress is real.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to point out",
-          "reponseAttendue": "souligner, faire remarquer\n« The author points out a serious risk. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "souligner, faire remarquer\n« The author points out a serious risk. »"
+          "type": "mot_en_contexte",
+          "mot": "to point out",
+          "traduction": "souligner, faire remarquer",
+          "phrase": "The author points out a serious risk.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to deal with",
-          "reponseAttendue": "traiter de\n« This text deals with rural migration. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "traiter de\n« This text deals with rural migration. »"
+          "type": "mot_en_contexte",
+          "mot": "to deal with",
+          "traduction": "traiter de",
+          "phrase": "This text deals with rural migration.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to focus on",
-          "reponseAttendue": "se concentrer sur\n« Focus on the main idea of the paragraph. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "se concentrer sur\n« Focus on the main idea of the paragraph. »"
+          "type": "mot_en_contexte",
+          "mot": "to focus on",
+          "traduction": "se concentrer sur",
+          "phrase": "Focus on the main idea of the paragraph.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u046-type",
+      "id": "anglais-u046-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u046-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "These figures ___ that progress is real.",
           "reponse": "prove",
           "toleranceMots": 0,
+          "indice": "prouver",
           "explication": "to prove = prouver"
         },
         {
@@ -73,72 +81,114 @@
           "phrase": "___ the main idea of the paragraph.",
           "reponse": "Focus on",
           "toleranceMots": 0,
+          "indice": "se concentrer sur",
           "explication": "to focus on = se concentrer sur"
         }
       ]
     },
     {
-      "id": "anglais-u046-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u046-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u046-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to prove » mean?",
-          "options": [
-            "prouver",
-            "climat",
-            "élève, étudiant",
-            "élever (un enfait)"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « prouver »",
+          "reponsesAcceptees": [
+            "to prove",
+            "prove"
           ],
-          "reponse": 0,
           "explication": "to prove = prouver"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to point out » mean?",
-          "options": [
-            "marché",
-            "souligner, faire remarquer",
-            "protéger",
-            "parce que"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « souligner, faire remarquer »",
+          "reponsesAcceptees": [
+            "to point out",
+            "point out"
           ],
-          "reponse": 1,
           "explication": "to point out = souligner, faire remarquer"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to deal with » mean?",
-          "options": [
-            "preuve",
-            "but, objectif",
-            "traiter de",
-            "internet"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « traiter de »",
+          "reponsesAcceptees": [
+            "to deal with",
+            "deal with"
           ],
-          "reponse": 2,
           "explication": "to deal with = traiter de"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « se concentrer sur »",
+          "reponsesAcceptees": [
+            "to focus on",
+            "focus on"
+          ],
+          "explication": "to focus on = se concentrer sur"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u046-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u046-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "These figures prove that progress is real.",
+          "mot": "to prove",
+          "traduction": "prouver",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The author points out a serious risk.",
+          "mot": "to point out",
+          "traduction": "souligner, faire remarquer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This text deals with rural migration.",
+          "mot": "to deal with",
+          "traduction": "traiter de",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Focus on the main idea of the paragraph.",
+          "mot": "to focus on",
+          "traduction": "se concentrer sur",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to prove",
-      "verso": "prouver\n« These figures prove that progress is real. »"
+      "mot": "to prove",
+      "traduction": "prouver",
+      "phrase": "These figures prove that progress is real."
     },
     {
-      "recto": "to point out",
-      "verso": "souligner, faire remarquer\n« The author points out a serious risk. »"
+      "mot": "to point out",
+      "traduction": "souligner, faire remarquer",
+      "phrase": "The author points out a serious risk."
     },
     {
-      "recto": "to deal with",
-      "verso": "traiter de\n« This text deals with rural migration. »"
+      "mot": "to deal with",
+      "traduction": "traiter de",
+      "phrase": "This text deals with rural migration."
     },
     {
-      "recto": "to focus on",
-      "verso": "se concentrer sur\n« Focus on the main idea of the paragraph. »"
+      "mot": "to focus on",
+      "traduction": "se concentrer sur",
+      "phrase": "Focus on the main idea of the paragraph."
     }
   ]
 }

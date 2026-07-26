@@ -1,7 +1,7 @@
 {
   "id": "anglais-u010",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Nouns — People and Places (4/4)",
   "ordre": 10,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u010-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u010-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "city",
-          "reponseAttendue": "ville\n« N'Djamena is the capital city of Chad. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "ville\n« N'Djamena is the capital city of Chad. »"
+          "type": "mot_en_contexte",
+          "mot": "city",
+          "traduction": "ville",
+          "phrase": "N'Djamena is the capital city of Chad.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "village",
-          "reponseAttendue": "village\n« She grew up in a small village. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "village\n« She grew up in a small village. »"
+          "type": "mot_en_contexte",
+          "mot": "village",
+          "traduction": "village",
+          "phrase": "She grew up in a small village.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "life",
-          "reponseAttendue": "vie\n« Education can change your life. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "vie\n« Education can change your life. »"
+          "type": "mot_en_contexte",
+          "mot": "life",
+          "traduction": "vie",
+          "phrase": "Education can change your life.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "future",
-          "reponseAttendue": "avenir\n« I am preparing for my future. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "avenir\n« I am preparing for my future. »"
+          "type": "mot_en_contexte",
+          "mot": "future",
+          "traduction": "avenir",
+          "phrase": "I am preparing for my future.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u010-type",
+      "id": "anglais-u010-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "N'Djamena is the capital ___ of Chad.",
           "reponse": "city",
           "toleranceMots": 0,
+          "indice": "ville",
           "explication": "city = ville"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "She grew up in a small ___.",
           "reponse": "village",
           "toleranceMots": 0,
+          "indice": "village",
           "explication": "village = village"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Education can change your ___.",
           "reponse": "life",
           "toleranceMots": 0,
+          "indice": "vie",
           "explication": "life = vie"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "I am preparing for my ___.",
           "reponse": "future",
           "toleranceMots": 0,
+          "indice": "avenir",
           "explication": "future = avenir"
         }
       ]
     },
     {
-      "id": "anglais-u010-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u010-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u010-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « city » mean?",
-          "options": [
-            "grand, vaste",
-            "bon",
-            "ville",
-            "réussir (un examen)"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « ville »",
+          "reponsesAcceptees": [
+            "city"
           ],
-          "reponse": 2,
           "explication": "city = ville"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « village » mean?",
-          "options": [
-            "continuer",
-            "village",
-            "problème, question",
-            "marché"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « village »",
+          "reponsesAcceptees": [
+            "village"
           ],
-          "reponse": 1,
           "explication": "village = village"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « life » mean?",
-          "options": [
-            "partager",
-            "se connecter",
-            "vie",
-            "temps"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « vie »",
+          "reponsesAcceptees": [
+            "life"
           ],
-          "reponse": 2,
           "explication": "life = vie"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « avenir »",
+          "reponsesAcceptees": [
+            "future"
+          ],
+          "explication": "future = avenir"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u010-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u010-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "N'Djamena is the capital city of Chad.",
+          "mot": "city",
+          "traduction": "ville",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "She grew up in a small village.",
+          "mot": "village",
+          "traduction": "village",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Education can change your life.",
+          "mot": "life",
+          "traduction": "vie",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I am preparing for my future.",
+          "mot": "future",
+          "traduction": "avenir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "city",
-      "verso": "ville\n« N'Djamena is the capital city of Chad. »"
+      "mot": "city",
+      "traduction": "ville",
+      "phrase": "N'Djamena is the capital city of Chad."
     },
     {
-      "recto": "village",
-      "verso": "village\n« She grew up in a small village. »"
+      "mot": "village",
+      "traduction": "village",
+      "phrase": "She grew up in a small village."
     },
     {
-      "recto": "life",
-      "verso": "vie\n« Education can change your life. »"
+      "mot": "life",
+      "traduction": "vie",
+      "phrase": "Education can change your life."
     },
     {
-      "recto": "future",
-      "verso": "avenir\n« I am preparing for my future. »"
+      "mot": "future",
+      "traduction": "avenir",
+      "phrase": "I am preparing for my future."
     }
   ]
 }

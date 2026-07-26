@@ -1,7 +1,7 @@
 {
   "id": "anglais-u023",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Education and Exams (2/4)",
   "ordre": 23,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u023-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u023-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u023-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "mark",
-          "reponseAttendue": "note\n« He got the best mark in the class. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "note\n« He got the best mark in the class. »"
+          "type": "mot_en_contexte",
+          "mot": "mark",
+          "traduction": "note",
+          "phrase": "He got the best mark in the class.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "subject",
-          "reponseAttendue": "matière\n« My favourite subject is biology. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "matière\n« My favourite subject is biology. »"
+          "type": "mot_en_contexte",
+          "mot": "subject",
+          "traduction": "matière",
+          "phrase": "My favourite subject is biology.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "homework",
-          "reponseAttendue": "devoirs\n« The homework is due on Friday. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "devoirs\n« The homework is due on Friday. »"
+          "type": "mot_en_contexte",
+          "mot": "homework",
+          "traduction": "devoirs",
+          "phrase": "The homework is due on Friday.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "lesson",
-          "reponseAttendue": "leçon\n« This lesson explains the water cycle. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "leçon\n« This lesson explains the water cycle. »"
+          "type": "mot_en_contexte",
+          "mot": "lesson",
+          "traduction": "leçon",
+          "phrase": "This lesson explains the water cycle.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u023-type",
+      "id": "anglais-u023-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u023-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "He got the best ___ in the class.",
           "reponse": "mark",
           "toleranceMots": 0,
+          "indice": "note",
           "explication": "mark = note"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "My favourite ___ is biology.",
           "reponse": "subject",
           "toleranceMots": 0,
+          "indice": "matière",
           "explication": "subject = matière"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "The ___ is due on Friday.",
           "reponse": "homework",
           "toleranceMots": 0,
+          "indice": "devoirs",
           "explication": "homework = devoirs"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "This ___ explains the water cycle.",
           "reponse": "lesson",
           "toleranceMots": 0,
+          "indice": "leçon",
           "explication": "lesson = leçon"
         }
       ]
     },
     {
-      "id": "anglais-u023-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u023-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u023-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « mark » mean?",
-          "options": [
-            "parce que",
-            "note",
-            "commerce",
-            "d'autre part"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « note »",
+          "reponsesAcceptees": [
+            "mark"
           ],
-          "reponse": 1,
           "explication": "mark = note"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « subject » mean?",
-          "options": [
-            "savoir, connaître",
-            "matière",
-            "remplir",
-            "nourriture"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « matière »",
+          "reponsesAcceptees": [
+            "subject"
           ],
-          "reponse": 1,
           "explication": "subject = matière"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « homework » mean?",
-          "options": [
-            "argent",
-            "devoirs",
-            "bon",
-            "mémoriser"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « devoirs »",
+          "reponsesAcceptees": [
+            "homework"
           ],
-          "reponse": 1,
           "explication": "homework = devoirs"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « leçon »",
+          "reponsesAcceptees": [
+            "lesson"
+          ],
+          "explication": "lesson = leçon"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u023-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u023-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He got the best mark in the class.",
+          "mot": "mark",
+          "traduction": "note",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "My favourite subject is biology.",
+          "mot": "subject",
+          "traduction": "matière",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The homework is due on Friday.",
+          "mot": "homework",
+          "traduction": "devoirs",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "This lesson explains the water cycle.",
+          "mot": "lesson",
+          "traduction": "leçon",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "mark",
-      "verso": "note\n« He got the best mark in the class. »"
+      "mot": "mark",
+      "traduction": "note",
+      "phrase": "He got the best mark in the class."
     },
     {
-      "recto": "subject",
-      "verso": "matière\n« My favourite subject is biology. »"
+      "mot": "subject",
+      "traduction": "matière",
+      "phrase": "My favourite subject is biology."
     },
     {
-      "recto": "homework",
-      "verso": "devoirs\n« The homework is due on Friday. »"
+      "mot": "homework",
+      "traduction": "devoirs",
+      "phrase": "The homework is due on Friday."
     },
     {
-      "recto": "lesson",
-      "verso": "leçon\n« This lesson explains the water cycle. »"
+      "mot": "lesson",
+      "traduction": "leçon",
+      "phrase": "This lesson explains the water cycle."
     }
   ]
 }

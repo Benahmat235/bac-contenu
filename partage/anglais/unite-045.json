@@ -1,7 +1,7 @@
 {
   "id": "anglais-u045",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Academic Verbs for the Exam (2/4)",
   "ordre": 45,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u045-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u045-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u045-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "to summarize",
-          "reponseAttendue": "résumer\n« Summarize the passage in your own words. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "résumer\n« Summarize the passage in your own words. »"
+          "type": "mot_en_contexte",
+          "mot": "to summarize",
+          "traduction": "résumer",
+          "phrase": "Summarize the passage in your own words.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to define",
-          "reponseAttendue": "définir\n« Define the word « development ». »",
-          "modeReponse": "auto_evaluation",
-          "explication": "définir\n« Define the word « development ». »"
+          "type": "mot_en_contexte",
+          "mot": "to define",
+          "traduction": "définir",
+          "phrase": "Define the word « development ».",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to analyse",
-          "reponseAttendue": "analyser\n« Analyse the causes of the drought. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "analyser\n« Analyse the causes of the drought. »"
+          "type": "mot_en_contexte",
+          "mot": "to analyse",
+          "traduction": "analyser",
+          "phrase": "Analyse the causes of the drought.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "to suggest",
-          "reponseAttendue": "suggérer\n« Suggest two solutions to this problem. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "suggérer\n« Suggest two solutions to this problem. »"
+          "type": "mot_en_contexte",
+          "mot": "to suggest",
+          "traduction": "suggérer",
+          "phrase": "Suggest two solutions to this problem.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u045-type",
+      "id": "anglais-u045-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u045-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "___ the passage in your own words.",
           "reponse": "Summarize",
           "toleranceMots": 0,
+          "indice": "résumer",
           "explication": "to summarize = résumer"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "___ the word « development ».",
           "reponse": "Define",
           "toleranceMots": 0,
+          "indice": "définir",
           "explication": "to define = définir"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "___ the causes of the drought.",
           "reponse": "Analyse",
           "toleranceMots": 0,
+          "indice": "analyser",
           "explication": "to analyse = analyser"
         },
         {
@@ -87,72 +97,114 @@
           "phrase": "___ two solutions to this problem.",
           "reponse": "Suggest",
           "toleranceMots": 0,
+          "indice": "suggérer",
           "explication": "to suggest = suggérer"
         }
       ]
     },
     {
-      "id": "anglais-u045-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u045-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u045-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « to summarize » mean?",
-          "options": [
-            "résumer",
-            "droits",
-            "avoir",
-            "information"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « résumer »",
+          "reponsesAcceptees": [
+            "to summarize",
+            "summarize"
           ],
-          "reponse": 0,
           "explication": "to summarize = résumer"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to define » mean?",
-          "options": [
-            "améliorer",
-            "définir",
-            "développement",
-            "se connecter"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « définir »",
+          "reponsesAcceptees": [
+            "to define",
+            "define"
           ],
-          "reponse": 1,
           "explication": "to define = définir"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « to analyse » mean?",
-          "options": [
-            "famille",
-            "élever (un enfait)",
-            "remplir",
-            "analyser"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « analyser »",
+          "reponsesAcceptees": [
+            "to analyse",
+            "analyse"
           ],
-          "reponse": 3,
           "explication": "to analyse = analyser"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « suggérer »",
+          "reponsesAcceptees": [
+            "to suggest",
+            "suggest"
+          ],
+          "explication": "to suggest = suggérer"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u045-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u045-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Summarize the passage in your own words.",
+          "mot": "to summarize",
+          "traduction": "résumer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Define the word « development ».",
+          "mot": "to define",
+          "traduction": "définir",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Analyse the causes of the drought.",
+          "mot": "to analyse",
+          "traduction": "analyser",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Suggest two solutions to this problem.",
+          "mot": "to suggest",
+          "traduction": "suggérer",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "to summarize",
-      "verso": "résumer\n« Summarize the passage in your own words. »"
+      "mot": "to summarize",
+      "traduction": "résumer",
+      "phrase": "Summarize the passage in your own words."
     },
     {
-      "recto": "to define",
-      "verso": "définir\n« Define the word « development ». »"
+      "mot": "to define",
+      "traduction": "définir",
+      "phrase": "Define the word « development »."
     },
     {
-      "recto": "to analyse",
-      "verso": "analyser\n« Analyse the causes of the drought. »"
+      "mot": "to analyse",
+      "traduction": "analyser",
+      "phrase": "Analyse the causes of the drought."
     },
     {
-      "recto": "to suggest",
-      "verso": "suggérer\n« Suggest two solutions to this problem. »"
+      "mot": "to suggest",
+      "traduction": "suggérer",
+      "phrase": "Suggest two solutions to this problem."
     }
   ]
 }

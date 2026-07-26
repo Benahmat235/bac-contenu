@@ -1,7 +1,7 @@
 {
   "id": "anglais-u013",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Core Adjectives and Adverbs (2/4)",
   "ordre": 13,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u013-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u013-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u013-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "easy",
-          "reponseAttendue": "facile\n« The first question was easy. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "facile\n« The first question was easy. »"
+          "type": "mot_en_contexte",
+          "mot": "easy",
+          "traduction": "facile",
+          "phrase": "The first question was easy.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "young",
-          "reponseAttendue": "jeune\n« Many young people want to study abroad. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "jeune\n« Many young people want to study abroad. »"
+          "type": "mot_en_contexte",
+          "mot": "young",
+          "traduction": "jeune",
+          "phrase": "Many young people want to study abroad.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "large",
-          "reponseAttendue": "grand, vaste\n« Chad has a large territory. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "grand, vaste\n« Chad has a large territory. »"
+          "type": "mot_en_contexte",
+          "mot": "large",
+          "traduction": "grand, vaste",
+          "phrase": "Chad has a large territory.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "small",
-          "reponseAttendue": "petit\n« We live in a small house. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "petit\n« We live in a small house. »"
+          "type": "mot_en_contexte",
+          "mot": "small",
+          "traduction": "petit",
+          "phrase": "We live in a small house.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u013-type",
+      "id": "anglais-u013-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u013-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "The first question was ___.",
           "reponse": "easy",
           "toleranceMots": 0,
+          "indice": "facile",
           "explication": "easy = facile"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "Many ___ people want to study abroad.",
           "reponse": "young",
           "toleranceMots": 0,
+          "indice": "jeune",
           "explication": "young = jeune"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "Chad has a ___ territory.",
           "reponse": "large",
           "toleranceMots": 0,
+          "indice": "grand, vaste",
           "explication": "large = grand, vaste"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "We live in a ___ house.",
           "reponse": "small",
           "toleranceMots": 0,
+          "indice": "petit",
           "explication": "small = petit"
         }
       ]
     },
     {
-      "id": "anglais-u013-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u013-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u013-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « easy » mean?",
-          "options": [
-            "justifier",
-            "télécharger",
-            "village",
-            "facile"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « facile »",
+          "reponsesAcceptees": [
+            "easy"
           ],
-          "reponse": 3,
           "explication": "easy = facile"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « young » mean?",
-          "options": [
-            "important",
-            "bon",
-            "marché",
-            "jeune"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « jeune »",
+          "reponsesAcceptees": [
+            "young"
           ],
-          "reponse": 3,
           "explication": "young = jeune"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « large » mean?",
-          "options": [
-            "devoirs",
-            "en fait",
-            "citoyen",
-            "grand, vaste"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « grand, vaste »",
+          "reponsesAcceptees": [
+            "large"
           ],
-          "reponse": 3,
           "explication": "large = grand, vaste"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « petit »",
+          "reponsesAcceptees": [
+            "small"
+          ],
+          "explication": "small = petit"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u013-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u013-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The first question was easy.",
+          "mot": "easy",
+          "traduction": "facile",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Many young people want to study abroad.",
+          "mot": "young",
+          "traduction": "jeune",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Chad has a large territory.",
+          "mot": "large",
+          "traduction": "grand, vaste",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "We live in a small house.",
+          "mot": "small",
+          "traduction": "petit",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "easy",
-      "verso": "facile\n« The first question was easy. »"
+      "mot": "easy",
+      "traduction": "facile",
+      "phrase": "The first question was easy."
     },
     {
-      "recto": "young",
-      "verso": "jeune\n« Many young people want to study abroad. »"
+      "mot": "young",
+      "traduction": "jeune",
+      "phrase": "Many young people want to study abroad."
     },
     {
-      "recto": "large",
-      "verso": "grand, vaste\n« Chad has a large territory. »"
+      "mot": "large",
+      "traduction": "grand, vaste",
+      "phrase": "Chad has a large territory."
     },
     {
-      "recto": "small",
-      "verso": "petit\n« We live in a small house. »"
+      "mot": "small",
+      "traduction": "petit",
+      "phrase": "We live in a small house."
     }
   ]
 }

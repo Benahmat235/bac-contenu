@@ -1,7 +1,7 @@
 {
   "id": "anglais-u017",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "Connectors — Linking Your Ideas (1/4)",
   "ordre": 17,
   "source": {
@@ -11,54 +11,61 @@
     "valideePar": "Benahmat235",
     "dateValidation": "2026-07-25"
   },
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  },
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u017-memo",
-      "titre": "Memorize",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u017-decouverte",
+      "titre": "Discover",
+      "categorie": "decouverte",
+      "seuilReussite": 0,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
-          "type": "rappel_actif",
-          "question": "because",
-          "reponseAttendue": "parce que\n« I study hard because I want to succeed. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "parce que\n« I study hard because I want to succeed. »"
+          "type": "mot_en_contexte",
+          "mot": "because",
+          "traduction": "parce que",
+          "phrase": "I study hard because I want to succeed.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "however",
-          "reponseAttendue": "cependant\n« The task was hard; however, we finished it. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "cependant\n« The task was hard; however, we finished it. »"
+          "type": "mot_en_contexte",
+          "mot": "however",
+          "traduction": "cependant",
+          "phrase": "The task was hard; however, we finished it.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "therefore",
-          "reponseAttendue": "donc, par conséquent\n« He was absent; therefore he missed the lesson. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "donc, par conséquent\n« He was absent; therefore he missed the lesson. »"
+          "type": "mot_en_contexte",
+          "mot": "therefore",
+          "traduction": "donc, par conséquent",
+          "phrase": "He was absent; therefore he missed the lesson.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
         {
-          "type": "rappel_actif",
-          "question": "although",
-          "reponseAttendue": "bien que\n« Although it was raining, we walked to school. »",
-          "modeReponse": "auto_evaluation",
-          "explication": "bien que\n« Although it was raining, we walked to school. »"
+          "type": "mot_en_contexte",
+          "mot": "although",
+          "traduction": "bien que",
+          "phrase": "Although it was raining, we walked to school.",
+          "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         }
       ]
     },
     {
-      "id": "anglais-u017-type",
+      "id": "anglais-u017-saisie",
       "titre": "Type it",
       "categorie": "saisie",
-      "seuilReussite": 70,
+      "seuilReussite": 100,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
@@ -66,6 +73,7 @@
           "phrase": "I study hard ___ I want to succeed.",
           "reponse": "because",
           "toleranceMots": 0,
+          "indice": "parce que",
           "explication": "because = parce que"
         },
         {
@@ -73,6 +81,7 @@
           "phrase": "The task was hard; ___, we finished it.",
           "reponse": "however",
           "toleranceMots": 0,
+          "indice": "cependant",
           "explication": "however = cependant"
         },
         {
@@ -80,6 +89,7 @@
           "phrase": "He was absent; ___ he missed the lesson.",
           "reponse": "therefore",
           "toleranceMots": 0,
+          "indice": "donc, par conséquent",
           "explication": "therefore = donc, par conséquent"
         },
         {
@@ -87,72 +97,110 @@
           "phrase": "___ it was raining, we walked to school.",
           "reponse": "Although",
           "toleranceMots": 0,
+          "indice": "bien que",
           "explication": "although = bien que"
         }
       ]
     },
     {
-      "id": "anglais-u017-quiz",
-      "titre": "Check",
-      "categorie": "quiz",
-      "seuilReussite": 70,
+      "id": "anglais-u017-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u017-c",
       "activites": [
         {
-          "type": "choix_unique",
-          "question": "What does « because » mean?",
-          "options": [
-            "note",
-            "c'est pourquoi",
-            "parce que",
-            "pollution"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « parce que »",
+          "reponsesAcceptees": [
+            "because"
           ],
-          "reponse": 2,
           "explication": "because = parce que"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « however » mean?",
-          "options": [
-            "pollution",
-            "facile",
-            "cependant",
-            "énergie"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « cependant »",
+          "reponsesAcceptees": [
+            "however"
           ],
-          "reponse": 2,
           "explication": "however = cependant"
         },
         {
-          "type": "choix_unique",
-          "question": "What does « therefore » mean?",
-          "options": [
-            "s'occuper de",
-            "mémoriser",
-            "donc, par conséquent",
-            "avoir besoin de"
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « donc, par conséquent »",
+          "reponsesAcceptees": [
+            "therefore"
           ],
-          "reponse": 2,
           "explication": "therefore = donc, par conséquent"
+        },
+        {
+          "type": "reponse_courte",
+          "question": "Écris en anglais : « bien que »",
+          "reponsesAcceptees": [
+            "although"
+          ],
+          "explication": "although = bien que"
+        }
+      ]
+    },
+    {
+      "id": "anglais-u017-oral",
+      "titre": "Say it out loud",
+      "categorie": "oral",
+      "seuilReussite": 0,
+      "competenceId": "anglais-u017-c",
+      "activites": [
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "I study hard because I want to succeed.",
+          "mot": "because",
+          "traduction": "parce que",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "The task was hard; however, we finished it.",
+          "mot": "however",
+          "traduction": "cependant",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "He was absent; therefore he missed the lesson.",
+          "mot": "therefore",
+          "traduction": "donc, par conséquent",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
+        },
+        {
+          "type": "lecture_voix_haute",
+          "phrase": "Although it was raining, we walked to school.",
+          "mot": "although",
+          "traduction": "bien que",
+          "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         }
       ]
     }
   ],
-  "flashcards": [
+  "motsCles": [
     {
-      "recto": "because",
-      "verso": "parce que\n« I study hard because I want to succeed. »"
+      "mot": "because",
+      "traduction": "parce que",
+      "phrase": "I study hard because I want to succeed."
     },
     {
-      "recto": "however",
-      "verso": "cependant\n« The task was hard; however, we finished it. »"
+      "mot": "however",
+      "traduction": "cependant",
+      "phrase": "The task was hard; however, we finished it."
     },
     {
-      "recto": "therefore",
-      "verso": "donc, par conséquent\n« He was absent; therefore he missed the lesson. »"
+      "mot": "therefore",
+      "traduction": "donc, par conséquent",
+      "phrase": "He was absent; therefore he missed the lesson."
     },
     {
-      "recto": "although",
-      "verso": "bien que\n« Although it was raining, we walked to school. »"
+      "mot": "although",
+      "traduction": "bien que",
+      "phrase": "Although it was raining, we walked to school."
     }
   ]
 }

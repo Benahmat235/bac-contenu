@@ -1,7 +1,7 @@
 {
   "id": "anglais-u054",
   "matiere": "anglais",
-  "type": "litteraire",
+  "type": "langue",
   "titre": "English Tenses: Present & Past (1/3)",
   "ordre": 54,
   "source": {
@@ -14,42 +14,47 @@
   "reglesExercice": {
     "reponseVisibleApresEchec": true,
     "afficherCorrectionApresEchec": true,
-    "consigne": "L'élève cherche la réponse ; en cas d'échec, l'application affiche la réponse puis la correction."
+    "repeterJusquaCorrect": true,
+    "consigne": "En cas d'erreur, la bonne réponse est montrée puis l'activité est reproposée plus loin dans la séance."
   },
   "etapes": [
     {
-      "id": "anglais-u054-memorisation",
-      "titre": "Mémoriser",
-      "categorie": "memorisation",
-      "seuilReussite": 80,
+      "id": "anglais-u054-production",
+      "titre": "Write it",
+      "categorie": "production",
+      "seuilReussite": 100,
       "competenceId": "anglais-u054-c",
       "activites": [
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use the Present Simple?",
-          "reponseAttendue": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
+          ],
           "explication": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use the Present Continuous?",
-          "reponseAttendue": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
+          ],
           "explication": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use the Past Simple?",
-          "reponseAttendue": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
+          ],
           "explication": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
         },
         {
-          "type": "rappel_actif",
+          "type": "reponse_courte",
           "question": "When do we use the Present Perfect?",
-          "reponseAttendue": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'",
-          "modeReponse": "auto_evaluation",
+          "reponsesAcceptees": [
+            "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
+          ],
           "explication": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
         }
       ]
@@ -100,24 +105,6 @@
       ]
     }
   ],
-  "flashcards": [
-    {
-      "recto": "When do we use the Present Simple?",
-      "verso": "For habits, routines, general truths and permanent states. Ex: 'Water boils at 100°C.'"
-    },
-    {
-      "recto": "When do we use the Present Continuous?",
-      "verso": "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'"
-    },
-    {
-      "recto": "When do we use the Past Simple?",
-      "verso": "For completed actions in the past with a known time. Ex: 'I visited N'Djamena last year.'"
-    },
-    {
-      "recto": "When do we use the Present Perfect?",
-      "verso": "For past actions with a present result, or experiences (no specific time). Ex: 'I have finished my homework.'"
-    }
-  ],
   "videos": [
     {
       "titre": "The conditionals (0, 1, 2 & 3)",
@@ -140,5 +127,11 @@
       "chaine": "Arnel's Everyday English",
       "auteur": "Arnel's Everyday English"
     }
-  ]
+  ],
+  "reglesApprentissage": {
+    "modele": "production",
+    "repetitionEspacee": false,
+    "boucleMaitrise": true,
+    "consigne": "L'anglais s'apprend par la production, pas par la mémorisation espacée. L'élève découvre le mot en contexte, le tape, le dit à voix haute, puis le réutilise. Toute réponse incorrecte est reproposée immédiatement dans la même séance, jusqu'à réussite. Aucune carte n'entre dans la file de révision espacée."
+  }
 }
