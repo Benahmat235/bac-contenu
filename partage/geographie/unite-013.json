@@ -65,7 +65,7 @@
           "type": "choix_unique",
           "question": "Importance du transport et des NTIC au Tchad ?",
           "options": [
-            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
             "Changement climatique (baisse des eaux), techniques destructrices, manque de matériel moderne.",
             "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral.",
             "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information."
@@ -79,7 +79,7 @@
           "options": [
             "Dégradation de l'environnement, perte de terres cultivables, migration, abandon des activités traditionnelles.",
             "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations.",
-            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitati",
+            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations.",
             "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien)."
           ],
           "reponse": 1,
@@ -92,7 +92,7 @@
             "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption.",
             "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
             "Changement climatique (baisse des eaux), techniques destructrices, manque de matériel moderne.",
-            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la"
+            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la saison des pluies."
           ],
           "reponse": 1,
           "explication": "Les importations dépassent les exportations, aggravé par l'enclavement du pays."

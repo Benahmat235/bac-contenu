@@ -65,10 +65,10 @@
           "type": "choix_unique",
           "question": "Qu'est-ce que la guerre froide ?",
           "options": [
-            "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des crimin",
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des criminels, création de l'ONU.",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS.",
             "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
-            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com"
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS)."
           ],
           "reponse": 3,
           "explication": "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS)."
@@ -77,10 +77,10 @@
           "type": "choix_unique",
           "question": "Qu'est-ce que le Plan Marshall ?",
           "options": [
-            "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale",
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale de la 2GM.",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
             "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
-            "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence sov"
+            "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence soviétique."
           ],
           "reponse": 3,
           "explication": "Aide massive de 13 milliards de dollars lancée par les USA en 1947 pour reconstruire l'Europe et contrer l'influence soviétique."
@@ -89,10 +89,10 @@
           "type": "choix_unique",
           "question": "Quel plan soviétique contredit le Plan Marshall ?",
           "options": [
-            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas",
-            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols).",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence.",
             "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM.",
-            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopér"
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
           ],
           "reponse": 2,
           "explication": "Le plan Molotov (ou Deutsch), qui a mené à la création du CAEM."

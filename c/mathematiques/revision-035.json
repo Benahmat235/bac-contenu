@@ -42,7 +42,7 @@
           "options": [
             "m ≤ f ≤ M sur [a,b] ⇒ m(b−a) ≤ ∫ₐᵇf ≤ M(b−a)",
             "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
-            "k=|a|",
+            "k=|a| et α≡arg(a) [2π]",
             "AB=|zB−zA|"
           ],
           "reponse": 3,

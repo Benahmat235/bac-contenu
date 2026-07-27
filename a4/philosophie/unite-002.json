@@ -96,12 +96,12 @@
           "type": "choix_unique",
           "question": "« Je pense, donc je ______ » (Descartes). ?",
           "options": [
+            "Ensemble des désirs et représentations refoulés, hors de la conscience mais agissant sur nous.",
             "Blaise Pascal",
-            "suis",
-            "Blaise Pascal",
-            "Kant"
+            "Kant",
+            "suis"
           ],
-          "reponse": 1,
+          "reponse": 3,
           "explication": "suis"
         }
       ]

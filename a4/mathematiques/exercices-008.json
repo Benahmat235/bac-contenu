@@ -462,7 +462,7 @@
       "difficulte": "difficile",
       "etapesCorrection": [
         "En +∞ ou −∞, on ne garde que les termes de plus haut degré.",
-        "numérateur de degré plus grand : x²  → +∞"
+        "numérateur de degré plus grand : x² → +∞"
       ],
       "reponseFinale": "+∞",
       "competenceId": "math-a4-c-limite"

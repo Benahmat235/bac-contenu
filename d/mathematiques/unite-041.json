@@ -63,7 +63,7 @@
           "options": [
             "n!=n(n−1)…2×1 et 0!=1",
             "uₙ = u₀·qⁿ",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "C(n,p)=n!/(p!(n−p)!)"
           ],
           "reponse": 0,
@@ -75,7 +75,7 @@
           "options": [
             "P(B|A)=P(A∩B)/P(A), si P(A)>0",
             "nᵖ suites ordonnées de longueur p",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "1/(2√x)"
           ],
           "reponse": 1,

@@ -65,8 +65,8 @@
           "type": "choix_unique",
           "question": "Définir : relief, hydrographie. ?",
           "options": [
-            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitati",
-            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des",
+            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations.",
+            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu.",
             "Relief : inégalités de la surface terrestre. Hydrographie : étude des eaux (cours d'eau, lacs) d'une région.",
             "Ex. zone soudanienne : climat humide → sols riches (ferralitiques) → végétation dense (forêt claire, savane arborée)."
           ],
@@ -90,8 +90,8 @@
           "question": "Expliquez le mécanisme de la mousson au Tchad. ?",
           "options": [
             "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique.",
-            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitati",
-            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la",
+            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations.",
+            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la saison des pluies.",
             "Avantages : rapprochement, info rapide, emplois. Inconvénients : coût, cybercriminalité, fausses informations."
           ],
           "reponse": 2,

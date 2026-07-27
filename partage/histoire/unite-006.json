@@ -65,8 +65,8 @@
           "type": "choix_unique",
           "question": "Quelles sont les principales conférences de paix pendant la 2GM ?",
           "options": [
-            "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (19",
-            "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs poss",
+            "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (1945).",
+            "Coexistence pacifique (1953-1974) : relations apaisées. Équilibre de terreur : méfiance mutuelle car les deux blocs possèdent des armes nucléaires.",
             "Désarmement total, dénazification, comparution des criminels nazis, réparations des pertes de guerre.",
             "Conférence de l'Union, Commission, Conseil Exécutif, Parlement Panafricain, Conseil Économique Social et Culturel."
           ],
@@ -79,7 +79,7 @@
           "options": [
             "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS).",
             "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua.",
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
             "Yalta (4-11 fév. 1945), Potsdam (17 juil. - 2 août 1945), San Francisco (25 avril - 26 juin 1945)."
           ],
           "reponse": 3,
@@ -89,7 +89,7 @@
           "type": "choix_unique",
           "question": "Expliquez le système des 3 'D' à Potsdam. ?",
           "options": [
-            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence.",
             "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie).",
             "Conflits armés, querelles de leadership, financement insuffisant, faiblesse de sa justice face à la CPI.",
             "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde."

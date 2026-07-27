@@ -65,9 +65,9 @@
           "type": "choix_unique",
           "question": "Que signifie OTAN et Pacte de Varsovie ?",
           "options": [
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
-            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS.",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols).",
             "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS)."
           ],
           "reponse": 3,
@@ -79,8 +79,8 @@
           "options": [
             "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
             "Démilitarisation (désarmement), dénazification (fin du nazisme), décartellisation (contrôle de l'économie).",
-            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
-            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/194"
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960).",
+            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
           ],
           "reponse": 0,
           "explication": "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62)."
@@ -89,9 +89,9 @@
           "type": "choix_unique",
           "question": "Pourquoi la crise de Cuba fut la plus grave ?",
           "options": [
-            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favor",
+            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favoriser la coopération internationale.",
             "Elle a favorisé la montée des régimes totalitaires en Europe (fascisme, nazisme) qui ont provoqué la guerre.",
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
             "Elle a failli plonger le monde dans un affrontement nucléaire direct entre USA et URSS."
           ],
           "reponse": 3,

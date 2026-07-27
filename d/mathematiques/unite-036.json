@@ -86,7 +86,7 @@
           "question": "Centre d'une similitude directe non translation ?",
           "options": [
             "(uⁿ)' = n·u'·uⁿ⁻¹",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "Si a≠1, ω=b/(1−a)",
             "zG=(Σαₖzₖ)/(Σαₖ), si Σαₖ≠0"
           ],

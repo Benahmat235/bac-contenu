@@ -31,7 +31,7 @@
             "(g∘f)'(x) = f'(x)·g'(f(x))",
             "transformation qui conserve les distances",
             "C(n,p)=n!/(p!(n−p)!)",
-            "k=|a|"
+            "k=|a| et α≡arg(a) [2π]"
           ],
           "reponse": 3,
           "explication": "k=|a|"

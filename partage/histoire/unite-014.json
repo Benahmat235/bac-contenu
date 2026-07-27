@@ -70,10 +70,10 @@
           "type": "choix_unique",
           "question": "Qu'est-ce que le non-alignement ?",
           "options": [
-            "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des ",
-            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favor",
+            "Maintenir la paix, développer les relations amicales, réaliser la coopération internationale, encourager le respect des Droits de l'homme.",
+            "Renforcer l'unité et la solidarité, coordonner la coopération, défendre la souveraineté, éliminer le colonialisme, favoriser la coopération internationale.",
             "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde.",
-            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (mas"
+            "Crime contre l'humanité : violation des règles internationales. Crime de guerre : violation des règles de la guerre (massacre de prisonniers, tortures, viols)."
           ],
           "reponse": 2,
           "explication": "Non-appartenance à aucun des deux blocs (capitaliste ou communiste). Concerne principalement les pays du tiers monde."
@@ -84,8 +84,8 @@
           "options": [
             "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire.",
             "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS.",
-            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com",
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis"
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS).",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS."
           ],
           "reponse": 1,
           "explication": "Le lancement de la doctrine Truman et du Plan Marshall, perçu comme une menace par l'URSS."

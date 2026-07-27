@@ -60,8 +60,8 @@
           "options": [
             "OTAN : alliance militaire du bloc capitaliste (USA). Pacte de Varsovie : alliance militaire du bloc communiste (URSS).",
             "Initiative américaine pour juger les criminels de guerre japonais. 25 japonais jugés, l'empereur Hirohito abdiqua.",
-            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,",
-            "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétique"
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU, conférence de Bandung.",
+            "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba."
           ],
           "reponse": 2,
           "explication": "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU, conférence de Bandung."
@@ -70,10 +70,10 @@
           "type": "choix_unique",
           "question": "Quel territoire africain a voté 'non' au referendum de 1958 ?",
           "options": [
-            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com",
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS).",
             "Conférence de l'Union, Commission, Conseil Exécutif, Parlement Panafricain, Conseil Économique Social et Culturel.",
             "La Guinée-Conakry, accédant à l'indépendance le 2 octobre 1958.",
-            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/194"
+            "12/04/1945 : décès de Roosevelt. 06/08/1945 : Hiroshima. 09/08/1945 : Nagasaki. 02/09/1945 : fin de la guerre. 20/11/1945 : procès de Nuremberg."
           ],
           "reponse": 2,
           "explication": "La Guinée-Conakry, accédant à l'indépendance le 2 octobre 1958."
@@ -82,9 +82,9 @@
           "type": "choix_unique",
           "question": "Dates de décolonisation de l'Afrique blanche française ?",
           "options": [
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
-            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'",
-            "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des crimin",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS.",
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe.",
+            "Capitulation sans condition de l'Allemagne, sa réorganisation, engagement de l'URSS contre le Japon, jugement des criminels, création de l'ONU.",
             "Tunisie : 20 mars 1956. Maroc : 7 juillet 1956. Algérie : 3 juillet 1962."
           ],
           "reponse": 3,

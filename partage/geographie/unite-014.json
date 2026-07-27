@@ -67,7 +67,7 @@
           "options": [
             "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique.",
             "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
-            "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude :",
+            "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur.",
             "Sites naturels (Ounianga, Zakouma, Ennedi) et culturels (peintures rupestres du Tibesti, vestiges Sao)."
           ],
           "reponse": 3,
@@ -91,7 +91,7 @@
           "options": [
             "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
             "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m).",
-            "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude :",
+            "Pluviométrie : quantité de pluie. Isohyète : ligne d'égale pluviométrie. Altitude : hauteur/niveau de la mer. Latitude : distance en degrés/équateur.",
             "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption."
           ],
           "reponse": 3,

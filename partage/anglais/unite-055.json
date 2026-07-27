@@ -87,9 +87,9 @@
           "question": "Difference: 'I lived in Chad' vs 'I have lived in Chad'?",
           "options": [
             "For actions happening now, temporary situations, future arrangements. Ex: 'She is studying right now.'",
-            "scholarship",
+            "scholarship = bourse d'études",
             "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent.",
-            "unemployment"
+            "unemployment = chômage"
           ],
           "reponse": 2,
           "explication": "'I lived' = completed (I don't live there anymore). 'I have lived' = still true now or recent."

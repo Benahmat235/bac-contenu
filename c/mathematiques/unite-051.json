@@ -70,7 +70,7 @@
             "uₙ = u₀·qⁿ",
             "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
             "nᵖ suites ordonnées de longueur p",
-            "k=|a|"
+            "k=|a| et α≡arg(a) [2π]"
           ],
           "reponse": 1,
           "explication": "converge (vers 0) si |q| < 1 ; diverge si |q| > 1"

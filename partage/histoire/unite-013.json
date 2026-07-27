@@ -58,7 +58,7 @@
           "type": "choix_unique",
           "question": "Qu'est-ce que la bipolarisation ?",
           "options": [
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS.",
             "1re crise de Berlin (1948-49), guerre de Corée (1950-53), 2e crise de Berlin (1958-61), crise de Cuba (1959-62).",
             "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
             "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
@@ -70,10 +70,10 @@
           "type": "choix_unique",
           "question": "Quelles sont les causes de la crise de Cuba ?",
           "options": [
-            "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétique",
-            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir ",
-            "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octr",
-            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopér"
+            "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba.",
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939.",
+            "Cultures coloniales développées, édifices construits, pensions accordées aux anciens combattants, et l'indépendance octroyée.",
+            "À San Francisco (25 avril - 25 juin 1945), suite à l'échec de la SDN. But : maintenir la paix, la stabilité et la coopération internationale."
           ],
           "reponse": 0,
           "explication": "Arrivée de Castro, nationalisation des entreprises US, échec de la baie des Cochons, installation de missiles soviétiques à Cuba."
@@ -83,8 +83,8 @@
           "question": "Qui est Gorbatchev et son œuvre ?",
           "options": [
             "Le 30 janvier 2017.",
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis",
-            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'",
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS.",
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe.",
             "Tunisie : 20 mars 1956. Maroc : 7 juillet 1956. Algérie : 3 juillet 1962."
           ],
           "reponse": 1,

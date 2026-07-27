@@ -78,7 +78,7 @@
           "question": "Conséquences de la sécheresse sur le cheptel tchadien ?",
           "options": [
             "Cours d'eau : Chari, Logone (permanents). Lacs : Tchad, Fitri, Iro, Léré, Fianga, Tikem, Ounianga.",
-            "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, ",
+            "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, taxes élevées.",
             "Santé, éducation, infrastructures routières, logements sociaux, agriculture et élevage.",
             "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral."
           ],
@@ -89,7 +89,7 @@
           "type": "choix_unique",
           "question": "Quelles sont les forces de l'élevage tchadien ?",
           "options": [
-            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des",
+            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu.",
             "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m).",
             "Diversité des races grâce aux climats variés, appui de l'État et des partenaires internationaux.",
             "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique."

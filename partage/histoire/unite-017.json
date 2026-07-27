@@ -58,10 +58,10 @@
           "type": "choix_unique",
           "question": "Quelles étaient les résolutions de la conférence de Bandung ?",
           "options": [
-            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour int",
-            "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des ",
-            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et ",
-            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc com"
+            "Assemblée Générale, Conseil de sécurité, Secrétariat Général, Conseil Économique et Social, Conseil de tutelle, Cour internationale de justice.",
+            "1re phase (1939-1941) : succès de l'Axe. 2e phase (1942-1943) : équilibre de front. 3e phase (1944-1945) : victoire des Alliés.",
+            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples.",
+            "Période d'affrontement idéologique, économique et diplomatique (1947-1989) entre le bloc occidental (USA) et le bloc communiste (URSS)."
           ],
           "reponse": 2,
           "explication": "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples."
@@ -70,10 +70,10 @@
           "type": "choix_unique",
           "question": "Pourquoi les USA et l'URSS sont-ils anticolonialistes ?",
           "options": [
-            "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme",
-            "Internes : intellectuels, religieux, syndicats, étudiants. Externes : rôle anti-colonialiste des USA/URSS, ONU, conféren",
+            "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme.",
+            "Internes : intellectuels, religieux, syndicats, étudiants. Externes : rôle anti-colonialiste des USA/URSS, ONU, conférence de Bandung.",
             "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
-            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dis"
+            "Dernier dirigeant de l'URSS (1985). Réformes Glasnost/Perestroïka → fin de la guerre froide, chute du mur de Berlin, dissolution de l'URSS."
           ],
           "reponse": 0,
           "explication": "USA : ancienne colonie, mauvais souvenir. URSS : marxisme-léninisme s'oppose à toute exploitation de l'Homme par l'Homme."
@@ -83,7 +83,7 @@
           "question": "Pourquoi De Gaulle refuse d'associer les Africains à Brazzaville ?",
           "options": [
             "Conférence de l'Union, Commission, Conseil Exécutif, Parlement Panafricain, Conseil Économique Social et Culturel.",
-            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, ",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence.",
             "Il est chargé de la paix et de la sécurité et les décisions finales lui reviennent.",
             "Il craignait qu'ils ne revendiquent l'autonomie ou l'indépendance."
           ],

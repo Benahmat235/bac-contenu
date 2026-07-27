@@ -74,7 +74,7 @@
           "question": "Barycentre de n points pondérés ?",
           "options": [
             "G = (Σαᵢ·xᵢ / Σαᵢ ; Σαᵢ·yᵢ / Σαᵢ)",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "z' = e^{iθ}·z (|a| = 1)",
             "eᵘ + c"
           ],

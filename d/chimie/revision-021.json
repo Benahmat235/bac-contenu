@@ -41,7 +41,7 @@
           "question": "Domaine de prédominance ?",
           "options": [
             "forme acide si pH < pKa ; forme basique si pH > pKa",
-            "pH > 7",
+            "pH > 7 : [H₃O⁺] < [OH⁻]",
             "−CO−NH− (liaison amide)",
             "diffèrent par la position d'un groupe"
           ],
@@ -52,7 +52,7 @@
           "type": "choix_unique",
           "question": "Isomérie de position ?",
           "options": [
-            "pH = 7",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
             "H₃O⁺ + OH⁻ → 2 H₂O",
             "images miroir non superposables (molécule chirale)",
             "diffèrent par la position d'un groupe"

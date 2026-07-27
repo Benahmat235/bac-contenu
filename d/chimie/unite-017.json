@@ -69,7 +69,7 @@
           "options": [
             "1aire (N–1C), 2aire (N–2C), 3aire (N–3C)",
             "pKa = −log Ka",
-            "pH = 7",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
             "forme acide si pH < pKa ; forme basique si pH > pKa"
           ],
           "reponse": 2,
@@ -82,7 +82,7 @@
             "alcool 1aire → aldéhyde → acide carboxylique",
             "hydroxyle −OH ; formule CₙH₂ₙ₊₁OH",
             "Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴ (25 °C)",
-            "pH > 7"
+            "pH > 7 : [H₃O⁺] < [OH⁻]"
           ],
           "reponse": 3,
           "explication": "pH > 7"

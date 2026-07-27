@@ -70,7 +70,7 @@
             "entier ≥ 2 ayant exactement deux diviseurs : 1 et lui-même",
             "F(x)=P(X≤x)",
             "eᵘ + c",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du"
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…"
           ],
           "reponse": 2,
           "explication": "eᵘ + c"

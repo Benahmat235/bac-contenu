@@ -69,7 +69,7 @@
           "options": [
             "u'·eᵘ",
             "r(O ; θ)⁻¹ = r(O ; −θ)",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "|a+ib|=√(a²+b²)"
           ],
           "reponse": 1,
@@ -79,7 +79,7 @@
           "type": "choix_unique",
           "question": "Isométrie ?",
           "options": [
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "transformation qui conserve les distances",
             "eᵘ + c",
             "C(n,p)=n!/(p!(n−p)!)"

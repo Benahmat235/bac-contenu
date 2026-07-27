@@ -65,10 +65,10 @@
           "type": "choix_unique",
           "question": "Quels sont les éléments du relief tchadien ?",
           "options": [
-            "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et ",
+            "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau).",
             "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, et ergs (dunes de sable).",
             "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime humide).",
-            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la"
+            "Rencontre de l'harmattan (sec, nord-est) et de la mousson (humide, sud-ouest). Leur zone de rencontre (FIT) détermine la saison des pluies."
           ],
           "reponse": 1,
           "explication": "Plaines, montagnes (Tibesti, Ouaddaï, Guéra, Monts de Lam), collines, plateaux, et ergs (dunes de sable)."
@@ -77,7 +77,7 @@
           "type": "choix_unique",
           "question": "Quels sont les principaux massifs montagneux du Tchad ?",
           "options": [
-            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
             "Logone, Chari et Lac Tchad (principales) ; affluents et petits lacs (secondaires).",
             "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
             "Emi-Koussi (3415m, Tibesti), Ouaddaï (1320m), Guéra (1613m), Monts de Lam (1163m)."

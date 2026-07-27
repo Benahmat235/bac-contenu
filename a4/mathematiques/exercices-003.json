@@ -241,7 +241,7 @@
       "difficulte": "facile",
       "etapesCorrection": [
         "On met x en facteur : x(1x − 3) = 0",
-        "x = 0  ou  1x − 3 = 0",
+        "x = 0 ou 1x − 3 = 0",
         "d'où x = 0 ou x = 3"
       ],
       "reponseFinale": "S = {0 ; 3}",
@@ -253,7 +253,7 @@
       "difficulte": "facile",
       "etapesCorrection": [
         "On met x en facteur : x(1x + 4) = 0",
-        "x = 0  ou  1x + 4 = 0",
+        "x = 0 ou 1x + 4 = 0",
         "d'où x = 0 ou x = −4"
       ],
       "reponseFinale": "S = {−4 ; 0}",
@@ -372,7 +372,7 @@
       "difficulte": "moyen",
       "etapesCorrection": [
         "On met x en facteur : x(2x + 5) = 0",
-        "x = 0  ou  2x + 5 = 0",
+        "x = 0 ou 2x + 5 = 0",
         "d'où x = 0 ou x = −5/2"
       ],
       "reponseFinale": "S = {−5/2 ; 0}",
@@ -384,7 +384,7 @@
       "difficulte": "moyen",
       "etapesCorrection": [
         "On met x en facteur : x(3x − 6) = 0",
-        "x = 0  ou  3x − 6 = 0",
+        "x = 0 ou 3x − 6 = 0",
         "d'où x = 0 ou x = 2"
       ],
       "reponseFinale": "S = {0 ; 2}",

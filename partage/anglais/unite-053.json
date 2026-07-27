@@ -41,7 +41,7 @@
         {
           "type": "mot_en_contexte",
           "mot": "to bring up",
-          "traduction": "élever (un enfait)",
+          "traduction": "élever (un enfant)",
           "phrase": "My grandmother brought me up.",
           "consigne": "Lis le mot, son sens et la phrase. Répète la phrase à voix haute."
         },
@@ -104,12 +104,12 @@
         },
         {
           "type": "reponse_courte",
-          "question": "Écris en anglais : « élever (un enfait) »",
+          "question": "Écris en anglais : « élever (un enfant) »",
           "reponsesAcceptees": [
             "to bring up",
             "bring up"
           ],
-          "explication": "to bring up = élever (un enfait)"
+          "explication": "to bring up = élever (un enfant)"
         },
         {
           "type": "reponse_courte",
@@ -149,7 +149,7 @@
           "type": "lecture_voix_haute",
           "phrase": "My grandmother brought me up.",
           "mot": "to bring up",
-          "traduction": "élever (un enfait)",
+          "traduction": "élever (un enfant)",
           "consigne": "Dis cette phrase à voix haute, lentement puis à vitesse normale."
         },
         {
@@ -177,7 +177,7 @@
     },
     {
       "mot": "to bring up",
-      "traduction": "élever (un enfait)",
+      "traduction": "élever (un enfant)",
       "phrase": "My grandmother brought me up."
     },
     {

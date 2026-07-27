@@ -39,7 +39,7 @@
         {
           "type": "formule",
           "recto": "Racines si Δ > 0",
-          "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+          "verso": "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
           "modeReponse": "auto_evaluation"
         },
         {
@@ -73,7 +73,7 @@
           "type": "choix_unique",
           "question": "Discriminant d'un trinôme ax² + bx + c ?",
           "options": [
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
             "p(A∪B) = p(A) + p(B) − p(A∩B)",
             "Δ = b² − 4ac",
             "p(A) = Card(A)/Card(Ω)"
@@ -88,10 +88,10 @@
             "p(A∩B) = 0, donc p(A∪B) = p(A) + p(B)",
             "y = f'(x₀)(x − x₀) + f(x₀)",
             "(eˣ)' = eˣ",
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a"
           ],
           "reponse": 3,
-          "explication": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+          "explication": "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a"
         }
       ]
     }
@@ -107,7 +107,7 @@
     },
     {
       "recto": "Racines si Δ > 0",
-      "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+      "verso": "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a"
     },
     {
       "recto": "Racine si Δ = 0 (racine double)",
@@ -130,7 +130,7 @@
     {
       "type": "formule",
       "recto": "Racines si Δ > 0",
-      "verso": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+      "verso": "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
       "modeReponse": "auto_evaluation"
     },
     {
