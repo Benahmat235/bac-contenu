@@ -55,7 +55,7 @@
           "type": "choix_unique",
           "question": "Changement affine u = αx + β, avec α≠0 ?",
           "options": [
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "z' = −z + b, centre d'affixe b/2",
             "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
             "u·v = xᵤxᵥ + yᵤyᵥ"

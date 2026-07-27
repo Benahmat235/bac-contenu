@@ -60,7 +60,7 @@
           "options": [
             "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
             "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
-            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
             "Analphabétisme, enclavement, environnement difficile, mauvaise politique commerciale, retard industriel, corruption."
           ],
           "reponse": 2,
@@ -70,8 +70,8 @@
           "type": "choix_unique",
           "question": "Quel est le rôle de la végétation dans les microclimats ?",
           "options": [
-            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
-            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitati",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
+            "Produit de l'ombre, abaisse les températures, arrête les vents, protège les sols de l'érosion, influence les précipitations.",
             "Rapprochement des populations, circulation des biens, échanges commerciaux, création d'emplois, accès à l'information.",
             "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas)."
           ],
@@ -83,7 +83,7 @@
           "question": "Quels sont les types de sols au Tchad ?",
           "options": [
             "Pêche, agriculture irriguée, élevage, transport fluvial, potentiel hydro-électrique.",
-            "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et ",
+            "Sols ferralitiques/ferrugineux (sud), sols bruns subarides (centre), sols gris désertiques (nord), sols hydromorphes et vertisols (près des cours d'eau).",
             "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture).",
             "Atout : force de travail, transport, engrais. Handicap : les animaux peuvent dévaster les champs (conflits)."
           ],

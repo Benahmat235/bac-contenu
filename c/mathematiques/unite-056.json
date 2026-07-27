@@ -57,7 +57,7 @@
           "options": [
             "converge (vers 0) si |q| < 1 ; diverge si |q| > 1",
             "Si a≠1, ω=b/(1−a)",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "∫ u'(x)/u(x) dx = ln|u(x)| + C"
           ],
           "reponse": 3,

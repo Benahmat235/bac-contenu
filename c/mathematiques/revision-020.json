@@ -41,7 +41,7 @@
           "question": "Symétries d'axes parallèles ?",
           "options": [
             "la somme des chiffres est divisible par 3 (ou 9)",
-            "k=|a|",
+            "k=|a| et α≡arg(a) [2π]",
             "eᵃ·eᵇ = eᵃ⁺ᵇ",
             "composée = translation"
           ],

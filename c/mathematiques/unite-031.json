@@ -79,7 +79,7 @@
           "type": "choix_unique",
           "question": "Dérivée d'une puissance ?",
           "options": [
-            "k=|a|",
+            "k=|a| et α≡arg(a) [2π]",
             "n·(M − A) = 0",
             "f est continue en a si lim(x→a) f(x) = f(a)",
             "(uⁿ)' = n·u'·uⁿ⁻¹"

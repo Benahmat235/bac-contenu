@@ -80,7 +80,7 @@
             "Le climat : dromadaires au nord (saharien), bovins au centre (sahélien), petits ruminants au sud (soudanien).",
             "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone.",
             "Renouvelable : ne s'épuise pas (soleil, vent). Non renouvelable : stocks limités (pétrole, gaz).",
-            "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, "
+            "Élevage sentimental, fraude, conflits agriculteurs-éleveurs, manque de pâturage/eau, manque d'unités de transformation, taxes élevées."
           ],
           "reponse": 1,
           "explication": "CST (sucre), Huileries Coton-Tchad, Manufactures de Cigarettes, Mini-rizeries de la Tandjilé, Brasseries du Logone."
@@ -89,7 +89,7 @@
           "type": "choix_unique",
           "question": "Quelles sont les retombées du pétrole tchadien ?",
           "options": [
-            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
             "Les importations dépassent les exportations, aggravé par l'enclavement du pays.",
             "Hausse des salaires, construction d'infrastructures, création d'emplois, modernisation du secteur agro-pastoral.",
             "L'harmattan (masse d'air continentale sèche) et la mousson (masse d'air maritime humide)."

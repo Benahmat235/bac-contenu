@@ -69,7 +69,7 @@
           "options": [
             "uₙ = u₀·qⁿ",
             "y = ax + b si lim [f(x) − (ax+b)] = 0",
-            "k=|a|",
+            "k=|a| et α≡arg(a) [2π]",
             "converge (vers 0) si |q| < 1 ; diverge si |q| > 1"
           ],
           "reponse": 2,

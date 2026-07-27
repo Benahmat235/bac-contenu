@@ -31,7 +31,7 @@
             "p(A∪B) = p(A) + p(B) − p(A∩B)",
             "(xⁿ)' = n·xⁿ⁻¹",
             "Card(A∪B) = CardA + CardB − Card(A∩B)",
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a"
           ],
           "reponse": 1,
           "explication": "(xⁿ)' = n·xⁿ⁻¹"

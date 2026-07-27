@@ -68,7 +68,7 @@
           "question": "Asymptote horizontale ?",
           "options": [
             "eᵃ·eᵇ = eᵃ⁺ᵇ",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "aˣ = e^(x·ln a)",
             "si lim f = l (réel) en ±∞, alors y = l"
           ],

@@ -70,7 +70,7 @@
             "(u + v)' = u' + v'",
             "Aⁿₚ = n!/(n−p)!",
             "y = f'(x₀)(x − x₀) + f(x₀)",
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a"
           ],
           "reponse": 1,
           "explication": "Aⁿₚ = n!/(n−p)!"

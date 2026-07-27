@@ -65,10 +65,10 @@
           "type": "choix_unique",
           "question": "Pourquoi la 2GM est un facteur déclencheur de la décolonisation ?",
           "options": [
-            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation.",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
             "SALT : limitation des armes stratégiques. INF (1987) : interdiction de certains missiles à portée intermédiaire.",
-            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,"
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU, conférence de Bandung."
           ],
           "reponse": 1,
           "explication": "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux."
@@ -79,8 +79,8 @@
           "options": [
             "Division du monde en deux blocs idéologiquement opposés. Elle n'existe plus depuis la dislocation de l'URSS en 1991.",
             "Procès pour juger les nazis. 12 condamnés à mort par pendaison, les autres à des peines lourdes.",
-            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
-            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et "
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960).",
+            "Le colonialisme est un mal à terminer ; la soumission des peuples viole les droits de l'homme ; soutien à la liberté et l'indépendance de tous les peuples."
           ],
           "reponse": 2,
           "explication": "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960)."
@@ -89,10 +89,10 @@
           "type": "choix_unique",
           "question": "Quand et sous l'égide de qui la conférence de Brazzaville s'est réunie ?",
           "options": [
-            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de l",
-            "D'abord OUA le 25 mai 1963 à Addis-Abeba, transformée en UA en 2002 à Durban (initiative de Syrte 1999) pour dépasser le",
-            "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais san",
-            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, "
+            "Montée en puissance des USA et de l'URSS ; création de l'ONU ; division de l'Allemagne en deux ; début du processus de la décolonisation.",
+            "D'abord OUA le 25 mai 1963 à Addis-Abeba, transformée en UA en 2002 à Durban (initiative de Syrte 1999) pour dépasser les limites de l'OUA.",
+            "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais sans promettre l'indépendance.",
+            "Conférence monétaire/financière aux USA pour un système international stable. Création du FMI et de la Banque Mondiale, le dollar devient monnaie de référence."
           ],
           "reponse": 2,
           "explication": "Du 30 janv. au 8 fév. 1944, sous le Général de Gaulle. Buts : amélioration des conditions de vie des colonisés, mais sans promettre l'indépendance."

@@ -86,7 +86,7 @@
           "question": "Formule de Moivre ?",
           "options": [
             "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
-            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u) du",
+            "∫ₐᵇ f(αx+β) dx = (1/α)∫ᵤ₍ₐ₎ᵘ₍ᵦ₎ f(u)…",
             "V(X)=E(X²)−E(X)² et σ(X)=√V(X)",
             "f est continue en a si lim(x→a) f(x) = f(a)"
           ],

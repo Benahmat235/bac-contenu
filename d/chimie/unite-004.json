@@ -68,9 +68,9 @@
           "question": "pH d'une base forte ?",
           "options": [
             "pH = 14 + log C ([OH⁻] = C)",
-            "celui dont le pKa est le plus petit",
-            "pH = 7",
-            "pH = 7 : [H₃O⁺] = [OH⁻]"
+            "C = 10^(pH−14)",
+            "pH = 7 : [H₃O⁺] = [OH⁻]",
+            "celui dont le pKa est le plus petit"
           ],
           "reponse": 0,
           "explication": "pH = 14 + log C ([OH⁻] = C)"

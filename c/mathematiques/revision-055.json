@@ -54,7 +54,7 @@
           "options": [
             "eⁱᶿ=cosθ+i sinθ",
             "zₖ=ⁿ√r·eⁱ⁽ᶿ⁺²ᵏπ⁾⁄ⁿ, k=0,…,n−1",
-            "k=|a|",
+            "k=|a| et α≡arg(a) [2π]",
             "u·v = xᵤxᵥ + yᵤyᵥ"
           ],
           "reponse": 1,

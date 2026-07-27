@@ -55,7 +55,7 @@
           "type": "choix_unique",
           "question": "Combinaison (tirage simultané, sans ordre) ?",
           "options": [
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
             "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
             "n!",
             "Cⁿₚ = n!/((n−p)!·p!)"

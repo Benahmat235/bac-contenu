@@ -115,9 +115,9 @@
           "question": "Dans une F2 de 16 individus (9:3:3:1), le double récessif représente :",
           "options": [
             "9",
-            "3",
-            "1",
-            "4"
+            "3/4 dominant, 1/4 récessif (3 : 1)",
+            "1 : 1 : 1 : 1 (25 % chacun)",
+            "4 groupes : A, B, AB, O"
           ],
           "reponse": 2,
           "explication": "1/16."

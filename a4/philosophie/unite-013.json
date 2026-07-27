@@ -58,12 +58,12 @@
           "type": "choix_unique",
           "question": "Qui a dit : « L'homme n'est rien d'autre que ce qu'il se fait. » ?",
           "options": [
-            "Emmanuel Kant",
-            "Jean-Jacques Rousseau",
             "Jean-Paul Sartre",
+            "Blaise Pascal",
+            "Jean-Jacques Rousseau",
             "Emmanuel Kant"
           ],
-          "reponse": 2,
+          "reponse": 0,
           "explication": "Jean-Paul Sartre"
         },
         {

@@ -61,7 +61,7 @@
             "Manque de capitaux, de techniciens, concurrence étrangère, manque de débouchés, coût élevé de l'électricité.",
             "Famine, baisse de la reproduction, disparition d'espèces, maladies, augmentation du nomadisme pastoral.",
             "Sensibiliser la population, promouvoir les énergies alternatives au bois, mener des campagnes de reboisement.",
-            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des"
+            "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
           ],
           "reponse": 3,
           "explication": "Climat : conditions météo moyennes sur longue période. Sol : couche superficielle de la Terre. Végétation : ensemble des plantes d'un lieu."
@@ -84,7 +84,7 @@
           "options": [
             "Bois, gaz butane, électricité, solaire, éolien. Solaire et éolien sont 'propres' (ne polluent pas).",
             "Causes naturelles (sécheresse, évaporation) et anthropiques (surexploitation de l'eau pour l'agriculture).",
-            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/a",
+            "Zone soudanienne (tropicale humide) : +800mm/an. Zone sahélienne : 200-800mm/an. Zone saharienne (désertique) : -200mm/an.",
             "Renouvelable : ne s'épuise pas (soleil, vent). Non renouvelable : stocks limités (pétrole, gaz)."
           ],
           "reponse": 1,

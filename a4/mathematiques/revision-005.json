@@ -42,11 +42,11 @@
           "options": [
             "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
             "P(x) est du signe de a partout, sauf entre les racines (Δ > 0) où il est du signe opposé à a.",
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
             "p(A) = Card(A)/Card(Ω)"
           ],
           "reponse": 2,
-          "explication": "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a"
+          "explication": "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a"
         },
         {
           "type": "choix_unique",

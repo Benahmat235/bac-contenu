@@ -57,7 +57,7 @@
           "options": [
             "P(B|A)=P(A∩B)/P(A), si P(A)>0",
             "eⁱᶿ=cosθ+i sinθ",
-            "k=|a|",
+            "k=|a| et α≡arg(a) [2π]",
             "z'=a z̄+b, avec a∈ℂ*"
           ],
           "reponse": 3,
@@ -70,7 +70,7 @@
             "Si z=a+ib, alors z̄=a−ib et z·z̄=|z|²",
             "(u/v)' = (u'v − uv')/v²",
             "e⁰ = 1",
-            "k=|a|"
+            "k=|a| et α≡arg(a) [2π]"
           ],
           "reponse": 3,
           "explication": "k=|a|"

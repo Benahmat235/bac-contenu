@@ -56,7 +56,7 @@
           "question": "Limite d'un polynôme en ±∞ ?",
           "options": [
             "celle de son monôme de plus haut degré",
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
             "(ln x)' = 1/x",
             "p(A) = Card(A)/Card(Ω)"
           ],
@@ -81,7 +81,7 @@
           "options": [
             "p(A) = Card(A)/Card(Ω)",
             "si lim f = a (réel) en ±∞, alors y = a est asymptote horizontale",
-            "x₁ = (−b − √Δ) / 2a  et  x₂ = (−b + √Δ) / 2a",
+            "x₁ = (−b − √Δ) / 2a et x₂ = (−b + √Δ) / 2a",
             "(u + v)' = u' + v'"
           ],
           "reponse": 1,

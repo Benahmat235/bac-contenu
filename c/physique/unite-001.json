@@ -73,12 +73,12 @@
           "type": "choix_unique",
           "question": "Position en MRUV ?",
           "options": [
-            "ΣF = m·a",
+            "Z = R (minimale), circuit résistif",
+            "x = x₀ + v₀·t + ½·a·t²",
             "E = ½·L·i²",
-            "E = ½·L·i²",
-            "x = x₀ + v₀·t + ½·a·t²"
+            "ΣF = m·a"
           ],
-          "reponse": 3,
+          "reponse": 1,
           "explication": "x = x₀ + v₀·t + ½·a·t²"
         },
         {

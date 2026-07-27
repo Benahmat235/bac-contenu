@@ -28,10 +28,10 @@
           "type": "choix_unique",
           "question": "Quel était le degré de participation de l'Afrique à la seconde guerre mondiale ?",
           "options": [
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
-            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'",
-            "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (19",
-            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir "
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe.",
+            "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (1945).",
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
           ],
           "reponse": 1,
           "explication": "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe."
@@ -40,10 +40,10 @@
           "type": "choix_unique",
           "question": "En quoi le traité de Versailles est une cause de la 2GM ?",
           "options": [
-            "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale",
-            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouv",
-            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'",
-            "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (19"
+            "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale de la 2GM.",
+            "La guerre a affaibli les puissances coloniales, montré que l'homme blanc n'était pas invincible, et fait naître des mouvements anti-coloniaux.",
+            "Plan militaire : plus d'un million d'africains aux opérations. Plan matériel : matières premières. Plan stratégique : l'Afrique comme base arrière des Alliés et de l'Axe.",
+            "Charte de l'Atlantique (1941), Washington (1942), Téhéran (1943), Yalta (1945), Dumbarton Oaks (1944), San Francisco (1945)."
           ],
           "reponse": 0,
           "explication": "Il avait puni lourdement l'Allemagne et l'Italie. La violation de ce traité par ces puissances fut une cause primordiale de la 2GM."
@@ -53,9 +53,9 @@
           "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
           "options": [
             "Les 5 États l'utilisent dans le sens de leurs propres intérêts, ce qui entrave le fonctionnement de l'institution.",
-            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU,",
-            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-afric",
-            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir "
+            "Rapprochement du RDA avec le gouvernement français, prolifération des partis, défaite de Dien Bien Phu, action de l'ONU, conférence de Bandung.",
+            "1) Conférence de Brazzaville (1944). 2) Union française (1946). 3) Loi-cadre Defferre (1956). 4) Communauté franco-africaine (1958). 5) Indépendances (1960).",
+            "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
           ],
           "reponse": 3,
           "explication": "L'inefficacité de la SDN ; l'échec du traité de Versailles de 1919 ; la crise économique de 1929 ; l'arrivée au pouvoir des régimes dictatoriaux en Europe ; les crises polonaises et la déclaration de guerre le 1er septembre 1939."
